@@ -1,5 +1,4 @@
-# Project
-Project for fun
+# AI For Finance Project
 ## Overview
 This project aims to demonstrate how AI can be applied in finance to automate key workflows. The goal is to design and implement an MVP that ingests financial data/documents, extracts meaningful insights, and generates structured "memo-like" outputs.
 
