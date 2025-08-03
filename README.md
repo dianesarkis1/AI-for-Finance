@@ -1,2 +1,23 @@
 # Project
 Project for fun
+## Overview
+This project aims to demonstrate how AI can be applied in finance to automate key workflows. The goal is to design and implement an MVP that ingests financial data/documents, extracts meaningful insights, and generates structured "memo-like" outputs.
+
+## Planned MVP Scope
+### Planned Input:
+Public financial documents (e.g., SEC filings, earnings reports, legal documents) or synthetic financial datasets.
+
+### Planned Features:
+Data ingestion and parsing.
+Key metric extraction (e.g., revenue, EBITDA, guidance changes).
+Automated generation of draft financial summaries.
+Benchmarking for accuracy, cost, and latency.
+
+### Planned Output: 
+A draft financial memo with executive summary, key data, strengths/weaknesses of investment.
+
+### Planned Benchmarks:
+Extraction Accuracy: % of correct metrics extracted.
+Summary Quality: Manual evaluation or LLM-as-judge scoring.
+Cost & Latency: Measured per-document.
+Optional Robustness: Sensitivity to noisy or incomplete data.
