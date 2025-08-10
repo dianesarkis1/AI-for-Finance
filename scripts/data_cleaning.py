@@ -16,7 +16,6 @@ def clean_html_to_text(html):
     for br in soup.find_all("br"):
         br.replace_with("\n")
 
-    # Keep headings + paragraphs
     blocks = soup.find_all(["h1", "h2", "h3", "p", "li", "div"])
     if blocks:
         parts = []
@@ -31,8 +30,8 @@ def clean_html_to_text(html):
     text = unicodedata.normalize("NFKC", text)
     text = text.replace("\u00A0", " ")
     text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"\n{3,}", "\n\n", text)   # collapse extra blank lines
-    text = re.sub(r"[ \t]{2,}", " ", text)   # collapse extra spaces
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
     text = "\n".join(line.rstrip() for line in text.split("\n"))
     return text.strip()
 
@@ -52,28 +51,51 @@ def fetch_and_clean(url: str) -> str:
     resp = requests.get(url, headers=headers, timeout=30)
     resp.raise_for_status()
     html = detect_decode(resp.content)
-    time.sleep(0.2)  # be polite to SEC
+    time.sleep(0.2)  # polite to SEC
     return clean_html_to_text(html)
 
-def assign_split(url: str, train_ratio: float = 0.8) -> str:
-    """Deterministically map URL to 'train' or 'eval' using a stable hash."""
-    h = hashlib.md5(url.encode("utf-8")).hexdigest()
-    val = int(h, 16) % 1000 / 1000.0  # 0.000 ... 0.999
-    return "train" if val < train_ratio else "eval"
+def deterministic_top_k(urls, k=15):
+    """Pick top-k URLs by md5 hash (deterministic)."""
+    return [u for u, _ in sorted(
+        ((u, hashlib.md5(u.encode("utf-8")).hexdigest()) for u in urls),
+        key=lambda t: t[1]
+    )[:k]]
 
 if __name__ == "__main__":
-    input_file = Path("data/urls.txt")
     data_dir = Path("data")
     data_dir.mkdir(parents=True, exist_ok=True)
 
+    input_file = data_dir / "urls.txt"
     all_file = data_dir / "cleaned_data.jsonl"
     train_file = data_dir / "train.jsonl"
     eval_file = data_dir / "eval.jsonl"
+    eval_urls_path = data_dir / "eval_urls.txt"  # locked list of 15 eval URLs
 
+    # Load URLs
     with input_file.open("r", encoding="utf-8") as f:
-        urls = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+        urls = [ln.strip() for ln in f if ln.strip() and not ln.startswith("#")]
 
-    # Open all three outputs fresh each run
+    # Ensure deterministic, stable 15-eval selection stored on disk
+    if eval_urls_path.exists():
+        with eval_urls_path.open("r", encoding="utf-8") as f:
+            saved_eval = [ln.strip() for ln in f if ln.strip()]
+        # Keep only those still present
+        saved_eval = [u for u in saved_eval if u in urls]
+        # If fewer than 15 remain, top up deterministically from remaining
+        if len(saved_eval) < 15:
+            remaining = [u for u in urls if u not in saved_eval]
+            top_up = deterministic_top_k(remaining, 15 - len(saved_eval))
+            saved_eval = saved_eval + top_up
+    else:
+        saved_eval = deterministic_top_k(urls, 15)
+
+    # Write back (locks the set for future runs)
+    with eval_urls_path.open("w", encoding="utf-8") as f:
+        f.write("\n".join(saved_eval) + "\n")
+
+    eval_set = set(saved_eval)
+
+    # Open outputs fresh each run
     with all_file.open("w", encoding="utf-8") as all_f, \
          train_file.open("w", encoding="utf-8") as train_f, \
          eval_file.open("w", encoding="utf-8") as eval_f:
@@ -83,15 +105,16 @@ if __name__ == "__main__":
                 text = fetch_and_clean(url)
                 record = {"source_url": url, "text": text}
 
-                # Write to combined file
+                # Combined file (optional; keep if you like having everything in one)
                 all_f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-                # Deterministic split
-                split = assign_split(url, train_ratio=0.8)
-                if split == "train":
-                    train_f.write(json.dumps(record, ensure_ascii=False) + "\n")
-                else:
+                # Fixed 15-doc eval; rest goes to train
+                if url in eval_set:
                     eval_f.write(json.dumps(record, ensure_ascii=False) + "\n")
+                    split = "eval"
+                else:
+                    train_f.write(json.dumps(record, ensure_ascii=False) + "\n")
+                    split = "train"
 
                 print(f"Processed: {url}  →  {split}")
             except Exception as e:
