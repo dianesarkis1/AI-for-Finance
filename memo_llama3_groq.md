@@ -1,7 +1,8 @@
 {
   "error": {
-    "message": "Request too large for model `llama-3.1-8b-instant` in organization `org_01k36dpetbfg5se8199132669h` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Requested 6131, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing",
-    "type": "tokens",
-    "code": "rate_limit_exceeded"
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+    "type": "insufficient_quota",
+    "param": null,
+    "code": "insufficient_quota"
   }
 }

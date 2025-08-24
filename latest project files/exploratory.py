@@ -186,7 +186,7 @@ def main() -> None:
     elif args.prompt:
         prompt_text = args.prompt.strip()
     if not prompt_text:
-        prompt_text = "Draft an investment memo summarizing key terms, covenants, and risks."
+        prompt_text = "Draft an investment memo using the credit agreement for the deal. The investment memo should have 3 main sections. The first is an executive summary with key info such as date, overview of the company, what the deal is, a brief background on the company and the purpose of the transaction. The second, \"investment highlights & risks\". includes bullets on the key highlights and risks of the transaction from the point of view of an investor. The third, key deal information, is a table that includes deal size, deal priec, interest rate, key covenants, maturity date, and payment frequency. I am inputting a template memo for reference. I want you to ensure you use only facts from the attached credit agreement. If you cannot find certain data points, write \"N/A\", but do not make up numbers or terms/facts."
 
     # Prepare inline texts and PDFs list
     pdf_paths: List[Path] = []
