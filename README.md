@@ -25,6 +25,7 @@ Optional Robustness: Sensitivity to noisy or incomplete data.
 Data folder: 
 - urls.txt has all the url links to the entire dataset.
 - eval_urls.txt has all the url links to the eval set (this list is pre-set so that it stays the same across iterations/runs)
-- cleaned_data.jsonl has the entire dataset after preprocessing/cleaning
+- cleaned_data.jsonl has the entire dataset after preprocessing/cleaning, which is done by running data_cleaning.py
 - eval.jsonl has the eval split of the data
 - train.jsonl has the training split
+- sample_memo.md has a template memo
