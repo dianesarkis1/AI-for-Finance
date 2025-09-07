@@ -1,21 +1,29 @@
 **INVESTMENT MEMORANDUM**
 
-### **I. Executive Summary**
+**1. Executive Summary**
 
 *   **Date:** January 17, 2024
 *   **Company:** HPS Corporate Lending Fund (the “Borrower”)
-*   **Transaction:** A commitment increase to the Borrower's existing Senior Secured Revolving Credit Agreement. Deutsche Bank AG New York Branch will provide an additional commitment.
-*   **Background:** HPS Corporate Lending Fund is the borrower under a Senior Secured Revolving Credit Agreement dated June 23, 2022, with JPMorgan Chase Bank, N.A. acting as the Administrative Agent. The agreement was previously amended on October 30, 2023.
-*   **Purpose of Transaction:** The Borrower requested to increase the aggregate amount of the Commitments under its existing credit facility. The specific use of the increased funds is not specified in the provided document.
+*   **Deal:** A commitment increase to the Borrower’s existing Senior Secured Revolving Credit Agreement, with Deutsche Bank AG New York Branch acting as the "Increasing Lender".
+*   **Background:** The Borrower entered into a Senior Secured Revolving Credit Agreement on June 23, 2022, with JPMorgan Chase Bank, N.A. as the Administrative Agent. The agreement was subsequently amended on October 30, 2023.
+*   **Purpose of Transaction:** The Borrower requested an increase in the aggregate amount of commitments available under its existing credit facility.
 
-### **II. Investment Highlights & Risks**
+**2. Investment Highlights & Risks**
 
-**Highlights**
+*   **Highlights:**
+    *   **Senior Secured Position:** The credit facility is senior secured, offering lenders a priority claim on the Borrower's assets.
+    *   **Institutional Confidence:** A major financial institution, Deutsche Bank, is increasing its commitment, signaling confidence in the Borrower's credit profile.
 
-*   **Senior Secured Status:** The facility is a "Senior Secured Revolving Credit Agreement," which provides lenders with a senior claim on assets, enhancing credit protection.
-*   **Lender Confidence:** The Borrower has successfully requested an increase to its credit facility and attracted a new commitment from Deutsche Bank AG New York Branch, indicating lender confidence in the Borrower's credit profile.
+*   **Risks:**
+    *   N/A (The provided document does not contain information on specific investment risks).
 
-**Risks**
+**3. Key Deal Information**
 
-*   **Limited Information:** The provided commitment increase agreement lacks key details regarding the Borrower's financial condition, performance, or the specific use of the additional capital.
-*
+| Term | Details |
+| :--- | :--- |
+| **Deal Size** | N/A (The specific amount of the increase is referenced in a schedule not included in the provided document). |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Key Covenants** | N/A |
+| **Maturity Date** | N/A (The maturity date is defined in the original Credit Agreement, which was not provided). |
+| **Payment Frequency** | N/A |
