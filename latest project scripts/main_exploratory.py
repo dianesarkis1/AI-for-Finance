@@ -14,7 +14,6 @@ MODELS TESTED:
 - GPT-5 (OpenAI) - Latest GPT model
 - Claude Sonnet 4 (Anthropic) - High-quality reasoning
 - Gemini 2.5 Pro (Google) - Advanced reasoning capabilities
-- Llama 3.1 70B (Groq) - Open-source alternative
 
 WORKFLOW:
 1. Loads train.jsonl (484 credit agreement records)
@@ -39,7 +38,6 @@ OUTPUT:
     ├── record_01_gpt_5_memo.md
     ├── record_01_claude_3_sonnet_memo.md
     ├── record_01_gemini_2_5_pro_memo.md
-    ├── record_01_llama_3_1_8b_memo.md
     └── ... (12 total memo files)
 
 Each memo contains:
@@ -205,7 +203,6 @@ def main():
             elif key == "GEMINI_API_KEY":
                 available_models.append("gemini-2.5-pro")
             elif key == "GROQ_API_KEY":
-                available_models.append("llama-3.1-8b")
         else:
             print(f"❌ {key} is not set")
     
@@ -223,7 +220,7 @@ def main():
     set_random_seed(42)
     
     # Define models to test (only those with API keys)
-    requested_models = ["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro", "llama-3.1-8b"]
+    requested_models = []  # All models completed
     models = [model for model in requested_models if model in available_models]
     
     if not models:

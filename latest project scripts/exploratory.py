@@ -9,7 +9,7 @@ This script uses curl via subprocess to:
 
 Supported Models:
   - OpenAI: gpt-4, gpt-4-turbo, gpt-5, gpt-3.5-turbo
-  - Google Gemini: gemini-2.5-pro, gemini-2.0-flash-exp, gemini-1.5-pro, gemini-1.5-flash
+  - Google Gemini: gemini-2.0-flash-exp, gemini-1.5-pro, gemini-1.5-flash
   - Anthropic: claude-3-opus, claude-3-sonnet, claude-3-haiku
 
 Requirements:
@@ -201,11 +201,6 @@ def extract_output_text_openai(response: Dict[str, Any]) -> Optional[str]:
             content = msg.get("content")
             if isinstance(content, str) and content.strip():
                 return content.strip()
-            # Check if there are reasoning tokens (for GPT-5)
-            usage = response.get("usage", {})
-            reasoning_tokens = usage.get("completion_tokens_details", {}).get("reasoning_tokens", 0)
-            if reasoning_tokens > 0:
-                return f"[GPT-5 generated {reasoning_tokens} reasoning tokens but no content. This may indicate the model is processing internally.]"
     return None
 
 
@@ -376,15 +371,11 @@ MODEL_CONFIGS = {
     "gpt-3.5-turbo": {"provider": "openai", "api_key_env": "OPENAI_API_KEY", "base_url": "https://api.openai.com/v1"},
     
     # Google Gemini models
-    "gemini-2.5-pro": {"provider": "gemini", "api_key_env": "GEMINI_API_KEY"},
     "gemini-2.0-flash-exp": {"provider": "gemini", "api_key_env": "GEMINI_API_KEY"},
     "gemini-1.5-pro": {"provider": "gemini", "api_key_env": "GEMINI_API_KEY"},
     "gemini-1.5-flash": {"provider": "gemini", "api_key_env": "GEMINI_API_KEY"},
     
     # Anthropic models
-    "claude-sonnet-4-20250514": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
-    "claude-3-5-sonnet-20241022": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
-    "claude-3-sonnet-20240229": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
     "claude-3-opus": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
     "claude-3-sonnet": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
     "claude-3-haiku": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
@@ -401,7 +392,7 @@ def main() -> None:
     parser.add_argument("--prompt-file", type=str, help="Optional path to a text file containing the prompt.")
     parser.add_argument("--input-file", action="append", required=True, help="Path to a file to process (.txt, .md, .jsonl). JSONL files will be auto-extracted. Repeat for multiple.")
     parser.add_argument("--output", type=str, help="Optional path to save the generated memo.")
-    parser.add_argument("--max-output-tokens", type=int, default=4000, help="Cap on generated/new tokens.")
+    parser.add_argument("--max-output-tokens", type=int, default=2000, help="Cap on generated/new tokens.")
 
     args = parser.parse_args()
 
