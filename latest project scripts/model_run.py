@@ -315,55 +315,6 @@ def extract_output_text_anthropic(response: Dict[str, Any]) -> Optional[str]:
     return None
 
 
-# ---------------- Groq API (Llama 3) ---------------- #
-
-def build_groq_payload(model: str, content: str, max_output_tokens: int) -> Dict[str, Any]:
-    return {
-        "model": model,
-        "messages": [
-            {
-                "role": "user",
-                "content": content
-            }
-        ],
-        "max_tokens": max_output_tokens,
-        "temperature": 0.1,
-        "top_p": 0.8
-    }
-
-
-def call_groq_api(api_key: str, payload: Dict[str, Any]) -> Dict[str, Any]:
-    url = "https://api.groq.com/openai/v1/chat/completions"
-    cmd = [
-        "curl",
-        "-sS",
-        "-X",
-        "POST",
-        url,
-        "-H",
-        f"Authorization: Bearer {api_key}",
-        "-H",
-        "Content-Type: application/json",
-        "--data-binary",
-        "@-",
-    ]
-    raw = run_curl(cmd, stdin_bytes=json.dumps(payload).encode("utf-8"))
-    try:
-        data = json.loads(raw)
-    except json.JSONDecodeError:
-        raise RuntimeError(f"Failed to parse Groq output as JSON:\n{raw}")
-    return data
-
-
-def extract_output_text_groq(response: Dict[str, Any]) -> Optional[str]:
-    choices = response.get("choices")
-    if isinstance(choices, list) and choices:
-        msg = choices[0].get("message") if isinstance(choices[0], dict) else None
-        if isinstance(msg, dict):
-            content = msg.get("content")
-            if isinstance(content, str) and content.strip():
-                return content.strip()
-    return None
 
 
 # ---------------- Model Configuration ---------------- #
@@ -388,8 +339,6 @@ MODEL_CONFIGS = {
     "claude-3-opus": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
     "claude-3-sonnet": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
     "claude-3-haiku": {"provider": "anthropic", "api_key_env": "ANTHROPIC_API_KEY"},
-    
-    # Llama 3 models (via Groq API)
 }
 
 
@@ -401,7 +350,7 @@ def main() -> None:
     parser.add_argument("--prompt-file", type=str, help="Optional path to a text file containing the prompt.")
     parser.add_argument("--input-file", action="append", required=True, help="Path to a file to process (.txt, .md, .jsonl). JSONL files will be auto-extracted. Repeat for multiple.")
     parser.add_argument("--output", type=str, help="Optional path to save the generated memo.")
-    parser.add_argument("--max-output-tokens", type=int, default=4000, help="Cap on generated/new tokens.")
+    parser.add_argument("--max-output-tokens", type=int, default=16000, help="Cap on generated/new tokens.")
 
     args = parser.parse_args()
 
@@ -449,11 +398,34 @@ def main() -> None:
     if not api_key:
         print(f"ERROR: Set {model_config['api_key_env']} in your environment.", file=sys.stderr)
         sys.exit(1)
+    
+    # Set model-specific max tokens (all models get same limit)
+    model_max_tokens = {
+        "gpt-5": 16000,
+        "gpt-4": 16000,
+        "gpt-4-turbo": 16000,
+        "gpt-3.5-turbo": 16000,
+        "gemini-2.5-pro": 16000,
+        "gemini-2.0-flash-exp": 16000,
+        "gemini-1.5-pro": 16000,
+        "gemini-1.5-flash": 16000,
+        "claude-sonnet-4-20250514": 16000,
+        "claude-3-5-sonnet-20241022": 16000,
+        "claude-3-sonnet-20240229": 16000,
+        "claude-3-opus": 16000,
+        "claude-3-sonnet": 16000,
+        "claude-3-haiku": 16000,
+    }
+    
+    # Use model-specific max tokens, fallback to user input
+    effective_max_tokens = min(args.max_output_tokens, model_max_tokens.get(args.model, args.max_output_tokens))
+    if effective_max_tokens != args.max_output_tokens:
+        print(f"ℹ️  Using model-specific max tokens: {effective_max_tokens} (requested: {args.max_output_tokens})", file=sys.stderr)
 
     # Prepare content based on provider
     system_preamble = (
         "You are an investment analyst. Using the provided credit agreement and any template references, "
-        "produce a concise, structured investment memo."
+        "produce a concise, structured investment memo. Keep the total output under 400 words or 15k tokens."
     )
     
     if provider == "openai":
@@ -466,7 +438,7 @@ def main() -> None:
             model=args.model,
             system_text=system_preamble,
             user_text=user_combined,
-            max_output_tokens=args.max_output_tokens,
+            max_output_tokens=effective_max_tokens,
         )
         print(f"Requesting completion from {model_config.get('base_url', 'OpenAI')}/chat/completions using model {args.model}...", file=sys.stderr)
         response = call_openai_api(base_url=model_config.get("base_url", "https://api.openai.com/v1"), api_key=api_key, payload=payload)
@@ -480,7 +452,7 @@ def main() -> None:
         
         payload = build_gemini_payload(
             content=user_combined,
-            max_output_tokens=args.max_output_tokens,
+            max_output_tokens=effective_max_tokens,
         )
         print(f"Requesting completion from Google Gemini using model {args.model}...", file=sys.stderr)
         response = call_gemini_api(api_key=api_key, model=args.model, payload=payload)
@@ -495,26 +467,12 @@ def main() -> None:
         payload = build_anthropic_payload(
             model=args.model,
             content=user_combined,
-            max_output_tokens=args.max_output_tokens,
+            max_output_tokens=effective_max_tokens,
         )
         print(f"Requesting completion from Anthropic using model {args.model}...", file=sys.stderr)
         response = call_anthropic_api(api_key=api_key, payload=payload)
         output_text = extract_output_text_anthropic(response) or json.dumps(response, indent=2)
         
-    elif provider == "groq":
-        combined_parts: List[str] = [f"System: {system_preamble}\n\nUser: {prompt_text}"]
-        for inline in inline_texts:
-            combined_parts.append("\n\n" + inline)
-        user_combined = "\n\n".join(combined_parts)
-        
-        payload = build_groq_payload(
-            model=args.model,
-            content=user_combined,
-            max_output_tokens=args.max_output_tokens,
-        )
-        print(f"Requesting completion from Groq using model {args.model}...", file=sys.stderr)
-        response = call_groq_api(api_key=api_key, payload=payload)
-        output_text = extract_output_text_groq(response) or json.dumps(response, indent=2)
 
     if args.output:
         out_path = Path(args.output)

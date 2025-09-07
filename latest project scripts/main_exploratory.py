@@ -189,7 +189,6 @@ def main():
         "OPENAI_API_KEY": os.getenv("OPENAI_API_KEY"),
         "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY"), 
         "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
-        "GROQ_API_KEY": os.getenv("GROQ_API_KEY")
     }
     
     available_models = []
@@ -202,7 +201,6 @@ def main():
                 available_models.append("claude-sonnet-4-20250514")
             elif key == "GEMINI_API_KEY":
                 available_models.append("gemini-2.5-pro")
-            elif key == "GROQ_API_KEY":
         else:
             print(f"❌ {key} is not set")
     
@@ -211,7 +209,6 @@ def main():
         print("   export OPENAI_API_KEY='your-key'")
         print("   export ANTHROPIC_API_KEY='your-key'")
         print("   export GEMINI_API_KEY='your-key'")
-        print("   export GROQ_API_KEY='your-key'")
         sys.exit(1)
     
     print(f"🎯 Available models: {', '.join(available_models)}")
@@ -220,7 +217,7 @@ def main():
     set_random_seed(42)
     
     # Define models to test (only those with API keys)
-    requested_models = []  # All models completed
+    requested_models = ["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
     models = [model for model in requested_models if model in available_models]
     
     if not models:
