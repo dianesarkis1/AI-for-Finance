@@ -1,6 +1,8 @@
 # AI For Finance Project
 ## Overview
-This project aims to test out how AI can be applied in finance to automate key workflows. The goal is to design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo.
+This project aims to test out how AI can be applied in finance to automate key workflows. The goal is to:
+- design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo
+- build a harness to compare various models based on an organized set of evals / a benchmark
 
 ## Planned MVP Scope
 ### Planned Input:
