@@ -15,8 +15,8 @@ Publicly available financial documents (e.g., SEC filings, earnings reports, leg
 - Benchmarking pipeline involving several key metrics below.
 
 ### Benchmarking Metrics:
-- Accuracy: are there any terms or numbers in the memo that were not in the inputted document? (_could be evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts_)
-- Completeness: are any key terms missing from the memo?
+- Accuracy: are there any terms or numbers in the memo that were not in the inputted document? (_could be evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts [e.g. average of 1s and 0s]_)
+- Completeness: are any key terms missing from the memo? (_ strict semantic matcher or consensus of yes/no answers_)
 - Quality of presentation: is the total length/tone appropriate? Is the structure consistent with the template?
 - Consistency (intra-memo): does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? 
 - Consistency across runs
