@@ -9,10 +9,10 @@ This project aims to test out how AI can be applied in finance to automate key w
 Publicly available financial documents (e.g., SEC filings, earnings reports, legal documents) scraped from the web.
 
 ### Features of MVP (document > IC memo):
-- Web scraper to obtain a dataset of input documents from SEC website.
-- Automated data processing / cleaning.
-- Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template).
-- Benchmarking pipeline involving several key metrics below.
+- Web scraper to obtain a dataset of input documents from SEC website
+- Automated data processing / cleaning
+- Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template)
+- Benchmarking pipeline involving several key metrics below
 
 ### Benchmarking Metrics:
 - **Accuracy**: Are there any terms in the memo that were not in the inputted document? (_evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts [e.g. average of 1s and 0s]_)
@@ -21,7 +21,6 @@ Publicly available financial documents (e.g., SEC filings, earnings reports, leg
 - **Consistency (intra-memo)**: Does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? (_get consensus from handful of AI models [thoughtful prompt asking to check for any inconsistencies]_)
 - **Consistency across runs** (_Summary score for the output of each model call based on an average/sum of the above scores, can then measure variance and worst score of k calls of a given model with a given input_)
 - **(TBD: latency / cost-like measures)**
-Summary Quality: Manual evaluation or LLM-as-judge scoring.
 
 ### Folder organization
 Data folder: 
