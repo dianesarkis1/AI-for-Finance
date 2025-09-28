@@ -2,9 +2,11 @@
 ## Overview
 This project aims to test out how AI can be applied in finance to automate key workflows. The goal is twofold:
 - Design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo
-- Build a harness to compare various models based on an organized set of evals / a benchmark, and to test out whether certain prompt optimizing techniques can improve performance
+- Build a harness to compare various models based on an organized set of evals / a benchmark, and to test out whether certain prompt optimizing techniques (adding few shot examples, iterative refinement...) can improve performance
 
 ## Initial Scope of Project
+My initial goal for this project was to fine tune a model to a certain set of financial data and to see whether it made the model better at creating investment memos. I however realized this would be difficult / irrelevant due to a number of reasons:
+- 
 
 ## Planned Scope
 ### Input:
@@ -14,8 +16,7 @@ Publicly available financial documents scraped from the web. I chose to use cred
 - Web scraper to obtain a dataset of input documents from SEC website
 - Automated data processing / cleaning: Plain text data is processed and stored in jsonl, and dataset split into training and evaluation sets using a deterministic, URL-based hash function. This ensures that the same credit agreements are always assigned to the same split across multiple runs, even if new documents are added.
 - Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template)
-- Benchmarking pipeline involving several key metrics below
-- Prompt optimizing
+- (Then: benchmarking pipeline involving several key metrics below, prompt optimizing)
 
 ### Benchmarking Metrics:
 - **Accuracy**: Are there any terms in the memo that were not in the inputted document? (_evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts [e.g. average of 1s and 0s]_)
@@ -38,4 +39,6 @@ Project Scripts folder:
 - "main" functions run "exploratory" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
 
 ### Future Avenues for Exploration:
-
+- Adding an interface for users to rate / give feedback on outputs
+- Similar to the healthbench paper, one could build a rubric specific to each legal document/each transaction, and evaluate a model's performance on that transaction-specific rubric (as opposed to the general rubrics I am using)
+- 
