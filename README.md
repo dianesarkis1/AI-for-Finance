@@ -33,3 +33,5 @@ Data folder:
 
 Project Scripts folder:
 - "main" functions run "exploratory" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
+
+Project Logs folder: contains logs on each step of the project
