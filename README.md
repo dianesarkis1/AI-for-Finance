@@ -1,21 +1,24 @@
 # AI For Finance Project
 ## Overview
-This project aims to demonstrate how AI can be applied in finance to automate key workflows. The goal is to design and implement an MVP that ingests financial data/documents, extracts meaningful insights, and generates structured "memo-like" outputs.
+This project aims to test out how AI can be applied in finance to automate key workflows. The goal is to design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo.
 
 ## Planned MVP Scope
 ### Planned Input:
-Public financial documents (e.g., SEC filings, earnings reports, legal documents) or synthetic financial datasets.
+Public financial documents (e.g., SEC filings, earnings reports, legal documents) scraped from the web.
 
 ### Planned Features:
 Data ingestion and parsing.
 Key metric extraction (e.g., revenue, EBITDA, guidance changes).
-Automated generation of draft financial summaries.
-Benchmarking for accuracy, cost, and latency.
-
-### Planned Output: 
-A draft financial memo with executive summary, key data, strengths/weaknesses of investment.
+Automated generation of financial memo (executive summary, key data, strengths/weaknesses of investment).
+Benchmarking pipeline involving several key metrics below. (accuracy, completeness, consistency across runs, quality of presentation...)
 
 ### Planned Benchmarks:
+Accuracy: are there any terms or numbers in the memo that were not in the inputted document? 
+Completeness: are any key terms missing from the memo?
+Quality of presentation: is the total length/tone appropriate? Is the structure consistent with the template?
+Consistency (intra-memo): does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? 
+Consistency across runs
+(TBD: latency / cost-like measures)
 Extraction Accuracy: % of correct metrics extracted.
 Summary Quality: Manual evaluation or LLM-as-judge scoring.
 Cost & Latency: Measured per-document.
