@@ -9,7 +9,7 @@ My original plan was to fine-tune a model on a dataset of financial documents an
 - Limited compute resources
 - Lack of labeled data: While it was straightforward to scrape a large corpus of credit agreements, creating high-quality, paired input–output labels (investment memos) at scale would have required significant manual effort.
 - Risk of overfitting: Training on a small “gold standard” labeled dataset might have produced outputs too closely tied to that dataset’s style, without improving generalization.
-- Limited real-world applicability: Fine-tuning at this stage would have been premature. Before customizing a model, I thought it would be more valuable to establish a pipeline that demonstrates end-to-end utility and produces outputs evaluable against objective criteria.
+- Limited real-world applicability: Fine-tuning at this stage would have been premature. Instead of customizing a model, I thought it would be more valuable to establish a pipeline that demonstrates end-to-end utility and produces outputs evaluable against objective criteria.
 
 Instead of fine-tuning, I therefore focused on building a practical, evaluation-driven system.
 
