@@ -2,7 +2,7 @@
 ## Overview
 This project aims to test out how AI can be applied in finance to automate key workflows. The goal is twofold:
 - Design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo
-- Build a harness to compare various models based on an organized set of evals / a benchmark
+- Build a harness to compare various models based on an organized set of evals / a benchmark, and to test out whether certain prompt optimizing techniques can improve performance
 
 ## Initial Scope of Project
 
@@ -15,6 +15,7 @@ Publicly available financial documents scraped from the web. I chose to use cred
 - Automated data processing / cleaning: Plain text data is processed and stored in jsonl, and dataset split into training and evaluation sets using a deterministic, URL-based hash function. This ensures that the same credit agreements are always assigned to the same split across multiple runs, even if new documents are added.
 - Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template)
 - Benchmarking pipeline involving several key metrics below
+- Prompt optimizing
 
 ### Benchmarking Metrics:
 - **Accuracy**: Are there any terms in the memo that were not in the inputted document? (_evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts [e.g. average of 1s and 0s]_)
