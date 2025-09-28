@@ -1,11 +1,16 @@
 # AI For Finance Project
 ## Overview
-This project aims to test out how AI can be applied in finance to automate key workflows. The goal is twofold:
-- Design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo
-- Build a harness to compare various models based on an organized set of evals / a benchmark, and to test out whether certain prompt optimizing techniques (adding few shot examples, iterative refinement...) can improve performance
+This project explores how AI can be applied in finance to automate key workflows. The goals are twofold:
+- Build an MVP pipeline that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of an investment memo
+- Develop an evaluation harness to benchmark models based on a consistent set of metrics, while testing whether prompt optimization techniques (few shot examples, iterative refinement...) can systematically improve performance
 
 ## Initial Scope of Project
-My initial goal for this project was to fine tune a model to a set of financial data and to see whether this fine-tuned model performed better at creating investment memos. I however realized this would be difficult / irrelevant due to a number of reasons. First, I was starting off with no labels for my data. I could easily create a fairly large dataset of inputs (by scraping the web), but I would have had to hand label an output for each input. I therefore considered using a small "gold standard" dataset to fine tune the model on it, but thought this would overfit the model more than anything else and likely reduce its performance. I thought it would make more sense to instead build a useful pipeline that could be applicable in the real world.
+My original plan was to fine-tune a model on a dataset of financial documents and evaluate whether the fine-tuned model generated better investment memos. However, I identified several challenges that made this approach less viable:
+- Lack of labeled data: While it was straightforward to scrape a large corpus of credit agreements, creating high-quality, paired input–output labels (investment memos) at scale would have required significant manual effort.
+- Risk of overfitting: Training on a small “gold standard” labeled dataset might have produced outputs too closely tied to that dataset’s style, without improving generalization.
+- Limited real-world applicability: Fine-tuning at this stage would have been premature. Before customizing a model, I thought it would be more valuable to establish a pipeline that demonstrates end-to-end utility and produces outputs evaluable against objective criteria.
+
+Instead of fine-tuning, I therefore focused on building a practical, evaluation-driven system.
 
 ## Planned Scope
 ### Input:
@@ -40,4 +45,3 @@ Project Scripts folder:
 ### Future Avenues for Exploration:
 - Adding an interface for users to rate / give feedback on outputs
 - Similar to the healthbench paper, one could build a rubric specific to each legal document/each transaction, and evaluate a model's performance on that transaction-specific rubric (as opposed to the general rubrics I am using)
-- 
