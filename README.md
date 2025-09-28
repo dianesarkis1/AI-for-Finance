@@ -41,7 +41,7 @@ Data folder:
 - sample_memo.md has a template memo
 
 Project Scripts folder:
-- "main" functions run "exploratory" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
+- "main_exploratory" functions run "model_run" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
 
 ### Future Avenues for Exploration:
 - Human-in-the-loop feedback: adding an interface to collect user ratings on generated memos
