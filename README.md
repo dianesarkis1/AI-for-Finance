@@ -4,13 +4,15 @@ This project aims to test out how AI can be applied in finance to automate key w
 - Design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo
 - Build a harness to compare various models based on an organized set of evals / a benchmark
 
+## Initial Scope of Project
+
 ## Planned Scope
 ### Input:
-Publicly available financial documents (e.g., SEC filings, earnings reports, legal documents) scraped from the web.
+Publicly available financial documents scraped from the web. I chose to use credit agreements from the SEC EDGAR website as these are readily available and usually contain a given set of key information on a credit transaction. The dataset is drawn entirely from recent (2023-onward) SEC-filed credit agreements, meaning it skews toward large, public-company transactions governed by U.S. law. That said, I expect most credit agreements to share broadly similar structures, so I am not overly concerned about this limiting the interpretability of my eval results. 
 
 ### Features of MVP (document > IC memo):
 - Web scraper to obtain a dataset of input documents from SEC website
-- Automated data processing / cleaning
+- Automated data processing / cleaning: Plain text data is processed and stored in jsonl, and dataset split into training and evaluation sets using a deterministic, URL-based hash function. This ensures that the same credit agreements are always assigned to the same split across multiple runs, even if new documents are added.
 - Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template)
 - Benchmarking pipeline involving several key metrics below
 
@@ -22,7 +24,7 @@ Publicly available financial documents (e.g., SEC filings, earnings reports, leg
 - **Consistency across runs** (_Summary score for the output of each model call based on an average/sum of the above scores, can then measure variance and worst score of k calls of a given model with a given input_)
 - **(TBD: latency / cost-like measures)**
 
-### Folder organization
+### Folder Organization
 Data folder: 
 - urls.txt has all the url links to the full dataset.
 - eval_urls.txt has all the url links to the eval set (this list is pre-set so that it stays the same across iterations/runs)
@@ -34,4 +36,5 @@ Data folder:
 Project Scripts folder:
 - "main" functions run "exploratory" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
 
-Project Logs folder: contains logs on each step of the project
+### Future Avenues for Exploration:
+
