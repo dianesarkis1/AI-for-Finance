@@ -9,18 +9,18 @@ This project aims to test out how AI can be applied in finance to automate key w
 Publicly available financial documents (e.g., SEC filings, earnings reports, legal documents) scraped from the web.
 
 ### Features of MVP (document > IC memo):
-Web scraper to obtain a dataset of input documents from SEC website.
-Automated data processing / cleaning.
-Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template).
-Benchmarking pipeline involving several key metrics below.
+- Web scraper to obtain a dataset of input documents from SEC website.
+- Automated data processing / cleaning.
+- Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template).
+- Benchmarking pipeline involving several key metrics below.
 
 ### Benchmarking Metrics:
-Accuracy: are there any terms or numbers in the memo that were not in the inputted document? 
-  Could be evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts 
-Completeness: are any key terms missing from the memo?
-Quality of presentation: is the total length/tone appropriate? Is the structure consistent with the template?
-Consistency (intra-memo): does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? 
-Consistency across runs
+- Accuracy: are there any terms or numbers in the memo that were not in the inputted document?
+- Could be evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts 
+- Completeness: are any key terms missing from the memo?
+- Quality of presentation: is the total length/tone appropriate? Is the structure consistent with the template?
+- Consistency (intra-memo): does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? 
+- Consistency across runs
 (TBD: latency / cost-like measures)
 Extraction Accuracy: % of correct metrics extracted.
 Summary Quality: Manual evaluation or LLM-as-judge scoring.
