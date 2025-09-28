@@ -5,8 +5,7 @@ This project aims to test out how AI can be applied in finance to automate key w
 - Build a harness to compare various models based on an organized set of evals / a benchmark, and to test out whether certain prompt optimizing techniques (adding few shot examples, iterative refinement...) can improve performance
 
 ## Initial Scope of Project
-My initial goal for this project was to fine tune a model to a certain set of financial data and to see whether it made the model better at creating investment memos. I however realized this would be difficult / irrelevant due to a number of reasons:
-- 
+My initial goal for this project was to fine tune a model to a set of financial data and to see whether this fine-tuned model performed better at creating investment memos. I however realized this would be difficult / irrelevant due to a number of reasons. First, I was starting off with no labels for my data. I could easily create a fairly large dataset of inputs (by scraping the web), but I would have had to hand label an output for each input. I therefore considered using a small "gold standard" dataset to fine tune the model on it, but thought this would overfit the model more than anything else and likely reduce its performance. I thought it would make more sense to instead build a useful pipeline that could be applicable in the real world.
 
 ## Planned Scope
 ### Input:
