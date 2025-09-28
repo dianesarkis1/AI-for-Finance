@@ -30,3 +30,6 @@ Data folder:
 - eval.jsonl has the eval split of the data
 - train.jsonl has the training split
 - sample_memo.md has a template memo
+
+Project Scripts folder:
+- "main" functions run "exploratory" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
