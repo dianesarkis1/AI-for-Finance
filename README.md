@@ -4,17 +4,17 @@ This project aims to test out how AI can be applied in finance to automate key w
 - design and implement an MVP that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of a memo
 - build a harness to compare various models based on an organized set of evals / a benchmark
 
-## Planned MVP Scope
-### Planned Input:
+## Planned Scope
+### Input:
 Public financial documents (e.g., SEC filings, earnings reports, legal documents) scraped from the web.
 
-### Planned Features:
-Data ingestion and parsing.
-Key metric extraction (e.g., revenue, EBITDA, guidance changes).
-Automated generation of financial memo (executive summary, key data, strengths/weaknesses of investment).
-Benchmarking pipeline involving several key metrics below. (accuracy, completeness, consistency across runs, quality of presentation...)
+### Features of MVP (document > IC memo):
+Web scraper to obtain a dataset of input documents from SEC website.
+Automated data processing / cleaning.
+Generation of financial memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template).
+Benchmarking pipeline involving several key metrics below.
 
-### Planned Benchmarks:
+### Benchmarking Metrics:
 Accuracy: are there any terms or numbers in the memo that were not in the inputted document? 
 Completeness: are any key terms missing from the memo?
 Quality of presentation: is the total length/tone appropriate? Is the structure consistent with the template?
