@@ -83,7 +83,9 @@ def worst_at_k(
     k: int = 5,
     template: str = None,
     eval_models: List[str] = None,
-    weights: Dict[str, float] = None
+    weights: Dict[str, float] = None,
+    delay_between_runs: float = 35.0,
+    fail_fast: bool = False
 ) -> Dict:
     """
     Run model k times on same input and return the worst summary score.
@@ -99,6 +101,8 @@ def worst_at_k(
         template: Optional template for structure evaluation
         eval_models: Models to use for evaluation (default: gpt-5, claude, gemini)
         weights: Optional weights for summary score (default: equal 0.25 each)
+        delay_between_runs: Seconds to wait between runs to respect API quotas (default: 35.0)
+        fail_fast: If True, stop on first error instead of continuing (default: False)
 
     Returns:
         Dict with:
@@ -111,11 +115,13 @@ def worst_at_k(
     import subprocess
     import tempfile
     import statistics
+    import time
     from pathlib import Path
 
     print(f"\n{'='*60}")
     print(f"WORST-AT-K EVALUATION: {model}")
     print(f"Running {k} iterations to find worst-case score")
+    print(f"Waiting {delay_between_runs}s between runs to respect API quotas")
     print(f"{'='*60}\n")
 
     all_scores = []
@@ -145,7 +151,17 @@ def worst_at_k(
             )
 
             if result.returncode != 0:
-                print(f"  ❌ Error generating memo: {result.stderr}")
+                error_msg = f"Error generating memo: {result.stderr}"
+                print(f"  ❌ {error_msg}")
+                if fail_fast:
+                    return {
+                        "worst_score": 0.0,
+                        "all_scores": all_scores,
+                        "mean_score": 0.0,
+                        "best_score": 0.0,
+                        "std_dev": 0.0,
+                        "error": f"Failed on run {i+1}/{k}: {error_msg}"
+                    }
                 continue
 
             # Read generated memo
@@ -166,10 +182,30 @@ def worst_at_k(
             print(f"  ✅ Score: {score:.2f}/100\n")
 
         except subprocess.TimeoutExpired:
-            print(f"  ⏰ Timeout on run {i+1}\n")
+            error_msg = f"Timeout on run {i+1}"
+            print(f"  ⏰ {error_msg}\n")
+            if fail_fast:
+                return {
+                    "worst_score": 0.0,
+                    "all_scores": all_scores,
+                    "mean_score": 0.0,
+                    "best_score": 0.0,
+                    "std_dev": 0.0,
+                    "error": f"Failed on run {i+1}/{k}: {error_msg}"
+                }
             continue
         except Exception as e:
-            print(f"  💥 Error on run {i+1}: {e}\n")
+            error_msg = str(e)
+            print(f"  💥 Error on run {i+1}: {error_msg}\n")
+            if fail_fast:
+                return {
+                    "worst_score": 0.0,
+                    "all_scores": all_scores,
+                    "mean_score": 0.0,
+                    "best_score": 0.0,
+                    "std_dev": 0.0,
+                    "error": f"Failed on run {i+1}/{k}: {error_msg}"
+                }
             continue
         finally:
             # Clean up temporary file
@@ -177,6 +213,11 @@ def worst_at_k(
                 Path(output_path).unlink()
             except:
                 pass
+
+        # Wait between runs to respect API quotas (skip on last iteration)
+        if i < k - 1:
+            print(f"  ⏳ Waiting {delay_between_runs}s for API quota reset...\n")
+            time.sleep(delay_between_runs)
 
     if not all_scores:
         return {

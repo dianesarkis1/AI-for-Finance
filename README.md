@@ -40,10 +40,10 @@ Data folder:
 - cleaned_data.jsonl has the entire dataset after preprocessing/cleaning, which is done by running data_cleaning.py
 - eval.jsonl has the eval split of the data
 - train.jsonl has the training split
-- sample_memo.md has a template memo
 
 Project Scripts folder:
 - "main_exploratory" functions run "model_run" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
+- "model_run" just runs one iteration of a chosen model to get an output memo from a given input.
 
 Evals folder:
 - **metrics.py**: Core evaluation functions implementing all 5 metrics:
@@ -54,17 +54,14 @@ Evals folder:
   - `calculate_summary_score()`: Aggregates all 4 metrics into single summary score (0-100) with configurable weights
 - **evaluator.py**: Main evaluation harness with two key functions:
   - `evaluate_memo()`: Runs all 4 metrics on a single memo and returns summary score
-  - `worst_at_k()`: Generates k memos from same input (via model_run.py) and returns worst-case score to test consistency across runs
+  - `worst_at_k()`: Generates k memos from same input (via model_run.py) and returns worst-case score to test consistency across runs. Parameters include:
+    - `delay_between_runs` (default: 35s) to respect API rate limits
+    - `fail_fast` (default: False) to stop on first error instead of continuing all k runs
+    - Returns: worst_score, best_score, mean_score, std_dev, score_range, and all_scores
 - **utils.py**: Helper functions for LLM-as-judge evaluation:
   - `call_llm_for_eval()`: Unified interface to call OpenAI, Anthropic, or Google models for evaluation
   - Handles API differences, retries, and response parsing
-- **helper_tests/**: Test scripts for each metric that run on exploratory outputs as sanity checks:
-  - `test_accuracy.py`: Tests accuracy metric on record_01
-  - `test_completeness.py`: Tests completeness metric on record_01
-  - `test_consistency.py`: Tests consistency metric on record_01
-  - `test_quality.py`: Tests quality metric (all 4 sub-dimensions) on record_01
-  - `test_summary_score.py`: Runs all 4 metrics and tests aggregation into summary score
-  - All tests include rate limit handling (35s delays for Gemini free tier) and save results to JSON
+- **helper_tests/**: Test scripts for each metric that run on exploratory outputs as sanity checks
 
 ### Future Avenues for Exploration:
 - Human-in-the-loop feedback: adding an interface to collect user ratings on generated memos
