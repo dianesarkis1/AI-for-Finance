@@ -26,7 +26,6 @@ env/
 Thumbs.db
 
 # Project specific
-evals/helper_tests/*_results.json
 AI-for-Finance/
 
 # Data (if large)
