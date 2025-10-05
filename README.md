@@ -46,11 +46,25 @@ Project Scripts folder:
 - "main_exploratory" functions run "model_run" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
 
 Evals folder:
-- metrics.py contains core evaluation metric functions (accuracy, completeness, quality, consistency)
-- evaluator.py is the main evaluation harness that runs all metrics on generated memos
-- utils.py contains helper functions (LLM-as-judge calls, parsers, semantic matching utilities)
-- run_eval.py is the script to execute evaluations on generated memos
-- helper_tests/ contains interim test scripts used to verify evaluation functions work properly before full evaluation (e.g., test_accuracy.py runs on exploratory outputs as a sanity check)
+- **metrics.py**: Core evaluation functions implementing all 5 metrics:
+  - `evaluate_accuracy()`: Detects hallucinated financial terms using LLM consensus (3 models vote YES/NO)
+  - `evaluate_completeness()`: Detects missing key terms using LLM consensus
+  - `evaluate_consistency()`: Detects intra-memo contradictions using LLM consensus with JSON output
+  - `evaluate_quality()`: Scores presentation quality across 4 dimensions (clarity, tone, length, structure) on 0-100 scale
+  - `calculate_summary_score()`: Aggregates all 4 metrics into single summary score (0-100) with configurable weights
+- **evaluator.py**: Main evaluation harness with two key functions:
+  - `evaluate_memo()`: Runs all 4 metrics on a single memo and returns summary score
+  - `worst_at_k()`: Generates k memos from same input (via model_run.py) and returns worst-case score to test consistency across runs
+- **utils.py**: Helper functions for LLM-as-judge evaluation:
+  - `call_llm_for_eval()`: Unified interface to call OpenAI, Anthropic, or Google models for evaluation
+  - Handles API differences, retries, and response parsing
+- **helper_tests/**: Test scripts for each metric that run on exploratory outputs as sanity checks:
+  - `test_accuracy.py`: Tests accuracy metric on record_01
+  - `test_completeness.py`: Tests completeness metric on record_01
+  - `test_consistency.py`: Tests consistency metric on record_01
+  - `test_quality.py`: Tests quality metric (all 4 sub-dimensions) on record_01
+  - `test_summary_score.py`: Runs all 4 metrics and tests aggregation into summary score
+  - All tests include rate limit handling (35s delays for Gemini free tier) and save results to JSON
 
 ### Future Avenues for Exploration:
 - Human-in-the-loop feedback: adding an interface to collect user ratings on generated memos

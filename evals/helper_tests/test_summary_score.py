@@ -58,13 +58,23 @@ def main():
     print(f"Memo length: {len(memo)} characters")
     print(f"Source doc length: {len(source_doc)} characters")
 
-    # Define template for quality evaluation
-    template = """1. Executive Summary/Overview
-2. Transaction/Company Details
-3. Financial Terms
-4. Investment Strengths/Highlights
-5. Risks and Concerns
-6. Recommendation/Conclusion"""
+    # Define template for quality evaluation (from model_run.py prompt)
+    template = """1. Executive Summary: Provide a concise overview that includes:
+    * Date of the agreement
+    * Borrower / Company overview
+    * Brief description of the transaction (type, structure, counterparties)
+    * Purpose of the financing
+    * Brief company background and context
+2. Investment Highlights & Risks: Present clear, bullet-pointed analysis from the perspective of an investor:
+    * Key strengths / credit positives
+    * Principal risks and mitigating factors
+3. Key Deal Terms Table: Include a well-formatted table listing:
+    * Deal size
+    * Deal price
+    * Interest rate (and type, if applicable)
+    * Maturity date
+    * Payment frequency
+    * Key covenants or financial maintenance terms"""
 
     # Check which API keys are available
     import os
