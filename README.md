@@ -68,3 +68,4 @@ Evals folder:
 - Transaction-specific rubrics: inspired by the HealthBench paper, design bespoke evaluation criteria tailored to each credit agreement (e.g., covenant depth, collateral clarity).
 - Model generalization: test transferability by applying the pipeline to adjacent but slightly document types (e.g. legal agreements such as indentures and term sheets that contain similar information on a credit transaction but are structured differently).
 - RAG: explore whether augmenting LLMs with an external knowledge base (on the company, similar transactions, or other) improves performance.
+- Citations API for systematic accuracy checking: use Anthropic's Citations API to generate memos with inline citations, then programmatically verify accuracy by checking if cited passages actually appear in the source document using semantic matching. This would provide a more objective accuracy metric compared to LLM consensus alone.
