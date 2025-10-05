@@ -1,0 +1,111 @@
+{
+  "accuracy": {
+    "accurate": true,
+    "score": 1.0,
+    "votes": {
+      "gpt-5": {
+        "vote": "NO",
+        "hallucinations": "None"
+      },
+      "claude-sonnet-4-20250514": {
+        "vote": "NO",
+        "hallucinations": "None"
+      },
+      "gemini-2.5-pro": {
+        "vote": "NO",
+        "hallucinations": "None"
+      }
+    },
+    "consensus_reached": true,
+    "yes_votes": 0,
+    "no_votes": 3
+  },
+  "completeness": {
+    "complete": false,
+    "score": 0.0,
+    "votes": {
+      "gpt-5": {
+        "vote": "YES",
+        "missing_terms": "- Commitment increase amount: $25,000,000 (Schedule I)"
+      },
+      "claude-sonnet-4-20250514": {
+        "vote": "YES",
+        "missing_terms": "- Commitment increase amount of $25,000,000 (specified in Schedule I)"
+      },
+      "gemini-2.5-pro": {
+        "vote": "YES",
+        "missing_terms": "The memo incorrectly states the deal size is \"N/A\" and that Schedule I was not provided. The source document's Schedule I specifies the Commitment Increase amount is $25,000,000."
+      }
+    },
+    "consensus_reached": true,
+    "yes_votes": 3,
+    "no_votes": 0
+  },
+  "consistency": {
+    "consistent": true,
+    "score": 1.0,
+    "votes": {
+      "gpt-5": {
+        "has_issues": false,
+        "issues": [],
+        "parse_error": false
+      },
+      "claude-sonnet-4-20250514": {
+        "has_issues": false,
+        "issues": [],
+        "parse_error": false
+      },
+      "gemini-2.5-pro": {
+        "has_issues": false,
+        "issues": [],
+        "parse_error": false
+      }
+    },
+    "consensus_reached": true,
+    "has_issues_votes": 0,
+    "no_issues_votes": 3
+  },
+  "quality": {
+    "quality_score": 68.16666666666666,
+    "clarity_score": 61.0,
+    "tone_score": 91.33333333333333,
+    "length_score": 76.0,
+    "structure_score": 44.333333333333336,
+    "votes": {
+      "gpt-5": {
+        "clarity": 86.0,
+        "tone": 94.0,
+        "length": 88.0,
+        "structure": 58.0
+      },
+      "claude-sonnet-4-20250514": {
+        "clarity": 35.0,
+        "tone": 85.0,
+        "length": 75.0,
+        "structure": 35.0
+      },
+      "gemini-2.5-pro": {
+        "clarity": 62.0,
+        "tone": 95.0,
+        "length": 65.0,
+        "structure": 40.0
+      }
+    }
+  },
+  "summary": {
+    "summary_score": 67.04166666666666,
+    "normalized_scores": {
+      "accuracy": 100.0,
+      "completeness": 0.0,
+      "consistency": 100.0,
+      "quality": 68.16666666666666
+    },
+    "weights_used": {
+      "accuracy": 0.25,
+      "completeness": 0.25,
+      "consistency": 0.25,
+      "quality": 0.25
+    },
+    "missing_metrics": []
+  }
+}

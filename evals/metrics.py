@@ -638,3 +638,95 @@ def _parse_quality_score(response: str) -> float:
 
     # If no valid score found, return None
     return None
+
+
+# ============================================================================
+# SUMMARY SCORE AGGREGATION
+# ============================================================================
+
+def calculate_summary_score(
+    accuracy_result: Dict = None,
+    completeness_result: Dict = None,
+    consistency_result: Dict = None,
+    quality_result: Dict = None,
+    weights: Dict[str, float] = None
+) -> Dict:
+    """
+    Aggregate individual metric results into a single summary score.
+
+    All metrics are normalized to 0-100 scale and combined using weighted average.
+
+    Args:
+        accuracy_result: Result dict from evaluate_accuracy()
+        completeness_result: Result dict from evaluate_completeness()
+        consistency_result: Result dict from evaluate_consistency()
+        quality_result: Result dict from evaluate_quality()
+        weights: Optional dict with keys 'accuracy', 'completeness', 'consistency', 'quality'
+                Default weights are equal (0.25 each)
+
+    Returns:
+        Dict with:
+            - summary_score: float, weighted average score (0-100)
+            - normalized_scores: Dict with each metric normalized to 0-100
+            - weights_used: Dict showing the weights applied
+            - missing_metrics: List of metrics that were None
+    """
+    # Default equal weights
+    if weights is None:
+        weights = {
+            'accuracy': 0.25,
+            'completeness': 0.25,
+            'consistency': 0.25,
+            'quality': 0.25
+        }
+
+    normalized_scores = {}
+    missing_metrics = []
+
+    # Normalize accuracy (score is 0-1, convert to 0-100)
+    if accuracy_result is not None:
+        normalized_scores['accuracy'] = accuracy_result['score'] * 100
+    else:
+        missing_metrics.append('accuracy')
+
+    # Normalize completeness (score is 0-1, convert to 0-100)
+    if completeness_result is not None:
+        normalized_scores['completeness'] = completeness_result['score'] * 100
+    else:
+        missing_metrics.append('completeness')
+
+    # Normalize consistency (score is 0-1, convert to 0-100)
+    if consistency_result is not None:
+        normalized_scores['consistency'] = consistency_result['score'] * 100
+    else:
+        missing_metrics.append('consistency')
+
+    # Quality is already 0-100
+    if quality_result is not None:
+        normalized_scores['quality'] = quality_result['quality_score']
+    else:
+        missing_metrics.append('quality')
+
+    # Calculate weighted average only for available metrics
+    if not normalized_scores:
+        return {
+            "summary_score": 0.0,
+            "normalized_scores": {},
+            "weights_used": weights,
+            "missing_metrics": missing_metrics,
+            "error": "No metrics provided"
+        }
+
+    # Adjust weights to account for missing metrics
+    available_weight_sum = sum(weights[k] for k in normalized_scores.keys())
+    adjusted_weights = {k: weights[k] / available_weight_sum for k in normalized_scores.keys()}
+
+    # Calculate weighted summary score
+    summary_score = sum(normalized_scores[k] * adjusted_weights[k] for k in normalized_scores.keys())
+
+    return {
+        "summary_score": summary_score,
+        "normalized_scores": normalized_scores,
+        "weights_used": adjusted_weights,
+        "missing_metrics": missing_metrics
+    }
