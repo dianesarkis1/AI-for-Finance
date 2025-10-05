@@ -1,0 +1,21 @@
+{
+  "accurate": true,
+  "score": 0.6666666666666666,
+  "votes": {
+    "gpt-5": {
+      "vote": "NO",
+      "hallucinations": "None"
+    },
+    "claude-sonnet-4-20250514": {
+      "vote": "NO",
+      "hallucinations": "None"
+    },
+    "gemini-2.5-pro": {
+      "vote": "YES",
+      "hallucinations": "- In the \"Risks/Unknowns\" section, the memo incorrectly states: \"Additional commitment amount is set forth in Schedule I (not provided here).\" The source document *does* provide Schedule I, which specifies the commitment increase amount."
+    }
+  },
+  "consensus_reached": true,
+  "yes_votes": 1,
+  "no_votes": 2
+}

@@ -24,7 +24,9 @@ Publicly available financial documents scraped from the SEC EDGAR database, spec
 - (Then: benchmarking harness involving several key metrics below, prompt optimizing)
 
 ### Benchmarking Metrics:
-- **Accuracy**: Are there any terms in the memo that were not in the inputted document? (_evaluated throught a strict semantic matcher or by getting a consensus from answers to yes/no prompts [e.g. average of 1s and 0s]_)
+- **Accuracy**: Are there any key financial terms in the memo that were not in the inputted document?
+  - _Implementation: LLM consensus approach with yes/no prompts across 3 models (gpt-5, claude-sonnet-4-20250514, gemini-2.5-pro)_
+  - _Rationale: I considered a strict semantic matcher but rejected it because: (1) credit agreements don't all follow the exact same format, making it difficult to programmatically identify what constitutes "key" terms, (2) strict matching is brittle to paraphrasing (e.g., "5.25% interest rate" vs "525 basis points"), and (3) requires exact entity extraction which is error-prone. LLM consensus is preferred because it: (1) understands financial context and can distinguish key terms from filler words, (2) handles synonyms and reformulations naturally, (3) is flexible across document formats, and (4) consensus across multiple models reduces individual model biases._
 - **Completeness**: Are any key terms missing from the memo? (_strict semantic matcher or consensus of yes/no answers_)
 - **Quality of presentation**: Is the total length/tone appropriate? Is the structure consistent with the template? (_Total score will be an average of the following subscores: LLM as a judge with rubric e.g. score 1-5 on clarity, conciseness, tone, yes/no answer (1/0 score) to whether the output length is within a given word count range, yes/no to whether structure is in the correct order (parser)_) 
 - **Consistency (intra-memo)**: Does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? (_get consensus from handful of AI models [thoughtful prompt asking to check for any inconsistencies]_)
@@ -42,6 +44,13 @@ Data folder:
 
 Project Scripts folder:
 - "main_exploratory" functions run "model_run" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
+
+Evals folder:
+- metrics.py contains core evaluation metric functions (accuracy, completeness, quality, consistency)
+- evaluator.py is the main evaluation harness that runs all metrics on generated memos
+- utils.py contains helper functions (LLM-as-judge calls, parsers, semantic matching utilities)
+- run_eval.py is the script to execute evaluations on generated memos
+- helper_tests/ contains interim test scripts used to verify evaluation functions work properly before full evaluation (e.g., test_accuracy.py runs on exploratory outputs as a sanity check)
 
 ### Future Avenues for Exploration:
 - Human-in-the-loop feedback: adding an interface to collect user ratings on generated memos
