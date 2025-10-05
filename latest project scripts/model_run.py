@@ -380,7 +380,28 @@ def main() -> None:
     elif args.prompt:
         prompt_text = args.prompt.strip()
     if not prompt_text:
-        prompt_text = "Draft an investment memo using the credit agreement for the deal. The investment memo should have 3 main sections. The first is an executive summary with key info such as date, overview of the company, what the deal is, a brief background on the company and the purpose of the transaction. The second, \"investment highlights & risks\". includes bullets on the key highlights and risks of the transaction from the point of view of an investor. The third, key deal information, is a table that includes deal size, deal price, interest rate, key covenants, maturity date, and payment frequency. I am inputting a template memo for reference. I want you to ensure you use only facts from the attached credit agreement. If you cannot find certain data points, write \"N/A\", but do not make up numbers or terms/facts."
+        prompt_text = """You are a Private Credit Analyst at an investment fund. Using the information contained in the attached credit agreement, draft a professional investment memorandum structured in three sections:
+1. Executive Summary: Provide a concise overview that includes:
+    * Date of the agreement
+    * Borrower / Company overview
+    * Brief description of the transaction (type, structure, counterparties)
+    * Purpose of the financing
+    * Brief company background and context
+2. Investment Highlights & Risks: Present clear, bullet-pointed analysis from the perspective of an investor:
+    * Key strengths / credit positives
+    * Principal risks and mitigating factors
+3. Key Deal Terms Table: Include a well-formatted table listing:
+    * Deal size
+    * Deal price
+    * Interest rate (and type, if applicable)
+    * Maturity date
+    * Payment frequency
+    * Key covenants or financial maintenance terms
+Instructions:
+* Use only factual information explicitly found in the attached credit agreement.
+* If specific data points are not provided, write “N/A”—do not infer or fabricate details.
+* Maintain a clear, concise, and professional tone suitable for an internal investment committee memo.
+* Align the structure, level of detail, and tone with the attached template memo for reference."""
 
     # Prepare inline texts
     inline_texts: List[str] = []

@@ -386,3 +386,255 @@ def _parse_consistency_response(response: str) -> Dict:
         "issues": ["PARSE_ERROR: Could not parse response"],
         "parse_error": True
     }
+
+
+# ============================================================================
+# QUALITY OF PRESENTATION METRIC
+# ============================================================================
+
+CLARITY_PROMPT_TEMPLATE = """You are evaluating an investment memo for clarity of presentation.
+
+MEMO:
+{memo}
+
+Goal
+Assess how clearly the memo communicates its key points and financial information.
+
+Clarity Criteria
+• Clear explanations: Financial terms and concepts are explained in an accessible yet professional manner
+• Logical flow: Ideas progress naturally with smooth transitions
+• Unambiguous language: Statements are precise and avoid vague or confusing phrasing
+• Key points emphasized: Important financial terms and risks are highlighted appropriately
+• Reader comprehension: The memo can be easily understood by an investment committee of experienced finance professionals without requiring re-reading
+
+Evaluate the memo's clarity on a scale from 0-100:
+- 90-100: Exceptionally clear, all information easy to understand
+- 70-89: Clear with minor areas that could be clearer
+- 50-69: Moderately clear but has some confusing sections
+- 30-49: Multiple unclear or confusing sections
+- 0-29: Difficult to understand, major clarity issues
+
+Output format
+Provide ONLY a number from 0-100 as your score.
+SCORE: [number]"""
+
+
+TONE_PROMPT_TEMPLATE = """You are evaluating an investment memo for appropriate professional tone.
+
+MEMO:
+{memo}
+
+Goal
+Assess whether the memo's tone is appropriate for presentation to an investment committee.
+
+Tone Criteria
+• Professional formality: Language is formal and businesslike, appropriate for executive decision-makers
+• Objective presentation: Presents information factually without emotional language or hype
+• Balanced perspective: Acknowledges both strengths and risks without being overly promotional or pessimistic
+• Financial sophistication: Uses appropriate financial terminology without being overly technical or simplistic
+• Confidence without arrogance: Presents analysis authoritatively but remains measured
+
+Evaluate the memo's tone on a scale from 0-100:
+- 90-100: Perfectly appropriate for investment committee, professional and balanced
+- 70-89: Generally appropriate with minor tone issues
+- 50-69: Somewhat appropriate but has noticeable tone problems
+- 30-49: Inappropriate tone in multiple sections
+- 0-29: Significantly inappropriate tone throughout
+
+Output format
+Provide ONLY a number from 0-100 as your score.
+SCORE: [number]"""
+
+
+LENGTH_PROMPT_TEMPLATE = """You are evaluating an investment memo for appropriate conciseness and verbosity.
+
+MEMO:
+{memo}
+
+Goal
+Assess whether the memo maintains appropriate conciseness without unnecessary verbosity.
+
+Length Criteria
+• Consistent verbosity: All sections have similar levels of detail relative to their importance
+• Conciseness: Information is presented efficiently without unnecessary repetition or filler
+• No fluff: Avoids redundant phrases, obvious statements, or excessive elaboration
+• Balanced detail: Each section provides proportional detail based on its significance
+• Efficient communication: Gets to the point quickly without meandering
+
+Note: Do NOT evaluate whether information is complete or missing - focus ONLY on whether the existing content is appropriately concise or unnecessarily verbose.
+
+Evaluate the memo's conciseness on a scale from 0-100:
+- 90-100: Perfectly concise, every section appropriately detailed with no fluff
+- 70-89: Generally well-balanced with minor verbosity issues
+- 50-69: Some sections too verbose or wordy
+- 30-49: Multiple sections with significant verbosity problems
+- 0-29: Consistently too verbose or wordy throughout
+
+Output format
+Provide ONLY a number from 0-100 as your score.
+SCORE: [number]"""
+
+
+STRUCTURE_PROMPT_TEMPLATE = """You are evaluating an investment memo for structural consistency with a provided template.
+
+EXPECTED TEMPLATE:
+{template}
+
+MEMO:
+{memo}
+
+Goal
+Assess whether the memo's structure matches the provided template.
+
+Structure Criteria
+• Section presence: All sections from the template are present in the memo
+• Section ordering: Sections appear in the same order as the template
+• Consistent formatting: Headers and formatting match the template style
+• No extra sections: Memo doesn't include unnecessary sections not in the template
+• Easy navigation: Structure makes it easy to find information where the template specifies
+
+Evaluate the memo's structural consistency with the template on a scale from 0-100:
+- 90-100: Perfectly matches template structure and ordering
+- 70-89: Mostly matches template with minor deviations
+- 50-69: Partially matches template but has notable structural differences
+- 30-49: Poor match with template, significant structural issues
+- 0-29: Does not follow template structure at all
+
+Output format
+Provide ONLY a number from 0-100 as your score.
+SCORE: [number]"""
+
+
+def evaluate_quality(
+    memo: str,
+    template: str = None,
+    models: List[str] = None,
+    consensus_threshold: float = 0.6
+) -> Dict:
+    """
+    Evaluate presentation quality across 4 dimensions using LLM consensus scoring.
+
+    Quality is assessed across:
+    - Clarity: How clearly information is communicated
+    - Tone: Appropriateness for investment committee setting
+    - Length: Conciseness without unnecessary verbosity
+    - Structure: Consistency with provided template
+
+    Each dimension is scored 0-100 by multiple models, then averaged.
+    Overall quality is the average of the 4 dimension scores.
+
+    Args:
+        memo: Generated investment memo text
+        template: Expected memo structure/template (required for structure evaluation)
+        models: List of model identifiers to use for consensus (default: uses 3 models)
+        consensus_threshold: Not used for quality metric (kept for consistency)
+
+    Returns:
+        Dict with:
+            - quality_score: float, overall quality score (0-100)
+            - clarity_score: float, average clarity score (0-100)
+            - tone_score: float, average tone score (0-100)
+            - length_score: float, average length score (0-100)
+            - structure_score: float, average structure score (0-100)
+            - votes: Dict mapping model to scores for each dimension
+    """
+    if models is None:
+        # Default to same 3 models used in other metrics
+        models = ["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
+
+    # Prepare prompts for each dimension
+    clarity_prompt = CLARITY_PROMPT_TEMPLATE.format(memo=memo)
+    tone_prompt = TONE_PROMPT_TEMPLATE.format(memo=memo)
+    length_prompt = LENGTH_PROMPT_TEMPLATE.format(memo=memo)
+
+    # Structure prompt requires template
+    if template:
+        structure_prompt = STRUCTURE_PROMPT_TEMPLATE.format(template=template, memo=memo)
+    else:
+        # Use a default general structure if no template provided
+        default_template = """1. Executive Summary/Overview
+2. Transaction/Company Details
+3. Financial Terms
+4. Investment Strengths/Highlights
+5. Risks and Concerns
+6. Recommendation/Conclusion"""
+        structure_prompt = STRUCTURE_PROMPT_TEMPLATE.format(template=default_template, memo=memo)
+
+    votes = {}
+
+    # Collect scores from each model for each dimension
+    for i, model in enumerate(models):
+        clarity_response = call_llm_for_eval(model, clarity_prompt)
+        tone_response = call_llm_for_eval(model, tone_prompt)
+        length_response = call_llm_for_eval(model, length_prompt)
+        structure_response = call_llm_for_eval(model, structure_prompt)
+
+        votes[model] = {
+            "clarity": _parse_quality_score(clarity_response),
+            "tone": _parse_quality_score(tone_response),
+            "length": _parse_quality_score(length_response),
+            "structure": _parse_quality_score(structure_response)
+        }
+
+        # Add delay between models to respect rate limits (especially Gemini free tier: 2 req/min)
+        # Each model makes 4 calls, so delay ensures we don't exceed limits
+        if i < len(models) - 1:  # Don't delay after the last model
+            import time
+            time.sleep(35)  # 35 seconds delay to stay under Gemini's 2 req/min limit
+
+    # Calculate average score for each dimension
+    clarity_scores = [v["clarity"] for v in votes.values() if v["clarity"] is not None]
+    tone_scores = [v["tone"] for v in votes.values() if v["tone"] is not None]
+    length_scores = [v["length"] for v in votes.values() if v["length"] is not None]
+    structure_scores = [v["structure"] for v in votes.values() if v["structure"] is not None]
+
+    clarity_avg = sum(clarity_scores) / len(clarity_scores) if clarity_scores else 0
+    tone_avg = sum(tone_scores) / len(tone_scores) if tone_scores else 0
+    length_avg = sum(length_scores) / len(length_scores) if length_scores else 0
+    structure_avg = sum(structure_scores) / len(structure_scores) if structure_scores else 0
+
+    # Overall quality is average of the 4 dimensions
+    quality_score = (clarity_avg + tone_avg + length_avg + structure_avg) / 4
+
+    return {
+        "quality_score": quality_score,
+        "clarity_score": clarity_avg,
+        "tone_score": tone_avg,
+        "length_score": length_avg,
+        "structure_score": structure_avg,
+        "votes": votes
+    }
+
+
+def _parse_quality_score(response: str) -> float:
+    """
+    Parse LLM response to extract numerical score (0-100).
+
+    Returns:
+        float: Score from 0-100, or None if parsing fails
+    """
+    import re
+
+    # Look for "SCORE: [number]" pattern
+    score_match = re.search(r'SCORE:\s*(\d+(?:\.\d+)?)', response, re.IGNORECASE)
+
+    if score_match:
+        try:
+            score = float(score_match.group(1))
+            # Clamp to 0-100 range
+            return max(0.0, min(100.0, score))
+        except ValueError:
+            pass
+
+    # Fallback: look for any number that might be a score
+    numbers = re.findall(r'\b(\d+(?:\.\d+)?)\b', response)
+    for num_str in numbers:
+        try:
+            num = float(num_str)
+            if 0 <= num <= 100:
+                return num
+        except ValueError:
+            continue
+
+    # If no valid score found, return None
+    return None
