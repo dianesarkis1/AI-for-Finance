@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test worst_at_k evaluation on record 01 with GPT-5
+Test worst_at_k evaluation on record 01 with GPT-5. Using k=3 due to limited access to API.
 """
 
 import json
@@ -57,7 +57,7 @@ def main():
         model="gpt-5",
         input_file=input_file,
         source_document=source_document,
-        k=5,
+        k=3,
         template=template,
         delay_between_runs=35.0,
         fail_fast=True
