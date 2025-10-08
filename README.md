@@ -25,12 +25,12 @@ Publicly available financial documents scraped from the SEC EDGAR database, spec
 
 ### Benchmarking Metrics:
 - **Accuracy**: Are there any key financial terms in the memo that were not in the inputted document?
-  - _Implementation: LLM consensus approach with yes/no prompts across 3 models (gpt-5, claude-sonnet-4-20250514, gemini-2.5-pro)_
+  - _Implementation: LLM consensus approach with yes/no prompts across 3 models (gpt-5, claude-sonnet-4-20250514, gemini-2.5-pro) being aggregated into a % score_
   - _Rationale: I considered a strict semantic matcher but rejected it because: (1) credit agreements don't all follow the exact same format, making it difficult to programmatically identify what constitutes "key" terms, (2) strict matching is brittle to paraphrasing (e.g., "5.25% interest rate" vs "525 basis points"), and (3) requires exact entity extraction which is error-prone. LLM consensus is preferred because it: (1) understands financial context and can distinguish key terms from filler words, (2) handles synonyms and reformulations naturally, (3) is flexible across document formats, and (4) consensus across multiple models reduces individual model biases._
-- **Completeness**: Are any key terms missing from the memo? (_strict semantic matcher or consensus of yes/no answers_)
-- **Quality of presentation**: Is the total length/tone appropriate? Is the structure consistent with the template...? (_Total score will be an average of the following subscores: LLM as a judge with rubric e.g. score 1-5 on clarity, tone, yes/no answer (1/0 score) to whether the output length is within a given word count range, yes/no to whether structure is in the correct order (parser)_) 
-- **Consistency (intra-memo)**: Does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? (_get consensus from handful of AI models [thoughtful prompt asking to check for any inconsistencies]_)
-- **Consistency across runs** (_Summary score for the output of each model call based on an average/sum of the above scores, can then measure variance and worst score of k calls of a given model with a given input_)
+- **Completeness**: Are any key terms missing from the memo? (_Similarly, using a consensus of yes/no answers_)
+- **Quality of presentation**: Is the total length/tone appropriate? Is the structure consistent with the template...? (_Total score will be an average of the following subscores, each evaluated by 3 LLM judges: clarity, tone, length, structure) 
+- **Consistency (intra-memo)**: Does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? (_Consensus from 3 models [thoughtful prompt asking to check for any inconsistencies]_)
+- **Consistency across runs** (_Summary score for the output of each model call based on an average of the above scores, can then measure variance and worst score of k calls of a given model with a given input_)
 - **(TBD: latency / cost-like measures)**
 
 ### Folder Organization
@@ -66,6 +66,6 @@ Evals folder:
 ### Future Avenues for Exploration:
 - Human-in-the-loop feedback: adding an interface to collect user ratings on generated memos
 - Transaction-specific rubrics: inspired by the HealthBench paper, design bespoke evaluation criteria tailored to each credit agreement (e.g., covenant depth, collateral clarity).
-- Model generalization: test transferability by applying the pipeline to adjacent but slightly document types (e.g. legal agreements such as indentures and term sheets that contain similar information on a credit transaction but are structured differently).
+- Model generalization: test transferability by applying the pipeline to adjacent but slightly different document types (e.g. legal agreements such as indentures and term sheets that contain similar information on a credit transaction but are structured differently).
 - RAG: explore whether augmenting LLMs with an external knowledge base (on the company, similar transactions, or other) improves performance.
 - Citations API for systematic accuracy checking: use Anthropic's Citations API to generate memos with inline citations, then programmatically verify accuracy by checking if cited passages actually appear in the source document using semantic matching. This would provide a more objective accuracy metric compared to LLM consensus alone.
