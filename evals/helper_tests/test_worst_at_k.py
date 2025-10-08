@@ -69,6 +69,14 @@ def main():
     print("="*60)
     print(json.dumps(result, indent=2))
 
+    # Save results to JSON file in helper_tests directory
+    output_dir = Path(__file__).parent  # Save in same directory as test script (helper_tests)
+    output_file = output_dir / "test_worst_at_k_results.json"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(result, f, indent=2)
+
+    print(f"\n💾 Results saved to: {output_file}")
+
 
 if __name__ == "__main__":
     main()
