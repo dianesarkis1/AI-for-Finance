@@ -1,0 +1,88 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "random_seed": 42,
+  "sample_size": 10,
+  "sampled_indices": [
+    12,
+    52,
+    57,
+    71,
+    114,
+    125,
+    140,
+    327,
+    377,
+    379
+  ],
+  "mean_score": 61.21666666666666,
+  "median_score": 60.55208333333332,
+  "worst_score": 42.77083333333333,
+  "best_score": 77.8125,
+  "std_dev": 12.39317081583121,
+  "score_range": 35.04166666666667,
+  "total_inputs_in_dataset": 484,
+  "successful_evals": 10,
+  "failed_evals": 0,
+  "all_results": [
+    {
+      "input_index": 12,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1042893/000119312524215264/d802924dex101.htm",
+      "score": 68.62499999999999,
+      "error": null
+    },
+    {
+      "input_index": 52,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1108426/000119312520279930/d21927dex101.htm",
+      "score": 51.41666666666666,
+      "error": null
+    },
+    {
+      "input_index": 57,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312523169697/d520835dex101.htm",
+      "score": 52.041666666666664,
+      "error": null
+    },
+    {
+      "input_index": 71,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1159036/000119312522225456/d384340dex101.htm",
+      "score": 52.02083333333333,
+      "error": null
+    },
+    {
+      "input_index": 114,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1396440/000139644023000118/main-2023105xeverbankjoind.htm",
+      "score": 77.8125,
+      "error": null
+    },
+    {
+      "input_index": 125,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1437557/000156459020041840/llexq-ex101_6.htm",
+      "score": 69.10416666666667,
+      "error": null
+    },
+    {
+      "input_index": 140,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1512673/000119312521027306/d102993dex101.htm",
+      "score": 77.02083333333333,
+      "error": null
+    },
+    {
+      "input_index": 327,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1838126/000119312524010196/d632703dex101.htm",
+      "score": 52.47916666666666,
+      "error": null
+    },
+    {
+      "input_index": 377,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2006191/000119312525072512/d786789dex101.htm",
+      "score": 42.77083333333333,
+      "error": null
+    },
+    {
+      "input_index": 379,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2040127/000095017025080289/ck0002040127-ex10_1.htm",
+      "score": 68.875,
+      "error": null
+    }
+  ]
+}

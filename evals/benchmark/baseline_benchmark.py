@@ -2,7 +2,7 @@
 """
 Baseline Benchmark Script
 
-Runs the baseline model (Claude Sonnet 4) on the entire training set
+Runs the baseline model (Claude Sonnet 4) on a subset of the training set
 and computes summary statistics including:
 - Mean summary score (primary benchmark)
 - Worst score across all inputs (worst input, not worst run)
@@ -16,6 +16,7 @@ Usage:
 
 import argparse
 import json
+import random
 import statistics
 import subprocess
 import sys
@@ -111,10 +112,12 @@ def run_baseline_benchmark(
     train_file: Path,
     delay_between_runs: float = 35.0,
     save_results: bool = True,
-    resume_from: Optional[int] = None
+    resume_from: Optional[int] = None,
+    sample_size: int = 10,
+    random_seed: int = 42
 ) -> Dict:
     """
-    Run baseline model on entire training set and compute benchmark statistics.
+    Run baseline model on a random sample of the training set and compute benchmark statistics.
 
     Args:
         model: Model to use for baseline (e.g., 'claude-sonnet-4-20250514')
@@ -122,6 +125,8 @@ def run_baseline_benchmark(
         delay_between_runs: Seconds to wait between API calls (default: 35.0)
         save_results: Whether to save detailed results to JSON file (default: True)
         resume_from: Resume from a specific line number (0-indexed)
+        sample_size: Number of random samples to evaluate (default: 10)
+        random_seed: Random seed for reproducibility (default: 42)
 
     Returns:
         Dict with benchmark statistics:
@@ -135,6 +140,7 @@ def run_baseline_benchmark(
     print(f"\n{'='*70}")
     print(f"BASELINE BENCHMARK: {model}")
     print(f"Training set: {train_file}")
+    print(f"Random seed: {random_seed}")
     print(f"{'='*70}\n")
 
     # Load training data
@@ -142,7 +148,29 @@ def run_baseline_benchmark(
         train_lines = f.readlines()
 
     total_inputs = len(train_lines)
-    print(f"Total training inputs: {total_inputs}\n")
+    print(f"Total training inputs: {total_inputs}")
+
+    # Set random seed for reproducibility
+    random.seed(random_seed)
+
+    # Sample random indices
+    all_indices = list(range(total_inputs))
+    sampled_indices = sorted(random.sample(all_indices, min(sample_size, total_inputs)))
+
+    print(f"Sampling {len(sampled_indices)} random inputs")
+    print(f"Sampled indices: {sampled_indices}\n")
+
+    # Save sampled indices for reproducibility
+    if save_results:
+        indices_file = f"baseline_sampled_indices_seed{random_seed}.json"
+        with open(indices_file, 'w') as f:
+            json.dump({
+                "random_seed": random_seed,
+                "sample_size": sample_size,
+                "sampled_indices": sampled_indices,
+                "total_inputs": total_inputs
+            }, f, indent=2)
+        print(f"💾 Saved sampled indices to {indices_file}\n")
 
     # Results storage
     all_results = []
@@ -153,12 +181,12 @@ def run_baseline_benchmark(
         temp_input_file = Path(tmp_in.name)
 
     try:
-        for idx in range(start_idx, total_inputs):
+        for i, idx in enumerate(sampled_indices[start_idx:], start=start_idx):
             line = train_lines[idx].strip()
             if not line:
                 continue
 
-            print(f"[{idx+1}/{total_inputs}] Processing input...")
+            print(f"[{i+1}/{len(sampled_indices)}] Processing input {idx} (from training set)...")
 
             # Extract credit agreement
             try:
@@ -218,13 +246,13 @@ def run_baseline_benchmark(
                 continue
 
             # Wait between runs (except on last iteration)
-            if idx < total_inputs - 1:
+            if i < len(sampled_indices) - 1:
                 print(f"  ⏳ Waiting {delay_between_runs}s for API quota reset...\n")
                 time.sleep(delay_between_runs)
 
-            # Save intermediate results every 10 inputs
-            if save_results and (idx + 1) % 10 == 0:
-                intermediate_file = f"baseline_results_intermediate_{idx+1}.json"
+            # Save intermediate results every 5 inputs
+            if save_results and (i + 1) % 5 == 0:
+                intermediate_file = f"baseline_results_intermediate_{i+1}.json"
                 with open(intermediate_file, 'w') as f:
                     json.dump(all_results, f, indent=2)
                 print(f"  💾 Saved intermediate results to {intermediate_file}\n")
@@ -242,14 +270,18 @@ def run_baseline_benchmark(
     if not valid_scores:
         print("❌ No valid scores obtained!")
         return {
+            "model": model,
+            "random_seed": random_seed,
+            "sample_size": len(sampled_indices),
+            "sampled_indices": sampled_indices,
             "mean_score": 0.0,
             "worst_score": 0.0,
             "best_score": 0.0,
             "std_dev": 0.0,
             "median_score": 0.0,
-            "total_inputs": total_inputs,
+            "total_inputs_in_dataset": total_inputs,
             "successful_evals": 0,
-            "failed_evals": total_inputs,
+            "failed_evals": len(sampled_indices),
             "all_results": all_results
         }
 
@@ -263,9 +295,11 @@ def run_baseline_benchmark(
     print(f"\n{'='*70}")
     print(f"BASELINE BENCHMARK RESULTS")
     print(f"{'='*70}")
-    print(f"Total inputs:       {total_inputs}")
-    print(f"Successful evals:   {len(valid_scores)}")
-    print(f"Failed evals:       {total_inputs - len(valid_scores)}")
+    print(f"Total inputs in dataset:  {total_inputs}")
+    print(f"Sampled inputs:           {len(sampled_indices)}")
+    print(f"Successful evals:         {len(valid_scores)}")
+    print(f"Failed evals:             {len(sampled_indices) - len(valid_scores)}")
+    print(f"Random seed:              {random_seed}")
     print(f"")
     print(f"Mean Score:         {mean_score:.2f}/100  ← PRIMARY BENCHMARK")
     print(f"Median Score:       {median_score:.2f}/100")
@@ -277,15 +311,18 @@ def run_baseline_benchmark(
 
     results = {
         "model": model,
+        "random_seed": random_seed,
+        "sample_size": len(sampled_indices),
+        "sampled_indices": sampled_indices,
         "mean_score": mean_score,
         "median_score": median_score,
         "worst_score": worst_score,
         "best_score": best_score,
         "std_dev": std_dev,
         "score_range": best_score - worst_score,
-        "total_inputs": total_inputs,
+        "total_inputs_in_dataset": total_inputs,
         "successful_evals": len(valid_scores),
-        "failed_evals": total_inputs - len(valid_scores),
+        "failed_evals": len(sampled_indices) - len(valid_scores),
         "all_results": all_results
     }
 
@@ -331,6 +368,18 @@ def main():
         type=int,
         help="Resume from a specific line number (0-indexed)"
     )
+    parser.add_argument(
+        "--sample-size",
+        type=int,
+        default=10,
+        help="Number of random samples to evaluate (default: 10)"
+    )
+    parser.add_argument(
+        "--random-seed",
+        type=int,
+        default=42,
+        help="Random seed for reproducibility (default: 42)"
+    )
 
     args = parser.parse_args()
 
@@ -344,7 +393,9 @@ def main():
         train_file=train_file,
         delay_between_runs=args.delay,
         save_results=not args.no_save,
-        resume_from=args.resume_from
+        resume_from=args.resume_from,
+        sample_size=args.sample_size,
+        random_seed=args.random_seed
     )
 
     print(f"\n✅ Baseline benchmark complete!")
