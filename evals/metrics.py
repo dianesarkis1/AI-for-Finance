@@ -452,7 +452,7 @@ MEMO:
 {memo}
 
 Goal
-Assess whether the memo maintains appropriate conciseness without unnecessary verbosity.
+Assess whether the memo maintains appropriate conciseness (approx. less than 400 words) without unnecessary verbosity.
 
 Length Criteria
 • Consistent verbosity: All sections have similar levels of detail relative to their importance
