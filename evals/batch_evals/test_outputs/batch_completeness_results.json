@@ -1,0 +1,13 @@
+{
+  "complete": false,
+  "score": 0.0,
+  "votes": {
+    "gpt-5": {
+      "vote": "YES",
+      "missing_terms": "- Additional commitment amount: $25,000,000 (Deutsche Bank AG New York Branch)"
+    }
+  },
+  "consensus_reached": true,
+  "yes_votes": 1,
+  "no_votes": 0
+}

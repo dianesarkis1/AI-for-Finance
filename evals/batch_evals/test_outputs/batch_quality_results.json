@@ -1,0 +1,15 @@
+{
+  "quality_score": 76.75,
+  "clarity_score": 84.0,
+  "tone_score": 93.0,
+  "length_score": 88.0,
+  "structure_score": 42.0,
+  "votes": {
+    "gpt-5": {
+      "clarity": 84.0,
+      "tone": 93.0,
+      "length": 88.0,
+      "structure": 42.0
+    }
+  }
+}

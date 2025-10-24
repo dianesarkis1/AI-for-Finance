@@ -1,0 +1,16 @@
+{
+  "summary_score": 69.1875,
+  "normalized_scores": {
+    "accuracy": 100.0,
+    "completeness": 0.0,
+    "consistency": 100.0,
+    "quality": 76.75
+  },
+  "weights_used": {
+    "accuracy": 0.25,
+    "completeness": 0.25,
+    "consistency": 0.25,
+    "quality": 0.25
+  },
+  "missing_metrics": []
+}

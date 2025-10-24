@@ -1,0 +1,14 @@
+{
+  "consistent": true,
+  "score": 1.0,
+  "votes": {
+    "gpt-5": {
+      "has_issues": false,
+      "issues": [],
+      "parse_error": false
+    }
+  },
+  "consensus_reached": true,
+  "has_issues_votes": 0,
+  "no_issues_votes": 1
+}

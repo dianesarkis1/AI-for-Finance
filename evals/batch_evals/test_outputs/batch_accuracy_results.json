@@ -1,0 +1,13 @@
+{
+  "accurate": true,
+  "score": 1.0,
+  "votes": {
+    "gpt-5": {
+      "vote": "NO",
+      "hallucinations": "None"
+    }
+  },
+  "consensus_reached": true,
+  "yes_votes": 0,
+  "no_votes": 1
+}
