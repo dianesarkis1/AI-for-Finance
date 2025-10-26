@@ -1,0 +1,17 @@
+{
+  "complete": false,
+  "score": 0.0,
+  "votes": {
+    "gemini": {
+      "vote": "YES",
+      "missing_terms": "The memo incorrectly states that the additional commitment amount is not provided (\"Additional commitment amount is set forth in Schedule I (not provided here)\") and lists \"Deal size: N/A\". The source document's Schedule I clearly states the \"Commitment Increase\" is $25,000,000."
+    }
+  },
+  "consensus_reached": true,
+  "yes_votes": 1,
+  "no_votes": 0,
+  "evaluator_model": "gemini-2.5-pro",
+  "evaluator_provider": "google",
+  "evaluation_date": "2025-10-26",
+  "batch_id": "batches/bur52re8scaiyk9ssf06wwo2ozwxns1qyivn"
+}

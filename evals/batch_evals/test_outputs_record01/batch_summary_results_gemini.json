@@ -1,0 +1,20 @@
+{
+  "summary_score": 43.125,
+  "normalized_scores": {
+    "accuracy": 0.0,
+    "completeness": 0.0,
+    "consistency": 100.0,
+    "quality": 72.5
+  },
+  "weights_used": {
+    "accuracy": 0.25,
+    "completeness": 0.25,
+    "consistency": 0.25,
+    "quality": 0.25
+  },
+  "missing_metrics": [],
+  "evaluator_model": "gemini-2.5-pro",
+  "evaluator_provider": "google",
+  "evaluation_date": "2025-10-26",
+  "batch_id": "batches/bur52re8scaiyk9ssf06wwo2ozwxns1qyivn"
+}

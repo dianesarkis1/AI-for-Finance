@@ -1,0 +1,17 @@
+{
+  "accurate": false,
+  "score": 0.0,
+  "votes": {
+    "gemini": {
+      "vote": "YES",
+      "hallucinations": "- Deal size: N/A\n\nThe memo states the \"Deal size\" is \"N/A\". However, the source document's \"SCHEDULE I\" explicitly states the \"Commitment Increase\" amount is \"$25,000,000\". Therefore, the claim that the deal size is N/A is not supported by the source."
+    }
+  },
+  "consensus_reached": true,
+  "yes_votes": 1,
+  "no_votes": 0,
+  "evaluator_model": "gemini-2.5-pro",
+  "evaluator_provider": "google",
+  "evaluation_date": "2025-10-26",
+  "batch_id": "batches/bur52re8scaiyk9ssf06wwo2ozwxns1qyivn"
+}

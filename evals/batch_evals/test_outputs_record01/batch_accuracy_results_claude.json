@@ -1,0 +1,17 @@
+{
+  "accurate": true,
+  "score": 1.0,
+  "votes": {
+    "claude": {
+      "vote": "NO",
+      "hallucinations": "None"
+    }
+  },
+  "consensus_reached": true,
+  "yes_votes": 0,
+  "no_votes": 1,
+  "evaluator_model": "claude-sonnet-4-20250514",
+  "evaluator_provider": "anthropic",
+  "evaluation_date": "2025-10-26",
+  "batch_id": "msgbatch_01VqRw2FdzHEkr6ZCcw8WjDC"
+}

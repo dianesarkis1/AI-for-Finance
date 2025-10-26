@@ -1,0 +1,19 @@
+{
+  "quality_score": 72.5,
+  "clarity_score": 95.0,
+  "tone_score": 95.0,
+  "length_score": 60.0,
+  "structure_score": 40.0,
+  "votes": {
+    "gemini": {
+      "clarity": 95.0,
+      "tone": 95.0,
+      "length": 60.0,
+      "structure": 40.0
+    }
+  },
+  "evaluator_model": "gemini-2.5-pro",
+  "evaluator_provider": "google",
+  "evaluation_date": "2025-10-26",
+  "batch_id": "batches/bur52re8scaiyk9ssf06wwo2ozwxns1qyivn"
+}
