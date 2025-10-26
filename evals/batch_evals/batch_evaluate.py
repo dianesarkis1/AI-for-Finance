@@ -64,7 +64,8 @@ def load_training_sample(train_file: Path, index: int) -> tuple[str, str]:
 def generate_memo_for_input(
     model: str,
     credit_agreement_text: str,
-    temp_input_file: Path
+    temp_input_file: Path,
+    prompt_file: Optional[Path] = None
 ) -> Optional[str]:
     """
     Generate memo using model_run.py for a given credit agreement.
@@ -73,6 +74,7 @@ def generate_memo_for_input(
         model: Model identifier (e.g., 'claude-sonnet-4-20250514')
         credit_agreement_text: Credit agreement text
         temp_input_file: Temporary file to write credit agreement to
+        prompt_file: Optional path to prompt file (defaults to prompts/baseline.txt)
 
     Returns:
         Generated memo text, or None if generation failed
@@ -86,14 +88,19 @@ def generate_memo_for_input(
         output_path = tmp_out.name
 
     try:
-        # Call model_run.py
+        # Call model_run.py with absolute path
+        model_run_path = Path(__file__).parent.parent.parent / "latest project scripts" / "model_run.py"
         cmd = [
             "python",
-            "latest project scripts/model_run.py",
+            str(model_run_path),
             "--model", model,
             "--input-file", str(temp_input_file),
             "--output", output_path
         ]
+
+        # Add prompt file if specified
+        if prompt_file:
+            cmd.extend(["--prompt-file", str(prompt_file)])
 
         result = subprocess.run(
             cmd,
@@ -327,7 +334,8 @@ def run_batch_benchmark(
     evaluator_models: List[str] = None,
     poll_interval: int = 60,
     delay_between_inputs: float = 5.0,
-    save_results: bool = True
+    save_results: bool = True,
+    prompt_file: Optional[Path] = None
 ) -> Dict:
     """
     Run batch benchmark on specified training set indices.
@@ -340,6 +348,7 @@ def run_batch_benchmark(
         poll_interval: Seconds between batch status checks (default: 60)
         delay_between_inputs: Seconds to wait between processing inputs (default: 5.0)
         save_results: Whether to save results to JSON file (default: True)
+        prompt_file: Optional path to prompt file (defaults to prompts/baseline.txt)
 
     Returns:
         Dict with comprehensive benchmark results:
@@ -389,7 +398,7 @@ def run_batch_benchmark(
 
             # Generate memo
             print(f"  Generating memo with {model}...")
-            memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file)
+            memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file)
 
             if memo is None:
                 detailed_results.append({

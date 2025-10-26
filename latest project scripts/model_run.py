@@ -380,28 +380,14 @@ def main() -> None:
     elif args.prompt:
         prompt_text = args.prompt.strip()
     if not prompt_text:
-        prompt_text = """You are a Private Credit Analyst at an investment fund. Using the information contained in the attached credit agreement, draft a professional investment memorandum structured in three sections:
-1. Executive Summary: Provide a concise overview that includes:
-    * Date of the agreement
-    * Borrower / Company overview
-    * Brief description of the transaction (type, structure, counterparties)
-    * Purpose of the financing
-    * Brief company background and context
-2. Investment Highlights & Risks: Present clear, bullet-pointed analysis from the perspective of an investor:
-    * Key strengths / credit positives
-    * Principal risks and mitigating factors
-3. Key Deal Terms Table: Include a well-formatted table listing:
-    * Deal size
-    * Deal price
-    * Interest rate (and type, if applicable)
-    * Maturity date
-    * Payment frequency
-    * Key covenants or financial maintenance terms
-Instructions:
-* Use only factual information explicitly found in the attached credit agreement.
-* If specific data points are not provided, write “N/A”—do not infer or fabricate details.
-* Maintain a clear, concise, and professional tone suitable for an internal investment committee memo.
-* Align the structure, level of detail, and tone with the attached template memo for reference."""
+        # Default to baseline prompt
+        default_prompt_path = Path(__file__).parent.parent / "prompts" / "baseline.txt"
+        if default_prompt_path.exists():
+            prompt_text = read_text_file(default_prompt_path).strip()
+        else:
+            print(f"ERROR: Default prompt file not found: {default_prompt_path}", file=sys.stderr)
+            print(f"Please specify a prompt using --prompt or --prompt-file", file=sys.stderr)
+            sys.exit(1)
 
     # Prepare inline texts
     inline_texts: List[str] = []
