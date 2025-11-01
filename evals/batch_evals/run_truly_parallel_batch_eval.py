@@ -249,7 +249,7 @@ def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -
                         template=None,
                         model=eval_model
                     )
-                    file_id = upload_batch_file(requests, BATCH_TEMP_DIR, openai_key)
+                    file_id = upload_batch_file(requests, BATCH_TEMP_DIR, openai_key, input_index=idx)
                     batch_id = create_batch_job(file_id, openai_key, f"Eval {idx} with {eval_model}")
 
                     batch_jobs.append({

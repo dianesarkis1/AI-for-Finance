@@ -34,7 +34,7 @@ def run_curl(args: List[str], stdin_bytes: Optional[bytes] = None) -> str:
     return result.stdout.decode("utf-8", errors="ignore")
 
 
-def upload_batch_file(requests: List[Dict], temp_dir: Path, api_key: str) -> str:
+def upload_batch_file(requests: List[Dict], temp_dir: Path, api_key: str, input_index: Optional[int] = None) -> str:
     """
     Upload a batch request file to OpenAI.
 
@@ -42,13 +42,17 @@ def upload_batch_file(requests: List[Dict], temp_dir: Path, api_key: str) -> str
         requests: List of batch request objects
         temp_dir: Directory to store temporary files
         api_key: OpenAI API key
+        input_index: Optional index to include in filename for interpretability
 
     Returns:
         File ID from OpenAI
     """
     # Create JSONL file
     timestamp = int(time.time())
-    input_file = temp_dir / f"batch_input_{timestamp}.jsonl"
+    if input_index is not None:
+        input_file = temp_dir / f"batch_input_{input_index}_{timestamp}.jsonl"
+    else:
+        input_file = temp_dir / f"batch_input_{timestamp}.jsonl"
 
     with open(input_file, "w") as f:
         for request in requests:
