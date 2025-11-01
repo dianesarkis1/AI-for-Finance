@@ -55,26 +55,26 @@
     ],
     "total_evaluations": 150,
     "total_quality_scores": 600,
-    "mean_score": 61.32,
-    "median_score": 67.5,
-    "min_score": 17.69,
-    "max_score": 96.0,
-    "stdev_score": 21.38,
+    "mean_score": 73.97,
+    "median_score": 74.75,
+    "min_score": 52.5,
+    "max_score": 84,
+    "stdev_score": 7.08,
     "evaluators": {
       "gpt-5": {
         "count": 50,
-        "mean": 52.52,
-        "median": 44.72
+        "mean": 76.08,
+        "median": 75.88
       },
       "claude-sonnet-4-20250514": {
         "count": 50,
-        "mean": 76.46,
-        "median": 67.72
+        "mean": 65.83,
+        "median": 67.12
       },
       "gemini-2.5-pro": {
         "count": 50,
-        "mean": 54.99,
-        "median": 45.66
+        "mean": 79.98,
+        "median": 81.5
       }
     },
     "metrics": {
@@ -138,7 +138,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 19.06
+        "summary_score": 76.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -174,7 +174,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 90.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -210,9 +210,9 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 43.31
+        "summary_score": 73.25
       },
-      "summary_score": 51.0
+      "summary_score": 70.67
     },
     "1": {
       "gpt-5": {
@@ -249,7 +249,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 69.31
+        "summary_score": 77.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -285,7 +285,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -321,9 +321,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 45.0
+        "summary_score": 80
       },
-      "summary_score": 68.94
+      "summary_score": 75.75
     },
     "2": {
       "gpt-5": {
@@ -360,7 +360,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 70.25
+        "summary_score": 81
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -396,7 +396,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 90.19
+        "summary_score": 60.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -432,9 +432,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.44
+        "summary_score": 73.75
       },
-      "summary_score": 67.96
+      "summary_score": 71.83
     },
     "6": {
       "gpt-5": {
@@ -473,7 +473,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 44.0
+        "summary_score": 76
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -509,7 +509,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 66.69
+        "summary_score": 66.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -545,9 +545,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 95.31
+        "summary_score": 81.25
       },
-      "summary_score": 68.67
+      "summary_score": 74.67
     },
     "12": {
       "gpt-5": {
@@ -584,7 +584,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 68.94
+        "summary_score": 75.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -620,7 +620,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -658,9 +658,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.31
+        "summary_score": 81.25
       },
-      "summary_score": 68.92
+      "summary_score": 75.67
     },
     "16": {
       "gpt-5": {
@@ -699,7 +699,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 17.81
+        "summary_score": 71.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -737,7 +737,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 66.06
+        "summary_score": 64.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -776,9 +776,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.31
+        "summary_score": 81.25
       },
-      "summary_score": 51.39
+      "summary_score": 72.25
     },
     "17": {
       "gpt-5": {
@@ -815,7 +815,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 68.56
+        "summary_score": 74.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -851,7 +851,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -887,9 +887,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 96.0
+        "summary_score": 84
       },
-      "summary_score": 85.69
+      "summary_score": 76.08
     },
     "19": {
       "gpt-5": {
@@ -926,7 +926,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 68.62
+        "summary_score": 74.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -962,7 +962,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.44
+        "summary_score": 61.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1000,9 +1000,9 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 19.81
+        "summary_score": 79.25
       },
-      "summary_score": 51.29
+      "summary_score": 71.83
     },
     "20": {
       "gpt-5": {
@@ -1041,7 +1041,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 43.88
+        "summary_score": 75.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1079,7 +1079,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 63.75
+        "summary_score": 55
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1115,9 +1115,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 45.38
+        "summary_score": 81.5
       },
-      "summary_score": 51.0
+      "summary_score": 70.67
     },
     "48": {
       "gpt-5": {
@@ -1154,7 +1154,7 @@
           "score": 55,
           "metric": "quality_structure"
         },
-        "summary_score": 44.5
+        "summary_score": 78
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1190,7 +1190,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1230,9 +1230,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.5
+        "summary_score": 82
       },
-      "summary_score": 60.83
+      "summary_score": 76.67
     },
     "51": {
       "gpt-5": {
@@ -1269,7 +1269,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 43.88
+        "summary_score": 75.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1308,7 +1308,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1347,9 +1347,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 45.5
+        "summary_score": 82
       },
-      "summary_score": 51.67
+      "summary_score": 73.33
     },
     "52": {
       "gpt-5": {
@@ -1386,7 +1386,7 @@
           "score": 38,
           "metric": "quality_structure"
         },
-        "summary_score": 43.88
+        "summary_score": 75.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1422,7 +1422,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 92.12
+        "summary_score": 68.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1460,9 +1460,9 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 45.38
+        "summary_score": 81.5
       },
-      "summary_score": 60.46
+      "summary_score": 75.17
     },
     "57": {
       "gpt-5": {
@@ -1499,7 +1499,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 69.12
+        "summary_score": 76.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1535,7 +1535,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1573,9 +1573,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 42.06
+        "summary_score": 68.25
       },
-      "summary_score": 67.89
+      "summary_score": 71.58
     },
     "58": {
       "gpt-5": {
@@ -1614,7 +1614,7 @@
           "score": 42,
           "metric": "quality_structure"
         },
-        "summary_score": 68.62
+        "summary_score": 74.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1652,7 +1652,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 40.0
+        "summary_score": 60
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1688,9 +1688,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 69.88
+        "summary_score": 79.5
       },
-      "summary_score": 59.5
+      "summary_score": 71.33
     },
     "63": {
       "gpt-5": {
@@ -1727,7 +1727,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 68.94
+        "summary_score": 75.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1765,7 +1765,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 41.69
+        "summary_score": 66.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1804,9 +1804,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 42.5
+        "summary_score": 70
       },
-      "summary_score": 51.04
+      "summary_score": 70.83
     },
     "71": {
       "gpt-5": {
@@ -1843,7 +1843,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 69.44
+        "summary_score": 77.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1879,7 +1879,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.44
+        "summary_score": 61.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -1917,9 +1917,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 46.0
+        "summary_score": 84
       },
-      "summary_score": 60.29
+      "summary_score": 74.5
     },
     "78": {
       "gpt-5": {
@@ -1956,7 +1956,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 45.38
+        "summary_score": 81.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -1992,7 +1992,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2028,9 +2028,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 95.5
+        "summary_score": 82
       },
-      "summary_score": 69.46
+      "summary_score": 77.83
     },
     "108": {
       "gpt-5": {
@@ -2067,7 +2067,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 69.25
+        "summary_score": 77
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2103,7 +2103,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.06
+        "summary_score": 68.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2141,9 +2141,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 44.81
+        "summary_score": 79.25
       },
-      "summary_score": 60.37
+      "summary_score": 74.83
     },
     "114": {
       "gpt-5": {
@@ -2180,7 +2180,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.88
+        "summary_score": 75.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2216,7 +2216,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.69
+        "summary_score": 70.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2254,9 +2254,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.62
+        "summary_score": 74.5
       },
-      "summary_score": 60.06
+      "summary_score": 73.58
     },
     "119": {
       "gpt-5": {
@@ -2296,7 +2296,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 45.56
+        "summary_score": 82.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2332,7 +2332,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 90.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2370,9 +2370,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.69
+        "summary_score": 74.75
       },
-      "summary_score": 59.96
+      "summary_score": 73.17
     },
     "120": {
       "gpt-5": {
@@ -2409,7 +2409,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 68.38
+        "summary_score": 73.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2445,7 +2445,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 91.88
+        "summary_score": 67.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2483,9 +2483,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 20.5
+        "summary_score": 82
       },
-      "summary_score": 60.25
+      "summary_score": 74.33
     },
     "122": {
       "gpt-5": {
@@ -2522,7 +2522,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 68.25
+        "summary_score": 73
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2558,7 +2558,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 90.0
+        "summary_score": 60
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2596,9 +2596,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.62
+        "summary_score": 74.5
       },
-      "summary_score": 67.29
+      "summary_score": 69.17
     },
     "125": {
       "gpt-5": {
@@ -2637,7 +2637,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 68.88
+        "summary_score": 75.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2673,7 +2673,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 90.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2711,9 +2711,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 70.62
+        "summary_score": 82.5
       },
-      "summary_score": 76.71
+      "summary_score": 73.5
     },
     "128": {
       "gpt-5": {
@@ -2752,7 +2752,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 18.06
+        "summary_score": 72.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2788,7 +2788,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 63.12
+        "summary_score": 52.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2826,9 +2826,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 20.5
+        "summary_score": 82
       },
-      "summary_score": 33.89
+      "summary_score": 68.92
     },
     "134": {
       "gpt-5": {
@@ -2865,7 +2865,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.38
+        "summary_score": 73.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -2901,7 +2901,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 90.81
+        "summary_score": 63.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -2939,9 +2939,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.5
+        "summary_score": 82
       },
-      "summary_score": 68.23
+      "summary_score": 72.92
     },
     "140": {
       "gpt-5": {
@@ -2978,7 +2978,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 94.0
+        "summary_score": 76
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3014,7 +3014,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.31
+        "summary_score": 69.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3052,9 +3052,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.31
+        "summary_score": 81.25
       },
-      "summary_score": 85.54
+      "summary_score": 75.5
     },
     "150": {
       "gpt-5": {
@@ -3091,7 +3091,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 69.38
+        "summary_score": 77.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3129,7 +3129,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 68.19
+        "summary_score": 72.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3165,9 +3165,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.31
+        "summary_score": 81.25
       },
-      "summary_score": 69.29
+      "summary_score": 77.17
     },
     "152": {
       "gpt-5": {
@@ -3204,7 +3204,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 68.69
+        "summary_score": 74.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3240,7 +3240,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3276,9 +3276,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 44.69
+        "summary_score": 78.75
       },
-      "summary_score": 59.67
+      "summary_score": 72.0
     },
     "224": {
       "gpt-5": {
@@ -3315,7 +3315,7 @@
           "score": 55,
           "metric": "quality_structure"
         },
-        "summary_score": 44.44
+        "summary_score": 77.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3351,7 +3351,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3389,9 +3389,9 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 69.81
+        "summary_score": 79.25
       },
-      "summary_score": 59.96
+      "summary_score": 73.17
     },
     "226": {
       "gpt-5": {
@@ -3430,7 +3430,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 19.12
+        "summary_score": 76.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3466,7 +3466,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 90.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3504,9 +3504,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.5
+        "summary_score": 82
       },
-      "summary_score": 60.08
+      "summary_score": 73.67
     },
     "239": {
       "gpt-5": {
@@ -3543,7 +3543,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 43.56
+        "summary_score": 74.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3581,7 +3581,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3617,9 +3617,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 95.88
+        "summary_score": 83.5
       },
-      "summary_score": 68.98
+      "summary_score": 75.92
     },
     "268": {
       "gpt-5": {
@@ -3658,7 +3658,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 18.19
+        "summary_score": 72.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3694,7 +3694,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3732,9 +3732,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.69
+        "summary_score": 82.75
       },
-      "summary_score": 51.5
+      "summary_score": 72.67
     },
     "289": {
       "gpt-5": {
@@ -3773,7 +3773,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 44.75
+        "summary_score": 79
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3809,7 +3809,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 91.06
+        "summary_score": 64.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3848,9 +3848,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.5
+        "summary_score": 82
       },
-      "summary_score": 68.77
+      "summary_score": 75.08
     },
     "297": {
       "gpt-5": {
@@ -3887,7 +3887,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 44.5
+        "summary_score": 78
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -3925,7 +3925,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -3961,9 +3961,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 70.62
+        "summary_score": 82.5
       },
-      "summary_score": 60.87
+      "summary_score": 76.83
     },
     "311": {
       "gpt-5": {
@@ -4000,7 +4000,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 69.12
+        "summary_score": 76.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4036,7 +4036,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.69
+        "summary_score": 70.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4074,9 +4074,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.5
+        "summary_score": 82
       },
-      "summary_score": 77.44
+      "summary_score": 76.42
     },
     "312": {
       "gpt-5": {
@@ -4113,7 +4113,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 43.38
+        "summary_score": 73.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4149,7 +4149,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.31
+        "summary_score": 69.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4185,9 +4185,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 70.81
+        "summary_score": 83.25
       },
-      "summary_score": 68.83
+      "summary_score": 75.33
     },
     "318": {
       "gpt-5": {
@@ -4224,7 +4224,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.56
+        "summary_score": 70.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4262,7 +4262,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.81
+        "summary_score": 63.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4301,9 +4301,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 45.31
+        "summary_score": 81.25
       },
-      "summary_score": 59.56
+      "summary_score": 71.58
     },
     "327": {
       "gpt-5": {
@@ -4340,7 +4340,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 94.38
+        "summary_score": 77.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4376,7 +4376,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 65.0
+        "summary_score": 60
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4412,9 +4412,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 43.81
+        "summary_score": 75.25
       },
-      "summary_score": 67.73
+      "summary_score": 70.92
     },
     "338": {
       "gpt-5": {
@@ -4451,7 +4451,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 43.31
+        "summary_score": 73.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4487,7 +4487,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 65.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4525,9 +4525,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 45.31
+        "summary_score": 81.25
       },
-      "summary_score": 51.41
+      "summary_score": 72.33
     },
     "343": {
       "gpt-5": {
@@ -4566,7 +4566,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 17.69
+        "summary_score": 70.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4602,7 +4602,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4638,9 +4638,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 68.12
+        "summary_score": 72.5
       },
-      "summary_score": 59.44
+      "summary_score": 71.08
     },
     "357": {
       "gpt-5": {
@@ -4679,7 +4679,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 43.69
+        "summary_score": 74.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4715,7 +4715,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4753,9 +4753,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 45.5
+        "summary_score": 82
       },
-      "summary_score": 60.56
+      "summary_score": 75.58
     },
     "370": {
       "gpt-5": {
@@ -4792,7 +4792,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 69.38
+        "summary_score": 77.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4830,7 +4830,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.69
+        "summary_score": 70.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4869,9 +4869,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 45.81
+        "summary_score": 83.25
       },
-      "summary_score": 60.96
+      "summary_score": 77.17
     },
     "377": {
       "gpt-5": {
@@ -4908,7 +4908,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 70.56
+        "summary_score": 82.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -4947,7 +4947,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 40.62
+        "summary_score": 62.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -4985,9 +4985,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 20.5
+        "summary_score": 82
       },
-      "summary_score": 43.89
+      "summary_score": 75.58
     },
     "378": {
       "gpt-5": {
@@ -5024,7 +5024,7 @@
           "score": 55,
           "metric": "quality_structure"
         },
-        "summary_score": 44.62
+        "summary_score": 78.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5060,7 +5060,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 92.5
+        "summary_score": 70
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5098,9 +5098,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 20.06
+        "summary_score": 80.25
       },
-      "summary_score": 52.39
+      "summary_score": 76.25
     },
     "379": {
       "gpt-5": {
@@ -5139,7 +5139,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 20.0
+        "summary_score": 80
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5175,7 +5175,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 90.44
+        "summary_score": 61.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5213,9 +5213,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 45.56
+        "summary_score": 82.25
       },
-      "summary_score": 52.0
+      "summary_score": 74.67
     },
     "390": {
       "gpt-5": {
@@ -5252,7 +5252,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.12
+        "summary_score": 72.5
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5288,7 +5288,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 92.06
+        "summary_score": 68.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5326,9 +5326,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 70.56
+        "summary_score": 82.25
       },
-      "summary_score": 68.58
+      "summary_score": 74.33
     },
     "392": {
       "gpt-5": {
@@ -5367,7 +5367,7 @@
           "score": 58,
           "metric": "quality_structure"
         },
-        "summary_score": 70.31
+        "summary_score": 81.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5405,7 +5405,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.69
+        "summary_score": 70.75
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5443,9 +5443,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 45.75
+        "summary_score": 83
       },
-      "summary_score": 61.25
+      "summary_score": 78.33
     },
     "427": {
       "gpt-5": {
@@ -5485,7 +5485,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 43.5
+        "summary_score": 74
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5523,7 +5523,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.75
+        "summary_score": 71
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5563,9 +5563,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 70.56
+        "summary_score": 82.25
       },
-      "summary_score": 60.6
+      "summary_score": 75.75
     },
     "458": {
       "gpt-5": {
@@ -5602,7 +5602,7 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 44.31
+        "summary_score": 77.25
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5640,7 +5640,7 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 67.31
+        "summary_score": 69.25
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5679,9 +5679,9 @@
           "score": 45,
           "metric": "quality_structure"
         },
-        "summary_score": 18.75
+        "summary_score": 75
       },
-      "summary_score": 43.46
+      "summary_score": 73.83
     },
     "469": {
       "gpt-5": {
@@ -5720,7 +5720,7 @@
           "score": 56,
           "metric": "quality_structure"
         },
-        "summary_score": 44.69
+        "summary_score": 78.75
       },
       "claude-sonnet-4-20250514": {
         "accuracy": {
@@ -5756,7 +5756,7 @@
           "score": 35,
           "metric": "quality_structure"
         },
-        "summary_score": 91.88
+        "summary_score": 67.5
       },
       "gemini-2.5-pro": {
         "accuracy": {
@@ -5794,9 +5794,9 @@
           "score": 40,
           "metric": "quality_structure"
         },
-        "summary_score": 45.44
+        "summary_score": 81.75
       },
-      "summary_score": 60.67
+      "summary_score": 76.0
     }
   },
   "metadata": {

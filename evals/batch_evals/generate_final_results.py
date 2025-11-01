@@ -26,11 +26,15 @@ import json
 import os
 import re
 import statistics
+import sys
 import time
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Any, Optional
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 # Paths
 BATCH_TEMP_DIR = Path(__file__).parent / "batch_temp"
@@ -475,7 +479,9 @@ def parse_all_results() -> Dict[int, Dict]:
 # =============================================================================
 
 def calculate_summary_scores(results_by_index: Dict[int, Dict]) -> Dict[int, Dict]:
-    """Calculate summary scores for each memo and evaluator."""
+    """Calculate summary scores for each memo and evaluator using all 4 metrics."""
+    from evals.metrics import calculate_summary_score
+
     print(f"{'='*70}")
     print(f"STEP 3: CALCULATING STATISTICS")
     print(f"{'='*70}\n")
@@ -491,16 +497,68 @@ def calculate_summary_scores(results_by_index: Dict[int, Dict]) -> Dict[int, Dic
             if evaluator == 'summary_score':  # Skip if already exists
                 continue
 
-            # Calculate summary score for this evaluator (average of 4 quality metrics)
+            # Convert parsed data to format expected by calculate_summary_score
+
+            # 1. Convert accuracy (answer YES = has hallucinations, NO = accurate)
+            accuracy_result = None
+            if 'accuracy' in eval_results:
+                acc_data = eval_results['accuracy']
+                answer = acc_data.get('answer')
+                if answer:
+                    accuracy_result = {
+                        'score': 1.0 if answer == 'NO' else 0.0,
+                        'accurate': answer == 'NO'
+                    }
+
+            # 2. Convert completeness (answer YES = incomplete, NO = complete)
+            completeness_result = None
+            if 'completeness' in eval_results:
+                comp_data = eval_results['completeness']
+                answer = comp_data.get('answer')
+                if answer:
+                    completeness_result = {
+                        'score': 1.0 if answer == 'NO' else 0.0,
+                        'complete': answer == 'NO'
+                    }
+
+            # 3. Convert consistency (has_issues = True means inconsistent)
+            consistency_result = None
+            if 'consistency' in eval_results:
+                cons_data = eval_results['consistency']
+                has_issues = cons_data.get('has_issues', False)
+                consistency_result = {
+                    'score': 0.0 if has_issues else 1.0,
+                    'consistent': not has_issues
+                }
+
+            # 4. Calculate quality score from 4 sub-metrics
+            quality_result = None
             quality_scores = []
             for metric in quality_metrics:
                 if metric in eval_results and eval_results[metric].get('score') is not None:
                     quality_scores.append(eval_results[metric]['score'])
 
             if quality_scores:
-                evaluator_summary = round(statistics.mean(quality_scores), 2)
-                eval_results['summary_score'] = evaluator_summary
-                evaluator_summaries.append(evaluator_summary)
+                quality_avg = statistics.mean(quality_scores)
+                quality_result = {
+                    'quality_score': quality_avg,
+                    'clarity_score': eval_results.get('quality_clarity', {}).get('score', 0),
+                    'tone_score': eval_results.get('quality_tone', {}).get('score', 0),
+                    'length_score': eval_results.get('quality_length', {}).get('score', 0),
+                    'structure_score': eval_results.get('quality_structure', {}).get('score', 0)
+                }
+
+            # Calculate summary score using proper weighted formula (accuracy, completeness, consistency, quality)
+            summary_result = calculate_summary_score(
+                accuracy_result=accuracy_result,
+                completeness_result=completeness_result,
+                consistency_result=consistency_result,
+                quality_result=quality_result
+            )
+
+            evaluator_summary = round(summary_result['summary_score'], 2)
+            eval_results['summary_score'] = evaluator_summary
+            evaluator_summaries.append(evaluator_summary)
 
         # Calculate overall summary score for this memo (average across evaluators)
         if evaluator_summaries:
@@ -515,8 +573,8 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
     """Calculate aggregate statistics across all memos and evaluators."""
     print("Calculating aggregate statistics...")
 
-    memo_level_scores = []  # Average score per memo+evaluator
-    evaluator_memo_scores = defaultdict(list)  # Memo-level scores by evaluator
+    memo_level_scores = []  # Summary scores per memo+evaluator (using all 4 metrics)
+    evaluator_memo_scores = defaultdict(list)  # Summary scores by evaluator
     metric_scores = defaultdict(list)  # Individual metric scores
 
     quality_metrics = ['quality_clarity', 'quality_tone', 'quality_length', 'quality_structure']
@@ -526,20 +584,17 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
             if evaluator == 'summary_score':  # Skip summary_score key
                 continue
 
-            # Calculate memo-level average (average of 4 quality metrics)
-            memo_quality_scores = []
+            # Use the calculated summary_score (which includes all 4 metrics: accuracy, completeness, consistency, quality)
+            if 'summary_score' in eval_results:
+                summary_score = eval_results['summary_score']
+                memo_level_scores.append(summary_score)
+                evaluator_memo_scores[evaluator].append(summary_score)
 
+            # Collect individual quality metric scores for additional stats
             for metric in quality_metrics:
                 if metric in eval_results and eval_results[metric].get('score') is not None:
                     score = eval_results[metric]['score']
-                    memo_quality_scores.append(score)
                     metric_scores[metric].append(score)
-
-            # Calculate average for this memo+evaluator
-            if memo_quality_scores:
-                memo_avg = statistics.mean(memo_quality_scores)
-                memo_level_scores.append(memo_avg)
-                evaluator_memo_scores[evaluator].append(memo_avg)
 
     # Calculate summary statistics
     total_evaluations = len(memo_level_scores)
@@ -558,7 +613,7 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
         "metrics": {}
     }
 
-    # Add evaluator statistics (memo-level averages)
+    # Add evaluator statistics (summary scores by evaluator)
     for evaluator, scores in evaluator_memo_scores.items():
         summary['evaluators'][evaluator] = {
             'count': len(scores),
@@ -566,7 +621,7 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
             'median': round(statistics.median(scores), 2)
         }
 
-    # Add metric statistics (individual metric scores)
+    # Add metric statistics (individual quality metric scores)
     for metric, scores in metric_scores.items():
         summary['metrics'][metric] = {
             'count': len(scores),
