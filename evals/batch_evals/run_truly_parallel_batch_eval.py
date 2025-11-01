@@ -69,6 +69,11 @@ RANDOM_SEED = 42
 MODEL_TO_EVALUATE = "claude-sonnet-4-20250514"
 EVALUATOR_MODELS = ["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
 
+# Prompt configuration
+# Set to None to use default (prompts/baseline.txt)
+# Or specify a path like: Path("prompts/my_custom_prompt.txt")
+PROMPT_FILE = None
+
 
 def load_baseline_sampled_indices(file_path: Path) -> list[int]:
     """Load the baseline sampled indices from JSON file."""
@@ -158,7 +163,7 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict
                 print(f"  Source: {source_url[:80]}...")
 
                 # Generate memo
-                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file)
+                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE)
 
                 if memo:
                     memos[idx] = {
@@ -361,7 +366,7 @@ def poll_all_batch_jobs(batch_jobs: List[Dict], poll_interval: int = 60) -> Dict
 
                     if status == "completed":
                         output_file_id = status_data.get("output_file_id")
-                        output_path = download_batch_results(output_file_id, BATCH_TEMP_DIR, openai_key)
+                        output_path = download_batch_results(output_file_id, BATCH_TEMP_DIR, openai_key, input_index=job_info['input_index'])
                         batch_results = load_batch_results(output_path)
                         parsed = parse_batch_results(batch_results)
                         results[batch_id] = parsed
@@ -378,7 +383,7 @@ def poll_all_batch_jobs(batch_jobs: List[Dict], poll_interval: int = 60) -> Dict
 
                     if processing_status == "ended":
                         results_url = status_data.get("results_url")
-                        output_path = download_claude_batch_results(results_url, BATCH_TEMP_DIR, anthropic_key)
+                        output_path = download_claude_batch_results(results_url, BATCH_TEMP_DIR, anthropic_key, input_index=job_info['input_index'])
                         with open(output_path, 'r') as f:
                             batch_results = [json.loads(line) for line in f]
                         parsed = parse_claude_batch_results(batch_results)
@@ -744,17 +749,18 @@ def main():
     )
 
     # Phase 4: Aggregate results
-    results = aggregate_all_results(
-        memos=memos,
-        batch_results=batch_results,
-        batch_jobs=batch_jobs,
-        indices=sampling_info['all_sampled_indices'],
-        evaluator_models=EVALUATOR_MODELS
-    )
+    # COMMENTED OUT: This aggregation creates comprehensive_batch_eval_results_{timestamp}.json
+    # results = aggregate_all_results(
+    #     memos=memos,
+    #     batch_results=batch_results,
+    #     batch_jobs=batch_jobs,
+    #     indices=sampling_info['all_sampled_indices'],
+    #     evaluator_models=EVALUATOR_MODELS
+    # )
 
-    # Save results
-    print(f"\nSaving comprehensive results to batch_evals folder...")
-    results_file, sampling_file = save_results(results, sampling_info, OUTPUT_DIR)
+    # # Save results
+    # print(f"\nSaving comprehensive results to batch_evals folder...")
+    # results_file, sampling_file = save_results(results, sampling_info, OUTPUT_DIR)
 
     # Print final summary
     print(f"\n{'='*70}")
@@ -763,18 +769,22 @@ def main():
     print(f"Model evaluated:      {MODEL_TO_EVALUATE}")
     print(f"Evaluator models:     {', '.join(EVALUATOR_MODELS)}")
     print(f"Total inputs:         {sampling_info['total_sampled']}")
-    print(f"Successful evals:     {results['summary_statistics']['successful_evals']}")
-    print(f"Failed evals:         {results['summary_statistics']['failed_evals']}")
+    # COMMENTED OUT: Summary statistics depend on aggregation results
+    # print(f"Successful evals:     {results['summary_statistics']['successful_evals']}")
+    # print(f"Failed evals:         {results['summary_statistics']['failed_evals']}")
+    # print(f"")
+    # print(f"SUMMARY STATISTICS:")
+    # print(f"  Mean Score:         {results['summary_statistics']['mean_score']:.2f}/100")
+    # print(f"  Median Score:       {results['summary_statistics']['median_score']:.2f}/100")
+    # print(f"  Worst Score:        {results['summary_statistics']['worst_score']:.2f}/100")
+    # print(f"  Best Score:         {results['summary_statistics']['best_score']:.2f}/100")
+    # print(f"  Std Dev:            {results['summary_statistics']['std_dev']:.2f}")
+    # print(f"  Score Range:        {results['summary_statistics']['score_range']:.2f}")
+    # print(f"")
+    # print(f"Results saved to: {results_file}")
     print(f"")
-    print(f"SUMMARY STATISTICS:")
-    print(f"  Mean Score:         {results['summary_statistics']['mean_score']:.2f}/100")
-    print(f"  Median Score:       {results['summary_statistics']['median_score']:.2f}/100")
-    print(f"  Worst Score:        {results['summary_statistics']['worst_score']:.2f}/100")
-    print(f"  Best Score:         {results['summary_statistics']['best_score']:.2f}/100")
-    print(f"  Std Dev:            {results['summary_statistics']['std_dev']:.2f}")
-    print(f"  Score Range:        {results['summary_statistics']['score_range']:.2f}")
-    print(f"")
-    print(f"Results saved to: {results_file}")
+    print(f"Batch evaluation jobs completed. Results are in batch_temp/ folder.")
+    print(f"Run generate_final_results.py to aggregate the results.")
     print(f"{'='*70}\n")
 
 

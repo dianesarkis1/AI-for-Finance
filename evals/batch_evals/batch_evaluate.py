@@ -89,7 +89,7 @@ def generate_memo_for_input(
 
     try:
         # Call model_run.py with absolute path
-        model_run_path = Path(__file__).parent.parent.parent / "latest project scripts" / "model_run.py"
+        model_run_path = Path(__file__).parent.parent / "model_run.py"
         cmd = [
             "python",
             str(model_run_path),

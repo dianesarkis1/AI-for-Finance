@@ -157,7 +157,7 @@ def check_batch_status(batch_id: str, api_key: str) -> Dict:
     return json.loads(response)
 
 
-def download_batch_results(output_file_id: str, temp_dir: Path, api_key: str) -> Path:
+def download_batch_results(output_file_id: str, temp_dir: Path, api_key: str, input_index: Optional[int] = None) -> Path:
     """
     Download batch results from OpenAI.
 
@@ -165,6 +165,7 @@ def download_batch_results(output_file_id: str, temp_dir: Path, api_key: str) ->
         output_file_id: ID of output file
         temp_dir: Directory to store downloaded file
         api_key: OpenAI API key
+        input_index: Optional dataset index to include in filename for correct mapping
 
     Returns:
         Path to downloaded results file
@@ -181,9 +182,12 @@ def download_batch_results(output_file_id: str, temp_dir: Path, api_key: str) ->
 
     response = run_curl(cmd)
 
-    # Save to file
+    # Save to file with index in filename if provided
     timestamp = int(time.time())
-    output_file = temp_dir / f"batch_output_{timestamp}.jsonl"
+    if input_index is not None:
+        output_file = temp_dir / f"batch_output_{input_index}_{timestamp}.jsonl"
+    else:
+        output_file = temp_dir / f"batch_output_{timestamp}.jsonl"
 
     with open(output_file, "w") as f:
         f.write(response)
@@ -1012,7 +1016,7 @@ def check_claude_batch_status(batch_id: str, api_key: str) -> Dict:
     return json.loads(response)
 
 
-def download_claude_batch_results(results_url: str, temp_dir: Path, api_key: str) -> Path:
+def download_claude_batch_results(results_url: str, temp_dir: Path, api_key: str, input_index: Optional[int] = None) -> Path:
     """
     Download Claude batch results from results URL.
 
@@ -1020,6 +1024,7 @@ def download_claude_batch_results(results_url: str, temp_dir: Path, api_key: str
         results_url: URL to download results from
         temp_dir: Directory to store downloaded file
         api_key: Anthropic API key
+        input_index: Optional dataset index to include in filename for correct mapping
 
     Returns:
         Path to downloaded results file
@@ -1038,9 +1043,12 @@ def download_claude_batch_results(results_url: str, temp_dir: Path, api_key: str
 
     response = run_curl(cmd)
 
-    # Save to file
+    # Save to file with index in filename if provided
     timestamp = int(time.time())
-    output_file = temp_dir / f"claude_batch_output_{timestamp}.jsonl"
+    if input_index is not None:
+        output_file = temp_dir / f"claude_batch_output_{input_index}_{timestamp}.jsonl"
+    else:
+        output_file = temp_dir / f"claude_batch_output_{timestamp}.jsonl"
 
     with open(output_file, "w") as f:
         f.write(response)
