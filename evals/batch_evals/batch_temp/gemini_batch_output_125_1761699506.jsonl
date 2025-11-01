@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_125", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_125", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
+{"custom_id": "consistency_125", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The covenant amendment is simultaneously presented as a 'Key Strength' ('proactive capital structure management and lender cooperation') and a 'Principal Risk' ('suggests potential constraints under original agreement terms').\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_125", "response": {"body": {"choices": [{"message": {"content": "SCORE: 91"}}]}}}
+{"custom_id": "quality_tone_125", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
+{"custom_id": "quality_length_125", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
+{"custom_id": "quality_structure_125", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

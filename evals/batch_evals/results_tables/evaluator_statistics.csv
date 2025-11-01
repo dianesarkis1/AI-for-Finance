@@ -1,0 +1,4 @@
+Evaluator,Count,Mean,Median
+gpt-5,50,76.05,75.88
+claude-sonnet-4-20250514,50,65.63,66.75
+gemini-2.5-pro,50,79.98,81.50

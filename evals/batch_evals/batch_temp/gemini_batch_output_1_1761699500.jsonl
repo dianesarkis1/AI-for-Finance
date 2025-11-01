@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_1", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nHALLUCINATIONS:\n- Deal size: N/A - The memo states the deal size is not available (\"N/A\"), but the source document's \"SCHEDULE I\" clearly states the \"Commitment Increase\" is \"$25,000,000\".\n- Risks/Unknowns: Additional commitment amount is set forth in Schedule I (not provided here). - The memo incorrectly claims that Schedule I was not provided, when it is included in the source document and specifies the $25,000,000 commitment increase."}}]}}}
+{"custom_id": "completeness_1", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: The memo incorrectly states the \"Deal size\" is \"N/A\" and that the commitment amount from Schedule I was not provided. The source document's Schedule I clearly states the \"Commitment Increase\" amount is $25,000,000."}}]}}}
+{"custom_id": "consistency_1", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_1", "response": {"body": {"choices": [{"message": {"content": "95"}}]}}}
+{"custom_id": "quality_tone_1", "response": {"body": {"choices": [{"message": {"content": "95"}}]}}}
+{"custom_id": "quality_length_1", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85"}}]}}}
+{"custom_id": "quality_structure_1", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

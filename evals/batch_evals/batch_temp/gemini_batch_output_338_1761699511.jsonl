@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_338", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_338", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: The agreement includes a \"Release of Claims\" (Section 4), where the Borrower (F45 Training Holdings Inc.) releases the Lenders from any and all past claims. This is a material term of the agreement that is not mentioned in the memo."}}]}}}
+{"custom_id": "consistency_338", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo lists 'multiple amendments' to the credit agreement as both a Key Strength ('suggesting ongoing lender engagement') and a Principal Risk ('may indicate ongoing financial stress').\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_338", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_338", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_338", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_structure_338", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

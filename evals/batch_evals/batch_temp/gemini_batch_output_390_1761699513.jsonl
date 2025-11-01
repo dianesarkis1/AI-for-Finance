@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_390", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_390", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
+{"custom_id": "consistency_390", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo presents the 'history of amendments' as both a Key Strength ('indicating ongoing banking relationships') and a Principal Risk ('may indicate changing business needs or covenant adjustments'), which are contradictory assessments of the same fact.\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_390", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92"}}]}}}
+{"custom_id": "quality_tone_390", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
+{"custom_id": "quality_length_390", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
+{"custom_id": "quality_structure_390", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

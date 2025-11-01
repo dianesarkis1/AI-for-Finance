@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_370", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_370", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: [\"PPN: 00197@AA9\", \"Number: A-4\"]"}}]}}}
+{"custom_id": "consistency_370", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The multi-layered corporate structure is listed as both a strength ('providing potential structural protections') and a risk ('may complicate enforcement').\",\n    \"The existence of multiple prior amendments is cited as both a strength ('indicating active management and lender engagement') and a risk ('suggest potential covenant or structural adjustments').\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_370", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_370", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_370", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
+{"custom_id": "quality_structure_370", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

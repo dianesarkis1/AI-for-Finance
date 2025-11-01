@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_152", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nHALLUCINATIONS:\n- The memo states the \"Deal Size\" is \"N/A\". The source document's Schedule 1 clearly states the \"Incremental Commitment Amount\" is $25,000,000.\n- The note below the \"Key Deal Terms\" table states the agreement \"does not specify key financial terms such as commitment amount,\" which is false. Schedule 1 specifies the incremental commitment amount."}}]}}}
+{"custom_id": "completeness_152", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS:\n- The name of the Increasing Lender (MUFG Union Bank, N.A.) is missing.\n- The Incremental Commitment Amount of $25,000,000 is missing. The memo incorrectly states the Deal Size is \"N/A\".\n- The total new Commitment Amount for the Increasing Lender ($75,000,000) is missing."}}]}}}
+{"custom_id": "consistency_152", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_152", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_152", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_152", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85"}}]}}}
+{"custom_id": "quality_structure_152", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

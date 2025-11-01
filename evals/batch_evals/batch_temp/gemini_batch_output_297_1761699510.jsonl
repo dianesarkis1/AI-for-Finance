@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_297", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_297", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: The memo's description of the covenant change is too general. The source document provides specific financial details about the amendment to the \"Consolidated EBITDA\" definition that are missing from the memo:\n- The specific dollar cap for the add-back of early termination fees, which is $15,000,000 in any four-quarter fiscal period.\n- The specific carve-out for lease termination fees payable under the Applegreen Purchase Agreement, which are explicitly excluded from the $15,000,000 cap."}}]}}}
+{"custom_id": "consistency_297", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_297", "response": {"body": {"choices": [{"message": {"content": "SCORE: 94"}}]}}}
+{"custom_id": "quality_tone_297", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
+{"custom_id": "quality_length_297", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_structure_297", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

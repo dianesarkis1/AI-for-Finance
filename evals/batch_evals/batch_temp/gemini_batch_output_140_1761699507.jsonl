@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_140", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_140", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
+{"custom_id": "consistency_140", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo lists the 'Complex... corporate organization' as a strength because it suggests 'sophisticated financial management', while simultaneously listing the 'Complex multi-jurisdictional structure' as a risk because it 'may complicate enforcement'.\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_140", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_140", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_140", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_structure_140", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_16", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_16", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
+{"custom_id": "consistency_16", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo presents the rating-based pricing grid as a 'Key Strength' because of the potential for margin compression, while also listing the exact same feature as a 'Principal Risk' due to its potential for margin increases.\",\n    \"The memo claims the company has an 'Investment-grade credit profile' as a 'Key Strength' (which is based on an assessment of credit fundamentals), but then lists 'Limited financial information available to assess current credit fundamentals' as a 'Principal Risk'.\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_16", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_16", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_16", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_structure_16", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

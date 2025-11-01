@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_58", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_58", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS:\n- Pledged Account: The memo omits the specific account number identified as collateral (# 164283-000).\n- Securities Intermediary: The memo omits the name of the entity holding the pledged account (Wilmington Trust, National Association)."}}]}}}
+{"custom_id": "consistency_58", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_58", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_58", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_58", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88"}}]}}}
+{"custom_id": "quality_structure_58", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

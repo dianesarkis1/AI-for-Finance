@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_268", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_268", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
+{"custom_id": "consistency_268", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo presents the fact of multiple amendments as both a key strength and a principal risk. It is cited as a strength because it 'demonstrates existing lender relationship flexibility' and simultaneously as a risk because it 'suggests potential covenant or structure challenges requiring ongoing modifications'.\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_268", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_268", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
+{"custom_id": "quality_length_268", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
+{"custom_id": "quality_structure_268", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

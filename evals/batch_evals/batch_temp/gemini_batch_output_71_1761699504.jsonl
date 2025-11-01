@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_71", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
+{"custom_id": "completeness_71", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: Reaffirmation of Collateral - The source document (Section 3) explicitly states that the existing Collateral Documents and the Collateral described therein continue to secure the payment of all obligations under the amended agreement. The memo does not mention that the facility is secured or that the collateral was reaffirmed."}}]}}}
+{"custom_id": "consistency_71", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The temporary 7.00:1.00 leverage ratio is listed as both a 'Key Strength' (providing temporary covenant relief) and a 'Principal Risk' (increasing credit risk).\"\n  ]\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_71", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_tone_71", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
+{"custom_id": "quality_length_71", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
+{"custom_id": "quality_structure_71", "response": {"body": {"choices": [{"message": {"content": "45"}}]}}}

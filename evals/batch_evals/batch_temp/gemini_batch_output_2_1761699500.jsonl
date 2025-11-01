@@ -1,0 +1,7 @@
+{"custom_id": "accuracy_2", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nHALLUCINATIONS:\n- In the \"Key Deal Information\" section, the memo states \"Deal size: N/A\". This is incorrect. The source document's \"SCHEDULE I\" explicitly states the \"Commitment Increase\" amount is \"$25,000,000\"."}}]}}}
+{"custom_id": "completeness_2", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: [\"Commitment Increase Amount: The memo states that the deal size is N/A and that the commitment amount from Schedule I is not provided. However, Schedule I in the source document clearly states the Commitment Increase amount is $25,000,000.\"]"}}]}}}
+{"custom_id": "consistency_2", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
+{"custom_id": "quality_clarity_2", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92"}}]}}}
+{"custom_id": "quality_tone_2", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
+{"custom_id": "quality_length_2", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68"}}]}}}
+{"custom_id": "quality_structure_2", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

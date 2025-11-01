@@ -1,0 +1,8 @@
+{
+  "batch_id": "msgbatch_01M8fpNpV1hdgP16duj5G6wk",
+  "created_at": 1761505937.38885,
+  "completed_at": 1761505997.9672499,
+  "status": "completed",
+  "output_file": "/Users/Diane/AI-for-Finance/evals/batch_evals/batch_temp/claude_batch_output_1761505997.jsonl",
+  "provider": "anthropic"
+}
