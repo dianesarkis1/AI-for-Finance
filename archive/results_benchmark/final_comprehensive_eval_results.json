@@ -1,0 +1,383 @@
+{
+  "summary": {
+    "total_memos_evaluated": 4,
+    "dataset_indices_evaluated": [
+      0,
+      1,
+      2,
+      6
+    ],
+    "total_evaluations": 12,
+    "total_quality_scores": 32,
+    "mean_score": 43.37,
+    "median_score": 45.2,
+    "min_score": 36.88,
+    "max_score": 46.21,
+    "stdev_score": 4.36,
+    "evaluators": {
+      "gpt-5": {
+        "count": 4,
+        "mean": 63.13,
+        "median": 69.03
+      },
+      "claude-sonnet-4-20250514": {
+        "count": 4,
+        "mean": 66.98,
+        "median": 67.0
+      },
+      "gemini-2.5-pro": {
+        "count": 4,
+        "mean": 0.0,
+        "median": 0.0
+      }
+    },
+    "metrics": {
+      "quality_clarity": {
+        "count": 8,
+        "mean": 78.88,
+        "median": 80.0
+      },
+      "quality_tone": {
+        "count": 8,
+        "mean": 87.75,
+        "median": 86.5
+      },
+      "quality_length": {
+        "count": 8,
+        "mean": 78.25,
+        "median": 80.5
+      },
+      "quality_structure": {
+        "count": 8,
+        "mean": 46,
+        "median": 45.0
+      }
+    }
+  },
+  "results_by_index": {
+    "0": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full pricing grid details: the specific S&P/Moody\u2019s/Fitch rating bands for Pricing Levels 1\u20135 and the exact Applicable Margins per level for Eurodollar and ABR loans\n- The mechanism for determining and changing the Applicable Margin: initially set based on the Section 5.1(c) certificate and adjusted effective on the date of public announcement of a rating change\n- Identification that Bank of America, N.A. is also a Lender (in addition to serving as Administrative Agent)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 92,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 58,
+          "metric": "quality_structure"
+        },
+        "summary_score": 70.5
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None\n\nAll key financial terms in the memo are accurately supported by the source document:\n\n- Date (June 10, 2021) \u2713\n- Borrower name (Affiliated Managers Group, Inc., Delaware corporation) \u2713\n- Administrative Agent (Bank of America, N.A.) \u2713\n- Original agreement date (January 18, 2019) \u2713\n- Interest rate margins from pricing grid \u2713\n- Rating levels and corresponding margins \u2713\n- Governing law (New York State) \u2713\n\nThe memo appropriately notes \"N/A\" for terms not disclosed in the amendment document (deal size, maturity date, etc.) rather than making unsupported claims. All substantive financial information is directly extracted from or properly inferred from the source credit agreement amendment.",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None\n\nThe memo captures all the key financial terms available in the source document. The source document is an amendment that specifically focuses on modifying the pricing grid (Applicable Margin), and the memo accurately reflects:\n\n- The complete pricing grid with all 5 levels and corresponding margins for both Eurodollar and ABR loans\n- The rating-based pricing mechanism tied to S&P/Moody's/Fitch ratings\n- The effective date (June 10, 2021)\n- The parties involved (AMG as borrower, Bank of America as Administrative Agent)\n- The governing law (New York State)\n\nThe memo appropriately notes \"N/A\" for terms like deal size, maturity date, and other covenant details because this amendment document only addresses pricing modifications and references the underlying 2019 credit agreement for other material terms. This is the correct approach since the amendment doesn't contain this information - it's a pricing-only modification to an existing facility.",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo states debt ratings range from A+/A1/A+ to BBB/Baa2/BBB, but the interest rate grid shows only 5 levels with margins from 0.725%-1.225% for Eurodollar loans, which is inconsistent with the broad rating range that would typically require more pricing tiers or wider margin spreads"
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 75,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 75,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 55,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.12
+      },
+      "gemini-2.5-pro": {
+        "summary_score": 0.0
+      },
+      "summary_score": 46.21
+    },
+    "1": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- \"Maintained minimum liquidity covenant of $15,000,000 throughout crisis period.\" The source imposes a $15,000,000 minimum Liquidity requirement during the Extended Waiver Period but does not state that the borrower maintained this level or was in compliance throughout the period.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Numeric Applicable Margin and fees at Level 5 (BA/LC/LIBOR loans: 5.00%; Prime/USBR loans: 3.50%; undrawn fee: 1.25%)\n- Explicit waiver of the Closure Default during the Extended Waiver Period\n- Waiver of delivery of the Q2 Compliance Certificate and the Annual Business Plan until the end of the Extended Waiver Period\n- Additional Event of Default if OLG ceases Threshold payment relief or Fixed Component Per Diem for more than five business days in aggregate during the Extended Waiver Period\n- Prohibitions on amending the Leases, MGE Management Agreement, CNHI Consulting Agreement, or Convertible Debentures (if adverse/increase payments) and prohibition on making Acquisitions\n- Weekly liquidity reporting requirement (due each Tuesday) with reconciliation to the Liquidity Forecast and management commentary on material variances\n- Liquidity definition used for the $15,000,000 minimum (unused Revolving Facility Commitments plus Unrestricted Cash), including definitions of Unrestricted Cash and inclusion of Cage Cash",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 82,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 88,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.94
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None\n\nThe memo accurately represents all key financial terms found in the source document:\n\n- Borrower: MGE Niagara Entertainment Inc. \u2713\n- Guarantor: Complex Services Inc. \u2713\n- Administrative Agent: Bank of Montreal \u2713\n- Original credit agreement date: June 10, 2019 (amended July 17, 2019) \u2713\n- Waiver date: September 30, 2020 \u2713\n- Extended waiver period: Through November 30, 2020 \u2713\n- Minimum liquidity covenant: $15,000,000 \u2713\n- Applicable Margin at Level 5 \u2713\n- Financial covenant sections: 9.4.1 and 9.4.2 \u2713\n- 60+ consecutive days closure threshold \u2713\n- OLG letter dates: April 19, 2020 and June 12, 2020 \u2713\n- Distribution restrictions under clauses (c) and (e) \u2713\n- No new advances permitted \u2713\n\nThe memo appropriately uses \"N/A\" for terms not specified in the waiver document (deal size, deal price, maturity date, payment frequency) rather than fabricating information. All substantive financial and legal terms are supported by the source document.",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Specific interest rates from Schedule B (5.00% for BA/LC/LIBOR, 3.50% for Prime/USBR, 1.25% undrawn fee)\n- Definition of \"Liquidity\" covenant (sum of available revolving facility capacity plus unrestricted cash)\n- OLG payment default triggers (cessation of Threshold payment relief or Fixed Component Per Diem payments for >5 business days)\n- Weekly liquidity reporting requirement (every Tuesday starting August 4, 2020)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 72,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 75,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 35,
+          "metric": "quality_structure"
+        },
+        "summary_score": 66.69
+      },
+      "gemini-2.5-pro": {
+        "summary_score": 0.0
+      },
+      "summary_score": 36.88
+    },
+    "2": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Applicable Margin deemed Level 5 during the waiver; rates: 5.00% (BA/LIBOR/LC), 3.50% (Prime/USBR), 1.25% undrawn fee; Schedule B replaced accordingly\n- No Advances permitted under either Credit Facility during the Extended Waiver Period\n- Minimum Liquidity covenant of not less than $15,000,000\n- Prohibition on Distributions under clauses (c) and (e) of Permitted Distributions\n- No amendments to Leases, MGE Management Agreement, CNHI Consulting Agreement, or Convertible Debentures that increase payments or are adverse; and no Acquisitions\n- Weekly Liquidity reporting requirement (Tuesday each week) with reconciliation to the Liquidity Forecast\n- Event of Default trigger if OLG ceases Threshold payment relief or Fixed Component Per Diem for more than five Business Days in aggregate during the Extended Waiver Period\n- Extension fee of 5 bps on each consenting Lender\u2019s Commitment payable at effectiveness",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 82,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 94,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.19
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None\n\nThe memo accurately represents all key financial terms found in the source document. All specific details including dates (November 30, 2020), entity names (MGE Niagara Entertainment Inc., Bank of Montreal, Complex Services Inc.), covenant sections (9.4.1 and 9.4.2), waiver period (through March 31, 2021), and OLG correspondence dates (April 19, 2020, June 11, 2020, and June 12, 2020) are directly supported by the source document. The memo appropriately indicates \"N/A\" for financial terms not disclosed in the waiver document rather than fabricating information.",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Extension fee of 5 basis points on Commitment of each consenting Lender\n- Minimum liquidity requirement of $15,000,000\n- Applicable Margin deemed to be at Level 5 (5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans, 3.50% for Prime Rate Loans/USBR Loans, 1.25% Undrawn Fee)\n- Prohibition on requesting Advances under either Credit Facility during waiver period\n- Weekly liquidity reporting requirements\n- Specific restrictions on Distributions pursuant to clauses (c) and (e) of Permitted Distributions definition\n- Restrictions on amending Leases, MGE Management Agreement, CNHI Consulting Agreement, or Convertible Debentures\n- Prohibition on Acquisitions\n- New Event of Default triggers related to OLG cessation of Threshold payment relief or Fixed Component Per Diem payments for more than 5 Business Days",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 72,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 75,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 67.31
+      },
+      "gemini-2.5-pro": {
+        "summary_score": 0.0
+      },
+      "summary_score": 45.5
+    },
+    "6": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- \u201cAmendment Fee: Amount not disclosed\u201d \u2014 The source requires reimbursement of lenders\u2019 fees and expenses (amount left blank) as a closing condition; it does not state a specific amendment fee.\n- \u201cU.S. assets remain protected from foreign liens\u201d \u2014 The amendment restricts only Liens in favor of Bank of China from extending to U.S. property; it does not generally prohibit all foreign liens on U.S. assets.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 90,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.88
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "1. The signature page is labeled \"EIGHTH AMENDMENT\" in the source document, but the memo consistently refers to it as the \"Tenth Amendment\" throughout (the header shows \"TENTH AMENDMENT\" but the signature page shows \"EIGHTH AMENDMENT\")\n2. The memo states this is \"the tenth amendment\" but there's an inconsistency in the source document itself between the title and signature page that the memo doesn't acknowledge or clarify",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None\n\nThe memo captures all the key financial terms that are actually present in this amendment document. This is specifically a tenth amendment that focuses on modifying lien provisions rather than establishing new credit terms. The source document itself does not contain information about interest rates, maturity dates, loan amounts, or payment frequency - it only addresses the modification to allow Bank of China liens up to $21,000,000 (which is captured in the memo). All material parties, dates, security details, and the specific covenant modification are appropriately reflected in the memo.",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 78,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 45,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 65.81
+      },
+      "gemini-2.5-pro": {
+        "summary_score": 0.0
+      },
+      "summary_score": 44.9
+    }
+  },
+  "metadata": {
+    "note": "Results from 50 memos evaluated by GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro",
+    "generated_by": "generate_final_results.py",
+    "evaluators": [
+      "gpt-5",
+      "claude-sonnet-4-20250514",
+      "gemini-2.5-pro"
+    ],
+    "total_evaluations": "4 memos \u00d7 3 evaluators = 12"
+  }
+}

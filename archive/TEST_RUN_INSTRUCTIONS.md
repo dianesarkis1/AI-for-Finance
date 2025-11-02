@@ -4,9 +4,32 @@
 
 All necessary modifications have been made to ensure proper index tagging throughout the batch evaluation pipeline. Your existing files in `batch_temp/` and `results_benchmark/` will NOT be touched.
 
+## Parallel vs Sequential Memo Generation
+
+### Parallel (Recommended)
+- Uses Claude Batch API to generate all memos simultaneously
+- Each request tagged with `custom_id: memo_generation_{INDEX}`
+- **Speed:** ~10-15 minutes for 50 memos
+- Index integrity maintained via custom_id matching
+
+### Sequential (Legacy)
+- Generates memos one at a time using standard API calls
+- **Speed:** ~30-50 minutes for 50 memos
+- More predictable but much slower
+
 ## Flow Verification
 
-### ✅ Step 1: Memo Generation
+### ✅ Step 1a: Memo Generation (Parallel Method)
+- **Location:** `generate_all_memos_parallel()` in `run_truly_parallel_batch_eval.py`
+- **What happens:**
+  1. Loads all source documents for specified indices
+  2. Creates batch requests with `custom_id: memo_generation_{INDEX}`
+  3. Submits single batch job to Claude API
+  4. Polls until complete (~10-15 minutes)
+  5. Downloads results and matches back to indices via custom_id
+- **Index tracking:** Memos stored in memory with index keys
+
+### ✅ Step 1b: Memo Generation (Sequential Method - Legacy)
 - **Location:** `generate_all_memos()` in `run_truly_parallel_batch_eval.py`
 - **What happens:** Generates memos for each specified index
 - **Index tracking:** Memos stored in memory with index keys
@@ -70,18 +93,38 @@ batch_temp_2/
 
 ### Test with 5 Indices
 
+#### Option 1: Parallel Memo Generation (RECOMMENDED - Much Faster!)
+
 ```bash
 cd /Users/Diane/AI-for-Finance
 
-# Run batch evaluation for 5 test indices
-python3 evals/batch_evals/run_truly_parallel_batch_eval.py --indices 0 1 2 6 12
+# Run with parallel memo generation (faster)
+python3 evals/batch_evals/run_truly_parallel_batch_eval.py \
+  --indices 0 1 2 6 12 \
+  --parallel-memos
 ```
 
 This will:
-1. Generate memos for indices 0, 1, 2, 6, 12
-2. Submit 15 batch jobs (5 indices × 3 evaluators)
+1. **Submit 1 batch job** to generate all 5 memos in parallel (~10-15 minutes)
+2. Submit 15 evaluation batch jobs (5 indices × 3 evaluators)
 3. Save all results to `batch_temp_2/` with proper index tagging
-4. Takes approximately 10-30 minutes
+4. **Total time: ~15-25 minutes** (much faster!)
+
+#### Option 2: Sequential Memo Generation (Slower but more reliable)
+
+```bash
+cd /Users/Diane/AI-for-Finance
+
+# Run with sequential memo generation (slower)
+python3 evals/batch_evals/run_truly_parallel_batch_eval.py \
+  --indices 0 1 2 6 12
+```
+
+This will:
+1. Generate memos one-by-one for indices 0, 1, 2, 6, 12 (~5-10 minutes)
+2. Submit 15 evaluation batch jobs (5 indices × 3 evaluators)
+3. Save all results to `batch_temp_2/` with proper index tagging
+4. **Total time: ~20-40 minutes**
 
 ### Aggregate Test Results
 

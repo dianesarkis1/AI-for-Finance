@@ -9,8 +9,8 @@ import json
 from pathlib import Path
 
 # Paths
-RESULTS_FILE = Path(__file__).parent / "results_benchmark" / "final_comprehensive_eval_results.json"
-OUTPUT_FILE = Path(__file__).parent / "results_benchmark" / "results_tables_2.md"
+RESULTS_FILE = Path(__file__).parent / "results_benchmark_2" / "final_comprehensive_eval_results.json"
+OUTPUT_FILE = Path(__file__).parent / "results_benchmark_2" / "results_tables_2.md"
 
 
 def create_summary_table(data):

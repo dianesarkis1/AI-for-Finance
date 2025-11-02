@@ -14,11 +14,14 @@ Usage:
     # Use default comprehensive sample (50 indices)
     python run_truly_parallel_batch_eval.py
 
-    # Test with specific indices
+    # Test with specific indices (sequential memo generation)
     python run_truly_parallel_batch_eval.py --indices 0 1 2 6 12
 
+    # Test with specific indices (parallel memo generation - FASTER!)
+    python run_truly_parallel_batch_eval.py --indices 0 1 2 6 12 --parallel-memos
+
     # Test with just one index
-    python run_truly_parallel_batch_eval.py --indices 128
+    python run_truly_parallel_batch_eval.py --indices 128 --parallel-memos
 """
 
 import argparse
@@ -67,8 +70,8 @@ from evals.batch_evals.batch_utils import (
 TRAIN_FILE = Path("data/train.jsonl")
 BASELINE_SAMPLED_INDICES_FILE = Path("evals/benchmark/baseline_sampled_indices_seed42.json")
 OUTPUT_DIR = Path("evals/batch_evals")
-# Use batch_temp_2 to avoid overwriting existing files for debugging
-BATCH_TEMP_DIR = OUTPUT_DIR / "batch_temp_2"
+# Use batch_temp_3 to avoid overwriting existing files for debugging
+BATCH_TEMP_DIR = OUTPUT_DIR / "batch_temp_3"
 BATCH_TEMP_DIR.mkdir(parents=True, exist_ok=True)
 print(f"✓ Using directory: {BATCH_TEMP_DIR}")
 
@@ -148,13 +151,184 @@ def create_comprehensive_sample(
     return sampling_info
 
 
-def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict[int, Dict]:
-    """Phase 1: Generate all memos sequentially."""
+def load_api_key_from_env(key_name: str) -> Optional[str]:
+    """Load API key from environment or .env file."""
+    # Try environment variable first
+    api_key = os.getenv(key_name)
+
+    if not api_key:
+        # Try loading from .env file
+        env_file = Path(__file__).parent.parent.parent / ".env"
+        if env_file.exists():
+            with open(env_file, 'r') as f:
+                for line in f:
+                    if line.strip().startswith(key_name):
+                        # Handle formats: KEY=value or KEY="value" or KEY='value'
+                        api_key = line.strip().split('=', 1)[1].strip().strip('"').strip("'")
+                        break
+
+    return api_key
+
+
+def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str) -> Dict[int, Dict]:
+    """
+    Phase 1: Generate all memos in parallel using Claude Batch API.
+    Much faster than sequential generation.
+    """
     print(f"\n{'='*70}")
-    print(f"PHASE 1: GENERATING ALL MEMOS")
+    print(f"PHASE 1: GENERATING ALL MEMOS (PARALLEL)")
     print(f"{'='*70}")
     print(f"Model: {model}")
     print(f"Total inputs: {len(indices)}")
+    print(f"Method: Claude Batch API (parallel)")
+    print(f"{'='*70}\n")
+
+    # Load prompt from file or use default
+    if PROMPT_FILE:
+        prompt_path = PROMPT_FILE
+    else:
+        prompt_path = Path(__file__).parent.parent.parent / "prompts" / "baseline.txt"
+
+    with open(prompt_path, 'r') as f:
+        prompt_text = f.read()
+
+    # Build batch requests for memo generation
+    batch_requests = []
+    index_to_source = {}  # Track which index corresponds to which source
+
+    print("Loading source documents and building batch requests...")
+    for idx in indices:
+        try:
+            source_url, credit_agreement_text = load_training_sample(train_file, idx)
+            index_to_source[idx] = {
+                "source_url": source_url,
+                "credit_agreement": credit_agreement_text
+            }
+
+            # Create batch request for this memo
+            request = {
+                "custom_id": f"memo_generation_{idx}",
+                "params": {
+                    "model": model,
+                    "max_tokens": 8000,
+                    "messages": [
+                        {
+                            "role": "user",
+                            "content": f"{prompt_text}\n\n{credit_agreement_text}"
+                        }
+                    ]
+                }
+            }
+            batch_requests.append(request)
+            print(f"  ✓ Prepared request for index {idx}")
+
+        except Exception as e:
+            print(f"  ✗ Error loading index {idx}: {e}")
+            index_to_source[idx] = {
+                "source_url": None,
+                "credit_agreement": None,
+                "error": str(e)
+            }
+
+    print(f"\n✓ Prepared {len(batch_requests)} batch requests\n")
+
+    # Submit batch to Claude
+    print("Submitting batch job to Claude API...")
+    batch_id = create_claude_batch(batch_requests, api_key)
+    print(f"✓ Batch submitted: {batch_id}\n")
+
+    # Poll until complete
+    print("Polling batch job (checks every 60 seconds)...")
+    start_time = time.time()
+    poll_interval = 60
+
+    while True:
+        status_data = check_claude_batch_status(batch_id, api_key)
+        processing_status = status_data.get("processing_status")
+        request_counts = status_data.get("request_counts", {})
+
+        elapsed = int(time.time() - start_time)
+        print(f"  [{elapsed}s] Status: {processing_status}")
+        print(f"    Processing: {request_counts.get('processing', 0)}")
+        print(f"    Succeeded:  {request_counts.get('succeeded', 0)}")
+        print(f"    Errored:    {request_counts.get('errored', 0)}")
+
+        if processing_status == "ended":
+            print(f"\n✓ Batch completed in {elapsed}s\n")
+            break
+        elif processing_status in ["failed", "expired", "cancelled"]:
+            print(f"\n✗ Batch {processing_status}\n")
+            raise RuntimeError(f"Batch memo generation {processing_status}")
+
+        time.sleep(poll_interval)
+
+    # Download and parse results
+    print("Downloading batch results...")
+    results_url = status_data.get("results_url")
+    output_path = download_claude_batch_results(results_url, BATCH_TEMP_DIR, api_key, input_index=None)
+
+    # Parse results and match back to indices
+    memos = {}
+    with open(output_path, 'r') as f:
+        for line in f:
+            result = json.loads(line)
+            custom_id = result.get("custom_id", "")
+
+            # Extract index from custom_id (e.g., "memo_generation_128" -> 128)
+            if custom_id.startswith("memo_generation_"):
+                idx = int(custom_id.split("_")[-1])
+
+                if result.get("result", {}).get("type") == "succeeded":
+                    content_blocks = result["result"]["message"]["content"]
+                    memo = content_blocks[0]["text"] if content_blocks else None
+
+                    memos[idx] = {
+                        "source_url": index_to_source[idx]["source_url"],
+                        "memo": memo,
+                        "credit_agreement": index_to_source[idx]["credit_agreement"],
+                        "error": None
+                    }
+                    print(f"  ✓ Index {idx}: {len(memo) if memo else 0} chars")
+                else:
+                    error_msg = result.get("result", {}).get("error", {}).get("message", "Unknown error")
+                    memos[idx] = {
+                        "source_url": index_to_source[idx]["source_url"],
+                        "memo": None,
+                        "credit_agreement": index_to_source[idx]["credit_agreement"],
+                        "error": error_msg
+                    }
+                    print(f"  ✗ Index {idx}: {error_msg}")
+
+    # Add any indices that weren't in results (failed to load source)
+    for idx in indices:
+        if idx not in memos:
+            memos[idx] = {
+                "source_url": index_to_source[idx].get("source_url"),
+                "memo": None,
+                "credit_agreement": index_to_source[idx].get("credit_agreement"),
+                "error": index_to_source[idx].get("error", "No result returned")
+            }
+
+    successful = sum(1 for m in memos.values() if m['memo'] is not None)
+    print(f"\n{'='*70}")
+    print(f"PARALLEL MEMO GENERATION COMPLETE")
+    print(f"{'='*70}")
+    print(f"Successful: {successful}/{len(indices)}")
+    print(f"Failed: {len(indices) - successful}/{len(indices)}")
+    print(f"Total time: {int(time.time() - start_time)}s")
+    print(f"{'='*70}\n")
+
+    return memos
+
+
+def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict[int, Dict]:
+    """Phase 1: Generate all memos sequentially (legacy method)."""
+    print(f"\n{'='*70}")
+    print(f"PHASE 1: GENERATING ALL MEMOS (SEQUENTIAL)")
+    print(f"{'='*70}")
+    print(f"Model: {model}")
+    print(f"Total inputs: {len(indices)}")
+    print(f"Method: Sequential (slower)")
     print(f"{'='*70}\n")
 
     memos = {}
@@ -219,6 +393,35 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict
     return memos
 
 
+def save_batch_job_mappings(batch_jobs: List[Dict], temp_dir: Path):
+    """
+    Save batch job mappings to a JSON file for debugging and recovery.
+    This allows resuming downloads even if the process is interrupted.
+    """
+    mapping_file = temp_dir / "batch_job_mappings.json"
+
+    # Create a clean mapping structure
+    mappings = {
+        "created_at": datetime.now().isoformat(),
+        "jobs": []
+    }
+
+    for job in batch_jobs:
+        if job.get('batch_id'):  # Only save jobs that were successfully created
+            mappings["jobs"].append({
+                "input_index": job["input_index"],
+                "evaluator_model": job["evaluator_model"],
+                "provider": job["provider"],
+                "batch_id": job["batch_id"]
+            })
+
+    with open(mapping_file, 'w') as f:
+        json.dump(mappings, f, indent=2)
+
+    print(f"💾 Saved batch job mappings to: {mapping_file.name}")
+    print(f"   (Use this file to resume downloads if interrupted)\n")
+
+
 def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -> List[Dict]:
     """
     Phase 2: Submit ALL batch jobs at once WITHOUT waiting.
@@ -235,10 +438,10 @@ def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -
 
     batch_jobs = []
 
-    # Get API keys
-    openai_key = os.getenv("OPENAI_API_KEY")
-    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
-    gemini_key = os.getenv("GEMINI_API_KEY")
+    # Get API keys (from environment or .env file)
+    openai_key = load_api_key_from_env("OPENAI_API_KEY")
+    anthropic_key = load_api_key_from_env("ANTHROPIC_API_KEY")
+    gemini_key = load_api_key_from_env("GEMINI_API_KEY")
 
     for idx, memo_data in memos.items():
         if memo_data['memo'] is None:
@@ -324,6 +527,9 @@ def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -
     print(f"Failed submissions: {len([j for j in batch_jobs if not j.get('batch_id')])}")
     print(f"{'='*70}\n")
 
+    # Save batch job mappings to file for debugging and recovery
+    save_batch_job_mappings(batch_jobs, BATCH_TEMP_DIR)
+
     return batch_jobs
 
 
@@ -340,10 +546,10 @@ def poll_all_batch_jobs(batch_jobs: List[Dict], poll_interval: int = 60) -> Dict
     print(f"Poll interval: {poll_interval} seconds")
     print(f"{'='*70}\n")
 
-    # Get API keys
-    openai_key = os.getenv("OPENAI_API_KEY")
-    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
-    gemini_key = os.getenv("GEMINI_API_KEY")
+    # Get API keys (from environment or .env file)
+    openai_key = load_api_key_from_env("OPENAI_API_KEY")
+    anthropic_key = load_api_key_from_env("ANTHROPIC_API_KEY")
+    gemini_key = load_api_key_from_env("GEMINI_API_KEY")
 
     results = {}
     completed = set()
@@ -407,9 +613,10 @@ def poll_all_batch_jobs(batch_jobs: List[Dict], poll_interval: int = 60) -> Dict
 
                 elif provider == "gemini":
                     status_data = check_gemini_batch_status(batch_id, gemini_key)
-                    state = status_data.get("state")
+                    # State is nested in metadata for Gemini API
+                    state = status_data.get("metadata", {}).get("state")
 
-                    if state == "STATE_SUCCEEDED":
+                    if state == "BATCH_STATE_SUCCEEDED":
                         output_path = extract_gemini_batch_results(status_data, BATCH_TEMP_DIR, input_index=job_info['input_index'])
                         with open(output_path, 'r') as f:
                             batch_results = [json.loads(line) for line in f]
@@ -418,7 +625,7 @@ def poll_all_batch_jobs(batch_jobs: List[Dict], poll_interval: int = 60) -> Dict
                         completed.add(batch_id)
                         print(f"  ✅ {job_info['evaluator_model']} for input {job_info['input_index']}: COMPLETE")
 
-                    elif state in ["STATE_FAILED", "STATE_CANCELLED"]:
+                    elif state in ["BATCH_STATE_FAILED", "BATCH_STATE_CANCELLED"]:
                         failed.add(batch_id)
                         print(f"  ❌ {job_info['evaluator_model']} for input {job_info['input_index']}: {state}")
 
@@ -735,11 +942,31 @@ Examples:
         nargs='+',
         help='Custom indices to evaluate (space-separated). If not provided, uses default comprehensive sample.'
     )
+    parser.add_argument(
+        '--parallel-memos',
+        action='store_true',
+        help='Generate memos in parallel using Claude Batch API (MUCH faster, recommended)'
+    )
     args = parser.parse_args()
 
     print(f"\n{'='*70}")
     print(f"TRULY PARALLELIZED COMPREHENSIVE BATCH EVALUATION")
     print(f"{'='*70}\n")
+
+    # Load API keys from environment or .env file and set in os.environ
+    # This ensures subprocess calls (like model_run.py) can access them
+    api_keys = {
+        "OPENAI_API_KEY": load_api_key_from_env("OPENAI_API_KEY"),
+        "ANTHROPIC_API_KEY": load_api_key_from_env("ANTHROPIC_API_KEY"),
+        "GEMINI_API_KEY": load_api_key_from_env("GEMINI_API_KEY")
+    }
+
+    # Set in os.environ so subprocesses can access them
+    for key, value in api_keys.items():
+        if value:
+            os.environ[key] = value
+        else:
+            print(f"⚠️  Warning: {key} not found in environment or .env file")
 
     # Determine which indices to use
     if args.indices:
@@ -781,11 +1008,29 @@ Examples:
         print(f"\n  Created comprehensive sample with {sampling_info['total_sampled']} total indices")
 
     # Phase 1: Generate all memos
-    memos = generate_all_memos(
-        indices=indices_to_evaluate,
-        train_file=TRAIN_FILE,
-        model=MODEL_TO_EVALUATE
-    )
+    if args.parallel_memos:
+        # Use parallel batch generation (faster)
+        if not api_keys["ANTHROPIC_API_KEY"]:
+            print("❌ ERROR: ANTHROPIC_API_KEY not found")
+            print("   Checked:")
+            print("   - Environment variable ANTHROPIC_API_KEY")
+            print("   - .env file at project root")
+            print("   Parallel memo generation requires Claude API access")
+            sys.exit(1)
+
+        memos = generate_all_memos_parallel(
+            indices=indices_to_evaluate,
+            train_file=TRAIN_FILE,
+            model=MODEL_TO_EVALUATE,
+            api_key=api_keys["ANTHROPIC_API_KEY"]
+        )
+    else:
+        # Use sequential generation (slower but more reliable)
+        memos = generate_all_memos(
+            indices=indices_to_evaluate,
+            train_file=TRAIN_FILE,
+            model=MODEL_TO_EVALUATE
+        )
 
     # Phase 2: Submit all batch jobs (NO WAITING)
     batch_jobs = submit_all_batch_jobs(
@@ -834,8 +1079,13 @@ Examples:
     # print(f"")
     # print(f"Results saved to: {results_file}")
     print(f"")
-    print(f"Batch evaluation jobs completed. Results are in batch_temp/ folder.")
-    print(f"Run generate_final_results.py to aggregate the results.")
+    print(f"✓ Batch evaluation jobs completed. Results are in {BATCH_TEMP_DIR}/ folder.")
+    print(f"")
+    print(f"Next step: Run generate_final_results.py to aggregate the results:")
+    print(f"  python3 evals/batch_evals/generate_final_results.py \\")
+    print(f"    --batch-temp-dir {BATCH_TEMP_DIR.name} \\")
+    print(f"    --output-dir results_benchmark_2 \\")
+    print(f"    --skip-download")
     print(f"{'='*70}\n")
 
 

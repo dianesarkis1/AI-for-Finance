@@ -37,9 +37,9 @@ from typing import Dict, List, Any, Optional
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 # Default paths (can be overridden by command line arguments)
-DEFAULT_BATCH_TEMP_DIR = Path(__file__).parent / "batch_temp"
+DEFAULT_BATCH_TEMP_DIR = Path(__file__).parent / "batch_temp_2"
 DEFAULT_GEMINI_JOBS_FILE = Path(__file__).parent / "gemini_batch_jobs.json"
-DEFAULT_OUTPUT_FILE = Path(__file__).parent / "results_benchmark" / "final_comprehensive_eval_results.json"
+DEFAULT_OUTPUT_FILE = Path(__file__).parent / "results_benchmark_2" / "final_comprehensive_eval_results.json"
 
 # These will be set by command line arguments
 BATCH_TEMP_DIR = DEFAULT_BATCH_TEMP_DIR
@@ -721,13 +721,13 @@ Examples:
     parser.add_argument(
         '--batch-temp-dir',
         type=str,
-        default='batch_temp',
+        default='batch_temp_2',
         help='Directory containing batch output files (default: batch_temp)'
     )
     parser.add_argument(
         '--output-dir',
         type=str,
-        default='results_benchmark',
+        default='results_benchmark_2',
         help='Directory to save final results (default: results_benchmark)'
     )
     args = parser.parse_args()
