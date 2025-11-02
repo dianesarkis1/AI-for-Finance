@@ -5,12 +5,12 @@ Version 2: Includes qualitative metrics (accuracy, completeness, consistency).
 Outputs markdown only.
 """
 
+import argparse
 import json
 from pathlib import Path
 
-# Paths
-RESULTS_FILE = Path(__file__).parent / "results_benchmark_3" / "final_comprehensive_eval_results.json"
-OUTPUT_FILE = Path(__file__).parent / "results_benchmark_3" / "results_tables_2.md"
+# Default paths (can be overridden by command-line arguments)
+DEFAULT_RESULTS_DIR = "results_benchmark_3"
 
 
 def create_summary_table(data):
@@ -200,12 +200,28 @@ def format_markdown_table(table):
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Create results tables from final_comprehensive_eval_results.json"
+    )
+    parser.add_argument(
+        '--results-dir',
+        type=str,
+        default=DEFAULT_RESULTS_DIR,
+        help=f'Results directory name (default: {DEFAULT_RESULTS_DIR})'
+    )
+    args = parser.parse_args()
+
+    # Set up paths
+    results_dir = Path(__file__).parent / args.results_dir
+    RESULTS_FILE = results_dir / "final_comprehensive_eval_results.json"
+    OUTPUT_FILE = results_dir / "results_tables_2.md"
+
     print(f"\n{'='*70}")
     print(f"CREATING RESULTS TABLES V2")
     print(f"{'='*70}\n")
 
     # Load results
-    print(f"Loading results from {RESULTS_FILE.name}...")
+    print(f"Loading results from {RESULTS_FILE}...")
     with open(RESULTS_FILE, 'r') as f:
         data = json.load(f)
 

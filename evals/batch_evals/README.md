@@ -17,7 +17,50 @@ This system evaluates a model's ability to generate investment memos from credit
 - **Custom Testing**: Test with specific indices using `--indices` flag
 - **Fast Memo Generation**: Optional parallel memo generation using Claude Batch API
 
-## Quick Start
+## Quick Start (Using Orchestrator Script - RECOMMENDED)
+
+The **easiest way** to run the full evaluation workflow is using the orchestrator script:
+
+### Run Complete Workflow with Custom Run Name and Prompt
+
+```bash
+# Run with default comprehensive sample (50 indices) and baseline prompt
+python evals/batch_evals/run_eval_workflow.py my_experiment_v1
+
+# Run with custom prompt
+python evals/batch_evals/run_eval_workflow.py improved_prompt_v2 --prompt prompts/improved.txt
+
+# Run with custom indices for quick testing
+python evals/batch_evals/run_eval_workflow.py test_run --indices 0 1 2 6 --prompt prompts/test.txt
+
+# Run with parallel memo generation (recommended for speed)
+python evals/batch_evals/run_eval_workflow.py baseline_run --parallel-memos
+```
+
+**What it does (all in one command):**
+1. Generates memos using your specified prompt
+2. Submits batch evaluations to all 3 evaluators (GPT-5, Claude, Gemini)
+3. Polls and downloads results
+4. Aggregates results into final JSON
+5. Creates analysis tables in markdown
+
+**Output directories:**
+- `batch_temp_{run_name}/` - All batch input/output files
+- `results_{run_name}/` - Final results JSON and analysis tables
+
+**Time:** ~45-60 minutes for 50 indices
+
+**Key Benefits:**
+- ✅ **One command** runs entire workflow
+- ✅ **Isolated runs** - each run name creates separate directories
+- ✅ **Easy comparison** - compare results across different prompts
+- ✅ **Resumable** - batch jobs continue on provider servers
+
+---
+
+## Manual Step-by-Step Workflow (Advanced Users)
+
+If you prefer to run each step manually or need more control:
 
 ### 1. Preview Sampling (Optional)
 See which indices will be evaluated without running anything:

@@ -70,10 +70,6 @@ from evals.batch_evals.batch_utils import (
 TRAIN_FILE = Path("data/train.jsonl")
 BASELINE_SAMPLED_INDICES_FILE = Path("evals/benchmark/baseline_sampled_indices_seed42.json")
 OUTPUT_DIR = Path("evals/batch_evals")
-# Use batch_temp_3 to avoid overwriting existing files for debugging
-BATCH_TEMP_DIR = OUTPUT_DIR / "batch_temp_3"
-BATCH_TEMP_DIR.mkdir(parents=True, exist_ok=True)
-print(f"✓ Using directory: {BATCH_TEMP_DIR}")
 
 # Random seed for reproducibility
 RANDOM_SEED = 42
@@ -82,10 +78,13 @@ RANDOM_SEED = 42
 MODEL_TO_EVALUATE = "claude-sonnet-4-20250514"
 EVALUATOR_MODELS = ["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
 
-# Prompt configuration
-# Set to None to use default (prompts/baseline.txt)
-# Or specify a path like: Path("prompts/my_custom_prompt.txt")
-PROMPT_FILE = None
+# These will be overridden by command-line arguments if provided
+DEFAULT_RUN_NAME = "batch_temp_3"
+DEFAULT_PROMPT_FILE = None  # Uses prompts/baseline.txt if None
+
+# Global variables set by main() based on command-line arguments
+BATCH_TEMP_DIR = None  # Set dynamically in main()
+PROMPT_FILE = None  # Set dynamically in main()
 
 
 def load_baseline_sampled_indices(file_path: Path) -> list[int]:
@@ -947,7 +946,36 @@ Examples:
         action='store_true',
         help='Generate memos in parallel using Claude Batch API (MUCH faster, recommended)'
     )
+    parser.add_argument(
+        '--run-name',
+        type=str,
+        default=DEFAULT_RUN_NAME,
+        help=f'Name for this run (determines output directories: batch_temp_<name>, results_<name>). Default: {DEFAULT_RUN_NAME}'
+    )
+    parser.add_argument(
+        '--prompt',
+        type=str,
+        default=None,
+        help='Path to custom prompt file (e.g., prompts/my_prompt.txt). If not provided, uses prompts/baseline.txt'
+    )
     args = parser.parse_args()
+
+    # Declare global variables that we'll modify
+    global BATCH_TEMP_DIR, PROMPT_FILE
+
+    # Set up directories based on run name
+    BATCH_TEMP_DIR = OUTPUT_DIR / args.run_name
+    RESULTS_DIR = OUTPUT_DIR / f"results_{args.run_name.replace('batch_temp_', '')}"
+    BATCH_TEMP_DIR.mkdir(parents=True, exist_ok=True)
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Set prompt file
+    PROMPT_FILE = Path(args.prompt) if args.prompt else DEFAULT_PROMPT_FILE
+
+    print(f"✓ Run name: {args.run_name}")
+    print(f"✓ Batch temp directory: {BATCH_TEMP_DIR}")
+    print(f"✓ Results directory: {RESULTS_DIR}")
+    print(f"✓ Prompt file: {PROMPT_FILE if PROMPT_FILE else 'prompts/baseline.txt (default)'}")
 
     print(f"\n{'='*70}")
     print(f"TRULY PARALLELIZED COMPREHENSIVE BATCH EVALUATION")
