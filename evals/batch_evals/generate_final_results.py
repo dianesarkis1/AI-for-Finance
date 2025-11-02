@@ -573,13 +573,17 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
     """Calculate aggregate statistics across all memos and evaluators."""
     print("Calculating aggregate statistics...")
 
-    memo_level_scores = []  # Summary scores per memo+evaluator (using all 4 metrics)
+    memo_averaged_scores = []  # Average score per memo (averaged across 3 evaluators)
     evaluator_memo_scores = defaultdict(list)  # Summary scores by evaluator
     metric_scores = defaultdict(list)  # Individual metric scores
 
     quality_metrics = ['quality_clarity', 'quality_tone', 'quality_length', 'quality_structure']
 
     for index_str, index_data in results_by_index.items():
+        # Collect the memo-level averaged score (averaged across all 3 evaluators)
+        if 'summary_score' in index_data:
+            memo_averaged_scores.append(index_data['summary_score'])
+
         for evaluator, eval_results in index_data.items():
             if evaluator == 'summary_score':  # Skip summary_score key
                 continue
@@ -587,7 +591,6 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
             # Use the calculated summary_score (which includes all 4 metrics: accuracy, completeness, consistency, quality)
             if 'summary_score' in eval_results:
                 summary_score = eval_results['summary_score']
-                memo_level_scores.append(summary_score)
                 evaluator_memo_scores[evaluator].append(summary_score)
 
             # Collect individual quality metric scores for additional stats
@@ -596,19 +599,20 @@ def calculate_aggregate_statistics(results_by_index: Dict[int, Dict]) -> Dict[st
                     score = eval_results[metric]['score']
                     metric_scores[metric].append(score)
 
-    # Calculate summary statistics
-    total_evaluations = len(memo_level_scores)
+    # Calculate summary statistics using memo-averaged scores
+    # (one score per memo, averaged across the 3 evaluators)
+    total_evaluations = sum(len(scores) for scores in evaluator_memo_scores.values())
 
     summary = {
         "total_memos_evaluated": len(results_by_index),
         "dataset_indices_evaluated": sorted(results_by_index.keys()),
         "total_evaluations": total_evaluations,
         "total_quality_scores": sum(len(scores) for scores in metric_scores.values()),
-        "mean_score": round(statistics.mean(memo_level_scores), 2) if memo_level_scores else 0.0,
-        "median_score": round(statistics.median(memo_level_scores), 2) if memo_level_scores else 0.0,
-        "min_score": round(min(memo_level_scores), 2) if memo_level_scores else 0.0,
-        "max_score": round(max(memo_level_scores), 2) if memo_level_scores else 0.0,
-        "stdev_score": round(statistics.stdev(memo_level_scores), 2) if len(memo_level_scores) > 1 else 0.0,
+        "mean_score": round(statistics.mean(memo_averaged_scores), 2) if memo_averaged_scores else 0.0,
+        "median_score": round(statistics.median(memo_averaged_scores), 2) if memo_averaged_scores else 0.0,
+        "min_score": round(min(memo_averaged_scores), 2) if memo_averaged_scores else 0.0,
+        "max_score": round(max(memo_averaged_scores), 2) if memo_averaged_scores else 0.0,
+        "stdev_score": round(statistics.stdev(memo_averaged_scores), 2) if len(memo_averaged_scores) > 1 else 0.0,
         "evaluators": {},
         "metrics": {}
     }

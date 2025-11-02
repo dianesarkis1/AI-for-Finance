@@ -56,10 +56,10 @@
     "total_evaluations": 150,
     "total_quality_scores": 600,
     "mean_score": 61.32,
-    "median_score": 60.51,
-    "min_score": 33.89,
-    "max_score": 85.69,
-    "stdev_score": 9.88,
+    "median_score": 67.5,
+    "min_score": 17.69,
+    "max_score": 96.0,
+    "stdev_score": 21.38,
     "evaluators": {
       "gpt-5": {
         "count": 50,

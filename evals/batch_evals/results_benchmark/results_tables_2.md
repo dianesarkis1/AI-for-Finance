@@ -8,10 +8,10 @@
 | Total Evaluations     | 150   |
 | Total Quality Scores  | 600   |
 | Mean Score            | 61.32 |
-| Median Score          | 67.50 |
-| Min Score             | 17.69 |
-| Max Score             | 96.00 |
-| Std Dev               | 21.38 |
+| Median Score          | 60.51 |
+| Min Score             | 33.89 |
+| Max Score             | 85.69 |
+| Std Dev               | 9.88  |
 
 ## Statistics by Evaluator
 
