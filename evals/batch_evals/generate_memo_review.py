@@ -76,9 +76,19 @@ def load_source_document(index: int, train_path: Path) -> Dict[str, str]:
     raise ValueError(f"Index {index} not found in {train_path}")
 
 
-def load_batch_input(batch_timestamp: str, batch_temp_dir: Path) -> Dict[str, Any]:
+def load_batch_input(batch_timestamp: str, batch_temp_dir: Path, index: int = None) -> Dict[str, Any]:
     """Load the batch input file containing source and generated memo."""
-    input_file = batch_temp_dir / f"batch_input_{batch_timestamp}.jsonl"
+    # Try new format first: batch_input_{index}_{timestamp}.jsonl
+    if index is not None:
+        input_file = batch_temp_dir / f"batch_input_{index}_{batch_timestamp}.jsonl"
+        if input_file.exists():
+            pass  # Use this file
+        else:
+            # Fall back to old format
+            input_file = batch_temp_dir / f"batch_input_{batch_timestamp}.jsonl"
+    else:
+        # Old format
+        input_file = batch_temp_dir / f"batch_input_{batch_timestamp}.jsonl"
 
     if not input_file.exists():
         raise FileNotFoundError(f"Batch input file not found: {input_file}")
@@ -213,20 +223,21 @@ def format_evaluation_results(results: Dict[str, Any]) -> str:
 
 
 def generate_review_document(batch_timestamp: str, index: int,
-                            base_dir: Path) -> str:
+                            base_dir: Path, batch_temp_name: str = "batch_temp",
+                            results_dir_name: str = "results_benchmark") -> str:
     """Generate a comprehensive review document."""
 
     # Set up paths
     train_path = base_dir / "data" / "train.jsonl"
-    batch_temp_dir = base_dir / "evals" / "batch_evals" / "batch_temp"
-    results_path = base_dir / "evals" / "batch_evals" / "results_benchmark" / "final_comprehensive_eval_results.json"
+    batch_temp_dir = base_dir / "evals" / "batch_evals" / batch_temp_name
+    results_path = base_dir / "evals" / "batch_evals" / results_dir_name / "final_comprehensive_eval_results.json"
 
     # Load data
     print(f"Loading source document for index {index}...")
     source_doc = load_source_document(index, train_path)
 
     print(f"Loading batch input file for timestamp {batch_timestamp}...")
-    batch_requests = load_batch_input(batch_timestamp, batch_temp_dir)
+    batch_requests = load_batch_input(batch_timestamp, batch_temp_dir, index)
 
     print(f"Loading evaluation results...")
     eval_results = load_evaluation_results(index, results_path)
@@ -274,7 +285,7 @@ def generate_review_document(batch_timestamp: str, index: int,
 
 
 def main():
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 3:
         print(__doc__)
         sys.exit(1)
 
@@ -285,13 +296,18 @@ def main():
         print(f"Error: Index must be an integer, got '{sys.argv[2]}'")
         sys.exit(1)
 
+    # Optional arguments for custom directories
+    batch_temp_name = sys.argv[3] if len(sys.argv) > 3 else "batch_temp"
+    results_dir_name = sys.argv[4] if len(sys.argv) > 4 else "results_benchmark"
+
     # Assume script is in evals/batch_evals directory
     script_dir = Path(__file__).parent
     base_dir = script_dir.parent.parent  # Go up to project root
 
     try:
         print(f"Generating review for batch {batch_timestamp}, index {index}...")
-        review = generate_review_document(batch_timestamp, index, base_dir)
+        print(f"Using batch_temp: {batch_temp_name}, results: {results_dir_name}")
+        review = generate_review_document(batch_timestamp, index, base_dir, batch_temp_name, results_dir_name)
 
         # Save to file
         output_file = script_dir / f"memo_review_{index}_batch_{batch_timestamp}.md"

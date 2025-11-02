@@ -332,16 +332,28 @@ def parse_gemini_output(file_path: Path) -> Dict[str, Any]:
             if line.strip():
                 result = json.loads(line)
                 custom_id = result.get("custom_id", "")
-                response_body = result.get("response", {}).get("body", {})
 
-                if response_body.get("choices"):
-                    content = response_body["choices"][0]["message"]["content"]
+                # Gemini format: response.candidates[0].content.parts[0].text
+                response = result.get("response", {})
+                candidates = response.get("candidates", [])
 
-                    # Extract metric name from custom_id (e.g., "accuracy_108" -> "accuracy")
-                    metric = custom_id.rsplit('_', 1)[0] if '_' in custom_id else custom_id
+                if candidates:
+                    content_obj = candidates[0].get("content", {})
+                    parts = content_obj.get("parts", [])
 
-                    parsed = extract_score_from_content(content, metric)
-                    metrics[metric] = parsed
+                    if parts:
+                        # Concatenate all text parts
+                        content = ""
+                        for part in parts:
+                            if "text" in part:
+                                content += part["text"]
+
+                        # Use custom_id as-is (e.g., "quality_clarity", not "quality")
+                        # Don't strip suffixes because they're part of the metric name
+                        metric = custom_id
+
+                        parsed = extract_score_from_content(content, metric)
+                        metrics[metric] = parsed
     return metrics
 
 
