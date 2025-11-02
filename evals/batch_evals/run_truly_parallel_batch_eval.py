@@ -11,9 +11,17 @@ This script runs batch evaluations in TRUE parallel:
 This is MUCH faster than sequential processing.
 
 Usage:
+    # Use default comprehensive sample (50 indices)
     python run_truly_parallel_batch_eval.py
+
+    # Test with specific indices
+    python run_truly_parallel_batch_eval.py --indices 0 1 2 6 12
+
+    # Test with just one index
+    python run_truly_parallel_batch_eval.py --indices 128
 """
 
+import argparse
 import json
 import os
 import random
@@ -59,8 +67,10 @@ from evals.batch_evals.batch_utils import (
 TRAIN_FILE = Path("data/train.jsonl")
 BASELINE_SAMPLED_INDICES_FILE = Path("evals/benchmark/baseline_sampled_indices_seed42.json")
 OUTPUT_DIR = Path("evals/batch_evals")
-BATCH_TEMP_DIR = OUTPUT_DIR / "batch_temp"
+# Use batch_temp_2 to avoid overwriting existing files for debugging
+BATCH_TEMP_DIR = OUTPUT_DIR / "batch_temp_2"
 BATCH_TEMP_DIR.mkdir(parents=True, exist_ok=True)
+print(f"✓ Using directory: {BATCH_TEMP_DIR}")
 
 # Random seed for reproducibility
 RANDOM_SEED = 42
@@ -400,7 +410,7 @@ def poll_all_batch_jobs(batch_jobs: List[Dict], poll_interval: int = 60) -> Dict
                     state = status_data.get("state")
 
                     if state == "STATE_SUCCEEDED":
-                        output_path = extract_gemini_batch_results(status_data, BATCH_TEMP_DIR)
+                        output_path = extract_gemini_batch_results(status_data, BATCH_TEMP_DIR, input_index=job_info['input_index'])
                         with open(output_path, 'r') as f:
                             batch_results = [json.loads(line) for line in f]
                         parsed = parse_gemini_batch_results(batch_results)
@@ -703,35 +713,76 @@ def save_results(results: Dict, sampling_info: Dict, output_dir: Path):
 
 def main():
     """Main execution function."""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(
+        description="Run truly parallelized batch evaluation",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Use default comprehensive sample (50 indices)
+  python run_truly_parallel_batch_eval.py
+
+  # Test with specific indices
+  python run_truly_parallel_batch_eval.py --indices 0 1 2 6 12
+
+  # Test with just one index
+  python run_truly_parallel_batch_eval.py --indices 128
+        """
+    )
+    parser.add_argument(
+        '--indices',
+        type=int,
+        nargs='+',
+        help='Custom indices to evaluate (space-separated). If not provided, uses default comprehensive sample.'
+    )
+    args = parser.parse_args()
+
     print(f"\n{'='*70}")
     print(f"TRULY PARALLELIZED COMPREHENSIVE BATCH EVALUATION")
     print(f"{'='*70}\n")
 
-    # Load baseline sampled indices
-    print(f"Loading baseline sampled indices from {BASELINE_SAMPLED_INDICES_FILE}...")
-    baseline_indices = load_baseline_sampled_indices(BASELINE_SAMPLED_INDICES_FILE)
-    print(f"  Loaded {len(baseline_indices)} baseline indices: {baseline_indices}")
+    # Determine which indices to use
+    if args.indices:
+        # Use custom indices from command line
+        indices_to_evaluate = args.indices
+        sampling_info = {
+            'all_sampled_indices': indices_to_evaluate,
+            'total_sampled': len(indices_to_evaluate),
+            'source': 'command_line_custom',
+            'baseline_count': 0,
+            'first_n_count': 0,
+            'random_sample_count': 0
+        }
+        print(f"Using custom indices from command line: {indices_to_evaluate}")
+        print(f"  Total indices: {len(indices_to_evaluate)}\n")
+    else:
+        # Use default comprehensive sample
+        # Load baseline sampled indices
+        print(f"Loading baseline sampled indices from {BASELINE_SAMPLED_INDICES_FILE}...")
+        baseline_indices = load_baseline_sampled_indices(BASELINE_SAMPLED_INDICES_FILE)
+        print(f"  Loaded {len(baseline_indices)} baseline indices: {baseline_indices}")
 
-    # Count total samples
-    print(f"\nCounting samples in {TRAIN_FILE}...")
-    total_samples = count_train_samples(TRAIN_FILE)
-    print(f"  Total samples in dataset: {total_samples}")
+        # Count total samples
+        print(f"\nCounting samples in {TRAIN_FILE}...")
+        total_samples = count_train_samples(TRAIN_FILE)
+        print(f"  Total samples in dataset: {total_samples}")
 
-    # Create comprehensive sample
-    print(f"\nCreating comprehensive sample...")
-    sampling_info = create_comprehensive_sample(
-        baseline_indices=baseline_indices,
-        first_n=3,
-        random_sample_size=37,
-        total_samples=total_samples,
-        seed=RANDOM_SEED
-    )
+        # Create comprehensive sample
+        print(f"\nCreating comprehensive sample...")
+        sampling_info = create_comprehensive_sample(
+            baseline_indices=baseline_indices,
+            first_n=3,
+            random_sample_size=37,
+            total_samples=total_samples,
+            seed=RANDOM_SEED
+        )
 
-    print(f"\n  Created comprehensive sample with {sampling_info['total_sampled']} total indices")
+        indices_to_evaluate = sampling_info['all_sampled_indices']
+        print(f"\n  Created comprehensive sample with {sampling_info['total_sampled']} total indices")
 
     # Phase 1: Generate all memos
     memos = generate_all_memos(
-        indices=sampling_info['all_sampled_indices'],
+        indices=indices_to_evaluate,
         train_file=TRAIN_FILE,
         model=MODEL_TO_EVALUATE
     )

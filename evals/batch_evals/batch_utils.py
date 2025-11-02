@@ -1313,7 +1313,7 @@ def check_gemini_batch_status(batch_name: str, api_key: str) -> Dict:
     return json.loads(response)
 
 
-def extract_gemini_batch_results(status_data: Dict, temp_dir: Path) -> Path:
+def extract_gemini_batch_results(status_data: Dict, temp_dir: Path, input_index: Optional[int] = None) -> Path:
     """
     Extract Gemini batch results from status response.
 
@@ -1322,6 +1322,7 @@ def extract_gemini_batch_results(status_data: Dict, temp_dir: Path) -> Path:
     Args:
         status_data: Status response from Gemini API
         temp_dir: Directory to store extracted results
+        input_index: Optional dataset index to include in filename for correct mapping
 
     Returns:
         Path to extracted results file in JSONL format
@@ -1335,7 +1336,10 @@ def extract_gemini_batch_results(status_data: Dict, temp_dir: Path) -> Path:
 
     # Convert to JSONL format matching our parser expectations
     timestamp = int(time.time())
-    output_file = temp_dir / f"gemini_batch_output_{timestamp}.jsonl"
+    if input_index is not None:
+        output_file = temp_dir / f"gemini_batch_output_{input_index}_{timestamp}.jsonl"
+    else:
+        output_file = temp_dir / f"gemini_batch_output_{timestamp}.jsonl"
 
     with open(output_file, "w") as f:
         for response_item in inlined_responses:

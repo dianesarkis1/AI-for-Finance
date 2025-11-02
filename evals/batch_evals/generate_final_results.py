@@ -36,10 +36,15 @@ from typing import Dict, List, Any, Optional
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-# Paths
-BATCH_TEMP_DIR = Path(__file__).parent / "batch_temp"
-GEMINI_JOBS_FILE = Path(__file__).parent / "gemini_batch_jobs.json"
-OUTPUT_FILE = Path(__file__).parent / "final_comprehensive_eval_results.json"
+# Default paths (can be overridden by command line arguments)
+DEFAULT_BATCH_TEMP_DIR = Path(__file__).parent / "batch_temp"
+DEFAULT_GEMINI_JOBS_FILE = Path(__file__).parent / "gemini_batch_jobs.json"
+DEFAULT_OUTPUT_FILE = Path(__file__).parent / "results_benchmark" / "final_comprehensive_eval_results.json"
+
+# These will be set by command line arguments
+BATCH_TEMP_DIR = DEFAULT_BATCH_TEMP_DIR
+GEMINI_JOBS_FILE = DEFAULT_GEMINI_JOBS_FILE
+OUTPUT_FILE = DEFAULT_OUTPUT_FILE
 
 # Dataset indices that were evaluated (from run_truly_parallel_batch_eval.py)
 EVALUATED_INDICES = [
@@ -694,18 +699,52 @@ def print_summary(summary: Dict[str, Any]):
 # =============================================================================
 
 def main():
+    global BATCH_TEMP_DIR, OUTPUT_FILE, GEMINI_JOBS_FILE
+
     parser = argparse.ArgumentParser(
-        description="Generate final comprehensive evaluation results from batch outputs"
+        description="Generate final comprehensive evaluation results from batch outputs",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Use default directories (batch_temp/, results_benchmark/)
+  python generate_final_results.py --skip-download
+
+  # Use custom directories (for test runs)
+  python generate_final_results.py --batch-temp-dir batch_temp_2 --output-dir results_benchmark_2 --skip-download
+        """
     )
     parser.add_argument(
         '--skip-download',
         action='store_true',
         help='Skip Gemini download step (use existing files in batch_temp/)'
     )
+    parser.add_argument(
+        '--batch-temp-dir',
+        type=str,
+        default='batch_temp',
+        help='Directory containing batch output files (default: batch_temp)'
+    )
+    parser.add_argument(
+        '--output-dir',
+        type=str,
+        default='results_benchmark',
+        help='Directory to save final results (default: results_benchmark)'
+    )
     args = parser.parse_args()
+
+    # Set global paths based on arguments
+    BATCH_TEMP_DIR = Path(__file__).parent / args.batch_temp_dir
+    OUTPUT_FILE = Path(__file__).parent / args.output_dir / "final_comprehensive_eval_results.json"
+    GEMINI_JOBS_FILE = Path(__file__).parent / "gemini_batch_jobs.json"
+
+    # Create output directory if it doesn't exist
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"\n{'#'*70}")
     print(f"# GENERATE FINAL COMPREHENSIVE EVALUATION RESULTS")
+    print(f"{'#'*70}")
+    print(f"Batch temp directory: {BATCH_TEMP_DIR}")
+    print(f"Output file:          {OUTPUT_FILE}")
     print(f"{'#'*70}\n")
 
     # Step 1: Download Gemini results (optional)
