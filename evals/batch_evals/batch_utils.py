@@ -1328,8 +1328,16 @@ def extract_gemini_batch_results(status_data: Dict, temp_dir: Path, input_index:
         Path to extracted results file in JSONL format
     """
     # Extract results from inline responses
-    dest = status_data.get("dest", {})
-    inlined_responses = dest.get("inlinedResponses", [])
+    # Gemini format: metadata.output.inlinedResponses.inlinedResponses
+    metadata = status_data.get("metadata", {})
+    output = metadata.get("output", {})
+    inlined_container = output.get("inlinedResponses", {})
+    inlined_responses = inlined_container.get("inlinedResponses", [])
+
+    # Fallback to old format if new format not found
+    if not inlined_responses:
+        dest = status_data.get("dest", {})
+        inlined_responses = dest.get("inlinedResponses", [])
 
     if not inlined_responses:
         raise RuntimeError("No results found in batch response")

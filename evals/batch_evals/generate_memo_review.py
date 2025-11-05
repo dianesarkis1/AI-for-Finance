@@ -10,26 +10,36 @@ Generate comprehensive review documents for memo evaluations, including:
 
 Usage:
 ------
-    python3 generate_memo_review.py <batch_timestamp> <index>
+    python3 generate_memo_review.py <index> [batch_temp_dir] [results_dir] [output_path]
 
 Parameters:
 -----------
-    batch_timestamp : str
-        The timestamp from the batch input file (e.g., 1761508983)
-    index : int
+    index : int (required)
         The index number from train.jsonl (0-based, e.g., 128)
+
+    batch_temp_dir : str (optional)
+        Name of batch temp directory (default: batch_temp)
+
+    results_dir : str (optional)
+        Name of results directory (default: results_benchmark)
+
+    output_path : str (optional)
+        Custom output file path (default: saves to results_dir)
 
 Examples:
 ---------
-    python3 generate_memo_review.py 1761508983 128
+    # Basic usage (uses default directories)
+    python3 generate_memo_review.py 128
 
-    # To find the batch timestamp for a specific document:
-    grep -l "Biodesix" evals/batch_evals/batch_temp/batch_input_*.jsonl
-    # Output: batch_input_1761508983.jsonl (timestamp: 1761508983)
+    # With custom directories
+    python3 generate_memo_review.py 2 batch_temp_anthropic_prompt_gen results_anthropic_prompt_gen
+
+    # With custom output path
+    python3 generate_memo_review.py 128 batch_temp results_benchmark custom_output.md
 
 Output:
 -------
-Generates a markdown file: memo_review_{index}_batch_{timestamp}.md
+Generates a markdown file in the results directory: memo_review_{index}_batch_{timestamp}.md
 
 The output includes:
     1. Metadata (batch timestamp, source URL, overall score)
@@ -285,32 +295,58 @@ def generate_review_document(batch_timestamp: str, index: int,
 
 
 def main():
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print(__doc__)
         sys.exit(1)
 
-    batch_timestamp = sys.argv[1]
+    # First argument is now index (not timestamp)
     try:
-        index = int(sys.argv[2])
+        index = int(sys.argv[1])
     except ValueError:
-        print(f"Error: Index must be an integer, got '{sys.argv[2]}'")
+        print(f"Error: Index must be an integer, got '{sys.argv[1]}'")
         sys.exit(1)
 
     # Optional arguments for custom directories
-    batch_temp_name = sys.argv[3] if len(sys.argv) > 3 else "batch_temp"
-    results_dir_name = sys.argv[4] if len(sys.argv) > 4 else "results_benchmark"
+    batch_temp_name = sys.argv[2] if len(sys.argv) > 2 else "batch_temp"
+    results_dir_name = sys.argv[3] if len(sys.argv) > 3 else "results_benchmark"
+    output_path = sys.argv[4] if len(sys.argv) > 4 else None
 
     # Assume script is in evals/batch_evals directory
     script_dir = Path(__file__).parent
     base_dir = script_dir.parent.parent  # Go up to project root
 
+    # Find the timestamp automatically by looking for batch input file
+    batch_temp_dir = script_dir / batch_temp_name
+    input_files = list(batch_temp_dir.glob(f"batch_input_{index}_*.jsonl"))
+
+    if not input_files:
+        print(f"Error: No batch input file found for index {index} in {batch_temp_dir}")
+        sys.exit(1)
+
+    if len(input_files) > 1:
+        print(f"Warning: Multiple batch input files found for index {index}, using most recent")
+        input_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+
+    # Extract timestamp from filename: batch_input_{index}_{timestamp}.jsonl
+    filename = input_files[0].stem
+    batch_timestamp = filename.split('_')[-1]
+
+    print(f"Found batch timestamp: {batch_timestamp}")
+
     try:
-        print(f"Generating review for batch {batch_timestamp}, index {index}...")
+        print(f"Generating review for index {index}...")
         print(f"Using batch_temp: {batch_temp_name}, results: {results_dir_name}")
         review = generate_review_document(batch_timestamp, index, base_dir, batch_temp_name, results_dir_name)
 
         # Save to file
-        output_file = script_dir / f"memo_review_{index}_batch_{batch_timestamp}.md"
+        if output_path:
+            output_file = Path(output_path)
+        else:
+            # Default: save to results directory
+            results_dir = script_dir / results_dir_name
+            results_dir.mkdir(exist_ok=True, parents=True)
+            output_file = results_dir / f"memo_review_{index}_batch_{batch_timestamp}.md"
+
         output_file.write_text(review)
 
         print(f"\n✓ Review document generated successfully!")
