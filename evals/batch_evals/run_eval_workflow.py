@@ -224,7 +224,8 @@ Examples:
     print(f"\nBatch data:")
     print(f"  📂 {script_dir / batch_temp_name}/")
     print(f"\nTo review a specific memo:")
-    print(f"  python generate_memo_review.py <timestamp> <index> {batch_temp_name} {results_name}")
+    print(f"  python generate_memo_review.py <index> {batch_temp_name} {results_name}")
+    print(f"  Example: python generate_memo_review.py 2 {batch_temp_name} {results_name}")
     print()
 
 
