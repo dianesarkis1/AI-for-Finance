@@ -32,6 +32,19 @@ Parameters:
     --parallel-memos : flag (optional)
         Generate memos in parallel using Claude Batch API (faster)
 
+    --evaluators : str... (optional)
+        Which evaluator(s) to run. Can use short names (openai, claude, gemini)
+        or full model names. Default: all 3 evaluators
+
+    --skip-memo-generation : flag (optional)
+        Skip memo generation and use existing batch inputs
+        Useful for re-running specific evaluators after fixing issues
+
+    --few-shot-dir : str (optional)
+        Path to directory containing few-shot examples
+        Directory should contain input_*.txt and example_*.md files
+        Example: evals/few_shot_examples
+
 Examples:
 ---------
     # Run with default sample and baseline prompt
@@ -45,6 +58,15 @@ Examples:
 
     # Run with parallel memo generation (recommended for speed)
     python run_eval_workflow.py baseline_v2 --parallel-memos
+
+    # Re-run only OpenAI evaluations (after fixing billing issue)
+    python run_eval_workflow.py openai_cookbook --evaluators openai --skip-memo-generation
+
+    # Run only Claude and Gemini evaluators
+    python run_eval_workflow.py my_run --evaluators claude gemini
+
+    # Run with few-shot examples
+    python run_eval_workflow.py my_run --few-shot-dir evals/few_shot_examples --parallel-memos
 
 Output Directories:
 -------------------
@@ -136,6 +158,28 @@ Examples:
         help='Generate memos in parallel using Claude Batch API (faster, recommended)'
     )
 
+    parser.add_argument(
+        '--evaluators',
+        type=str,
+        nargs='+',
+        choices=['gpt-5', 'claude-sonnet-4-20250514', 'gemini-2.5-pro', 'openai', 'claude', 'gemini'],
+        default=None,
+        help='Evaluator(s) to run. Can use short names (openai, claude, gemini). Default: all 3 evaluators'
+    )
+
+    parser.add_argument(
+        '--skip-memo-generation',
+        action='store_true',
+        help='Skip memo generation and use existing batch inputs (useful for re-running specific evaluators after fixing issues)'
+    )
+
+    parser.add_argument(
+        '--few-shot-dir',
+        type=str,
+        default=None,
+        help='Path to directory containing few-shot examples (with input_*.txt and example_*.md files)'
+    )
+
     args = parser.parse_args()
 
     # Validate run_name doesn't start with batch_temp_ (we'll add it)
@@ -152,9 +196,17 @@ Examples:
     print(f"\nRun name: {run_name}")
     print(f"Batch directory: evals/batch_evals/{batch_temp_name}/")
     print(f"Results directory: evals/batch_evals/{results_name}/")
-    print(f"Prompt file: {args.prompt if args.prompt else 'prompts/baseline.txt (default)'}")
+
+    if args.skip_memo_generation:
+        print(f"Prompt file: N/A (loading existing memos from batch inputs)")
+    else:
+        print(f"Prompt file: {args.prompt if args.prompt else 'prompts/baseline.txt (default)'}")
+
     print(f"Indices: {args.indices if args.indices else 'Default comprehensive sample (50 indices)'}")
-    print(f"Parallel memos: {'Yes' if args.parallel_memos else 'No'}")
+    print(f"Parallel memos: {'Yes (ignored if skipping memo generation)' if args.parallel_memos else 'No'}")
+    print(f"Evaluators: {', '.join(args.evaluators) if args.evaluators else 'All (openai, claude, gemini)'}")
+    print(f"Skip memo generation: {'Yes' if args.skip_memo_generation else 'No'}")
+    print(f"Few-shot examples: {args.few_shot_dir if args.few_shot_dir else 'None'}")
     print(f"\n{'='*70}\n")
 
     # Get confirmation
@@ -183,6 +235,16 @@ Examples:
 
     if args.parallel_memos:
         cmd.append("--parallel-memos")
+
+    if args.evaluators:
+        cmd.append("--evaluators")
+        cmd.extend(args.evaluators)
+
+    if args.skip_memo_generation:
+        cmd.append("--skip-memo-generation")
+
+    if args.few_shot_dir:
+        cmd.extend(["--few-shot-dir", args.few_shot_dir])
 
     run_command(cmd, "STEP 1: Running batch evaluations")
 

@@ -169,7 +169,67 @@ def load_api_key_from_env(key_name: str) -> Optional[str]:
     return api_key
 
 
-def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str) -> Dict[int, Dict]:
+def load_few_shot_examples(few_shot_dir: Path) -> List[Dict[str, str]]:
+    """
+    Load few-shot examples from a directory containing input-output pairs.
+
+    Expected directory structure:
+        few_shot_examples/
+            input_103.txt
+            example_103.md
+            input_281.txt
+            example_281.md
+            ...
+
+    Args:
+        few_shot_dir: Path to directory containing few-shot examples
+
+    Returns:
+        List of dicts with 'input' and 'output' keys
+    """
+    if not few_shot_dir.exists():
+        print(f"Warning: Few-shot directory not found: {few_shot_dir}", file=sys.stderr)
+        return []
+
+    examples = []
+
+    # Find all input files (format: input_*.txt)
+    input_files = sorted(few_shot_dir.glob("input_*.txt"))
+
+    if not input_files:
+        print(f"Warning: No input files found in {few_shot_dir}", file=sys.stderr)
+        return []
+
+    for input_file in input_files:
+        # Extract the index from the filename (e.g., "input_103.txt" -> "103")
+        index = input_file.stem.replace("input_", "")
+
+        # Find corresponding output file (format: example_*.md)
+        output_file = few_shot_dir / f"example_{index}.md"
+
+        if not output_file.exists():
+            print(f"Warning: Output file not found for {input_file}: {output_file}", file=sys.stderr)
+            continue
+
+        # Read input and output
+        with open(input_file, 'r', encoding='utf-8') as f:
+            input_text = f.read()
+
+        with open(output_file, 'r', encoding='utf-8') as f:
+            output_text = f.read()
+
+        examples.append({
+            'input': input_text,
+            'output': output_text
+        })
+
+        print(f"  Loaded few-shot example {index}: {len(input_text):,} chars input, {len(output_text):,} chars output")
+
+    print(f"Loaded {len(examples)} few-shot examples from {few_shot_dir}")
+    return examples
+
+
+def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str, few_shot_examples: Optional[List[Dict[str, str]]] = None) -> Dict[int, Dict]:
     """
     Phase 1: Generate all memos in parallel using Claude Batch API.
     Much faster than sequential generation.
@@ -190,6 +250,20 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
 
     with open(prompt_path, 'r') as f:
         prompt_text = f.read()
+
+    # Prepend few-shot examples to prompt if provided
+    if few_shot_examples:
+        few_shot_section = "\n\n# Few-Shot Examples\n\n"
+        few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
+
+        for i, example in enumerate(few_shot_examples, 1):
+            few_shot_section += f"## Example {i}\n\n"
+            few_shot_section += f"### Input Credit Agreement:\n```\n{example['input']}\n```\n\n"
+            few_shot_section += f"### Expected Output Memo:\n{example['output']}\n\n"
+            few_shot_section += "---\n\n"
+
+        prompt_text = few_shot_section + prompt_text
+        print(f"✅ Prepended {len(few_shot_examples)} few-shot examples to prompt\n")
 
     # Build batch requests for memo generation
     batch_requests = []
@@ -320,7 +394,7 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
     return memos
 
 
-def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict[int, Dict]:
+def generate_all_memos(indices: List[int], train_file: Path, model: str, few_shot_examples: Optional[List[Dict[str, str]]] = None) -> Dict[int, Dict]:
     """Phase 1: Generate all memos sequentially (legacy method)."""
     print(f"\n{'='*70}")
     print(f"PHASE 1: GENERATING ALL MEMOS (SEQUENTIAL)")
@@ -328,6 +402,8 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict
     print(f"Model: {model}")
     print(f"Total inputs: {len(indices)}")
     print(f"Method: Sequential (slower)")
+    if few_shot_examples:
+        print(f"Few-shot examples: {len(few_shot_examples)}")
     print(f"{'='*70}\n")
 
     memos = {}
@@ -346,7 +422,7 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str) -> Dict
                 print(f"  Source: {source_url[:80]}...")
 
                 # Generate memo
-                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE)
+                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE, few_shot_examples=few_shot_examples)
 
                 if memo:
                     memos[idx] = {
@@ -396,29 +472,65 @@ def save_batch_job_mappings(batch_jobs: List[Dict], temp_dir: Path):
     """
     Save batch job mappings to a JSON file for debugging and recovery.
     This allows resuming downloads even if the process is interrupted.
+
+    If the file already exists, merges new jobs with existing ones
+    (updates if same index/evaluator, otherwise appends).
     """
     mapping_file = temp_dir / "batch_job_mappings.json"
 
-    # Create a clean mapping structure
-    mappings = {
-        "created_at": datetime.now().isoformat(),
-        "jobs": []
-    }
+    # Load existing mappings if they exist
+    if mapping_file.exists():
+        with open(mapping_file, 'r') as f:
+            mappings = json.load(f)
+        print(f"📂 Found existing batch job mappings with {len(mappings.get('jobs', []))} jobs")
+        existing_jobs = {(j['input_index'], j['evaluator_model']): j for j in mappings.get('jobs', [])}
+    else:
+        mappings = {
+            "created_at": datetime.now().isoformat(),
+            "jobs": []
+        }
+        existing_jobs = {}
+
+    # Update timestamp if we're adding new jobs
+    if batch_jobs:
+        mappings["updated_at"] = datetime.now().isoformat()
+
+    # Add/update new jobs
+    new_jobs_count = 0
+    updated_jobs_count = 0
 
     for job in batch_jobs:
         if job.get('batch_id'):  # Only save jobs that were successfully created
-            mappings["jobs"].append({
+            key = (job["input_index"], job["evaluator_model"])
+            job_entry = {
                 "input_index": job["input_index"],
                 "evaluator_model": job["evaluator_model"],
                 "provider": job["provider"],
                 "batch_id": job["batch_id"]
-            })
+            }
 
+            if key in existing_jobs:
+                # Update existing job
+                existing_jobs[key] = job_entry
+                updated_jobs_count += 1
+            else:
+                # Add new job
+                existing_jobs[key] = job_entry
+                new_jobs_count += 1
+
+    # Convert back to list
+    mappings["jobs"] = list(existing_jobs.values())
+
+    # Save to file
     with open(mapping_file, 'w') as f:
         json.dump(mappings, f, indent=2)
 
-    print(f"💾 Saved batch job mappings to: {mapping_file.name}")
-    print(f"   (Use this file to resume downloads if interrupted)\n")
+    if new_jobs_count > 0 or updated_jobs_count > 0:
+        print(f"💾 Updated batch job mappings: {new_jobs_count} new, {updated_jobs_count} updated")
+        print(f"   Total jobs in mapping file: {len(mappings['jobs'])}")
+        print(f"   Location: {mapping_file.name}\n")
+    else:
+        print(f"💾 No new batch jobs to add to mappings file\n")
 
 
 def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -> List[Dict]:
@@ -958,10 +1070,29 @@ Examples:
         default=None,
         help='Path to custom prompt file (e.g., prompts/my_prompt.txt). If not provided, uses prompts/baseline.txt'
     )
+    parser.add_argument(
+        '--evaluators',
+        type=str,
+        nargs='+',
+        choices=['gpt-5', 'claude-sonnet-4-20250514', 'gemini-2.5-pro', 'openai', 'claude', 'gemini'],
+        default=None,
+        help='Evaluator(s) to run. Can use short names (openai, claude, gemini) or full model names. Default: all 3 evaluators'
+    )
+    parser.add_argument(
+        '--skip-memo-generation',
+        action='store_true',
+        help='Skip memo generation and use existing batch inputs (useful for re-running specific evaluators)'
+    )
+    parser.add_argument(
+        '--few-shot-dir',
+        type=str,
+        default=None,
+        help='Path to directory containing few-shot examples (with input_*.txt and example_*.md files)'
+    )
     args = parser.parse_args()
 
     # Declare global variables that we'll modify
-    global BATCH_TEMP_DIR, PROMPT_FILE
+    global BATCH_TEMP_DIR, PROMPT_FILE, EVALUATOR_MODELS
 
     # Set up directories based on run name
     BATCH_TEMP_DIR = OUTPUT_DIR / args.run_name
@@ -972,10 +1103,36 @@ Examples:
     # Set prompt file
     PROMPT_FILE = Path(args.prompt) if args.prompt else DEFAULT_PROMPT_FILE
 
+    # Load few-shot examples if specified
+    few_shot_examples = None
+    if args.few_shot_dir:
+        few_shot_dir = Path(args.few_shot_dir)
+        print(f"\nLoading few-shot examples from {few_shot_dir}...")
+        few_shot_examples = load_few_shot_examples(few_shot_dir)
+        if few_shot_examples:
+            print(f"✅ Successfully loaded {len(few_shot_examples)} few-shot examples\n")
+        else:
+            print(f"⚠️  No few-shot examples found in {few_shot_dir}\n")
+
+    # Process evaluators argument
+    if args.evaluators:
+        # Map short names to full model names
+        evaluator_map = {
+            'openai': 'gpt-5',
+            'claude': 'claude-sonnet-4-20250514',
+            'gemini': 'gemini-2.5-pro',
+            'gpt-5': 'gpt-5',
+            'claude-sonnet-4-20250514': 'claude-sonnet-4-20250514',
+            'gemini-2.5-pro': 'gemini-2.5-pro'
+        }
+        EVALUATOR_MODELS = [evaluator_map[e] for e in args.evaluators]
+
     print(f"✓ Run name: {args.run_name}")
     print(f"✓ Batch temp directory: {BATCH_TEMP_DIR}")
     print(f"✓ Results directory: {RESULTS_DIR}")
     print(f"✓ Prompt file: {PROMPT_FILE if PROMPT_FILE else 'prompts/baseline.txt (default)'}")
+    print(f"✓ Evaluators: {', '.join(EVALUATOR_MODELS)}")
+    print(f"✓ Skip memo generation: {args.skip_memo_generation}")
 
     print(f"\n{'='*70}")
     print(f"TRULY PARALLELIZED COMPREHENSIVE BATCH EVALUATION")
@@ -1035,8 +1192,56 @@ Examples:
         indices_to_evaluate = sampling_info['all_sampled_indices']
         print(f"\n  Created comprehensive sample with {sampling_info['total_sampled']} total indices")
 
-    # Phase 1: Generate all memos
-    if args.parallel_memos:
+    # Phase 1: Generate all memos (or load existing)
+    if args.skip_memo_generation:
+        print(f"\n{'='*70}")
+        print(f"PHASE 1: LOADING EXISTING MEMOS FROM BATCH INPUTS")
+        print(f"{'='*70}\n")
+        print(f"Loading memos from existing batch input files in {BATCH_TEMP_DIR}...")
+
+        memos = {}
+        for idx in indices_to_evaluate:
+            # Find existing batch input file for this index
+            input_files = list(BATCH_TEMP_DIR.glob(f"batch_input_{idx}_*.jsonl"))
+            if input_files:
+                # Use most recent if multiple exist
+                input_file = sorted(input_files, key=lambda x: x.stat().st_mtime, reverse=True)[0]
+
+                # Load the memo from the batch input file
+                with open(input_file, 'r') as f:
+                    first_request = json.loads(f.readline())
+                    content = first_request['body']['messages'][0]['content']
+
+                    # Extract memo from content
+                    if 'GENERATED MEMO:' in content:
+                        memo_start = content.find('GENERATED MEMO:') + len('GENERATED MEMO:')
+                        memo_end = content.find('\n\nDoes the memo contain')
+                        if memo_end == -1:
+                            memo_end = content.find('\n\nAre any key')
+                        if memo_end == -1:
+                            memo_end = content.find('\n\nGoal')
+
+                        memo_text = content[memo_start:memo_end].strip() if memo_end != -1 else content[memo_start:].strip()
+
+                        # Get source URL and credit agreement from train.jsonl
+                        source_url, credit_agreement_text = load_training_sample(TRAIN_FILE, idx)
+
+                        memos[idx] = {
+                            'source_url': source_url,
+                            'memo': memo_text,
+                            'credit_agreement': credit_agreement_text
+                        }
+                        print(f"  ✓ Loaded memo for index {idx}")
+                    else:
+                        print(f"  ⚠️  Could not extract memo from batch input for index {idx}")
+                        memos[idx] = {'error': 'Could not extract memo from batch input'}
+            else:
+                print(f"  ⚠️  No batch input file found for index {idx}")
+                memos[idx] = {'error': 'No batch input file found'}
+
+        print(f"\n✅ Loaded {len([m for m in memos.values() if 'error' not in m])}/{len(indices_to_evaluate)} memos from existing batch inputs")
+
+    elif args.parallel_memos:
         # Use parallel batch generation (faster)
         if not api_keys["ANTHROPIC_API_KEY"]:
             print("❌ ERROR: ANTHROPIC_API_KEY not found")
@@ -1050,14 +1255,16 @@ Examples:
             indices=indices_to_evaluate,
             train_file=TRAIN_FILE,
             model=MODEL_TO_EVALUATE,
-            api_key=api_keys["ANTHROPIC_API_KEY"]
+            api_key=api_keys["ANTHROPIC_API_KEY"],
+            few_shot_examples=few_shot_examples
         )
     else:
         # Use sequential generation (slower but more reliable)
         memos = generate_all_memos(
             indices=indices_to_evaluate,
             train_file=TRAIN_FILE,
-            model=MODEL_TO_EVALUATE
+            model=MODEL_TO_EVALUATE,
+            few_shot_examples=few_shot_examples
         )
 
     # Phase 2: Submit all batch jobs (NO WAITING)

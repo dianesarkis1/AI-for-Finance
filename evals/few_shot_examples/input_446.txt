@@ -1,0 +1,133 @@
+Source URL: https://www.sec.gov/Archives/edgar/data/850429/000085042923000023/tg-ex101_20230630x10q.htm
+
+Exhibit 10.1
+Exhibit 10.1
+AMENDMENT NO. 1
+Dated as of November 29, 2022
+to
+SECOND AMENDED AND RESTATED CREDIT AGREEMENT
+Dated as of June 29, 2022
+THIS AMENDMENT NO. 1 (this “ Amendment ”) is made as of November 29, 2022 by and among TREDEGAR CORPORATION, a Virginia corporation (the “ Borrower ”), the financial institutions listed on the signature pages hereof and JPMORGAN CHASE BANK, N.A., as Administrative Agent (the “ Administrative Agent ’), under that certain Second Amended and Restated Credit Agreement dated as of June 29, 2022 by and among the Borrower, the Lenders and the Administrative Agent (as amended, restated, supplemented or otherwise modified from time to time, the “ Credit Agreement ”). Capitalized terms used herein and not otherwise defined herein shall have the respective meanings given to them in the Credit Agreement.
+WHEREAS, the Borrower has requested that the requisite Lenders and the Administrative Agent agree to make certain amendments to the Credit Agreement;
+WHEREAS, the Borrower, the Lenders party hereto and the Administrative Agent have so agreed on the terms and conditions set forth herein;
+NOW, THEREFORE, in consideration of the premises set forth above, the terms and conditions contained herein, and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Borrower, the Lenders party hereto and the Administrative Agent hereby agree to enter into this Amendment.
+1. Amendment to the Credit Agreement . The parties hereto agree that, effective as of the date of satisfaction of the conditions precedent set forth in Section 2 below, the Credit Agreement is hereby amended as follows (the Credit Agreement as so amended, the “ Amended Credit Agreement ”):
+a. Section 1.01 of the Credit Agreement is hereby amended to add the below language to the end of the definition of “Consolidated EBITDA” appearing therein:
+“Notwithstanding the manner in which operations are classified under GAAP, no operations will be classified as discontinued due to the fact that they are subject to an agreement to dispose of such operations, and with respect to any calculation or determination for any period under Consolidated EBITDA, such operations will only be classified as discontinued when and to the extent such operations are actually disposed of.”
+2. Conditions of Effectiveness . The effectiveness of this Amendment is subject to the satisfaction of the following conditions precedent:
+a. The Administrative Agent (or its counsel) shall have received counterparts of (i) this Amendment duly executed by the Borrower, the Required Lenders and the Administrative Agent and (ii) the Consent and Reaffirmation attached hereto duly executed by the Subsidiary Guarantors.
+b. The Administrative Agent shall have received payment of the Administrative Agent’s and its affiliates’ fees and reasonable and documented out-of-pocket expenses (including reasonable fees, charges and expenses of counsel for the Administrative Agent) in connection with this Amendment and the other Loan Documents to the extent provided for in Section 9.03 of the Amended Credit Agreement.
+3. Representations and Warranties of the Borrower . The Borrower hereby represents and warrants as follows:
+a. This Amendment and the Amended Credit Agreement have been duly authorized by all requisite organizational action and, if required, stockholder action, and this Amendment has been duly executed and delivered by the Borrower.
+b. This Amendment and the Amended Credit Agreement constitute legal, valid and binding obligations of the Borrower, enforceable against the Borrower in accordance with its terms, except as enforceability may be limited by bankruptcy, insolvency or similar laws affecting the enforcement of creditor’s rights generally.
+c. As of the date hereof and after giving effect to the terms of this Amendment, (i) no Default has occurred and is continuing and (ii) the representations and warranties of the Borrower set forth in the Amended Credit Agreement are true and correct in all material respects (or, in the case of any representation or warranty qualified by materiality or Material Adverse Effect, in all respects), except to the extent that such representations and warranties specifically refer to an earlier date, in which case they shall be true and correct
+in all material respects (or, in the case of any representation or warranty qualified by materiality or Material Adverse Effect, in all respects) as of such earlier date.
+4. Reference to and Effect on the Credit Agreement .
+a. Upon the effectiveness hereof, each reference to the Credit Agreement in the Credit Agreement or any other Loan Document shall mean and be a reference to the Amended Credit Agreement.
+b. Each Loan Document and all other documents, instruments and agreements executed and/or delivered in connection therewith shall remain in full force and effect and are hereby ratified and confirmed.
+c. The execution, delivery and effectiveness of this Amendment shall not operate as a waiver of any right, power or remedy of the Administrative Agent or the Lenders, nor constitute a waiver of any provision of the Credit Agreement, the other Loan Documents or any other documents, instruments and agreements executed and/or delivered in connection therewith.
+d. This Amendment is a Loan Document.
+5. Governing Law . This Amendment shall be construed in accordance with and governed by the law of the State of New York.
+6. Headings . Section headings used herein are for convenience of reference only, are not part of this Amendment and shall not affect the construction of, or be taken into consideration in interpreting, this Amendment.
+7. Counterparts . This Amendment may be executed in counterparts (and by different parties hereto on different counterparts), each of which shall constitute an original, but all of which when taken together shall constitute a single contract. The words “execution,” “signed,” “signature,” “delivery,” and words of like import in or relating to this Amendment and/or any document to be signed in connection with this Amendment and the transactions contemplated hereby shall be deemed to include Electronic Signatures (as defined below), deliveries or the keeping of records in electronic form, each of which shall be of the same legal effect, validity or enforceability as a manually executed signature, physical delivery thereof or the use of a paper-based recordkeeping system, as the case may be. As used herein, “ Electronic Signatures ” means any electronic symbol or process attached to, or associated with, any contract or other record and adopted by a person with the intent to sign, authenticate or accept such contract or record.
+[Signature Pages Follow]
+IN WITNESS WHEREOF, this Amendment has been duly executed as of the day and year first above written.
+TREDEGAR CORPORATION,
+as the Borrower
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+JPMORGAN CHASE BANK, N.A.,
+individually as a Lender and as Administrative Agent
+By: /s/James Knight
+Name: James Knight
+Title: Executive Director
+CITIZENS BANK, N.A.,
+as a Lender
+By: /s/A. Paul Dawley
+Name: A. Paul Dawley
+Title: Senior Vic President
+PNC BANK, NATIONAL ASSOCIATION,
+as a Lender
+By: /s/ David Notaro
+Name: David Notaro
+Title: Senior Vice President
+U.S. BANK NATIONAL ASSOCIATION,
+as a Lender
+By: /s/ Michael H Troutman
+Name: Michael H Troutman
+Title: Senior Vice President, Commercial Banking
+BANK OF AMERICA, N.A.,
+as a Lender
+By: /s/ Nancy A. Old
+Name: Nancy A. Old
+Title: SVP
+WELLS FARGO BANK, NATIONAL ASSOCIATION,
+as a Lender
+By: /s/ Timothy Favinger
+Name: Timothy Favinger
+Title: Director
+CITIBANK, N.A.,
+as a Lender
+By: /s/Andrew Stella
+Name: Andrew Stella
+Title: Vice President
+FIRST HORIZON BANK,
+as a Lender
+By: /s/Todd Warrick
+Name: Todd Warrick
+Title: EVP
+THE HUNTINGTON NATIONAL BANK,
+as a Lender
+By: /s/ Greg Ryan
+Name: Greg Ryan
+Title: Managing Director
+CONSENT AND REAFFIRMATION
+Each of the undersigned hereby acknowledges receipt of a copy of the foregoing Amendment No. 1 to the Second Amended and Restated Credit Agreement dated as of June 29, 2022 (as amended, restated, supplemented or otherwise modified, the “ Credit Agreement ”) by and among Tredegar Corporation, a Virginia corporation, the financial institutions from time to time party thereto (the “ Lenders ”) and JPMorgan Chase Bank, N.A., as Administrative Agent (the “ Administrative Agent ”), which Amendment No. 1 is dated as of November 29, 2022 (the “ Amendment ”). Capitalized terms used in this Consent and Reaffirmation and not defined herein shall have the meanings given to them in the Credit Agreement. Without in any way establishing a course of dealing by the Administrative Agent or any Lender, each of the undersigned consents to the Amendment and reaffirms the terms and conditions of the Credit Agreement and any other Loan Document executed by it and acknowledges and agrees that such Credit Agreement and each and every such Loan Document executed by the undersigned in connection with the Credit Agreement remains in full force and effect and is hereby reaffirmed, ratified and confirmed. All references to the Credit Agreement contained in the above‐referenced documents shall be a reference to the Credit Agreement as so modified by the Amendment.
+Dated: November 29, 2022
+[Signature Page Follows]
+IN WITNESS WHEREOF, this Consent and Reaffirmation has been duly executed as of the day and year first above written.
+TREDEGAR PERFORMANCE FILMS INC.
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+TERPHANE HOLDINGS LLC
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+BONNELL ALUMINUM, INC.
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+BONNELL ALUMINUM (NILES), LLC
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+BONNELL ALUMINUM (CORPORATE), INC.
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+BONNELL ALUMINUM (CLEARFIELD), INC.
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+TREDEGAR SURFACE PROTECTION, LLC
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+TREDEGAR FAR EAST CORPORATION
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+TREDEGAR FILM PRODUCTS (LATIN AMERICA), INC.
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+TAC HOLDINGS, LLC
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary
+BONNELL ALUMINUM (ELKHART), INC.
+By: /s/ Kevin C. Donnelly
+Name: Kevin C. Donnelly
+Title: Vice President and Secretary

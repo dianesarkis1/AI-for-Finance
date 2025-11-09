@@ -65,7 +65,8 @@ def generate_memo_for_input(
     model: str,
     credit_agreement_text: str,
     temp_input_file: Path,
-    prompt_file: Optional[Path] = None
+    prompt_file: Optional[Path] = None,
+    few_shot_examples: Optional[List[Dict[str, str]]] = None
 ) -> Optional[str]:
     """
     Generate memo using model_run.py for a given credit agreement.
@@ -75,6 +76,7 @@ def generate_memo_for_input(
         credit_agreement_text: Credit agreement text
         temp_input_file: Temporary file to write credit agreement to
         prompt_file: Optional path to prompt file (defaults to prompts/baseline.txt)
+        few_shot_examples: Optional list of dicts with 'input' and 'output' keys for few-shot learning
 
     Returns:
         Generated memo text, or None if generation failed
@@ -87,7 +89,43 @@ def generate_memo_for_input(
     with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as tmp_out:
         output_path = tmp_out.name
 
+    # Handle few-shot examples by creating a modified prompt
+    temp_prompt_file = None
     try:
+        if few_shot_examples:
+            # Create temporary prompt file with few-shot examples
+            temp_prompt_file = tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False)
+
+            # Read the original prompt
+            if prompt_file and prompt_file.exists():
+                with open(prompt_file, 'r', encoding='utf-8') as f:
+                    original_prompt = f.read()
+            else:
+                # Use default prompt
+                default_prompt_path = Path(__file__).parent.parent.parent / "prompts" / "baseline.txt"
+                with open(default_prompt_path, 'r', encoding='utf-8') as f:
+                    original_prompt = f.read()
+
+            # Format few-shot examples
+            few_shot_section = "\n\n# Few-Shot Examples\n\n"
+            few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
+
+            for i, example in enumerate(few_shot_examples, 1):
+                few_shot_section += f"## Example {i}\n\n"
+                few_shot_section += f"### Input Credit Agreement:\n```\n{example['input']}\n```\n\n"
+                few_shot_section += f"### Expected Output Memo:\n{example['output']}\n\n"
+                few_shot_section += "---\n\n"
+
+            # Prepend few-shot examples to the original prompt
+            modified_prompt = few_shot_section + original_prompt
+
+            temp_prompt_file.write(modified_prompt)
+            temp_prompt_file.close()
+
+            prompt_to_use = Path(temp_prompt_file.name)
+        else:
+            prompt_to_use = prompt_file
+
         # Call model_run.py with absolute path
         model_run_path = Path(__file__).parent.parent / "model_run.py"
         cmd = [
@@ -99,8 +137,8 @@ def generate_memo_for_input(
         ]
 
         # Add prompt file if specified
-        if prompt_file:
-            cmd.extend(["--prompt-file", str(prompt_file)])
+        if prompt_to_use:
+            cmd.extend(["--prompt-file", str(prompt_to_use)])
 
         result = subprocess.run(
             cmd,
@@ -131,6 +169,13 @@ def generate_memo_for_input(
             Path(output_path).unlink()
         except:
             pass
+
+        # Clean up temporary prompt file if created
+        if temp_prompt_file:
+            try:
+                Path(temp_prompt_file.name).unlink()
+            except:
+                pass
 
 
 def evaluate_memo_with_model(

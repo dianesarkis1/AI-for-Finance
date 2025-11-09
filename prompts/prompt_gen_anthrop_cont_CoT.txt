@@ -1,6 +1,6 @@
 You are acting as a Private Credit Analyst at an investment fund. You will be provided with a credit agreement document and a template memo for reference. Your task is to draft a professional investment memorandum based solely on the information contained in the credit agreement.
 
-This memorandum will be presented internally to senior executives (partners and managing directors) to help them assess the investment opportunity. It should be concise and easy to follow for efficiency, yet comprehensive enough to include all key information, as it will serve as their primary reference for the deal and inform the investment committee discussion.
+This memorandum will be presented internally to senior executives (partners and managing directors) to help them assess the investment opportunity (assume that the opportunity is to purchase the loan). It should be concise and easy to follow for efficiency, yet comprehensive enough to include all key information, as it will serve as their primary reference for the deal and inform the investment committee discussion.
 
 Here is the credit agreement document:
 <credit_agreement>

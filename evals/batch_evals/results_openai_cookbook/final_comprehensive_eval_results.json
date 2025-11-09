@@ -53,14 +53,19 @@
       458,
       469
     ],
-    "total_evaluations": 100,
-    "total_quality_scores": 400,
-    "mean_score": 69.96,
-    "median_score": 68.17,
-    "min_score": 40.88,
-    "max_score": 93.66,
-    "stdev_score": 12.53,
+    "total_evaluations": 150,
+    "total_quality_scores": 600,
+    "mean_score": 65.72,
+    "median_score": 63.99,
+    "min_score": 41.77,
+    "max_score": 92.52,
+    "stdev_score": 11.36,
     "evaluators": {
+      "gpt-5": {
+        "count": 50,
+        "mean": 57.26,
+        "median": 67.84
+      },
       "claude-sonnet-4-20250514": {
         "count": 50,
         "mean": 77.78,
@@ -74,29 +79,65 @@
     },
     "metrics": {
       "quality_clarity": {
-        "count": 100,
-        "mean": 81.35,
-        "median": 78.0
+        "count": 150,
+        "mean": 82.61,
+        "median": 84.0
       },
       "quality_tone": {
-        "count": 100,
-        "mean": 90.22,
-        "median": 88.5
+        "count": 150,
+        "mean": 90,
+        "median": 90.0
       },
       "quality_length": {
-        "count": 100,
-        "mean": 72.6,
-        "median": 75.0
+        "count": 150,
+        "mean": 76.4,
+        "median": 83.0
       },
       "quality_structure": {
-        "count": 100,
-        "mean": 43.16,
-        "median": 45.0
+        "count": 150,
+        "mean": 42.58,
+        "median": 42.0
       }
     }
   },
   "results_by_index": {
     "0": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that the borrower has \u201cinvestment grade credit ratings across all three major agencies (ranging from A+ to BBB levels).\u201d The amendment provides a rating-based pricing grid but does not state the borrower\u2019s actual current ratings or that it is rated by all three agencies.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full pricing grid mapping: the specific S&P/Moody\u2019s/Fitch ratings for each Pricing Level and the corresponding Applicable Margins for Eurodollar and ABR loans (Levels 1\u20135: 0.725%/0.000%; 0.850%/0.000%; 0.850%/0.000%; 0.975%/0.000%; 1.225%/0.225%).\n- Pricing change mechanics: margins initially determined by the certificate delivered under Section 5.1(c) and thereafter adjusted effective on the date of public announcement of rating changes.\n- Party detail: Bank of America, N.A. is also a Lender (in addition to being the Administrative Agent).\n- Transitional interest provision: pre-amendment margins apply to interest for all periods prior to the amendment date, even if billed or paid after that date.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 88,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.19
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -172,9 +213,45 @@
         },
         "summary_score": 46.12
       },
-      "summary_score": 68.16
+      "summary_score": 60.17
     },
     "108": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Statement that the amendment \"increases commitment size from previous amount to $75 million.\" The source only specifies the Commitment is $75,000,000 as of the Amendment No. 1 Effective Date and does not state it was an increase from the prior amount.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.38
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -252,9 +329,45 @@
         },
         "summary_score": 20.5
       },
-      "summary_score": 44.0
+      "summary_score": 52.13
     },
     "114": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Deemed \u201cJoinder Advance\u201d funding mechanics: on the Effective Date, the Borrower is deemed to request a borrowing from the Additional Lender to rebalance outstanding Advances pro rata across Lenders, with proceeds paid to the Administrative Agent for reallocation and otherwise as directed by the Borrower.\n- Effective Date of the Joinder (stated as October 12, 2023, unless otherwise specified on Schedule I).",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 85,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.94
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -329,9 +442,47 @@
         },
         "summary_score": 45.88
       },
-      "summary_score": 56.69
+      "summary_score": 60.77
     },
     "119": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- The memo states \u201cthe initial guarantor structure includes thirteen Apollo Principal Holdings entities and AMH Holdings (Cayman), L.P.\u201d The source lists twelve Apollo Principal Holdings entities (I\u2013XII) plus AMH Holdings (Cayman), L.P., not thirteen.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The multi-jurisdictional guarantor structure is cited as both a strength ('diversified guarantor base across multiple jurisdictions providing structural flexibility') and a risk ('complex multi-jurisdictional guarantee structure may complicate enforcement'), creating conflicting assessments of the same factor."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.0
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -406,9 +557,45 @@
         },
         "summary_score": 45.56
       },
-      "summary_score": 68.5
+      "summary_score": 60.33
     },
     "120": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full amended text of the \u201cMinimum Acceptance Condition\u201d definition (including exclusion of treasury shares and inclusion of shares otherwise acquired/owned or to be acquired on settlement date)\n- Governing law (New York)\n- Effectiveness condition (effective upon execution and delivery by PMI, all Lenders, and the Facility Agent)\n- Complete list of lender parties with their specific legal entities/branches",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 89,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 89,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.94
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -481,9 +668,45 @@
         },
         "summary_score": 70.56
       },
-      "summary_score": 81.53
+      "summary_score": 77.33
     },
     "122": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Misstated roles of JPMorgan, Bank of America, and Merrill Lynch. Source states ING, JPMorgan, and Merrill Lynch are Joint Lead Arrangers and Joint Bookrunners, and JPMorgan and Bank of America are Syndication Agents. The memo implies JPMorgan, Bank of America, and Merrill Lynch are all \u201carrangers and syndication agents,\u201d which is not supported by the source.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Explicit statement that the Incremental Commitment and any new Loans are on identical terms and provisions as the existing Loans/Commitments under the Credit Agreement (including pricing, maturity, and covenants).",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 87,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 87,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.69
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -556,9 +779,45 @@
         },
         "summary_score": 92.69
       },
-      "summary_score": 92.28
+      "summary_score": 76.09
     },
     "125": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 37,
+          "metric": "quality_structure"
+        },
+        "summary_score": 93.81
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -631,9 +890,45 @@
         },
         "summary_score": 93.12
       },
-      "summary_score": 91.87
+      "summary_score": 92.52
     },
     "128": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 94.12
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -708,9 +1003,45 @@
         },
         "summary_score": 69.88
       },
-      "summary_score": 80.25
+      "summary_score": 84.87
     },
     "12": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Specific pledged equity deliverables: delivery within 5 business days of (a) original stock certificate no. 22 for TIW Corporation with undated stock power executed in blank and (b) original stock certificate for Dril-Quip International LLC with undated stock power executed in blank.\n- Deposit accounts covenant detail: within 65 days, either (i) close all existing accounts listed on Schedule 4.8(j) other than accounts maintained with PNC, or (ii) deliver deposit account control agreements for those accounts, excluding accounts constituting Excluded Property.\n- Insurance endorsement specifics: within 30 days, deliver additional insured endorsements, lender\u2019s loss payable endorsements, and notice of cancellation endorsements (and insurance certificates within 10 days) as required by Section 6.6; the memo omits the specific endorsement types.\n- Collateral grant scope: New Borrowers grant a continuing security interest and lien on all of their Collateral under Section 4 of the Credit Agreement and all \u201cCollateral\u201d under the Pledge Agreement; the memo only generically references equity/IP pledges.\n- Jurisdictional limitation: New Borrowers are not joined to any Canadian Transaction Document.\n- Other Specified Documents implicated by the joinder (e.g., revolving credit notes to PNC and U.S. Bank, term notes, swing loan note, Third Amended and Restated Pledge Agreement, fee letters, trademark and patent security agreement) not enumerated in the memo.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 85,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.88
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -783,9 +1114,45 @@
         },
         "summary_score": 70.12
       },
-      "summary_score": 67.87
+      "summary_score": 68.21
     },
     "134": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Final Maturity Date defined as the earlier of (i) June 20, 2027 and (ii) the date on which the Obligations are accelerated and the Individual Lender Maximum Funding Amounts are terminated pursuant to Section 6.01.\n- Reinvestment Period defined as from the Closing Date to the earlier of (a) August 31, 2025 (or such later date as may be agreed by the Borrower, the Administrative Agent and each Lender pursuant to Section 2.16) and (b) the date of termination of the Individual Lender Maximum Funding Amounts pursuant to Section 6.01.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 74,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.0
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -863,9 +1230,45 @@
         },
         "summary_score": 45.19
       },
-      "summary_score": 55.41
+      "summary_score": 59.6
     },
     "140": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 87,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 94.25
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -940,9 +1343,45 @@
         },
         "summary_score": 70.31
       },
-      "summary_score": 80.56
+      "summary_score": 85.12
     },
     "150": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that \u201cAll account collections must flow through lockbox account after activation.\u201d The agreement allows Account Debtors who are individuals to pay directly to the Borrowers (unless Agent directs otherwise).\n- Claim that the \u201cborrowing base [includes] accounts receivable and inventory.\u201d The amendment explicitly references Inventory as part of the Borrowing Base but does not state that Accounts are included in the Borrowing Base in the provided text.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Prohibition on any withdrawals from Lockbox Accounts by Borrowers following the Lockbox Activation Date\n- Prohibition on changing procedures or sweep instructions for Lockbox Accounts after the Lockbox Activation Date\n- Restriction that only payments on Accounts and proceeds of Borrowing Base collateral (including Inventory) may be deposited into Lockbox Accounts after the Lockbox Activation Date",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 76,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.38
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1021,9 +1460,47 @@
         },
         "summary_score": 68.75
       },
-      "summary_score": 66.88
+      "summary_score": 59.04
     },
     "152": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full list of Lenders party to the amendment (Atlantic Union Bank; Bank of America, N.A.; Capital One, National Association; Fifth Third Bank, National Association; JPMorgan Chase Bank, N.A.; Manufacturers and Traders Trust Company; MUFG Bank, Ltd.; Raymond James Bank; TD Bank, N.A.; Truist Bank; Webster Bank, N.A.; Wells Fargo Bank, N.A.)\n- Identification of L/C Issuers (Citizens Bank, N.A. and Manufacturers and Traders Trust Company)\n- Specific list of Guarantor entities party to the amendment (including LGP Operations LLC; Lehigh Gas Wholesale LLC; Express Lane, Inc.; LGP Realty Holdings GP LLC; Minnesota Nice Holdings Inc.; Erickson Oil Products, Inc.; Freedom Valu Centers, Inc.; Petroleum Marketers, Incorporated; PM Properties, Inc.; CAP Operations, Inc.; NTI Drop Down One, LLC; M & J Operations, LLC; CAP West Virginia Holdings, LLC; LGP Realty Holdings LP; CAPL Retail LLC; CAPL JKM Partners LLC; CAPL JKM Holdings LLC; CAPL JKM Wholesale LLC; Joe\u2019s Kwik Marts LLC)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The Risks section states early termination fees are capped at $15,000,000 in any four-quarter period, while the Key Deal Terms specify the $15,000,000 cap excludes Applegreen Purchase Agreement lease termination fees\u2014these conflict on whether Applegreen-related fees count toward the cap."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 91,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 80,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.44
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1098,9 +1575,45 @@
         },
         "summary_score": 69.69
       },
-      "summary_score": 67.34
+      "summary_score": 59.38
     },
     "16": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that the amendment \u201cincreas[es] limits\u201d for various sublimits. The source document provides revised sublimits but does not state they were increased relative to prior limits.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Names of all Lenders party to the amendment (e.g., Bank of America, PNC Bank, Flagstar Bank, BMO Bank, The Huntington National Bank, Northpoint Commercial Finance, Hancock Whitney Bank, BankUnited, Raymond James Bank, Cadence Bank, Coastal States Bank, etc.)\n- Clarification that the sublimits apply to the aggregate outstanding principal of Floor Plan Loans \u201cincluding WF Advances\u201d\n- Borrowers\u2019 release of claims against the Administrative Agent, Floor Plan Agent, Lenders, and related parties through the amendment date",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 82,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 86,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.12
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1175,20 +1688,20 @@
         },
         "summary_score": 44.38
       },
-      "summary_score": 67.41
+      "summary_score": 59.31
     },
-    "63": {
-      "claude-sonnet-4-20250514": {
+    "17": {
+      "gpt-5": {
         "accuracy": {
           "metric": "accuracy",
           "answer": "NO",
-          "hallucinations": "None\n\nThe memo accurately reflects the key financial terms present in the source document. All specific financial figures, dates, company names, lender names, covenant terms, and amendment fees are directly supported by the credit agreement. The memo appropriately uses \"N/A\" for terms not explicitly stated in the source document (such as overall deal size, interest rates, and maturity date) rather than making unsupported inferences. The financial details regarding EBITDA add-backs, restructuring cost caps, run-rate savings limits, and the 0.05% amendment fee are all accurately extracted from the source material.",
+          "hallucinations": "None",
           "has_hallucinations": false
         },
         "completeness": {
           "metric": "completeness",
           "answer": "YES",
-          "missing_terms": "- Original Credit Agreement date (May 6, 2021)\n- Previous amendment dates (First Amendment: October 28, 2022; Second Amendment: November 20, 2023)\n- Lender names beyond Administrative Agent (HSBC Bank US, National Association is mentioned as a lender)\n- Revolving Commitments and Term Loans structure (referenced in amendment fee calculation)\n- No Default or Event of Default condition precedent\n- New York governing law provision",
+          "missing_terms": "- Specific amendment to Section 9.11(d): consent/voting and release provisions (i.e., releases of Borrower/Guarantor require each Lender\u2019s consent; waivers/modifications of affirmative, negative, or financial covenants may be approved by Required Lenders; Administrative Agent authorized to release Borrower and Guarantor as expressly provided in the Loan Documents and upon payment in full).",
           "is_incomplete": true
         },
         "consistency": {
@@ -1197,62 +1710,23 @@
           "metric": "consistency"
         },
         "quality_clarity": {
+          "score": 83,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 86,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
           "score": 78,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 85,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 75,
           "metric": "quality_length"
         },
         "quality_structure": {
-          "score": 45,
+          "score": 38,
           "metric": "quality_structure"
         },
-        "summary_score": 67.69
+        "summary_score": 67.81
       },
-      "gemini-2.5-pro": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "YES",
-          "hallucinations": "- In the \"Key Deal Terms Table,\" the memo states there are \"Specific dollar limits: $2,633,000 for restructuring costs through December 31, 2024\". The source document states this cap applies to the trailing twelve-month periods ending March 31, June 30, and September 30, 2024, but for the period ending \"December 31, 2024 and thereafter\" the limit is \"$0\". The memo's claim that the $2,633,000 limit applies \"through\" December 31, 2024 is incorrect.",
-          "has_hallucinations": true
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "YES",
-          "missing_terms": "The memo inaccurately describes or omits the specific mechanics of a key covenant term. The \"Pro forma cost savings add-backs capped at 12.5% of Consolidated EBITDA\" is an oversimplification. The source document states that the general add-backs (clauses xi and xii) are capped at an amount equal to 12.5% of Consolidated EBITDA *minus* the aggregate amounts from the new, specific add-backs (clauses xiii and xiv). This detail, showing that the new specific add-backs reduce the capacity for general add-backs, is a missing key financial term.",
-          "is_incomplete": true
-        },
-        "consistency": {
-          "has_issues": false,
-          "issues": [],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 97,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 98,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 95,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 35,
-          "metric": "quality_structure"
-        },
-        "summary_score": 45.31
-      },
-      "summary_score": 56.5
-    },
-    "17": {
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1330,6 +1804,44 @@
       "summary_score": 67.81
     },
     "19": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- The memo states \"Borrower must maintain updated Security Agreement for Pledged Account.\" The source only requires delivery of an amendment to the Security Agreement as a condition to the Amendment\u2019s effectiveness; it does not create an ongoing maintenance covenant.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Conditions to effectiveness: delivery of an executed original of the Amendment; an amendment to the Security Agreement with respect to the Pledged Account; an updated Control Agreement with the Securities Intermediary with respect to the Pledged Account; and any other documents required by the Bank.\n- Collateral definition details: the Pledged Account is established and maintained by the Securities Intermediary in the name of the Borrower and may be re-numbered, re-designated, or otherwise modified.\n- Securities Intermediary definition nuance: Wilmington Trust, National Association, or any successor thereto, in its capacity as the securities intermediary maintaining the Pledged Account.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo cites 'multiple successful amendments' as a credit positive (evidence of ongoing cooperation) while also listing 'multiple amendments' as a risk (signaling changing conditions), presenting the same factor as both a strength and a weakness."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 38,
+          "metric": "quality_structure"
+        },
+        "summary_score": 18.62
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1404,9 +1916,45 @@
         },
         "summary_score": 70.19
       },
-      "summary_score": 81.44
+      "summary_score": 60.5
     },
     "1": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Undrawn/commitment fee at Level 5 (1.25%)\n- Explicit waivers of the Q1 Compliance Certificate, Q2 Compliance Certificate, and Annual Business Plan delivery through the Extended Waiver Period\n- Definition/calculation of \u201cLiquidity\u201d and \u201cUnrestricted Cash\u201d used for the $15,000,000 minimum (including that Liquidity = undrawn revolver commitments minus outstanding obligations plus Unrestricted Cash, and that Unrestricted Cash includes Cage Cash and must be subject to a first charge and not otherwise restricted)\n- Specific Event of Default triggers tied to OLG support: cessation of full relief from Threshold payments or cessation of Fixed Component Per Diem for more than five business days in aggregate during the Extended Waiver Period",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 38,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.19
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1479,9 +2027,45 @@
         },
         "summary_score": 70.31
       },
-      "summary_score": 67.88
+      "summary_score": 67.98
     },
     "20": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full lender list for the amended facility (BankUnited, N.A.; Bankers Trust Company; NexBank)\n- Per-lender commitment amounts: BankUnited $30,000,000; Bankers Trust $10,000,000; NexBank $10,000,000\n- Proportionate share percentages: BankUnited 60%; Bankers Trust 20%; NexBank 20%",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 78,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 86,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 67.88
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1559,9 +2143,48 @@
         },
         "summary_score": 44.69
       },
-      "summary_score": 42.56
+      "summary_score": 51.0
     },
     "224": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "Risk section claims 'Multiple prior amendments (4 total)' while Company Background lists only three prior amendments before the current Amendment No. 4; the counts conflict.",
+            "The memo treats 'multiple amendments' as both a strength ('mature credit facility with multiple amendments') and a risk ('multiple prior amendments ... may indicate ongoing need for structural adjustments')."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 91,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.62
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1636,9 +2259,45 @@
         },
         "summary_score": 70.12
       },
-      "summary_score": 80.37
+      "summary_score": 76.45
     },
     "226": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claims the financing is \u201csecured by aircraft assets\u201d and \u201casset-backed \u2026 secured by modern Airbus NEO aircraft\u201d; the amendment does not specify collateral in aircraft.\n- Describes LTV Test and an Unrestricted Cash and Cash Equivalents minimum for Frontier Group Holdings as ongoing \u201ccovenants/financial maintenance terms\u201d; in this document they are conditions precedent to the amendment\u2019s effectiveness, not stated covenants.\n- Lists \u201cGuarantee maintenance requirements\u201d as a covenant; the amendment only requires guarantees remain in force as a condition precedent and acknowledges they continue, not an explicit ongoing maintenance covenant in this document.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- The specific amendment to Section 10.22 changing the operative date from July 1, 2022 to April 1, 2023\n- Replacement of Schedule III (Advances) in its entirety (Exhibit A), which governs the advances structure and is not summarized in the memo\n- Amended definitions of \u201cAssignment and Assumption Agreement\u201d and \u201cStep-In Agreement\u201d (reflecting amendment agreements dated March 31, 2022)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 81,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 90,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.44
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1713,9 +2372,47 @@
         },
         "summary_score": 45.44
       },
-      "summary_score": 55.62
+      "summary_score": 51.56
     },
     "239": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Detailed minimum hedging covenant mechanics: deadlines (within 90 days after the Closing Date or 30 days after delivery of the most recent Reserve Report), scope (Hydrocarbon swaps entered into Not For Speculative Purposes), coverage base (70% of projected natural gas production from total Proved Developed Producing Reserves based on the Initial or most recent Reserve Report), and the deemed-compliance safe harbor if market quotes are unavailable.\n- Full list of lender parties to the amendment (e.g., FS Credit Income Fund; GN3 SIP Limited; GoldenTree 2004 Trust; GoldenTree Credit Opportunities 2012-1 Financing, Limited; GT NM, L.P.; GTAM 110 DAC; Healthcare Employees\u2019 Pension Plan Manitoba; High Yield and Bank Loan Series Trust; Louisiana State Employees Retirement System; San Bernardino County Employees Retirement Association; Syncora Guarantee Inc.; Tolleson High Yield Credit, LP).\n- Names of subsidiary guarantors executing the amendment (e.g., Vine Energy Operating LP; Vine Oil & Gas Parent LP; Vine Oil & Gas GP LLC; Vine Oil & Gas Parent GP LLC; Vine Oil & Gas Finance Corp.; Vine Management Services LLC; Brix Operating LLC; Brix Oil & Gas Holdings LP/GP; Brix Federal Leasing Corporation; Vine Minerals LLC; Harvest Royalties LLC; Harvest Royalties Holdings LP/GP).",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "Inconsistent description of hedging covenant: Executive Summary/Strengths says 70% of projected natural gas production must be hedged (implying total production), while Risks and Key Deal Terms specify 70% of projected production from proved developed producing reserves (PDP) only."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 90,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 64,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 42.38
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1790,9 +2487,45 @@
         },
         "summary_score": 68.0
       },
-      "summary_score": 79.31
+      "summary_score": 67.0
     },
     "268": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Aggregate Revolving Commitments after giving effect to the Incremental Revolving Commitment: total $150,000,000\n- Lender-by-lender aggregate revolving commitments post-increment: Wells Fargo Bank, National Association $75,000,000; Fifth Third Bank, National Association $60,000,000; Renasant Bank $15,000,000",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 89,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 94,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.06
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1865,9 +2598,47 @@
         },
         "summary_score": 69.88
       },
-      "summary_score": 67.34
+      "summary_score": 67.92
     },
     "289": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- The memo states the compliance certificate deadline was extended \u201cfrom March 31, 2023 to September 30, 2023.\u201d The source document only specifies the audited financial statements were due March 31, 2023; it does not state the original due date for the compliance certificate, only that its due date is extended to September 30, 2023.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo treats the same fact\u2014'multiple prior amendments'\u2014as both a strength (evidence of lender support) and a risk (possible sign of ongoing financial stress), presenting opposite assessments of the same item."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 88,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 58,
+          "metric": "quality_structure"
+        },
+        "summary_score": 45.0
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -1944,9 +2715,48 @@
         },
         "summary_score": 43.44
       },
-      "summary_score": 67.25
+      "summary_score": 59.83
     },
     "297": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Existence of multiple facility components: Revolving Dollar Commitments, Revolving Multicurrency Commitments, and Term Loans\n- Clarification that the extension applies to both Revolving (Dollar and Multicurrency) Commitments and Term Loans for consenting \u201c2028 Lenders,\u201d with non-consenting \u201c2027 Lenders\u201d (both Revolving and Term) retaining the May 6, 2027 maturity\n- Explicit note that the facility includes a multicurrency revolving tranche\n- Extension-related fees payable to 2028 Lenders at the Amendment Effective Date (amounts not disclosed in the source)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo describes a bifurcated maturity (some lenders remain at 2027 while consenting lenders extend to 2028), yet the Key Deal Terms Table lists a single maturity date of 2028-06-09, implying a uniform maturity.",
+            "The checklist commits to sourcing all information directly from the credit agreement without inference, but the memo includes inferential/subjective assertions (e.g., market confidence from lender participation, relationship stability from a diversified lender base, and general market/interest-rate risks) that are not direct agreement terms."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 82,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 85,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.56
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2024,9 +2834,45 @@
         },
         "summary_score": 41.75
       },
-      "summary_score": 40.88
+      "summary_score": 41.77
     },
     "2": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Maturity date listed as \"2021-03-31 (Extended Waiver Period)\". The source document does not specify or amend the loan\u2019s maturity date; March 31, 2021 is only the end of the Extended Waiver Period for waivers, not the debt maturity.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Undrawn fee at Level 5: 1.25% on undrawn commitments (per Schedule B).\n- Explicit list of waived deliverables: Q1 and Q2 Compliance Certificates, plus Compliance Certificates for the Third Quarter (Dec 31, 2020), Fourth Quarter (Mar 31, 2021), the Operating Year ending Mar 31, 2021, and the Annual Business Plan\u2014each waived until the end of the Extended Waiver Period.\n- Definition of \u201cLiquidity\u201d used for the $15,000,000 minimum (revolver availability plus Unrestricted Cash), including the definition of \u201cUnrestricted Cash\u201d (subject to first charge under Security Documents and includes Cage Cash).",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 88,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.94
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2101,9 +2947,45 @@
         },
         "summary_score": 45.44
       },
-      "summary_score": 55.62
+      "summary_score": 51.73
     },
     "311": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "[\n- Replacement of LIBOR for Alternative Currencies with the applicable risk-free reference rate (RFR),\n- Treatment of existing Eurocurrency Rate Loans: may remain outstanding through their current Interest Periods and will convert to Term Benchmark Loans thereafter\n]",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 90,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 90,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.69
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2176,9 +3058,47 @@
         },
         "summary_score": 70.81
       },
-      "summary_score": 68.31
+      "summary_score": 68.77
     },
     "312": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "Note date (December 20, 2023), Note number (A-4), Private placement number/PPN (00197@AA9), Document Custodian (U.S. Bank National Association), Governing law (New York)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo treats the 'multiple amendment history' as both a strength (active management and lender engagement) and a risk (may indicate changing business conditions or covenant adjustments) for the same factor."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 91,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 85,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.75
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2253,9 +3173,45 @@
         },
         "summary_score": 42.38
       },
-      "summary_score": 67.34
+      "summary_score": 59.48
     },
     "318": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that the corporate structure includes a guarantor entity \u201cproviding additional credit support.\u201d The letter identifies \u201cFathom Guarantor, LLC\u201d as Holdings but does not state that it provides a guarantee or other credit support.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- The June 30, 2024 prepayment deadline applies only if Credit Support is executed and delivered to the Third Amendment Consenting Term Lenders on or prior to the (now-extended) Outside Signing Date (February 16, 2024).\n- The $50,000,000 mandatory prepayment is specifically of Term Loans of the Third Amendment Consenting Term Lenders (not all Term Loans).\n- Section 5.15 alternative: the Binding Agreement deadline can be June 30, 2024 if Credit Support is executed and delivered on or prior to the Outside Signing Date; the memo only notes February 16, 2024.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 85,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.69
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2328,9 +3284,45 @@
         },
         "summary_score": 70.12
       },
-      "summary_score": 81.31
+      "summary_score": 68.77
     },
     "327": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Statement that the \"existing facility has been amended twice.\" The source document references only one formal amendment (Amendment No. 1 dated October 30, 2023) and a separate Commitment Increase Agreement; it does not state there have been two amendments.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 83,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 87,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.62
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2403,9 +3395,48 @@
         },
         "summary_score": 95.12
       },
-      "summary_score": 92.87
+      "summary_score": 84.79
     },
     "338": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The lender group is portrayed as both a strength (diversified lender group providing multiple funding sources) and a weakness (complex multi-party lender structure may complicate future amendments or workouts).",
+            "Security interests and liens are characterized as both a strength (comprehensive security package) and a risk (they indicate a leveraged capital structure)."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 84,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.62
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2481,9 +3512,45 @@
         },
         "summary_score": 68.62
       },
-      "summary_score": 79.31
+      "summary_score": 75.75
     },
     "343": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 92,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 94.19
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2558,9 +3625,45 @@
         },
         "summary_score": 69.75
       },
-      "summary_score": 81.12
+      "summary_score": 85.48
     },
     "357": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Incremental Equivalent Debt borrower/issuer/guarantor limitation: no borrower or issuer other than the Borrower and no guarantor other than the Lumen Guarantors or the QC Guarantors (Section 6.01(v)(1)(ii)(A)).\n- Prohibition on maturity, mandatory redemption, repurchase, prepayment or sinking fund obligations prior to the Latest Maturity Date, except for specified customary offers/events and acceleration after an event of default (Section 6.01(v)(1)(ii)(D)).\n- Bridge facility exception permitting temporary \u201cbridge\u201d debt that automatically converts into, or must be exchanged for, qualifying permanent financing (Section 6.01(v)(1)(ii)(E) proviso).\n- Explicit requirement that such debt be subject to the First Lien/First Lien Intercreditor Agreement or a Permitted Junior Intercreditor Agreement, as applicable (Section 6.01(v)(1)(ii)(G)).",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 90,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.25
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2635,9 +3738,45 @@
         },
         "summary_score": 45.5
       },
-      "summary_score": 69.22
+      "summary_score": 69.23
     },
     "370": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim of a \"related-party lending structure\"; the document only shows shared addresses and does not state the parties are related.\n- Stating \"Borrower must maintain good standing under Delaware law\" as a key covenant; the agreement presents this as a representation (Section 4.1), not an explicit covenant in the modification.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 91,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 84,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 52,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.56
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2712,9 +3851,47 @@
         },
         "summary_score": 70.31
       },
-      "summary_score": 80.47
+      "summary_score": 76.83
     },
     "377": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Misclassification of parties: The memo states the borrowers include \u201ctheir respective parent holding companies.\u201d In the agreement, \u201cParents\u201d are separate parties and are not \u201cBorrowers.\u201d\n- Incorrect lender count: The memo claims a \u201cdiversified lender syndicate with 13 financial institutions.\u201d The source lists 14 lenders (Fifth Third Bank; East West Bank; Western Alliance Bank; First-Citizens Bank & Trust Company; Zions Bancorporation, N.A. dba California Bank and Trust; Truist Bank; Wells Fargo Bank, N.A.; Preferred Bank; Texas Capital Bank; Flagstar Bank, N.A.; Bank of Hope; Sunflower Bank, National Association; City National Bank; Axos Bank).",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Complete list of lender names (Fifth Third Bank, East West Bank, Western Alliance Bank, First-Citizens Bank & Trust Company, Zions Bancorporation, N.A. dba California Bank and Trust, Truist Bank, Wells Fargo Bank, N.A., Preferred Bank, Texas Capital Bank, Flagstar Bank, N.A., Bank of Hope, Sunflower Bank, National Association, City National Bank, Axos Bank)\n- Reserve Deposit Agent identity and role (East West Bank as Reserve Deposit Agent)\n- Guaranty reaffirmation and Guarantor/Parent entity names (LGTV Library Holdco LLC; Artisan Library Holdco LLC; Summit Library Holdco LLC; LG Film Library Holdco LLC; LGIM Library UK Holdco Limited)\n- FATCA treatment change (Credit Agreement not a \u201cgrandfathered obligation\u201d under Treasury Regulation Section 1.1471-2(b)(2)(i))",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "Parent holding companies are described as borrowers (\"along with their respective parent holding companies\"), yet a stated strength is that separate borrower and parent entities provide structural protections; if parents are co-borrowers, that separation does not confer the cited protection."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 84,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 18.44
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2787,9 +3964,45 @@
         },
         "summary_score": 46.44
       },
-      "summary_score": 70.09
+      "summary_score": 52.88
     },
     "378": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Reinvestment exception timing: The memo states \u201cReinvestment exception for casualty/condemnation proceeds within 6 months,\u201d but the source allows reinvestment within 6 months generally and, in the case of casualty/condemnation, a longer period as may be reasonably required (not limited to 6 months).",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full definition and limits of \u201cDesignated Issuance\u201d (eligible forms: debt securities/term loans other than Excluded Debt, equity or equity-linked securities; only one issuance may be designated; designation method)\n- Mandatory prepayment timing for a Designated Issuance: within 1 Business Day after consummation\n- Prepayment waterfall for other Net Cash Proceeds: first prepay Loans until no Loans remain outstanding under the Delayed Draw Term Loan Facility; then automatically reduce Commitments by any remaining proceeds\n- Application of commitment reductions: applied ratably between the Acquisition Tranche Commitments and the General Tranche Commitments\n- Clarification that the Stage 4 Funding Fee equals 0.250% of the aggregate principal amount of Loans outstanding on, or funded on, the date 270 days after the Initial Draw Date\n- Borrower\u2019s ability, in the case of a Designated Issuance, to retain Net Cash Proceeds not required to be prepaid once Loans are reduced to no more than $500,000,000",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 80,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.44
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2864,9 +4077,45 @@
         },
         "summary_score": 41.88
       },
-      "summary_score": 54.59
+      "summary_score": 50.88
     },
     "379": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Initial interest period: Incremental Term Loans are initially SOFR Loans with an Interest Period from May 27, 2025 to June 30, 2025.\n- Draw mechanics: Loans to be made in a single borrowing on the First Amendment Effective Date.\n- Reborrowing: Amounts repaid or prepaid may not be reborrowed.\n- Tranche/class treatment: Incremental Term Loans constitute the same tranche/Class as existing Term Loans and are fungible (same CUSIP).\n- Amortization base specificity: 0.25% quarterly of the aggregate initial principal amount of the Initial Term Loans on the First Amendment Effective Date.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 84,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.12
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -2941,9 +4190,45 @@
         },
         "summary_score": 45.06
       },
-      "summary_score": 56.28
+      "summary_score": 60.56
     },
     "390": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Specific extended deadline to deliver a fully executed ABL Consent: 11:59 P.M. on December 6, 2021\n- Specific extended deadline to issue the Underlying Warrants: 11:59 P.M. on December 7, 2021\n- Effectiveness condition: Section 1 becomes effective upon Agent\u2019s receipt of executed counterparts from the Borrower and all Lenders",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.75
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3018,9 +4303,45 @@
         },
         "summary_score": 45.81
       },
-      "summary_score": 69.16
+      "summary_score": 69.02
     },
     "392": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Exception allowing selection of 1-week or 2-month USD LIBOR interest periods with consent of the Required Lenders\n- Specific date of LIBOR cessation referenced: December 31, 2021\n- Conditions to lift the suspension: requires notice from each Borrower to the Agent and prior effectiveness of LIBOR replacement amendments under the Credit Agreement (for Non-USD Currency Loans/Advances)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 87,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 69.12
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3095,9 +4416,49 @@
         },
         "summary_score": 69.06
       },
-      "summary_score": 79.94
+      "summary_score": 76.33
     },
     "427": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Complete list of guarantors (Mounds Management, Inc. is omitted)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo states the Fixed Charge Coverage Ratio covenant as 'shall not be greater than 1.50:1' (a maximum), yet it also presents the exclusion of a non-cash impairment from EBITDA/EBITR to assist covenant calculations; excluding the charge would increase EBITDA/EBITR and the FCCR, which would worsen compliance with a maximum covenant.",
+            "It lists 'Maintenance of existing credit facility terms and conditions' as a strength while also describing a 'one-time modification' with 'modified definitions'; the facility cannot be both unmodified and modified simultaneously.",
+            "It calls the change a 'one-time modification' but also says the exclusion applies 'for the fiscal quarter ending April 30, 2022 and subsequent periods,' implying ongoing application; these characterizations conflict."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.06
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3174,9 +4535,45 @@
         },
         "summary_score": 68.44
       },
-      "summary_score": 68.19
+      "summary_score": 60.15
     },
     "458": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- The amended Section 6.13(a)(iii) details: dispositions must not constitute a \u201cSubstantial Portion\u201d and the specific measurement periods (Jan 1\u2013Dec 31, 2022 cumulative period vs. 12-month trailing period for dispositions on/after Jan 1, 2023).\n- The pro forma requirement for Section 6.13(a)(vi): Liquidity > $100,000,000 and Availability > $25,000,000 must be satisfied on a pro forma basis immediately after giving effect to the disposition.\n- The specific collateral release triggers added in Section 10.11(e): automatic Lien release upon (i) a permitted disposition to a non-Loan Party, (ii) Required Lenders\u2019 approval under Section 9.11, or (iii) release of a Guarantor (releasing Liens on its Property).",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 86,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.62
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3249,9 +4646,45 @@
         },
         "summary_score": 70.81
       },
-      "summary_score": 80.81
+      "summary_score": 76.75
     },
     "469": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Effective date of the Amendment: May 31, 2023 (the \u201cSecond Amendment Effective Date\u201d)\n- Conditions precedent to effectiveness: (i) delivery of executed Amendment; (ii) delivery of a conforming amendment to the Term Loan Agreement; (iii) bringdown of representations and warranties; (iv) no Default before/after giving effect\n- Collateral covenant qualifiers: exclusion of real property and assets that automatically become subject under the Security Agreement; lien requirement only \u201cif requested by the Lender\u201d; actions to grant and perfect; all subject to the Intercreditor Agreement\n- Loan Parties\u2019 comprehensive release of claims against the Lender\n- Reaffirmation by Loan Parties of all obligations, guarantees, and liens",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 87,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 38,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.19
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3324,9 +4757,47 @@
         },
         "summary_score": 69.88
       },
-      "summary_score": 80.25
+      "summary_score": 76.23
     },
     "48": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Collateral status: Collateral Documents and all Collateral continue to secure the Obligations (no change to collateral).\n- Scope of covenant: Total Net Leverage Ratio maintenance covenant applies \u201cwith respect to the Revolving Facility only.\u201d\n- Fee specifics: 0.20% amendment fee is payable to the Administrative Agent for the account of each consenting Revolving Lender, calculated on that lender\u2019s aggregate Revolving Credit Commitments (funded or unfunded) as of the Fourth Amendment Effective Date; non-refundable.\n- Trigger Event timing nuance: If a Trigger Event occurs on the last day of a Fiscal Quarter, it is deemed to have occurred during that Fiscal Quarter.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "Conflict on HHI sale status: the Strengths section states the divestiture is generating $4.3B in cash proceeds (implying completion), while Risks and the Trigger Event definition treat the sale as pending with execution risk and future timing; the sale cannot be both completed and pending."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 88,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 86,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 88,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 48,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.38
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3399,9 +4870,45 @@
         },
         "summary_score": 70.5
       },
-      "summary_score": 81.59
+      "summary_score": 69.19
     },
     "51": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that there is a \u201cstrong mortgage bond security structure providing collateral backing.\u201d The supplement references Replacement First Mortgage Bonds and related documents as Credit Documents but does not state collateral/security backing for the facility.\n- Statement that the \u201cBorrower represents compliance with all existing credit agreement terms and conditions.\u201d The source only includes a representation of compliance with the conditions in Section 2.1(f), not with all terms of the entire Credit Agreement.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Explicit acknowledgement that the Replacement First Mortgage Bonds and the Sixteenth Supplemental Indenture constitute \u201cCredit Documents\u201d under the Credit Agreement.\n- Deemed inclusion: that all references in the Credit Agreement to \u201cFirst Mortgage Bonds\u201d and \u201cThird Supplemental Indenture\u201d are deemed to include the Replacement First Mortgage Bonds and the Sixteenth Supplemental Indenture, respectively.\n- Statement that the Increase Supplement itself is a \u201cCredit Document.\u201d",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 93,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 86,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.0
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3474,9 +4981,45 @@
         },
         "summary_score": 95.44
       },
-      "summary_score": 93.66
+      "summary_score": 77.11
     },
     "52": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Complete list of lender counterparties and identification of L/C Issuers as per the signature pages (e.g., MUFG Union Bank, N.A. (Lender and L/C Issuer), Citibank, N.A., JPMorgan Chase Bank, N.A., Morgan Stanley Bank, N.A., Royal Bank of Canada, KeyBank National Association, Bank of America, N.A., U.S. Bank, National Association, The Bank of New York Mellon, BOKF, NA d/b/a Bank of Albuquerque)\n- Merger Agreement definition qualifier: amendments/waivers/consents that are materially adverse to Lenders are not given effect without Administrative Agent consent\n- Change of Control definition details: beneficial ownership includes option rights (other than pursuant to the Merger Agreement) and is measured on a fully diluted basis\n- Effectiveness condition: execution by the Borrower and the Required Lenders (in addition to payment of fees/expenses)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 92,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 82,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 68.75
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3554,9 +5097,45 @@
         },
         "summary_score": 66.56
       },
-      "summary_score": 53.59
+      "summary_score": 58.64
     },
     "57": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that the credit facility supports \u201cgeneral corporate purposes\u201d \u2014 the amendment does not state any use-of-proceeds or purpose beyond accommodating the Specified Acquisition.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Detailed Subsequent Acquisition Holiday leverage schedule and durations (4.50x for quarters 1\u20132 post-acquisition, 4.25x for quarters 3\u20134, 4.00x for quarters 5\u20136, 3.75x for quarters 7\u20138)\n- Pro forma closing condition for a Subsequent Acquisition Holiday: maximum Leverage Ratio must be \u22644.50x immediately after giving effect to the acquisition\n- Reversion term: at the end of any Subsequent Acquisition Holiday, the maximum Leverage Ratio reverts to 3.50x\n- Measurement timing flexibility: ability to test the \u22643.50x prerequisite at the last day of the fiscal quarter immediately preceding consummation or, at borrower\u2019s option, at signing of the definitive agreement",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 88,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 94,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 88,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.5
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3629,9 +5208,47 @@
         },
         "summary_score": 70.5
       },
-      "summary_score": 69.22
+      "summary_score": 60.98
     },
     "58": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full list of lenders party to the amendment (as named on the signature pages)\n- Additional Change in Control triggers:\n  \u2022 A \u201cChange in Control\u201d or similar event under the Existing Notes Indentures or any other Permitted Junior Debt that is Material Indebtedness\n  \u2022 Crestwood GP ceases to be the sole general partner of the Borrower\n  \u2022 Crestwood Equity GP ceases to be the sole general partner of Crestwood Equity Partners\n  \u2022 Any combination of Permitted Holders (or a single Permitted Holder) or Crestwood Equity Partners ceases to directly or indirectly own and control 100% of the outstanding equity interests of Crestwood Equity GP\n- Specific covenant carve-outs:\n  \u2022 Section 3.09(b)(i) shall not restrict the Third Amendment Transactions\n  \u2022 Section 6.09(b)(ii) shall not restrict any Third Amendment Transaction effected pursuant to Section 6.06(j)\n- Revised \u201cPermitted Holder\u201d definition (limited to Sponsors and Sponsor Affiliates prior to consummation of the entirety of the Third Amendment Transactions)",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "Purpose of financing claims CEQP will acquire CEQP Units and GP Units, yet also says third-party investors will acquire portions of CEQP Units as part of the same transactions; both cannot be the acquirer of the same CEQP Units in the same described transaction."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 85,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 87,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 44.06
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3706,9 +5323,156 @@
         },
         "summary_score": 68.5
       },
-      "summary_score": 67.06
+      "summary_score": 59.39
+    },
+    "63": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- The memo states \u201cPro forma cost savings add-backs capped at 12.5% of Consolidated EBITDA.\u201d The source specifies a more limited cap: the aggregate amount added back under clauses (xi) and (xii) shall not exceed, for any period of four consecutive fiscal quarters, the amount by which 12.5% of Consolidated EBITDA exceeds the aggregate amounts added back under clauses (xiii) and (xiv) for such period.\n- The memo states \u201cSpecific dollar limits: $2,633,000 for restructuring costs through December 31, 2024.\u201d The source provides $2,633,000 caps only for the TTM periods ending March 31, 2024; June 30, 2024; and September 30, 2024, and $0 for the TTM ending December 31, 2024 and thereafter.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full cap schedule for clause (xiii) add-backs: $2,633,000 for TTM ending March 31, 2024; $2,633,000 for TTM ending June 30, 2024; $2,633,000 for TTM ending September 30, 2024; $0 for TTM ending December 31, 2024 and thereafter.\n- Interplay cap: aggregate add-backs under clauses (xi) and (xii) are limited to the amount by which 12.5% of Consolidated EBITDA for the period exceeds the aggregate amounts added back under clauses (xiii) and (xiv) for the same period.\n- ERP exclusion: no adjustments under clause (xi) may be attributable to implementation of the Group Member\u2019s new enterprise resource planning system.\n- No-duplication restrictions on add-backs under clauses (xi) and (xiv).\n- Requirement that cost savings added back be reasonably identifiable and factually supportable (for clauses (xi) and (xiv)).\n- Amendment fee details: payable to the Administrative Agent for the ratable account of each Lender that consents and enters into the Amendment by April 25, 2024; calculated as 0.05% of such consenting Lenders\u2019 outstanding Revolving Commitments and principal amount of Term Loans as of the Third Amendment Effective Date; fully earned and due on the Third Amendment Effective Date; nonrefundable.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 90,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 85,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.94
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None\n\nThe memo accurately reflects the key financial terms present in the source document. All specific financial figures, dates, company names, lender names, covenant terms, and amendment fees are directly supported by the credit agreement. The memo appropriately uses \"N/A\" for terms not explicitly stated in the source document (such as overall deal size, interest rates, and maturity date) rather than making unsupported inferences. The financial details regarding EBITDA add-backs, restructuring cost caps, run-rate savings limits, and the 0.05% amendment fee are all accurately extracted from the source material.",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Original Credit Agreement date (May 6, 2021)\n- Previous amendment dates (First Amendment: October 28, 2022; Second Amendment: November 20, 2023)\n- Lender names beyond Administrative Agent (HSBC Bank US, National Association is mentioned as a lender)\n- Revolving Commitments and Term Loans structure (referenced in amendment fee calculation)\n- No Default or Event of Default condition precedent\n- New York governing law provision",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 78,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 75,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "summary_score": 67.69
+      },
+      "gemini-2.5-pro": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- In the \"Key Deal Terms Table,\" the memo states there are \"Specific dollar limits: $2,633,000 for restructuring costs through December 31, 2024\". The source document states this cap applies to the trailing twelve-month periods ending March 31, June 30, and September 30, 2024, but for the period ending \"December 31, 2024 and thereafter\" the limit is \"$0\". The memo's claim that the $2,633,000 limit applies \"through\" December 31, 2024 is incorrect.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "The memo inaccurately describes or omits the specific mechanics of a key covenant term. The \"Pro forma cost savings add-backs capped at 12.5% of Consolidated EBITDA\" is an oversimplification. The source document states that the general add-backs (clauses xi and xii) are capped at an amount equal to 12.5% of Consolidated EBITDA *minus* the aggregate amounts from the new, specific add-backs (clauses xiii and xiv). This detail, showing that the new specific add-backs reduce the capacity for general add-backs, is a missing key financial term.",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 97,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 98,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 95,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 35,
+          "metric": "quality_structure"
+        },
+        "summary_score": 45.31
+      },
+      "summary_score": 52.31
     },
     "6": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 84,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 91,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 87,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 38,
+          "metric": "quality_structure"
+        },
+        "summary_score": 93.75
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3783,9 +5547,49 @@
         },
         "summary_score": 68.31
       },
-      "summary_score": 66.88
+      "summary_score": 75.83
     },
     "71": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- States the use of proceeds as \u201cgeneral corporate purposes\u201d referenced in Section 6.11. The amendment only says proceeds will be used \u201cin accordance with Section 6.11\u201d and does not specify the purpose.\n- Presents a \u201c0.25:1.00 below permitted ratio\u201d requirement as an ongoing maintenance covenant. In the amendment, the 0.25x cushion appears only as a closing condition on the Amendment No. 1 Effective Date (Section 6(e)), not as an ongoing covenant.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Full list of Increase Loan Lenders (Bank of the West; Citibank, N.A.; Mizuho Bank, Ltd.; Silicon Valley Bank; Fifth Third Bank, National Association; MUFG Union Bank, N.A.; City National Bank, in addition to Bank of America, Wells Fargo, JPMorgan, and Goldman Sachs)\n- Identification of roles: Swing Line Lender (Bank of America, N.A.) and L/C Issuers (Bank of America, N.A. and Wells Fargo Bank, N.A.)\n- Explicit statement that the Incremental Revolving Commitments are treated as Revolving Credit Commitments for all purposes and have terms and provisions identical to the existing Revolving Credit Commitments\n- Fees term: all fees payable under the amendment are fully earned, due on the Amendment No. 1 Effective Date, and non-refundable/non-creditable thereafter",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo commits to relying solely on explicit document content, yet it infers that Halozyme 'appears to be a pharmaceutical/biotechnology company,' which is not stated explicitly.",
+            "It claims the Section 7.11 financial covenants are 'not detailed in the amendment,' yet elsewhere specifies a precise requirement that the Consolidated Net Leverage Ratio be maintained 0.25:1.00 below the permitted level.",
+            "It lists a 0.25x covenant cushion as a strength while also stating the borrower is operating near covenant thresholds\u2014contradictory assessments of covenant headroom."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 82,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 83,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 84,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 38,
+          "metric": "quality_structure"
+        },
+        "summary_score": 17.94
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3865,9 +5669,48 @@
         },
         "summary_score": 70.12
       },
-      "summary_score": 67.78
+      "summary_score": 51.17
     },
     "78": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that \u201cmultiple subsidiary guarantors\u201d provide \u201cadditional credit support through cross-guarantees.\u201d The amendment lists subsidiary Loan Parties but does not state guaranty or cross-guarantee terms.\n- Claim that the credit facility is \u201cfor general corporate purposes.\u201d The amendment does not specify any use of proceeds or purpose.",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Limitation that the exception applies only to agreements relating to unsecured Indebtedness permitted under Section 6.01\n- The \u201cnot materially more restrictive\u201d standard is determined in good faith by the Borrower",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo states the amendment allows unsecured indebtedness but also requires pari passu lien rights for the administrative agent on any new unsecured indebtedness\u2014unsecured debt cannot have lien rights, which is contradictory.",
+            "Executive Summary claims the amendment provides flexibility while maintaining lender protections, whereas the Risks section says it relaxes covenants potentially reducing lender protections\u2014these are opposing assessments of the same aspect."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 86,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 88,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 38,
+          "metric": "quality_structure"
+        },
+        "summary_score": 18.75
+      },
       "claude-sonnet-4-20250514": {
         "accuracy": {
           "metric": "accuracy",
@@ -3945,16 +5788,17 @@
         },
         "summary_score": 69.56
       },
-      "summary_score": 67.5
+      "summary_score": 51.25
     }
   },
   "metadata": {
     "note": "Results from 50 memos evaluated by GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro",
     "generated_by": "generate_final_results.py",
     "evaluators": [
+      "gpt-5",
       "claude-sonnet-4-20250514",
       "gemini-2.5-pro"
     ],
-    "total_evaluations": "50 memos \u00d7 2 evaluators = 100"
+    "total_evaluations": "50 memos \u00d7 3 evaluators = 150"
   }
 }

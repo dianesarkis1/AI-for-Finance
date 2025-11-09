@@ -1,0 +1,17 @@
+# Streamlit Investment Memo Generator - Dependencies
+
+# Core framework
+streamlit>=1.28.0
+
+# PDF processing (choose one or both)
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0
+
+# URL fetching
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# JSON processing (included in Python standard library)
+# json - no install needed
