@@ -229,10 +229,13 @@ def load_few_shot_examples(few_shot_dir: Path) -> List[Dict[str, str]]:
     return examples
 
 
-def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str, few_shot_examples: Optional[List[Dict[str, str]]] = None) -> Dict[int, Dict]:
+def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str, few_shot_examples: Optional[List[Dict[str, str]]] = None, use_system_parameter: bool = False) -> Dict[int, Dict]:
     """
     Phase 1: Generate all memos in parallel using Claude Batch API.
     Much faster than sequential generation.
+
+    Args:
+        use_system_parameter: If True, use Claude's native system parameter. If False, use old behavior (everything in user message).
     """
     print(f"\n{'='*70}")
     print(f"PHASE 1: GENERATING ALL MEMOS (PARALLEL)")
@@ -279,19 +282,37 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
             }
 
             # Create batch request for this memo
-            request = {
-                "custom_id": f"memo_generation_{idx}",
-                "params": {
-                    "model": model,
-                    "max_tokens": 8000,
-                    "messages": [
-                        {
-                            "role": "user",
-                            "content": f"{prompt_text}\n\n{credit_agreement_text}"
-                        }
-                    ]
+            if use_system_parameter:
+                # NEW: Use Claude's native system parameter for better performance
+                request = {
+                    "custom_id": f"memo_generation_{idx}",
+                    "params": {
+                        "model": model,
+                        "max_tokens": 8000,
+                        "system": prompt_text,  # System instructions
+                        "messages": [
+                            {
+                                "role": "user",
+                                "content": credit_agreement_text  # Just the credit agreement
+                            }
+                        ]
+                    }
                 }
-            }
+            else:
+                # OLD: Everything in user message (default behavior)
+                request = {
+                    "custom_id": f"memo_generation_{idx}",
+                    "params": {
+                        "model": model,
+                        "max_tokens": 8000,
+                        "messages": [
+                            {
+                                "role": "user",
+                                "content": f"{prompt_text}\n\n{credit_agreement_text}"
+                            }
+                        ]
+                    }
+                }
             batch_requests.append(request)
             print(f"  ✓ Prepared request for index {idx}")
 
@@ -394,8 +415,12 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
     return memos
 
 
-def generate_all_memos(indices: List[int], train_file: Path, model: str, few_shot_examples: Optional[List[Dict[str, str]]] = None) -> Dict[int, Dict]:
-    """Phase 1: Generate all memos sequentially (legacy method)."""
+def generate_all_memos(indices: List[int], train_file: Path, model: str, few_shot_examples: Optional[List[Dict[str, str]]] = None, use_system_parameter: bool = False) -> Dict[int, Dict]:
+    """Phase 1: Generate all memos sequentially (legacy method).
+
+    Args:
+        use_system_parameter: If True, use Claude's native system parameter. If False, use old behavior (everything in user message).
+    """
     print(f"\n{'='*70}")
     print(f"PHASE 1: GENERATING ALL MEMOS (SEQUENTIAL)")
     print(f"{'='*70}")
@@ -422,7 +447,7 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str, few_sho
                 print(f"  Source: {source_url[:80]}...")
 
                 # Generate memo
-                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE, few_shot_examples=few_shot_examples)
+                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE, few_shot_examples=few_shot_examples, use_system_parameter=use_system_parameter)
 
                 if memo:
                     memos[idx] = {
@@ -1089,6 +1114,11 @@ Examples:
         default=None,
         help='Path to directory containing few-shot examples (with input_*.txt and example_*.md files)'
     )
+    parser.add_argument(
+        '--use-system-parameter',
+        action='store_true',
+        help='Use Claude\'s native system parameter for better instruction following (only affects Claude API calls)'
+    )
     args = parser.parse_args()
 
     # Declare global variables that we'll modify
@@ -1256,7 +1286,8 @@ Examples:
             train_file=TRAIN_FILE,
             model=MODEL_TO_EVALUATE,
             api_key=api_keys["ANTHROPIC_API_KEY"],
-            few_shot_examples=few_shot_examples
+            few_shot_examples=few_shot_examples,
+            use_system_parameter=args.use_system_parameter
         )
     else:
         # Use sequential generation (slower but more reliable)
@@ -1264,7 +1295,8 @@ Examples:
             indices=indices_to_evaluate,
             train_file=TRAIN_FILE,
             model=MODEL_TO_EVALUATE,
-            few_shot_examples=few_shot_examples
+            few_shot_examples=few_shot_examples,
+            use_system_parameter=args.use_system_parameter
         )
 
     # Phase 2: Submit all batch jobs (NO WAITING)

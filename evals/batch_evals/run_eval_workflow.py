@@ -45,6 +45,11 @@ Parameters:
         Directory should contain input_*.txt and example_*.md files
         Example: evals/few_shot_examples
 
+    --use-system-parameter : flag (optional)
+        Use Claude's native system parameter for better instruction following
+        Only affects Claude API calls. Improves prompt adherence and efficiency.
+        Default: False (uses old behavior with everything in user message)
+
 Examples:
 ---------
     # Run with default sample and baseline prompt
@@ -67,6 +72,9 @@ Examples:
 
     # Run with few-shot examples
     python run_eval_workflow.py my_run --few-shot-dir evals/few_shot_examples --parallel-memos
+
+    # Run with few-shot examples AND system parameter (recommended for Claude)
+    python run_eval_workflow.py my_run --few-shot-dir evals/few_shot_examples --parallel-memos --use-system-parameter
 
 Output Directories:
 -------------------
@@ -180,6 +188,12 @@ Examples:
         help='Path to directory containing few-shot examples (with input_*.txt and example_*.md files)'
     )
 
+    parser.add_argument(
+        '--use-system-parameter',
+        action='store_true',
+        help='Use Claude\'s native system parameter for better instruction following (only affects Claude API calls)'
+    )
+
     args = parser.parse_args()
 
     # Validate run_name doesn't start with batch_temp_ (we'll add it)
@@ -207,6 +221,7 @@ Examples:
     print(f"Evaluators: {', '.join(args.evaluators) if args.evaluators else 'All (openai, claude, gemini)'}")
     print(f"Skip memo generation: {'Yes' if args.skip_memo_generation else 'No'}")
     print(f"Few-shot examples: {args.few_shot_dir if args.few_shot_dir else 'None'}")
+    print(f"Use system parameter (Claude): {'Yes' if args.use_system_parameter else 'No'}")
     print(f"\n{'='*70}\n")
 
     # Get confirmation
@@ -245,6 +260,9 @@ Examples:
 
     if args.few_shot_dir:
         cmd.extend(["--few-shot-dir", args.few_shot_dir])
+
+    if args.use_system_parameter:
+        cmd.append("--use-system-parameter")
 
     run_command(cmd, "STEP 1: Running batch evaluations")
 

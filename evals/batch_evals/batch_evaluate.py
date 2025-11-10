@@ -66,7 +66,8 @@ def generate_memo_for_input(
     credit_agreement_text: str,
     temp_input_file: Path,
     prompt_file: Optional[Path] = None,
-    few_shot_examples: Optional[List[Dict[str, str]]] = None
+    few_shot_examples: Optional[List[Dict[str, str]]] = None,
+    use_system_parameter: bool = False
 ) -> Optional[str]:
     """
     Generate memo using model_run.py for a given credit agreement.
@@ -77,6 +78,7 @@ def generate_memo_for_input(
         temp_input_file: Temporary file to write credit agreement to
         prompt_file: Optional path to prompt file (defaults to prompts/baseline.txt)
         few_shot_examples: Optional list of dicts with 'input' and 'output' keys for few-shot learning
+        use_system_parameter: If True, use Claude's native system parameter (only for Claude models)
 
     Returns:
         Generated memo text, or None if generation failed
@@ -139,6 +141,10 @@ def generate_memo_for_input(
         # Add prompt file if specified
         if prompt_to_use:
             cmd.extend(["--prompt-file", str(prompt_to_use)])
+
+        # Add system parameter flag if specified
+        if use_system_parameter:
+            cmd.append("--use-system-parameter")
 
         result = subprocess.run(
             cmd,
