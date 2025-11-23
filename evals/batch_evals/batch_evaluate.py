@@ -67,7 +67,8 @@ def generate_memo_for_input(
     temp_input_file: Path,
     prompt_file: Optional[Path] = None,
     few_shot_examples: Optional[List[Dict[str, str]]] = None,
-    use_system_parameter: bool = False
+    use_system_parameter: bool = False,
+    use_xml_tags: bool = False
 ) -> Optional[str]:
     """
     Generate memo using model_run.py for a given credit agreement.
@@ -79,13 +80,20 @@ def generate_memo_for_input(
         prompt_file: Optional path to prompt file (defaults to prompts/baseline.txt)
         few_shot_examples: Optional list of dicts with 'input' and 'output' keys for few-shot learning
         use_system_parameter: If True, use Claude's native system parameter (only for Claude models)
+        use_xml_tags: If True, wrap inputs in XML tags for better structure
 
     Returns:
         Generated memo text, or None if generation failed
     """
+    # Wrap credit agreement in XML tags if requested
+    if use_xml_tags:
+        formatted_credit_agreement = f"<credit_agreement>\n{credit_agreement_text}\n</credit_agreement>"
+    else:
+        formatted_credit_agreement = credit_agreement_text
+
     # Write credit agreement to temp JSONL file for model_run.py
     with open(temp_input_file, 'w', encoding='utf-8') as f:
-        json.dump({"text": credit_agreement_text}, f)
+        json.dump({"text": formatted_credit_agreement}, f)
 
     # Create temp output file
     with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as tmp_out:
@@ -109,14 +117,25 @@ def generate_memo_for_input(
                     original_prompt = f.read()
 
             # Format few-shot examples
-            few_shot_section = "\n\n# Few-Shot Examples\n\n"
-            few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
+            if use_xml_tags:
+                # Format with XML tags
+                few_shot_section = "\n\n<examples>\n"
+                for i, example in enumerate(few_shot_examples, 1):
+                    few_shot_section += f"<example>\n"
+                    few_shot_section += f"<input>\n{example['input']}\n</input>\n\n"
+                    few_shot_section += f"<output>\n{example['output']}\n</output>\n"
+                    few_shot_section += f"</example>\n\n"
+                few_shot_section += "</examples>\n\n"
+            else:
+                # Original format without XML
+                few_shot_section = "\n\n# Few-Shot Examples\n\n"
+                few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
 
-            for i, example in enumerate(few_shot_examples, 1):
-                few_shot_section += f"## Example {i}\n\n"
-                few_shot_section += f"### Input Credit Agreement:\n```\n{example['input']}\n```\n\n"
-                few_shot_section += f"### Expected Output Memo:\n{example['output']}\n\n"
-                few_shot_section += "---\n\n"
+                for i, example in enumerate(few_shot_examples, 1):
+                    few_shot_section += f"## Example {i}\n\n"
+                    few_shot_section += f"### Input Credit Agreement:\n```\n{example['input']}\n```\n\n"
+                    few_shot_section += f"### Expected Output Memo:\n{example['output']}\n\n"
+                    few_shot_section += "---\n\n"
 
             # Prepend few-shot examples to the original prompt
             modified_prompt = few_shot_section + original_prompt
@@ -145,6 +164,10 @@ def generate_memo_for_input(
         # Add system parameter flag if specified
         if use_system_parameter:
             cmd.append("--use-system-parameter")
+
+        # Add XML tags flag if specified
+        if use_xml_tags:
+            cmd.append("--use-xml-tags")
 
         result = subprocess.run(
             cmd,

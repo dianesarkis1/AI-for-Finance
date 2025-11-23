@@ -50,6 +50,18 @@ Parameters:
         Only affects Claude API calls. Improves prompt adherence and efficiency.
         Default: False (uses old behavior with everything in user message)
 
+    --use-xml-tags : flag (optional)
+        Wrap inputs in XML tags (<credit_agreement>, <examples>, etc.)
+        Helps Claude parse long, structured documents more clearly.
+        Recommended for use with Claude, especially with few-shot examples.
+        Default: False (no XML wrapping)
+
+    --refinement-rounds : int (optional)
+        Number of iterative refinement rounds per evaluator.
+        For each round: evaluate memo → refine with Claude based on feedback → re-evaluate.
+        Each evaluator gets its own refinement path.
+        Default: 0 (no refinement, standard evaluation)
+
 Examples:
 ---------
     # Run with default sample and baseline prompt
@@ -75,6 +87,12 @@ Examples:
 
     # Run with few-shot examples AND system parameter (recommended for Claude)
     python run_eval_workflow.py my_run --few-shot-dir evals/few_shot_examples --parallel-memos --use-system-parameter
+
+    # Run with all Claude optimizations (system parameter + XML tags + few-shot)
+    python run_eval_workflow.py my_run --few-shot-dir evals/few_shot_examples --parallel-memos --use-system-parameter --use-xml-tags
+
+    # Run with iterative refinement (2 rounds per evaluator)
+    python run_eval_workflow.py my_run --parallel-memos --refinement-rounds 2
 
 Output Directories:
 -------------------
@@ -194,6 +212,19 @@ Examples:
         help='Use Claude\'s native system parameter for better instruction following (only affects Claude API calls)'
     )
 
+    parser.add_argument(
+        '--use-xml-tags',
+        action='store_true',
+        help='Wrap inputs in XML tags for better structure (credit_agreement, examples). Recommended for Claude with long documents.'
+    )
+
+    parser.add_argument(
+        '--refinement-rounds',
+        type=int,
+        default=0,
+        help='Number of iterative refinement rounds. For each evaluator, refine memo based on feedback and re-evaluate. Default: 0 (no refinement)'
+    )
+
     args = parser.parse_args()
 
     # Validate run_name doesn't start with batch_temp_ (we'll add it)
@@ -222,6 +253,8 @@ Examples:
     print(f"Skip memo generation: {'Yes' if args.skip_memo_generation else 'No'}")
     print(f"Few-shot examples: {args.few_shot_dir if args.few_shot_dir else 'None'}")
     print(f"Use system parameter (Claude): {'Yes' if args.use_system_parameter else 'No'}")
+    print(f"Use XML tags: {'Yes' if args.use_xml_tags else 'No'}")
+    print(f"Refinement rounds: {args.refinement_rounds} {'(no refinement)' if args.refinement_rounds == 0 else f'({args.refinement_rounds} rounds per evaluator)'}")
     print(f"\n{'='*70}\n")
 
     # Get confirmation
@@ -263,6 +296,12 @@ Examples:
 
     if args.use_system_parameter:
         cmd.append("--use-system-parameter")
+
+    if args.use_xml_tags:
+        cmd.append("--use-xml-tags")
+
+    if args.refinement_rounds > 0:
+        cmd.extend(["--refinement-rounds", str(args.refinement_rounds)])
 
     run_command(cmd, "STEP 1: Running batch evaluations")
 

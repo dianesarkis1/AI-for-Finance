@@ -229,13 +229,14 @@ def load_few_shot_examples(few_shot_dir: Path) -> List[Dict[str, str]]:
     return examples
 
 
-def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str, few_shot_examples: Optional[List[Dict[str, str]]] = None, use_system_parameter: bool = False) -> Dict[int, Dict]:
+def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str, api_key: str, few_shot_examples: Optional[List[Dict[str, str]]] = None, use_system_parameter: bool = False, use_xml_tags: bool = False) -> Dict[int, Dict]:
     """
     Phase 1: Generate all memos in parallel using Claude Batch API.
     Much faster than sequential generation.
 
     Args:
         use_system_parameter: If True, use Claude's native system parameter. If False, use old behavior (everything in user message).
+        use_xml_tags: If True, wrap inputs in XML tags for better structure.
     """
     print(f"\n{'='*70}")
     print(f"PHASE 1: GENERATING ALL MEMOS (PARALLEL)")
@@ -256,17 +257,28 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
 
     # Prepend few-shot examples to prompt if provided
     if few_shot_examples:
-        few_shot_section = "\n\n# Few-Shot Examples\n\n"
-        few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
+        if use_xml_tags:
+            # Format with XML tags
+            few_shot_section = "\n\n<examples>\n"
+            for i, example in enumerate(few_shot_examples, 1):
+                few_shot_section += f"<example>\n"
+                few_shot_section += f"<input>\n{example['input']}\n</input>\n\n"
+                few_shot_section += f"<output>\n{example['output']}\n</output>\n"
+                few_shot_section += f"</example>\n\n"
+            few_shot_section += "</examples>\n\n"
+        else:
+            # Original format without XML
+            few_shot_section = "\n\n# Few-Shot Examples\n\n"
+            few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
 
-        for i, example in enumerate(few_shot_examples, 1):
-            few_shot_section += f"## Example {i}\n\n"
-            few_shot_section += f"### Input Credit Agreement:\n```\n{example['input']}\n```\n\n"
-            few_shot_section += f"### Expected Output Memo:\n{example['output']}\n\n"
-            few_shot_section += "---\n\n"
+            for i, example in enumerate(few_shot_examples, 1):
+                few_shot_section += f"## Example {i}\n\n"
+                few_shot_section += f"### Input Credit Agreement:\n```\n{example['input']}\n```\n\n"
+                few_shot_section += f"### Expected Output Memo:\n{example['output']}\n\n"
+                few_shot_section += "---\n\n"
 
         prompt_text = few_shot_section + prompt_text
-        print(f"✅ Prepended {len(few_shot_examples)} few-shot examples to prompt\n")
+        print(f"✅ Prepended {len(few_shot_examples)} few-shot examples to prompt (XML tags: {use_xml_tags})\n")
 
     # Build batch requests for memo generation
     batch_requests = []
@@ -282,6 +294,12 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
             }
 
             # Create batch request for this memo
+            # Wrap credit agreement in XML tags if requested
+            if use_xml_tags:
+                formatted_credit_agreement = f"<credit_agreement>\n{credit_agreement_text}\n</credit_agreement>"
+            else:
+                formatted_credit_agreement = credit_agreement_text
+
             if use_system_parameter:
                 # NEW: Use Claude's native system parameter for better performance
                 request = {
@@ -293,7 +311,7 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
                         "messages": [
                             {
                                 "role": "user",
-                                "content": credit_agreement_text  # Just the credit agreement
+                                "content": formatted_credit_agreement  # Credit agreement (optionally XML-wrapped)
                             }
                         ]
                     }
@@ -308,7 +326,7 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
                         "messages": [
                             {
                                 "role": "user",
-                                "content": f"{prompt_text}\n\n{credit_agreement_text}"
+                                "content": f"{prompt_text}\n\n{formatted_credit_agreement}"
                             }
                         ]
                     }
@@ -415,11 +433,12 @@ def generate_all_memos_parallel(indices: List[int], train_file: Path, model: str
     return memos
 
 
-def generate_all_memos(indices: List[int], train_file: Path, model: str, few_shot_examples: Optional[List[Dict[str, str]]] = None, use_system_parameter: bool = False) -> Dict[int, Dict]:
+def generate_all_memos(indices: List[int], train_file: Path, model: str, few_shot_examples: Optional[List[Dict[str, str]]] = None, use_system_parameter: bool = False, use_xml_tags: bool = False) -> Dict[int, Dict]:
     """Phase 1: Generate all memos sequentially (legacy method).
 
     Args:
         use_system_parameter: If True, use Claude's native system parameter. If False, use old behavior (everything in user message).
+        use_xml_tags: If True, wrap inputs in XML tags for better structure.
     """
     print(f"\n{'='*70}")
     print(f"PHASE 1: GENERATING ALL MEMOS (SEQUENTIAL)")
@@ -429,6 +448,7 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str, few_sho
     print(f"Method: Sequential (slower)")
     if few_shot_examples:
         print(f"Few-shot examples: {len(few_shot_examples)}")
+    print(f"XML tags: {use_xml_tags}")
     print(f"{'='*70}\n")
 
     memos = {}
@@ -447,7 +467,7 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str, few_sho
                 print(f"  Source: {source_url[:80]}...")
 
                 # Generate memo
-                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE, few_shot_examples=few_shot_examples, use_system_parameter=use_system_parameter)
+                memo = generate_memo_for_input(model, credit_agreement_text, temp_input_file, prompt_file=PROMPT_FILE, few_shot_examples=few_shot_examples, use_system_parameter=use_system_parameter, use_xml_tags=use_xml_tags)
 
                 if memo:
                     memos[idx] = {
@@ -491,6 +511,488 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str, few_sho
     print(f"{'='*70}\n")
 
     return memos
+
+
+def refine_memo_based_on_feedback(
+    source_document: str,
+    original_prompt: str,
+    current_memo: str,
+    evaluation_feedback: Dict,
+    api_key: str,
+    model: str = "claude-sonnet-4-20250514"
+) -> Optional[str]:
+    """
+    Refine a memo based on evaluation feedback from an evaluator.
+
+    Args:
+        source_document: Original credit agreement text
+        original_prompt: Original instructions for memo generation
+        current_memo: Current version of the memo
+        evaluation_feedback: Dict with evaluation results (accuracy, completeness, consistency, quality)
+        api_key: Anthropic API key
+        model: Claude model to use for refinement
+
+    Returns:
+        Refined memo text, or None if refinement failed
+    """
+    # Construct refinement prompt
+    refinement_prompt = f"""You are refining an investment memo based on evaluation feedback.
+
+<original_instructions>
+{original_prompt}
+</original_instructions>
+
+<source_credit_agreement>
+{source_document}
+</source_credit_agreement>
+
+<current_memo>
+{current_memo}
+</current_memo>
+
+<evaluation_feedback>
+The memo was evaluated on four dimensions:
+
+1. ACCURACY: {evaluation_feedback.get('accuracy_result', {}).get('accurate', 'N/A')}
+   Score: {evaluation_feedback.get('accuracy_result', {}).get('score', 0):.2f}
+   Issues: {evaluation_feedback.get('accuracy_result', {}).get('votes', {}).get(list(evaluation_feedback.get('accuracy_result', {}).get('votes', {}).keys())[0] if evaluation_feedback.get('accuracy_result', {}).get('votes') else 'unknown', {}).get('issues', [])}
+
+2. COMPLETENESS: {evaluation_feedback.get('completeness_result', {}).get('complete', 'N/A')}
+   Score: {evaluation_feedback.get('completeness_result', {}).get('score', 0):.2f}
+   Missing terms: {evaluation_feedback.get('completeness_result', {}).get('votes', {}).get(list(evaluation_feedback.get('completeness_result', {}).get('votes', {}).keys())[0] if evaluation_feedback.get('completeness_result', {}).get('votes') else 'unknown', {}).get('missing_terms', [])}
+
+3. CONSISTENCY: {evaluation_feedback.get('consistency_result', {}).get('consistent', 'N/A')}
+   Score: {evaluation_feedback.get('consistency_result', {}).get('score', 0):.2f}
+   Has issues: {evaluation_feedback.get('consistency_result', {}).get('votes', {}).get(list(evaluation_feedback.get('consistency_result', {}).get('votes', {}).keys())[0] if evaluation_feedback.get('consistency_result', {}).get('votes') else 'unknown', {}).get('has_issues', False)}
+
+4. QUALITY: Score: {evaluation_feedback.get('quality_result', {}).get('quality_score', 0):.2f}
+   - Clarity: {evaluation_feedback.get('quality_result', {}).get('clarity_score', 0):.2f}
+   - Tone: {evaluation_feedback.get('quality_result', {}).get('tone_score', 0):.2f}
+   - Length: {evaluation_feedback.get('quality_result', {}).get('length_score', 0):.2f}
+   - Structure: {evaluation_feedback.get('quality_result', {}).get('structure_score', 0):.2f}
+</evaluation_feedback>
+
+<task>
+Based on the evaluation feedback above, improve the memo to address any identified issues. Focus especially on areas with low scores or identified problems.
+
+Return ONLY the improved memo text (no preamble, no explanations). The improved memo should:
+- Fix any accuracy issues by ensuring all facts match the source document
+- Add any missing key terms identified in the completeness evaluation
+- Resolve any consistency issues or contradictions
+- Improve quality in areas with low scores (clarity, tone, length, structure)
+
+Maintain the same overall structure and format as the original memo, but improve the content based on the feedback.
+</task>"""
+
+    # Call Claude API to refine
+    try:
+        payload = {
+            "model": model,
+            "max_tokens": 16000,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": refinement_prompt
+                }
+            ]
+        }
+
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        response = client.messages.create(**payload)
+
+        # Extract refined memo
+        if response.content and len(response.content) > 0:
+            refined_memo = response.content[0].text
+            return refined_memo
+        else:
+            print(f"  ⚠️  No content in refinement response")
+            return None
+
+    except Exception as e:
+        print(f"  ❌ Error refining memo: {e}")
+        return None
+
+
+def run_iterative_refinement(
+    memos: Dict[int, Dict],
+    evaluator_models: List[str],
+    refinement_rounds: int,
+    api_key: str
+) -> Dict:
+    """
+    Run iterative refinement workflow for all evaluators.
+
+    For each input and each evaluator:
+    1. Evaluate memo → get feedback
+    2. For each refinement round:
+       - Refine memo based on feedback (using Claude)
+       - Re-evaluate refined memo
+    3. Return final evaluation scores
+
+    Args:
+        memos: Dict mapping index → memo info
+        evaluator_models: List of evaluator model names
+        refinement_rounds: Number of refinement iterations
+        api_key: Anthropic API key for refinement calls
+
+    Returns:
+        Dict mapping (index, evaluator) → final evaluation results
+    """
+    print(f"\n{'='*70}")
+    print(f"ITERATIVE REFINEMENT WORKFLOW")
+    print(f"{'='*70}")
+    print(f"Refinement rounds: {refinement_rounds}")
+    print(f"Evaluators: {len(evaluator_models)}")
+    print(f"Inputs: {len([m for m in memos.values() if m.get('memo')])}")
+    print(f"Total evaluations: {len([m for m in memos.values() if m.get('memo')]) * len(evaluator_models) * (refinement_rounds + 1)}")
+    print(f"{'='*70}\n")
+
+    # Load original prompt (for refinement context)
+    if PROMPT_FILE:
+        prompt_path = PROMPT_FILE
+    else:
+        prompt_path = Path(__file__).parent.parent.parent / "prompts" / "baseline.txt"
+    with open(prompt_path, 'r') as f:
+        original_prompt = f.read()
+
+    # Track final results
+    final_results = {}
+
+    # Process each input
+    for idx, memo_info in memos.items():
+        if not memo_info.get('memo'):
+            print(f"⏭️  Skipping index {idx} (no memo generated)")
+            continue
+
+        print(f"\n{'='*70}")
+        print(f"Processing input {idx}")
+        print(f"{'='*70}\n")
+
+        initial_memo = memo_info['memo']
+        source_document = memo_info['credit_agreement']
+
+        # Process each evaluator independently
+        for evaluator_model in evaluator_models:
+            print(f"\n  Evaluator: {evaluator_model}")
+            print(f"  {'─'*66}")
+
+            current_memo = initial_memo
+            current_round = 0
+
+            # Iterate through refinement rounds
+            for round_num in range(refinement_rounds + 1):
+                print(f"\n  Round {round_num + 1}/{refinement_rounds + 1}:")
+
+                # Evaluate current memo
+                print(f"    Evaluating...")
+                eval_results = evaluate_single_memo_sync(
+                    memo=current_memo,
+                    source_document=source_document,
+                    evaluator_model=evaluator_model,
+                    input_index=idx
+                )
+
+                if not eval_results:
+                    print(f"    ❌ Evaluation failed")
+                    break
+
+                # Display scores
+                acc_score = eval_results.get('accuracy_result', {}).get('score', 0)
+                comp_score = eval_results.get('completeness_result', {}).get('score', 0)
+                cons_score = eval_results.get('consistency_result', {}).get('score', 0)
+                qual_score = eval_results.get('quality_result', {}).get('quality_score', 0)
+                avg_score = (acc_score + comp_score + cons_score + qual_score) / 4
+
+                print(f"    Scores: Acc={acc_score:.2f}, Comp={comp_score:.2f}, Cons={cons_score:.2f}, Qual={qual_score:.2f}, Avg={avg_score:.2f}")
+
+                # If this is the last round, save results and stop
+                if round_num == refinement_rounds:
+                    final_results[(idx, evaluator_model)] = eval_results
+                    print(f"    ✅ Final scores recorded")
+                    break
+
+                # Otherwise, refine the memo
+                print(f"    Refining based on feedback...")
+                refined_memo = refine_memo_based_on_feedback(
+                    source_document=source_document,
+                    original_prompt=original_prompt,
+                    current_memo=current_memo,
+                    evaluation_feedback=eval_results,
+                    api_key=api_key
+                )
+
+                if refined_memo:
+                    current_memo = refined_memo
+                    print(f"    ✅ Memo refined ({len(refined_memo)} chars)")
+                else:
+                    print(f"    ❌ Refinement failed, keeping current memo")
+                    # Continue with current memo
+
+            current_round += 1
+
+    print(f"\n{'='*70}")
+    print(f"ITERATIVE REFINEMENT COMPLETE")
+    print(f"{'='*70}")
+    print(f"Final results: {len(final_results)} evaluations")
+    print(f"{'='*70}\n")
+
+    return final_results
+
+
+def evaluate_memo_with_sync_api(
+    memo: str,
+    source_document: str,
+    evaluator_model: str
+) -> Optional[Dict]:
+    """
+    Synchronously evaluate a memo using direct API calls (not batch API).
+    This is much faster for iterative refinement where we evaluate one memo at a time.
+
+    Args:
+        memo: Generated memo text
+        source_document: Original credit agreement
+        evaluator_model: Model to use for evaluation
+
+    Returns:
+        Dict with evaluation results, or None if evaluation failed
+    """
+    from evals.metrics import (
+        ACCURACY_PROMPT_TEMPLATE,
+        COMPLETENESS_PROMPT_TEMPLATE,
+        CONSISTENCY_PROMPT_TEMPLATE,
+        CLARITY_PROMPT_TEMPLATE,
+        TONE_PROMPT_TEMPLATE,
+        LENGTH_PROMPT_TEMPLATE,
+        STRUCTURE_PROMPT_TEMPLATE,
+        _parse_accuracy_response,
+        _parse_completeness_response,
+        _parse_consistency_response,
+        _parse_quality_score
+    )
+    import os
+
+    try:
+        # Prepare prompts for all metrics
+        accuracy_prompt = ACCURACY_PROMPT_TEMPLATE.format(
+            source_document=source_document,
+            memo=memo
+        )
+        completeness_prompt = COMPLETENESS_PROMPT_TEMPLATE.format(
+            source_document=source_document,
+            memo=memo
+        )
+        consistency_prompt = CONSISTENCY_PROMPT_TEMPLATE.format(memo=memo)
+        clarity_prompt = CLARITY_PROMPT_TEMPLATE.format(memo=memo)
+        tone_prompt = TONE_PROMPT_TEMPLATE.format(memo=memo)
+        length_prompt = LENGTH_PROMPT_TEMPLATE.format(memo=memo)
+
+        # Structure prompt requires a template parameter
+        default_template = """1. Executive Summary/Overview
+2. Transaction/Company Details
+3. Financial Terms
+4. Investment Strengths/Highlights
+5. Risks and Concerns
+6. Recommendation/Conclusion"""
+        structure_prompt = STRUCTURE_PROMPT_TEMPLATE.format(template=default_template, memo=memo)
+
+        results = {}
+
+        if evaluator_model.startswith("gpt"):
+            # Use OpenAI sync API
+            print(f"      Using OpenAI sync API ({evaluator_model})...", flush=True)
+            from openai import OpenAI
+
+            api_key = os.getenv("OPENAI_API_KEY")
+            if not api_key:
+                raise ValueError("OPENAI_API_KEY not found in environment")
+
+            client = OpenAI(api_key=api_key)
+
+            # Evaluate each metric
+            prompts = {
+                'accuracy': accuracy_prompt,
+                'completeness': completeness_prompt,
+                'consistency': consistency_prompt,
+                'clarity': clarity_prompt,
+                'tone': tone_prompt,
+                'length': length_prompt,
+                'structure': structure_prompt
+            }
+
+            for metric, prompt in prompts.items():
+                print(f"        → Evaluating {metric}...", end=' ', flush=True)
+                response = client.chat.completions.create(
+                    model=evaluator_model,
+                    messages=[{"role": "user", "content": prompt}]
+                )
+                results[metric] = response.choices[0].message.content
+                print("✓", flush=True)
+
+        elif "claude" in evaluator_model.lower():
+            # Use Anthropic sync API
+            print(f"      Using Anthropic sync API ({evaluator_model})...", flush=True)
+            import anthropic
+
+            api_key = os.getenv("ANTHROPIC_API_KEY")
+            if not api_key:
+                raise ValueError("ANTHROPIC_API_KEY not found in environment")
+
+            client = anthropic.Anthropic(api_key=api_key)
+
+            # Evaluate each metric
+            prompts = {
+                'accuracy': accuracy_prompt,
+                'completeness': completeness_prompt,
+                'consistency': consistency_prompt,
+                'clarity': clarity_prompt,
+                'tone': tone_prompt,
+                'length': length_prompt,
+                'structure': structure_prompt
+            }
+
+            for metric, prompt in prompts.items():
+                print(f"        → Evaluating {metric}...", end=' ', flush=True)
+                response = client.messages.create(
+                    model=evaluator_model,
+                    max_tokens=4096,
+                    messages=[{"role": "user", "content": prompt}]
+                )
+                results[metric] = response.content[0].text
+                print("✓", flush=True)
+
+        elif "gemini" in evaluator_model.lower():
+            # Use Gemini sync API
+            print(f"      Using Gemini sync API ({evaluator_model})...", flush=True)
+            import google.generativeai as genai
+
+            api_key = os.getenv("GEMINI_API_KEY")
+            if not api_key:
+                raise ValueError("GEMINI_API_KEY not found in environment")
+
+            genai.configure(api_key=api_key)
+            model = genai.GenerativeModel(evaluator_model)
+
+            # Evaluate each metric
+            prompts = {
+                'accuracy': accuracy_prompt,
+                'completeness': completeness_prompt,
+                'consistency': consistency_prompt,
+                'clarity': clarity_prompt,
+                'tone': tone_prompt,
+                'length': length_prompt,
+                'structure': structure_prompt
+            }
+
+            for metric, prompt in prompts.items():
+                print(f"        → Evaluating {metric}...", end=' ', flush=True)
+                response = model.generate_content(prompt)
+                results[metric] = response.text
+                print("✓", flush=True)
+        else:
+            raise ValueError(f"Unknown evaluator model: {evaluator_model}")
+
+        # Parse results using existing parsers and format like batch API
+        # Accuracy - returns tuple (vote, hallucinations)
+        accuracy_vote, accuracy_hallucinations = _parse_accuracy_response(results['accuracy'])
+        accuracy_result = {
+            "accurate": accuracy_vote == "NO",
+            "score": 1.0 if accuracy_vote == "NO" else 0.0,
+            "votes": {
+                evaluator_model: {
+                    "vote": accuracy_vote,
+                    "hallucinations": accuracy_hallucinations
+                }
+            },
+            "consensus_reached": True,
+            "yes_votes": 1 if accuracy_vote == "YES" else 0,
+            "no_votes": 1 if accuracy_vote == "NO" else 0
+        }
+
+        # Completeness - returns tuple (vote, missing_terms)
+        completeness_vote, completeness_missing = _parse_completeness_response(results['completeness'])
+        completeness_result = {
+            "complete": completeness_vote == "NO",
+            "score": 1.0 if completeness_vote == "NO" else 0.0,
+            "votes": {
+                evaluator_model: {
+                    "vote": completeness_vote,
+                    "missing_terms": completeness_missing
+                }
+            },
+            "consensus_reached": True,
+            "yes_votes": 1 if completeness_vote == "YES" else 0,
+            "no_votes": 1 if completeness_vote == "NO" else 0
+        }
+
+        # Consistency - returns dict
+        consistency_result = _parse_consistency_response(results['consistency'])
+
+        # Quality - parse scores
+        clarity_score = _parse_quality_score(results['clarity'])
+        tone_score = _parse_quality_score(results['tone'])
+        length_score = _parse_quality_score(results['length'])
+        structure_score = _parse_quality_score(results['structure'])
+
+        quality_scores = [clarity_score, tone_score, length_score, structure_score]
+        quality_avg = sum(quality_scores) / len(quality_scores) if quality_scores else 0.0
+
+        quality_result = {
+            "quality_score": quality_avg,
+            "clarity_score": clarity_score,
+            "tone_score": tone_score,
+            "length_score": length_score,
+            "structure_score": structure_score,
+            "votes": {
+                evaluator_model: {
+                    "clarity": clarity_score,
+                    "tone": tone_score,
+                    "length": length_score,
+                    "structure": structure_score
+                }
+            }
+        }
+
+        return {
+            'accuracy_result': accuracy_result,
+            'completeness_result': completeness_result,
+            'consistency_result': consistency_result,
+            'quality_result': quality_result
+        }
+
+    except Exception as e:
+        print(f"      Error in sync evaluation: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+
+def evaluate_single_memo_sync(memo: str, source_document: str, evaluator_model: str, input_index: int) -> Optional[Dict]:
+    """
+    Synchronously evaluate a single memo.
+
+    For iterative refinement, uses direct API calls for speed.
+    For standard evaluation, would use batch API (but this function is only called during refinement).
+
+    Returns:
+        Dict with evaluation results, or None if evaluation failed
+    """
+    try:
+        # Use synchronous API for fast evaluation during iterative refinement
+        results = evaluate_memo_with_sync_api(
+            memo=memo,
+            source_document=source_document,
+            evaluator_model=evaluator_model
+        )
+
+        if results:
+            return results
+        else:
+            return None
+
+    except Exception as e:
+        print(f"      Error evaluating memo: {e}")
+        return None
 
 
 def save_batch_job_mappings(batch_jobs: List[Dict], temp_dir: Path):
@@ -1119,6 +1621,17 @@ Examples:
         action='store_true',
         help='Use Claude\'s native system parameter for better instruction following (only affects Claude API calls)'
     )
+    parser.add_argument(
+        '--use-xml-tags',
+        action='store_true',
+        help='Wrap inputs in XML tags for better structure. Recommended for Claude with long documents.'
+    )
+    parser.add_argument(
+        '--refinement-rounds',
+        type=int,
+        default=0,
+        help='Number of iterative refinement rounds per evaluator. Default: 0 (no refinement)'
+    )
     args = parser.parse_args()
 
     # Declare global variables that we'll modify
@@ -1287,7 +1800,8 @@ Examples:
             model=MODEL_TO_EVALUATE,
             api_key=api_keys["ANTHROPIC_API_KEY"],
             few_shot_examples=few_shot_examples,
-            use_system_parameter=args.use_system_parameter
+            use_system_parameter=args.use_system_parameter,
+            use_xml_tags=args.use_xml_tags
         )
     else:
         # Use sequential generation (slower but more reliable)
@@ -1296,20 +1810,54 @@ Examples:
             train_file=TRAIN_FILE,
             model=MODEL_TO_EVALUATE,
             few_shot_examples=few_shot_examples,
-            use_system_parameter=args.use_system_parameter
+            use_system_parameter=args.use_system_parameter,
+            use_xml_tags=args.use_xml_tags
         )
 
-    # Phase 2: Submit all batch jobs (NO WAITING)
-    batch_jobs = submit_all_batch_jobs(
-        memos=memos,
-        evaluator_models=EVALUATOR_MODELS
-    )
+    # Phase 2: Evaluation (with or without iterative refinement)
+    if args.refinement_rounds > 0:
+        # Use iterative refinement workflow
+        print(f"\n🔄 Using iterative refinement with {args.refinement_rounds} rounds")
 
-    # Phase 3: Poll all batch jobs until complete
-    batch_results, jobs_info = poll_all_batch_jobs(
-        batch_jobs=batch_jobs,
-        poll_interval=60
-    )
+        if not api_keys.get("ANTHROPIC_API_KEY"):
+            print("❌ ERROR: ANTHROPIC_API_KEY required for iterative refinement")
+            print("   Iterative refinement uses Claude to refine memos based on feedback")
+            sys.exit(1)
+
+        # Run iterative refinement (evaluates, refines, re-evaluates for each evaluator)
+        refinement_results = run_iterative_refinement(
+            memos=memos,
+            evaluator_models=EVALUATOR_MODELS,
+            refinement_rounds=args.refinement_rounds,
+            api_key=api_keys["ANTHROPIC_API_KEY"]
+        )
+
+        # Convert refinement results to batch_results format for aggregation
+        batch_results = {}
+        for (idx, evaluator), results in refinement_results.items():
+            if idx not in batch_results:
+                batch_results[idx] = {}
+            batch_results[idx][evaluator] = results
+
+        # No batch jobs to track in refinement mode
+        batch_jobs = []
+        jobs_info = {"message": "Iterative refinement mode - no batch jobs"}
+
+    else:
+        # Use standard batch evaluation workflow
+        print(f"\n📊 Using standard batch evaluation (no refinement)")
+
+        # Phase 2: Submit all batch jobs (NO WAITING)
+        batch_jobs = submit_all_batch_jobs(
+            memos=memos,
+            evaluator_models=EVALUATOR_MODELS
+        )
+
+        # Phase 3: Poll all batch jobs until complete
+        batch_results, jobs_info = poll_all_batch_jobs(
+            batch_jobs=batch_jobs,
+            poll_interval=60
+        )
 
     # Phase 4: Aggregate results
     # COMMENTED OUT: This aggregation creates comprehensive_batch_eval_results_{timestamp}.json

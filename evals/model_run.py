@@ -356,6 +356,7 @@ def main() -> None:
     parser.add_argument("--output", type=str, help="Optional path to save the generated memo.")
     parser.add_argument("--max-output-tokens", type=int, default=16000, help="Cap on generated/new tokens.")
     parser.add_argument("--use-system-parameter", action="store_true", help="Use Claude's native system parameter for better instruction following (only affects Claude models)")
+    parser.add_argument("--use-xml-tags", action="store_true", help="Inputs should be wrapped in XML tags (handled by caller, this flag is for consistency)")
 
     args = parser.parse_args()
 
