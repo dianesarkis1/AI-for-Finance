@@ -1,0 +1,41 @@
+## Checklist of Tasks
+
+- Identify the transaction date, parties, and structure from the agreement
+- Extract borrower information and company background details
+- Determine the purpose and key terms of the revolving commitment increase
+- Analyze credit positives and risks from an investment perspective
+- Compile deal terms table with available information, marking missing fields as "N/A"
+- Ensure proper formatting and professional tone throughout
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-07-07
+
+**Borrower/Company Overview:** ExchangeRight Income Fund Operating Partnership, LP, a Delaware limited partnership, serves as the borrower, with ExchangeRight Income Fund (d/b/a ExchangeRight Essential Income REIT), a Maryland real estate investment trust, as the parent entity.
+
+**Transaction Description:** This transaction represents a third incremental increase to an existing revolving credit facility through the addition of Renasant Bank as an Additional Lender. Wells Fargo Bank, National Association serves as Administrative Agent, with the original credit agreement dated May 30, 2024.
+
+**Purpose of Financing:** The financing adds $15,000,000 in incremental revolving commitments from Renasant Bank, expanding the borrower's available liquidity under the existing credit facility.
+
+**Company Background:** ExchangeRight operates as a real estate investment trust focused on income-generating properties. The organization maintains a complex structure with multiple subsidiary entities including ExchangeRight Essential Income Strategy Properties 6, LLC and various Delaware statutory trusts (ExchangeRight Net Leased Portfolio 3-9 DST) that serve as guarantors under the facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional banking relationships with Wells Fargo Bank, National Association as Administrative Agent and Fifth Third Bank as existing lender
+• REIT structure provides regulatory oversight and transparency typical of public real estate investment vehicles
+• Multiple subsidiary guarantors across portfolio entities enhance credit support and provide diversification
+• Successful expansion of facility demonstrates continued lender confidence and access to incremental capital markets
+
+**Principal Risks and Mitigating Factors:**
+• Real estate sector concentration exposes credit to property market cycles and interest rate volatility
+• Complex multi-entity organizational structure may present operational and administrative challenges
+• Limited visibility into specific financial performance metrics and covenant compliance from this amendment document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 15,000,000 | N/A | N/A | N/A | N/A | • Compliance with Section 2.17 requirements of original Credit Agreement<br>• No Default or Event of Default permitted<br>• All guarantees and security interests reaffirmed<br>• Pro rata treatment with existing revolving commitments<br>• Post-increase lender commitments: Wells Fargo - USD 75,000,000; Fifth Third Bank - USD 60,000,000; Renasant Bank - USD 15,000,000<br>• Total facility size: USD 150,000,000 |

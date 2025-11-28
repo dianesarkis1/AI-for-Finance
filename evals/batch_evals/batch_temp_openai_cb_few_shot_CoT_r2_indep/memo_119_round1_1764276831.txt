@@ -1,0 +1,41 @@
+# Concise Checklist
+
+- Identify the parties, transaction date, and purpose of this guarantor joinder agreement
+- Extract borrower background and transaction structure details from Apollo credit facility
+- Analyze credit strengths and risks from adding new guarantor entities
+- Compile available deal terms into the required table format
+- Validate all sections are present with appropriate N/A entries where data is missing
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-04-14
+
+**Borrower / Company Overview:** Apollo Management Holdings, L.P., a Delaware limited partnership, serves as the borrower under a revolving credit facility with Citibank, N.A. as Administrative Agent.
+
+**Transaction Description:** This transaction involves Apollo Global Management, Inc. and Apollo Asset Management, Inc. executing a Guarantor Joinder Agreement to join as additional guarantors under Apollo Management Holdings, L.P.'s existing credit agreement dated October 12, 2022. The facility includes revolving loans and letters of credit capabilities.
+
+**Purpose of Financing:** The purpose of adding these new guarantors is to induce lenders to maintain and/or make additional loans and issuing banks to maintain and/or issue additional letters of credit under the existing revolving facility.
+
+**Company Background:** Apollo operates through a complex structure with multiple Initial Guarantors comprising various Apollo Principal Holdings entities organized across jurisdictions including the Cayman Islands and Anguilla. The addition of Apollo Global Management, Inc. and Apollo Asset Management, Inc. as guarantors strengthens the credit support structure for the facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Enhanced credit support through addition of two Apollo operating entities as guarantors
+• Citibank, N.A. serves as Administrative Agent, indicating institutional-grade facility
+• Comprehensive guarantee covering prompt payment of all loan obligations when due
+• Established credit facility with existing guarantor framework already in place
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial information available for comprehensive credit assessment
+• Multi-jurisdictional guarantor structure across Delaware, Cayman Islands, and Anguilla
+• No visibility into financial covenants, leverage metrics, or facility utilization
+• Reliance on existing credit agreement terms not disclosed in this supplement
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • New guarantors guarantee prompt payment of loan obligations in full when due<br>• All terms and provisions of original Credit Agreement applicable to guarantors remain in full force and effect |

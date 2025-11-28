@@ -1,0 +1,40 @@
+## Checklist of Approach:
+- Extract key transaction details from the Box, Inc. and Wells Fargo credit agreement amendment
+- Identify the borrower, lender, date, and purpose of the amendment
+- Analyze the commitment amount changes and liquidity condition modifications
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure all three required sections are present and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-12-19
+
+**Borrower/Company Overview:** Box, Inc., a Delaware corporation, is a cloud content management and collaboration platform provider.
+
+**Transaction Description:** Amendment No. 1 to Amended and Restated Credit Agreement is a bilateral credit facility modification between Box, Inc. as Borrower and Wells Fargo Bank, National Association as sole Lender. The original credit agreement was dated June 30, 2023.
+
+**Purpose of Financing:** The amendment serves to modify existing credit facility terms, specifically increasing the lender's commitment amount and revising liquidity covenant requirements.
+
+**Company Background:** Box, Inc. operates as an established technology company with existing convertible debt securities and maintains a credit relationship with Wells Fargo Bank, National Association.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with Wells Fargo, a major U.S. financial institution, demonstrating lender confidence
+• Borrower confirms no Event of Default or Potential Event of Default exists as of amendment date
+• All existing security documents, guarantees, pledges, and security interests remain in full force and effect
+• Amendment preserves all collateral protection and lien priorities without impairment
+
+**Principal Risks and Mitigating Factors:**
+• Single lender concentration risk with Wells Fargo as sole credit provider limits financing diversification
+• Liquidity condition covenant directly tied to convertible notes outstanding creates potential refinancing pressure
+• Limited operational and financial performance data available for comprehensive credit assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Liquidity Condition: Borrower's Liquidity must be greater than or equal to outstanding principal amount of Existing Convertible Notes<br>• All security documents, guarantees, pledges, grants, and security interests maintained in full force and effect |

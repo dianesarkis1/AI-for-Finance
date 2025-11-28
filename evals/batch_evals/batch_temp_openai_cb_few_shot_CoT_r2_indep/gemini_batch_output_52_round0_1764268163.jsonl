@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo claims the borrower \\\"maintains compliance with all existing covenants\\\" while also stating the amendment is necessary to \\\"waiv[e] potential covenant defaults that arose from entering the merger agreement.\\\" A company cannot be both fully compliant with a covenant and in need of a waiver for an action that would otherwise cause a default.\", \"The memo states that the merger restrictions were amended to \\\"permit 'merge with or into any other Person'\\\", but also states that \\\"closing the merger will still constitute a prohibited change of control.\\\" The act of merging cannot be simultaneously permitted by one amended clause and prohibited by another.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

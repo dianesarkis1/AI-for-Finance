@@ -1,0 +1,41 @@
+## Checklist of Approach:
+- Extract key transaction parties and their roles from the amendment document
+- Identify the specific amendments being made to the original credit agreement
+- Note the maturity date extension and reinvestment period changes with full conditional language
+- Analyze credit positives and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo following the three required sections with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-06-18
+
+**Borrower / Company Overview:** OFSCC-FS, LLC, a Delaware limited liability company, serves as the borrower in this revolving credit and security agreement structure. The company is supported by OFS Capital Corporation as servicer and OFSCC-FS Holdings, LLC as equityholder.
+
+**Transaction Description:** This is a third amendment to a revolving credit and security agreement originally executed on June 20, 2019. The lending syndicate includes BNP Paribas serving dual roles as administrative agent and lender, along with Mitsubishi HC Capital America, Inc. as an additional lender. The structure incorporates professional third-party oversight through Citibank, N.A. as collateral agent and Virtus Group, LP as collateral administrator.
+
+**Purpose of Financing:** The amendment extends the facility's maturity profile and modifies the reinvestment period terms to provide operational flexibility.
+
+**Company Background:** Based on the structured nature of the facility with dedicated servicer, collateral administrator, and collateral agent roles, this appears to be an asset-based lending or securitization platform managed by OFS Capital Corporation.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender syndicate including BNP Paribas and Mitsubishi HC Capital America, demonstrating established banking relationships
+• Professional third-party administration structure with Virtus Group and Citibank providing operational oversight and collateral management
+• Current compliance status confirmed through borrower representations of no existing defaults or events of default
+• Maturity extension provides additional operational runway through 2027
+
+**Principal Risks and Mitigating Factors:**
+• Limited transparency into underlying collateral quality, portfolio composition, or financial performance metrics
+• Reinvestment period termination in August 2025 may constrain future deployment opportunities unless extended
+• Complex multi-party operational structure creates dependencies on servicer, collateral administrator, and collateral agent performance
+• Acceleration provisions could trigger early maturity under certain default scenarios
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2027-06-20 (or earlier upon obligation acceleration and termination of Individual Lender Maximum Funding Amounts per Section 6.01) | N/A | • Reinvestment Period ends August 31, 2025 (subject to potential extension by agreement of Borrower, Administrative Agent and each Lender)<br>• No Default, Event of Default, Potential Servicer Removal Event or Servicer Removal Event currently outstanding<br>• All representations and warranties in original agreement sections 4.01, 4.02, and 4.03 reaffirmed as of Amendment Date |

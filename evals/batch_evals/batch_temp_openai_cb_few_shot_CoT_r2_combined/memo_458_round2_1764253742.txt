@@ -1,0 +1,40 @@
+Based on my analysis of the credit agreement, I will:
+- Extract key transaction details and participants
+- Identify the specific amendments being made to the original credit agreement
+- Assess credit strengths and risks from the available information
+- Compile deal terms that are explicitly stated in the document
+- Format everything according to the required memo structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-02-10
+
+**Borrower/Company Overview:** SESI, L.L.C., a Delaware limited liability company, serves as the Borrower, with SESI Holdings, Inc. as Parent company and multiple subsidiary guarantors in the energy services sector including Superior Energy Services entities, Wild Well Control, Inc., and Warrior Energy Services Corporation.
+
+**Transaction Description:** Third Amendment to Credit Agreement executed between SESI, L.L.C. and its lending consortium led by JPMorgan Chase Bank, N.A. as Administrative Agent, with participating lenders including Bank of America, N.A. and Citibank, N.A.
+
+**Purpose of Financing:** The amendment modifies asset disposition restrictions and lien release provisions in the original Credit Agreement dated February 2, 2021, providing the borrower with greater operational flexibility for property sales and transfers.
+
+**Company Background:** SESI operates in the energy services industry through its subsidiaries, providing drilling, well services, inspection services, and related oilfield support activities across North America.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking consortium led by JPMorgan Chase with participation from major institutions (Bank of America, Citibank), indicating continued lender support
+• Borrower represents and warrants full compliance with all loan covenants and confirms no defaults are occurring
+• Amendment includes borrower release of claims against lenders, suggesting cooperative relationship
+• Liquidity and availability thresholds ($100 million and $25 million respectively) provide financial cushion for certain asset disposition activities
+
+**Principal Risks and Mitigating Factors:**
+• Energy services sector exposure with inherent commodity price volatility and cyclical business risks
+• Relaxed asset disposition covenants may indicate potential need for asset sales or restructuring activities
+• Multiple prior amendments and waivers since original 2021 agreement suggest ongoing covenant management issues
+• Limited financial information available to assess overall credit profile and performance metrics
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Asset dispositions permitted if they do not constitute "Substantial Portion" of borrower's property<br>• Disposition aggregation periods: (A) for dispositions Jan 1, 2022 through Dec 31, 2022, measured from Jan 1, 2022 through month of disposition; (B) for dispositions on or after Jan 1, 2023, measured over rolling twelve-month period ending with month of disposition<br>• Additional dispositions up to $25,000,000 allowed if Liquidity > $100,000,000 and Availability > $25,000,000<br>• 100% cash consideration required for sales of Property included in Borrowing Base<br>• Automatic lien releases triggered: (i) upon permitted dispositions to non-loan parties, (ii) with Required Lenders' approval per Section 9.11, and (iii) upon release of a Guarantor from obligations under Guarantee and Collateral Agreement |

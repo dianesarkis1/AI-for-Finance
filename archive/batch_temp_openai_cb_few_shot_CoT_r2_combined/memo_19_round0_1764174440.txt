@@ -1,0 +1,41 @@
+Looking at this credit agreement, I will:
+
+• Identify the key parties, dates, and transaction structure from the amendment document
+• Extract specific deal terms where explicitly stated in the agreement
+• Analyze credit strengths and risks from an investor perspective
+• Organize findings into the required three-section memo format
+• Ensure all table fields are filled with actual data or marked "N/A" as appropriate
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 27, 2023, Greystone Housing Impact Investors LP (formerly America First Multifamily Investors, L.P.) and Bankers Trust Company executed a Third Amendment to their Amended and Restated Credit Agreement.
+- The original credit agreement was established on August 23, 2021, with subsequent amendments in April 2022 and July 2022.
+- This amendment primarily updates administrative provisions related to the Pledged Account and Securities Intermediary arrangements. Specifically, it redesignates the Pledged Account (account #164283-000) and changes the Securities Intermediary from an unspecified entity to Wilmington Trust, National Association.
+- The purpose of this financing amendment appears to be administrative in nature, updating account management and intermediary arrangements rather than modifying core credit terms or facilities.
+- Greystone Housing Impact Investors LP is a Delaware limited partnership operating in the multifamily housing investment sector, as evidenced by its previous name "America First Multifamily Investors."
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• The borrower represents that no Event of Default or Unmatured Event of Default has occurred, indicating current compliance with all covenant requirements
+• All existing covenants, representations, and warranties remain in full force and effect, suggesting stable credit conditions
+• The amendment maintains all existing collateral protections and security arrangements
+• Wilmington Trust, National Association serves as the new Securities Intermediary, providing institutional-grade account management
+
+### Principal Risks and Mitigating Factors:
+• Limited financial information available in this amendment restricts comprehensive credit assessment
+• Administrative nature of changes provides minimal insight into underlying business performance or credit quality
+• The amendment requires additional documentation (Security Agreement amendment, updated Control Agreement) that could introduce execution risk if not properly completed
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | All existing covenants, representations, and warranties from the original Agreement remain in full force and effect. Borrower must maintain compliance with all terms of the Agreement and collateral agreements. |

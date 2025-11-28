@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states there is a \u201cconsortium of thirteen lenders,\u201d but the source lists fourteen lenders."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Reserve Deposit Agent identity and role (East West Bank as Reserve Deposit Agent)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Lender count inconsistency: the memo repeatedly says there are thirteen lenders, but the 'Lender consortium' list names fourteen institutions.\", \"Logical impossibility: the Key Deal Terms state 'No Event of Default or Default occurring before or after amendment effectiveness,' which asserts a future condition (no Defaults after effectiveness) that cannot be known at signing.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

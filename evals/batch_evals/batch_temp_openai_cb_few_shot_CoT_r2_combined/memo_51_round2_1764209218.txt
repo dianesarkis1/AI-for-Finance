@@ -1,0 +1,41 @@
+# Investment Memorandum
+
+## Checklist
+- Extract key parties, transaction structure, and dates from the increase supplement
+- Identify the financing purpose and relationship to existing credit facility
+- Analyze credit positives and risks from an investor perspective
+- Compile deal terms available in the document, marking unavailable items as "N/A"
+- Format the memo according to the specified structure with proper sections and table format
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-13
+
+**Borrower/Company Overview:** Texas-New Mexico Power Company is a Texas corporation operating as a regulated electric utility.
+
+**Transaction Description:** This is an increase supplement to the Fourth Amended and Restated Credit Agreement dated March 11, 2022. The supplement adds CoBank, ACB as a new lender with a $25,000,000 commitment to the existing syndicated credit facility administered by KeyBank National Association.
+
+**Purpose of Financing:** The supplement increases the total available borrowing capacity under the existing credit facility by adding CoBank, ACB's $25,000,000 commitment to the lending syndicate.
+
+**Company Background:** Texas-New Mexico Power Company maintains a secured credit facility backed by first mortgage bonds. Concurrent with this increase supplement, the company issued Replacement First Mortgage Bonds under a Sixteenth Supplemental Indenture dated May 13, 2022, which serve as collateral security under the credit facility structure.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Regulated utility operations provide stable, predictable cash flows and rate recovery mechanisms
+• Secured credit structure with First Mortgage Bond collateral providing enhanced creditor protection
+• Successful addition of CoBank, ACB demonstrates continued lender confidence and expands funding diversification
+• Established administrative framework with KeyBank National Association as agent
+• Borrower confirmed full compliance with all facility conditions and covenant requirements
+
+**Principal Risks and Mitigating Factors:**
+• Regulatory oversight may limit operational flexibility, though provides earnings stability through rate-setting processes
+• Capital-intensive utility operations require ongoing investment in infrastructure and equipment
+• Increased borrowing capacity may lead to higher leverage if fully utilized
+• Limited visibility into current financial metrics and performance trends from supplement documentation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Borrower compliance with Section 2.1(f) conditions confirmed<br>• Facility secured by Replacement First Mortgage Bonds issued under Sixteenth Supplemental Indenture dated May 13, 2022 |

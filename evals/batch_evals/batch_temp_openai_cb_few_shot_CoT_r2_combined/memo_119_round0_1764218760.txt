@@ -1,0 +1,40 @@
+## Planning Checklist
+
+- Extract key transaction details including parties, dates, and structure from the guarantor joinder agreement
+- Identify the borrower, guarantors, and administrative agent relationships
+- Analyze the purpose and implications of adding new guarantors to the existing credit facility
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On April 14, 2023, Apollo Global Management, Inc. and Apollo Asset Management, Inc. executed a Guarantor Joinder Agreement to join as new guarantors under Apollo Management Holdings, L.P.'s existing credit agreement dated October 12, 2022.
+- Apollo Management Holdings, L.P., a Delaware limited partnership, serves as the borrower of the Revolving Facility, with Citibank, N.A. acting as Administrative Agent.
+- The original credit agreement includes multiple Initial Guarantors, primarily Cayman Islands exempted limited partnerships and related Apollo entities (Apollo Principal Holdings I through XII, AMH Holdings (Cayman), L.P., and others).
+- The purpose of this joinder is to add Apollo Global Management, Inc. and Apollo Asset Management, Inc. as guarantors to induce lenders to maintain and/or make additional loans and issuing banks to maintain and/or issue additional letters of credit.
+- Apollo is a leading global alternative investment manager, and this transaction expands the guarantee support for the existing revolving credit facility by bringing in additional Apollo entities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- **Strong Sponsor**: Apollo Global Management is a well-established, publicly-traded alternative investment manager with significant assets under management and diversified revenue streams.
+- **Enhanced Credit Support**: Addition of new guarantors strengthens the overall credit profile by expanding the pool of entities backing the facility obligations.
+- **Established Banking Relationship**: Citibank, N.A. serves as Administrative Agent, indicating a relationship with a major financial institution.
+- **Operational Continuity**: The joinder maintains all existing terms of the original credit agreement while adding incremental support.
+
+### Principal Risks and Mitigating Factors:
+- **Limited Financial Visibility**: The joinder document does not provide specific financial metrics, covenants, or pricing information to assess current credit performance.
+- **Complex Corporate Structure**: The multiple guarantor entities across different jurisdictions (Delaware, Cayman Islands, Anguilla) may present operational and legal complexity.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | New Guarantors guarantee prompt payment of Loan Obligations in full when due. All existing terms and covenants of the October 12, 2022 Credit Agreement remain in full force and effect |

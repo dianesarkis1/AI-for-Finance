@@ -1,0 +1,42 @@
+## Checklist
+
+- Identify the key transaction details including parties, dates, and amendment purpose
+- Extract borrower information and transaction background from the credit agreement
+- Analyze the specific amendments being made to assess investment implications
+- Identify any available deal terms, pricing, or covenant information
+- Assess credit strengths and risks from the limited information provided
+- Format findings into the required three-section memorandum structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In May 2024, LifeStance Health Holdings, Inc. and its lenders executed a second amendment to their credit agreement, originally dated May 4, 2022.
+- LifeStance Health Holdings, Inc., a Delaware corporation, serves as the Borrower under a credit facility with Capital One, National Association acting as Administrative Agent, Revolver Agent, and Collateral Agent.
+- The lending syndicate includes Unitranche Loan Transaction II, LLC (managed by both Capital One, National Association and HPS Investment Partners, LLC) as a Required Facility Lender.
+- The amendment extends the "Delayed Draw Term Loan Commitment Expiration Date" from the original date to August 14, 2024, providing additional time for the borrower to access committed delayed draw term loan facilities.
+- LifeStance Health Holdings appears to be in the healthcare services sector, operating through various subsidiary guarantors under parent company Lynnwood Intermediate Holdings, Inc.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional lender base including Capital One as lead agent and HPS Investment Partners as co-manager, indicating sophisticated credit oversight
+- Borrower representations confirm no current defaults or events of default, suggesting stable credit performance
+- All existing loan documents, security interests, and liens remain in full force and effect, maintaining collateral protection
+- Amendment process demonstrates proactive capital management and lender cooperation
+
+### Principal Risks and Mitigating Factors:
+- Extension of delayed draw commitment expiration suggests potential liquidity planning needs or timing considerations for additional borrowing
+- Limited financial covenant or pricing information available to assess overall credit profile and terms
+- Healthcare services sector exposure may involve regulatory and operational complexities
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Delayed Draw Term Loan Commitment Expiration Date extended to August 14, 2024. All existing security interests and liens reaffirmed. Borrower confirms no defaults or events of default continuing |

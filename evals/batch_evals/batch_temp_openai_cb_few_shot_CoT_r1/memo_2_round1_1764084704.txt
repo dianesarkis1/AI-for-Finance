@@ -1,0 +1,41 @@
+Looking at this credit agreement, I will:
+- Identify the key parties and transaction type
+- Extract the waiver details and COVID-19 context
+- Analyze the covenant modifications and restrictions
+- Document the specific terms and conditions
+- Assess risks and investment implications
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2020-11-30
+
+**Borrower/Company Overview:** MGE Niagara Entertainment Inc. operates casino facilities and serves as the Borrower under a credit agreement originally dated June 10, 2019, with Complex Services Inc. as guarantor and Bank of Montreal as Administrative Agent.
+
+**Transaction Description:** Fifth Amended and Restated Limited Waiver granted by Bank of Montreal as Administrative Agent on behalf of Required Lenders, extending previous COVID-19 related covenant relief through March 31, 2021.
+
+**Purpose of Financing:** The waiver provides covenant relief due to government-mandated casino closures related to the COVID-19 pandemic, waiving financial covenant breaches and compliance certificate delivery requirements during the Extended Waiver Period.
+
+**Company Background:** MGE Niagara Entertainment operates casino facilities that were subject to temporary closure by OLG (Ontario Lottery and Gaming Corporation) due to COVID-19 regulations, requiring ongoing financial accommodation from lenders with OLG providing financial support during the closure period.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Government support through OLG providing financial relief and covering fixed component payments during closure period
+• Borrower maintains minimum liquidity requirement of $15,000,000
+• Weekly liquidity reporting provides enhanced monitoring and transparency
+• Extension fee of 5 basis points demonstrates lender compensation for additional risk
+
+**Principal Risks and Mitigating Factors:**
+• Extended waiver period through March 31, 2021 indicates prolonged financial stress
+• No new advances available under either credit facility during waiver period
+• Applicable margin increased to Level 5 (highest pricing tier)
+• Restrictions on distributions, acquisitions, and material contract modifications
+• Event of Default triggered if OLG ceases support payments for more than 5 business days
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | Level 5 pricing: 5.00% (BA/LC/LIBOR), 3.50% (Prime/USBR), 1.25% Undrawn Fee | 2021-03-31 | N/A | • Minimum Liquidity of $15,000,000 at all times<br>• No new advances available under credit facilities<br>• No distributions under clauses (c) or (e) of Permitted Distributions<br>• No acquisitions or adverse contract modifications<br>• Weekly liquidity reporting required<br>• Waiver of financial covenant breaches and compliance certificate delivery requirements during Extended Waiver Period |

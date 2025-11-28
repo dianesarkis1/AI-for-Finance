@@ -1,0 +1,31 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-03-25
+
+Crestwood Midstream Partners LP, a Delaware limited partnership operating in the midstream energy sector, executed a Third Amendment to its Second Amended and Restated Credit Agreement (originally dated October 16, 2018) on March 25, 2021. The borrower is supported by Wells Fargo Bank, National Association as Administrative Agent and a syndicate of 23 major financial institutions including Bank of America, Barclays, Citibank, JPMorgan Chase, and Royal Bank of Canada.
+
+The amendment facilitates "Third Amendment Transactions" whereby Crestwood Equity Partners and third-party investors will acquire equity interests in Crestwood Holdings LLC through unit purchases and general partnership interest acquisitions. The financing enables up to $275.0 million in distributions from revolving facility proceeds and cash on hand to support these transactions.
+
+Crestwood operates midstream energy infrastructure with comprehensive subsidiary coverage across pipeline operations, crude services, gas processing, and transportation services throughout multiple U.S. regions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong syndicate of 23+ major financial institutions demonstrates market confidence
+• Comprehensive guarantor structure across diversified midstream operations
+• No existing defaults or events of default continuing per borrower representations
+• Transaction-specific amendments rather than broad covenant relaxation
+
+**Principal Risks and Mitigating Factors:**
+• Complex ownership restructuring introduces potential governance changes
+• $275 million dividend capacity may impact debt service coverage
+• Modified change of control provisions could affect future lender protections
+• Amendment effectiveness contingent on April 9, 2021 deadline and concurrent unit purchase completion
+
+## 3. Key Deal Terms Table
+
+| **Deal Size** | **Deal Price** | **Interest Rate** | **Maturity Date** | **Payment Frequency** | **Key Covenants** |
+|---------------|----------------|-------------------|-------------------|----------------------|-------------------|
+| N/A | N/A | N/A | N/A | N/A | • Distribution capacity up to $275.0 million for Third Amendment Transactions<br>• Amendment effective date deadline: April 9, 2021<br>• Change in control threshold: 35% equity control trigger<br>• Amendment fee: 0.05% of consenting lenders' revolving commitments<br>• Unit Purchase completion required concurrent with effectiveness<br>• No defaults continuing as of effective date |

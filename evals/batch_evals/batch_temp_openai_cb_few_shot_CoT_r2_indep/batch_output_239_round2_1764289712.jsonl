@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Hedging scope misstated: The amendment requires hedging 70% of the reasonably anticipated projected production of natural gas from Proved Developed Producing Reserves; the memo states 70% of projected hydrocarbon production generally, omitting the natural gas limitation."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Hedging commodity scope: requirement applies specifically to natural gas production (not all hydrocarbons)."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Inconsistent hedging base: Risks section claims mandatory hedging covers 70% of projected total hydrocarbon production, while Key Deal Terms specify 70% of Proved Developed Producing (PDP) production only; both cannot be the same covenant.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 94.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

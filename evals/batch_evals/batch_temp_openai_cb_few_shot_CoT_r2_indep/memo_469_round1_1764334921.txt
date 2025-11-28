@@ -1,0 +1,42 @@
+## Conceptual Checklist
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify specific amendments to the original credit agreement terms
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure memo according to required three-section format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-15
+
+**Borrower / Company Overview:** Sigmatron International, Inc., a Delaware corporation, serves as the Borrower in this credit facility with JPMorgan Chase Bank, N.A. as the sole Lender.
+
+**Transaction Description:** Amendment No. 2 to Credit Agreement between Sigmatron International, Inc. and JPMorgan Chase Bank, N.A., modifying an existing Amended and Restated Credit Agreement originally dated July 18, 2022 (previously amended April 28, 2023).
+
+**Purpose of Financing:** This amendment modifies collateral requirements for material asset acquisitions and establishes procedures for potential corporate restructuring scenarios, specifically addressing New Holdco Pledge Document requirements in connection with an existing Term Loan Agreement.
+
+**Company Background:** Limited information available regarding Sigmatron International's business operations. The company maintains both this credit facility with JPMorgan Chase and a separate Term Loan Agreement with other lenders, suggesting a multi-tiered capital structure.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking relationship with JPMorgan Chase Bank, N.A., a top-tier global financial institution
+• Borrower confirms no Default has occurred and is continuing, indicating current compliance
+• All representations and warranties reaffirmed as true and correct
+• Coordinated amendment with parallel Term Loan Agreement suggests disciplined debt management
+• Established intercreditor framework provides structured approach to multi-lender relationships
+
+**Principal Risks and Mitigating Factors:**
+• Single lender structure may limit refinancing flexibility versus syndicated facilities
+• Broad release provisions favor lender and limit borrower recourse for prior claims
+• Corporate restructuring provisions suggest potential complexity in capital structure
+• Limited financial information available to assess underlying credit quality
+• Intercreditor arrangements may constrain operational flexibility
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified collateral requirements: Borrower must notify Lender of material asset acquisitions and subject such assets to Liens if requested<br>• Corporate restructuring covenant: If Corporate Restructuring is consummated under Term Loan Agreement, Borrower must execute New Holdco Pledge Documents within 10 Business Days<br>• All representations, warranties, and obligations under existing Loan Documents ratified and reaffirmed |

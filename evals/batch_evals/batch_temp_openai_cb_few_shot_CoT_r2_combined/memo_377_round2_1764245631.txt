@@ -1,0 +1,44 @@
+## Checklist
+
+- Extract key parties and transaction date from the amendment agreement
+- Identify the nature of the transaction and structural details about the borrowers
+- Analyze the amendment's purpose and implications for credit profile
+- Document available financial terms and covenant information
+- Assess credit positives and risks from the lender group and structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-03-31
+
+**Borrower/Company Overview:** Five entertainment library financing entities: LGTV Library Financing LLC, Artisan Library Financing LLC, Summit Library Financing LLC, LG Film Library Financing LLC, and LGIM Library UK Financing Limited, along with their respective parent holding companies.
+
+**Transaction Description:** Amendment No. 2 to an Amended and Restated Credit, Security and Pledge Agreement, featuring a facility upsize that modifies outstanding loan amounts across a 14-member lender syndicate led by Fifth Third Bank as Administrative Agent and East West Bank as Reserve Deposit Agent.
+
+**Purpose of Financing:** The amendment facilitates an upsize to the existing credit facility supporting entertainment content library assets. The financing is structured through specialized vehicles holding content libraries across multiple entertainment brands.
+
+**Company Background:** Multi-entity entertainment library financing structure originally established November 5, 2024, with first amendment in December 2024. The rapid amendment cycle indicates active capital deployment in the entertainment content sector.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Diversified 14-member lender syndicate including major regional and national banks
+• Specialized entertainment library financing structure with asset segregation across content brands
+• Recent facility upsize demonstrates lender confidence and borrower performance
+• Comprehensive guarantee structure with five parent holding companies
+• Reserve Deposit Agent structure provides additional security and operational oversight
+• International diversification through UK financing entity
+
+**Principal Risks and Mitigating Factors:**
+• Entertainment content libraries subject to valuation volatility based on performance cycles
+• Complex multi-jurisdictional structure may create operational complexity
+• Limited seasoning since November 2024 origination
+• Content library assets exposed to technological disruption and changing distribution models
+• Amendment references specific loan amounts in undisclosed Schedule 1.1, limiting transparency on exact facility size and lender allocations
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| Upsize amount referenced in Schedule 1.1 (not disclosed) | N/A | N/A | N/A | N/A | • Maintenance of all Credit Agreement representations and warranties<br>• No Event of Default permitted before or after amendment<br>• Full guarantee obligations from parent holding companies<br>• Borrower responsibility for Administrative Agent expenses and legal fees |

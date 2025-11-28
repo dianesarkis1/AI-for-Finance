@@ -1,0 +1,41 @@
+## Checklist
+- Identify the key transaction details (borrower, lenders, amendment date and purpose)
+- Extract any specific financial terms, limits, or covenant modifications from the amendment
+- Analyze the lending syndicate composition and structure 
+- Assess credit strengths and risks based on the amendment terms and parties involved
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-10-29
+
+**Borrower / Company Overview:** MarineMax, Inc., a Florida corporation serving as Borrower Representative, leading a comprehensive marine services enterprise with over 50 subsidiary entities spanning yacht sales, marina operations, and marine manufacturing.
+
+**Transaction Description:** Fourth Amendment to Credit Agreement originally dated August 8, 2022, involving a syndicated floor plan financing facility. MarineMax, Inc. serves as Borrower Representative with Manufacturers and Traders Trust Company as Administrative Agent, Swingline Lender and Issuing Bank, and Wells Fargo Commercial Distribution Finance as Floor Plan Agent. The amendment modifies sublimit structures within the existing credit facility.
+
+**Purpose of Financing:** The amendment increases floor plan financing sublimits across four vessel categories to accommodate expanded inventory financing requirements, supporting MarineMax's operations in new and used boat financing, luxury yacht inventory, and international OEM relationships.
+
+**Company Background:** MarineMax operates a diversified marine platform encompassing yacht brokerage through premium brands (Northrop & Johnson, Fraser Yachts), charter operations, international marina properties via Island Global Yachting, boat manufacturing through Intrepid Powerboats, retail marine services via Skipper Marine network, and specialized marine services. The enterprise spans domestic and international markets with significant marina assets and manufacturing capabilities.
+
+## 2. Investment Highlights & Risks
+
+**Investment Highlights:**
+• Robust institutional backing through 13-bank syndicate including tier-1 institutions (Bank of America, PNC Bank, BMO Bank, Wells Fargo)
+• Comprehensive credit enhancement via extensive subsidiary guarantor network covering all business segments
+• Diversified revenue streams across marine manufacturing, retail, brokerage, charter, and marina operations reducing single-sector dependency
+• Strong collateral position with all security interests and guarantees reaffirmed under the amendment
+• Established relationships evidenced by fourth amendment to original 2022 facility, indicating ongoing lender confidence
+
+**Key Risks:**
+• Economic sensitivity inherent in discretionary marine/luxury goods sector, partially mitigated through diversified service portfolio
+• Elevated inventory financing exposure with increased sublimits requiring active inventory management and market condition monitoring
+• International operational complexity through foreign marina assets and OEM relationships creating currency and regulatory risks
+• Seasonal marine industry dynamics potentially affecting cash flow timing, though diversified operations provide some stability
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Floor Plan Loan sublimits:<br>  - New vessels >80 feet: ≤$158,333,333<br>  - Foreign OEM vessels (ex. Azimut/Galeon): ≤$158,333,333<br>  - Used vessels: ≤$158,333,333<br>  - Individual vessels >$1,000,000: ≤$450,000,000<br>• All subsidiary guarantees reaffirmed<br>• Comprehensive collateral security maintained |

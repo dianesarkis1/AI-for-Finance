@@ -1,0 +1,42 @@
+## Checklist of Approach:
+- Extract key transaction parties and their roles from the amendment document
+- Identify the specific amendments being made to the original credit agreement
+- Note the maturity date extension and reinvestment period changes
+- Analyze credit positives and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo following the three required sections with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-06-18
+
+**Borrower/Company Overview:** OFSCC-FS, LLC, a Delaware limited liability company, serves as the borrower in this revolving credit and security agreement structure. OFS Capital Corporation acts as servicer, with OFSCC-FS Holdings, LLC as the equityholder.
+
+**Transaction Description:** This transaction represents a third amendment to an existing revolving credit and security agreement originally executed on June 20, 2019. The lending syndicate includes BNP Paribas serving dual roles as Administrative Agent and Lender, alongside Mitsubishi HC Capital America, Inc. as an additional lender. The structure incorporates third-party administration through Virtus Group, LP as Collateral Administrator and Citibank, N.A. as Collateral Agent.
+
+**Purpose of Financing:** The amendment extends the facility's maturity date and modifies the reinvestment period terms, providing continued access to revolving credit capacity for the borrower's operations.
+
+**Company Background:** The borrower operates within a structured credit framework that requires professional collateral administration and servicing, suggesting involvement in asset-based lending or investment activities. The presence of OFS Capital Corporation as servicer indicates potential connection to the broader OFS Capital ecosystem.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender consortium featuring established financial institutions BNP Paribas and Mitsubishi HC Capital America
+• Robust operational infrastructure with professional third-party servicer (OFS Capital Corporation) and collateral administrator (Virtus Group, LP)
+• Clean credit profile with borrower representations confirming absence of defaults, events of default, or servicer removal events
+• Maturity extension to June 2027 provides substantial runway for continued operations
+• Maintained compliance with all existing representations and warranties under the original facility terms
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial transparency regarding underlying asset quality, portfolio performance metrics, or borrower financial condition
+• Approaching reinvestment period expiration (August 31, 2025) may constrain future deployment activities and growth prospects
+• Complex multi-party operational structure creates potential coordination risks and dependencies across servicer, collateral administrator, and collateral agent
+• Amendment nature of document limits visibility into broader facility terms, pricing, and covenant structures
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2027-06-20 | N/A | • Final Maturity Date: June 20, 2027<br>• Reinvestment Period: Ends August 31, 2025 (extendable by agreement)<br>• No current defaults or servicer removal events<br>• All original representations and warranties in Sections 4.01-4.03 reaffirmed |

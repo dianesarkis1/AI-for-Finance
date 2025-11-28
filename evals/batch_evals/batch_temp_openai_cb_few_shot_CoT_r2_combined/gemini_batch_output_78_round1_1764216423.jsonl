@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n1.  **Guarantors/Cross-Guarantees:** The memo repeatedly refers to the subsidiary entities as \"guarantors\" and mentions \"cross-guarantees\". The source document only identifies them as \"Loan Parties\" and does not specify their exact role as guarantors or mention the term \"cross-guarantees\"."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo states the amendment's purpose is to add flexibility for *unsecured* indebtedness, but it presents 'pari passu lien rights' as a key risk mitigator. Lien rights are a feature of *secured* debt, making this an illogical mitigation for risks associated with unsecured debt.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

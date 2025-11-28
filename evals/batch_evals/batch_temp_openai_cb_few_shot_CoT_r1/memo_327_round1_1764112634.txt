@@ -1,0 +1,40 @@
+## Checklist
+- Extract key transaction details (date, parties, structure, purpose)
+- Identify borrower background and transaction context
+- Analyze credit strengths and risks from investor perspective
+- Compile deal terms table with explicit data only
+- Validate all sections are complete and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-17
+
+**Borrower/Company Overview:** HPS Corporate Lending Fund is the borrower under an existing Senior Secured Revolving Credit Agreement originally dated June 23, 2022.
+
+**Transaction Description:** This is a commitment increase agreement executed under Section 2.08(e) of the existing credit agreement. Deutsche Bank AG New York Branch joins as an Increasing Lender, while JPMorgan Chase Bank, N.A. continues as Administrative Agent.
+
+**Purpose of Financing:** To increase the aggregate amount of commitments under the existing revolving credit facility to provide additional borrowing capacity.
+
+**Company Background:** HPS Corporate Lending Fund operates under an established senior secured revolving credit structure that was previously amended on October 30, 2023, indicating ongoing active management of its credit facilities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional banking relationships with JPMorgan Chase Bank, N.A. as Administrative Agent and Deutsche Bank AG as participating lender
+• Senior secured structure provides enhanced creditor protection
+• Existing operational credit framework with established documentation
+• Lender willingness to increase commitments suggests confidence in borrower's credit profile
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into underlying portfolio composition and performance metrics
+• Absence of disclosed pricing terms prevents full risk assessment
+• Corporate lending fund structure may involve sector or geographic concentration risks
+• No available covenant information to assess maintenance requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | N/A |

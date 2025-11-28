@@ -1,0 +1,39 @@
+## Checklist:
+- Extract key parties (Affiliated Managers Group as borrower, Bank of America as administrative agent)
+- Identify transaction type (second amendment to term credit agreement modifying pricing)
+- Note the pricing grid changes with debt rating-based margins
+- Assess credit strengths (established borrower, investment grade ratings) and risks (limited visibility)
+- Compile deal terms table noting what information is available vs. N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 10, 2021, Affiliated Managers Group, Inc. (AMG), a Delaware corporation, entered into a Second Amendment to its Third Amended and Restated Term Credit Agreement with Bank of America, N.A. as Administrative Agent and various lenders.
+- The original Third Amended and Restated Term Credit Agreement was dated January 18, 2019.
+- The purpose of this amendment is to modify the "Applicable Margin" pricing grid contained in Annex I of the original Credit Agreement, establishing new interest rate margins based on AMG's debt ratings from S&P, Moody's, and Fitch.
+- AMG is an asset management company that appears to maintain investment grade credit ratings across multiple rating agencies, with the pricing grid reflecting ratings from A+/A1/A+ down to BBB/Baa2/BBB levels.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Investment grade credit profile with rating-based pricing that ranges from A+ to BBB levels across major rating agencies
+- Established credit relationship with Bank of America as Administrative Agent, indicating institutional lender confidence
+- The borrower represents that no default or event of default has occurred and is continuing, suggesting covenant compliance
+- Well-structured pricing grid that provides rate incentives for maintaining higher credit ratings
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into overall facility size, maturity, or specific financial covenants beyond the pricing amendment
+- Pricing amendment suggests potential changes in credit profile or market conditions necessitating revised terms
+- Lack of information on collateral, guarantees, or other credit enhancements
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Rating-based pricing: A+/A1/A+ = 0.725% over Eurodollar; A/A2/A = 0.850%; A-/A3/A- = 0.850%; BBB+/Baa1/BBB+ = 0.975%; BBB/Baa2/BBB = 1.225% over Eurodollar (ABR margins: 0.000% except BBB level at 0.225%) |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • All existing loan document covenants ratified and confirmed in full force and effect • No default or event of default representations maintained • Pricing adjustments based on publicly announced debt rating changes |

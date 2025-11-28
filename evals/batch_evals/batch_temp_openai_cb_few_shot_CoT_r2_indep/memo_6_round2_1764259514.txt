@@ -1,0 +1,41 @@
+**Checklist of what I will do:**
+• Extract key transaction details and borrower information from the amendment
+• Identify investment highlights and risks from credit perspective
+• Complete missing terms and streamline content for conciseness
+• Ensure professional tone and clear structure
+• Present information in required table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2025-07-25
+
+**Borrower/Company Overview:** Universal Electronics Inc. is a Delaware corporation with an existing credit facility with U.S. Bank National Association as administrative agent and lender.
+
+**Transaction Description:** This Tenth Amendment modifies Universal Electronics Inc.'s Second Amended and Restated Credit Agreement dated October 27, 2017. The transaction involves Universal Electronics Inc. as borrower and U.S. Bank National Association as lender and administrative agent.
+
+**Purpose of Financing:** The amendment permits Universal Electronics Inc. to grant liens to Bank of China securing indebtedness up to $21,000,000, provided such liens do not extend to any U.S.-based property.
+
+**Company Background and Context:** Universal Electronics Inc. operates under a credit facility that has been amended nine times previously since 2017. The company maintains security arrangements including intellectual property assets and has Universal Electronics BV as a guarantor.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Long-standing banking relationship with U.S. Bank National Association since 2017
+• Borrower represents no current defaults under existing credit obligations
+• Comprehensive security package including trademarks, patents, and subsidiary guaranty
+• Geographic asset protection with liens restricted from U.S. property
+• Access to international financing through Bank of China relationship
+
+**Principal Risks and Mitigating Factors:**
+• Additional leverage of up to $21,000,000 increases total debt burden; mitigated by restriction of liens to non-U.S. assets
+• Tenth amendment since 2017 may indicate ongoing covenant management requirements
+• Multi-lender structure introduces coordination complexity
+• Cross-border financing exposes borrower to foreign exchange and regulatory risks
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Liens permitted for Bank of China up to $21,000,000, excluding U.S. property • Security interests in trademarks and patents maintained • Universal Electronics BV continuing guaranty remains effective • Reimbursement fee amount not specified in amendment • All existing covenants and representations reaffirmed |

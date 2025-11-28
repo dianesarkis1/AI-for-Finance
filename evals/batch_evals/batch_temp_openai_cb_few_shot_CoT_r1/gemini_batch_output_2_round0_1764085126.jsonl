@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- **Maturity Date:** The memo lists the Maturity Date as \"2021-03-31\". The source document states that this is the end date for the \"Extended Waiver Period,\" not the maturity date of the underlying credit agreement. The source document does not mention the loan's maturity date."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n['Prime Rate Loans / USBR Loans' interest rate of 3.50%, 'Undrawn Fee' of 1.25%]"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The 'Key Deal Terms Table' lists a 'Maturity Date' of 2021-03-31, while the details for that entry and the rest of the memo clarify this date is the end of the 'Extended Waiver Period', not the maturity of the entire credit facility.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 90.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

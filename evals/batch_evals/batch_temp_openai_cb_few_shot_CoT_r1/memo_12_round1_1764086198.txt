@@ -1,0 +1,42 @@
+Based on my review of this credit agreement, I will create an investment memorandum following these key steps:
+
+• Identify the transaction type and parties involved in the September 2024 joinder agreement
+• Analyze the merger structure involving Innovex/Dril-Quip and the addition of new borrowers
+• Extract available deal terms and covenant information from the credit facility structure
+• Assess credit strengths and risks from an investor perspective
+• Organize findings into the required three-section format with proper table structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-09-06
+
+**Borrower / Company Overview:** The transaction involves adding three new borrowers to an existing multi-borrower credit facility. Existing borrowers include Tercel Oilfield Products USA L.L.C. (Texas), Pride Energy Services, LLC (Texas), and Top-Co Inc. (Alberta). The new borrowers are Innovex Downhole Solutions, LLC (formerly DQ Merger Sub, LLC), Innovex International, Inc. (formerly Dril-Quip, Inc.), and TIW Corporation.
+
+**Transaction Description:** This is a joinder agreement adding new borrowers to an existing syndicated credit facility. The lenders include PNC Bank National Association (as agent) and U.S. Bank National Association. The facility consists of revolving credit, term loan, and swing loan components evidenced by various notes listed in Annex A.
+
+**Purpose of Financing:** The joinder incorporates newly merged entities as borrowers under the existing Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement originally dated June 10, 2022, following completion of the Dril-Quip merger transaction.
+
+**Company Background:** The companies operate in the oilfield products and energy services sector. The transaction stems from Innovex's merger with Dril-Quip, Inc. (which changed its name to Innovex International, Inc. prior to the merger), with the surviving entity becoming Innovex Downhole Solutions, LLC as a wholly owned subsidiary of Innovex International, Inc.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established credit facility with amendment history since 2022 demonstrates ongoing lender relationship and borrower performance
+• Multiple lender syndicate including PNC Bank National Association (agent) and U.S. Bank National Association provides diversified funding sources
+• Comprehensive security package with continuing security interests and liens on all borrower collateral
+• Joint and several liability structure across all borrowers enhances cross-default protection and recovery prospects
+• Well-structured post-closing covenant framework with specific deliverable deadlines
+
+**Principal Risks and Mitigating Factors:**
+• Recent merger and corporate reorganization activity creates integration complexity and operational risks, mitigated by established borrower base and experienced agent
+• Multi-jurisdictional borrower structure (Texas, Delaware, Alberta) may complicate enforcement, though comprehensive security documentation provides protection
+• Post-closing requirements extending 65 days create compliance risk during integration period, offset by specific milestone deadlines and agent discretion provisions
+• Limited visibility into underlying credit facility terms constrains full risk assessment of financial maintenance requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Joint and several liability for all existing and future obligations<br>• Continuing security interests and liens on all borrower collateral<br>• Stock certificate delivery within 5 business days<br>• Insurance certificates delivery within 10 days<br>• Insurance endorsements delivery within 30 days<br>• Intellectual property assignments filing within 30 days<br>• IP security agreements execution within 45 days<br>• Deposit account control agreements within 65 days<br>• Pledge agreement and trademark/patent security agreements remain in full force |

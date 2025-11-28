@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The $50,000,000 mandatory prepayment applies specifically to Term Loans of the Third Amendment Consenting Term Lenders (not all term loans)."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo pledges to 'Ensure all information comes directly from the document without inference' but then makes inferential claims (e.g., 'suggesting a sophisticated organizational framework typical of private equity-backed companies' and interpreting lender support), which contradicts that pledge.\", \"The same fact is presented as both a strength and a risk: it's a strength that 'All other Credit Agreement terms remain intact,' yet it's also a risk that the 'narrow scope of extension maintains all other lender rights and remedies, preserving strict enforcement mechanisms.'\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

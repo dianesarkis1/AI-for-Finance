@@ -1,0 +1,40 @@
+I'll approach this by:
+- Extracting key factual information from the PNM Resources credit agreement amendment
+- Identifying transaction details, parties, and purpose
+- Analyzing credit strengths and risks from the amendment terms
+- Compiling deal terms into the required table format
+- Ensuring all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 26, 2020, PNM Resources, Inc., a New Mexico corporation, entered into an Eighth Amendment to its Credit Agreement with Wells Fargo Bank, National Association as Administrative Agent and a syndicate of lenders.
+- The original Credit Agreement was a Sixth Amendment to and Restatement of Credit Agreement dated July 30, 2018, which was previously amended by a Seventh Amendment dated December 19, 2018.
+- The primary purpose of this amendment is to modify the "Change of Control" definition and address potential covenant defaults arising from PNM Resources entering into a merger agreement with Avangrid, Inc. and NM Green Holdings, Inc. dated October 20, 2020.
+- PNM Resources is a utility holding company that has entered into a merger agreement but requires amendments and waivers to avoid triggering defaults under its existing credit facility. The lending syndicate includes major financial institutions: Wells Fargo (Administrative Agent), MUFG Union Bank, Citibank, JPMorgan Chase, Morgan Stanley Bank, Royal Bank of Canada, KeyBank, Bank of America, U.S. Bank, Bank of New York Mellon, and Bank of Albuquerque.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong, diversified lending syndicate with major financial institutions demonstrates broad lender confidence
+- Borrower maintains compliance with credit agreement terms after giving effect to this amendment
+- Lenders are willing to provide waivers for potential defaults, indicating supportive banking relationships
+- Amendment preserves lenders' rights regarding the actual closing of the merger transaction
+
+### Principal Risks and Mitigating Factors:
+- The borrower has entered into a merger agreement that will ultimately trigger a "Change of Control" event, which is prohibited under the credit agreement and will require future resolution
+- Amendment only provides limited waivers for entering into the merger agreement, not for closing the transaction
+- Cross-default risks from other indebtedness arrangements related to the merger agreement
+- Limited visibility into pricing, financial covenants, or overall credit metrics from this amendment document
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • "Change of Control" threshold set at 25% beneficial ownership of voting capital stock • Prohibition on merger transactions (amended to "merge with or into any other Person") • Waiver of potential covenant defaults and cross-defaults related to entering merger agreement • Closing of merger agreement will constitute prohibited "Change of Control" event |

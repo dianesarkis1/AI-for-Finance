@@ -1,0 +1,41 @@
+## Conceptual Checklist:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the specific changes being made to the original credit agreement terms
+- Analyze the pricing grid and applicable margin modifications from an investment perspective
+- Assess credit strengths and risks based on the borrower profile and amendment terms
+- Compile deal terms table with available data, marking missing information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-10
+
+**Borrower / Company Overview:** Affiliated Managers Group, Inc. (AMG), a Delaware corporation, is the borrower under this amended credit facility with Bank of America, N.A. serving as Administrative Agent.
+
+**Transaction Description:** This Second Amendment modifies the Third Amended and Restated Term Credit Agreement originally dated January 18, 2019. The amendment involves AMG as borrower, Bank of America, N.A. as Administrative Agent, and the existing syndicate of institutional lenders.
+
+**Purpose of Financing:** The amendment specifically replaces the Applicable Margin pricing grid in Annex I of the original Credit Agreement. This represents a repricing of interest rate spreads based on AMG's debt rating levels across investment-grade categories.
+
+**Company Background:** AMG operates under this term credit facility structure established in 2019. The amendment maintains all existing loan documentation terms while updating only the pricing methodology, with pre-amendment margins continuing to apply to all interest calculations for periods prior to June 10, 2021, even if billed or paid thereafter.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Investment-grade rated borrower with pricing grid spanning A+/A1/A+ to BBB/Baa2/BBB rating levels
+• Established banking relationship with Bank of America N.A. as Administrative Agent since 2019
+• Amendment represents favorable repricing opportunity indicating strong credit profile
+• Borrower confirms no defaults or events of default occurring or resulting from amendment
+• Tri-agency rating framework (S&P, Moody's, Fitch) provides comprehensive credit assessment
+
+**Principal Risks and Mitigating Factors:**
+• Rating-based pricing creates exposure to margin increases if credit profile deteriorates
+• Significant pricing differential between rating levels (125 basis points spread from Level 1 to Level 5)
+• Amendment document provides limited visibility into current financial performance metrics
+• Pricing tied to public rating announcements creates potential for immediate margin adjustments
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | Rating-based variable margin: A+/A1/A+ (Level 1): 0.725% Eurodollar, 0.000% ABR; A/A2/A (Level 2): 0.850% Eurodollar, 0.000% ABR; A-/A3/A- (Level 3): 0.850% Eurodollar, 0.000% ABR; BBB+/Baa1/BBB+ (Level 4): 0.975% Eurodollar, 0.000% ABR; BBB/Baa2/BBB (Level 5): 1.225% Eurodollar, 0.225% ABR | N/A | N/A | • Margin adjustments effective from public rating announcement date • Pre-amendment margins apply to all periods prior to June 10, 2021 • All existing loan document covenants ratified and confirmed • Amendment requires signed execution by borrower and all lenders |

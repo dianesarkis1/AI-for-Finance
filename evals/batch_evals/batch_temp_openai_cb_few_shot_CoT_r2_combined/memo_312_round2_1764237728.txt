@@ -1,0 +1,45 @@
+## Step-by-Step Checklist
+
+- Extract key transaction parties and corporate structure details
+- Identify financial terms including principal amount, interest structure, and payment mechanics
+- Determine transaction dates and amendment history from the credit agreement references
+- Assess credit strengths and risks based on the note structure and collateral arrangements
+- Compile deal terms table with explicit information only, marking unavailable data as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-02-15
+
+**Borrower/Company Overview:** APA Finance III Borrower, LLC is a Delaware limited liability company operating under a multi-tier ownership structure ultimately controlled by Altus Power, Inc. The borrower entity is owned through APA Finance III Borrower Holdings, LLC → APA Finance III, LLC → APA Generation, LLC → Altus Power, Inc.
+
+**Transaction Description:** This Class A Note represents Security Life of Denver Insurance Company's participation in a syndicated credit facility with APA Finance III Borrower, LLC. The note evidences a $19,195,000 loan within a broader credit agreement structure administered by U.S. Bank Trust Company, National Association as Administrative Agent and Collateral Agent, with U.S. Bank National Association serving as Document Custodian.
+
+**Purpose of Financing:** The specific purpose of the financing is not disclosed in the available documentation.
+
+**Company Background:** The ultimate parent company, Altus Power, Inc., operates through a structured finance vehicle arrangement. The credit agreement has been amended three times since origination (June 15, 2023, July 21, 2023, and December 20, 2023), indicating active management and evolving terms. Based on the naming convention and corporate structure, this appears to be part of a project finance or asset-backed lending arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Senior Class A designation provides priority position in capital structure
+• Institutional insurance company lender with established underwriting standards
+• Professional administrative infrastructure with reputable banking institutions
+• Secured structure evidenced by Collateral Agent appointment
+• Governed by New York law, providing established legal framework
+
+**Principal Risks and Mitigating Factors:**
+• Three amendments within 10 months of origination suggest potential structural adjustments or covenant modifications
+• Complex multi-tier ownership structure may create operational complexities
+• Special purpose vehicle structure concentrates credit risk
+• Limited business operations disclosure restricts fundamental credit analysis
+• Demand acceleration provisions provide lender protection but indicate potential volatility
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | Variable rate per Credit Agreement terms | N/A | Interest payable on each Interest Payment Date as defined in Credit Agreement | • Acceleration provisions upon specified events<br>• Optional and mandatory prepayment terms<br>• Amendment and waiver provisions per Credit Agreement |

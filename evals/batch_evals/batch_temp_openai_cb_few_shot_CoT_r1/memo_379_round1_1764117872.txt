@@ -1,0 +1,42 @@
+# Checklist for Investment Memorandum
+
+1. Extract key transaction details including date, parties, and loan amount
+2. Identify the business purpose and use of proceeds for the incremental term loan
+3. Analyze credit terms including interest rate structure and repayment schedule
+4. Assess credit positives and risks from the incremental financing
+5. Compile deal terms table with explicit information from the document
+6. Ensure all sections follow the required structure and format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-05-27
+
+**Borrower / Company Overview:** Karman Holding Inc., a Delaware corporation, operates through various subsidiaries including Karman Space & Defense LLC, Aerospace Engineering LLC, Wolcott Design Services LLC, Amro Fabricating Corporation, American Automated Engineering Inc., and Systima Technologies Inc., suggesting involvement in aerospace and defense sectors.
+
+**Transaction Description:** The transaction is a First Amendment to Credit Agreement providing for an incremental term loan facility of $75,000,000. The counterparties include Karman Holding Inc. as Borrower, various subsidiary guarantors as Loan Parties, and Citibank N.A. serving as both Administrative Agent/Collateral Agent and sole First Amendment Incremental Term Lender.
+
+**Purpose of Financing:** The proceeds will be used to repay outstanding Revolving Credit Loans, for working capital and other general corporate purposes not prohibited under the Credit Agreement (including Permitted Investments and to pay fees, costs and expenses in connection therewith), and for the payment of any fees, commissions and expenses associated therewith.
+
+**Company Background:** The original Credit Agreement was dated April 1, 2025, making this a relatively quick follow-on financing within approximately two months of the initial facility. The company operates across multiple entities in the aerospace and defense sectors.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong lender relationship with Citibank N.A. serving as both Administrative Agent and sole incremental term lender, indicating confidence in the credit
+• Multiple subsidiary guarantors providing additional credit support and diversified business operations across aerospace and defense sectors
+• SOFR-based pricing structure aligning with current market standards
+• Quarterly amortization schedule provides modest debt reduction over facility life
+• No events of default under key sections as condition precedent demonstrates current compliance
+
+**Principal Risks and Mitigating Factors:**
+• Single lender concentration risk with Citibank N.A. providing the entire incremental facility, though mitigated by established relationship
+• Recent vintage of original credit facility followed quickly by incremental financing may indicate higher capital needs than originally anticipated
+• Limited visibility into specific financial maintenance covenants, though existing covenant compliance required as condition precedent
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | SOFR-based | N/A | Quarterly | • Quarterly amortization starting September 30, 2025 at 0.25% of aggregate initial principal amount<br>• All unpaid aggregate principal amounts due on Maturity Date for Initial Term Loans<br>• No Event of Default under sections 8.01(a), (f) or (g)<br>• Solvency certificate required<br>• All representations and warranties must be true and correct in all material respects<br>• Same terms as Initial Term Loans and existing Term Loans |

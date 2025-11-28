@@ -1,0 +1,35 @@
+## Step-by-Step Analysis Checklist:
+
+- Extract key transaction details: borrower, lenders, amendment date, and purpose
+- Identify the specific amendment nature (pricing grid modification for Applicable Margin)
+- Assess credit strengths based on borrower profile and lender syndicate quality
+- Evaluate risks associated with pricing changes and available information limitations
+- Compile deal terms table with explicit data from the document, marking unavailable fields as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In June 2021, Affiliated Managers Group, Inc. (AMG), a Delaware corporation, executed a second amendment to its Third Amended and Restated Term Credit Agreement with Bank of America N.A. as Administrative Agent.
+- The original credit agreement was dated January 18, 2019, establishing AMG as the borrower with Bank of America serving dual roles as both Administrative Agent and Lender.
+- The primary purpose of this amendment is to modify the Applicable Margin contained in Annex I of the Credit Agreement, replacing the existing pricing grid with new interest rate spreads based on AMG's debt ratings from S&P, Moody's, and Fitch.
+- AMG is an asset management company that operates through a network of affiliated investment management firms, providing diversified investment strategies and solutions.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established borrower with investment-grade credit profile, as evidenced by the pricing grid accommodating ratings from A+/A1/A+ down to BBB/Baa2/BBB
+- Strong banking relationship with Bank of America N.A. as both Administrative Agent and Lender
+- Rating-based pricing mechanism provides transparency and alignment with credit quality
+- Borrower representations confirm no defaults or events of default are occurring or continuing
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into overall deal size, maturity profile, and comprehensive covenant structure
+- Amendment appears to potentially increase pricing spreads (though previous pricing grid not provided for comparison)
+- Pricing tied to external ratings creates potential volatility in borrowing costs based on rating agency actions
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| N/A | N/A | Rating-based pricing grid: A+/A1/A+ at 0.725% margin for Eurodollar loans, scaling to BBB/Baa2/BBB at 1.225% margin for Eurodollar loans and 0.225% margin for ABR loans | N/A | N/A | All existing loan document covenants ratified and confirmed. No defaults or events of default occurring. Borrower must maintain compliance with all representations and warranties under Section 4 of Credit Agreement |

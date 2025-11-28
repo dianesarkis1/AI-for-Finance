@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The description of the amendment's substance is contradictory: the Executive Summary states its purpose is to modify restrictions related to \\\"unsecured indebtedness,\\\" while the Key Deal Terms table claims the same amendment also \\\"permit[s] pari passu liens,\\\" which are a feature of secured debt.\", \"The memo contradicts its own stated methodology: the \\\"Strategic Approach\\\" section states the deal terms table will be compiled using \\\"only explicitly stated information,\\\" but the table introduces a new material term (\\\"permit pari passu liens\\\") not mentioned anywhere else in the memo.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

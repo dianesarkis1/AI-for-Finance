@@ -1,0 +1,41 @@
+Based on my review of this credit agreement amendment, I will:
+- Identify the key parties and transaction date
+- Analyze the amendments to disposition and lien provisions
+- Extract available financial terms and covenant information
+- Assess credit implications from an investor perspective
+- Structure findings in the required memorandum format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-02-10
+
+**Borrower/Company Overview:** SESI, L.L.C., a Delaware limited liability company, with parent company SESI Holdings, Inc., operates in the energy services sector through multiple subsidiaries including Superior Energy Services, Wild Well Control, Inc., and Warrior Energy Services Corporation.
+
+**Transaction Description:** Third amendment to existing credit agreement with JPMorgan Chase Bank, N.A. as administrative agent and a syndicate including Bank of America, N.A. and Citibank, N.A. The original credit facility was established February 2, 2021, with multiple subsequent modifications.
+
+**Purpose of Financing:** Amendment provides enhanced operational flexibility by modifying asset disposition covenants and streamlining collateral release procedures to support ongoing business operations.
+
+**Company Background:** SESI operates as an energy services company with a diversified subsidiary portfolio spanning well control, drilling specialties, inspection services, and energy equipment rental operations across North America.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationships with premier financial institutions (JPMorgan Chase, Bank of America, Citibank)
+• Borrower maintains full covenant compliance with no continuing defaults or events of default
+• Comprehensive guarantee structure across 14+ operating subsidiaries enhances credit support
+• Amendment maintains protective features requiring 100% cash consideration for borrowing base asset sales
+• Structured liquidity and availability thresholds provide operational guardrails
+
+**Principal Risks and Mitigating Factors:**
+• Frequent amendment history (four modifications since February 2021) indicates potential covenant pressure, though mitigated by lender cooperation and borrower compliance
+• Enhanced disposition flexibility may reduce collateral coverage over time, mitigated by cash consideration requirements and aggregate value limitations
+• Energy services sector cyclicality presents inherent operational risks, partially offset by diversified service portfolio
+• Asset-based lending structure suggests capital-intensive operations requiring ongoing borrowing base management
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Enhanced disposition covenant: up to $25,000,000 aggregate FMV dispositions permitted when Liquidity > $100,000,000 and Availability > $25,000,000 • 100% cash consideration required for borrowing base property sales • Automatic lien release provisions for permitted dispositions • Substantial portion test for property dispositions with rolling 12-month measurement periods • No defaults or events of default continuing |

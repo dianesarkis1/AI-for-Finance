@@ -1,0 +1,42 @@
+## Checklist
+
+- Extract key transaction details including borrower, lenders, and dates
+- Identify the primary purpose of the amendment (maturity extension)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available financial terms into the required table format
+- Ensure all information is directly sourced from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-09
+
+**Borrower/Company Overview:** Blackstone Private Credit Fund, a Delaware statutory trust, operating as a private credit investment vehicle.
+
+**Transaction Description:** Amendment No. 1 and Extension Agreement to the Amended and Restated Senior Secured Credit Agreement originally dated May 6, 2022. The transaction involves Blackstone Private Credit Fund as Borrower, with Citibank N.A. serving as Administrative Agent and a syndicate of 29+ premier financial institutions as lenders.
+
+**Purpose of Financing:** Extension of maturity date from May 6, 2027 to June 9, 2028 for consenting lenders, creating enhanced liquidity runway for the private credit fund's operations.
+
+**Company Background:** Blackstone Private Credit Fund represents Blackstone's private credit investment platform, structured as a Delaware statutory trust with senior secured credit facilities supporting its investment activities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• World-class sponsor backing through Blackstone, a leading global alternative asset manager
+• High-quality, diversified lender syndicate including Citibank, JPMorgan Chase, Bank of America, Wells Fargo, Goldman Sachs, Morgan Stanley, Deutsche Bank, and BNP Paribas
+• Strong lender confidence demonstrated by successful maturity extension with broad participation
+• Clean credit profile with borrower representations confirming no defaults or events of default
+• Flexible dual-maturity structure accommodating both extending and non-extending lenders
+
+**Principal Risks and Mitigating Factors:**
+• Underlying portfolio exposure to private credit market conditions and borrower performance
+• Potential refinancing concentration risk at 2027 maturity for non-extending lenders
+• Limited financial transparency typical of private credit fund structures
+• Interest rate environment sensitivity given floating rate nature of private credit facilities
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2028-06-09 | N/A | • Borrowing Base Certificate required within 5 days of amendment effective date<br>• Liens restricted to those permitted under Section 6.02 of credit agreement<br>• No defaults or events of default continuing as of amendment date<br>• Compliance with existing financial maintenance terms in underlying credit agreement |

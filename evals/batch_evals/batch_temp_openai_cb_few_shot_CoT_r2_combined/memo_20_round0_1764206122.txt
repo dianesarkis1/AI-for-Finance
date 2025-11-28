@@ -1,0 +1,38 @@
+I'll analyze this credit agreement step by step to create a comprehensive investment memorandum.
+
+**Checklist of what I will do:**
+• Identify the key parties, transaction date, and amendment details
+• Extract the financial terms including commitment amounts and lender structure
+• Analyze the business purpose and context of this fifth amendment
+• Assess credit strengths and risks from an investor perspective
+• Compile the key deal terms in the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On March 4, 2024, Greystone Housing Impact Investors LP (formerly America First Multifamily Investors, L.P.) entered into a Fifth Amendment to Credit Agreement with BankUnited N.A. as Administrative Agent and a syndicate of lenders.
+- The borrower is a Delaware limited partnership focused on multifamily housing investments, as evidenced by its name and structure.
+- This amendment represents the fifth modification to the original Credit Agreement dated June 11, 2021, with previous amendments in November 2021, June 2023, July 2023, and September 2023.
+- The amendment involves adding NexBank as a new lender through a Lender Joinder Agreement and updates the lender commitment schedule, establishing a total facility of $50,000,000 across three lenders.
+- The transaction includes comprehensive release provisions where the borrower waives all claims against the lenders and administrative agent.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Diversified lender base with established financial institutions (BankUnited, Bankers Trust Company, NexBank) providing $50 million in total commitments
+• Borrower representations confirm no defaults or events of default are occurring, indicating current compliance with credit terms
+• Strong collateral protection through reaffirmed security interests, liens, mortgages and conveyances securing the obligations
+• Comprehensive release provisions limit potential litigation risk for lenders
+
+### Principal Risks and Mitigating Factors:
+• This is the fifth amendment in less than three years, suggesting potential ongoing refinancing needs or covenant compliance issues
+• Limited visibility into financial covenants, pricing terms, or maturity details constrains full credit risk assessment
+• Broad release language may indicate previous tensions or disputes between borrower and lenders
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| USD 50,000,000 | N/A | N/A | N/A | N/A | • Security interests, liens, mortgages and conveyances continue to secure obligations<br>• Borrower confirms no Event of Default or Default occurring<br>• All loan document representations and warranties reaffirmed<br>• Comprehensive release of claims against lenders and administrative agent |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- \u201cAll account collections must be deposited into lockbox account following activation date.\u201d The source states this requirement applies following the initial borrowing (not merely upon the Lockbox Activation Date) and includes an exception allowing individual account debtors to pay the Borrowers directly, with Borrowers to administer and apply such funds."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Requirement that all funds in Lockbox Accounts be swept to the Payment Account by close of each Business Day following the Lockbox Activation Date (and prior to initial borrowing, to a Deposit Account of Borrower as Agent may direct)."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 90.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 38.0"}}]}}}

@@ -1,0 +1,39 @@
+## Checklist
+- Extract key transaction details including date, parties, and structure from the commitment increase request
+- Identify the borrower (Goldman Sachs Middle Market Lending Corp. II) and administrative agent (Truist Bank)
+- Analyze the transaction purpose (commitment increase from $455M to $480M via BNP Paribas increase)
+- Assess credit positives and risks from an investor perspective
+- Compile available deal terms using the required table format and field order
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-09-04
+
+**Borrower/Company Overview:** Goldman Sachs Middle Market Lending Corp. II is the borrowing entity under a senior secured revolving credit facility.
+
+**Transaction Description:** Commitment increase request under an existing senior secured revolving credit agreement originally dated February 28, 2023. The syndicated facility includes multiple lenders and issuing banks, with Truist Bank as Administrative Agent and BNP Paribas providing multicurrency commitments.
+
+**Purpose of Financing:** The Company seeks to increase aggregate revolving commitments by $25,000,000, from $455,000,000 to $480,000,000.
+
+**Company Background:** Goldman Sachs Middle Market Lending Corp. II operates as a lending corporation within Goldman Sachs. The credit facility has been previously amended twice: First Amendment dated July 31, 2023, and Second Amendment dated May 30, 2024. The current increase will be implemented by doubling BNP Paribas's Multicurrency Commitment from $25,000,000 to $50,000,000.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Goldman Sachs institutional backing provides strong credit foundation
+• Established banking syndicate with reputable financial institutions
+• Demonstrated lender confidence through BNP Paribas commitment doubling
+• Facility's active amendment history reflects strong borrower-lender collaboration
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial performance visibility restricts comprehensive credit assessment
+• Middle market lending exposure subject to economic cycle volatility
+• Incomplete facility documentation limits evaluation of security and covenant structure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 480,000,000 | N/A | N/A | N/A | N/A | N/A |

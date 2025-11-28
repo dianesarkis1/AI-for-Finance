@@ -1,0 +1,41 @@
+## Checklist of Approach:
+- Extract transaction details and structure the memo with clear, logical flow
+- Provide comprehensive yet concise analysis of the commitment increase transaction
+- Focus on professional investment committee language and improved organization
+- Ensure proper sectioning and enhanced readability
+- Validate completeness while maintaining appropriate length
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-17
+
+**Borrower/Company Overview:** HPS Corporate Lending Fund operates as a corporate lending fund with established institutional banking relationships. The entity maintains a senior secured revolving credit facility originally established in June 2022.
+
+**Transaction Description:** The transaction constitutes a USD 25 million commitment increase to HPS Corporate Lending Fund's existing senior secured revolving credit facility. Deutsche Bank AG New York Branch serves as the increasing lender, with JPMorgan Chase Bank, N.A. continuing as administrative agent under the original credit agreement dated June 23, 2022 (as amended October 30, 2023).
+
+**Purpose of Financing:** The commitment increase expands available liquidity capacity under the borrower's existing revolving credit structure, providing enhanced operational flexibility for the corporate lending fund's activities.
+
+**Company Background:** HPS Corporate Lending Fund demonstrates an established track record with tier-1 financial institution relationships and successful facility management, evidenced by its ability to secure additional commitments from high-quality lenders.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• High-quality lender consortium featuring tier-1 institutions (JPMorgan Chase, Deutsche Bank)
+• Senior secured facility structure provides strong creditor protection
+• Successful expansion of existing facility demonstrates continued lender confidence
+• Revolving structure offers optimal liquidity management flexibility
+• Proven ability to maintain and grow banking relationships over multi-year period
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into underlying portfolio composition and performance metrics
+• Detailed pricing, covenant structure, and collateral terms not specified in commitment increase documentation
+• Corporate lending fund sector exposure to broader credit market conditions
+• Dependence on terms and conditions established in underlying credit agreement
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | N/A |

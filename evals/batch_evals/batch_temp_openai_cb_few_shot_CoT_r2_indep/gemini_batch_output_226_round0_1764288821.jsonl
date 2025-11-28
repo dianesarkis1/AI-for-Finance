@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The Condition Subsequent requiring the Borrower to deliver a legal opinion from special counsel to the Lenders and Agents within a specified (redacted) number of days of the Effective Date."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo claims as a strength that the borrower is compliant with LTV and cash covenants, which contradicts the stated risk of having \\\"limited visibility into specific financial covenants... and overall credit metrics\\\" needed to verify such compliance.\", \"The memo lists \\\"limited visibility into specific financial covenants\\\" as a risk, which directly contradicts the \\\"Key Deal Terms Table\\\" that proceeds to list four specific key covenants.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

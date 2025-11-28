@@ -1,0 +1,41 @@
+## Checklist
+
+- Extract key agreement details (parties, dates, transaction structure)
+- Identify the borrower entity and lender consortium details
+- Analyze the purpose and nature of the amendments being made
+- Review any financial terms, covenants, or conditions mentioned
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with all explicitly stated information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-11-30
+
+**Borrower/Company Overview:** America First Multifamily Investors, L.P. is the borrowing entity in this credit facility arrangement.
+
+**Transaction Description:** This is a First Amendment to an existing Credit Agreement originally dated June 11, 2021. The transaction involves America First Multifamily Investors, L.P. as Borrower, with BankUnited, N.A. serving as Administrative Agent and Lender, alongside Bankers Trust Company as an additional Lender.
+
+**Purpose of Financing:** The amendment serves to modify the guarantor structure and update related loan documentation. Specifically, it formalizes Greystone Select Incorporated as the designated guarantor and requires execution of an Amended and Restated Guaranty and Amended and Restated Unsecured Environmental Indemnity.
+
+**Company Background:** America First Multifamily Investors, L.P. operates through a tiered partnership structure, with America First Capital Associates Limited Partnership Two as its general partner, which in turn is managed by Greystone AF Manager LLC as the general partner.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths/Credit Positives:**
+• Strong guarantor support through Greystone Select Incorporated providing additional credit enhancement
+• Administrative Agent maintains first priority perfected security interests in all collateral
+• Borrower represents full compliance with existing covenants with no Events of Default
+• Comprehensive corporate representations and warranties provided, including legal compliance and no material adverse effects
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial disclosure in amendment document restricts comprehensive credit assessment
+• Broad general release provision suggests potential prior issues, though specific concerns are not disclosed
+• Amendment nature indicates need for structural modifications to original terms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Administrative Agent maintains first priority perfected liens on all collateral<br>• Greystone Select Incorporated serves as guarantor under Amended and Restated Guaranty dated November 30, 2021<br>• Borrower must maintain compliance with all financial and operational covenants from original Credit Agreement dated June 11, 2021 |

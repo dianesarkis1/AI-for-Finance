@@ -1,0 +1,41 @@
+## Checklist
+- Identify the key transaction details (borrower, lenders, amendment date and purpose)
+- Extract any specific financial terms, limits, or covenant modifications from the amendment
+- Analyze the lending syndicate composition and structure 
+- Assess credit strengths and risks based on the amendment terms and parties involved
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-10-29
+
+**Borrower / Company Overview:** MarineMax, Inc., a Florida corporation serving as Borrower Representative, along with numerous subsidiary loan parties operating across the recreational marine industry.
+
+**Transaction Description:** Fourth Amendment to Credit Agreement originally dated August 8, 2022. The transaction involves MarineMax, Inc. as Borrower Representative, with Manufacturers and Traders Trust Company as Administrative Agent, Swingline Lender and Issuing Bank, and Wells Fargo Commercial Distribution Finance as Floor Plan Agent. The lending syndicate includes thirteen financial institutions providing floor plan financing.
+
+**Purpose of Financing:** Amendment modifies existing floor plan financing sublimits to accommodate MarineMax's inventory financing requirements across different vessel categories.
+
+**Company Background:** MarineMax operates as a comprehensive marine services enterprise with subsidiaries spanning yacht sales and brokerage (including premium brands like Northrop & Johnson and Fraser Yachts), charter services, marina operations (Island Global Yachting properties), boat manufacturing (Intrepid Powerboats), and marine retail through brands like Skipper Marine. The company maintains operations across multiple jurisdictions including domestic and international marina properties.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional support evidenced by thirteen-lender syndicate including major banks (Bank of America, PNC Bank, BMO Bank)
+• Comprehensive guarantee structure with extensive subsidiary guarantor network providing enhanced credit support
+• Diversified marine industry platform spanning manufacturing, retail, brokerage, charter services, and marina operations
+• Reaffirmation of all existing collateral documents and security interests maintaining robust lender protections
+• Clean credit profile with no existing defaults or events of default reported
+
+**Principal Risks and Mitigating Factors:**
+• Cyclical marine industry exposure to discretionary consumer spending, mitigated by diversified service offerings and geographic presence
+• Increased floor plan sublimits may indicate elevated inventory financing needs requiring ongoing monitoring of inventory turns and market conditions
+• Limited financial performance visibility from amendment document alone, though comprehensive guarantor structure provides credit enhancement
+• Foreign operations exposure through international marina properties, offset by portfolio diversification
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Aggregate outstanding principal amount of Floor Plan Loans (including WF Advances) sublimits:<br>• Eligible New Floor Plan Units >80 feet ≤ $158,333,333<br>• Foreign OEM units (excluding Azimut/Galeon) ≤ $158,333,333<br>• Eligible Used Floor Plan Units ≤ $158,333,333<br>• Individual Eligible Floor Plan Units >$1,000,000 ≤ $450,000,000<br>• All subsidiary guarantees and collateral security reaffirmed |

@@ -1,0 +1,42 @@
+## Checklist
+
+- Extract key transaction details including borrower, lenders, and dates
+- Identify the primary purpose of the amendment (maturity extension)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available financial terms and complete lender list into the required table format
+- Ensure all information is directly sourced from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-06-09
+
+**Borrower / Company Overview:** Blackstone Private Credit Fund, a Delaware statutory trust, operates as a private credit investment vehicle under the Blackstone alternative asset management platform.
+
+**Transaction Description:** Amendment No. 1 and Extension Agreement to the Amended and Restated Senior Secured Credit Agreement originally dated May 6, 2022. The transaction involves Blackstone Private Credit Fund as Borrower, with Citibank N.A. serving as Administrative Agent and a syndicate of 29 major financial institutions as Lenders.
+
+**Purpose of Financing:** The amendment extends the maturity date from May 6, 2027 to June 9, 2028 for consenting lenders while making certain other modifications to the existing credit agreement. This creates a dual-maturity structure accommodating both extending and non-extending lenders.
+
+**Company Background:** Blackstone Private Credit Fund represents Blackstone's private credit investment platform, utilizing both revolving credit facilities (dollar and multicurrency) and term loans to support its investment activities in the private credit markets.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Blue-chip sponsor with Blackstone, one of the world's largest and most established alternative asset managers
+• Extensive syndicate of 29 premier global financial institutions demonstrating broad market support
+• Successful voluntary maturity extension indicates strong lender confidence and relationship quality
+• Borrower confirmed compliance with all financial covenants and absence of defaults as of amendment date
+• Flexible dual-maturity structure provides refinancing optionality and maintains existing lender relationships
+
+**Principal Risks and Mitigating Factors:**
+• Private credit fund structure creates inherent exposure to underlying portfolio performance and credit market volatility
+• Dual-maturity framework (2027/2028) may create refinancing pressure at the 2027 maturity date for non-extending facilities
+• Limited disclosure of financial metrics, portfolio composition, and borrowing base mechanics restricts comprehensive credit assessment
+• Absence of pricing and interest rate terms prevents evaluation of credit spread adequacy and funding cost structure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2028-06-09 (extending lenders); 2027-05-06 (non-extending lenders) | N/A | • Borrowing Base Certificate required within 5 days of amendment effective date<br>• Liens restricted to those permitted under Section 6.02<br>• No Default or Event of Default continuing as of amendment date<br>• Complete lender syndicate includes: Citibank N.A. (Administrative Agent), MUFG Bank Ltd., Sumitomo Mitsui Banking Corporation, Barclays Bank PLC, BNP Paribas, Deutsche Bank AG New York Branch, JPMorgan Chase Bank N.A., Morgan Stanley Bank N.A., Morgan Stanley Senior Funding Inc., Royal Bank of Canada, Toronto-Dominion Bank New York Branch, Truist Bank, Wells Fargo Bank N.A., Bank of America N.A., HSBC Bank USA N.A., Mizuho Bank Ltd., Regions Bank, State Street Bank and Trust Company, Goldman Sachs Bank USA, Société Générale, Bank of Nova Scotia, Capital One N.A., Bank of New York Mellon, Canadian Imperial Bank of Commerce, U.S. Bank National Association, Natixis New York Branch, and Stifel Bank & Trust |

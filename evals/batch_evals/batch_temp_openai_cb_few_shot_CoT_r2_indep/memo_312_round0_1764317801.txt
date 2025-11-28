@@ -1,0 +1,43 @@
+# Step-by-step Analysis Checklist
+
+- Extract key parties and transaction details from the Class A Note document
+- Identify the borrower structure and administrative agent arrangements 
+- Determine principal amount, maturity, and payment terms from the note
+- Review amendment history and credit agreement references for context
+- Assess investment strengths and risks based on available information
+- Compile deal terms table with explicit data only, marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On December 20, 2023, APA Finance III Borrower, LLC (a Delaware LLC) issued a Class A Note to Security Life of Denver Insurance Company for $19,195,000.
+- The Borrower operates through a complex ownership structure: APA Finance III Borrower, LLC is owned by APA Finance III Borrower Holdings, LLC, which is owned by APA Finance III, LLC, owned by APA Generation, LLC, owned by Altus Power, Inc.
+- This Class A Note is issued under a Credit Agreement originally dated February 15, 2023, which has been amended three times (June 15, 2023, July 21, 2023, and December 20, 2023).
+- U.S. Bank Trust Company, National Association serves as Administrative Agent and Collateral Agent, while U.S. Bank National Association serves as Document Custodian.
+- The transaction appears to be part of a structured credit facility with multiple lenders, as evidenced by the reference to "each lender from time to time party thereto" in the underlying Credit Agreement.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established administrative infrastructure with U.S. Bank serving dual roles as Administrative Agent/Collateral Agent and Document Custodian, providing institutional oversight
+- Multiple amendments to the original credit agreement suggest active management and potential covenant modifications to accommodate business needs
+- Structured as a secured facility with collateral agent arrangements providing lender protections
+
+### Principal Risks and Mitigating Factors:
+- Complex multi-tiered ownership structure through multiple LLCs may create structural subordination risks and limit direct recourse to operating assets
+- Limited financial information available from the note document alone constrains comprehensive credit assessment
+- Three amendments within the first year of the credit agreement may indicate covenant compliance challenges or changing business conditions
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 19,195,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | Interest paid on each Interest Payment Date (specific frequency not defined) |
+| **Key Covenants** | N/A |

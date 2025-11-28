@@ -1,0 +1,46 @@
+Based on the credit agreement provided, I will create an investment memorandum following the established structure.
+
+## Checklist:
+- Extract key transaction details and parties from the Amendment No. 1 and Extension Agreement
+- Identify the maturity extension from May 6, 2027 to June 9, 2028
+- Note the borrower (Blackstone Private Credit Fund) and lender syndicate led by Citibank N.A.
+- Analyze credit positives and risks from an investment perspective
+- Complete the Key Deal Terms Table with available information, marking unavailable fields as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-09
+
+**Borrower / Company Overview:** Blackstone Private Credit Fund, a Delaware statutory trust, serves as the Borrower in this senior secured credit facility.
+
+**Transaction Description:** Amendment No. 1 and Extension Agreement to the Amended and Restated Senior Secured Credit Agreement originally dated May 6, 2022. The transaction involves Citibank N.A. as Administrative Agent leading a syndicate of over 25 major international financial institutions including MUFG Bank, Sumitomo Mitsui Banking Corporation, Barclays Bank PLC, BNP Paribas, Deutsche Bank AG, JPMorgan Chase, Morgan Stanley entities, Royal Bank of Canada, Wells Fargo Bank, Bank of America N.A., Goldman Sachs Bank USA, and numerous other prominent global banks.
+
+**Purpose of Financing:** The amendment extends the maturity date from May 6, 2027 to June 9, 2028 for consenting lenders who become "2028 Lenders," while non-consenting "2027 Lenders" retain the original May 6, 2027 maturity. The facility encompasses multiple credit types including Revolving Dollar Commitments, Revolving Multicurrency Commitments, and Term Loans, creating a dual-maturity structure across these various facility components.
+
+**Company Background:** Blackstone Private Credit Fund operates as a private credit investment vehicle managed by Blackstone, one of the world's largest alternative asset management firms specializing in direct lending and credit investments across diverse sectors and geographies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Prestigious sponsor backing through Blackstone, a globally recognized alternative asset management firm with substantial resources and expertise in credit markets
+• Exceptionally strong and diversified lender consortium comprising over 25 major international financial institutions, demonstrating broad market confidence
+• Successful negotiation of maturity extension indicates continued lender support and positive credit relationship management
+• Multiple facility types (revolving dollar, multicurrency, and term loans) provide financing flexibility
+• Borrower representations confirm no defaults or events of default are continuing, suggesting strong covenant compliance
+• Senior secured structure provides enhanced credit protection through collateral coverage
+• Extension fees paid to 2028 Lenders demonstrate borrower's commitment to maintaining banking relationships
+
+**Principal Risks and Mitigating Factors:**
+• Creation of dual maturity structure (2027 vs 2028) introduces refinancing risk for the 2027 tranche that will need to be addressed or refinanced within shorter timeframe
+• Limited financial covenant and pricing information restricts comprehensive credit assessment capabilities  
+• As a private credit fund, performance is dependent on underlying portfolio quality and credit market conditions
+• Borrowing base certificate requirement suggests asset-based lending structure with potential concentration risks in underlying credit portfolio
+• Multi-currency exposure introduces foreign exchange risk, though this may be mitigated through portfolio diversification
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2028-06-09 (for 2028 Lenders); 2027-05-06 (for 2027 Lenders) | N/A | • Borrowing Base Certificate required within 5 days of amendment effective date • Senior secured structure with liens permitted under Section 6.02 • No defaults or events of default continuing as of amendment effective date • Extension fees payable to 2028 Lenders as condition precedent • Multiple facility types: Revolving Dollar Commitments, Revolving Multicurrency Commitments, and Term Loans |

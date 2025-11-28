@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo omits the deadline by which the \"Credit Support\" must be delivered to extend the other deadlines to June 30, 2024. The source document explains that this option is available if the Credit Support is delivered by the \"Outside Signing Date,\" which this amendment extends from January 31, 2024, to February 16, 2024. The memo's deal table does not specify this crucial conditional deadline."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo states the transaction's purpose is to extend the deadline for Section 2.11(h) to February 16, 2024, but elsewhere it states the mandatory prepayment deadline under that same section is March 31, 2024 and remains unchanged.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 58.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

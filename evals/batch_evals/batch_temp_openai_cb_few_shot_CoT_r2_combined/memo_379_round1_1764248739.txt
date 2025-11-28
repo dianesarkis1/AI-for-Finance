@@ -1,0 +1,45 @@
+# Step-by-Step Approach
+
+I will:
+- Extract key transaction details and parties from the credit agreement amendment
+- Identify the incremental term loan structure and specific terms
+- Include the initial interest period detail that was identified as missing
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms into the required table format with enhanced structure
+- Ensure all information comes directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-05-27
+
+**Borrower/Company Overview:** Karman Holding Inc., a Delaware corporation, serves as the borrower with multiple subsidiary guarantors including Karman Parent LLC, Karman Space & Defense LLC, Aerospace Engineering LLC, Wolcott Design Services LLC, Amro Fabricating Corporation, American Automated Engineering Inc., and Systima Technologies Inc.
+
+**Transaction Description:** This is a First Amendment to an existing Credit Agreement dated April 1, 2025, establishing an Incremental Term Loan facility. The counterparties include Karman Holding Inc. as borrower, various subsidiary loan parties, and CITIBANK, N.A. as Administrative Agent, Collateral Agent, and sole First Amendment Incremental Term Lender.
+
+**Purpose of Financing:** The $75,000,000 proceeds will be used to repay outstanding Revolving Credit Loans, fund working capital and general corporate purposes (including Permitted Investments), and cover associated fees and expenses.
+
+**Company Background:** Based on the subsidiary entities, Karman Holding operates a diversified portfolio across aerospace, defense, engineering, and automated systems sectors through its various operating companies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking relationship with CITIBANK, N.A., a major global financial institution serving as both agent and lender
+• Recently established and underwritten credit facility (original agreement April 1, 2025) suggests current due diligence
+• Diversified operational footprint across aerospace, defense, and engineering industries
+• Incremental loans pari passu with existing term loans, maintaining structural consistency
+• Comprehensive security package with existing liens continuing to secure amended facility
+• All loan parties reaffirmed obligations and representations under amended structure
+
+**Principal Risks and Mitigating Factors:**
+• Single lender concentration with CITIBANK, N.A. providing entire incremental commitment
+• Quarterly amortization schedule begins September 30, 2025, creating ongoing cash flow requirements
+• Limited financial covenant visibility, though existing terms incorporated by reference
+• Amendment complexity suggests potential for future modifications as business evolves
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | SOFR-based floating rate with initial Interest Period from May 27, 2025 to June 30, 2025 | N/A | Quarterly amortization starting September 30, 2025 (0.25% of aggregate principal amount per quarter) | • First Amendment Incremental Term Loans have identical terms to existing Initial Term Loans<br>• Existing security interests and liens continue securing all obligations<br>• All representations, warranties, and financial covenants from original Credit Agreement incorporated<br>• No Event of Default under sections 8.01(a), (f), or (g) required for effectiveness |

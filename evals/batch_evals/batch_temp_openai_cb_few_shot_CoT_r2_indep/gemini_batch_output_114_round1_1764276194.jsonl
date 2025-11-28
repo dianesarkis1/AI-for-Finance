@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\nThe memo incorrectly lists \"Must maintain Qualified Purchaser status under Investment Company Act\" and \"Must maintain QIB status under Securities Act\" as key covenants in the deal terms table. The source document states these are requirements, representations, and warranties for the *Additional Lender* (EverBank, N.A.), not general covenants for the borrower."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists a 'Comprehensive security and collateral framework' as a key strength, which contradicts the identified risk of 'Limited... covenant visibility,' as a framework cannot be assessed as comprehensive if its key terms (covenants) are not visible.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

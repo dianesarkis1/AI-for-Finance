@@ -1,0 +1,41 @@
+# Investment Memorandum
+
+## Checklist
+- Extract key parties, transaction structure, and dates from the increase supplement
+- Identify the financing purpose and relationship to existing credit facility
+- Analyze credit positives and risks from an investor perspective
+- Compile deal terms available in the document, marking unavailable items as "N/A"
+- Format the memo according to the specified structure with proper sections and table format
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-13
+
+**Borrower/Company Overview:** Texas-New Mexico Power Company, a Texas corporation, operates as a regulated electric utility company.
+
+**Transaction Description:** This transaction represents an increase supplement to the Fourth Amended and Restated Credit Agreement dated March 11, 2022. The supplement adds CoBank, ACB as a new lender to the existing credit facility with KeyBank National Association serving as Administrative Agent.
+
+**Purpose of Financing:** The financing expands the borrowing capacity under the existing credit facility through the addition of a new $25,000,000 commitment from CoBank, ACB.
+
+**Company Background:** Texas-New Mexico Power Company operates under a secured credit structure backed by first mortgage bonds. The company maintains an established banking relationship and has issued Replacement First Mortgage Bonds under a Sixteenth Supplemental Indenture dated May 13, 2022, which provides collateral security in accordance with the FMB Mortgage Documents.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with KeyBank National Association as Administrative Agent and existing lender
+• Addition of CoBank, ACB demonstrates lender confidence and diversification of funding sources
+• Regulated utility operations typically provide stable, predictable cash flows
+• Secured credit structure with First Mortgage Bond collateral protection
+• Borrower confirmed compliance with all covenant requirements under Section 2.1(f)
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial performance data available in supplement document
+• Utility sector regulatory risk mitigated by regulated rate-setting framework
+• Potential leverage increase if additional capacity is fully utilized
+• Capital-intensive nature of utility operations requiring ongoing investment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Compliance with Section 2.1(f) conditions confirmed<br>• Secured by Replacement First Mortgage Bonds under Sixteenth Supplemental Indenture |

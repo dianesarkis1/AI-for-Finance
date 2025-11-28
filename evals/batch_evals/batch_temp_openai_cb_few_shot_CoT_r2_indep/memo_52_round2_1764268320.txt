@@ -1,0 +1,35 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2020-10-26
+
+**Borrower/Company Overview:** PNM Resources, Inc., a New Mexico corporation operating as a regulated utility holding company.
+
+**Transaction Description:** Eighth Amendment to Credit Agreement among PNM Resources as borrower, Wells Fargo Bank as Administrative Agent, and a syndicate of institutional lenders. MUFG Bank serves as sole bookrunner and lead arranger for this amendment.
+
+**Purpose of Financing:** Amendment facilitates PNM Resources' pending acquisition by Avangrid, Inc. through merger agreement dated October 20, 2020, by modifying covenant definitions and providing targeted waivers for potential defaults arising from entering into the merger agreement.
+
+**Company Background:** PNM Resources operates regulated electric and gas utilities. The company maintains an existing credit facility originally established through a sixth amendment and restatement dated July 30, 2018, subsequently amended by a seventh amendment dated December 19, 2018.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong lender syndicate includes ten major financial institutions providing relationship depth and support
+• Regulated utility business model provides stable, predictable cash flows with regulatory oversight
+• Borrower maintains covenant compliance with all representations and warranties remaining accurate
+• Proactive approach to managing merger-related covenant issues demonstrates sophisticated financial management
+• Amendment preserves core lender protections while enabling necessary transaction steps
+
+**Principal Risks and Mitigating Factors:**
+• Change of control definition modified with dual triggers creating complexity in enforcement scenarios
+• Merger closing will constitute prohibited change of control, creating facility acceleration risk
+• Waivers limited to merger agreement execution only; future transaction steps require additional lender consent
+• Post-merger refinancing risk for acquirer given facility restrictions
+• Amendment provides no information on current facility size, pricing, or financial covenant metrics
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Change of Control definition: (a) 25% or more beneficial ownership threshold, or (b) majority board turnover within any 24-month period<br>• Merger restriction language modified to "merge with or into any other Person"<br>• Waiver of potential covenant defaults related to Avangrid merger agreement execution<br>• All existing financial covenants and representations reaffirmed without modification |

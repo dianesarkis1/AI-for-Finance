@@ -1,0 +1,40 @@
+## Checklist of Approach:
+- Extract key transaction details from the Box, Inc. and Wells Fargo credit agreement amendment
+- Identify the borrower, lender, date, and purpose of the amendment
+- Analyze the commitment amount changes and liquidity condition modifications
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure all three required sections are present and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On December 19, 2024, Box, Inc., a Delaware corporation, and Wells Fargo Bank, National Association executed Amendment No. 1 to their Amended and Restated Credit Agreement originally dated June 30, 2023.
+- Box, Inc. is a cloud content management and collaboration platform provider serving as the Borrower in this bilateral credit facility with Wells Fargo as the sole Lender.
+- The amendment modifies the commitment amount to $75,000,000 and revises the "Liquidity Condition" definition to require that the Borrower's liquidity be greater than or equal to the outstanding principal amount of existing convertible notes.
+- The purpose of this financing amendment is to adjust the credit facility terms, specifically the commitment size and liquidity covenant requirements.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established relationship with Wells Fargo, a major U.S. financial institution, indicating lender confidence in Box, Inc.
+- Borrower represents that no Event of Default or Potential Event of Default has occurred and is continuing
+- All security documents, guarantees, pledges, and security interests remain in full force and effect
+- Amendment reaffirms all existing loan documents and maintains collateral protection
+
+### Principal Risks and Mitigating Factors:
+- Single lender concentration risk with Wells Fargo as the sole credit provider
+- Liquidity condition covenant tied to convertible notes outstanding may create refinancing pressure
+- Limited financial information available to assess overall credit profile and performance metrics
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Liquidity Condition: Borrower's Liquidity must be greater than or equal to outstanding principal amount of Existing Convertible Notes. All security documents, guarantees, pledges, grants, and security interests reaffirmed and maintained in full force and effect |

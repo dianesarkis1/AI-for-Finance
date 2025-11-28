@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents 'Maintained covenant compliance' as a key strength while simultaneously stating under risks that the analysis suffers from 'Limited financial visibility' because it 'lacks comprehensive financial metrics...necessary for thorough credit risk evaluation', making the compliance claim unverifiable within the memo's own stated limitations.\", \"The step-by-step approach lists 'Compile available deal terms' as a key action, but the 'Key Deal Terms Table' shows 'N/A' for fundamental information like Deal size, price, interest rate, and maturity, contradicting the notion that a meaningful compilation of key terms was performed or possible.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 67.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

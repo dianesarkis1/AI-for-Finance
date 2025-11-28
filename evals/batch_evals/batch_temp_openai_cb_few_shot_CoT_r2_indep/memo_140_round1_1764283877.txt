@@ -1,0 +1,43 @@
+I'll analyze this credit agreement systematically to draft a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key transaction details including parties, dates, and amendment purpose
+• Identify the specific changes being made to the credit agreement terms
+• Analyze credit positives and risks from an investor perspective
+• Compile available deal terms into the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-01-28
+
+**Borrower / Company Overview:** Square, Inc. serves as the Borrower under a revolving credit facility with Goldman Sachs Bank USA as Administrative Agent and a syndicate of major financial institutions as lenders.
+
+**Transaction Description:** This Third Amendment modifies Square's existing Revolving Credit Agreement originally executed May 1, 2020, and previously amended twice (May 28, 2020 and November 9, 2020). The transaction involves Square, Inc., Goldman Sachs Bank USA as Administrative Agent, and a lending syndicate including Goldman Sachs Bank USA, Sumitomo Mitsui Banking Corporation, JPMorgan Chase Bank N.A., Wells Fargo Bank N.A., HSBC Bank USA National Association, and U.S. Bank National Association.
+
+**Purpose of Financing:** The amendment serves two primary purposes: (1) updating definitions related to COVID-19 relief legislation to reflect changes through the Consolidated Appropriations Act, 2021, including the CARES Act, Paycheck Protection Program Liquidity Facility (PPPLF), PPP Loans, and Small Business Act; and (2) increasing Square's permitted borrowing capacity under the PPPLF to $1,000,000,000 in aggregate principal amount outstanding.
+
+**Company Background:** Square, Inc. operates as a financial services and digital payments company. The company maintains credit relationships with premier financial institutions and has demonstrated ability to access capital markets through multiple credit facility amendments during the COVID-19 pandemic period.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional backing evidenced by high-quality lending syndicate comprising Goldman Sachs, JPMorgan Chase, Wells Fargo, HSBC, U.S. Bank, and Sumitomo Mitsui Banking Corporation
+• Current covenant compliance with borrower representations confirming no Default or Event of Default has occurred and is continuing
+• Enhanced liquidity flexibility through expanded PPPLF access, providing additional funding sources during economic recovery
+• Proactive credit agreement management demonstrated through timely amendments addressing regulatory changes
+• Maintained lender confidence through successful execution of multiple amendments within nine-month period
+
+**Principal Risks and Mitigating Factors:**
+• Increased leverage exposure through potential $1 billion PPPLF borrowings may impact overall debt capacity and financial flexibility
+• Amendment represents third modification to credit facility within nine months, potentially indicating ongoing refinancing needs
+• Limited transparency into underlying facility terms constrains comprehensive risk assessment capabilities
+• Regulatory dependency on federal programs (PPPLF) introduces policy risk, though mitigated by legislative extensions through Consolidated Appropriations Act, 2021
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Specified Indebtedness incurred pursuant to PPPLF limited to $1,000,000,000 aggregate principal amount outstanding at any time<br>• All representations and warranties contained in Section 3 of the Credit Agreement must remain true and correct in all material respects<br>• No Default or Event of Default permitted to occur and continue |

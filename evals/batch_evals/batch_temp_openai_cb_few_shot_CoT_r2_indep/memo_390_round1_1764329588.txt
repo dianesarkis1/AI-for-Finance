@@ -1,0 +1,43 @@
+## Checklist of Analysis Approach:
+
+- Extract key parties, dates, and transaction structure from the amendment
+- Identify the specific modifications being made to the original credit agreement
+- Analyze the credit implications of extended deadlines and PIK interest features
+- Assess available deal terms and financial information from the document
+- Evaluate credit strengths and risks from an investor perspective
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-11-30
+
+**Borrower/Company Overview:** Team, Inc., a Delaware corporation, serves as the borrower in this unsecured term loan facility. The company operates with lenders including Corre Opportunities Qualified Master Fund, LP, Corre Horizon Fund, LP, and Corre Horizon Fund II, LP.
+
+**Transaction Description:** This transaction represents Amendment No. 1 to an existing Unsecured Term Loan Credit Agreement originally executed on November 9, 2021. The amendment involves extending multiple critical compliance deadlines between the borrower and its lender syndicate.
+
+**Purpose of Financing:** The amendment provides operational flexibility by extending three key deadlines: (i) PIK interest payment date for Initial Term Loans, (ii) delivery deadline for a fully executed ABL Consent, and (iii) issuance deadline for Underlying Warrants. These extensions provide additional time for administrative and covenant compliance.
+
+**Company Background and Context:** Team, Inc. maintains an active relationship with its specialized lender group, consisting of institutional credit funds managed by the Corre platform. The borrowing arrangement includes PIK interest features and warrant components, suggesting a structured financing solution for the company's capital needs.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Cooperative lender relationship demonstrated through successful negotiation of deadline extensions
+• Borrower maintains proactive communication with lenders regarding compliance requirements
+• Involvement of sophisticated institutional lenders (Corre funds) suggests professional credit management
+• All existing loan document terms and protective covenants remain fully intact
+• Amendment process completed efficiently within three weeks of original agreement
+
+**Principal Risks and Mitigating Factors:**
+• Early amendment requirement indicates potential operational or administrative challenges in meeting initial deadlines
+• PIK interest structure suggests possible cash flow constraints requiring in-kind rather than cash payments
+• Unsecured term loan structure provides limited collateral protection compared to secured facilities
+• Concentration of multiple compliance deadlines in early December 2021 may indicate broader covenant management pressures
+• Short timeframe between original agreement and amendment suggests potential underwriting or execution complexities
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | PIK Interest (rate not specified) | N/A | N/A | • Extended Interest Payment Date to December 6, 2021<br>• ABL Consent delivery deadline extended to December 6, 2021<br>• Underlying Warrants issuance deadline extended to December 7, 2021<br>• All other Credit Agreement terms remain in full force and effect<br>• Strict compliance with all loan document provisions required |

@@ -1,0 +1,40 @@
+## Checklist:
+- Extract key transaction details: parties, date, amendment purpose
+- Identify borrower background and transaction structure 
+- Analyze credit strengths and risks from an investor perspective
+- Extract specific deal terms (size, pricing, rates, maturity, covenants) from the document
+- Format findings into the required three-section structure with proper table formatting
+- Validate all information is sourced directly from the document with N/A for missing data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-06-27
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP, a Delaware limited partnership (formerly America First Multifamily Investors, L.P.), is focused on multifamily housing investments.
+
+**Transaction Description:** This is a Third Amendment to an Amended and Restated Credit Agreement between Greystone Housing Impact Investors LP (Borrower) and Bankers Trust Company (Bank). The original credit agreement was established on August 23, 2021, with prior amendments executed on April 29, 2022, and July 29, 2022.
+
+**Purpose of Financing:** The amendment serves administrative purposes, updating definitions related to the Pledged Account and Securities Intermediary arrangements. The Borrower requested modifications to facilitate account management and collateral arrangements.
+
+**Company Background:** The company operates as a Delaware limited partnership in the multifamily housing investment sector, having previously operated under the name America First Multifamily Investors, L.P.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with documented amendment history indicating ongoing lender engagement
+• Borrower represents no current Events of Default or Unmatured Events of Default
+• Robust collateral framework with pledged accounts maintained through institutional Securities Intermediary
+• All existing loan documents and covenants remain ratified and in full force
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial metrics visibility in amendment document
+• Administrative complexity in collateral management structure
+• Single lender concentration risk with Bankers Trust Company
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All existing covenants and warranties from original Agreement remain in effect<br>• Pledged Account #164283-000 maintained by Wilmington Trust, National Association<br>• Security Agreement amendment required<br>• Updated Control Agreement with Securities Intermediary required |

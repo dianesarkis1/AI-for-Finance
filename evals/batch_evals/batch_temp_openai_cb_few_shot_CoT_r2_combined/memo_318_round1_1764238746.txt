@@ -1,0 +1,42 @@
+## Initial Approach
+
+I will:
+- Extract the key transaction details and parties involved in this extension consent letter
+- Identify the specific nature of this credit agreement modification (date extension)
+- Assess the credit implications from an investor perspective
+- Compile available financial terms and covenant information into the required table format
+- Ensure all information comes directly from the document without inference
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-31
+
+**Borrower / Company Overview:** Fathom Manufacturing, LLC, a Delaware limited liability company, serves as the Borrower under a credit facility originally established in December 2021. The company is headquartered in Hartland, Wisconsin, with Fathom Guarantor, LLC acting as the Holdings entity.
+
+**Transaction Description:** This extension consent letter modifies specific deadline provisions in the original Credit Agreement dated December 23, 2021. The lending syndicate includes JPMorgan Chase Bank, N.A. as Administrative Agent, along with CIBC Bank USA, BMO Bank N.A., and Stifel Bank & Trust as lenders.
+
+**Purpose of Financing:** The extension provides additional time for the Borrower to meet critical obligations under the Credit Agreement by extending the Outside Signing Date from January 31, 2024 to February 16, 2024.
+
+**Company Background:** Based on the credit agreement structure, Fathom Manufacturing operates within a multi-entity corporate structure including Ultimate Parent and Holdings entities, suggesting a sophisticated organizational framework typical of private equity-backed companies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking consortium led by JPMorgan Chase with established regional and specialty lenders, indicating continued institutional support
+• Extension approved by Majority Third Amendment Consenting Term Lenders, demonstrating cooperative lender relationship
+• All other Credit Agreement terms remain intact, preserving existing protections and structure
+
+**Principal Risks and Mitigating Factors:**
+• Extension request signals potential execution challenges in meeting original deadlines, raising operational or strategic concerns
+• Substantial mandatory prepayment obligation of $50,000,000 may strain liquidity and limit financial flexibility
+• Narrow scope of extension maintains all other lender rights and remedies, preserving strict enforcement mechanisms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Mandatory prepayment of USD 50,000,000 by March 31, 2024 (or June 30, 2024 if Credit Support conditions met)<br>• Ultimate Parent must enter Binding Agreement by February 16, 2024 (extended from January 31, 2024)<br>• Alternative deadline for Binding Agreement: June 30, 2024 if Credit Support executed and delivered by February 16, 2024<br>• All other Credit Agreement covenants remain in full force and effect |

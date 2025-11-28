@@ -1,0 +1,45 @@
+Based on the credit agreement provided, I will create an investment memorandum following the established structure.
+
+## Checklist:
+- Extract key transaction details and parties from the Amendment No. 1 and Extension Agreement
+- Identify the maturity extension from May 6, 2027 to June 9, 2028
+- Note the borrower (Blackstone Private Credit Fund) and lender syndicate led by Citibank N.A.
+- Analyze credit positives and risks from an investment perspective
+- Complete the Key Deal Terms Table with available information, marking unavailable fields as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-09
+
+**Borrower / Company Overview:** Blackstone Private Credit Fund, a Delaware statutory trust, serves as the borrower under this senior secured credit facility.
+
+**Transaction Description:** Amendment No. 1 and Extension Agreement to the Amended and Restated Senior Secured Credit Agreement dated May 6, 2022. The amendment creates a dual-maturity structure with consenting lenders becoming "2028 Lenders" and non-consenting lenders remaining "2027 Lenders." Citibank N.A. acts as Administrative Agent with a syndicate including MUFG Bank, Sumitomo Mitsui Banking Corporation, Barclays Bank PLC, BNP Paribas, Deutsche Bank AG, JPMorgan Chase, Morgan Stanley entities, Royal Bank of Canada, Wells Fargo Bank, Bank of America N.A., and Goldman Sachs Bank USA.
+
+**Purpose of Financing:** Extension of maturity date from May 6, 2027 to June 9, 2028 for consenting lenders across revolving dollar commitments, revolving multicurrency commitments, and term loans. Non-consenting lenders retain the original May 6, 2027 maturity.
+
+**Company Background:** Blackstone Private Credit Fund operates as a private credit investment vehicle within the Blackstone alternative asset management platform, focusing on direct lending activities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong sponsor backing through Blackstone, a leading global alternative asset manager
+• Broad lender support evidenced by successful maturity extension negotiation
+• Diversified international banking syndicate providing multiple funding sources
+• Senior secured structure offering enhanced creditor protection
+• Multiple facility types providing operational financing flexibility
+• Current compliance with all representations and warranties
+
+**Principal Risks and Mitigating Factors:**
+• Dual maturity structure creates near-term refinancing risk for 2027 tranche
+• Performance dependent on underlying private credit portfolio quality
+• Multi-currency exposure introduces foreign exchange risk
+• Asset-based lending structure suggests reliance on borrowing base calculations
+• Limited covenant disclosure restricts full credit assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2028-06-09 (2028 Lenders); 2027-05-06 (2027 Lenders) | N/A | • Borrowing Base Certificate required • Senior secured with permitted liens per Section 6.02 • No continuing defaults or events of default • Extension fees payable to 2028 Lenders |

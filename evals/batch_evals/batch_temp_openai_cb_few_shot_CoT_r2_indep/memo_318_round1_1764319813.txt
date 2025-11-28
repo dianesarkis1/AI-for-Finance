@@ -1,0 +1,40 @@
+## Checklist of Approach
+• Extract key parties, dates, and transaction structure from the extension consent letter
+• Identify the specific covenant extensions and prepayment obligations being modified
+• Analyze credit positives and risks from a lender perspective regarding this extension
+• Compile available financial terms while marking unavailable data as "N/A"
+• Format the analysis into the required three-section structure with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-31
+
+**Borrower / Company Overview:** Fathom Manufacturing, LLC, a Delaware limited liability company serving as Borrower, with Fathom Guarantor, LLC (Delaware LLC) as Holdings. The company is located at 1050 Walnut Ridge Drive, Hartland, WI 53029.
+
+**Transaction Description:** Extension consent letter executed between Fathom Manufacturing, LLC and its lender syndicate, modifying specific covenant deadlines under the existing Credit Agreement dated December 23, 2021. The lending syndicate includes JPMorgan Chase Bank, N.A. as Administrative Agent and Lender, CIBC Bank USA, BMO Bank N.A., and Stifel Bank & Trust as Lenders.
+
+**Purpose of Financing:** The extension provides additional time for compliance with two critical obligations: (1) execution of a Binding Agreement involving the Ultimate Parent under Section 5.15, and (2) completion of a USD 50,000,000 term loan prepayment to Third Amendment Consenting Term Lenders under Section 2.11(h).
+
+**Company Background:** Fathom Manufacturing operates under a credit facility established in December 2021, with Mark Frost serving as Chief Financial Officer. The company has undergone previous amendments to its credit agreement and maintains relationships with major institutional lenders.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender syndicate with JPMorgan Chase as Administrative Agent demonstrates continued support
+• Majority Third Amendment Consenting Term Lenders approved extension, indicating collaborative covenant management
+• Limited 16-day extension maintains strict parameters without establishing precedent for future modifications
+• All existing loan document protections remain in full force and effect
+
+**Principal Risks and Mitigating Factors:**
+• Covenant extension requirement suggests potential execution challenges in meeting original January 31, 2024 deadline
+• USD 50,000,000 mandatory prepayment represents significant deleveraging obligation due by March 31, 2024
+• Breach of extension terms constitutes immediate Event of Default, preserving lender enforcement rights
+• Extension scope is narrowly defined and explicitly does not waive other Credit Agreement terms or remedies
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Outside Signing Date extended from January 31, 2024 to February 16, 2024 for Binding Agreement execution under Section 5.15<br>• USD 50,000,000 mandatory term loan prepayment due March 31, 2024 (or June 30, 2024 if Credit Support executed)<br>• All other Credit Agreement covenants remain in full force and effect<br>• Extension breach constitutes Default and Event of Default |

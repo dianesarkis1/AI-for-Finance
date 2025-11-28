@@ -1,0 +1,42 @@
+I'll analyze this credit agreement systematically to draft a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key transaction details including parties, dates, and amendment purpose
+• Identify the specific changes being made to the credit agreement terms
+• Analyze credit positives and risks from an investor perspective
+• Compile available deal terms into the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On January 28, 2021, Square, Inc. entered into a Third Amendment to its Revolving Credit Agreement originally dated May 1, 2020.
+- Square, Inc. serves as the Borrower in this credit facility, with Goldman Sachs Bank USA acting as Administrative Agent. The lending syndicate includes major financial institutions: Goldman Sachs Bank USA, Sumitomo Mitsui Banking Corporation, JPMorgan Chase Bank N.A., Wells Fargo Bank N.A., HSBC Bank USA National Association, and U.S. Bank National Association.
+- The amendment updates definitions related to COVID-19 relief programs including the CARES Act, Paycheck Protection Program Liquidity Facility (PPPLF), PPP Loans, and Small Business Act to reflect legislative changes through the Consolidated Appropriations Act, 2021.
+- The primary purpose is to increase the permitted "Specified Indebtedness" that Square can incur pursuant to the PPPLF from an unspecified amount to $1,000,000,000 aggregate principal amount outstanding at any time.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• High-quality lending syndicate comprising premier financial institutions (Goldman Sachs, JPMorgan, Wells Fargo, HSBC, U.S. Bank, Sumitomo Mitsui), indicating strong institutional confidence in Square's creditworthiness.
+
+• The borrower represents that no Default or Event of Default has occurred and is continuing, demonstrating current compliance with all credit agreement terms.
+
+• Amendment provides Square with enhanced liquidity access through increased PPPLF borrowing capacity, supporting financial flexibility during COVID-19 recovery period.
+
+### Principal Risks and Mitigating Factors:
+• The amendment allows Square to significantly increase its indebtedness exposure through PPPLF borrowings up to $1 billion, which could impact overall leverage profile.
+
+• Limited visibility into underlying credit facility terms such as pricing, total commitment size, maturity, and other financial covenants constrains comprehensive credit assessment.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Specified Indebtedness incurred pursuant to PPPLF not to exceed $1,000,000,000 aggregate principal amount outstanding at any time. All representations and warranties in original Credit Agreement reaffirmed as true and correct. |

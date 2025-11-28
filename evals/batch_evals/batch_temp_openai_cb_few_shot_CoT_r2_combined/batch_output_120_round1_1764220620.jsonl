@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Claims the syndicate includes 16 lenders; the source lists more lenders and does not specify the number \"16\"."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Full scope of the amended \u201cMinimum Acceptance Condition\u201d definition: that the >50% threshold includes (i) acceptances received and (ii) Target Shares otherwise acquired or owned by the Offeror (or to be acquired or owned on the settlement date), in addition to excluding treasury shares."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Lender count inconsistency: Memo states the facility has a syndicate of 16 lenders, but the listed lender roster includes 19 institutions.\", \"Acceptance threshold inconsistency: Risks section cites a minimum 50% shareholder acceptance (>=50%), whereas the Key Deal Terms define the Minimum Acceptance Condition as >50%.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

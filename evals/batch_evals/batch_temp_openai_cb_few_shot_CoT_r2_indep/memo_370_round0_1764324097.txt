@@ -1,0 +1,42 @@
+## Checklist
+
+- Identify the key parties, transaction date, and structure from the credit agreement
+- Extract the specific purpose and nature of the modification (maturity extension)
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure professional tone and format consistent with investment memo standards
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On November 26, 2024, IPC Alternative Real Estate Operating Partnership, LP (the Borrower) and Inland Private Capital Corporation (the Lender) executed a modification to their existing loan documents.
+- The Borrower is a Delaware limited partnership engaged in real estate operations, while the Lender is a Delaware corporation, both with principal places of business in Oak Brook, Illinois.
+- The transaction involves a modification to an existing revolving credit facility originally established on October 27, 2023, with a facility size of $22,500,000.
+- The primary purpose of this modification is to extend the maturity date of the revolving credit facility from November 30, 2024 to November 30, 2025, providing the Borrower with an additional year of credit availability.
+- This appears to be an affiliate lending arrangement between related entities within the Inland Private Capital organization, as evidenced by the shared Oak Brook address and similar corporate structures.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- The Borrower maintains good standing as a Delaware limited partnership with adequate powers to conduct its business operations
+- The modification confirms the Borrower is currently in compliance with all existing covenants under the loan documents
+- The Borrower has provided comprehensive representations and warranties regarding its organizational status and authorization to enter into the modification
+- The facility structure as a revolving credit line provides operational flexibility for the real estate business
+
+### Principal Risks and Mitigating Factors:
+- This appears to be an affiliate lending arrangement, which may lack arm's-length pricing and terms typical of third-party commercial lending
+- The need for a maturity extension shortly before the original maturity date (November 30, 2024) may indicate potential liquidity constraints or refinancing challenges
+- The modification includes a broad release and waiver provision favoring the Lender, which could limit the Borrower's future recourse options
+- Limited financial information is available to assess the underlying credit quality and performance of the real estate operations
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 22,500,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | 2025-11-30 |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • All existing covenants from original Credit Agreement remain in full force and effect<br>• Borrower must maintain good standing as Delaware limited partnership<br>• Borrower must remain duly licensed in all required jurisdictions<br>• Borrower confirms compliance with all representations, warranties, and covenants as of modification date |

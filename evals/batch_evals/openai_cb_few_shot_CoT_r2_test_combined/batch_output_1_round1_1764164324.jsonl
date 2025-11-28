@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- States a blanket \"Prohibition on distributions during the waiver period.\" The source only prohibits Distributions pursuant to clause (c) or (e) of Permitted Distributions; it is not a complete prohibition on all distributions."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Precise Event of Default trigger tied to OLG support: failure to provide full Threshold payment relief or to pay the Fixed Component Per Diem for more than five aggregate Business Days during the Extended Waiver Period."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Risks section claims a blanket prohibition on distributions during the waiver period, while Key Covenants state only distributions under clauses (c) or (e) of Permitted Distributions are prohibited\\u2014implying some distributions remain allowed. These positions conflict.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

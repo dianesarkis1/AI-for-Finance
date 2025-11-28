@@ -1,0 +1,42 @@
+Based on my review of this credit agreement, I will:
+
+• Extract key transaction details including parties, dates, and structure
+• Analyze the COVID-19 related waivers and their implications for the borrower
+• Identify covenant modifications and liquidity requirements
+• Assess credit strengths and risks from an investor perspective
+• Compile deal terms information available in the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 30, 2020, Bank of Montreal (as Administrative Agent) and MGE Niagara Entertainment Inc. entered into a Fourth Amended and Restated Limited Waiver agreement.
+- MGE Niagara Entertainment Inc., a casino operator, serves as the Borrower with Complex Services Inc. as guarantor under the original credit agreement dated June 10, 2019.
+- This waiver extends COVID-19 related relief through November 30, 2020, addressing casino closure defaults and financial covenant breaches caused by government-mandated shutdowns.
+- The financing structure includes revolving credit facilities with Bank of Montreal as Administrative Agent. The waiver provides temporary relief from various defaults while imposing enhanced liquidity monitoring and operational restrictions.
+- MGE Niagara Entertainment operates casino facilities that were temporarily closed due to COVID-19 pandemic restrictions, with Ontario Lottery and Gaming Corporation (OLG) providing certain financial relief measures.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Government support through OLG financial relief packages, including threshold payment relief and fixed component per diem payments
+- Enhanced liquidity monitoring with mandatory minimum liquidity requirement of $15 million
+- Borrower remains current on representations and warranties with no additional defaults beyond COVID-related issues
+- Structured waiver period with clear expiration (November 30, 2020) and defined conditions
+
+### Principal Risks and Mitigating Factors:
+- Casino closure exceeding 60 consecutive days triggers automatic default under normal circumstances
+- Financial covenant breaches in Sections 9.4.1 and 9.4.2 indicate deteriorating financial performance
+- Prohibition on new advances under credit facilities during waiver period limits financial flexibility
+- Applicable margin increased to Level 5 (highest pricing tier), indicating elevated credit risk perception
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Level 5 pricing: LIBOR loans at 5.00%, Prime Rate loans at 3.50%, Undrawn fee at 1.25% |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Maintain minimum liquidity of $15,000,000 at all times<br>• No new advances available under credit facilities<br>• No distributions under clauses (c) or (e) of Permitted Distributions<br>• Weekly liquidity reporting required<br>• No acquisitions permitted<br>• Restrictions on amending material agreements |

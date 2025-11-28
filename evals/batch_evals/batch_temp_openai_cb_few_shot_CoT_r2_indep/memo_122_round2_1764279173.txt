@@ -1,0 +1,41 @@
+# Checklist
+- Identify transaction date, parties, and structure (incremental commitment agreement)
+- Extract borrower information and business context (Oaktree Specialty Lending Corporation)
+- Analyze transaction purpose and key financial terms from Schedule 1
+- Review credit positives and risks from an investment perspective
+- Compile deal terms table with available data, marking unavailable fields as "N/A"
+- Ensure proper formatting and professional tone throughout
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-12-28
+
+**Borrower / Company Overview:** Oaktree Specialty Lending Corporation is a Delaware corporation operating as a business development company focused on specialty lending activities. The transaction includes subsidiary guarantors OCSL SRNE, LLC (a Delaware limited liability company) and FSFC Holdings, Inc. (a Delaware corporation).
+
+**Transaction Description:** This incremental commitment agreement provides additional borrowing capacity under the Amended and Restated Senior Secured Revolving Credit Agreement dated February 25, 2019. The transaction increases MUFG Union Bank's commitment by $25,000,000, expanding the existing credit facility. ING Capital LLC serves as Administrative Agent and Issuing Bank, with JPMorgan Chase Bank, N.A. and Bank of America, N.A. as Syndication Agents, and joint lead arrangers comprising ING Capital LLC, JPMorgan Chase Bank, N.A., and Merrill Lynch, Pierce, Fenner & Smith Incorporated.
+
+**Purpose of Financing:** The incremental commitment provides $25,000,000 of additional borrowing capacity, increasing MUFG Union Bank's total commitment from $50,000,000 to $75,000,000 under the existing revolving credit facility to support the borrower's ongoing specialty lending operations.
+
+**Company Background:** Oaktree Specialty Lending Corporation operates under the Oaktree Capital Management platform, providing specialty lending solutions in the credit markets.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established platform with Oaktree Capital Management sponsorship, providing significant credit expertise and market presence
+• High-quality syndicate including major financial institutions demonstrates strong lender confidence and market acceptance
+• Incremental facility expansion indicates healthy business growth and additional capacity needs rather than distressed refinancing
+• Comprehensive security structure with subsidiary guarantees and collateral coverage under existing Guarantee and Security Agreement
+• Standard conditions precedent and covenant framework consistent with institutional-grade credit facilities
+
+**Principal Risks and Mitigating Factors:**
+• Business development company model subject to credit cycle volatility and portfolio company performance risks
+• Limited visibility into specific pricing, covenant, and maturity terms through this incremental agreement document
+• Specialty lending sector exposure to broader credit market conditions and economic cycles; mitigated by experienced management platform and diversified lender support
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Terms identical to existing lender commitments under base credit agreement<br>• Guarantee and Security Agreement coverage maintained for all secured obligations<br>• No Default or Event of Default continuing as condition to effectiveness<br>• Standard representations and warranties from original credit agreement reaffirmed |

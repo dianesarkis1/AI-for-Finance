@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-08-18
+
+**Borrower/Company Overview:** Halozyme Therapeutics, Inc., a Delaware corporation, serves as the Borrower under this revolving credit facility. The company operates with subsidiaries Halozyme, Inc. and Antares Pharma, Inc. serving as Guarantors.
+
+**Transaction Description:** Amendment No. 1 to Credit Agreement increases existing revolving credit commitments through addition of new lenders. The transaction involves a comprehensive syndicate of eleven major financial institutions, with Bank of America, N.A. serving as Administrative Agent, Swing Line Lender, and L/C Issuer, and Wells Fargo Bank, N.A. serving as L/C Issuer.
+
+**Purpose of Financing:** The incremental commitments provide additional liquidity for general corporate purposes in accordance with the original credit agreement terms. Proceeds are intended to be used alongside convertible notes issued concurrently on the amendment effective date.
+
+**Company Background:** Halozyme operates in the therapeutics sector, maintaining established banking relationships with tier-one financial institutions and accessing both debt and equity capital markets as evidenced by the concurrent convertible note issuance.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Comprehensive lender syndicate including Bank of America, Wells Fargo, JPMorgan Chase, Citibank, Goldman Sachs Bank USA, Mizuho Bank, Silicon Valley Bank, Fifth Third Bank, MUFG Union Bank, Bank of the West, and City National Bank
+• Strong covenant compliance with pro forma Consolidated Net Leverage Ratio maintained at least 0.25:1.00 below maximum permitted levels
+• Robust collateral structure with all existing liens and guarantees reaffirmed and continuing in full force
+• Borrower demonstrates disciplined capital structure management through concurrent Term A Loan repayment
+• CFO solvency certification provides additional credit assurance
+
+**Principal Risks and Mitigating Factors:**
+• Substantial facility increase ($225 million incremental commitments bringing total to $575 million) may signal increased liquidity requirements or capital intensity
+• Concurrent convertible debt issuance suggests multiple financing needs being addressed simultaneously
+• Amendment structure limits visibility into specific pricing, maturity, and detailed covenant terms referenced in base credit agreement
+• Repayment of Term A Loans may indicate refinancing pressures or strategic capital structure optimization
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| USD 225,000,000 incremental; USD 575,000,000 total facility | N/A | N/A | N/A | N/A | • Pro forma Consolidated Net Leverage Ratio must not exceed 0.25:1.00 less than permitted ratio under Section 7.11(a) • Compliance with all financial covenants per Section 7.11 • Collateral documents and guarantees reaffirmed • CFO solvency certification required • Full repayment of Term A Loans required |

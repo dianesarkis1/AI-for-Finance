@@ -1,0 +1,32 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-08-26
+
+**Borrower/Company Overview:** Lumen Technologies, Inc., a Louisiana corporation, operates as the borrower under a Superpriority Term B Credit Agreement with Wilmington Trust, National Association as Administrative Agent and Bank of America, N.A. as Collateral Agent.
+
+**Transaction Description:** Amendment No. 1 to the Superpriority Term B Credit Agreement originally dated March 22, 2024. This technical amendment corrects an error in Section 6.01(v)(1)(ii) of the original Credit Agreement.
+
+**Purpose of Financing:** To cure ambiguity, omission, error, defect or inconsistency in loan documentation as permitted under Section 9.08(e)(iii) of the original Credit Agreement. The amendment specifically addresses terms governing Incremental Equivalent Debt provisions.
+
+**Company Background:** Lumen Technologies is a telecommunications company with established credit facilities supported by Lumen Guarantors and QC Guarantors, operating under a complex capital structure with multiple intercreditor arrangements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established administrative infrastructure with reputable financial institutions serving as agents
+• Proactive document maintenance demonstrates sound legal and operational governance
+• Comprehensive structural protections for additional debt incurrence, including subordination requirements
+• Existing guarantee structure provides additional credit support through Lumen Guarantors and QC Guarantors
+
+**Principal Risks and Mitigating Factors:**
+• Amendment facilitates potential leverage increases through Incremental Equivalent Debt incurrence capabilities
+• Complex capital structure requires ongoing technical modifications, indicating structural complexity
+• Limited transparency into underlying credit metrics and borrower financial performance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Incremental Equivalent Debt limited to Borrower with Lumen/QC Guarantors only<br>• If secured, collateral restricted to existing Collateral<br>• Weighted Average Life to Maturity no shorter than remaining Term B Loans<br>• No maturity/prepayment obligations prior to Latest Maturity Date<br>• Final maturity no earlier than Latest Maturity Date<br>• Subject to Subordination Agreement as "Subordinated Debt"<br>• Subject to First Lien/First Lien Intercreditor Agreement or Permitted Junior Intercreditor Agreement<br>• Cannot rank senior to existing Obligations |

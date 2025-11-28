@@ -1,0 +1,51 @@
+I'll analyze this credit agreement step-by-step to draft a professional investment memorandum.
+
+## My approach:
+• Extract key transaction details and parties from the Fourth Amended and Restated Limited Waiver
+• Identify the COVID-19 related business disruption and financial covenant issues
+• Analyze the waiver terms, restrictions, and risk factors from a credit perspective
+• Structure findings into Executive Summary, Investment Highlights & Risks, and Key Deal Terms
+• Ensure all information comes directly from the document with N/A for missing data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 30, 2020, Bank of Montreal as Administrative Agent granted a Fourth Amended and Restated Limited Waiver to MGE Niagara Entertainment Inc., extending previous COVID-19 related waivers.
+- MGE Niagara Entertainment Inc., a casino operator, serves as the Borrower under a credit agreement originally dated June 10, 2019 (amended July 17, 2019). Complex Services Inc. acts as guarantor.
+- This waiver extends relief from financial covenant breaches and closure-related defaults through November 30, 2020 (the "Extended Waiver Period"), due to COVID-19 mandated casino closures by the Ontario Lottery and Gaming Corporation (OLG).
+- The transaction addresses financial covenant breaches in Sections 9.4.1 and 9.4.2 of the original Credit Agreement, closure defaults under Section 11.1.11, and delays compliance certificate deliveries. OLG has provided financial relief including threshold payment relief and Fixed Component Per Diem payments.
+- MGE Niagara Entertainment operates casino facilities that were subject to mandatory closure for more than 60 consecutive days due to COVID-19, creating significant operational and financial stress requiring lender accommodation.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Bank of Montreal continues to work constructively with the borrower through multiple waiver extensions, indicating relationship strength and workout expertise.
+
+• OLG (Ontario Lottery and Gaming Corporation) is providing financial relief including threshold payment relief and Fixed Component Per Diem payments, providing some revenue support during closure.
+
+• Required liquidity maintenance of $15,000,000 minimum provides downside protection.
+
+• Weekly liquidity reporting requirements ensure close monitoring of cash position.
+
+### Principal Risks and Mitigating Factors:
+• Casino operations remain subject to government-mandated closures with uncertain reopening timeline, creating ongoing revenue disruption.
+
+• Financial covenant breaches in Sections 9.4.1 and 9.4.2 indicate underlying financial stress even before COVID-19 impacts.
+
+• Borrower is prohibited from accessing additional credit facility advances during the waiver period, limiting financial flexibility.
+
+• Applicable margin increases to Level 5 (5.00% for LIBOR loans, 3.50% for Prime Rate loans), reflecting increased credit risk.
+
+• Restricted distributions and acquisition activities limit strategic flexibility during the waiver period.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Level 5 pricing: 5.00% margin on LIBOR loans, 3.50% margin on Prime Rate loans, 1.25% undrawn fee |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Maintain minimum liquidity of $15,000,000 at all times • No access to credit facility advances • No distributions under clauses (c) or (e) of Permitted Distributions • No acquisitions permitted • Weekly liquidity reporting required • Cannot modify key agreements adversely to lenders • Event of Default if OLG ceases relief payments for more than 5 business days aggregate |

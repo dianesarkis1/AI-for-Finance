@@ -1,0 +1,41 @@
+I'll analyze this credit agreement and draft a professional investment memorandum. Here's my approach:
+
+• Extract the basic transaction details (parties, dates, amendment purpose)
+• Identify the specific changes being made to the credit agreement
+• Assess the credit implications from an investor perspective
+• Compile the key terms into the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-05-10
+
+**Borrower/Company Overview:** LifeStance Health Holdings, Inc., a Delaware corporation, operating through a holding company structure with Lynnwood Intermediate Holdings, Inc.
+
+**Transaction Description:** Second Amendment to Credit Agreement originally dated May 4, 2022 (previously amended November 7, 2023). Parties include LifeStance Health Holdings, Inc. as borrower, Capital One, National Association as Administrative Agent/Revolver Agent/Collateral Agent, and Unitranche Loan Transaction II, LLC as lender.
+
+**Purpose of Financing:** Extension of Delayed Draw Term Loan Commitment Expiration Date to August 14, 2024, providing additional time to access committed but undrawn term loan capacity.
+
+**Company Background:** Healthcare industry company with subsidiary guarantors maintaining comprehensive credit facilities including revolving credit and term loan components.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional lender group with Capital One as agent and HPS Investment Partners as unitranche manager
+• Borrower confirms no Events of Default and compliance with all representations and warranties
+• All existing security interests and liens reaffirmed, maintaining comprehensive collateral package
+• Limited amendment scope focused on timing extension rather than covenant relief or structural changes
+
+**Principal Risks and Mitigating Factors:**
+• Delayed draw extension request may signal timing pressures or capital deployment challenges
+• Healthcare sector regulatory and reimbursement risks inherent to business model
+• Amendment provides limited financial visibility to assess current credit performance
+• Future funding requirements through undrawn facilities could impact leverage metrics
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Delayed Draw Term Loan Commitment Expiration Date: 2024-08-14<br>• No Events of Default continuing<br>• All representations and warranties confirmed<br>• Security interests and liens reaffirmed |

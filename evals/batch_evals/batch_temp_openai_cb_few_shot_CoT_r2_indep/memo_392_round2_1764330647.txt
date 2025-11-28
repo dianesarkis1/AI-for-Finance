@@ -1,0 +1,40 @@
+## Checklist
+- Identify the key parties, dates, and transaction structure from the LIBOR cessation agreement
+- Extract the specific rights being suspended and the operational changes being implemented
+- Analyze the credit implications and risks from an investment perspective
+- Compile available deal terms while noting information limitations in this type of agreement
+- Structure the memo following the required three-section format with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-10-12
+
+**Borrower/Company Overview:** Emerson Electric Co. serves as the primary borrower under a syndicated credit facility, with subsidiary borrowers also party to the underlying Credit Agreement dated May 23, 2018.
+
+**Transaction Description:** Emerson Electric Co. executed a Suspension of Rights Agreement with JPMorgan Chase Bank, N.A. as Administrative Agent to temporarily modify borrowing terms under the existing syndicated credit facility in response to the 2021 LIBOR cessation effective December 31, 2021.
+
+**Purpose of Financing:** This interim agreement addresses LIBOR transition requirements while postponing formal credit agreement amendment costs. The arrangement suspends non-USD currency borrowing capabilities and restricts specific USD LIBOR interest period options until permanent LIBOR replacement mechanisms are implemented.
+
+**Company Background:** Emerson Electric Co. maintains an established syndicated credit facility with institutional lenders, reflecting strong banking relationships and access to committed capital markets financing.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationship with JPMorgan Chase Bank as Administrative Agent indicates institutional lender confidence
+• Proactive LIBOR transition management demonstrates regulatory compliance awareness and operational sophistication
+• Temporary nature of restrictions with defined restoration process upon completion of formal credit agreement amendments
+• Continued access to USD-denominated borrowing maintains core funding availability
+
+**Principal Risks and Mitigating Factors:**
+• Operational constraints through elimination of multi-currency borrowing flexibility may limit natural hedging capabilities
+• Restricted interest period selections could impact interest rate optimization strategies
+• Indemnification exposure for transition-related costs and potential compliance breaches
+• Agreement represents modification to existing facility terms rather than comprehensive credit assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Suspension of Non-USD Currency borrowing (GBP, EUR, JPY)<br>• Elimination of 1-week and 2-month USD LIBOR interest periods without Required Lenders consent<br>• Automatic conversion of Non-USD currency requests to USD<br>• Automatic conversion of restricted interest periods to 1-month terms<br>• Borrower indemnification for Agent and Lender costs related to breaches or implementation<br>• Suspension terminates upon effective LIBOR replacement amendments |

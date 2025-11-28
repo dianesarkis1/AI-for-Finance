@@ -1,0 +1,745 @@
+{
+  "summary": {
+    "total_memos_evaluated": 3,
+    "dataset_indices_evaluated": [
+      0,
+      1,
+      2
+    ],
+    "total_evaluations": 6,
+    "total_quality_scores": 24,
+    "mean_score": 72.13,
+    "median_score": 67.59,
+    "min_score": 67.37,
+    "max_score": 81.44,
+    "stdev_score": 8.06,
+    "evaluators": {
+      "gpt-5": {
+        "count": 3,
+        "mean": 69.89,
+        "median": 69.94
+      },
+      "claude-sonnet-4-20250514": {
+        "count": 3,
+        "mean": 74.37,
+        "median": 65.62
+      }
+    },
+    "metrics": {
+      "quality_clarity": {
+        "count": 6,
+        "mean": 80.83,
+        "median": 80.0
+      },
+      "quality_tone": {
+        "count": 6,
+        "mean": 90.33,
+        "median": 90.0
+      },
+      "quality_length": {
+        "count": 6,
+        "mean": 73.83,
+        "median": 85.0
+      },
+      "quality_structure": {
+        "count": 6,
+        "mean": 42.5,
+        "median": 45.0
+      }
+    }
+  },
+  "results_by_index": {
+    "0": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo claims the 'Rating-based pricing structure incentivizes maintenance of strong credit metrics' as a strength, but the pricing grid shows the identical interest rate margin (0.850% Eurodollar/0.000% ABR) for two different rating levels (Level 2 'A' and Level 3 'A-'), which removes the financial incentive to avoid a downgrade between these specific levels."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 68,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 95,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 98,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "The memo summarizes the interest rate spreads as a range (e.g., 0.725%-1.225% for Eurodollar Loans). However, it omits the specific breakdown from the \"PRICING GRID FOR FACILITY\" in Annex I, which maps each of the five distinct \"Pricing Levels\" and their corresponding debt ratings (e.g., Level 1: A+/A1/A+, Level 2: A/A2/A, etc.) to a specific \"Applicable Margin.\" This detailed grid is the central financial term being changed by the amendment.",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 97,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 95,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 70.44
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The memo claims the 'Rating-based pricing structure incentivizes maintenance of strong credit metrics' as a strength, but the pricing grid shows the identical interest rate margin (0.850% Eurodollar/0.000% ABR) for two different rating levels (Level 2 'A' and Level 3 'A-'), which removes the financial incentive to avoid a downgrade between these specific levels."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 68,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 95,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 98,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 69.12
+          }
+        },
+        "summary_score": 69.12
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Original Credit Agreement date (January 18, 2019) - important for understanding the credit facility's history and maturity timeline",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 75,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 45,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 75,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 92.94
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Original Credit Agreement date (January 18, 2019) - important for understanding the credit facility's history and maturity timeline",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 75,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 45,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 65.62
+          }
+        },
+        "summary_score": 65.62
+      },
+      "summary_score": 67.37
+    },
+    "1": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo presents 'enhanced monitoring and transparency' from weekly liquidity reporting as a key strength, while the deal terms simultaneously state that the borrower's requirement to deliver standard reporting like Q1/Q2 Compliance Certificates and the Annual Business Plan has been waived, which constitutes a significant reduction in overall transparency."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 95,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 95,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 95,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- The waiver of the requirement to deliver the Q1 Compliance Certificate, the Q2 Compliance Certificate, and the Annual Business Plan.",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The memo assesses the minimum $15M liquidity as a \"cash flow buffer\" (a strength), which contradicts the assessment that suspending credit advances results in \"limited financial flexibility\" (a risk). If external credit is unavailable, the liquidity is a primary survival fund, not a secondary buffer."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 94,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 95,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 92,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 45.38
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The memo presents 'enhanced monitoring and transparency' from weekly liquidity reporting as a key strength, while the deal terms simultaneously state that the borrower's requirement to deliver standard reporting like Q1/Q2 Compliance Certificates and the Annual Business Plan has been waived, which constitutes a significant reduction in overall transparency."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 95,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 95,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 70.62
+          }
+        },
+        "summary_score": 70.62
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "YES",
+          "missing_terms": "- Original Credit Agreement date (June 10, 2019) and amendment date (July 17, 2019) mentioned but not captured in deal terms table",
+          "is_incomplete": true
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 78,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 35,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 35,
+          "metric": "quality_structure"
+        },
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "Original credit agreement date of June 10, 2019 and amendment date of July 17, 2019",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 78,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 75,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 35,
+              "metric": "quality_structure"
+            },
+            "summary_score": 67.06
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Original Credit Agreement date (June 10, 2019) and amendment date (July 17, 2019) mentioned but not captured in deal terms table",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 78,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 35,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 35,
+              "metric": "quality_structure"
+            },
+            "summary_score": 64.56
+          }
+        },
+        "summary_score": 64.56
+      },
+      "summary_score": 67.59
+    },
+    "2": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The deal terms table specifies a '1.25% Undrawn Fee', which compensates lenders for a commitment to lend, but the memo states in two other sections ('Principal Risks' and 'Key covenants') that the borrower is completely prohibited from requesting or making any advances during the waiver period."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 87,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 97,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 95,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 40,
+          "metric": "quality_structure"
+        },
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "['Undrawn Fee']",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 88,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 95,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 68,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 68.5
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The deal terms table specifies a '1.25% Undrawn Fee', which compensates lenders for a commitment to lend, but the memo states in two other sections ('Principal Risks' and 'Key covenants') that the borrower is completely prohibited from requesting or making any advances during the waiver period."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 87,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 97,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 95,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 69.94
+          }
+        },
+        "summary_score": 69.94
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": false,
+          "issues": [],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 82,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 75,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 45,
+          "metric": "quality_structure"
+        },
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Original Credit Agreement amount/commitment size not specified",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 78,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 45,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 35,
+              "metric": "quality_structure"
+            },
+            "summary_score": 65.19
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 75,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 92.94
+          }
+        },
+        "summary_score": 92.94
+      },
+      "summary_score": 81.44
+    }
+  },
+  "metadata": {
+    "note": "Results from 50 memos evaluated by GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro",
+    "generated_by": "generate_final_results.py",
+    "evaluators": [
+      "gpt-5",
+      "claude-sonnet-4-20250514"
+    ],
+    "total_evaluations": "3 memos \u00d7 2 evaluators = 6"
+  }
+}

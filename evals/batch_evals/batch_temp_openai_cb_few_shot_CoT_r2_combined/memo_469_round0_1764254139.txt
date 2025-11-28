@@ -1,0 +1,40 @@
+## Checklist of Actions:
+- Extract key transaction details including parties, dates, and amendment structure
+- Identify the specific changes being made to the original credit agreement
+- Analyze credit strengths and risks from an investment perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo according to the three required sections with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 15, 2023 (effective May 31, 2023), Sigmatron International, Inc., a Delaware corporation, and JPMorgan Chase Bank, N.A. entered into Amendment No. 2 to their existing credit agreement.
+- The original Amended and Restated Credit Agreement was dated July 18, 2022, and had been previously amended in April 2023.
+- This amendment primarily modifies collateral and lien requirements related to material asset acquisitions, specifically updating Section 5.14(d) of the Credit Agreement to clarify procedures for securing newly acquired assets and requirements related to a potential Corporate Restructuring.
+- The amendment also coordinates with a concurrent amendment to a separate Term Loan Agreement, indicating Sigmatron maintains multiple credit facilities.
+- Sigmatron International appears to be a manufacturing company based on references to corporate restructuring and asset acquisition provisions typical for industrial borrowers.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Relationship with JPMorgan Chase Bank, N.A., a premier financial institution, suggesting creditworthiness and banking relationship quality
+- Borrower remains in compliance with all representations, warranties, and covenants as confirmed in the amendment
+- Coordinated amendment with Term Loan Agreement indicates active management of multiple credit facilities
+- Full reaffirmation of security interests and liens maintains collateral protection
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available to assess overall credit profile and performance trends
+- References to Corporate Restructuring suggest potential operational changes that could impact credit quality
+- Amendment includes broad release provisions in favor of the lender, which may indicate prior relationship stress
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Material asset acquisitions must be subjected to lien securing Secured Obligations upon lender request • Corporate Restructuring requires execution of New Holdco Pledge Documents within 10 business days • All existing liens and security interests ratified and reaffirmed • Borrower must comply with intercreditor agreement terms |

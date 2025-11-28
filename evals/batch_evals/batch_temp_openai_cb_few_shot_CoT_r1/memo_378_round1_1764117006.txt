@@ -1,0 +1,40 @@
+# Conceptual Checklist
+
+- Extract key transaction details: parties, dates, amendment purpose, and financial terms
+- Identify credit strengths including lender quality and borrower compliance status
+- Assess potential risks from amendment terms and information limitations
+- Compile deal terms table with explicit data only, marking unavailable fields as "N/A"
+- Structure memo in three required sections with professional investment committee tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-08-01
+
+**Borrower/Company Overview:** Millrose Properties, Inc., a Maryland corporation, operates as a real estate company with borrowing base properties serving as collateral for the credit facility.
+
+**Transaction Description:** First Amendment to Credit Agreement between Millrose Properties, Inc. (Borrower), Goldman Sachs Bank USA (Administrative Agent), and a syndicate of consenting lenders. The original Credit Agreement was executed on June 24, 2025.
+
+**Purpose of Financing:** The amendment provides operational flexibility for future capital raising activities while establishing additional fee revenue streams for lenders through a staged funding fee structure on the delayed draw term loan facility.
+
+**Company Background:** Millrose Properties appears to be engaged in real estate development or acquisition activities, utilizing a delayed draw term loan facility with acquisition and general tranches. The company maintains borrowing base properties as collateral and operates through various subsidiaries.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• High-quality institutional lender syndicate including Goldman Sachs Bank USA, Bank of America, JPMorgan Chase, Wells Fargo, Citibank, and Citizens Bank
+• No existing defaults or events of default as confirmed by borrower representations
+• Collateral and security interests remain fully intact with borrower reaffirmation
+• Standard conditions precedent maintain lender protections and compliance requirements
+
+**Principal Risks and Mitigating Factors:**
+• Amendment terms favor borrower through reduced mandatory prepayment obligations for designated capital raising activities
+• Limited financial and operational visibility into Millrose Properties' credit profile and business performance
+• Delayed draw structure with staged fees suggests construction/development risk exposure typical of real estate financing
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Stage 4 Funding Fee: 0.250% of outstanding loan principal due 270 days after Initial Draw Date<br>• Designated Issuance provision: only one debt or equity issuance may be designated for preferential prepayment treatment<br>• Modified mandatory prepayment allowing retention of proceeds up to $500,000,000 outstanding loan threshold for designated issuances<br>• Collateral and security interests reaffirmed and maintained in full force<br>• Standard representation and warranty compliance requirements |

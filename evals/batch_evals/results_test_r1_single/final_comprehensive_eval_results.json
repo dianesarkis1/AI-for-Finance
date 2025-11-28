@@ -1,0 +1,140 @@
+{
+  "summary": {
+    "total_memos_evaluated": 1,
+    "dataset_indices_evaluated": [
+      0
+    ],
+    "total_evaluations": 2,
+    "total_quality_scores": 8,
+    "mean_score": 54.44,
+    "median_score": 54.44,
+    "min_score": 54.44,
+    "max_score": 54.44,
+    "stdev_score": 0.0,
+    "evaluators": {
+      "gpt-5": {
+        "count": 1,
+        "mean": 43.88,
+        "median": 43.88
+      },
+      "claude-sonnet-4-20250514": {
+        "count": 1,
+        "mean": 65.0,
+        "median": 65.0
+      }
+    },
+    "metrics": {
+      "quality_clarity": {
+        "count": 2,
+        "mean": 81.5,
+        "median": 81.5
+      },
+      "quality_tone": {
+        "count": 2,
+        "mean": 86.5,
+        "median": 86.5
+      },
+      "quality_length": {
+        "count": 2,
+        "mean": 64.5,
+        "median": 64.5
+      },
+      "quality_structure": {
+        "count": 2,
+        "mean": 38.5,
+        "median": 38.5
+      }
+    }
+  },
+  "results_by_index": {
+    "0": {
+      "gpt-5": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "YES",
+          "hallucinations": "- Claim that AMG is an \u201cinvestment-grade rated company\u201d (the amendment does not state AMG\u2019s current ratings).",
+          "has_hallucinations": true
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The Bank of America single administrative agent/lender relationship is presented as both a strength (\"Strong banking relationship with Bank of America, N.A. serving dual role as Administrative Agent and Lender\") and a risk (\"Concentration risk with single administrative agent relationship\").",
+            "The memo claims the pricing mechanism rewards higher credit quality with lower margins, yet the grid shows Level 2 (A/A2/A) and Level 3 (A-/A3/A-) both at 0.850% Eurodollar, so higher credit (A vs A-) does not get a lower margin."
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 88,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 88,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 84,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 42,
+          "metric": "quality_structure"
+        },
+        "summary_score": 43.88
+      },
+      "claude-sonnet-4-20250514": {
+        "accuracy": {
+          "metric": "accuracy",
+          "answer": "NO",
+          "hallucinations": "None",
+          "has_hallucinations": false
+        },
+        "completeness": {
+          "metric": "completeness",
+          "answer": "NO",
+          "missing_terms": "None",
+          "is_incomplete": false
+        },
+        "consistency": {
+          "has_issues": true,
+          "issues": [
+            "The memo states ABR Loans have 0.000%-0.225% applicable margin in the deal terms table, but also states there's a material margin increase to 122.5 bps at BBB level, creating an impossible range where the maximum ABR margin (22.5 bps) is far below the stated BBB penalty rate (122.5 bps)"
+          ],
+          "metric": "consistency"
+        },
+        "quality_clarity": {
+          "score": 75,
+          "metric": "quality_clarity"
+        },
+        "quality_tone": {
+          "score": 85,
+          "metric": "quality_tone"
+        },
+        "quality_length": {
+          "score": 45,
+          "metric": "quality_length"
+        },
+        "quality_structure": {
+          "score": 35,
+          "metric": "quality_structure"
+        },
+        "summary_score": 65.0
+      },
+      "summary_score": 54.44
+    }
+  },
+  "metadata": {
+    "note": "Results from 50 memos evaluated by GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro",
+    "generated_by": "generate_final_results.py",
+    "evaluators": [
+      "gpt-5",
+      "claude-sonnet-4-20250514"
+    ],
+    "total_evaluations": "1 memos \u00d7 2 evaluators = 2"
+  }
+}

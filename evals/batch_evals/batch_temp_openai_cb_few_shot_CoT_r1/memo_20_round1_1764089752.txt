@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-03-04
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP is a Delaware limited partnership (formerly known as America First Multifamily Investors, L.P.) that operates through a multi-tiered partnership structure with America First Capital Associates Limited Partnership Two as its general partner, which is itself managed by Greystone AF Manager LLC.
+
+**Transaction Description:** This Fifth Amendment to Credit Agreement modifies an existing syndicated credit facility originally established on June 11, 2021. The transaction involves BankUnited, N.A. serving as Administrative Agent, with a lender syndicate that includes BankUnited, Bankers Trust Company, and NexBank as the newest addition to the facility.
+
+**Purpose of Financing:** The amendment facilitates the addition of NexBank as a new lender through a Lender Joinder Agreement and updates the lender schedule while maintaining the existing total facility size. The amendment includes provisions for incremental commitments and associated fee arrangements.
+
+**Company Background:** The borrower operates in the housing impact investment sector and has maintained this credit relationship since June 2021, with this being the fifth amendment to the original agreement, indicating an active and evolving credit relationship with multiple modifications over the past three years.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established credit relationship spanning nearly three years with consistent lender participation and support
+• Diversified lender syndicate providing funding stability across three financial institutions
+• Borrower confirms no existing defaults or events of default as of the amendment date
+• All existing security interests, liens, and collateral arrangements remain in full force and effect
+• Successful track record of covenant compliance and lender relationship management
+
+**Principal Risks and Mitigating Factors:**
+• Frequency of amendments (five total) may indicate ongoing need for covenant relief or structural modifications
+• Comprehensive release provisions suggest potential for past disputes or relationship complexities
+• Limited financial performance data available in amendment restricts current credit assessment
+• Complex multi-tiered partnership structure may present operational and governance considerations
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 50,000,000 | N/A | N/A | N/A | N/A | • All prior loan document covenants reaffirmed and ratified<br>• Security interests, liens, mortgages and conveyances continue to secure obligations<br>• Borrower confirms no current defaults or events of default<br>• Compliance with all conditions set forth in Section 2.11 of original Credit Agreement required |

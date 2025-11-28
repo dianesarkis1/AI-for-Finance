@@ -1,0 +1,45 @@
+I'll analyze this credit agreement step-by-step to create a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key parties, dates, and transaction structure from the limited waiver document
+• Identify the COVID-19 related casino closure context and its financial impact
+• Analyze the waiver terms, covenant breaches, and restrictions imposed on the borrower
+• Assess credit strengths and risks from an investor perspective
+• Compile available deal terms and covenant information into the required table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-11-30
+
+**Borrower/Company Overview:** MGE Niagara Entertainment Inc. is a casino operator that entered into a credit agreement dated June 10, 2019 (amended July 17, 2019) with Bank of Montreal as Administrative Agent and Complex Services Inc. as guarantor.
+
+**Transaction Description:** This Fifth Amended and Restated Limited Waiver extends COVID-19 related relief from financial covenant breaches and closure defaults through March 31, 2021. The waiver is granted by Bank of Montreal as Administrative Agent on behalf of Required Lenders.
+
+**Purpose of Financing:** The accommodation addresses liquidity pressures from government-mandated casino facility closures due to COVID-19 pandemic restrictions. The waiver provides relief from financial covenant breaches in Sections 9.4.1 and 9.4.2 of the underlying Credit Agreement and extends various compliance certificate delivery deferrals.
+
+**Company Background:** MGE Niagara Entertainment Inc. operates casino facilities under regulatory oversight by Ontario Lottery and Gaming Corporation (OLG). The company has been significantly impacted by COVID-19 related closures lasting more than 60 consecutive days, which would constitute an Event of Default under normal circumstances. OLG is providing financial relief through threshold payment relief and fixed component per diem payments during the closure period.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Government support through OLG providing financial relief via threshold payment relief and fixed component per diem payments
+• Minimum liquidity covenant of $15,000,000 provides downside protection
+• Enhanced monitoring through mandatory weekly liquidity reporting ensures close oversight
+• Regulated casino industry provides operational framework and stability
+• Administrative Agent has negotiated restrictive covenants to preserve lender interests
+
+**Principal Risks and Mitigating Factors:**
+• Operational disruption from extended COVID-19 related casino closures creates significant financial stress
+• Multiple financial covenant breaches indicate deteriorating credit metrics requiring ongoing waivers
+• Pricing increase to Level 5 (highest tier) reflects elevated credit risk
+• Operational restrictions including prohibitions on new advances, distributions, and acquisitions limit financial flexibility
+• Critical dependence on continued OLG support payments creates government concentration risk
+• Extension fee of 5 basis points on commitments indicates lender compensation for increased risk
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | 5.00% (Bankers' Acceptances/Letters of Credit/LIBOR Loans at Level 5 pricing) | N/A | N/A | • Maintain Liquidity of not less than $15,000,000 at all times<br>• No new Advances under either Credit Facility<br>• Applicable Margin at Level 5<br>• No Distributions under clause (c) or (e)<br>• No amendments to Leases, MGE Management Agreement, CNHI Consulting Agreement or Convertible Debentures unless favorable<br>• No Acquisitions<br>• Weekly liquidity reporting required<br>• Event of Default if OLG ceases threshold relief or fixed component payments for more than 5 business days<br>• Extension fee of 5 basis points on the Commitment of each consenting Lender |

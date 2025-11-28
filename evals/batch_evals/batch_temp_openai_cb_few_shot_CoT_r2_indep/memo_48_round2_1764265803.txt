@@ -1,0 +1,33 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-11-17
+
+**Borrower/Company Overview:** Spectrum Brands, Inc., a Delaware corporation serving as Lead Borrower under a revolving credit facility administered by Royal Bank of Canada.
+
+**Transaction Description:** Fourth Amendment to Amended and Restated Credit Agreement modifying financial covenant terms in existing revolving credit facility.
+
+**Purpose of Financing:** Provides operational flexibility to complete divestiture of Hardware and Home Improvement segment to ASSA ABLOY AB for $4.3 billion cash proceeds.
+
+**Company Background:** Spectrum Brands entered Asset Purchase Agreement with ASSA ABLOY AB on September 8, 2021, requiring additional time for transaction completion.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• $4.3 billion asset sale proceeds provide substantial deleveraging opportunity
+• Established relationship with Royal Bank of Canada as Administrative Agent
+• Time-bound covenant relief with automatic reversion by September 29, 2023
+• Amendment includes 0.20% fee compensation to lenders
+
+**Principal Risks and Mitigating Factors:**
+• Leverage covenant relaxation to 7.00:1.00 indicates potential financial stress
+• Transaction delays since September 2021 suggest execution complexity
+• Limited facility detail constrains comprehensive risk assessment
+• Binary reliance on HHI Sale completion mitigated by hard reversion timeline
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Total Net Leverage Ratio: 7.00:1.00 maximum through earlier of September 29, 2023 or 10 Business Days after HHI Sale completion; reverts to 6.00:1.00<br>• Amendment fee: 0.20% of Revolving Credit Commitments<br>• Quarterly testing on last day of fiscal quarter<br>• Applies to Revolving Facility only |

@@ -1,0 +1,40 @@
+## Checklist of Approach:
+- Extract key transaction details from the Box, Inc. and Wells Fargo credit agreement amendment
+- Identify the borrower, lender, date, and purpose of the amendment
+- Analyze the commitment amount changes and liquidity condition modifications
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure all three required sections are present and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+Date of Agreement: 2024-12-19
+
+Box, Inc., a Delaware corporation, serves as a cloud content management and collaboration platform provider. The company has entered into Amendment No. 1 to its existing credit facility with Wells Fargo Bank, National Association.
+
+This transaction represents an amendment to the original Amended and Restated Credit Agreement dated June 30, 2023, between Box, Inc. (Borrower) and Wells Fargo Bank, National Association (Lender). The amendment modifies key terms of the bilateral credit facility, establishing a $75,000,000 commitment amount and revising liquidity covenant definitions.
+
+The purpose of this financing amendment is to adjust the credit facility terms, specifically increasing the lender's commitment size to $75,000,000 and modifying the "Liquidity Condition" covenant to require that Box's liquidity be greater than or equal to the outstanding principal amount of existing convertible notes.
+
+Box, Inc. operates as an established technology company providing cloud-based content management solutions, maintaining an existing banking relationship with Wells Fargo through this amended credit facility structure.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with Wells Fargo Bank, National Association, demonstrating institutional lender confidence
+• Borrower represents that no Event of Default or Potential Event of Default has occurred and is continuing
+• Strong collateral protection with all security documents, guarantees, pledges, grants, and security interests maintained in full force
+• Reaffirmation of all existing loan documents provides continuity and maintains creditor protections
+
+**Principal Risks and Mitigating Factors:**
+• Single lender concentration risk with Wells Fargo as sole credit provider, though mitigated by established relationship
+• Liquidity condition covenant tied to outstanding convertible notes may create refinancing pressure upon note maturity
+• Limited visibility into specific financial performance metrics and covenant compliance margins from amendment document alone
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Liquidity Condition: Borrower's Liquidity must be greater than or equal to outstanding principal amount of Existing Convertible Notes<br>• All security documents, guarantees, pledges, grants, and security interests maintained in full force and effect |

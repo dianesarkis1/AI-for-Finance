@@ -1,0 +1,44 @@
+I'll analyze this credit agreement step by step to create a comprehensive investment memorandum.
+
+**Checklist:**
+- Identify key transaction details and parties involved
+- Extract specific amendment provisions and their implications
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms into structured table format
+- Validate all information is sourced directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-08-28
+
+**Borrower/Company Overview:** Lilis Energy Inc., a Nevada corporation, operates in the energy sector through multiple subsidiaries including Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC.
+
+**Transaction Description:** This transaction represents the third amendment to a Senior Secured Super-Priority Debtor-in-Possession Credit Agreement originally executed on June 30, 2020. The lending syndicate consists of BMO Harris Bank N.A. serving as Administrative Agent, along with Capital One National Association and Credit Suisse AG Cayman Islands Branch as lenders.
+
+**Purpose of Financing:** The amendment extends certain Chapter 11 bankruptcy milestone deadlines to provide additional time for the borrower's restructuring process. Specifically, the amendment modifies Section 8.23(e) of the original credit agreement, extending a critical milestone deadline from August 28, 2020 to September 3, 2020.
+
+**Company Background:** Lilis Energy operates as an energy company in the oil and gas sector and is currently undergoing Chapter 11 bankruptcy proceedings. The company maintains operations through its various subsidiary entities, all of which serve as guarantors under the credit facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Super-priority debtor-in-possession structure provides enhanced creditor protection and priority recovery rights in bankruptcy proceedings
+• Senior secured facility structure with collateral backing enhances credit protection
+• Established relationships with reputable financial institutions including BMO Harris Bank N.A., Capital One National Association, and Credit Suisse AG
+• Borrower maintains compliance with all representations, warranties, and covenants with no continuing defaults or events of default
+• Amendment demonstrates lender cooperation and willingness to work with borrower through restructuring process
+
+**Principal Risks and Mitigating Factors:**
+• Active Chapter 11 bankruptcy proceedings represent inherent credit and recovery risk, though mitigated by super-priority DIP status
+• Request for milestone extensions indicates potential execution challenges in restructuring timeline, creating uncertainty around emergence timing
+• Energy sector exposure presents commodity price volatility and cyclical industry risks
+• Limited operational and financial performance data available to assess underlying business viability and recovery prospects
+• Ongoing bankruptcy process may result in potential equity dilution or conversion scenarios
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Chapter 11 milestone deadline extended from August 28, 2020 to September 3, 2020<br>• All representations and warranties must remain true and correct in all material respects<br>• No Default or Event of Default permitted to occur and continue<br>• All original credit agreement covenants and terms remain in full force and effect |

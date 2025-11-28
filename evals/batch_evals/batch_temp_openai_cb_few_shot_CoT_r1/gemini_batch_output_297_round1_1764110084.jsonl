@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The memo omits a key condition precedent for the amendment's effectiveness: the delivery of an Officer's Certificate confirming compliance with the conditions in Section 4.02 of the Amended Credit Agreement (as stated in Section 6(a)(v) of the source document)."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists the 'Dual-maturity structure' as both a 'Key Strength' (provides flexibility) and a 'Principal Risk' (could create refinancing pressure), presenting the same feature as having contradictory positive and negative assessments.\", \"The memo claims 'Limited visibility into... borrowing base requirements' as a risk, but the deal terms table states a 'Borrowing Base Certificate required' for the amendment, a document that would provide exactly that visibility.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

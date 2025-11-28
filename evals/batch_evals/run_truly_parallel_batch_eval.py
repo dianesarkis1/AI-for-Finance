@@ -87,6 +87,83 @@ BATCH_TEMP_DIR = None  # Set dynamically in main()
 PROMPT_FILE = None  # Set dynamically in main()
 
 
+# =============================================================================
+# QUOTA/CREDIT ERROR HANDLING
+# =============================================================================
+
+def is_quota_error(error_message: str) -> tuple[bool, Optional[str]]:
+    """
+    Detect if an error is due to quota/credit limits.
+
+    Returns (is_quota_error, provider_name)
+    """
+    error_lower = error_message.lower()
+
+    # OpenAI quota errors
+    if any(phrase in error_lower for phrase in [
+        "insufficient_quota",
+        "quota exceeded",
+        "rate_limit_exceeded",
+        "you exceeded your current quota",
+        "billing hard limit"
+    ]):
+        return True, "OpenAI"
+
+    # Anthropic quota errors
+    if any(phrase in error_lower for phrase in [
+        "insufficient credits",
+        "credit limit",
+        "billing",
+        "overloaded_error"
+    ]):
+        return True, "Anthropic/Claude"
+
+    # Gemini quota errors
+    if any(phrase in error_lower for phrase in [
+        "quota exceeded",
+        "resource exhausted",
+        "429"
+    ]):
+        return True, "Gemini"
+
+    return False, None
+
+
+def prompt_user_for_credits(provider: str, error_message: str) -> bool:
+    """
+    Prompt user to add credits and wait for confirmation.
+
+    Returns True if user wants to retry, False to cancel.
+    """
+    print(f"\n{'='*70}")
+    print(f"⚠️  QUOTA/CREDIT LIMIT REACHED - {provider}")
+    print(f"{'='*70}")
+    print(f"\nError: {error_message}")
+    print(f"\n🔴 The script has paused because {provider} credits/quota have been exhausted.")
+    print(f"\nPlease:")
+    print(f"  1. Go to your {provider} account")
+    print(f"  2. Add credits or increase quota limits")
+    print(f"  3. Wait a few minutes for the changes to take effect")
+    print(f"\nOnce you've added credits, type 'retry' to continue.")
+    print(f"Type 'cancel' to stop the evaluation run.")
+    print(f"{'='*70}\n")
+
+    while True:
+        response = input("Enter 'retry' or 'cancel': ").strip().lower()
+        if response == 'retry':
+            print(f"\n✅ Retrying {provider} operations...\n")
+            return True
+        elif response == 'cancel':
+            print(f"\n❌ Cancelling evaluation run.\n")
+            return False
+        else:
+            print("Invalid input. Please type 'retry' or 'cancel'.")
+
+
+# =============================================================================
+# HELPER FUNCTIONS
+# =============================================================================
+
 def load_baseline_sampled_indices(file_path: Path) -> list[int]:
     """Load the baseline sampled indices from JSON file."""
     with open(file_path, 'r') as f:
@@ -513,6 +590,146 @@ def generate_all_memos(indices: List[int], train_file: Path, model: str, few_sho
     return memos
 
 
+def aggregate_feedback_from_evaluators(
+    eval_results_list: List[Dict],
+    evaluator_models: List[str]
+) -> Dict:
+    """
+    Aggregate evaluation feedback from multiple evaluators into a single structure.
+
+    This combines:
+    - All hallucinations/issues from all evaluators
+    - All missing terms from all evaluators
+    - All consistency issues from all evaluators
+    - Average quality scores across evaluators
+
+    Args:
+        eval_results_list: List of evaluation result dicts (one per evaluator)
+        evaluator_models: List of evaluator model names (for attribution)
+
+    Returns:
+        Aggregated feedback dict with combined results
+    """
+    aggregated = {
+        'accuracy_result': {
+            'score': 0.0,
+            'accurate': 'YES',
+            'combined_issues': []  # List of (evaluator, issues) tuples
+        },
+        'completeness_result': {
+            'score': 0.0,
+            'complete': 'YES',
+            'combined_missing_terms': []  # List of (evaluator, missing_terms) tuples
+        },
+        'consistency_result': {
+            'score': 0.0,
+            'consistent': 'YES',
+            'combined_issues': []  # List of (evaluator, issues) tuples
+        },
+        'quality_result': {
+            'quality_score': 0.0,
+            'clarity_score': 0.0,
+            'tone_score': 0.0,
+            'length_score': 0.0,
+            'structure_score': 0.0
+        }
+    }
+
+    num_evaluators = len(eval_results_list)
+    if num_evaluators == 0:
+        return aggregated
+
+    # Aggregate accuracy
+    acc_scores = []
+    for eval_result, evaluator_name in zip(eval_results_list, evaluator_models):
+        acc = eval_result.get('accuracy_result', {})
+        acc_scores.append(acc.get('score', 0))
+
+        # If any evaluator says NO, aggregated should be NO
+        if acc.get('accurate') == 'NO':
+            aggregated['accuracy_result']['accurate'] = 'NO'
+
+        # Collect issues with attribution
+        if acc.get('votes'):
+            for voter, vote_data in acc['votes'].items():
+                issues = vote_data.get('issues', [])
+                if issues:
+                    aggregated['accuracy_result']['combined_issues'].append({
+                        'evaluator': evaluator_name,
+                        'issues': issues
+                    })
+
+    aggregated['accuracy_result']['score'] = sum(acc_scores) / len(acc_scores) if acc_scores else 0
+
+    # Aggregate completeness
+    comp_scores = []
+    for eval_result, evaluator_name in zip(eval_results_list, evaluator_models):
+        comp = eval_result.get('completeness_result', {})
+        comp_scores.append(comp.get('score', 0))
+
+        # If any evaluator says NO, aggregated should be NO
+        if comp.get('complete') == 'NO':
+            aggregated['completeness_result']['complete'] = 'NO'
+
+        # Collect missing terms with attribution
+        if comp.get('votes'):
+            for voter, vote_data in comp['votes'].items():
+                missing_terms = vote_data.get('missing_terms', [])
+                if missing_terms:
+                    aggregated['completeness_result']['combined_missing_terms'].append({
+                        'evaluator': evaluator_name,
+                        'missing_terms': missing_terms
+                    })
+
+    aggregated['completeness_result']['score'] = sum(comp_scores) / len(comp_scores) if comp_scores else 0
+
+    # Aggregate consistency
+    cons_scores = []
+    for eval_result, evaluator_name in zip(eval_results_list, evaluator_models):
+        cons = eval_result.get('consistency_result', {})
+        cons_scores.append(cons.get('score', 0))
+
+        # If any evaluator says NO, aggregated should be NO
+        if cons.get('consistent') == 'NO':
+            aggregated['consistency_result']['consistent'] = 'NO'
+
+        # Collect consistency issues with attribution
+        if cons.get('votes'):
+            for voter, vote_data in cons['votes'].items():
+                if vote_data.get('has_issues'):
+                    issues = vote_data.get('issues', [])
+                    if issues:
+                        aggregated['consistency_result']['combined_issues'].append({
+                            'evaluator': evaluator_name,
+                            'issues': issues
+                        })
+
+    aggregated['consistency_result']['score'] = sum(cons_scores) / len(cons_scores) if cons_scores else 0
+
+    # Aggregate quality scores (simple average across all evaluators)
+    clarity_scores = []
+    tone_scores = []
+    length_scores = []
+    structure_scores = []
+    quality_scores = []
+
+    for eval_result in eval_results_list:
+        qual = eval_result.get('quality_result', {})
+        clarity_scores.append(qual.get('clarity_score', 0))
+        tone_scores.append(qual.get('tone_score', 0))
+        length_scores.append(qual.get('length_score', 0))
+        structure_scores.append(qual.get('structure_score', 0))
+        quality_scores.append(qual.get('quality_score', 0))
+
+    aggregated['quality_result']['clarity_score'] = sum(clarity_scores) / len(clarity_scores) if clarity_scores else 0
+    aggregated['quality_result']['tone_score'] = sum(tone_scores) / len(tone_scores) if tone_scores else 0
+    aggregated['quality_result']['length_score'] = sum(length_scores) / len(length_scores) if length_scores else 0
+    aggregated['quality_result']['structure_score'] = sum(structure_scores) / len(structure_scores) if structure_scores else 0
+    aggregated['quality_result']['quality_score'] = sum(quality_scores) / len(quality_scores) if quality_scores else 0
+
+    return aggregated
+
+
 def refine_memo_based_on_feedback(
     source_document: str,
     original_prompt: str,
@@ -535,8 +752,74 @@ def refine_memo_based_on_feedback(
     Returns:
         Refined memo text, or None if refinement failed
     """
+    # Check if this is combined feedback (from multiple evaluators) or single evaluator feedback
+    acc_result = evaluation_feedback.get('accuracy_result', {})
+    comp_result = evaluation_feedback.get('completeness_result', {})
+    cons_result = evaluation_feedback.get('consistency_result', {})
+
+    # Format accuracy issues
+    if 'combined_issues' in acc_result:
+        # Combined feedback format
+        acc_issues_text = ""
+        for issue_info in acc_result['combined_issues']:
+            evaluator = issue_info['evaluator']
+            issues = issue_info['issues']
+            if issues:
+                acc_issues_text += f"\n   {evaluator}: {issues}"
+        if not acc_issues_text:
+            acc_issues_text = "None"
+    else:
+        # Single evaluator format
+        acc_issues_text = []
+        for voter, vote_data in acc_result.get('votes', {}).items():
+            issues = vote_data.get('issues', [])
+            if issues:
+                acc_issues_text.append(str(issues))
+        acc_issues_text = ', '.join(acc_issues_text) if acc_issues_text else "None"
+
+    # Format completeness missing terms
+    if 'combined_missing_terms' in comp_result:
+        # Combined feedback format
+        comp_missing_text = ""
+        for missing_info in comp_result['combined_missing_terms']:
+            evaluator = missing_info['evaluator']
+            missing_terms = missing_info['missing_terms']
+            if missing_terms:
+                comp_missing_text += f"\n   {evaluator}: {missing_terms}"
+        if not comp_missing_text:
+            comp_missing_text = "None"
+    else:
+        # Single evaluator format
+        comp_missing_text = []
+        for voter, vote_data in comp_result.get('votes', {}).items():
+            missing = vote_data.get('missing_terms', [])
+            if missing:
+                comp_missing_text.append(str(missing))
+        comp_missing_text = ', '.join(comp_missing_text) if comp_missing_text else "None"
+
+    # Format consistency issues
+    if 'combined_issues' in cons_result:
+        # Combined feedback format
+        cons_issues_text = ""
+        for issue_info in cons_result['combined_issues']:
+            evaluator = issue_info['evaluator']
+            issues = issue_info['issues']
+            if issues:
+                cons_issues_text += f"\n   {evaluator}: {issues}"
+        if not cons_issues_text:
+            cons_issues_text = "None"
+    else:
+        # Single evaluator format
+        cons_issues_text = []
+        for voter, vote_data in cons_result.get('votes', {}).items():
+            if vote_data.get('has_issues'):
+                issues = vote_data.get('issues', [])
+                if issues:
+                    cons_issues_text.append(str(issues))
+        cons_issues_text = ', '.join(cons_issues_text) if cons_issues_text else "None"
+
     # Construct refinement prompt
-    refinement_prompt = f"""You are refining an investment memo based on evaluation feedback.
+    refinement_prompt = f"""You are refining an investment memo based on evaluation feedback from 1 to 3 evaluators.
 
 <original_instructions>
 {original_prompt}
@@ -555,15 +838,15 @@ The memo was evaluated on four dimensions:
 
 1. ACCURACY: {evaluation_feedback.get('accuracy_result', {}).get('accurate', 'N/A')}
    Score: {evaluation_feedback.get('accuracy_result', {}).get('score', 0):.2f}
-   Issues: {evaluation_feedback.get('accuracy_result', {}).get('votes', {}).get(list(evaluation_feedback.get('accuracy_result', {}).get('votes', {}).keys())[0] if evaluation_feedback.get('accuracy_result', {}).get('votes') else 'unknown', {}).get('issues', [])}
+   Issues: {acc_issues_text}
 
 2. COMPLETENESS: {evaluation_feedback.get('completeness_result', {}).get('complete', 'N/A')}
    Score: {evaluation_feedback.get('completeness_result', {}).get('score', 0):.2f}
-   Missing terms: {evaluation_feedback.get('completeness_result', {}).get('votes', {}).get(list(evaluation_feedback.get('completeness_result', {}).get('votes', {}).keys())[0] if evaluation_feedback.get('completeness_result', {}).get('votes') else 'unknown', {}).get('missing_terms', [])}
+   Missing terms: {comp_missing_text}
 
 3. CONSISTENCY: {evaluation_feedback.get('consistency_result', {}).get('consistent', 'N/A')}
    Score: {evaluation_feedback.get('consistency_result', {}).get('score', 0):.2f}
-   Has issues: {evaluation_feedback.get('consistency_result', {}).get('votes', {}).get(list(evaluation_feedback.get('consistency_result', {}).get('votes', {}).keys())[0] if evaluation_feedback.get('consistency_result', {}).get('votes') else 'unknown', {}).get('has_issues', False)}
+   Issues: {cons_issues_text}
 
 4. QUALITY: Score: {evaluation_feedback.get('quality_result', {}).get('quality_score', 0):.2f}
    - Clarity: {evaluation_feedback.get('quality_result', {}).get('clarity_score', 0):.2f}
@@ -614,6 +897,388 @@ Maintain the same overall structure and format as the original memo, but improve
         return None
 
 
+def save_memo_to_disk(memo_text: str, idx: int, round_num: int, batch_temp_dir: Path):
+    """
+    Save memo text to disk with round number in filename.
+
+    Args:
+        memo_text: The memo content
+        idx: Input index
+        round_num: Refinement round number (0 = initial, 1 = first refinement, etc.)
+        batch_temp_dir: Directory to save to
+    """
+    timestamp = int(time.time())
+    output_file = batch_temp_dir / f"memo_{idx}_round{round_num}_{timestamp}.txt"
+
+    with open(output_file, 'w') as f:
+        f.write(memo_text)
+
+    print(f"    💾 Saved memo to: {output_file.name}")
+
+
+def save_single_round_eval_to_disk(eval_results: Dict, idx: int, evaluator: str, round_num: int, batch_temp_dir: Path):
+    """
+    Save evaluation results for a single round to disk in batch API JSONL format.
+
+    Args:
+        eval_results: Evaluation results dict
+        idx: Input index
+        evaluator: Evaluator model name
+        round_num: Refinement round number (0 = initial, 1 = first refinement, etc.)
+        batch_temp_dir: Directory to save to
+    """
+    # Determine file prefix based on evaluator
+    if "claude" in evaluator.lower():
+        file_prefix = "claude_batch_output"
+    elif "gemini" in evaluator.lower():
+        file_prefix = "gemini_batch_output"
+    else:
+        file_prefix = "batch_output"
+
+    # Create filename with index, round, and timestamp
+    timestamp = int(time.time())
+    output_file = batch_temp_dir / f"{file_prefix}_{idx}_round{round_num}_{timestamp}.jsonl"
+
+    # Convert evaluation results to batch API format (same as save_refinement_results_to_disk)
+    batch_entries = []
+
+    # Add accuracy metric
+    if 'accuracy_result' in eval_results:
+        acc = eval_results['accuracy_result']
+        vote = list(acc.get('votes', {}).values())[0].get('vote', 'NO') if acc.get('votes') else 'NO'
+        hallucinations = list(acc.get('votes', {}).values())[0].get('hallucinations', '') if acc.get('votes') else ''
+
+        content = f"ANSWER: {vote}\n\nHALLUCINATIONS:\n{hallucinations}"
+
+        if "claude" in evaluator.lower():
+            entry = {
+                "custom_id": "accuracy",
+                "result": {
+                    "type": "succeeded",
+                    "message": {
+                        "model": evaluator,
+                        "content": [{"type": "text", "text": content}]
+                    }
+                }
+            }
+        else:
+            entry = {
+                "custom_id": "accuracy",
+                "response": {
+                    "body": {
+                        "choices": [{
+                            "message": {
+                                "content": content
+                            }
+                        }]
+                    }
+                }
+            }
+        batch_entries.append(entry)
+
+    # Add completeness metric
+    if 'completeness_result' in eval_results:
+        comp = eval_results['completeness_result']
+        vote = list(comp.get('votes', {}).values())[0].get('vote', 'NO') if comp.get('votes') else 'NO'
+        missing = list(comp.get('votes', {}).values())[0].get('missing_terms', '') if comp.get('votes') else ''
+
+        content = f"ANSWER: {vote}\n\nMISSING_TERMS:\n{missing}"
+
+        if "claude" in evaluator.lower():
+            entry = {
+                "custom_id": "completeness",
+                "result": {
+                    "type": "succeeded",
+                    "message": {
+                        "model": evaluator,
+                        "content": [{"type": "text", "text": content}]
+                    }
+                }
+            }
+        else:
+            entry = {
+                "custom_id": "completeness",
+                "response": {
+                    "body": {
+                        "choices": [{
+                            "message": {
+                                "content": content
+                            }
+                        }]
+                    }
+                }
+            }
+        batch_entries.append(entry)
+
+    # Add consistency metric
+    if 'consistency_result' in eval_results:
+        cons = eval_results['consistency_result']
+        content = json.dumps({
+            "has_issues": cons.get('has_issues', False),
+            "issues": cons.get('issues', [])
+        })
+
+        if "claude" in evaluator.lower():
+            entry = {
+                "custom_id": "consistency",
+                "result": {
+                    "type": "succeeded",
+                    "message": {
+                        "model": evaluator,
+                        "content": [{"type": "text", "text": content}]
+                    }
+                }
+            }
+        else:
+            entry = {
+                "custom_id": "consistency",
+                "response": {
+                    "body": {
+                        "choices": [{
+                            "message": {
+                                "content": content
+                            }
+                        }]
+                    }
+                }
+            }
+        batch_entries.append(entry)
+
+    # Add quality metrics (4 sub-metrics)
+    if 'quality_result' in eval_results:
+        qual = eval_results['quality_result']
+        quality_metrics = {
+            'quality_clarity': qual.get('clarity_score', 0),
+            'quality_tone': qual.get('tone_score', 0),
+            'quality_length': qual.get('length_score', 0),
+            'quality_structure': qual.get('structure_score', 0)
+        }
+
+        for metric_name, score in quality_metrics.items():
+            content = f"SCORE: {score}"
+
+            if "claude" in evaluator.lower():
+                entry = {
+                    "custom_id": metric_name,
+                    "result": {
+                        "type": "succeeded",
+                        "message": {
+                            "model": evaluator,
+                            "content": [{"type": "text", "text": content}]
+                        }
+                    }
+                }
+            else:
+                entry = {
+                    "custom_id": metric_name,
+                    "response": {
+                        "body": {
+                            "choices": [{
+                                "message": {
+                                    "content": content
+                                }
+                            }]
+                        }
+                    }
+                }
+            batch_entries.append(entry)
+
+    # Write to JSONL file
+    with open(output_file, 'w') as f:
+        for entry in batch_entries:
+            f.write(json.dumps(entry) + '\n')
+
+
+def save_refinement_results_to_disk(refinement_results: Dict, batch_temp_dir: Path):
+    """
+    Save refinement evaluation results to disk in batch API JSONL format.
+    This allows generate_final_results.py to parse them like regular batch results.
+
+    Args:
+        refinement_results: Dict mapping (index, evaluator) -> evaluation results
+        batch_temp_dir: Directory to save results to
+    """
+    print(f"\n{'='*70}")
+    print(f"SAVING REFINEMENT RESULTS TO DISK")
+    print(f"{'='*70}\n")
+
+    # Group results by (index, evaluator)
+    results_by_index_evaluator = {}
+    for (idx, evaluator), eval_results in refinement_results.items():
+        key = (idx, evaluator)
+        results_by_index_evaluator[key] = eval_results
+
+    # For each unique (index, evaluator), create a batch output file
+    for (idx, evaluator), eval_results in results_by_index_evaluator.items():
+        # Determine file prefix based on evaluator
+        # NOTE: Gemini uses OpenAI JSON format internally, but needs gemini_batch_output prefix for parser
+        if "claude" in evaluator.lower():
+            file_prefix = "claude_batch_output"
+        elif "gemini" in evaluator.lower():
+            file_prefix = "gemini_batch_output"
+        else:
+            file_prefix = "batch_output"
+
+        # Create filename with index and timestamp
+        timestamp = int(time.time())
+        output_file = batch_temp_dir / f"{file_prefix}_{idx}_{timestamp}.jsonl"
+
+        # Convert evaluation results to batch API format
+        batch_entries = []
+
+        # Add accuracy metric
+        if 'accuracy_result' in eval_results:
+            acc = eval_results['accuracy_result']
+            vote = list(acc.get('votes', {}).values())[0].get('vote', 'NO') if acc.get('votes') else 'NO'
+            hallucinations = list(acc.get('votes', {}).values())[0].get('hallucinations', '') if acc.get('votes') else ''
+
+            content = f"ANSWER: {vote}\n\nHALLUCINATIONS:\n{hallucinations}"
+
+            if "claude" in evaluator.lower():
+                entry = {
+                    "custom_id": "accuracy",
+                    "result": {
+                        "type": "succeeded",
+                        "message": {
+                            "model": evaluator,
+                            "content": [{"type": "text", "text": content}]
+                        }
+                    }
+                }
+            else:
+                entry = {
+                    "custom_id": "accuracy",
+                    "response": {
+                        "body": {
+                            "choices": [{
+                                "message": {
+                                    "content": content
+                                }
+                            }]
+                        }
+                    }
+                }
+            batch_entries.append(entry)
+
+        # Add completeness metric
+        if 'completeness_result' in eval_results:
+            comp = eval_results['completeness_result']
+            vote = list(comp.get('votes', {}).values())[0].get('vote', 'NO') if comp.get('votes') else 'NO'
+            missing = list(comp.get('votes', {}).values())[0].get('missing_terms', '') if comp.get('votes') else ''
+
+            content = f"ANSWER: {vote}\n\nMISSING_TERMS:\n{missing}"
+
+            if "claude" in evaluator.lower():
+                entry = {
+                    "custom_id": "completeness",
+                    "result": {
+                        "type": "succeeded",
+                        "message": {
+                            "model": evaluator,
+                            "content": [{"type": "text", "text": content}]
+                        }
+                    }
+                }
+            else:
+                entry = {
+                    "custom_id": "completeness",
+                    "response": {
+                        "body": {
+                            "choices": [{
+                                "message": {
+                                    "content": content
+                                }
+                            }]
+                        }
+                    }
+                }
+            batch_entries.append(entry)
+
+        # Add consistency metric
+        if 'consistency_result' in eval_results:
+            cons = eval_results['consistency_result']
+            content = json.dumps({
+                "has_issues": cons.get('has_issues', False),
+                "issues": cons.get('issues', [])
+            })
+
+            if "claude" in evaluator.lower():
+                entry = {
+                    "custom_id": "consistency",
+                    "result": {
+                        "type": "succeeded",
+                        "message": {
+                            "model": evaluator,
+                            "content": [{"type": "text", "text": content}]
+                        }
+                    }
+                }
+            else:
+                entry = {
+                    "custom_id": "consistency",
+                    "response": {
+                        "body": {
+                            "choices": [{
+                                "message": {
+                                    "content": content
+                                }
+                            }]
+                        }
+                    }
+                }
+            batch_entries.append(entry)
+
+        # Add quality metrics (4 sub-metrics)
+        if 'quality_result' in eval_results:
+            qual = eval_results['quality_result']
+            quality_metrics = {
+                'quality_clarity': qual.get('clarity_score', 0),
+                'quality_tone': qual.get('tone_score', 0),
+                'quality_length': qual.get('length_score', 0),
+                'quality_structure': qual.get('structure_score', 0)
+            }
+
+            for metric_name, score in quality_metrics.items():
+                content = f"SCORE: {score}"
+
+                if "claude" in evaluator.lower():
+                    entry = {
+                        "custom_id": metric_name,
+                        "result": {
+                            "type": "succeeded",
+                            "message": {
+                                "model": evaluator,
+                                "content": [{"type": "text", "text": content}]
+                            }
+                        }
+                    }
+                else:
+                    entry = {
+                        "custom_id": metric_name,
+                        "response": {
+                            "body": {
+                                "choices": [{
+                                    "message": {
+                                        "content": content
+                                    }
+                                }]
+                            }
+                        }
+                    }
+                batch_entries.append(entry)
+
+        # Write to JSONL file
+        with open(output_file, 'w') as f:
+            for entry in batch_entries:
+                f.write(json.dumps(entry) + '\n')
+
+        print(f"  ✓ Saved {evaluator} results for index {idx}: {output_file.name} ({len(batch_entries)} metrics)")
+
+    print(f"\n{'─'*70}")
+    print(f"Saved {len(results_by_index_evaluator)} evaluation result files")
+    print(f"{'='*70}\n")
+
+
 def run_iterative_refinement(
     memos: Dict[int, Dict],
     evaluator_models: List[str],
@@ -638,6 +1303,7 @@ def run_iterative_refinement(
 
     Returns:
         Dict mapping (index, evaluator) → final evaluation results
+        AND saves all intermediate artifacts (round 0 evals, round 1 memos, etc.) to disk
     """
     print(f"\n{'='*70}")
     print(f"ITERATIVE REFINEMENT WORKFLOW")
@@ -656,8 +1322,9 @@ def run_iterative_refinement(
     with open(prompt_path, 'r') as f:
         original_prompt = f.read()
 
-    # Track final results
+    # Track final results AND all intermediate results
     final_results = {}
+    all_round_results = {}  # Track results from ALL rounds for explainability
 
     # Process each input
     for idx, memo_info in memos.items():
@@ -671,6 +1338,9 @@ def run_iterative_refinement(
 
         initial_memo = memo_info['memo']
         source_document = memo_info['credit_agreement']
+
+        # Save initial memo (round 0) to disk
+        save_memo_to_disk(initial_memo, idx, round_num=0, batch_temp_dir=BATCH_TEMP_DIR)
 
         # Process each evaluator independently
         for evaluator_model in evaluator_models:
@@ -706,7 +1376,19 @@ def run_iterative_refinement(
 
                 print(f"    Scores: Acc={acc_score:.2f}, Comp={comp_score:.2f}, Cons={cons_score:.2f}, Qual={qual_score:.2f}, Avg={avg_score:.2f}")
 
-                # If this is the last round, save results and stop
+                # Save evaluation results for THIS round to disk
+                round_key = (idx, evaluator_model, round_num)
+                all_round_results[round_key] = eval_results
+                save_single_round_eval_to_disk(
+                    eval_results=eval_results,
+                    idx=idx,
+                    evaluator=evaluator_model,
+                    round_num=round_num,
+                    batch_temp_dir=BATCH_TEMP_DIR
+                )
+                print(f"    💾 Round {round_num} evaluation saved to disk")
+
+                # If this is the last round, save as final results and stop
                 if round_num == refinement_rounds:
                     final_results[(idx, evaluator_model)] = eval_results
                     print(f"    ✅ Final scores recorded")
@@ -725,6 +1407,9 @@ def run_iterative_refinement(
                 if refined_memo:
                     current_memo = refined_memo
                     print(f"    ✅ Memo refined ({len(refined_memo)} chars)")
+                    # Save refined memo to disk
+                    save_memo_to_disk(refined_memo, idx, round_num=round_num+1, batch_temp_dir=BATCH_TEMP_DIR)
+                    print(f"    💾 Refined memo (round {round_num+1}) saved to disk")
                 else:
                     print(f"    ❌ Refinement failed, keeping current memo")
                     # Continue with current memo
@@ -733,6 +1418,165 @@ def run_iterative_refinement(
 
     print(f"\n{'='*70}")
     print(f"ITERATIVE REFINEMENT COMPLETE")
+    print(f"{'='*70}")
+    print(f"Final results: {len(final_results)} evaluations")
+    print(f"All round results: {len(all_round_results)} evaluations (across all rounds)")
+    print(f"{'='*70}\n")
+
+    return final_results
+
+
+def run_combined_refinement(
+    memos: Dict[int, Dict],
+    evaluator_models: List[str],
+    refinement_rounds: int,
+    api_key: str
+) -> Dict:
+    """
+    Run combined refinement workflow where all evaluators' feedback is aggregated before refining.
+
+    For each input:
+    1. Evaluate memo with ALL evaluators → aggregate feedback
+    2. For each refinement round:
+       - Refine memo based on COMBINED feedback from all evaluators (using Claude)
+       - Re-evaluate refined memo with ALL evaluators → aggregate feedback
+    3. Return final evaluation scores for all evaluators
+
+    Args:
+        memos: Dict mapping index → memo info
+        evaluator_models: List of evaluator model names
+        refinement_rounds: Number of refinement iterations
+        api_key: Anthropic API key for refinement calls
+
+    Returns:
+        Dict mapping (index, evaluator) → final evaluation results
+        AND saves all intermediate artifacts (round 0 evals, round 1 memos, etc.) to disk
+    """
+    print(f"\n{'='*70}")
+    print(f"COMBINED REFINEMENT WORKFLOW")
+    print(f"{'='*70}")
+    print(f"Refinement rounds: {refinement_rounds}")
+    print(f"Evaluators: {len(evaluator_models)}")
+    print(f"Inputs: {len([m for m in memos.values() if m.get('memo')])}")
+    print(f"Total evaluations: {len([m for m in memos.values() if m.get('memo')]) * len(evaluator_models) * (refinement_rounds + 1)}")
+    print(f"Mode: COMBINED (all evaluators' feedback aggregated before refinement)")
+    print(f"{'='*70}\n")
+
+    # Load original prompt (for refinement context)
+    if PROMPT_FILE:
+        prompt_path = PROMPT_FILE
+    else:
+        prompt_path = Path(__file__).parent.parent.parent / "prompts" / "baseline.txt"
+    with open(prompt_path, 'r') as f:
+        original_prompt = f.read()
+
+    # Track final results
+    final_results = {}
+
+    # Process each input
+    for idx, memo_info in memos.items():
+        if not memo_info.get('memo'):
+            print(f"⏭️  Skipping index {idx} (no memo generated)")
+            continue
+
+        print(f"\n{'='*70}")
+        print(f"Processing input {idx}")
+        print(f"{'='*70}\n")
+
+        initial_memo = memo_info['memo']
+        source_document = memo_info['credit_agreement']
+
+        # Save initial memo (round 0) to disk
+        save_memo_to_disk(initial_memo, idx, round_num=0, batch_temp_dir=BATCH_TEMP_DIR)
+
+        current_memo = initial_memo
+
+        # Iterate through refinement rounds
+        for round_num in range(refinement_rounds + 1):
+            print(f"\n  Round {round_num + 1}/{refinement_rounds + 1}:")
+
+            # Evaluate with ALL evaluators
+            print(f"    Evaluating with all {len(evaluator_models)} evaluators...")
+
+            eval_results_list = []
+            for evaluator_model in evaluator_models:
+                print(f"      → {evaluator_model}...", end=' ')
+                eval_result = evaluate_single_memo_sync(
+                    memo=current_memo,
+                    source_document=source_document,
+                    evaluator_model=evaluator_model,
+                    input_index=idx
+                )
+
+                if not eval_result:
+                    print(f"✗ Failed")
+                    continue
+
+                eval_results_list.append(eval_result)
+
+                # Display scores for this evaluator
+                acc_score = eval_result.get('accuracy_result', {}).get('score', 0)
+                comp_score = eval_result.get('completeness_result', {}).get('score', 0)
+                cons_score = eval_result.get('consistency_result', {}).get('score', 0)
+                qual_score = eval_result.get('quality_result', {}).get('quality_score', 0)
+                avg_score = (acc_score + comp_score + cons_score + qual_score) / 4
+                print(f"✓ (Avg={avg_score:.2f})")
+
+                # Save evaluation results for THIS round and evaluator to disk
+                save_single_round_eval_to_disk(
+                    eval_results=eval_result,
+                    idx=idx,
+                    evaluator=evaluator_model,
+                    round_num=round_num,
+                    batch_temp_dir=BATCH_TEMP_DIR
+                )
+
+            if len(eval_results_list) != len(evaluator_models):
+                print(f"    ❌ Some evaluations failed, cannot continue refinement for this input")
+                break
+
+            # Aggregate feedback from all evaluators
+            print(f"    Aggregating feedback from {len(evaluator_models)} evaluators...")
+            combined_feedback = aggregate_feedback_from_evaluators(eval_results_list, evaluator_models)
+
+            # Display aggregated scores
+            agg_acc = combined_feedback.get('accuracy_result', {}).get('score', 0)
+            agg_comp = combined_feedback.get('completeness_result', {}).get('score', 0)
+            agg_cons = combined_feedback.get('consistency_result', {}).get('score', 0)
+            agg_qual = combined_feedback.get('quality_result', {}).get('quality_score', 0)
+            agg_avg = (agg_acc + agg_comp + agg_cons + agg_qual) / 4
+            print(f"    Aggregated scores: Acc={agg_acc:.2f}, Comp={agg_comp:.2f}, Cons={agg_cons:.2f}, Qual={agg_qual:.2f}, Avg={agg_avg:.2f}")
+
+            # If this is the last round, save final results and stop
+            if round_num == refinement_rounds:
+                # Store final results for each evaluator
+                for eval_result, evaluator_model in zip(eval_results_list, evaluator_models):
+                    final_results[(idx, evaluator_model)] = eval_result
+                print(f"    ✅ Final scores recorded for all evaluators")
+                break
+
+            # Otherwise, refine based on COMBINED feedback
+            print(f"    Refining based on combined feedback from all evaluators...")
+            refined_memo = refine_memo_based_on_feedback(
+                source_document=source_document,
+                original_prompt=original_prompt,
+                current_memo=current_memo,
+                evaluation_feedback=combined_feedback,  # Use combined feedback
+                api_key=api_key
+            )
+
+            if refined_memo:
+                current_memo = refined_memo
+                print(f"    ✅ Memo refined ({len(refined_memo)} chars)")
+                # Save refined memo to disk (with "combined" in the filename would be ideal but keeping it simple)
+                save_memo_to_disk(refined_memo, idx, round_num=round_num+1, batch_temp_dir=BATCH_TEMP_DIR)
+                print(f"    💾 Refined memo (round {round_num+1}) saved to disk")
+            else:
+                print(f"    ❌ Refinement failed, keeping current memo")
+                # Continue with current memo
+
+    print(f"\n{'='*70}")
+    print(f"COMBINED REFINEMENT COMPLETE")
     print(f"{'='*70}")
     print(f"Final results: {len(final_results)} evaluations")
     print(f"{'='*70}\n")
@@ -822,12 +1666,54 @@ def evaluate_memo_with_sync_api(
 
             for metric, prompt in prompts.items():
                 print(f"        → Evaluating {metric}...", end=' ', flush=True)
-                response = client.chat.completions.create(
-                    model=evaluator_model,
-                    messages=[{"role": "user", "content": prompt}]
-                )
-                results[metric] = response.choices[0].message.content
-                print("✓", flush=True)
+
+                # Retry logic for transient errors
+                max_retries = 3
+                retry_delay = 10  # seconds
+
+                for attempt in range(max_retries):
+                    try:
+                        response = client.chat.completions.create(
+                            model=evaluator_model,
+                            messages=[{"role": "user", "content": prompt}]
+                        )
+                        results[metric] = response.choices[0].message.content
+                        print("✓", flush=True)
+                        break  # Success, exit retry loop
+                    except Exception as e:
+                        error_message = str(e)
+
+                        # Check if it's a quota/credit error
+                        is_quota, provider = is_quota_error(error_message)
+                        if is_quota:
+                            print(f"⚠️  Quota error detected", flush=True)
+                            should_retry = prompt_user_for_credits(provider, error_message)
+                            if should_retry:
+                                # User added credits, retry this metric (don't count as attempt)
+                                continue
+                            else:
+                                # User cancelled
+                                print(f"✗ Cancelled by user", flush=True)
+                                raise KeyboardInterrupt("User cancelled due to quota limits")
+
+                        # Check if it's a retryable error (500, 529, rate limits)
+                        is_retryable = (
+                            "500" in error_message or
+                            "529" in error_message or
+                            "rate_limit" in error_message.lower() or
+                            "overloaded" in error_message.lower()
+                        )
+
+                        if is_retryable and attempt < max_retries - 1:
+                            # Retry with exponential backoff
+                            wait_time = retry_delay * (2 ** attempt)
+                            print(f"⚠️  (retry {attempt + 1}/{max_retries} in {wait_time}s)...", end=' ', flush=True)
+                            import time
+                            time.sleep(wait_time)
+                        else:
+                            # Non-retryable error or max retries reached
+                            print(f"✗", flush=True)
+                            raise  # Re-raise the exception
 
         elif "claude" in evaluator_model.lower():
             # Use Anthropic sync API
@@ -853,17 +1739,65 @@ def evaluate_memo_with_sync_api(
 
             for metric, prompt in prompts.items():
                 print(f"        → Evaluating {metric}...", end=' ', flush=True)
-                response = client.messages.create(
-                    model=evaluator_model,
-                    max_tokens=4096,
-                    messages=[{"role": "user", "content": prompt}]
-                )
-                results[metric] = response.content[0].text
-                print("✓", flush=True)
+
+                # Retry logic for transient errors
+                max_retries = 3
+                retry_delay = 2  # seconds
+
+                for attempt in range(max_retries):
+                    try:
+                        response = client.messages.create(
+                            model=evaluator_model,
+                            max_tokens=4096,
+                            messages=[{"role": "user", "content": prompt}]
+                        )
+                        results[metric] = response.content[0].text
+                        print("✓", flush=True)
+                        break  # Success, exit retry loop
+                    except Exception as e:
+                        error_message = str(e)
+
+                        # Check if it's a quota/credit error
+                        is_quota, provider = is_quota_error(error_message)
+                        if is_quota:
+                            print(f"⚠️  Quota error detected", flush=True)
+                            should_retry = prompt_user_for_credits(provider, error_message)
+                            if should_retry:
+                                # User added credits, retry this metric (don't count as attempt)
+                                continue
+                            else:
+                                # User cancelled
+                                print(f"✗ Cancelled by user", flush=True)
+                                raise KeyboardInterrupt("User cancelled due to quota limits")
+
+                        # Check if it's a retryable error (500, 529, rate limits)
+                        is_retryable = (
+                            "500" in error_message or
+                            "529" in error_message or
+                            "rate_limit" in error_message.lower() or
+                            "overloaded" in error_message.lower()
+                        )
+
+                        if is_retryable and attempt < max_retries - 1:
+                            # Retry with exponential backoff
+                            wait_time = retry_delay * (2 ** attempt)
+                            print(f"⚠️  (retry {attempt + 1}/{max_retries} in {wait_time}s)...", end=' ', flush=True)
+                            import time
+                            time.sleep(wait_time)
+                        else:
+                            # Non-retryable error or max retries reached
+                            print(f"✗", flush=True)
+                            raise  # Re-raise the exception
 
         elif "gemini" in evaluator_model.lower():
             # Use Gemini sync API
             print(f"      Using Gemini sync API ({evaluator_model})...", flush=True)
+
+            # Suppress Python 3.9 deprecation warnings from google.api_core
+            import warnings
+            warnings.filterwarnings("ignore", category=FutureWarning, module="google.api_core")
+            warnings.filterwarnings("ignore", message=".*importlib.metadata.*")
+
             import google.generativeai as genai
 
             api_key = os.getenv("GEMINI_API_KEY")
@@ -886,9 +1820,52 @@ def evaluate_memo_with_sync_api(
 
             for metric, prompt in prompts.items():
                 print(f"        → Evaluating {metric}...", end=' ', flush=True)
-                response = model.generate_content(prompt)
-                results[metric] = response.text
-                print("✓", flush=True)
+
+                # Retry logic for transient errors
+                max_retries = 3
+                retry_delay = 2  # seconds
+
+                for attempt in range(max_retries):
+                    try:
+                        response = model.generate_content(prompt)
+                        results[metric] = response.text
+                        print("✓", flush=True)
+                        break  # Success, exit retry loop
+                    except Exception as e:
+                        error_message = str(e)
+
+                        # Check if it's a quota/credit error
+                        is_quota, provider = is_quota_error(error_message)
+                        if is_quota:
+                            print(f"⚠️  Quota error detected", flush=True)
+                            should_retry = prompt_user_for_credits(provider, error_message)
+                            if should_retry:
+                                # User added credits, retry this metric (don't count as attempt)
+                                continue
+                            else:
+                                # User cancelled
+                                print(f"✗ Cancelled by user", flush=True)
+                                raise KeyboardInterrupt("User cancelled due to quota limits")
+
+                        # Check if it's a retryable error (500, 529, rate limits)
+                        is_retryable = (
+                            "500" in error_message or
+                            "529" in error_message or
+                            "rate_limit" in error_message.lower() or
+                            "overloaded" in error_message.lower() or
+                            "resource exhausted" in error_message.lower()
+                        )
+
+                        if is_retryable and attempt < max_retries - 1:
+                            # Retry with exponential backoff
+                            wait_time = retry_delay * (2 ** attempt)
+                            print(f"⚠️  (retry {attempt + 1}/{max_retries} in {wait_time}s)...", end=' ', flush=True)
+                            import time
+                            time.sleep(wait_time)
+                        else:
+                            # Non-retryable error or max retries reached
+                            print(f"✗", flush=True)
+                            raise  # Re-raise the exception
         else:
             raise ValueError(f"Unknown evaluator model: {evaluator_model}")
 
@@ -1632,6 +2609,13 @@ Examples:
         default=0,
         help='Number of iterative refinement rounds per evaluator. Default: 0 (no refinement)'
     )
+    parser.add_argument(
+        '--refinement-mode',
+        type=str,
+        choices=['independent', 'combined'],
+        default='independent',
+        help='Refinement mode: "independent" = each evaluator creates separate trajectory, "combined" = aggregate all 3 evaluators feedback before refinement. Default: independent'
+    )
     args = parser.parse_args()
 
     # Declare global variables that we'll modify
@@ -1817,20 +2801,30 @@ Examples:
     # Phase 2: Evaluation (with or without iterative refinement)
     if args.refinement_rounds > 0:
         # Use iterative refinement workflow
-        print(f"\n🔄 Using iterative refinement with {args.refinement_rounds} rounds")
+        print(f"\n🔄 Using iterative refinement with {args.refinement_rounds} rounds (mode: {args.refinement_mode})")
 
         if not api_keys.get("ANTHROPIC_API_KEY"):
             print("❌ ERROR: ANTHROPIC_API_KEY required for iterative refinement")
             print("   Iterative refinement uses Claude to refine memos based on feedback")
             sys.exit(1)
 
-        # Run iterative refinement (evaluates, refines, re-evaluates for each evaluator)
-        refinement_results = run_iterative_refinement(
-            memos=memos,
-            evaluator_models=EVALUATOR_MODELS,
-            refinement_rounds=args.refinement_rounds,
-            api_key=api_keys["ANTHROPIC_API_KEY"]
-        )
+        # Route between independent and combined modes
+        if args.refinement_mode == 'independent':
+            # Run iterative refinement (evaluates, refines, re-evaluates for each evaluator)
+            refinement_results = run_iterative_refinement(
+                memos=memos,
+                evaluator_models=EVALUATOR_MODELS,
+                refinement_rounds=args.refinement_rounds,
+                api_key=api_keys["ANTHROPIC_API_KEY"]
+            )
+        else:  # combined mode
+            # Run combined refinement (aggregate all evaluators' feedback before refining)
+            refinement_results = run_combined_refinement(
+                memos=memos,
+                evaluator_models=EVALUATOR_MODELS,
+                refinement_rounds=args.refinement_rounds,
+                api_key=api_keys["ANTHROPIC_API_KEY"]
+            )
 
         # Convert refinement results to batch_results format for aggregation
         batch_results = {}
@@ -1838,6 +2832,10 @@ Examples:
             if idx not in batch_results:
                 batch_results[idx] = {}
             batch_results[idx][evaluator] = results
+
+        # NOTE: Round-specific results are already saved by save_single_round_eval_to_disk()
+        # during iterative refinement. Do NOT call save_refinement_results_to_disk() here
+        # as it would create files without round numbers that overwrite the round-based data!
 
         # No batch jobs to track in refinement mode
         batch_jobs = []

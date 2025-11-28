@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- **Purpose of Financing:** The statement that \"the total facility maintained at $50,000,000\" is not supported by the source document. The document provides the new total commitment of $50,000,000 in Annex A, but it does not state what the previous total commitment was. Therefore, it is impossible to verify if the facility size was \"maintained\". In fact, Section 4(c) mentions a \"Note reflecting the Incremental Commitment,\" which could suggest the facility size increased."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo's checklist states a rule to 'Ensure all information comes directly from the document without inference,' but the 'Principal Risks' section makes an explicit inference that 'Extensive release language suggests potential past disputes'.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

@@ -1,0 +1,42 @@
+## Checklist
+- Identify the transaction structure and parties involved in this September 2024 joinder agreement
+- Extract key transaction details including borrowers, lenders, and purpose of the joinder
+- Analyze the merger/acquisition context that necessitated adding new borrowers to existing credit facility
+- Review post-closing covenants and collateral requirements for investment risk assessment
+- Compile available deal terms while noting limitations due to joinder agreement format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In September 2024, three new borrowers (Innovex Downhole Solutions, LLC, Innovex International, Inc., and TIW Corporation) joined an existing credit facility through a joinder agreement dated 2024-09-06.
+- The existing borrowers include Tercel Oilfield Products USA L.L.C., Pride Energy Services, LLC, and Top-Co Inc., all operating in the oilfield services sector.
+- PNC Bank, National Association serves as the Administrative Agent, with U.S. Bank National Association participating as a lender in this syndicated credit facility.
+- The joinder follows a corporate merger where Innovex merged with DQ Merger Sub, LLC (now Innovex Downhole Solutions, LLC), and Dril-Quip, Inc. changed its name to Innovex International, Inc.
+- The original Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement was dated June 10, 2022, and has been amended multiple times through June 28, 2024.
+- The purpose is to add the new borrowers as parties to the existing credit agreement following the completion of the Dril-Quip merger, expanding the borrowing base in the oilfield products and services industry.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established banking relationship with reputable institutions (PNC Bank as agent, U.S. Bank as participating lender)
+- Cross-collateralization through joint and several liability among all borrowers strengthens credit support
+- Comprehensive security package including pledges of equity interests, intellectual property, and deposit account controls
+- Post-closing covenant structure ensures proper documentation and collateral perfection within specified timeframes
+
+### Principal Risks and Mitigating Factors:
+- Integration risk following merger activity, though mitigated by existing operational borrowers remaining in the facility
+- Limited visibility into financial performance metrics, covenant compliance, or pricing terms due to joinder document format
+- Concentration in oilfield services sector exposes credit to commodity price volatility and cyclical industry conditions
+- Multiple prior amendments to the credit agreement may indicate previous covenant or operational challenges
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Post-closing requirements: Delivery of stock certificates within 5 business days; Insurance certificates within 10 days; Insurance endorsements within 30 days; Intellectual property filings within 30 days; IP security agreements within 45 days; Deposit account control agreements within 65 days. Joint and several liability among all borrowers. Comprehensive collateral package including equity pledges and security interests. |

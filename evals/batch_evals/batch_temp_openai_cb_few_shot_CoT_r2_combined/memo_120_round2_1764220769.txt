@@ -1,0 +1,40 @@
+## Checklist
+
+- Extract key parties, dates, and transaction structure from Amendment No. 1
+- Detail the complete amended "Minimum Acceptance Condition" definition
+- Analyze bridge credit facility and acquisition financing context
+- Assess credit strengths and risks for investment committee review
+- Compile available deal terms with appropriate N/A designations
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-09-02
+
+**Borrower/Company Overview:** Philip Morris International Inc. (PMI), a Virginia corporation and leading international tobacco company.
+
+**Transaction Description:** Amendment No. 1 to PMI's 364-Day Bridge Credit Agreement dated May 11, 2022. The amendment involves PMI as borrower, Citibank Europe PLC, UK Branch as Facility Agent, and a 16-bank international syndicate.
+
+**Purpose of Financing:** Bridge facility supports PMI's acquisition of a target company, with the amendment modifying shareholder acceptance thresholds to facilitate transaction completion.
+
+**Company Background:** PMI is a multinational tobacco and consumer products company with established global operations and strong institutional banking relationships.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Investment-Grade Borrower**: PMI's established credit profile with global diversification and market leadership
+• **Premier Banking Syndicate**: 16 leading international institutions including Citibank, Bank of America, Barclays, Credit Suisse, Deutsche Bank, and HSBC
+• **Short-Term Bridge Structure**: 364-day facility designed for permanent financing replacement post-acquisition
+• **Full Lender Participation**: Unanimous syndicate support for amendment demonstrates continued credit confidence
+
+**Principal Risks and Mitigating Factors:**
+• **Acquisition Risk**: Transaction success requires achieving modified acceptance conditions, with potential for deal failure
+• **Refinancing Risk**: Bridge facility requires timely replacement within one-year term
+• **Limited Visibility**: Amendment provides minimal detail on financial covenants or pricing terms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2023-05-10 | N/A | • **Minimum Acceptance Condition**: >50% of total issued and outstanding Target Shares, calculated as: (i) acceptances received by Offeror from Target shareholders, plus (ii) Target Shares otherwise acquired or owned by Offeror (or to be acquired/owned on settlement date), excluding treasury shares held by Target<br>• All other Credit Agreement terms remain in full force and effect |

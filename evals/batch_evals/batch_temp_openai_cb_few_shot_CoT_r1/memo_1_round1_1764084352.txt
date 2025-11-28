@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-09-30
+
+**Borrower/Company Overview:** MGE Niagara Entertainment Inc. operates casino facilities under agreements with Ontario Lottery and Gaming Corporation (OLG). The company is subject to gaming authority regulations and maintains cash float operations for casino gaming activities including slot machines, table games, and lottery schemes.
+
+**Transaction Description:** Fourth Amended and Restated Limited Waiver granted by Bank of Montreal as Administrative Agent on behalf of Required Lenders. This document amends and extends previous COVID-19 related waivers, representing the fourth successive accommodation since May 2020.
+
+**Purpose of Financing:** The waiver extends covenant relief and operational accommodations through November 30, 2020 due to government-mandated casino closures during the COVID-19 pandemic. The financing addresses closure defaults, financial covenant breaches, and compliance reporting delays.
+
+**Company Background:** MGE Niagara Entertainment Inc. operates under a credit agreement originally dated June 10, 2019 with Complex Services Inc. as guarantor. The company's operations are directly dependent on OLG authorization and support, with government-directed temporary closure of casino facilities creating operational disruption requiring multiple lender accommodations.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Government support through OLG providing financial relief including threshold payment relief and Fixed Component Per Diem payments
+• Mandatory minimum liquidity maintenance of CAD 15,000,000 throughout waiver period
+• Enhanced monitoring through weekly liquidity reporting requirements
+• Credit facility advances suspended, preventing additional leverage accumulation
+• Applicable Margin increased to Level 5, improving lender pricing
+
+**Principal Risks and Mitigating Factors:**
+• Extended operational disruption from government-mandated casino closures with multiple covenant breaches
+• Dependency on continued government support with default triggered if OLG relief ceases for more than five business days
+• Restricted distribution and acquisition capabilities during waiver period
+• Pattern of successive waivers since May 2020 indicating ongoing financial stress
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | Level 5 Applicable Margin: 5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans, 3.50% for Prime Rate/USBR Loans, 1.25% Undrawn Fee | 2020-11-30 | N/A | • Maintain minimum Liquidity of CAD 15,000,000 at all times<br>• No advances permitted under either Credit Facility<br>• Weekly liquidity reporting required<br>• No distributions under clauses (c) or (e) of Permitted Distributions<br>• No amendments to material agreements unless favorable to lenders<br>• No acquisitions permitted<br>• Financial covenant breaches under Sections 9.4.1 and 9.4.2 waived through Extended Waiver Period |

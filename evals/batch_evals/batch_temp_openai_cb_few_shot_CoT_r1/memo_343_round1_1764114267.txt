@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## Executive Summary
+
+**Date of Agreement:** 2024-09-04
+
+**Borrower/Company Overview:** Goldman Sachs Middle Market Lending Corp. II is the borrower entity requesting an increase to its existing revolving credit facility.
+
+**Transaction Description:** This transaction represents a commitment increase request under an existing Senior Secured Revolving Credit Agreement. The structure involves Goldman Sachs Middle Market Lending Corp. II as borrower, multiple lenders and issuing banks, and Truist Bank as Administrative Agent. The specific increase will be effectuated through BNP Paribas expanding its Multicurrency Commitment.
+
+**Purpose of Financing:** The financing purpose is to increase available liquidity under the existing revolving credit facility, expanding total commitments by USD 25,000,000.
+
+**Company Background:** Goldman Sachs Middle Market Lending Corp. II operates under the broader Goldman Sachs organization. The original credit agreement was established on February 28, 2023, with subsequent amendments on July 31, 2023, and May 30, 2024, demonstrating an active and evolving credit relationship.
+
+## Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional backing through Goldman Sachs affiliation, providing significant credibility and financial resources
+• Established credit relationship with history of successful amendments, indicating positive lender relationships and borrower performance
+• Diversified lender syndicate including reputable institutions (Truist Bank as Administrative Agent, BNP Paribas as participating lender)
+• Commitment increase demonstrates continued lender confidence and borrower's ability to access additional capital
+• Multicurrency facility structure provides operational flexibility for international activities
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into underlying financial performance, covenant compliance, and specific credit metrics
+• Increased commitment size raises overall exposure levels, though mitigated by institutional sponsor strength
+• Pricing and structural terms not disclosed in this document, limiting full risk assessment capability
+• Reliance on continued sponsor support and market conditions for ongoing facility availability
+
+## Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 480,000,000 | N/A | N/A | N/A | N/A | N/A |

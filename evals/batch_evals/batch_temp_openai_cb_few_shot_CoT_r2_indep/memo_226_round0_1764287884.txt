@@ -1,0 +1,41 @@
+## Approach Checklist
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the aircraft financing structure and collateral details
+- Analyze credit strengths from lender composition and guarantor structure
+- Note any risks or concerns from the amendment terms
+- Compile available deal terms while marking unavailable information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On March 31, 2022, Vertical Horizons, Ltd. (a Cayman Islands company) executed Amendment No. 1 to their Seventh Amended and Restated Credit Agreement originally dated December 28, 2021.
+- The borrower is Vertical Horizons, Ltd., with guarantees provided by Frontier Group Holdings, Inc., Frontier Airlines Holdings, Inc., and Frontier Airlines, Inc., indicating this is aircraft financing for Frontier Airlines' fleet.
+- The transaction involves PDP (Pre-Delivery Payment) financing for 59 Airbus aircraft: 9 Airbus A320neo and 50 Airbus A321neo aircraft.
+- The primary purpose of this amendment is to extend certain compliance deadlines from July 1, 2022 to April 1, 2023, and to update references to amended Assignment and Assumption Agreement and Step-In Agreement with Airbus.
+- This appears to be a specialized aircraft financing structure where Vertical Horizons serves as the financing vehicle for Frontier Airlines' aircraft acquisition program with Airbus.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong lender syndicate including major financial institutions (Citibank N.A. as facility agent and arranger, Barclays Bank PLC, Deutsche Bank AG New York Branch, Morgan Stanley Senior Funding)
+- Multiple levels of credit support through guarantees from Frontier Group Holdings, Frontier Airlines Holdings, and Frontier Airlines
+- Collateral secured by modern, fuel-efficient Airbus A320neo and A321neo aircraft
+- Borrower remains in compliance with LTV (Loan-to-Value) test requirements
+- Frontier Group Holdings maintains required unrestricted cash and cash equivalents above minimum thresholds
+
+### Principal Risks and Mitigating Factors:
+- Extension of compliance deadlines suggests potential operational or timing challenges
+- Aircraft financing is inherently subject to aviation industry cyclicality and regulatory risks
+- Limited visibility into specific financial covenants, pricing terms, and overall credit metrics
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Compliance with LTV Test requirements • Frontier Group Holdings must maintain minimum unrestricted cash and cash equivalents • No Default or Event of Default continuing • All guarantees remain in full force and effect |

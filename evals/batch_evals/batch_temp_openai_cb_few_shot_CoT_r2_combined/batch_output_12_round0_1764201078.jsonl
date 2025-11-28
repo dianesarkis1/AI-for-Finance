@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Specific identification of collateral stock certificates required post-closing: (i) original stock certificate no. 22 for TIW Corporation equity interests with undated stock power; (ii) original stock certificate for Dril-Quip International LLC with undated stock power"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Multiple amendments are cited as both a strength (ongoing lender support/active management) and a risk (potential ongoing covenant/structural issues), conflicting assessments of the same fact.\", \"Post-closing covenants/requirements are presented as a strength (comprehensive framework ensuring proper integration) and simultaneously as a risk (execution risk due to numerous deliverables within 5\\u201365 days), contradictory treatment of the same factor.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 90.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

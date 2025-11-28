@@ -1,0 +1,42 @@
+## Checklist of Approach
+
+- Identify the key parties, dates, and transaction structure from this LIBOR transition agreement
+- Extract the specific terms related to currency restrictions and interest period limitations
+- Analyze the business rationale and risk implications of suspending certain borrowing rights
+- Determine what financial terms are explicitly available versus what must be marked as N/A
+- Structure the analysis to focus on the operational and credit implications of LIBOR cessation
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 12, 2021, Emerson Electric Co. executed a Suspension of Rights Agreement with JPMorgan Chase Bank, N.A. as Administrative Agent under their existing Credit Agreement dated May 23, 2018.
+- Emerson Electric Co. serves as the Company/Borrower, with JPMorgan Chase Bank, N.A. acting as Administrative Agent for a syndicated credit facility that includes multiple subsidiary borrowers and lenders.
+- This agreement temporarily suspends Emerson's rights to borrow in Non-USD currencies (British Pounds Sterling, Euros, Japanese Yen) and to select 1-week or 2-month USD LIBOR interest periods, effective in anticipation of the 2021 LIBOR cessation scheduled for December 31, 2021.
+- The purpose is to manage the transition away from LIBOR benchmarks while delaying the costs of formally amending the underlying Credit Agreement, with the suspension remaining in effect until alternative benchmark amendments are implemented.
+- Emerson Electric Co. is a multinational manufacturing and technology company operating across various industrial sectors.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Proactive approach to LIBOR transition demonstrates strong operational risk management and coordination with lenders
+- Relationship with JPMorgan Chase as Administrative Agent suggests access to sophisticated banking services and expertise
+- Voluntary agreement to temporarily limit borrowing flexibility indicates cooperative relationship with lender group
+- Structured approach allows for orderly transition while maintaining credit facility availability in USD
+
+### Principal Risks and Mitigating Factors:
+- Reduced borrowing flexibility through suspension of multi-currency options may limit natural hedging capabilities for international operations
+- Temporary restriction to longer-term interest periods (minimum 1-month) may impact interest rate risk management
+- Indemnification obligations expose Emerson to potential costs related to breaches or operational issues during transition period
+- Limited information available on underlying credit facility terms, financial covenants, or overall credit profile
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Suspension of rights to borrow in Non-USD currencies (GBP, EUR, JPY); Restriction on selecting 1-week or 2-month USD LIBOR interest periods; Automatic conversion of Non-USD currency requests to USD; Minimum 1-month interest period for USD borrowings; Indemnification obligations for potential breaches or operational costs |

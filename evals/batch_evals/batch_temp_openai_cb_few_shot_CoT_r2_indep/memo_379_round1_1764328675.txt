@@ -1,0 +1,42 @@
+Looking at this First Amendment to Credit Agreement, I will:
+
+• Identify the key transaction details and parties involved
+• Extract specific deal terms, pricing, and covenant information
+• Analyze investment positives and risks from a credit perspective
+• Structure the memo following the required format with executive summary, investment analysis, and deal terms table
+• Ensure all fields are populated with actual data from the document or marked "N/A" where information is unavailable
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-05-27
+
+**Borrower / Company Overview:** Karman Holding Inc., a Delaware corporation, serves as the Borrower with multiple subsidiary guarantors including Karman Parent LLC, Karman Space & Defense LLC, Aerospace Engineering LLC, Wolcott Design Services LLC, Amro Fabricating Corporation, American Automated Engineering Inc., and Systima Technologies Inc.
+
+**Transaction Description:** This First Amendment to Credit Agreement establishes $75,000,000 in First Amendment Incremental Term Loans under an existing credit facility. CITIBANK, N.A. serves as Administrative Agent, Collateral Agent, and sole lender for this incremental facility. The amendment modifies the original Credit Agreement dated April 1, 2025.
+
+**Purpose of Financing:** The proceeds will be used to repay outstanding Revolving Credit Loans, for working capital and general corporate purposes (including Permitted Investments), and to pay associated fees and expenses.
+
+**Company Background:** Based on the subsidiary names, Karman Holding appears to be a holding company with operations in aerospace, defense, engineering services, and manufacturing sectors through its various operating entities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender backing with CITIBANK, N.A. providing full $75M incremental facility, demonstrating continued lender confidence
+• Diversified business platform spanning aerospace, defense, engineering, and manufacturing sectors
+• Recent facility establishment (April 2025) followed by successful incremental capacity expansion indicates access to capital markets
+• Comprehensive amendment structure with standard representations, warranties, and conditions precedent
+• Modest quarterly amortization schedule provides gradual deleveraging
+
+**Principal Risks and Mitigating Factors:**
+• Incremental borrowing requirement within two months of original facility may signal higher than anticipated capital needs
+• SOFR-based floating rate structure creates interest rate exposure, though initial period is short-term through June 30, 2025
+• Single lender concentration risk with Citibank as sole incremental facility provider
+• Limited visibility into specific financial maintenance covenants beyond standard conditions
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | SOFR Loans (floating rate) with initial Interest Period ending June 30, 2025 | N/A | Quarterly | • Quarterly amortization of 0.25% of initial principal amount starting September 30, 2025<br>• No Event of Default under sections 8.01(a), (f), or (g)<br>• Standard representations and warranties compliance<br>• Solvency certificate requirement<br>• Existing security interests continue to secure obligations |

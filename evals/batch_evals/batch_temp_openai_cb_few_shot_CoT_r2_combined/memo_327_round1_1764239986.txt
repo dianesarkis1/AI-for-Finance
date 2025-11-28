@@ -1,0 +1,41 @@
+## Checklist of Approach:
+- Extract key transaction details including parties, dates, and transaction type
+- Identify the borrower (HPS Corporate Lending Fund) and transaction structure (commitment increase)
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms table using only explicitly stated information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-17
+
+**Borrower/Company Overview:** HPS Corporate Lending Fund is the borrower under a Senior Secured Revolving Credit Agreement originally dated June 23, 2022, which was previously amended on October 30, 2023.
+
+**Transaction Description:** This transaction represents a commitment increase to an existing senior secured revolving credit facility. The key counterparties include HPS Corporate Lending Fund as borrower, Deutsche Bank AG New York Branch as the increasing lender, and JPMorgan Chase Bank, N.A. as administrative agent.
+
+**Purpose of Financing:** The financing provides additional liquidity capacity through an increase in the aggregate amount of commitments available under the existing revolving credit facility.
+
+**Company Background:** HPS Corporate Lending Fund operates as a corporate lending fund with an established banking relationship structure including tier-1 financial institutions as lenders and agents.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional banking relationships with tier-1 lenders including JPMorgan Chase Bank, N.A. and Deutsche Bank AG
+• Demonstrated ability to attract additional capital commitments from high-quality financial institutions
+• Senior secured structure provides enhanced creditor protection
+• Revolving facility structure offers operational flexibility for liquidity management
+• Successful amendment history indicates maintained lender confidence
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial performance data available in commitment increase documentation
+• Corporate lending fund structure may involve portfolio concentration risks
+• Pricing terms, financial maintenance covenants, and collateral details not disclosed in this document
+• Reliance on underlying credit agreement terms not fully visible in this amendment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | N/A |

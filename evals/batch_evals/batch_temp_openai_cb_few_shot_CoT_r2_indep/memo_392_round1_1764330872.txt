@@ -1,0 +1,40 @@
+## Checklist
+- Extract key transaction details and parties from the LIBOR cessation agreement
+- Identify specific rights being suspended and operational changes
+- Analyze credit implications from an investment perspective
+- Structure the memo with improved clarity and organization
+- Present information concisely while maintaining professional tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-10-12
+
+**Borrower:** Emerson Electric Co. and its subsidiary borrowers under a syndicated credit facility with JPMorgan Chase Bank, N.A. as Administrative Agent.
+
+**Transaction:** Suspension of Rights Agreement temporarily restricting certain borrowing capabilities under an existing Credit Agreement dated May 23, 2018. The agreement suspends: (i) borrowing rights in non-USD currencies (GBP, EUR, JPY), and (ii) selection of 1-week and 2-month USD LIBOR interest periods.
+
+**Purpose:** Interim solution to address 2021 LIBOR cessation scheduled for December 31, 2021, allowing delay of formal credit agreement amendments while maintaining operational continuity.
+
+**Company Background:** Emerson Electric Co. maintains an established syndicated credit facility with institutional lenders, demonstrating access to capital markets through major financial institutions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional banking relationship with JPMorgan Chase as Administrative Agent
+• Proactive LIBOR transition management demonstrating operational sophistication
+• Temporary restrictions with defined restoration path upon formal amendment implementation
+• Borrower maintains good standing with continued USD borrowing capability
+
+**Principal Risks and Mitigating Factors:**
+• Reduced operational flexibility eliminates multi-currency borrowing options and interest period selection
+• Potential cost implications if USD rates prove less favorable than restricted alternatives
+• Indemnification exposure for LIBOR transition-related costs and potential compliance breaches
+• Agreement provides interim solution pending comprehensive LIBOR replacement amendments
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Suspension of non-USD currency borrowing (GBP, EUR, JPY)<br>• Restriction of 1-week and 2-month USD LIBOR periods<br>• Automatic conversion of restricted currency requests to USD<br>• Default 1-month interest period for restricted tenor selections<br>• Indemnification for LIBOR transition costs and compliance issues |

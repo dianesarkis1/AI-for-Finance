@@ -1,0 +1,41 @@
+Looking at this credit agreement, I will:
+- Extract transaction details and parties from the Fifth Amendment
+- Identify financial terms and structural information available
+- Assess credit strengths and risks from the amendment provisions
+- Format into a structured professional memorandum
+- Use only explicitly stated information with N/A for unavailable data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-03-04
+
+**Borrower:** Greystone Housing Impact Investors LP is a Delaware limited partnership (formerly America First Multifamily Investors, L.P.) operating through America First Capital Associates Limited Partnership Two as general partner, managed by Greystone AF Manager LLC. The entity focuses on housing impact investments in the multifamily real estate sector.
+
+**Transaction Structure:** This Fifth Amendment modifies an existing Credit Agreement originally dated June 11, 2021, representing the fifth amendment to the facility (previous amendments: November 2021, June 2023, July 2023, September 2023). The amendment facilitates the addition of NexBank as a new lender through a Lender Joinder Agreement while updating lender definitions and commitments schedule.
+
+**Purpose:** The amendment restructures the lender syndicate composition, adds incremental commitments, and updates facility documentation. Key transaction documents include the Fifth Amendment, Lender Joinder Agreement, promissory notes reflecting incremental commitments, and fee letters with NexBank.
+
+**Administrative Agent:** BankUnited, N.A. serves as Administrative Agent for the three-bank syndicate, with governance under New York State law.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established borrower-lender relationship spanning 2.5+ years with successful amendment history demonstrating covenant compliance and lender confidence
+• Diversified funding sources across three institutional lenders reducing concentration risk
+• Strong legal framework with comprehensive security package including liens, mortgages, and conveyances that remain fully enforceable
+• Current borrower representations confirm no defaults, events of default, or material adverse changes
+• Professional management through Greystone platform providing operational expertise in multifamily housing sector
+
+**Principal Risks and Mitigating Factors:**
+• Frequent amendment activity (five amendments since 2021) may indicate ongoing covenant pressure or changing business needs requiring monitoring
+• Broad borrower release provisions suggest potential prior relationship complexities, though current representations confirm no outstanding disputes
+• Limited financial performance data in amendment restricts comprehensive credit assessment, though borrower confirms all representations remain accurate
+• Complex partnership structure with multiple entity layers may create operational or governance considerations
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 50,000,000 | N/A | N/A | N/A | N/A | • All prior loan document covenants reaffirmed and continue in full force<br>• Security interests, liens, mortgages and conveyances remain enforceable<br>• No current defaults or events of default<br>• All representations and warranties confirmed accurate<br>• Borrower cannot assign rights without prior lender consent |

@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## Executive Summary
+
+**Date:** 2025-05-27
+
+**Borrower / Company Overview:** Karman Holding Inc., a Delaware corporation, operates as a diversified holding company with subsidiaries across aerospace and defense (Karman Space & Defense LLC, Aerospace Engineering LLC), manufacturing (Amro Fabricating Corporation), engineering services (Wolcott Design Services LLC), and automation technology (American Automated Engineering Inc., Systima Technologies Inc.).
+
+**Transaction Description:** First Amendment to Credit Agreement establishing $75,000,000 in incremental term loans. The transaction expands Karman Holding's existing credit facility originally executed on April 1, 2025, with CITIBANK, N.A. serving as Administrative Agent, Collateral Agent, and sole incremental term lender.
+
+**Purpose of Financing:** Proceeds will repay outstanding Revolving Credit Loans, provide working capital, fund general corporate purposes including Permitted Investments, and cover transaction-related fees and expenses.
+
+**Company Background:** The borrower leads a multi-subsidiary organization providing engineering, manufacturing, and technology services primarily to aerospace and defense markets through its operating companies.
+
+## Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established lender relationship with CITIBANK, N.A. providing additional $75M within two months of original facility
+• Diversified operational platform across aerospace, defense, manufacturing, and engineering sectors
+• Conservative amortization requiring only 0.25% quarterly payments starting September 2025
+• Comprehensive subsidiary guarantee structure enhancing credit support
+• Standard covenant package with solvency certification requirements
+
+**Principal Risks and Mitigating Factors:**
+• Single lender concentration with Citibank as sole incremental facility provider
+• Interest rate exposure through SOFR-based floating rate structure
+• Timing of incremental request suggests potential working capital needs
+• Limited financial covenant disclosure beyond standard representations and warranties
+
+## Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| USD 75,000,000 | N/A | SOFR Loans (floating rate) | Maturity Date for Initial Term Loans | Quarterly | • 0.25% quarterly amortization of initial principal starting September 30, 2025<br>• No Event of Default under sections 8.01(a), (f), or (g)<br>• Compliance with representations and warranties<br>• Solvency certificate requirements<br>• Maintenance of existing security interests and liens |

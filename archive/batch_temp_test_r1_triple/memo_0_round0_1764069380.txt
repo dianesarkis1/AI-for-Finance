@@ -1,0 +1,35 @@
+## Checklist of Key Actions:
+- Identify the parties, date, and nature of this credit agreement amendment
+- Extract the specific changes being made to the original credit agreement
+- Analyze the pricing grid modification and its implications for the borrower
+- Assess credit strengths based on the borrower profile and lender consortium
+- Note any missing deal terms that cannot be determined from this amendment
+- Structure findings into the required three-section format with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 10, 2021, Affiliated Managers Group, Inc. (a Delaware corporation) executed a Second Amendment to its Third Amended and Restated Term Credit Agreement with Bank of America, N.A. as Administrative Agent and other lenders.
+- The original Third Amended and Restated Term Credit Agreement was dated January 18, 2019, establishing the baseline credit facility.
+- The primary purpose of this amendment is to modify the "Applicable Margin" pricing grid contained in Annex I of the original Credit Agreement, which governs interest rate spreads based on the company's debt rating levels.
+- Affiliated Managers Group is a publicly traded asset management company that provides investment management services through affiliated investment management firms.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong credit profile evidenced by investment-grade debt ratings across multiple agencies (S&P, Moody's, Fitch) with ratings ranging from A+ down to BBB
+- Established relationship with Bank of America as Administrative Agent, indicating institutional lender confidence
+- The borrower is in compliance with all existing covenants and representations, with no defaults occurring
+- Pricing grid structure rewards strong credit performance with lower spreads for higher ratings
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into specific deal size, maturity, or other financial maintenance covenants from this amendment document
+- The amendment represents a pricing adjustment which could indicate either market-driven repricing or borrower-negotiated improvements
+- Asset management business model may be subject to market volatility and fee compression pressures
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | Rating-based spread: 0.725%-1.225% for Eurodollar Loans, 0.000%-0.225% for ABR Loans | N/A | N/A | Debt rating-based pricing grid with levels from A+/A1/A+ to BBB/Baa2/BBB. All existing loan document covenants ratified and confirmed |

@@ -1,0 +1,42 @@
+Looking at this credit agreement, I will:
+• Identify the key parties, dates, and transaction type
+• Extract the specific amendments to the Consolidated EBITDA definition
+• Analyze the credit implications of these covenant modifications
+• Present the deal terms in the required format with proper table structure
+• Assess risks and opportunities from an investor perspective
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-04-25
+
+**Borrower/Company Overview:** Accuray Incorporated, a Delaware corporation operating in the medical technology sector, providing radiation therapy solutions.
+
+**Transaction Description:** Third Amendment to Credit Agreement between Accuray Incorporated (Borrower), Silicon Valley Bank as Administrative Agent (a division of First-Citizens Bank & Trust Company), and multiple lenders including HSBC Bank US, National Association. This amendment modifies an existing Credit Agreement originally dated May 6, 2021, which was previously amended in October 2022 and November 2023.
+
+**Purpose of Financing:** The amendment provides covenant relief by modifying the "Consolidated EBITDA" definition to allow specific addbacks related to workforce restructuring costs and projected cost savings from headcount reductions implemented between September 30, 2023, and the amendment effective date.
+
+**Company Background:** Accuray operates in the medical technology industry. The company has undergone significant organizational restructuring, including workforce reductions after September 30, 2023, necessitating covenant modifications to maintain compliance with its credit facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationships with reputable financial institutions including Silicon Valley Bank and HSBC Bank US
+• Proactive covenant management demonstrates borrower's constructive engagement with lender group
+• Amendment fee of only 0.05% of outstanding commitments indicates reasonable cost for covenant relief
+• Company maintains compliance with all covenants following amendment implementation
+• Structured approach to EBITDA adjustments with specific caps and time limitations
+
+**Principal Risks and Mitigating Factors:**
+• Multiple covenant amendments (third since 2021) may signal ongoing operational challenges requiring continued lender accommodation
+• Significant workforce restructuring suggests potential business performance pressures necessitating cost reduction measures
+• EBITDA adjustments for projected savings introduce execution risk if anticipated benefits are not realized
+• Limited visibility into underlying financial performance and broader credit metrics from amendment document alone
+• Time-limited nature of covenant relief may require additional amendments if business conditions do not improve
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified Consolidated EBITDA definition with specific addbacks for restructuring charges: $2,633,000 cap for trailing twelve-month periods ending March 31, June 30, and September 30, 2024, reducing to $0 thereafter<br>• Pro forma run rate cost savings from specified headcount reductions: $6,836,000 cap (March 31, 2024), $3,798,000 (June 30, 2024), $760,000 (September 30, 2024), then $0<br>• General run rate cost savings and restructuring charges limited to 12.5% of Consolidated EBITDA (calculated before adjustments)<br>• Amendment fee equal to 0.05% of sum of consenting lenders' outstanding Revolving Commitments and Term Loan principal |

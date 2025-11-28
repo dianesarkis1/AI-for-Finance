@@ -1,0 +1,42 @@
+## Checklist of Key Actions:
+- Extract amendment date, parties, and transaction structure from the credit agreement
+- Identify the specific pricing grid modifications and their financial implications
+- Analyze credit strengths based on AMG's investment-grade profile and lender relationships
+- Evaluate risks associated with the asset management business model
+- Compile deal terms available in the amendment document
+- Structure analysis into required executive summary, highlights/risks, and deal terms sections
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-10
+
+**Borrower/Company Overview:** Affiliated Managers Group, Inc. ("AMG") is a Delaware corporation operating as a publicly traded asset management company. AMG provides investment management services through a network of affiliated investment management firms.
+
+**Transaction Description:** This transaction represents a Second Amendment to AMG's existing Third Amended and Restated Term Credit Agreement (originally dated January 18, 2019). The amendment involves AMG as borrower, Bank of America, N.A. as Administrative Agent, and multiple institutional lenders. The structure modifies pricing terms within the existing credit facility framework.
+
+**Purpose of Financing:** The amendment specifically revises the "Applicable Margin" pricing grid in Annex I of the original Credit Agreement. This modification adjusts interest rate spreads tied to AMG's debt rating levels, potentially providing more favorable pricing terms based on the company's credit profile.
+
+**Company Background:** AMG operates in the asset management sector, managing investments through affiliated firms. The company maintains investment-grade credit ratings across major rating agencies (S&P, Moody's, Fitch), with ratings spanning from A+ to BBB levels, demonstrating solid creditworthiness within the financial services industry.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong investment-grade credit profile with ratings from A+/A1/A+ to BBB/Baa2/BBB across S&P, Moody's, and Fitch
+• Established banking relationship with Bank of America, N.A. as Administrative Agent, indicating institutional confidence
+• Clean credit performance with no defaults or events of default occurring or continuing
+• Rating-based pricing structure incentivizes maintaining strong credit metrics
+• All existing loan document covenants remain ratified and in full force, suggesting stable credit structure
+
+**Principal Risks and Mitigating Factors:**
+• Asset management business model exposed to market volatility affecting fee generation and client asset flows
+• Pricing amendment may reflect competitive market pressures or borrower-initiated refinancing discussions
+• Limited covenant visibility in amendment document, though all existing financial maintenance terms remain in effect
+• Interest rate exposure through Eurodollar and ABR loan options subject to rate environment changes
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | Eurodollar Loans: 0.725%-1.225% spread; ABR Loans: 0.000%-0.225% spread (rating-based grid) | N/A | N/A | • Rating-based pricing grid with 5 levels<br>• Pricing Level 1 (A+/A1/A+): 0.725% Eurodollar, 0.000% ABR<br>• Pricing Level 5 (BBB/Baa2/BBB): 1.225% Eurodollar, 0.225% ABR<br>• All existing loan document covenants ratified and confirmed |

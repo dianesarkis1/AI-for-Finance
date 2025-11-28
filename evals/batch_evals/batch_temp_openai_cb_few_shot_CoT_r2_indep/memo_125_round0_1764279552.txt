@@ -1,0 +1,41 @@
+## Checklist of Approach:
+- Extract basic transaction details (parties, dates, amendment type)
+- Identify the specific changes being made to the credit agreement
+- Analyze the bankruptcy/DIP context and implications for investors
+- Assess available financial terms and covenant information
+- Structure findings into executive summary, investment analysis, and deal terms table
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On August 28, 2020, Lilis Energy Inc. (a Nevada corporation) and its lenders executed a third amendment to their Senior Secured Super-Priority Debtor-in-Possession Credit Agreement.
+- The original DIP credit agreement was dated June 30, 2020, with BMO Harris Bank N.A. serving as Administrative Agent, alongside lenders Capital One National Association and Credit Suisse AG, Cayman Islands Branch.
+- The borrower is supported by multiple subsidiary guarantors including Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC.
+- The primary purpose of this amendment is to extend certain Chapter 11 milestones, specifically extending a deadline from August 28, 2020 to September 3, 2020 under Section 8.23(e) of the original credit agreement.
+- Lilis Energy Inc. appears to be an energy company operating under Chapter 11 bankruptcy protection, utilizing debtor-in-possession financing to maintain operations during restructuring.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Super-priority DIP structure provides enhanced creditor protections and recovery prospects compared to traditional unsecured claims
+- Diverse lender syndicate including established institutions (BMO Harris Bank, Capital One, Credit Suisse) suggests institutional confidence
+- Borrower remains in compliance with all representations, warranties, and covenants as of the amendment date
+- All existing collateral documents and security interests remain in full force and effect
+
+### Principal Risks and Mitigating Factors:
+- Bankruptcy context presents elevated credit risk and potential for significant principal impairment
+- Request for milestone extensions suggests potential delays in the restructuring process, which could increase execution risk
+- Limited financial information available restricts comprehensive credit assessment
+- DIP financing typically indicates severe financial distress requiring ongoing monitoring
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Chapter 11 milestone deadline extended from August 28, 2020 to September 3, 2020 under Section 8.23(e). All prior representations, warranties, and covenants remain in effect and borrower certified compliance as of effective date |

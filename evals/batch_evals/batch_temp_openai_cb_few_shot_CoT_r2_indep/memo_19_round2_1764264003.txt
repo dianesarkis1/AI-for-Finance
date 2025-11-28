@@ -1,0 +1,45 @@
+## Planning Checklist
+
+I will:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the borrower (Greystone Housing Impact Investors LP) and lender (Bankers Trust Company)
+- Analyze the specific amendments related to Pledged Account and Securities Intermediary definitions
+- Assess investment strengths and risks from a credit perspective
+- Create a deal terms table using only explicitly stated information, marking unavailable data as "N/A"
+- Enhance structure and organization for improved readability and professional presentation
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-27
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP is a Delaware limited partnership formerly known as America First Multifamily Investors, L.P.
+
+**Transaction Description:** Third Amendment to Amended and Restated Credit Agreement between Greystone Housing Impact Investors LP (Borrower) and Bankers Trust Company (Bank). This amendment modifies specific administrative definitions within the existing credit facility framework.
+
+**Purpose of Financing:** The amendment updates operational definitions for collateral management infrastructure, specifically re-designating the Pledged Account as account #164283-000 and formally changing the Securities Intermediary from the previous provider to Wilmington Trust, National Association.
+
+**Company Background:** The borrower maintains an established banking relationship with Bankers Trust Company through an Amended and Restated Credit Agreement originally executed on August 23, 2021. This relationship has been systematically maintained through prior amendments dated April 29, 2022 (First Amendment) and July 29, 2022 (Second Amendment), demonstrating ongoing credit facility management.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Compliance Status:** Borrower explicitly represents that no Event of Default or Unmatured Event of Default has occurred under the Agreement or related Loan Documents
+• **Enhanced Custody Framework:** Implementation of institutional-grade securities custody services through Wilmington Trust, National Association as Securities Intermediary
+• **Relationship Continuity:** Demonstrates stable, long-term banking relationship with systematic amendment processes since 2021
+• **Documentation Integrity:** All existing loan documents, collateral agreements, certificates, and related documentation remain in full force and effect
+• **Operational Transparency:** Proactive disclosure and formal documentation of collateral account changes
+
+**Principal Risks and Mitigating Factors:**
+• **Limited Financial Disclosure:** Administrative nature of amendment provides minimal current financial performance visibility; mitigated by borrower's explicit compliance representations and covenant confirmations
+• **Operational Transition Risk:** Securities Intermediary change introduces potential operational disruption; mitigated by Wilmington Trust's institutional reputation and requirement for updated Control Agreement execution
+• **Documentation Dependencies:** Amendment effectiveness contingent on execution of supplementary agreements; mitigated by Bank's discretionary approval rights over required documentation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All covenants, representations, and warranties from original Credit Agreement remain in full force and effect<br>• No Event of Default or Unmatured Event of Default has occurred or is occurring<br>• Pledged Account re-designated as account #164283-000 maintained by Wilmington Trust, National Association<br>• Updated Security Agreement and Control Agreement execution required<br>• Bank retains discretionary approval rights over all amendment documentation |

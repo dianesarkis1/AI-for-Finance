@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Purpose of Financing: The memo states the amendment \u201cextends the availability period for delayed draw term loan commitments, providing additional time...\u201d The source only redefines the Delayed Draw Term Loan Commitment Expiration Date as the earlier of the facility being reduced to zero or August 14, 2024; it does not state that this is an extension."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo commits to 'Ensure all information comes directly from the document without inference,' yet it includes inferential/opinion statements (e.g., 'HPS involvement ... demonstrates sophisticated investor participation,' 'Limited amendment scope suggests stable underlying credit structure,' and generalized industry risk commentary), contradicting that commitment.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 64.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

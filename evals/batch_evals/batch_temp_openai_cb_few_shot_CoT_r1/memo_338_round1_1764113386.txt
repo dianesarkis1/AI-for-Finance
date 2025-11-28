@@ -1,0 +1,41 @@
+## Checklist
+
+- Extract the exact amendment date and key transaction details from the credit agreement
+- Identify borrower information and transaction structure with proper dating
+- Analyze the specific amendments being made to the delayed draw term loan facility
+- Review available deal terms and covenant information from the amendment
+- Assess credit strengths and risks based on the amendment provisions
+- Format findings into the required three-section memorandum with proper table structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-05-10
+
+**Borrower/Company Overview:** LifeStance Health Holdings, Inc., a Delaware corporation, operates as the Borrower under a credit facility arrangement with a sophisticated lending group led by Capital One, National Association.
+
+**Transaction Description:** This transaction represents the Second Amendment to Credit Agreement, executed among LifeStance Health Holdings, Inc. and its existing lender syndicate, including Unitranche Loan Transaction II, LLC as a Required Facility Lender. The amendment modifies specific provisions of the original Credit Agreement dated May 4, 2022 (as previously amended in November 2023).
+
+**Purpose of Financing:** The amendment extends the Delayed Draw Term Loan Commitment Expiration Date to August 14, 2024, providing LifeStance additional time to access committed delayed draw term loan facilities under the existing credit structure.
+
+**Company Background:** LifeStance Health Holdings operates in the healthcare services sector under parent company Lynnwood Intermediate Holdings, Inc., with various subsidiary guarantors providing additional credit support to the lending arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender syndicate including Capital One as Administrative Agent and HPS Investment Partners as co-manager of the unitranche facility
+• Borrower representations confirm no current Events of Default and all representations and warranties remain true and correct
+• Comprehensive security package with all existing liens and security interests reaffirmed and remaining in full force
+• Proactive amendment approach demonstrates constructive lender-borrower relationship and forward-looking capital management
+
+**Principal Risks and Mitigating Factors:**
+• Extension of delayed draw commitment suggests potential timing pressures or capital deployment delays, though August 2024 deadline provides defined timeline
+• Healthcare services sector involves regulatory complexities and operational challenges, mitigated by experienced institutional lender oversight
+• Limited visibility into underlying financial performance metrics or covenant compliance margins from amendment documentation alone
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Delayed Draw Term Loan Commitment Expiration Date extended to 2024-08-14<br>• All existing security interests and liens reaffirmed<br>• No Events of Default continuing as of amendment date<br>• All loan documents remain in full force and effect |

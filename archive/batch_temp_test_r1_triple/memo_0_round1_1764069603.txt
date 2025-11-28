@@ -1,0 +1,41 @@
+## Checklist of Key Actions:
+- Identify the parties, date, and nature of this credit agreement amendment
+- Extract the complete pricing grid with all rating tiers and applicable margins
+- Analyze the specific changes being made to the original credit agreement
+- Assess credit strengths based on the borrower profile and lender consortium
+- Note any missing deal terms that cannot be determined from this amendment
+- Structure findings into the required three-section format with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-10
+
+**Borrower/Company Overview:** Affiliated Managers Group, Inc., a Delaware corporation, serves as the borrower under this credit facility amendment.
+
+**Transaction Description:** This is a Second Amendment to a Third Amended and Restated Term Credit Agreement originally dated January 18, 2019. The transaction involves Affiliated Managers Group, Inc. as borrower, Bank of America, N.A. as Administrative Agent, and multiple lenders.
+
+**Purpose of Financing:** The amendment modifies the Applicable Margin pricing grid contained in Annex I of the original Credit Agreement, adjusting interest rate spreads based on the borrower's debt rating levels.
+
+**Company Background:** Affiliated Managers Group operates as an asset management company in the investment management industry, maintaining investment-grade credit ratings across major rating agencies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong investment-grade credit profile with debt ratings spanning A+/A1/A+ to BBB/Baa2/BBB across S&P, Moody's, and Fitch
+• Established banking relationship with Bank of America, N.A. as Administrative Agent
+• Borrower remains in full compliance with all loan document representations and warranties
+• No defaults or events of default present, indicating strong credit performance
+• Rating-based pricing structure incentivizes maintaining strong credit metrics
+
+**Principal Risks and Mitigating Factors:**
+• Limited transparency on total facility size and maturity terms from amendment document
+• Asset management industry exposure to market volatility and potential fee compression
+• Pricing grid amendment suggests potential refinancing or repricing activity
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | Pricing Level 1 (A+/A1/A+): 0.725% Eurodollar, 0.000% ABR; Level 2 (A/A2/A): 0.850% Eurodollar, 0.000% ABR; Level 3 (A-/A3/A-): 0.850% Eurodollar, 0.000% ABR; Level 4 (BBB+/Baa1/BBB+): 0.975% Eurodollar, 0.000% ABR; Level 5 (BBB/Baa2/BBB): 1.225% Eurodollar, 0.225% ABR | N/A | N/A | • Rating-based pricing grid with five tiers based on S&P/Moody's/Fitch ratings • Applicable margin adjusts automatically with publicly announced rating changes • All existing loan document covenants ratified and confirmed |

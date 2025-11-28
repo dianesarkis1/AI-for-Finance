@@ -1,0 +1,39 @@
+## Checklist
+- Identify key parties, dates, and transaction structure from the credit agreement amendment
+- Extract specific amendments being made (maturity date extension and reinvestment period modification)
+- Analyze credit strengths and risks from an investment perspective
+- Compile available deal terms, marking unavailable information as "N/A"
+- Ensure proper formatting and professional tone throughout the memo
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 18, 2025, OFSCC-FS, LLC executed a third amendment to its revolving credit and security agreement with BNP Paribas and other lenders.
+- OFSCC-FS, LLC, a Delaware limited liability company, serves as the borrower in this revolving credit facility. The company is supported by OFS Capital Corporation as servicer and OFSCC-FS Holdings, LLC as equityholder.
+- The original revolving credit and security agreement was dated June 20, 2019, with BNP Paribas acting as administrative agent and lender, alongside Mitsubishi HC Capital America, Inc. as an additional lender. Citibank, N.A. serves as collateral agent, and Virtus Group, LP acts as collateral administrator.
+- This amendment extends the Final Maturity Date to June 20, 2027, and modifies the Reinvestment Period to terminate on August 31, 2025, providing the borrower with additional time for both the facility maturity and reinvestment activities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with established international financial institutions (BNP Paribas as lead, Mitsubishi HC Capital America as participant)
+- Comprehensive security structure with dedicated collateral agent (Citibank, N.A.) and collateral administrator (Virtus Group, LP)
+- Borrower representations confirm no defaults or events of default are occurring, indicating current compliance with all facility terms
+- Well-structured governance with separate servicer and equityholder entities providing operational oversight
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available to assess underlying credit quality and performance metrics
+- Extension of maturity date suggests potential need for additional time to manage obligations, though this could also indicate proactive refinancing planning
+- No visibility into pricing, facility size, or financial covenants limiting comprehensive credit assessment
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | 2027-06-20 |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Reinvestment Period extended to August 31, 2025. All prior facility documents and security arrangements remain in full force and effect |

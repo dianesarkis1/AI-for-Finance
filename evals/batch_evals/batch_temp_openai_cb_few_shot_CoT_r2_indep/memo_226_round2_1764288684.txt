@@ -1,0 +1,42 @@
+## Approach Checklist
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the aircraft financing structure and collateral details
+- Analyze credit strengths from lender composition and guarantor structure
+- Note any risks or concerns from the amendment terms
+- Compile available deal terms while marking unavailable information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-03-31
+
+**Borrower/Company Overview:** Vertical Horizons, Ltd., a Cayman Islands exempted company, serves as the financing vehicle for Frontier Airlines' aircraft acquisition program.
+
+**Transaction Description:** This transaction represents Amendment No. 1 to a Seventh Amended and Restated Credit Agreement originally dated December 28, 2021. The facility provides PDP (Pre-Delivery Payment) financing for 59 Airbus aircraft comprising 9 A320neo and 50 A321neo aircraft. The syndicated facility is arranged by Citibank N.A. as both Facility Agent and Arranger, with participation from Barclays Bank PLC, Deutsche Bank AG New York Branch, and Morgan Stanley Senior Funding, Inc. Bank of Utah serves as Security Trustee.
+
+**Purpose of Financing:** The facility provides pre-delivery payment financing to support Frontier Airlines' fleet modernization and expansion program through acquisition of new-generation Airbus narrow-body aircraft.
+
+**Company Background:** The structure utilizes Vertical Horizons as a special purpose financing vehicle with comprehensive credit support through guarantees from the entire Frontier corporate structure, including ultimate parent Frontier Group Holdings, Inc., intermediate holding company Frontier Airlines Holdings, Inc., and operating subsidiary Frontier Airlines, Inc.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• High-quality institutional lender syndicate led by Citibank N.A. with major bank participation providing market validation
+• Comprehensive three-tier guarantee structure covering all levels of Frontier's corporate hierarchy
+• Modern, fuel-efficient aircraft collateral (A320neo/A321neo family) with strong residual values and broad market appeal
+• Active compliance monitoring through LTV testing and minimum liquidity requirements
+• Established aviation finance structure with experienced legal counsel (Clifford Chance) and professional trustee arrangements
+
+**Principal Risks and Mitigating Factors:**
+• Amendment extends key deadline from July 1, 2022 to April 1, 2023, suggesting potential execution or delivery timeline pressures
+• Aviation sector cyclical exposure to economic downturns, fuel price volatility, and regulatory changes, partially mitigated by modern fleet efficiency
+• Extensive information redaction limits visibility into critical financial metrics and covenant details
+• PDP structure creates pre-delivery execution risk if aircraft deliveries are delayed or cancelled
+• Airline industry competitive pressures and route concentration risks, offset by guarantee structure providing recourse beyond aircraft values
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • LTV Test compliance on specified test dates<br>• Frontier Group Holdings minimum unrestricted cash and cash equivalents (amount redacted)<br>• No continuing Default or Event of Default permitted<br>• All guarantee agreements must remain in full force and effect<br>• Borrower compliance certification requirements |

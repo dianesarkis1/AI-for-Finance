@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Full Change of Control definition, including:"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Methodology contradiction: The memo promises to ensure all information comes directly from the document without inference, yet it includes inferential/subjective claims (e.g., \\u201cstrong, diversified lending syndicate \\u2026 demonstrates broad lender confidence\\u201d and \\u201cindicating supportive banking relationships\\u201d).\", \"Same factor listed as both a strength and a risk: It\\u2019s praised that the amendment preserves lenders\\u2019 rights regarding the merger closing (strength), while also flagged as a risk that the amendment provides only limited waivers for entering into the merger and not for closing.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

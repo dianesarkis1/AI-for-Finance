@@ -225,6 +225,14 @@ Examples:
         help='Number of iterative refinement rounds. For each evaluator, refine memo based on feedback and re-evaluate. Default: 0 (no refinement)'
     )
 
+    parser.add_argument(
+        '--refinement-mode',
+        type=str,
+        choices=['independent', 'combined'],
+        default='independent',
+        help='Refinement mode: "independent" (each evaluator has separate refinement trajectory) or "combined" (aggregate all evaluators\' feedback before each refinement). Default: independent'
+    )
+
     args = parser.parse_args()
 
     # Validate run_name doesn't start with batch_temp_ (we'll add it)
@@ -254,7 +262,8 @@ Examples:
     print(f"Few-shot examples: {args.few_shot_dir if args.few_shot_dir else 'None'}")
     print(f"Use system parameter (Claude): {'Yes' if args.use_system_parameter else 'No'}")
     print(f"Use XML tags: {'Yes' if args.use_xml_tags else 'No'}")
-    print(f"Refinement rounds: {args.refinement_rounds} {'(no refinement)' if args.refinement_rounds == 0 else f'({args.refinement_rounds} rounds per evaluator)'}")
+    print(f"Refinement rounds: {args.refinement_rounds} {'(no refinement)' if args.refinement_rounds == 0 else f'({args.refinement_rounds} rounds)'}")
+    print(f"Refinement mode: {args.refinement_mode if args.refinement_rounds > 0 else 'N/A'}")
     print(f"\n{'='*70}\n")
 
     # Get confirmation
@@ -302,6 +311,7 @@ Examples:
 
     if args.refinement_rounds > 0:
         cmd.extend(["--refinement-rounds", str(args.refinement_rounds)])
+        cmd.extend(["--refinement-mode", args.refinement_mode])
 
     run_command(cmd, "STEP 1: Running batch evaluations")
 

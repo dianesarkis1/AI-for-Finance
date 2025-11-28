@@ -1,0 +1,39 @@
+# Checklist
+- Identify the key transaction details and parties involved in this credit agreement consent
+- Determine the purpose and nature of this consent agreement 
+- Extract any quantitative deal terms that are explicitly stated
+- Analyze credit positives and risks from an investor perspective
+- Organize findings into the required three-section structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 15, 2023, F45 Training Holdings Inc., a Delaware corporation, entered into a consent agreement with JPMorgan Chase Bank N.A. (as Administrative Agent) and other lenders regarding their existing credit facility.
+- The original Amended and Restated Credit Agreement was dated August 13, 2021, and has been subsequently amended four times (December 2021, May 2022, February 2023, and June 2023).
+- The purpose of this consent is to extend the delivery date for F45's audited consolidated financial statements for fiscal year 2022 and accompanying Compliance Certificate from March 31, 2023 to September 30, 2023.
+- F45 Training Holdings Inc. operates in the fitness training industry. The lending syndicate includes JPMorgan Chase Bank N.A. (as Administrative Agent, Australian Security Trustee, Swingline Lender and Issuing Bank) and Goldman Sachs Bank USA as lenders.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with premier financial institutions including JPMorgan Chase Bank N.A. and Goldman Sachs Bank USA
+- Borrower represents that no Default or Event of Default exists as of the consent date
+- All existing loan documents and covenants remain in full force and effect
+- Comprehensive release provisions demonstrate cooperative lender relationship
+
+### Principal Risks and Mitigating Factors:
+- Extension of financial reporting deadlines (from March 31, 2023 to September 30, 2023) suggests potential operational or accounting challenges
+- Multiple prior amendments to the credit agreement (four amendments since 2021) may indicate ongoing covenant or operational issues
+- Limited financial information available to assess current credit profile and performance metrics
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Extension of delivery date for audited consolidated financial statements for fiscal year 2022 and accompanying Compliance Certificate to September 30, 2023. All other existing covenants and loan document terms remain in full force and effect. |

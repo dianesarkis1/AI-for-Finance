@@ -1,0 +1,41 @@
+## Action Plan Checklist
+
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the specific changes being made to the credit agreement terms with precise qualifiers
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms into the required table format with complete covenant details
+- Validate all information is sourced directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-31
+
+**Borrower/Company Overview:** Saia Inc., a Delaware corporation, operating as a transportation and logistics company with multiple subsidiary operations including Saia Motor Freight Line, LLC, Saia Sales, LLC, Saia TL Plus, LLC, LinkEx, Inc., and Saia Logistics, LLC.
+
+**Transaction Description:** Amendment No. 1 to Credit Agreement between Saia Inc. as Borrower, subsidiary Loan Parties, JPMorgan Chase Bank, N.A. as Administrative Agent, and a syndicate of lenders including Bank of America, N.A., PNC Bank, National Association, TD Bank, N.A., and BOKF, NA dba Bank of Oklahoma.
+
+**Purpose of Financing:** The amendment modifies restrictive agreement covenants in Section 6.09 to provide enhanced flexibility for the borrower in entering unsecured debt arrangements while maintaining lender security protections.
+
+**Company Background:** Saia Inc. operates in the transportation sector with multiple subsidiary entities providing freight and logistics services. The original credit agreement was established on February 3, 2023.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking consortium comprising major U.S. financial institutions demonstrates continued lender confidence
+• Borrower represents no Default or Event of Default has occurred and is continuing
+• Amendment maintains protective language requiring pari passu treatment for Administrative Agent liens
+• Comprehensive guarantee structure remains intact with all subsidiary guarantors as Loan Parties
+• All representations and warranties confirmed as true and correct in all material respects
+
+**Principal Risks and Mitigating Factors:**
+• Amendment provides borrower-friendly modifications to restrictive covenants, potentially allowing less restrictive future debt arrangements
+• Limited visibility into current financial performance, credit metrics, or pricing terms from this amendment document alone
+• Risk mitigated by requirement that future unsecured debt restrictions cannot be materially more restrictive than current agreement terms, taken as a whole, as determined in good faith by the Borrower
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified Section 6.09(vi) (Restrictive Agreements): permits restrictions and conditions imposed by unsecured Indebtedness agreements provided such restrictions are (x) not materially more restrictive, taken as a whole, than the restrictions contained in this Agreement (as determined in good faith by the Borrower) and (y) expressly permit the Borrower and its Subsidiaries to grant Liens to the Administrative Agent to secure the Obligations at least on a pari passu basis with such Indebtedness (including pursuant to a customary "equal and ratable" clause)<br>• All other covenants and financial maintenance terms reaffirmed |

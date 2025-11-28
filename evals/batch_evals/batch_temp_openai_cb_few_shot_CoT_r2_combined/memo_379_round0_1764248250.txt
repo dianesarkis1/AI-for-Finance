@@ -1,0 +1,43 @@
+# Step-by-Step Approach
+
+I will:
+- Extract key transaction details and parties from the credit agreement
+- Identify the transaction structure and purpose
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms into the required table format
+- Ensure all information comes directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On May 27, 2025, Karman Holding Inc., a Delaware corporation, entered into a First Amendment to Credit Agreement with CITIBANK, N.A. as Administrative Agent and Collateral Agent.
+- The original Credit Agreement was dated April 1, 2025, and this amendment provides for an Incremental Term Loan facility of $75,000,000.
+- Karman Holding Inc. serves as the Borrower, with multiple subsidiary guarantors including Karman Parent LLC, Karman Space & Defense LLC, Aerospace Engineering LLC, Wolcott Design Services LLC, Amro Fabricating Corporation, American Automated Engineering Inc., and Systima Technologies Inc.
+- The purpose of the financing includes repaying outstanding Revolving Credit Loans, working capital, general corporate purposes (including Permitted Investments), and payment of associated fees and expenses.
+- Based on the subsidiary names, Karman Holding appears to operate in the aerospace, defense, and engineering sectors through its various operating companies.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong administrative agent relationship with CITIBANK, N.A., a major global financial institution
+- Recently established credit facility (original agreement dated April 1, 2025) suggests recent due diligence and underwriting
+- Diversified business portfolio across aerospace, defense, and engineering sectors through multiple subsidiaries
+- The First Amendment Incremental Term Loans have the same terms as existing Initial Term Loans, maintaining consistency in credit structure
+- All loan parties reaffirmed their obligations and security interests continue to secure the amended facility
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into pricing terms, financial covenants, and overall credit metrics
+- Quarterly amortization payments required starting September 30, 2025 (0.25% of aggregate principal amount)
+- Single lender concentration risk with CITIBANK, N.A. providing the entire $75,000,000 incremental facility
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | SOFR-based floating rate |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | Quarterly amortization starting September 30, 2025 (0.25% of aggregate principal amount per quarter) |
+| **Key Covenants** | • First Amendment Incremental Term Loans have same terms as existing Initial Term Loans<br>• Security interests and liens continue to secure obligations under Amended Credit Agreement<br>• All existing representations, warranties, and covenants reaffirmed<br>• No Event of Default under specified sections required for effectiveness |

@@ -1,0 +1,33 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-13
+
+**Borrower / Company Overview:** Texas-New Mexico Power Company, a Texas corporation, operates as an electric utility company. The Borrower maintains an established credit facility under a Fourth Amended and Restated Credit Agreement dated March 11, 2022, with KeyBank National Association serving as Administrative Agent.
+
+**Transaction Description:** This transaction represents a credit facility expansion through an Increase Supplement mechanism. CoBank, ACB has been added as a new lender to the existing syndicated credit facility, providing an incremental commitment of $25,000,000. The expansion was executed pursuant to Section 2.1(f) of the underlying Credit Agreement, which permits facility increases subject to specific conditions.
+
+**Purpose of Financing:** The financing serves to expand the Borrower's available credit capacity through the addition of a new syndicate member. The increased facility provides enhanced liquidity and financial flexibility for the utility's operational and capital requirements.
+
+**Company Background and Context:** As an electric utility corporation, Texas-New Mexico Power Company operates in a regulated environment providing essential services. Concurrent with this credit facility expansion, the Borrower executed a Sixteenth Supplemental Indenture on May 13, 2022, issuing Replacement First Mortgage Bonds that serve as security for the credit facility in accordance with the FMB Mortgage Documents framework.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Regulated utility profile** - Electric utility operations typically generate stable, predictable cash flows through regulated rate structures
+• **Established banking relationships** - Existing credit facility with KeyBank National Association demonstrates proven access to institutional capital markets
+• **Secured credit structure** - Facility is backed by First Mortgage Bonds providing tangible collateral protection to lenders
+• **Covenant compliance** - Borrower has represented full compliance with all credit agreement terms and conditions as of the expansion date
+• **Diversified syndicate** - Addition of CoBank, ACB (agricultural and rural infrastructure focused lender) provides geographic and sector expertise relevant to utility operations
+
+**Principal Risks and Mitigating Factors:**
+• **Limited financial transparency** - Increase supplement provides minimal current financial metrics or performance indicators for comprehensive credit evaluation
+• **Regulatory environment exposure** - Utility operations subject to state regulatory oversight affecting rate-setting and capital recovery, though typically mitigated through established regulatory frameworks
+• **Capital intensity requirements** - Electric utilities require ongoing substantial capital investment for infrastructure maintenance and modernization
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Borrower compliance with Section 2.1(f) conditions<br>• Secured by Replacement First Mortgage Bonds<br>• Subject to FMB Mortgage Documents requirements<br>• Sixteenth Supplemental Indenture governing security |

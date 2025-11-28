@@ -1,0 +1,40 @@
+# Checklist
+- Extract key parties, dates, and transaction structure from the credit agreement
+- Identify the purpose and nature of the commitment increase 
+- Assess credit strengths and risks from an investor perspective
+- Compile deal terms into the required table format using only explicitly stated information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On January 17, 2024, HPS Corporate Lending Fund executed a commitment increase agreement with Deutsche Bank AG New York Branch and JPMorgan Chase Bank, N.A. as Administrative Agent.
+- HPS Corporate Lending Fund serves as the Borrower under a Senior Secured Revolving Credit Agreement originally dated June 23, 2022 (as amended by Amendment No.1 dated October 30, 2023).
+- The transaction involves Deutsche Bank AG New York Branch joining as an "Increasing Lender" to provide an additional $25,000,000 commitment to the existing revolving credit facility.
+- The purpose is to increase the aggregate amount of commitments under the existing Senior Secured Revolving Credit Agreement, with Deutsche Bank's additional commitment being governed by the original Credit Agreement and other Loan Documents.
+- HPS Corporate Lending Fund appears to be a corporate lending fund, as indicated by its name, operating under the existing credit facility structure with JPMorgan Chase Bank, N.A. as Administrative Agent.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with tier-1 financial institutions including JPMorgan Chase Bank as Administrative Agent and Deutsche Bank as an increasing lender
+- The commitment increase suggests lender confidence in the borrower's creditworthiness and business prospects
+- Senior secured structure provides enhanced creditor protection
+- Existing credit agreement has been successfully amended previously, indicating ongoing lender support
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available in this commitment increase document restricts comprehensive credit assessment
+- The nature of HPS Corporate Lending Fund's underlying business and portfolio composition is not disclosed in this agreement
+- No pricing, covenant, or maturity information is provided to assess the full credit profile
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | $25,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | N/A |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Extension Fee: The memo omits the 5 basis point extension fee paid to consenting lenders as a condition of the waiver becoming effective."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The Key Deal Terms table lists the 'Maturity Date' as March 31, 2021, while also defining this date as the end of the 'Extended Waiver Period'. The end date of a temporary waiver is not the same as the maturity date of the entire credit facility, creating a factual contradiction.\", \"The memo, written from an investor perspective, lists lender protections (prohibiting the borrower from taking on more debt or making distributions) under the 'Principal Risks' section. For an investor, these items are risk mitigants, not risks, which contradicts the section's categorization.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

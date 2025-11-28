@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The detailed 6.13(a)(iii) disposition covenant: the 2022 special measurement period (January 1, 2022 through the month of sale), the 12-month rolling period for dispositions consummated on/after January 1, 2023, and the requirement that such dispositions not constitute a \u201cSubstantial Portion\u201d of the Property of the Borrower and its Subsidiaries."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo labels the Feb 10, 2022 document as the \\u201cthird amendment,\\u201d yet it also lists three prior amendment dates (May, July, and November 2021) and states there were \\u201cfour amendments since February 2021,\\u201d which together imply the Feb 2022 document should be the fourth amendment, not the third.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

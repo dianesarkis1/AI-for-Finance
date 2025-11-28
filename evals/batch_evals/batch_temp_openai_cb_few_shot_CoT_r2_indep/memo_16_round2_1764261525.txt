@@ -1,0 +1,40 @@
+## Step-by-Step Approach
+
+- **Identify key transaction details**: Extract borrower, lenders, amendment date, and original credit agreement date
+- **Analyze the substantive changes**: Focus on what specific terms are being modified in Section 2.01(a)(iii)
+- **Assess credit implications**: Evaluate the borrower-friendly nature of increased floor plan financing limits
+- **Extract available financial terms**: Review document for any pricing, maturity, or covenant information
+- **Structure professional memo**: Present findings in executive summary, investment analysis, and deal terms table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-10-29
+
+**Borrower/Company Overview:** MarineMax, Inc., a Florida corporation, serves as Borrower Representative alongside subsidiary borrowers and guarantors including marine retail operations, yacht services entities, marina operations, boat manufacturing, and international operations across multiple jurisdictions.
+
+**Transaction Description:** Fourth Amendment to Credit Agreement among MarineMax, Inc., its subsidiary loan parties, a syndicate of lenders led by Manufacturers and Traders Trust Company as Administrative Agent, and Wells Fargo Commercial Distribution Finance, LLC as Floor Plan Agent. The amendment modifies the existing credit facility originally established August 8, 2022.
+
+**Purpose of Financing:** Amendment increases floor plan inventory financing sublimits to accommodate expanded inventory capacity across MarineMax's boat dealership operations, providing enhanced working capital flexibility for vessel inventory management.
+
+**Company Background:** MarineMax operates as a comprehensive marine services company with operations spanning boat retail sales, yacht brokerage and charter services, marina management, boat manufacturing, and related marine industry services across the United States and international markets.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- **Strong lender syndicate participation**: Supported by major financial institutions including Manufacturers and Traders Trust Company, Wells Fargo Commercial Distribution Finance, Bank of America, PNC Bank, BMO Bank, Flagstar Bank, The Huntington National Bank, Northpoint Commercial Finance, Hancock Whitney Bank, BankUnited, Raymond James Bank, Cadence Bank, and Coastal States Bank
+- **Covenant compliance maintained**: Borrower representations confirm no existing defaults or events of default, indicating current compliance with all financial maintenance requirements
+- **Diversified marine industry platform**: Comprehensive business model spanning retail, manufacturing, marina operations, and yacht services provides multiple revenue streams
+- **Enhanced operational flexibility**: Increased floor plan limits enable improved inventory management capabilities
+
+### Principal Risks and Mitigating Factors:
+- **Increased inventory financing exposure**: Higher sublimits may indicate growing working capital requirements requiring careful monitoring
+- **Credit facility relaxation**: Borrower-favorable modifications could signal underlying liquidity pressures or competitive inventory investment needs
+- **Limited financial transparency**: Amendment provides minimal current financial performance metrics for comprehensive credit assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Floor plan financing for new vessels >80 feet: maximum $158,333,333<br>• Floor plan financing for foreign OEM vessels (excluding Azimut/Galeon brands): maximum $158,333,333<br>• Floor plan financing for used vessel inventory: maximum $158,333,333<br>• Floor plan financing for individual vessels >$1,000,000 value: maximum $450,000,000<br>• All existing guarantees and security interests reaffirmed<br>• Comprehensive subsidiary guarantee structure maintained |

@@ -1,0 +1,42 @@
+## Checklist of Approach:
+- Extract basic transaction details (parties, dates, amendment type)
+- Identify the specific changes being made to the credit agreement
+- Analyze the bankruptcy/DIP context and implications for investors
+- Assess available financial terms and covenant information
+- Structure findings into executive summary, investment analysis, and deal terms table
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-08-28
+
+**Borrower/Company Overview:** Lilis Energy Inc., a Nevada corporation operating in the energy sector, is currently under Chapter 11 bankruptcy protection alongside its subsidiary guarantors.
+
+**Transaction Description:** This represents a third amendment to a Senior Secured Super-Priority Debtor-in-Possession Credit Agreement originally executed on June 30, 2020. The transaction involves Lilis Energy Inc. as borrower, multiple subsidiary guarantors, and a syndicated lender group led by BMO Harris Bank N.A. as Administrative Agent, with Capital One National Association and Credit Suisse AG, Cayman Islands Branch as lenders.
+
+**Purpose of Financing:** The amendment extends critical Chapter 11 bankruptcy milestones to provide additional time for the borrower's restructuring process. Specifically, the amendment grants a five-day extension of a milestone deadline from August 28, 2020 to September 3, 2020.
+
+**Company Background:** Lilis Energy Inc. is an energy company that filed for Chapter 11 bankruptcy protection in 2020. The company operates through multiple subsidiaries including Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC, all of which serve as guarantors under the DIP facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Super-priority DIP structure provides enhanced creditor protections and priority recovery rights in bankruptcy proceedings
+• Institutional lender syndicate including BMO Harris Bank, Capital One, and Credit Suisse demonstrates sophisticated underwriting and ongoing support
+• Borrower maintains compliance with all existing representations, warranties, and financial covenants as certified on the amendment effective date
+• Comprehensive guarantee structure across all operating subsidiaries provides additional security and recovery sources
+• All existing loan documentation, security interests, and collateral arrangements remain in full force and effect
+
+**Principal Risks and Mitigating Factors:**
+• Elevated credit risk inherent in Chapter 11 bankruptcy context with potential for significant principal loss despite DIP priority
+• Milestone extension requests indicate potential execution delays in the restructuring timeline, increasing completion risk
+• Limited financial disclosure restricts comprehensive credit analysis and ongoing monitoring capabilities
+• Energy sector exposure presents additional commodity price and operational volatility risks during restructuring period
+• Future amendment requests may be required if restructuring milestones continue to face delays
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Chapter 11 milestone deadline extended from 2020-08-28 to 2020-09-03 per Section 8.23(e)<br>• All existing representations and warranties must remain true and correct in all material respects<br>• No Default or Event of Default permitted to occur or continue<br>• Borrower and guarantors must maintain compliance with all loan document requirements |

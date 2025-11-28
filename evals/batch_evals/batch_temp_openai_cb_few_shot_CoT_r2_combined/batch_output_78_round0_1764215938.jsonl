@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- \"Multiple subsidiary guarantors provide additional credit support through cross-guarantees.\" (The source lists Loan Parties but does not state they are guarantors or that cross-guarantees exist.)"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The amendment\u2019s scope applies only to \u201cagreements relating to unsecured Indebtedness permitted under Section 6.01\u201d of the Credit Agreement."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Key Deal Terms describes the amendment as addressing 'unsecured indebtedness' while also stating it 'permit[s] pari passu liens for Administrative Agent'; associating unsecured debt with pari passu liens is internally inconsistent because unsecured debt, by definition, lacks liens.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 90.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

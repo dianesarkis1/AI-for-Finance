@@ -1,0 +1,42 @@
+## Checklist
+- Extract transaction date and key parties from Amendment No. 1
+- Analyze the revolving credit facility increase structure and amounts
+- Identify borrower background and transaction purpose from document
+- Assess credit strengths from lender syndicate and terms
+- Review risks inherent in biotechnology sector exposure
+- Compile comprehensive deal terms table including fee structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-08-18
+
+**Borrower/Company Overview:** Halozyme Therapeutics, Inc. is a Delaware corporation operating in the biotechnology sector, with subsidiaries Halozyme, Inc. and Antares Pharma, Inc. serving as Guarantors under the credit facility.
+
+**Transaction Description:** Amendment No. 1 to the Credit Agreement increases the existing revolving credit facility through Incremental Revolving Commitments of $225,000,000. The transaction involves multiple Increase Loan Lenders joining the syndicate, with Bank of America, N.A. serving as Administrative Agent and Swing Line Lender. The amendment modifies the original Credit Agreement dated May 24, 2022.
+
+**Purpose of Financing:** The increased facility provides additional liquidity for general corporate purposes, with all loan proceeds to be used in accordance with Section 6.11 of the Amended Credit Agreement. The amendment also facilitates the full repayment of outstanding Term A Loans.
+
+**Company Background:** Halozyme operates as a biotechnology company with a subsidiary structure including Halozyme, Inc. and Antares Pharma, Inc., both providing guarantees under the credit facility and maintaining collateral support through existing Collateral Documents.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional syndicate including Bank of America, Wells Fargo, JPMorgan Chase, Goldman Sachs Bank USA, Citibank, Mizuho Bank, and other premier financial institutions demonstrating broad market confidence
+• Significant facility increase of $225 million within months of original agreement indicates strong lender appetite and borrower creditworthiness
+• Robust collateral package with all existing Liens continuing in full force and effect to secure increased obligations
+• Conservative leverage management demonstrated through required pro forma Consolidated Net Leverage Ratio maintenance at 0.25x below maximum permitted levels
+• Complete Term A Loan repayment as part of the amendment shows disciplined debt management and liquidity optimization
+
+**Principal Risks and Mitigating Factors:**
+• Biotechnology sector exposure presents inherent regulatory approval risks, clinical trial uncertainties, and product development challenges
+• Substantial facility increase may signal anticipated higher capital requirements or potential acquisition financing needs
+• Limited financial covenant visibility beyond leverage ratio requirements mentioned in effectiveness conditions
+• Concurrent convertible notes issuance referenced in conditions suggests complex capital structure management requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 225,000,000 (incremental); USD 575,000,000 (total facility) | N/A | N/A | N/A | N/A | • Pro forma Consolidated Net Leverage Ratio must not exceed 0.25:1.00 less than permitted ratio under Section 7.11(a)<br>• Compliance with all covenants in Section 7.11 required<br>• All fees payable on Amendment No. 1 Effective Date are fully earned, due and non-refundable thereafter<br>• Collateral Documents and Liens remain in full force and effect<br>• Guarantees from Halozyme, Inc. and Antares Pharma, Inc. continue |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Claims \u201celimination of 1-week and 2-month USD LIBOR interest period options.\u201d Source allows these tenors with consent of the Required Lenders; they are not absolutely eliminated."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Exception: 1-week and 2-month USD LIBOR interest periods remain selectable with Required Lenders\u2019 consent"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Flexibility is listed as both a strength (\\u201cFlexibility Maintained\\u201d) and a risk (\\u201cReduced Financing Flexibility\\u201d), which are incompatible claims about the borrower\\u2019s financing flexibility.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

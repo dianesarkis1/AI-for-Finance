@@ -1,0 +1,41 @@
+## Conceptual Checklist
+
+- Extract key parties, dates, and transaction structure from the amendment document
+- Identify the specific amendments being made to the original credit agreement
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Ensure proper formatting and professional tone throughout the memo
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-06-15
+
+**Borrower/Company Overview:** Sigmatron International, Inc., a Delaware corporation, maintains a credit facility with JPMorgan Chase Bank, N.A.
+
+**Transaction Description:** Amendment No. 2 to Credit Agreement is a bilateral modification between Sigmatron International, Inc. (Borrower) and JPMorgan Chase Bank, N.A. (Lender), amending the original Amended and Restated Credit Agreement dated July 18, 2022.
+
+**Purpose of Financing:** The amendment updates collateral and lien requirements related to material asset acquisitions and establishes procedures for potential corporate restructuring activities, specifically addressing the delivery of New Holdco Pledge Documents in connection with restructuring under a separate Term Loan Agreement.
+
+**Company Background:** Sigmatron International operates under a multi-facility credit structure that includes this JPMorgan Chase credit facility and a separate Term Loan Agreement, with both facilities governed by an Intercreditor Agreement. The company is currently planning or executing a corporate restructuring that requires coordination between these facilities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationship with JPMorgan Chase Bank, N.A., providing access to institutional-quality lending
+• Borrower demonstrates covenant compliance with no defaults or breaches identified
+• Coordinated multi-facility structure suggests sophisticated capital management approach
+• Amendment includes comprehensive legal protections through release provisions and security reaffirmations
+
+**Principal Risks and Mitigating Factors:**
+• Corporate restructuring activities introduce execution risk, mitigated by specific procedural requirements and timelines
+• Limited amendment scope restricts visibility into overall credit metrics and facility terms
+• Compliance requirements for New Holdco Pledge Documents create potential technical default risk, mitigated by clear 10-business-day delivery timeline
+• Multi-facility structure may create complexity in covenant compliance and intercreditor coordination
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Material asset acquisition notification and lien subjection requirements<br>• Corporate restructuring: New Holdco Pledge Documents delivery within 10 Business Days<br>• All liens and security interests subject to Intercreditor Agreement<br>• Continued compliance with all existing Credit Agreement representations and warranties<br>• No defaults or events of default permitted before or after amendment effectiveness |

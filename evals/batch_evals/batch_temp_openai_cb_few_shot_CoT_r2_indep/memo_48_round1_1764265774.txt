@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-11-17
+
+**Borrower/Company Overview:** Spectrum Brands, Inc., a Delaware corporation, operates as a diversified consumer products company. The company serves as Lead Borrower under a revolving credit facility with Royal Bank of Canada as Administrative Agent.
+
+**Transaction Description:** Fourth Amendment to Amended and Restated Credit Agreement between Spectrum Brands, Inc., Royal Bank of Canada (as Administrative Agent), and participating Revolving Lenders. This amendment modifies financial covenant terms within the existing revolving credit facility structure originally established in 2015 and restated in 2020.
+
+**Purpose of Financing:** The amendment provides Spectrum Brands with enhanced operational flexibility and additional time to complete the divestiture of its Hardware and Home Improvement (HHI) segment. The company requires covenant relief to accommodate potential timing delays in the asset sale process while maintaining compliance with existing credit terms.
+
+**Company Background and Context:** Spectrum Brands has entered into a definitive Asset and Stock Purchase Agreement dated September 8, 2021, with ASSA ABLOY AB (a Swedish corporation) to divest its Hardware and Home Improvement segment for $4.3 billion in cash proceeds, subject to customary purchase price adjustments. The transaction has been in process for over one year, necessitating this covenant modification to provide additional execution flexibility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Substantial deleveraging opportunity through $4.3 billion asset divestiture proceeds, representing significant value relative to most corporate credit transactions
+• Established banking relationship with Royal Bank of Canada as Administrative Agent, indicating institutional lender confidence
+• Strategic asset disposal to ASSA ABLOY AB, a well-established Swedish acquirer, suggesting credible transaction counterparty
+• Temporary and event-driven covenant relief structure with clear reversion triggers, demonstrating disciplined approach to credit modifications
+• Amendment includes compensatory fees (0.20% of commitments) to lenders, reflecting appropriate risk-adjusted pricing for covenant flexibility
+
+**Principal Risks and Mitigating Factors:**
+• Leverage covenant relaxation to 7.00:1.00 from 6.00:1.00 indicates potential near-term financial stress or operational challenges requiring enhanced covenant headroom
+• Extended transaction timeline since September 2021 suggests possible execution complexity, regulatory hurdles, or market conditions affecting deal completion
+• Limited transparency into overall facility size, pricing terms, and additional financial maintenance covenants constrains comprehensive credit risk assessment
+• Dependence on successful HHI Sale completion for covenant reversion creates binary outcome risk; however, hard reversion date of September 29, 2023 provides definitive timeline regardless of transaction status
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Total Net Leverage Ratio: Maximum 7.00:1.00 from November 17, 2022 through earlier of (i) September 29, 2023 or (ii) 10 Business Days after HHI Sale closing or termination fee receipt; thereafter reverts to maximum 6.00:1.00<br>• Amendment fee: 0.20% of aggregate Revolving Credit Commitments paid to consenting lenders<br>• Testing occurs on last day of each fiscal quarter (quarterly testing frequency)<br>• Covenant applies to Revolving Facility only |

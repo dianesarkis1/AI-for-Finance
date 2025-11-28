@@ -1,0 +1,42 @@
+## Checklist of Approach:
+- Extract key transaction parties and their roles from the amendment document
+- Identify the specific amendments being made to the original credit agreement
+- Note the maturity date extension and reinvestment period changes
+- Analyze credit positives and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo following the three required sections with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-06-18
+
+**Borrower/Company Overview:** OFSCC-FS, LLC, a Delaware limited liability company, serves as the borrower in this revolving credit and security agreement structure. OFS Capital Corporation acts as servicer, with OFSCC-FS Holdings, LLC serving as equityholder.
+
+**Transaction Description:** This transaction represents a third amendment to an existing revolving credit and security agreement originally executed on June 20, 2019. The counterparties include BNP Paribas serving dual roles as Administrative Agent and Lender, Mitsubishi HC Capital America, Inc. as Lender, Citibank, N.A. as Collateral Agent, and Virtus Group, LP as Collateral Administrator.
+
+**Purpose of Financing:** The amendment extends the facility's maturity date and modifies the reinvestment period parameters to provide continued liquidity and operational flexibility.
+
+**Company Background:** The structure suggests an asset-based lending or securitization vehicle, with professional third-party administration and established institutional banking relationships dating back to 2019.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional lender syndicate including major financial institutions BNP Paribas and Mitsubishi HC Capital America
+• Professional third-party oversight through experienced collateral administrator (Virtus Group) and collateral agent (Citibank)
+• Clean credit profile with borrower representations confirming absence of defaults, events of default, or servicer removal events
+• Maturity extension to June 2027 provides meaningful term extension for facility operations
+• Structured governance framework with multiple specialized parties providing operational controls
+
+**Principal Risks and Mitigating Factors:**
+• Limited transparency into underlying asset quality, portfolio composition, or financial performance metrics
+• Compressed reinvestment period ending August 2025 may constrain future asset acquisition or deployment strategies
+• Complex multi-party operational structure creates dependency risks across servicer, collateral administrator, and agent relationships
+• Amendment nature limits visibility into overall facility size, pricing, and covenant structure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2027-06-20 | N/A | • Final Maturity Date: Earlier of June 20, 2027 or acceleration/termination events<br>• Reinvestment Period: Ends August 31, 2025 (extendable by lender agreement)<br>• No current defaults, events of default, or servicer removal events<br>• All original agreement representations and warranties reaffirmed |

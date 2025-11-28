@@ -1,0 +1,44 @@
+## Planning Checklist
+
+I will:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the borrower (Greystone Housing Impact Investors LP) and lender (Bankers Trust Company)  
+- Analyze the administrative nature of amendments to Pledged Account and Securities Intermediary definitions
+- Assess investment strengths and risks from a credit perspective based on available information
+- Create a properly formatted deal terms table using only explicitly stated information
+- Improve structure and organization for enhanced clarity
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-27
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP is a Delaware limited partnership, formerly known as America First Multifamily Investors, L.P. The entity operates in the multifamily housing investment sector.
+
+**Transaction Description:** This is a Third Amendment to an Amended and Restated Credit Agreement between Greystone Housing Impact Investors LP (borrower) and Bankers Trust Company (lender). The original credit agreement was established on August 23, 2021, with subsequent amendments on April 29, 2022, and July 29, 2022.
+
+**Purpose of Financing:** The amendment serves an administrative purpose, updating specific definitions within the existing credit facility. The modifications include redesignating the Pledged Account to account #164283-000 and formally appointing Wilmington Trust, National Association as the Securities Intermediary.
+
+**Company Background:** Based on its former name "America First Multifamily Investors, L.P.," the borrower is focused on multifamily housing investments. The company maintains an established banking relationship with Bankers Trust Company through a collateralized credit facility structure.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Credit Performance:** Borrower confirms no Event of Default or Unmatured Event of Default has occurred
+• **Institutional Collateral Management:** Utilizes Wilmington Trust, National Association as Securities Intermediary for pledged account administration
+• **Covenant Compliance:** All existing covenants, representations, and warranties remain valid and in compliance
+• **Stable Banking Relationship:** Maintains ongoing credit facility with Bankers Trust Company since 2021
+
+**Principal Risks and Mitigating Factors:**
+• **Limited Financial Transparency:** Amendment provides minimal insight into borrower's current financial condition or performance metrics
+• **Collateral Dependency:** Credit structure relies on proper maintenance of pledged account arrangements and associated documentation
+• **Administrative Complexity:** Multiple amendments suggest ongoing need for facility modifications
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • No Event of Default or Unmatured Event of Default has occurred<br>• All existing covenants, representations, and warranties confirmed as true<br>• Pledged Account #164283-000 maintained at Wilmington Trust, National Association<br>• Updated Security Agreement and Control Agreement execution required |

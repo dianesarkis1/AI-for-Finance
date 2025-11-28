@@ -1,0 +1,40 @@
+# Checklist
+
+- Identify the key parties, dates, and transaction structure from the lender joinder agreement
+- Extract the specific financial terms including commitment amounts and transaction purpose
+- Analyze credit strengths and risks from an investment perspective based on available information
+- Compile deal terms into the required table format, marking unavailable information as "N/A"
+- Ensure all sections follow the prescribed structure and professional tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-12
+
+**Borrower / Company Overview:** MSCC Funding I, LLC, a Delaware limited liability company, serves as the Borrower under a revolving credit and security agreement. Main Street Capital Corporation, a Maryland corporation, acts as the Collateral Manager.
+
+**Transaction Description:** This transaction involves EverBank, N.A. joining as an Additional Lender to an existing syndicated revolving credit facility through a Lender Joinder Agreement. The syndicate includes Truist Bank as Administrative Agent and Swingline Lender, Citibank, N.A. as Collateral Agent, Custodian and Document Custodian, and Virtus Group, LP as Collateral Administrator.
+
+**Purpose of Financing:** The joinder adds EverBank as a new lender to expand the existing revolving credit facility, with proceeds used for reallocation of outstanding advances among lenders on a pro rata basis and as otherwise directed by the Borrower.
+
+**Company Background:** The Borrower operates under the management of Main Street Capital Corporation as Collateral Manager. The structure requires compliance with Investment Company Act provisions, with lenders required to maintain Qualified Purchaser and Qualified Institutional Buyer (QIB) status, indicating a sophisticated institutional investment vehicle.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional syndicate including Truist Bank and Citibank, N.A., demonstrating market confidence
+• Comprehensive operational structure with dedicated collateral management, administration, and custodial functions
+• Regulatory compliance framework requiring Qualified Purchaser and QIB status ensures institutional-grade participants
+• Pro rata funding mechanism provides equitable risk distribution among syndicate members
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial terms visibility - pricing, maturity, and covenant details not disclosed in joinder documentation
+• Regulatory complexity due to Investment Company Act requirements may create operational constraints
+• Document redactions limit full transparency of commercial terms and participant details
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Lender must maintain Qualified Purchaser status under Investment Company Act<br>• Lender must maintain QIB status under Securities Act<br>• Pro rata funding requirements based on commitment percentages |

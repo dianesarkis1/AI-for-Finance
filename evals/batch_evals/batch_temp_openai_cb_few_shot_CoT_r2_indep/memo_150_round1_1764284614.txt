@@ -1,0 +1,43 @@
+I'll analyze this credit agreement step by step to draft a professional investment memorandum.
+
+**Action Plan:**
+• Extract key transaction details and parties involved
+• Identify the nature and purpose of the amendment
+• Analyze investment strengths and risk factors from a credit perspective
+• Compile deal terms that are explicitly stated in the document
+• Structure findings into the required three-section format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-10
+
+**Borrower / Company Overview:** Sight Sciences, Inc., a Delaware corporation, serves as the Borrower under a revolving credit facility with MidCap Funding IV Trust acting as Agent for the Lenders.
+
+**Transaction Description:** This Third Amendment modifies an existing Amended and Restated Credit and Security Agreement (Revolving Loan) originally dated November 23, 2020, with prior amendments executed in October 2021 and November 2021. The Agent, MidCap Funding IV Trust, is managed by Apollo Capital Management, L.P.
+
+**Purpose of Financing:** The amendment primarily establishes enhanced lockbox account procedures and control mechanisms to strengthen cash management oversight of the borrower's account receivables collections.
+
+**Company Background:** Sight Sciences operates as a medical device company, though specific operational details are not provided in this financing document.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established credit relationship dating back to November 2020 with experienced healthcare-focused lender MidCap/Apollo
+• Enhanced cash management controls through lockbox arrangements provide improved collection visibility and control
+• Borrower representations confirm no existing defaults or events of default under the financing documents
+• Security interests and liens remain in full force and effect, maintaining collateral protection
+• Structured covenant framework with clear operational requirements and monitoring mechanisms
+
+**Principal Risks and Mitigating Factors:**
+• Enhanced collection monitoring requirements may indicate lender concerns about borrower's operational performance or compliance history
+• More restrictive cash management controls suggest potential collection or reconciliation challenges
+• Limited visibility into underlying financial performance, covenant compliance metrics, or business fundamentals from this document alone
+• Risk mitigation provided through comprehensive lockbox controls, daily reconciliation requirements, and agent's ability to halt further advances for non-compliance
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants or Financial Maintenance Terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Lockbox Activation Date: 5 business days prior to initial borrowing<br>• All account collections must flow through lockbox system following activation date<br>• Daily sweep requirement: all Lockbox Account funds transferred to Payment Account by close of business daily<br>• Prohibition on withdrawals from Lockbox Accounts after activation<br>• Prohibition on changing lockbox procedures or sweep instructions after activation<br>• Only Account payments and Borrowing Base Collateral proceeds may be deposited in Lockbox Accounts<br>• Daily reconciliation of lockbox receipts required<br>• Agent may cease advances if >20% of collections during any 15-day period not reconciled within 10 business days<br>• Deposit Account Control Agreement required for each Lockbox Account minimum 5 business days before initial borrowing<br>• Individual Account Debtors may pay Borrowers directly unless Agent directs otherwise<br>• Security interests and liens maintained in full force |

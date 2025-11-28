@@ -1,0 +1,39 @@
+## Conceptual Checklist
+
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify Square Inc.'s PPP-related facility changes and Goldman Sachs' role as Administrative Agent
+- Analyze credit positives from lender consortium and COVID-related government program participation
+- Assess risks related to regulatory changes and limited financial covenant visibility
+- Compile deal terms table noting missing pricing and maturity information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On January 28, 2021, Square, Inc. executed a third amendment to its revolving credit agreement originally dated May 1, 2020, with Goldman Sachs Bank USA serving as Administrative Agent.
+- Square Inc., a financial services and digital payments company, leads this credit facility alongside a consortium of major financial institutions including JPMorgan Chase Bank, Wells Fargo Bank, Sumitomo Mitsui Banking Corporation, HSBC Bank USA, and U.S. Bank National Association.
+- The amendment primarily updates definitions related to COVID-19 relief programs and increases the permitted indebtedness limit for Paycheck Protection Program Liquidity Facility (PPPLF) borrowings to $1,000,000,000 aggregate principal amount outstanding.
+- The purpose of this amendment is to accommodate Square's participation in government COVID-19 relief programs, specifically updating references to the CARES Act, PPP Loans, and the PPPLF to reflect legislative changes through the Consolidated Appropriations Act, 2021.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking consortium comprising top-tier financial institutions (Goldman Sachs, JPMorgan Chase, Wells Fargo, HSBC, U.S. Bank, Sumitomo Mitsui), demonstrating significant lender confidence in Square's credit profile.
+- Borrower maintains compliance with all existing covenants and representations, with no defaults or events of default occurring.
+- Strategic participation in government-backed COVID relief programs provides additional liquidity support and demonstrates proactive capital management.
+
+### Principal Risks and Mitigating Factors:
+- The substantial increase in PPPLF borrowing capacity to $1 billion may indicate potential liquidity needs or market stress related to COVID-19 impacts.
+- Limited visibility into core financial metrics, pricing terms, and other covenant details constrains comprehensive credit assessment.
+- Regulatory dependency on government programs creates potential exposure to policy changes or program modifications.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Specified Indebtedness incurred pursuant to the PPPLF not to exceed $1,000,000,000 aggregate principal amount outstanding at any time. All existing loan documents remain in full force and effect. |

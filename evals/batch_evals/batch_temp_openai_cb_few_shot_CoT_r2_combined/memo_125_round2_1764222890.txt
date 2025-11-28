@@ -1,0 +1,44 @@
+I'll analyze this credit agreement step by step to create a comprehensive investment memorandum.
+
+**Checklist:**
+- Identify key transaction details and parties involved
+- Extract specific amendment provisions and their implications
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms into structured table format
+- Validate all information is sourced directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-08-28
+
+**Borrower/Company Overview:** Lilis Energy Inc., a Nevada corporation, operates in the energy sector with five subsidiary guarantors: Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC.
+
+**Transaction Description:** Third amendment to a Senior Secured Super-Priority Debtor-in-Possession Credit Agreement dated June 30, 2020. The syndicate includes BMO Harris Bank N.A. as Administrative Agent and lenders Capital One National Association and Credit Suisse AG Cayman Islands Branch.
+
+**Purpose of Financing:** Extension of Chapter 11 bankruptcy milestone from August 28, 2020 to September 3, 2020, providing additional time for restructuring efforts under the DIP facility.
+
+**Company Background:** Energy sector borrower currently operating under Chapter 11 bankruptcy protection with an established DIP credit facility supporting operations during restructuring.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Super-priority DIP status provides enhanced recovery rights ahead of pre-petition creditors
+• Senior secured structure with collateral protection
+• Syndicate includes established institutional lenders (BMO Harris, Capital One, Credit Suisse)
+• Borrower maintains covenant compliance with no continuing defaults
+• Amendment demonstrates constructive lender-borrower relationship
+
+**Principal Risks and Mitigating Factors:**
+• Chapter 11 proceedings present inherent execution and recovery risk, partially mitigated by super-priority status
+• Milestone extension request signals potential restructuring delays
+• Energy sector commodity price and operational volatility
+• Limited financial visibility during bankruptcy proceedings
+• Restructuring outcome uncertainty regarding creditor recoveries
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Chapter 11 milestone extended to September 3, 2020<br>• Material accuracy of representations and warranties required<br>• No Default or Event of Default permitted<br>• Original credit agreement terms remain in effect |

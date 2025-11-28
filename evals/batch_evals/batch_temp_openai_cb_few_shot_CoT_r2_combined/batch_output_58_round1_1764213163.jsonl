@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Full revised Change in Control triggers beyond the 35% voting power threshold, including:"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Conflicting timing of amendment effectiveness vs. Unit Purchase: one section says effectiveness is contingent upon completion of the Unit Purchase (implies after completion), while the deal terms say effectiveness requires substantial contemporaneous consummation (implies at the same time).\", \"The amendment\\u2019s closing conditions are described as both providing 'transaction execution certainty' (Strengths) and creating 'execution risk' due to the April 9, 2021 deadline (Risks), which are mutually inconsistent assessments of execution.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 62.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

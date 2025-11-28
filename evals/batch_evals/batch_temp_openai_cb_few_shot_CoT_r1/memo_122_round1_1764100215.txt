@@ -1,0 +1,44 @@
+## Analysis Checklist
+
+Based on the credit agreement document, I will:
+- Identify the key transaction details (date, parties, structure)
+- Extract the borrower profile and transaction purpose
+- Analyze the incremental commitment terms and lender syndicate
+- Assess credit strengths and risks from an investor perspective
+- Compile deal terms into the required table format
+- Ensure all information is sourced directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-12-28
+
+**Borrower/Company Overview:** Oaktree Specialty Lending Corporation, a Delaware corporation, serves as the Borrower with subsidiary guarantors OCSL SRNE, LLC and FSFC Holdings, Inc. The company appears to be a specialty lending entity, likely a business development company focused on direct lending activities.
+
+**Transaction Description:** This transaction represents an incremental commitment increase to an existing Amended and Restated Senior Secured Revolving Credit Agreement originally dated February 25, 2019. MUFG Union Bank, N.A. serves as the Increasing Lender, with ING Capital LLC as Administrative Agent and Issuing Bank. The syndicate includes JPMorgan Chase Bank, N.A., Merrill Lynch, Pierce, Fenner & Smith Incorporated as Joint Lead Arrangers and Joint Bookrunners, and JPMorgan Chase Bank, N.A. and Bank of America, N.A. as Syndication Agents.
+
+**Purpose of Financing:** To provide additional borrowing capacity through an incremental commitment of $25,000,000, expanding the borrower's existing revolving credit facility.
+
+**Company Background:** Oaktree Specialty Lending Corporation operates as a specialty lending entity with the backing of the Oaktree brand, a well-established alternative asset management firm with significant market presence in direct lending.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong sponsor reputation with Oaktree branding, a well-known alternative asset management firm
+• Robust lender syndicate including major financial institutions (ING Capital, JPMorgan Chase, Bank of America, MUFG Union Bank)  
+• Senior secured structure with collateral protection and subsidiary guarantees
+• Incremental commitment demonstrates continued lender confidence and willingness to increase exposure
+• Existing credit relationship dating to 2019 shows stability and ongoing lender support
+• MUFG Union Bank's existing $50,000,000 commitment prior to increase demonstrates substantial existing exposure and confidence
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into specific financial performance, covenant compliance, or current utilization levels
+• As a specialty lending entity, borrower is likely exposed to credit risk from its underlying loan portfolio
+• Incremental facility terms are identical to existing facility terms, providing consistency but no enhanced protections for increased exposure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Terms identical to existing facility<br>• Guarantee and Security Agreement remains in full force<br>• All Security Documents continue to secure obligations<br>• No Default or Event of Default conditions satisfied<br>• MUFG Union Bank existing commitment: USD 50,000,000 |

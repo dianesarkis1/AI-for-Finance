@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- In the \"Key Deal Terms Table,\" the memo describes the covenant modification as excluding certain fees from a \"$15,000,000 quarterly limitation\". The source document states the limitation is \"$15,000,000 in any four (4) quarter fiscal period,\" not a quarterly one."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo asserts that \\\"All existing financial covenants... remain fully enforceable and in effect\\\" (in both Strengths and Deal Terms) while simultaneously stating the amendment's purpose is a \\\"Covenant modification\\\" that alters the definition of EBITDA. A covenant cannot be both modified by the amendment and also remain in its existing, pre-amendment form.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

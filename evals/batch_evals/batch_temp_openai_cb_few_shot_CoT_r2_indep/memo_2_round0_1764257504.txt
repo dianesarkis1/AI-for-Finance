@@ -1,0 +1,44 @@
+I'll analyze this credit agreement step-by-step to create a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key parties, dates, and transaction structure from the limited waiver document
+• Identify the COVID-19 related casino closure context and its financial impact
+• Analyze the waiver terms, covenant breaches, and restrictions imposed on the borrower
+• Assess credit strengths and risks from an investor perspective
+• Compile available deal terms and covenant information into the required table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On November 30, 2020, Bank of Montreal as Administrative Agent granted a Fifth Amended and Restated Limited Waiver to MGE Niagara Entertainment Inc., a casino operator.
+- MGE Niagara Entertainment Inc. serves as the Borrower with Complex Services Inc. as guarantor under a credit agreement originally dated June 10, 2019 (amended July 17, 2019).
+- This transaction represents an extension of COVID-19 related waivers due to government-mandated casino closures. The waiver extends relief from financial covenant breaches and closure defaults through March 31, 2021 (the "Extended Waiver Period").
+- The financing accommodation addresses liquidity pressures from casino facility closures mandated by Ontario Lottery and Gaming Corporation (OLG) due to COVID-19 pandemic restrictions.
+- MGE Niagara Entertainment Inc. operates casino facilities under regulatory oversight, with OLG providing certain financial relief through threshold payment relief and fixed component per diem payments during the closure period.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Government Support: OLG (Ontario Lottery and Gaming Corporation) is providing financial relief through threshold payment relief and fixed component per diem payments during closure
+• Liquidity Requirements: Borrower must maintain minimum liquidity of $15,000,000 at all times, providing downside protection
+• Weekly Monitoring: Required weekly liquidity reporting ensures close oversight of financial condition
+• Regulated Industry: Casino operations are highly regulated, providing some operational stability framework
+
+### Principal Risks and Mitigating Factors:
+• COVID-19 Impact: Extended closure of casino facilities creates significant operational and financial stress
+• Financial Covenant Breaches: Multiple breaches of financial covenants in Sections 9.4.1 and 9.4.2 indicate deteriorating financial performance
+• Increased Pricing: Applicable margin moved to Level 5 (highest pricing tier at 5.00% for BA/LC/LIBOR loans)
+• Restricted Operations: Prohibitions on new advances, distributions, acquisitions, and contract amendments limit financial flexibility
+• Government Dependency: Critical dependence on continued OLG support payments creates concentration risk
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | 5.00% (Bankers' Acceptances/Letters of Credit/LIBOR Loans at Level 5 pricing) |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Maintain Liquidity of not less than $15,000,000 at all times<br>• No new Advances under either Credit Facility<br>• Applicable Margin at Level 5<br>• No Distributions under clause (c) or (e)<br>• No amendments to Leases, MGE Management Agreement, CNHI Consulting Agreement or Convertible Debentures unless favorable<br>• No Acquisitions<br>• Weekly liquidity reporting required<br>• Event of Default if OLG ceases threshold relief or fixed component payments for more than 5 business days |

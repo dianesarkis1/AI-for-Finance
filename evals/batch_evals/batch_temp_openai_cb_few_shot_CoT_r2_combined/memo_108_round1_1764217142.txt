@@ -1,0 +1,40 @@
+**Checklist of Analysis Approach:**
+- Identify key parties, dates, and transaction structure from the amendment document
+- Extract specific amendments made to the original credit agreement, particularly commitment size and liquidity conditions
+- Analyze credit strengths and risks from an investor perspective based on available information
+- Compile key deal terms in the required table format with specified field order
+- Ensure all required sections are present with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-12-19
+
+**Borrower/Company Overview:** Box, Inc., a Delaware corporation, operates as the borrower in a bilateral credit facility with Wells Fargo Bank, National Association.
+
+**Transaction Description:** Amendment No. 1 to Amended and Restated Credit Agreement modifies key terms of the original credit agreement dated June 30, 2023. The transaction involves a bilateral credit facility structure between Box, Inc. as borrower and Wells Fargo Bank as sole lender.
+
+**Purpose of Financing:** The amendment serves to modify the commitment amount to $75,000,000 and revise liquidity condition requirements. The borrower requested amendments to the existing credit agreement terms, specifically related to commitment size and liquidity maintenance provisions.
+
+**Company Background:** Box, Inc. is a Delaware corporation with an existing banking relationship with Wells Fargo Bank, National Association. The company maintains convertible notes outstanding that factor into the amended liquidity requirements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Wells Fargo Bank, National Association provides institutional credibility and established banking relationship
+• Borrower maintains compliance with all representations, warranties, and covenants with no events of default
+• Comprehensive security package remains intact with all guarantees, pledges, and security interests reaffirmed
+• Amendment preserves existing collateral protection and lien priority structure
+
+**Principal Risks and Mitigating Factors:**
+• Bilateral facility structure creates single-lender dependency, potentially limiting refinancing flexibility
+• Revised liquidity condition ties credit availability to convertible note obligations, potentially constraining access
+• Limited transparency on pricing, maturity terms, and financial maintenance covenants restricts comprehensive risk evaluation
+• Liquidity requirements linked to convertible notes may create refinancing pressure if notes remain outstanding
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Liquidity Condition: Borrower's Liquidity must be ≥ outstanding principal amount of Existing Convertible Notes<br>• All existing security documents, guarantees, and security interests reaffirmed<br>• No Event of Default or Potential Event of Default continuing |

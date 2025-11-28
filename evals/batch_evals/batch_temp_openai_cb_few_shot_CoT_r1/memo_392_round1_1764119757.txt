@@ -1,0 +1,41 @@
+## Checklist of Approach
+
+- Extract key parties, dates, and transaction structure from the LIBOR suspension agreement
+- Identify specific operational restrictions and their business rationale
+- Analyze credit and operational implications of the temporary rights suspension
+- Structure content for investment committee review with clear risk/benefit assessment
+- Follow prescribed table format for deal terms presentation
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-10-12
+
+**Borrower:** Emerson Electric Co., a multinational manufacturing and technology company, serves as the primary borrower alongside subsidiary borrowers under a syndicated credit facility.
+
+**Transaction Structure:** Suspension of Rights Agreement modifying an existing Credit Agreement dated May 23, 2018. JPMorgan Chase Bank, N.A. acts as Administrative Agent for the syndicated facility involving multiple lenders and LC issuers.
+
+**Purpose:** Temporary suspension of specific borrowing rights to facilitate orderly transition from LIBOR benchmarks ahead of December 31, 2021 cessation deadline, while deferring costs of formal credit agreement amendments until alternative benchmarks are implemented.
+
+**Company Background:** Emerson Electric Co. operates as a diversified global manufacturing corporation with international operations requiring multi-currency financing capabilities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Proactive LIBOR transition management demonstrates strong operational risk governance
+• Established banking relationship with JPMorgan Chase as Administrative Agent
+• Cooperative approach with lender syndicate suggests positive credit relationship
+• Structured transition maintains facility access while managing benchmark risk
+
+**Principal Risks and Mitigating Factors:**
+• Temporary loss of multi-currency borrowing flexibility may constrain international treasury operations
+• Interest period restrictions limit short-term rate management options
+• Indemnification exposure for transition-related costs and potential operational breaches
+• Underlying credit facility terms and financial condition not disclosed in this document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Suspension of Non-USD currency borrowings (GBP, EUR, JPY)<br>• Prohibition on 1-week and 2-month USD LIBOR interest periods<br>• Automatic currency conversion from Non-USD to USD<br>• Minimum 1-month interest period requirement<br>• Indemnification obligations for breach-related costs |

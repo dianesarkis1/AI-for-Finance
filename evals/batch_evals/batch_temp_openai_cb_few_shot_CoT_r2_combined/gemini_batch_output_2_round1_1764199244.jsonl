@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- In the \"Principal Risks and Mitigating Factors\" section, the memo states: \"New event of default triggers if OLG relief payments cease for more than 5 **consecutive** business days\". The source document states the trigger is if relief ceases \"for more than five (5) Business Days **in aggregate** during such period\". The term \"consecutive\" is not supported and materially changes the condition."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The Key Deal Terms Table lists an 'Undrawn fee of 1.25%', which is a fee paid on available but unused credit, while also stating that 'No new advances available under either credit facility', which makes the credit unavailable and the basis for an undrawn fee logically contradictory.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

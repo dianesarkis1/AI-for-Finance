@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo treats the increase as both pending and completed: it calls it a \\\"commitment increase request,\\\" says the Company \\\"seeks to increase\\\" and that it \\\"will be implemented,\\\" yet also provides a specific \\\"Date of Agreement: 2024-09-04\\\" and lists the post-increase \\\"Deal size: USD 480,000,000.\\\"\", \"BNP Paribas\\u2019s commitment doubling is cited as already demonstrating lender confidence, but elsewhere the memo says the \\\"current increase will be implemented by doubling BNP Paribas's Multicurrency Commitment,\\\" implying it has not yet occurred.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 38.0"}}]}}}

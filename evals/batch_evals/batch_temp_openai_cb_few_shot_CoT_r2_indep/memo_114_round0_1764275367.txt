@@ -1,0 +1,41 @@
+**Planning Checklist:**
+- Extract key transaction details from the lender joinder agreement document
+- Identify the borrower, new lender, and existing credit facility structure
+- Analyze the transaction purpose and financial terms explicitly stated
+- Assess credit positives and risks from an investment perspective
+- Compile deal terms table with only explicitly available information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 12, 2023, EverBank N.A. joined as an additional lender to an existing revolving credit and security agreement for MSCC Funding I, LLC.
+- MSCC Funding I, LLC, a Delaware limited liability company, serves as the borrower, with Main Street Capital Corporation acting as collateral manager. The original credit agreement was dated November 22, 2022.
+- The transaction involves EverBank joining a syndicated lending group that includes Truist Bank as administrative agent and swingline lender, Citibank N.A. as collateral agent, custodian and document custodian, and Virtus Group LP as collateral administrator.
+- The purpose is to add EverBank as a new lender with a $75,000,000 commitment to the existing revolving credit facility, expanding the total lending capacity of the syndicate.
+- Main Street Capital Corporation, a Maryland corporation business development company, appears to be utilizing this funding structure through its subsidiary MSCC Funding I, LLC for investment activities requiring qualified purchaser and qualified institutional buyer status.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional lending syndicate including major banks (Truist Bank, Citibank N.A., and now EverBank N.A.), indicating broad lender confidence
+- Structured as a revolving credit facility providing operational flexibility for the borrower
+- Comprehensive security and collateral framework with dedicated collateral agent, custodian, and administrator roles
+- Qualified institutional buyer and qualified purchaser requirements suggest sophisticated investment-grade structure
+- Main Street Capital Corporation backing provides established BDC sponsor support
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into pricing, covenants, or specific collateral details due to redacted information
+- Revolving credit structure creates potential for variable utilization and cash flow timing
+- Investment company structure may be subject to regulatory constraints and market volatility
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 (EverBank commitment) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Additional Lender must maintain Qualified Purchaser status under Investment Company Act and QIB status under Securities Act |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states a blanket \"Prohibition on distributions during the waiver period.\" The source only prohibits Distributions under clauses (c) and (e) of Permitted Distributions, not all distributions."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Definition of \u201cLiquidity\u201d (Revolving Facility Commitments minus outstanding Obligations plus Unrestricted Cash) as per Schedule A"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Risk section states a blanket 'Prohibition on distributions during waiver period', but the Key Deal Terms table limits the restriction to distributions under clauses (c) or (e) of Permitted Distributions, implying some distributions remain allowed\\u2014these cannot both be true.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 90.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

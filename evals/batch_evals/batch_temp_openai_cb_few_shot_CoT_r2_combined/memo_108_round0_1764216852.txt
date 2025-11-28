@@ -1,0 +1,39 @@
+**Checklist of Analysis Approach:**
+- Identify key parties, dates, and transaction structure from the amendment document
+- Extract specific amendments made to the original credit agreement, particularly commitment size and liquidity conditions
+- Analyze credit strengths and risks from an investor perspective based on available information
+- Compile key deal terms, noting where information is not provided in the document
+- Ensure all required sections are present with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On December 19, 2024, Box, Inc. (a Delaware corporation) and Wells Fargo Bank, National Association entered into Amendment No. 1 to their Amended and Restated Credit Agreement originally dated June 30, 2023.
+- Box, Inc. serves as the Borrower in this bilateral credit facility with Wells Fargo Bank as the sole Lender.
+- The amendment modifies the commitment amount and liquidity condition definitions within the existing credit agreement.
+- The primary purpose is to amend the "Commitment" definition to establish the Lender's commitment at $75,000,000 and to revise the "Liquidity Condition" to require the Borrower's liquidity to be greater than or equal to the outstanding principal amount of existing convertible notes.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Wells Fargo Bank, National Association as the lender provides institutional credibility and banking relationship strength
+- The Borrower reaffirms compliance with all representations, warranties, and covenants, with no Event of Default or Potential Event of Default occurring
+- All existing security documents, guarantees, pledges, and security interests remain in full force and effect
+- The amendment maintains existing collateral protection and lien priorities
+
+### Principal Risks and Mitigating Factors:
+- Bilateral facility structure concentrates credit risk with a single lender, potentially limiting refinancing options
+- The revised "Liquidity Condition" ties borrowing capacity to convertible note obligations, which could constrain access to credit if convertible notes remain outstanding
+- Limited visibility into pricing, maturity, financial covenants, and overall credit metrics constrains comprehensive risk assessment
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Liquidity Condition: Borrower's Liquidity must be greater than or equal to outstanding principal amount of Existing Convertible Notes. All existing security documents, guarantees, and security interests reaffirmed and remain in full force and effect |

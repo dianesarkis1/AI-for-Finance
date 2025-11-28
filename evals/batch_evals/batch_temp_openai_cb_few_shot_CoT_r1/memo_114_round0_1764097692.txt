@@ -1,0 +1,42 @@
+I'll analyze this credit agreement step by step to create a professional investment memorandum.
+
+## Conceptual Approach:
+- Extract key transaction details and parties from the lender joinder agreement
+- Identify the borrower, lenders, and transaction structure 
+- Analyze the credit positives and risks from an investor perspective
+- Compile available deal terms into the required table format
+- Ensure all information is directly sourced from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 12, 2023, EverBank, N.A. executed a Lender Joinder Agreement to join an existing revolving credit facility for MSCC Funding I, LLC.
+- MSCC Funding I, LLC, a Delaware limited liability company, serves as the Borrower, with Main Street Capital Corporation acting as Collateral Manager. The facility is structured as a revolving credit and security agreement originally dated November 22, 2022.
+- The transaction involves EverBank joining a syndicated lending group that includes Truist Bank as Administrative Agent and Swingline Lender, Citibank N.A. as Collateral Agent, Custodian, and Document Custodian, and Virtus Group, LP as Collateral Administrator.
+- EverBank is committing $75,000,000 to the existing revolving credit facility, expanding the total lending capacity available to the borrower.
+- The borrower operates under investment company regulations, requiring lenders to maintain Qualified Purchaser status under the Investment Company Act and Qualified Institutional Buyer (QIB) status under the Securities Act.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional backing with Main Street Capital Corporation, a public business development company, serving as Collateral Manager
+- Robust administrative structure with established financial institutions (Truist Bank, Citibank N.A.) in key agent roles
+- Regulatory compliance framework requiring sophisticated institutional participants (Qualified Purchasers and QIBs only)
+- Comprehensive collateral and security structure with dedicated collateral agent and custodian arrangements
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available in this joinder document restricts comprehensive credit assessment
+- Investment company structure may present regulatory complexities and operational constraints
+- Dependence on collateral manager performance for ongoing credit management and portfolio oversight
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 (EverBank commitment) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Lenders must maintain Qualified Purchaser status under Investment Company Act and QIB status under Securities Act. Borrower subject to comprehensive collateral and security arrangements with designated agents |

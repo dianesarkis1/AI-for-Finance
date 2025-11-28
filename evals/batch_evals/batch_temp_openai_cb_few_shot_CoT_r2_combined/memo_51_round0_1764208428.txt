@@ -1,0 +1,39 @@
+# Investment Memorandum
+
+## Checklist
+- Extract key parties, transaction structure, and dates from the increase supplement
+- Identify the financing purpose and relationship to existing credit facility
+- Analyze credit positives and risks from an investor perspective
+- Compile deal terms available in the document, marking unavailable items as "N/A"
+- Format the memo according to the specified structure with proper sections and table format
+
+## 1. Executive Summary
+
+- In May 2022, Texas-New Mexico Power Company executed an increase supplement to expand its existing credit facility by adding a new lender.
+- Texas-New Mexico Power Company, a Texas corporation, serves as the Borrower under a Fourth Amended and Restated Credit Agreement originally dated March 11, 2022, with KeyBank National Association as Administrative Agent.
+- The transaction involves adding CoBank, ACB as a new lender with a $25,000,000 commitment to the existing credit facility pursuant to Section 2.1(f) of the Credit Agreement.
+- The purpose of this increase supplement is to expand the borrowing capacity under the existing credit facility. Concurrently, the Borrower issued Replacement First Mortgage Bonds under a Sixteenth Supplemental Indenture dated May 13, 2022, which are secured by mortgage bonds in accordance with the FMB Mortgage Documents.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established banking relationship with KeyBank National Association serving as Administrative Agent and existing lender
+- Addition of CoBank, ACB (a cooperative bank specializing in agribusiness and rural infrastructure) demonstrates diversified lender appeal and confidence in the credit
+- Texas-New Mexico Power Company operates as a regulated utility, typically providing stable cash flows and regulatory oversight
+- Secured credit structure with First Mortgage Bonds providing collateral protection to lenders
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available in the supplement to assess overall credit profile and covenant compliance
+- Utility sector exposure to regulatory changes and capital intensity requirements
+- Increased debt capacity could potentially increase leverage if fully utilized
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 (incremental commitment) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Compliance with all terms of Section 2.1(f) of the Credit Agreement confirmed. Secured by Replacement First Mortgage Bonds issued under Sixteenth Supplemental Indenture |

@@ -1,0 +1,41 @@
+## Checklist
+- Extract key parties, dates, and transaction details from the Sight Sciences credit agreement amendment
+- Identify the purpose and nature of the amendments (lockbox account modifications)
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure professional tone and structure consistent with examples provided
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-10
+
+**Borrower / Company Overview:** Sight Sciences, Inc., a Delaware corporation, entered into a Third Amendment to its Amended and Restated Credit and Security Agreement (Revolving Loan) with MidCap Funding IV Trust as Agent and Lender.
+
+**Transaction Description:** This amendment modifies an existing revolving credit facility originally established on November 23, 2020, which had been previously amended in October 2021 and November 2021. The counterparties include Sight Sciences as borrower and MidCap Funding IV Trust serving as both agent and lender.
+
+**Purpose of Financing:** The amendment specifically addresses lockbox account arrangements and cash management procedures, introducing enhanced collection and reconciliation requirements for accounts receivable.
+
+**Company Background:** Sight Sciences operates in the medical device industry with this revolving credit facility structured as an asset-based lending arrangement, evidenced by the focus on accounts receivable collection mechanisms and borrowing base requirements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established credit relationship with multiple amendments demonstrating ongoing lender engagement and flexibility
+• Comprehensive collateral package with security interests and liens maintained in full force and effect  
+• Strong collection mechanisms through required lockbox arrangements for accounts receivable
+• Borrower representations confirm no defaults or events of default exist
+• Amendment includes detailed account reconciliation requirements providing transparency to cash flows
+
+**Principal Risks and Mitigating Factors:**
+• Amendment introduces more restrictive cash management controls, potentially indicating lender concerns about collection efficiency
+• Requirement that 80% of account collections be properly identified and reconciled within 10 business days, with advance suspension if not met
+• Limited financial information available to assess overall credit quality and performance metrics
+• Asset-based lending structure suggests potential reliance on working capital collateral rather than cash flow
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Lockbox activation required 5 business days prior to initial revolving loan borrowing<br>• All account collections must be deposited into lockbox account following activation date<br>• All funds in lockbox accounts must be swept to Payment Account by close of each business day following Lockbox Activation Date<br>• Prior to initial borrowing, funds swept to Deposit Account as Agent directs<br>• Daily reconciliation of lockbox receipts required<br>• 80% of collections must be identified/reconciled within 10 business days or advances may be suspended<br>• Deposit Account Control Agreements required for all lockbox accounts<br>• Security interests and liens in collateral reaffirmed and maintained |

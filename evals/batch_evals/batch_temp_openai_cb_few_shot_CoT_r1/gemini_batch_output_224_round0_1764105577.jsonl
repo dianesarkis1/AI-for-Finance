@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo claims the amendment\\u2019s technical nature \\\"suggests no underlying credit deterioration\\\" (a strength), while also stating the same technical nature \\\"provides minimal insight into borrower's operational or financial condition\\\" (a risk). The same fact cannot simultaneously provide a positive insight and also provide minimal/no insight.\", \"The memo characterizes the amendment as a harmless \\\"technical correction\\\" (a strength) while also identifying it as a \\\"risk\\\" because it \\\"broadens certain provisions.\\\" A change that is substantive enough to be classified as a risk due to broadening provisions cannot also be a mere technical correction.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

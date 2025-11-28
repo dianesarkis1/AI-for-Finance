@@ -1,0 +1,43 @@
+## Planning Checklist:
+- Extract key parties, dates, and transaction type from the amendment
+- Identify the borrower (Team Inc.) and lender structure 
+- Determine the purpose of this amendment (extension of various payment/delivery dates)
+- Analyze credit positives and risks from an investor perspective
+- Compile available deal terms, marking unavailable information as "N/A"
+- Ensure proper formatting and comprehensive analysis for the investment memo structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-11-30
+
+**Borrower/Company Overview:** Team, Inc., a Delaware corporation, serves as the borrower under an unsecured term loan credit facility. The company operates as an established entity requiring flexible financing arrangements, including payment-in-kind interest structures and warrant issuance capabilities.
+
+**Transaction Description:** Amendment No. 1 to an Unsecured Term Loan Credit Agreement between Team, Inc. and multiple institutional lenders, including Corre Opportunities Qualified Master Fund LP, Corre Horizon Fund LP, and Corre Horizon Fund II LP. The transaction involves modifications to an existing credit facility rather than new financing.
+
+**Purpose of Financing:** The amendment provides critical short-term deadline extensions for three specific obligations under the original November 9, 2021 Credit Agreement: (i) extension of PIK Interest payment date for Initial Term Loans from December 1 to December 6, 2021, (ii) extension of ABL Consent delivery requirement to December 6, 2021, and (iii) extension of Underlying Warrants issuance deadline to December 7, 2021.
+
+**Company Background and Context:** Team, Inc. appears to be navigating complex financing arrangements involving multiple debt structures (evidenced by ABL Consent requirements) and equity-linked instruments (Underlying Warrants). The company recently established this unsecured term loan facility and is managing near-term compliance obligations across multiple financing instruments.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• **Limited scope amendments** - Extensions are narrow in scope (5-6 days) and specific to administrative deadlines rather than fundamental credit terms
+• **Proactive borrower management** - Team, Inc. sought amendments in advance of deadlines, demonstrating responsible covenant management
+• **Full lender consent** - All participating lenders agreed to modifications, indicating continued confidence and support from the lending syndicate  
+• **Preservation of lender rights** - Amendment explicitly maintains all existing loan document terms, covenants, and remedies
+• **Recent facility establishment** - Original Credit Agreement dated November 9, 2021, suggests recent successful credit approval and due diligence process
+
+### Principal Risks and Mitigating Factors:
+• **Early execution challenges** - Need for amendments within three weeks of facility origination raises concerns about borrower's operational execution capabilities and internal coordination
+• **PIK interest structure** - Payment-in-kind arrangements may indicate cash flow constraints or preservation strategies, though this could be by design rather than necessity
+• **Multi-layered debt complexity** - References to ABL facilities suggest complex capital structure that may create coordination challenges and potential conflicts
+• **Warrant obligations** - Equity issuance requirements indicate dilutive instruments that may affect borrower's capital structure and future financing flexibility
+• **Limited financial visibility** - Amendment provides minimal insight into underlying financial performance, collateral coverage, or maintenance covenant compliance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | PIK Interest structure (rate not specified) | N/A | N/A | • PIK Interest payment extended to December 6, 2021<br>• ABL Consent delivery required by December 6, 2021<br>• Underlying Warrants issuance required by December 7, 2021<br>• All other Credit Agreement terms remain in full force and effect<br>• Governed by New York law |

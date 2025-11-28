@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states the \u201cApplicable margin increased to Level 5 (highest pricing tier).\u201d The source only states that the Applicable Margin \u201cshall be deemed to be at Level 5\u201d (and that Schedule B is replaced); it does not state that the margin was increased from a prior level."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Specific distribution restriction: prohibition applies only to clauses (c) and (e) of the definition of Permitted Distributions"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Total Leverage Ratio thresholds are internally inconsistent: Level 3 is defined as \\u22653.00x and <4.00x, while Level 4 is >4.00x and \\u22645.00x, leaving exactly 4.00x unassigned to any level.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

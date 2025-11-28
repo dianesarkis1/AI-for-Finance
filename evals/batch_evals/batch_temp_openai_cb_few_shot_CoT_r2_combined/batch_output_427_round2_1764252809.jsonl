@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Describing the impairment as taken in \u201cQ1 2022.\u201d The source only states it was taken during the fiscal quarter ending April 30, 2022, without identifying it as Q1."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Exact effective period for the add-back: fiscal quarter ending April 30, 2022 (and any subsequent period that includes such fiscal quarter)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Stated purpose is to add back the $5.644mm impairment to EBITDA/EBITR to ensure covenant compliance, which would raise coverage metrics, yet the Key Deal Terms say the Fixed Charge Coverage Ratio \\\"must not exceed 1.50 to 1.0\\\" (a maximum). Increasing EBITDA/EBITR would worsen compliance under a maximum, contradicting the stated intent of the modification.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

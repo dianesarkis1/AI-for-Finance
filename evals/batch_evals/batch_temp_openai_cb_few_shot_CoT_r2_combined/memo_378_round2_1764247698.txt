@@ -1,0 +1,42 @@
+Looking at this credit agreement document, I will:
+
+• Identify the key transaction details and parties involved
+• Extract the specific amendments and their purposes
+• Analyze the investment implications from a credit perspective
+• Summarize key terms and covenant modifications
+• Structure the analysis into the required three sections
+• Ensure all data fields are populated with explicit information or marked N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-08-01
+
+**Borrower / Company Overview:** Millrose Properties, Inc., a Maryland corporation, serves as the borrower in this credit facility arrangement.
+
+**Transaction Description:** This First Amendment modifies the original Credit Agreement dated June 24, 2025, between Millrose Properties, Inc. and a lending syndicate led by Goldman Sachs Bank USA as Administrative Agent. The syndicate includes Bank of America N.A., Citibank N.A., Citizens Bank N.A., JPMorgan Chase Bank N.A., and Wells Fargo Bank N.A.
+
+**Purpose of Financing:** The amendment provides enhanced operational flexibility for future capital raising activities while implementing additional fee structures and modified prepayment provisions to support the borrower's strategic financing needs.
+
+**Company Background:** Millrose Properties, Inc. operates as a real estate entity with subsidiaries engaged in property-related business activities, utilizing assets subject to potential replacement or repair following casualty or condemnation events.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lending syndicate demonstrates broad market confidence and provides diversified funding sources
+• All existing collateral and security interests remain fully intact and reaffirmed
+• Amendment provides strategic capital structure flexibility while maintaining lender oversight through notification requirements
+• Established relationship with Goldman Sachs Bank USA as Administrative Agent
+
+**Principal Risks and Mitigating Factors:**
+• Borrower-favorable modifications may increase potential leverage through retained proceeds from designated issuances
+• Additional Stage 4 Funding Fee suggests lender concerns about extended loan duration
+• Relaxed mandatory prepayment requirements could result in higher outstanding debt levels
+• Limited visibility into underlying asset quality and overall financial performance metrics
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • **Original Credit Agreement Date:** June 24, 2025<br>• **Stage 4 Funding Fee:** 0.250% of outstanding principal, due 270 days after Initial Draw Date<br>• **Designated Issuance Limitation:** Only one debt or equity issuance may be designated<br>• **Designated Issuance Prepayment:** Lesser of 100% net proceeds or amount to reduce loans to $500,000,000, applied within 1 Business Day after consummation<br>• **Standard Prepayment Process:** (1) 100% of net proceeds applied to Delayed Draw Term Loan Facility within 5 Business Days, then (2) remaining proceeds automatically reduce outstanding commitments ratably between Acquisition and General Tranche Commitments<br>• **Casualty/Condemnation Reinvestment:** 6-month period for asset replacement/repair<br>• **Security:** All existing liens and collateral reaffirmed |

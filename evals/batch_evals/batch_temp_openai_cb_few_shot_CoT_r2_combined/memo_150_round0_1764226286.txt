@@ -1,0 +1,36 @@
+## Checklist of Analysis Steps:
+- Extract key transaction details including dates, parties, and structure
+- Identify the borrower company and its business context from available information
+- Determine the purpose and nature of this third amendment to the credit agreement
+- Analyze the lockbox account modifications and their implications for credit quality
+- Assess available deal terms and financial covenant information
+- Evaluate credit strengths and risks from an investor perspective
+- Organize findings into the required three-section memorandum format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On May 10, 2022, Sight Sciences, Inc. (a Delaware corporation) entered into a Third Amendment to its Amended and Restated Credit and Security Agreement (Revolving Loan) with MidCap Funding IV Trust as Agent and Lender.
+- The original credit agreement was dated November 23, 2020, and has been previously amended in October 2021 and November 2021.
+- The primary purpose of this amendment is to modify terms related to the Lockbox Account, specifically introducing a "Lockbox Activation Date" that occurs five business days prior to the initial borrowing of Revolving Loans.
+- The amendment establishes enhanced collection procedures requiring Account Debtors to pay directly into lockbox accounts following the Lockbox Activation Date, with daily transfers to the Payment Account.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established credit relationship with MidCap Funding IV Trust managed by Apollo Capital Management, indicating institutional lender confidence
+- Enhanced cash collection controls through lockbox arrangements provide improved visibility and control over receivables for lenders
+- Borrower representations confirm no defaults or events of default exist under the financing documents
+- All existing collateral liens and security interests remain in full force and effect
+
+### Principal Risks and Mitigating Factors:
+- The amendment includes a broad lender release provision, which may limit borrower recourse against lenders
+- Enhanced lockbox controls suggest lenders may be seeking tighter oversight of cash collections, potentially indicating credit concerns
+- Limited financial information available to assess overall credit quality and performance metrics
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| N/A | N/A | N/A | N/A | N/A | • Lockbox Account activation required 5 business days before initial Revolving Loan borrowing<br>• Account Debtors must pay directly into lockbox for deposit into Lockbox Account<br>• Daily transfer of lockbox funds to Payment Account required<br>• Collection reconciliation requirements with Agent oversight<br>• All existing security interests and liens reaffirmed |

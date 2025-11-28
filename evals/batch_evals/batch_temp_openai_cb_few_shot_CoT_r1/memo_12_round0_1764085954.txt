@@ -1,0 +1,37 @@
+Based on my review of this credit agreement, I will create an investment memorandum following these key steps:
+
+• Identify the transaction type and parties involved in the September 2024 joinder agreement
+• Analyze the merger structure involving Innovex/Dril-Quip and the addition of new borrowers
+• Extract available deal terms and covenant information from the credit facility structure
+• Assess credit strengths and risks from an investor perspective
+• Organize findings into the required three-section format with proper table structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 6, 2024, a joinder agreement was executed to add three new borrowers to an existing credit facility with PNC Bank National Association as agent.
+- The existing borrowers include Tercel Oilfield Products USA L.L.C. (Texas), Pride Energy Services, LLC (Texas), and Top-Co Inc. (Alberta). The new borrowers joining the facility are Innovex Downhole Solutions, LLC (formerly DQ Merger Sub, LLC), Innovex International, Inc. (formerly Dril-Quip, Inc.), and TIW Corporation.
+- This transaction stems from a merger between Innovex and Dril-Quip, with the surviving entity becoming a wholly owned subsidiary of Innovex International, Inc. Prior to the merger, Dril-Quip, Inc. changed its name to Innovex International, Inc.
+- The purpose is to incorporate the newly merged entities as borrowers under the existing Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement originally dated June 10, 2022, which has been amended multiple times through June 28, 2024.
+- The companies appear to operate in the oilfield products and energy services sector, with operations spanning multiple jurisdictions including Texas, Delaware, and Alberta.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established credit facility with multiple amendments since 2022, indicating ongoing lender relationship and borrower compliance
+- Strong security package including pledged collateral, continuing security interests, and liens on all borrower assets
+- Joint and several liability structure across all borrowers provides cross-default protection and enhanced recovery prospects
+- Comprehensive post-closing covenant structure with specific deadlines for documentation delivery and compliance requirements
+
+### Principal Risks and Mitigating Factors:
+- Recent corporate reorganization and merger activity may introduce integration risks and operational complexity
+- Multiple borrower structure across different jurisdictions (Texas, Delaware, Alberta) could complicate enforcement procedures
+- Limited financial information available regarding deal size, pricing, or financial maintenance covenants constrains full risk assessment
+- Post-closing requirements extend up to 65 days, creating potential compliance risks during integration period
+
+## 3. Key Deal Terms Table
+
+| **Deal Size** | **Deal Price** | **Interest Rate** | **Maturity Date** | **Payment Frequency** | **Key Covenants** |
+|---------------|----------------|-------------------|-------------------|----------------------|-------------------|
+| N/A | N/A | N/A | N/A | N/A | • New borrowers become jointly and severally liable for all existing obligations<br>• Continuing security interests and liens on all collateral<br>• Post-closing delivery requirements: stock certificates (5 days), insurance certificates (10 days), insurance endorsements (30 days), intellectual property filings (30-45 days), deposit account control agreements (65 days)<br>• Pledge agreement and trademark/patent security agreements remain in full force |

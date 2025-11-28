@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo presents Level 5 Applicable Margin percentages (5.00% for BA/LC/LIBOR loans, 3.50% for Prime/USBR loans, 1.25% undrawn fee) as \u201cInterest rate.\u201d The source document specifies these as Applicable Margins/fees, not total interest rates."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Negative covenant restricting amendments: prohibition on amending/modifying/supplementing/waiving provisions of the Leases, MGE Management Agreement, CNHI Consulting Agreement, or the Convertible Debentures unless such change does not increase payments or otherwise adversely affect lenders."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

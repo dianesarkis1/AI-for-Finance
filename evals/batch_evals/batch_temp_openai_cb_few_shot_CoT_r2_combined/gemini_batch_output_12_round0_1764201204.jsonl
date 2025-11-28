@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo omits the material term specifying that the New Borrowers are explicitly excluded from being joined to, or bound by, any \"Canadian Transaction Document.\""}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo cites \\\"multiple amendments\\\" as a Key Strength indicating \\\"ongoing lender support,\\\" but also lists the same \\\"Multiple previous amendments\\\" as a Principal Risk suggesting \\\"potential ongoing covenant or structural issues.\\\"\", \"The \\\"Comprehensive post-closing covenant structure\\\" is presented as a Key Strength that \\\"ensures proper integration,\\\" while the same \\\"Post-closing requirements\\\" are identified as a Principal Risk that \\\"create[s] execution risk.\\\"\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

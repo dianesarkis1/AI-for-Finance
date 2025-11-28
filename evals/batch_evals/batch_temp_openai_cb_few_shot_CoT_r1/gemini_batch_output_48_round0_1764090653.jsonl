@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo omits the borrower's obligation to reimburse the Administrative Agent and Revolving Lenders for their reasonable and documented out-of-pocket costs and expenses (e.g., legal fees) incurred in connection with the amendment, as stated in Section 4(b)."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo contradicts itself on the conditions for when the relaxed leverage covenant reverts to its original level. The Executive Summary and Deal Terms Table state it reverts 10 days after the HHI sale's 'closing/termination,' while the Investment Highlights section states it reverts upon 'deal completion,' which omits the critical 'termination' trigger.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

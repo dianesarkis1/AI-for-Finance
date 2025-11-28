@@ -1,0 +1,39 @@
+Based on my review of the credit agreement, I will create an investment memo focusing on these key aspects:
+
+• Analyze the joinder agreement structure and transaction participants
+• Identify the merger/acquisition context driving this credit facility modification
+• Evaluate the credit structure including existing borrowers, new borrowers, and lender syndicate
+• Assess post-closing requirements and collateral provisions
+• Extract available deal terms while noting information limitations
+• Highlight investment considerations from a credit perspective
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 6, 2024, multiple parties executed a Joinder Agreement to add new borrowers to an existing credit facility administered by PNC Bank, National Association.
+- The transaction involves existing borrowers (Tercel Oilfield Products USA L.L.C., Pride Energy Services, LLC, and Top-Co Inc.) and three new borrowers (Innovex Downhole Solutions, LLC, Innovex International, Inc., and TIW Corporation) joining a Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement originally dated June 10, 2022.
+- The joinder stems from the "Dril-Quip Merger," where Innovex merged with DQ Merger Sub, LLC (now Innovex Downhole Solutions, LLC), with Dril-Quip, Inc. changing its name to Innovex International, Inc. prior to the merger.
+- The credit facility includes revolving credit, term loan, and swing loan components with PNC Bank as Administrative Agent and U.S. Bank National Association as a participating lender.
+- All parties operate in the oilfield services and energy equipment sector, providing downhole solutions and related energy services.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established credit relationship dating to 2022 with multiple amendments indicating ongoing lender engagement and borrower compliance
+- Diversified lender syndicate including major institutions (PNC Bank, U.S. Bank National Association)
+- Comprehensive security package including pledges of equity interests, intellectual property, and deposit account controls
+- Joint and several liability structure across all borrowers provides multiple sources of repayment
+- Post-closing covenant structure demonstrates organized integration process with specific deliverable timelines
+
+### Principal Risks and Mitigating Factors:
+- Integration risk from merger activities and addition of new borrowers to existing credit structure
+- Cyclical energy sector exposure with inherent commodity price volatility
+- Multiple amendments to original agreement (four amendments since 2022) may indicate ongoing covenant or operational challenges
+- Limited financial information available to assess overall credit quality and performance metrics
+
+## 3. Key Deal Terms Table
+
+| **Deal Size** | **Deal Price** | **Interest Rate** | **Maturity Date** | **Payment Frequency** | **Key Covenants** |
+|---------------|----------------|-------------------|-------------------|----------------------|-------------------|
+| N/A | N/A | N/A | N/A | N/A | • Joint and several liability for all borrowers<br>• Continuing security interest in all collateral<br>• Post-closing deliverables: stock certificates (5 days), insurance certificates (10 days), insurance endorsements (30 days), intellectual property filings (30 days), IP security agreements (45 days), deposit account controls (65 days)<br>• Pledge of equity interests in TIW Corporation and Dril-Quip International LLC |

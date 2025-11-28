@@ -1,0 +1,41 @@
+# Conceptual Checklist
+
+- Extract the amendment date and identify all transaction parties
+- Analyze the pricing amendment structure and complete Annex I pricing grid details
+- Assess the transaction nature and investment implications
+- Evaluate credit strengths and risks from investor perspective
+- Organize terms systematically using the required table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-10
+
+**Borrower/Company Overview:** Affiliated Managers Group, Inc. (AMG), a Delaware corporation, serves as the borrower under this credit facility.
+
+**Transaction Description:** This is a Second Amendment to a Third Amended and Restated Term Credit Agreement originally dated January 18, 2019. The transaction involves AMG as borrower, Bank of America, N.A. as Administrative Agent and Lender, along with other financial institution lenders.
+
+**Purpose of Financing:** The amendment specifically modifies the "Applicable Margin" pricing structure contained in Annex I of the existing Credit Agreement, implementing a new rating-based pricing grid.
+
+**Company Background:** AMG operates as an investment management company. The amendment maintains all existing loan terms except for the pricing modifications, indicating an established credit relationship with continued lender confidence.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Investment-grade credit profile with rating-based pricing spanning A+ to BBB levels across major agencies (S&P/Moody's/Fitch)
+• Established institutional banking relationship with Bank of America, N.A. serving dual roles as Administrative Agent and Lender
+• Strong covenant compliance with borrower representations confirming no Default or Event of Default existing or continuing
+• All existing protective covenants and loan documentation remain in full force and effect
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial disclosure in amendment document constrains comprehensive credit analysis
+• Investment management industry exposure creates inherent sensitivity to market conditions and asset-based revenue fluctuations
+• Amendment represents pricing adjustment without baseline comparison to assess cost impact direction
+• Reliance on public rating agency assessments for pricing determination introduces external rating volatility risk
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | Rating-based pricing grid: Level 1 (A+/A1/A+): 0.725% Eurodollar, 0.000% ABR; Level 2 (A/A2/A): 0.850% Eurodollar, 0.000% ABR; Level 3 (A-/A3/A-): 0.850% Eurodollar, 0.000% ABR; Level 4 (BBB+/Baa1/BBB+): 0.975% Eurodollar, 0.000% ABR; Level 5 (BBB/Baa2/BBB): 1.225% Eurodollar, 0.225% ABR | N/A | N/A | • All existing loan document covenants ratified and confirmed in full force and effect • Pricing adjustments trigger automatically upon publicly announced debt rating changes from S&P/Moody's/Fitch • Applicable Margin determination based on debt rating specified in Section 5.1(c) certificate |

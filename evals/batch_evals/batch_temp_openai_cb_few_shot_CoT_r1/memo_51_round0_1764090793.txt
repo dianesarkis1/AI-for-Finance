@@ -1,0 +1,43 @@
+I'll analyze the credit agreement step by step:
+
+**Conceptual Checklist:**
+• Extract key transaction details including parties, dates, and structure
+• Identify the loan increase amount and new lender participation
+• Analyze the borrower profile and transaction purpose
+• Evaluate credit strengths and potential risks from an investor perspective
+• Compile deal terms into structured table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On May 13, 2022, Texas-New Mexico Power Company executed an Increase Supplement to expand its existing credit facility by adding CoBank, ACB as a new lender with a $25,000,000 commitment.
+- Texas-New Mexico Power Company, a Texas corporation, serves as the Borrower under a Fourth Amended and Restated Credit Agreement dated March 11, 2022, with KeyBank National Association acting as Administrative Agent.
+- The transaction represents a commitment increase under Section 2.1(f) of the existing Credit Agreement, adding CoBank, ACB as a new participating lender alongside the existing lender syndicate.
+- Concurrent with this increase, the Borrower issued Replacement First Mortgage Bonds pursuant to a Sixteenth Supplemental Indenture dated May 13, 2022, which are secured by mortgage bonds in accordance with the FMB Mortgage Documents and Credit Agreement terms.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Regulated utility borrower operating in essential infrastructure sector with typically stable cash flows
+• Strong administrative agent in KeyBank National Association, a major regional banking institution
+• Addition of CoBank, ACB (a cooperative bank specializing in rural infrastructure and utilities) demonstrates continued lender confidence
+• Mortgage bond structure provides secured collateral backing for the credit facility
+• Borrower representations confirm compliance with all existing credit agreement terms and conditions
+
+### Principal Risks and Mitigating Factors:
+• Limited visibility into overall facility size, pricing, and financial covenants constrains comprehensive credit assessment
+• Utility sector exposure to regulatory changes and capital expenditure requirements for grid modernization
+• Geographic concentration in Texas and New Mexico markets
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 (increase amount) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Secured by Replacement First Mortgage Bonds issued under Sixteenth Supplemental Indenture. Borrower confirmed in compliance with all Credit Agreement terms and conditions |

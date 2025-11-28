@@ -1,0 +1,41 @@
+Looking at this credit agreement, I will:
+
+• Identify the key parties, dates, and transaction structure from this Fourth Amended and Restated Limited Waiver
+• Extract COVID-19 related context and the specific waivers being granted to MGE Niagara Entertainment Inc.
+• Analyze the investment implications of the temporary covenant relief and operational restrictions
+• Summarize the key financial and operational covenants that remain in effect during the waiver period
+• Present the available deal terms in the required table format, marking unavailable information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 30, 2020, Bank of Montreal (as Administrative Agent) granted a Fourth Amended and Restated Limited Waiver to MGE Niagara Entertainment Inc., extending previous COVID-19 related relief through November 30, 2020.
+- MGE Niagara Entertainment Inc., a casino operator, serves as the Borrower under a credit agreement originally dated June 10, 2019 (amended July 17, 2019). Complex Services Inc. serves as guarantor.
+- This waiver extends temporary relief from financial covenant breaches, closure defaults, and compliance certificate delivery requirements due to COVID-19 mandated casino closures directed by the Ontario Lottery and Gaming Corporation (OLG).
+- The financing appears to be a revolving credit facility that has been subject to multiple waivers since May 2020 due to the pandemic's impact on casino operations. OLG has provided financial relief to the borrower under their Casino Operating Service Agreement (COSA).
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Regulatory support from OLG through the COSA, including relief from threshold payments and continued Fixed Component Per Diem payments during closure periods
+- Borrower maintains minimum liquidity requirement of CAD 15,000,000 throughout the waiver period
+- Enhanced monitoring through mandatory weekly liquidity reporting to the Administrative Agent
+- Pricing grid adjusted to Level 5 (highest margin tier), improving lender compensation for increased risk
+
+### Principal Risks and Mitigating Factors:
+- Extended operational disruption due to government-mandated casino closures lasting more than 60 consecutive days
+- Financial covenant breaches under Sections 9.4.1 and 9.4.2, indicating deteriorated financial performance
+- Restricted access to additional credit facilities during the waiver period
+- Prohibition on distributions and acquisitions, limiting financial flexibility
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Level 5 pricing: 5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans, 3.50% for Prime Rate/USBR Loans |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Maintain Liquidity of not less than CAD 15,000,000 at all times • No new advances under either Credit Facility • Weekly liquidity reporting required • No distributions under clauses (c) or (e) of Permitted Distributions • No amendments to key agreements (Leases, MGE Management Agreement, CNHI Consulting Agreement, Convertible Debentures) unless not adverse to Lenders • No acquisitions permitted • Event of Default if OLG ceases providing relief from threshold payments or Fixed Component Per Diem for more than 5 business days |

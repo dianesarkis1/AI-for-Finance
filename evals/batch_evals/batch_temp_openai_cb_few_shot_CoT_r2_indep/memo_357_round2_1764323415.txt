@@ -1,0 +1,42 @@
+I will draft an investment memorandum analyzing this credit agreement amendment for Lumen Technologies. Here's my approach:
+
+• Identify the key parties, transaction date, and amendment purpose
+• Analyze the technical modification to Section 6.01(v)(1)(ii) regarding Incremental Equivalent Debt
+• Assess credit implications from an investor perspective
+• Extract available deal terms and mark unavailable information as N/A
+• Ensure complete coverage of all covenant provisions including bridge facility carve-out
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-08-26
+
+**Borrower/Company:** Lumen Technologies, Inc., a Louisiana corporation operating in the telecommunications sector.
+
+**Transaction Description:** Amendment No. 1 to the Superpriority Term B Credit Agreement originally dated March 22, 2024. The transaction involves Lumen Technologies as borrower, with Wilmington Trust, National Association as Administrative Agent and Bank of America, N.A. as Collateral Agent.
+
+**Purpose:** Technical correction to fix an error in Section 6.01(v)(1)(ii) of the original Credit Agreement relating to Incremental Equivalent Debt provisions, pursuant to Section 9.08(e)(iii) which permits modifications to cure ambiguity, omission, error, defect or inconsistency.
+
+**Company Background:** Lumen Technologies is a telecommunications company with an established credit facility structure supported by Lumen Guarantors and QC Guarantors.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established administrative framework with reputable financial institutions serving as agents
+• Proactive document maintenance demonstrates strong legal and operational governance
+• Comprehensive structural protections for additional debt including subordination and intercreditor requirements
+• Maintains existing guarantee structure providing credit support
+• Bridge facility provisions allow operational flexibility for refinancing activities
+
+**Principal Risks and Mitigating Factors:**
+• Amendment enables potential leverage increases through Incremental Equivalent Debt incurrence
+• Bridge facility carve-out could permit temporary financing structures with different terms
+• Complex capital structure requiring ongoing technical amendments may indicate structural challenges
+• Limited visibility into current financial performance and overall facility utilization
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Incremental Equivalent Debt restrictions: no borrower other than Borrower, no guarantor other than Lumen/QC Guarantors<br>• If secured, only by existing Collateral<br>• Weighted Average Life to Maturity no shorter than remaining Term B Loans<br>• No maturity/prepayment obligations prior to Latest Maturity Date (except customary offers to repurchase/prepay upon change of control, asset sale, event of loss, from equity offerings or Permitted Refinancing Indebtedness, and acceleration after event of default)<br>• Final maturity no earlier than Latest Maturity Date<br>• Bridge facility carve-out: Incremental Equivalent Debt may be incurred as customary bridge/interim credit facility intended for refinancing/replacement with long-term indebtedness, provided subject only to customary conditions whose failure would result in Event of Default, and would be automatically converted or required to be exchanged for permanent financing satisfying final maturity requirements<br>• Subject to Subordination Agreement as "Subordinated Debt"<br>• Subject to intercreditor agreements<br>• Cannot rank senior to existing Obligations |

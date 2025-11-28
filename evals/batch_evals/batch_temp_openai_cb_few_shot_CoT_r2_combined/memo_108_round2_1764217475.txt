@@ -1,0 +1,40 @@
+**Checklist of Analysis Approach:**
+- Identify key parties, dates, and transaction structure from the amendment document
+- Extract specific amendments made to the original credit agreement, particularly commitment size and liquidity conditions
+- Analyze credit strengths and risks from an investor perspective based on available information
+- Compile key deal terms in the required table format with specified field order
+- Ensure all required sections are present with proper formatting and enhanced structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-12-19
+
+**Borrower/Company Overview:** Box, Inc., a Delaware corporation, is the borrower in this bilateral credit facility arrangement. The company operates under an amended and restated credit agreement structure with Wells Fargo Bank, National Association serving as the sole institutional lender.
+
+**Transaction Description:** This Amendment No. 1 modifies the existing Amended and Restated Credit Agreement originally executed on June 30, 2023. The amendment represents a straightforward modification to key facility terms within an established bilateral lending relationship. Wells Fargo Bank maintains its position as the sole lender while adjusting commitment parameters and liquidity maintenance requirements.
+
+**Purpose of Financing:** The primary purpose of this amendment is to increase the lender's commitment amount to $75,000,000 and implement revised liquidity condition requirements. The borrower specifically requested these modifications to accommodate evolving capital structure needs, particularly in relation to existing convertible note obligations. The amendment maintains the facility's original loan-making structure while providing enhanced flexibility within modified covenant parameters.
+
+**Company Background:** Box, Inc. operates as an established Delaware corporation with a mature banking relationship with Wells Fargo Bank, National Association. The company maintains convertible notes as part of its capital structure, which serve as a key reference point for the amended liquidity maintenance requirements. The borrower's request for amendments suggests active capital management and ongoing engagement with its primary lending relationship.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Established Institutional Banking Partnership:** Wells Fargo Bank, National Association provides strong institutional credibility and demonstrates confidence in the borrower through facility modifications
+• **Clean Credit Profile:** Borrower maintains full compliance with all representations, warranties, and covenant requirements with explicit confirmation of no events of default or potential events of default
+• **Comprehensive Security Structure:** All existing security documents, guarantees, pledges, grants, and security interests remain fully intact and reaffirmed, preserving complete collateral protection
+• **Proactive Capital Management:** Amendment reflects borrower's proactive approach to capital structure optimization and maintaining appropriate liquidity buffers
+
+**Principal Risks and Mitigating Factors:**
+• **Single-Lender Concentration Risk:** Bilateral facility structure creates dependency on Wells Fargo Bank, potentially limiting refinancing optionality and negotiating leverage; mitigated by established relationship strength and lender's demonstrated commitment through amendment process
+• **Convertible Note Liquidity Constraint:** Revised liquidity condition directly ties facility availability to convertible note outstanding amounts, potentially restricting access if notes remain outstanding through maturity; mitigated by borrower's demonstrated liquidity management capabilities
+• **Limited Pricing and Term Transparency:** Amendment does not disclose interest rates, maturity dates, or detailed financial maintenance covenants, restricting comprehensive credit risk assessment; partially mitigated by clean compliance history and institutional lender oversight
+• **Refinancing Coordination Risk:** Liquidity requirements linked to convertible notes may create timing pressures for coordinated refinancing activities; mitigated by increased commitment size providing additional liquidity buffer
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • **Liquidity Condition:** Borrower's Liquidity must equal or exceed outstanding principal amount of Existing Convertible Notes at all times<br>• **Security Package:** All existing security documents, guarantees, pledges, grants, and security interests remain in full force and effect with reaffirmation<br>• **Compliance Maintenance:** No Event of Default or Potential Event of Default continuing, with all Article V representations and warranties maintained<br>• **Amendment Effectiveness:** Subject to executed documentation and amended promissory note delivery |

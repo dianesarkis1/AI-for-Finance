@@ -1,0 +1,41 @@
+**Conceptual Checklist:**
+• Extract key transaction details including parties, dates, and structure
+• Identify the loan increase amount and new lender participation
+• Analyze the borrower profile and transaction purpose
+• Evaluate credit strengths and potential risks from an investor perspective
+• Compile deal terms into structured table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-13
+
+**Borrower/Company Overview:** Texas-New Mexico Power Company, a Texas corporation, operates as a regulated utility company serving Texas and New Mexico markets.
+
+**Transaction Description:** This transaction constitutes a commitment increase supplement to the Borrower's existing Fourth Amended and Restated Credit Agreement dated March 11, 2022. CoBank, ACB joins the lending syndicate as a new lender, with KeyBank National Association serving as Administrative Agent.
+
+**Purpose of Financing:** The financing represents an expansion of the existing credit facility through the addition of a new lender commitment of $25,000,000 under Section 2.1(f) of the base Credit Agreement.
+
+**Company Background:** As a utility corporation, Texas-New Mexico Power Company operates in the essential infrastructure sector. The company maintains mortgage bond financing structures and operates under regulatory oversight typical of public utilities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Regulated utility business model provides stable, predictable cash flows
+• Secured credit structure backed by Replacement First Mortgage Bonds issued under Sixteenth Supplemental Indenture
+• Experienced administrative agent with KeyBank National Association
+• Addition of CoBank, ACB demonstrates continued market confidence in the credit
+• Borrower confirmed compliance with all existing credit agreement covenants
+
+**Principal Risks and Mitigating Factors:**
+• Regulatory exposure inherent to utility sector operations
+• Geographic concentration in Texas and New Mexico regional markets
+• Limited financial detail available in increase supplement document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Secured by Replacement First Mortgage Bonds under Sixteenth Supplemental Indenture<br>• Compliance with Section 2.1(f) conditions of Credit Agreement<br>• Borrower representations and warranties confirmed |

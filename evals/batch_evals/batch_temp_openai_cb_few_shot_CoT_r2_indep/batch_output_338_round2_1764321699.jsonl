@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- States the Delayed Draw Term Loan Commitment Expiration Date is extended \u201cto August 14, 2024,\u201d omitting that it is the earlier of (i) the date the facility is reduced to zero and (ii) August 14, 2024."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo promises to \\\"ensure all information comes directly from the document without inference,\\\" yet it also aims to \\\"assess the credit implications from an investor perspective\\\" and includes inferential/subjective statements (e.g., that the limited-scope amendment \\\"suggests\\\" stable fundamentals and generic industry risk commentary), which contradicts the no-inference constraint.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 83.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

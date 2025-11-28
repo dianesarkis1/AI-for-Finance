@@ -1,0 +1,41 @@
+# Investment Memorandum
+
+**Checklist:**
+• Extract key transaction details from the September 2024 joinder agreement
+• Analyze the corporate structure changes from the Innovex/Dril-Quip merger
+• Identify security provisions and post-closing requirements
+• Assess investment implications from credit perspective
+• Structure findings into executive summary, highlights/risks, and deal terms table
+
+## 1. Executive Summary
+
+**Date:** 2024-09-06
+
+**Borrower/Company Overview:** This transaction involves the addition of three new borrowers to an existing syndicated credit facility. The existing borrowers are Tercel Oilfield Products USA L.L.C. (Texas LLC), Pride Energy Services, LLC (Texas LLC), and Top-Co Inc. (Alberta corporation). The new borrowers joining the facility are Innovex Downhole Solutions, LLC (Delaware LLC, formerly DQ Merger Sub, LLC), Innovex International, Inc. (Delaware corporation, formerly Dril-Quip, Inc.), and TIW Corporation (Texas corporation).
+
+**Transaction Description:** This is a joinder agreement whereby three new entities become borrowers under an existing Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement with PNC Bank National Association serving as administrative agent for a syndicate of lenders including U.S. Bank National Association.
+
+**Purpose of Financing:** The joinder facilitates the integration of newly acquired entities following a corporate merger between Innovex and Dril-Quip, Inc. The transaction adds the merged entities as borrowers and pledgors under the existing multi-facility credit arrangement.
+
+**Company Background:** The borrowers operate in the oilfield products and energy services sector. The underlying credit agreement dates to June 10, 2022, with subsequent amendments in November 2022, April 2023, December 2023, and June 2024, demonstrating an established banking relationship. The recent merger consolidated Dril-Quip's operations under the Innovex corporate structure.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established syndicated credit facility with documented amendment history indicating stable lender relationships and borrower compliance
+• Comprehensive security package including first-priority liens on all borrower collateral and continuing security interests across all entities
+• Joint and several liability structure provides cross-default protection and enhanced recovery prospects across all borrowers
+• Experienced administrative agent (PNC Bank) with established energy sector lending expertise
+• Detailed post-closing covenant framework with specific performance timelines ensures proper integration and documentation
+
+**Principal Risks and Mitigating Factors:**
+• Corporate integration risk following recent merger activity may create operational disruption, though established credit facility provides stability
+• Multi-jurisdictional borrower base across Texas, Delaware, and Alberta could complicate enforcement, mitigated by comprehensive security documentation and experienced agent
+• Post-closing requirements extending 65 days create execution risk during critical integration period, though specific deadlines and deliverables are clearly defined
+• Limited visibility into underlying facility terms constrains comprehensive credit assessment of the broader lending arrangement
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Joint and several liability for all existing and future obligations<br>• First-priority security interests and liens on all borrower collateral<br>• Stock certificate delivery within 5 business days<br>• Insurance certificates delivery within 10 days<br>• Insurance endorsements delivery within 30 days<br>• Intellectual property assignments and filings within 30-45 days<br>• Deposit account control agreements within 65 days<br>• Compliance with existing pledge and trademark security agreements |

@@ -1,0 +1,40 @@
+Looking at this credit agreement, I will:
+• Identify the key parties, dates, and transaction type
+• Extract the specific amendments to the Consolidated EBITDA definition
+• Analyze the credit implications of these covenant modifications
+• Present the deal terms in the required format
+• Assess risks and opportunities from an investor perspective
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On April 25, 2024, Accuray Incorporated, a Delaware corporation, entered into a third amendment to its existing credit agreement with Silicon Valley Bank (as Administrative Agent) and other lenders including HSBC Bank US.
+- The original Credit Agreement was dated May 6, 2021, and had been previously amended in October 2022 and November 2023.
+- The primary purpose of this amendment is to modify the definition of "Consolidated EBITDA" to provide additional covenant relief related to headcount reductions that occurred after September 30, 2023 through the amendment date.
+- Accuray operates in the medical technology sector, providing radiation therapy solutions. The company appears to have undergone significant workforce restructuring requiring covenant modifications to maintain compliance.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established banking relationships with reputable institutions including Silicon Valley Bank (First-Citizens Bank & Trust Company) and HSBC Bank US
+- Proactive covenant management demonstrates borrower's engagement with lender group
+- Amendment fee of 0.05% of outstanding commitments and term loans indicates reasonable cost for covenant relief
+- Company remains in compliance with all loan covenants after giving effect to the amendment
+
+### Principal Risks and Mitigating Factors:
+- Covenant modifications suggest potential financial stress requiring EBITDA adjustments for workforce reduction costs
+- Multiple amendments (third amendment since 2021) may indicate ongoing operational challenges
+- Specific headcount reduction provisions suggest significant organizational restructuring was necessary
+- Limited financial information available to assess broader credit profile and underlying business performance
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Modified Consolidated EBITDA definition allowing addbacks for: (1) Restructuring charges up to $2,633,000 for periods ending March 31, June 30, and September 30, 2024, then $0; (2) Pro forma run rate cost savings from specified headcount reductions up to $6,836,000 (March 31, 2024), $3,798,000 (June 30, 2024), $760,000 (September 30, 2024), then $0; (3) General run rate cost savings limited to 12.5% of Consolidated EBITDA; Amendment fee of 0.05% of outstanding commitments and term loans |

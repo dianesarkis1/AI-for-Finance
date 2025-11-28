@@ -1,0 +1,40 @@
+## Checklist for Creating Investment Memorandum:
+- Extract key transaction details from the F45 Training Holdings consent agreement
+- Identify the parties involved and the nature of the transaction (consent for financial statement delivery extension)
+- Analyze credit positives and risks from the perspective of a private credit investor
+- Create comprehensive key deal terms table with available information
+- Ensure all sections are complete and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In September 2023, F45 Training Holdings Inc. and its lenders executed a consent agreement under their existing credit facility with JPMorgan Chase Bank N.A.
+- F45 Training Holdings Inc., a Delaware corporation, serves as the Borrower under an Amended and Restated Credit Agreement originally dated August 13, 2021, which has been amended four times through June 30, 2023.
+- The transaction involves a consent from lenders (JPMorgan Chase Bank N.A. as Administrative Agent and Goldman Sachs Bank USA as Lender) to extend the delivery date for F45's 2022 fiscal year audited financial statements and accompanying compliance certificate from March 31, 2023 to September 30, 2023.
+- The purpose of this consent is to provide F45 Training Holdings with additional time to deliver required financial reporting documentation that was originally due under the credit agreement.
+- F45 Training Holdings operates in the fitness industry, though specific business details are not provided in this consent agreement.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established banking relationship with reputable financial institutions including JPMorgan Chase Bank N.A. and Goldman Sachs Bank USA, indicating institutional lender confidence.
+- Borrower represents that no Default or Event of Default exists as of the consent agreement date, suggesting ongoing covenant compliance.
+- The agreement includes comprehensive release language from the borrower, providing additional lender protection.
+- All loan documents remain in full force and effect, maintaining existing credit structure and protections.
+
+### Principal Risks and Mitigating Factors:
+- The need for a six-month extension on financial statement delivery (from March 31 to September 30, 2023) may indicate operational or accounting challenges that could signal underlying business stress.
+- Limited financial information available in this consent document restricts comprehensive credit assessment capabilities.
+- The agreement references multiple prior amendments to the original credit facility, suggesting ongoing modifications that may indicate evolving credit conditions.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Extension of 2022 audited financial statements delivery deadline from March 31, 2023 to September 30, 2023; Extension of accompanying compliance certificate delivery deadline to September 30, 2023; All other loan document terms remain in full force and effect |

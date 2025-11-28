@@ -1,0 +1,39 @@
+Looking at this credit agreement document, I will:
+• Identify the key parties and transaction date
+• Extract the specific amendments being made to the original credit agreement
+• Analyze the business purpose related to PPP/CARES Act provisions
+• Assess credit strengths and risks from an investor perspective
+• Compile available deal terms into the required table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On January 28, 2021, Square, Inc. (now known as Block, Inc.) entered into a Third Amendment to its Revolving Credit Agreement originally dated May 1, 2020.
+- Square, Inc. serves as the Borrower in this credit facility with Goldman Sachs Bank USA acting as Administrative Agent and a syndicate of prominent lenders including JPMorgan Chase Bank, Wells Fargo Bank, Sumitomo Mitsui Banking Corporation, HSBC Bank USA, and U.S. Bank National Association.
+- The amendment primarily updates definitions related to COVID-19 relief programs (CARES Act, PPP Loans, PPPLF) to reflect legislative changes from the Consolidated Appropriations Act, 2021, and increases the permitted Specified Indebtedness under the Paycheck Protection Program Liquidity Facility (PPPLF) to $1,000,000,000 aggregate principal amount outstanding.
+- The purpose of this amendment is to accommodate Square's participation in federal COVID-19 relief programs and provide additional liquidity capacity during the pandemic period.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• High-quality borrower with strong technology platform and diversified financial services offerings
+• Blue-chip banking syndicate including Goldman Sachs, JPMorgan Chase, Wells Fargo, and other major institutions demonstrates strong lender confidence
+• Borrower representations confirm no defaults or events of default are continuing, indicating solid credit standing
+• Amendment provides additional liquidity capacity ($1B under PPPLF) during uncertain economic conditions
+
+### Principal Risks and Mitigating Factors:
+• Amendment increases permitted indebtedness capacity, potentially adding leverage though specific to government-backed facilities
+• Limited visibility into broader financial covenants, pricing terms, or overall facility size from this amendment document
+• Reliance on government programs (PPPLF) may indicate liquidity needs during COVID-19 period, though this was common across the financial services industry
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Specified Indebtedness incurred pursuant to the PPPLF not to exceed $1,000,000,000 aggregate principal amount outstanding at any time. All existing representations and warranties from original Credit Agreement reaffirmed as true and correct. |

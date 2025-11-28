@@ -1,0 +1,42 @@
+Looking at this credit agreement, I will:
+• Identify the key parties, dates, and transaction type from the amendment document
+• Extract the specific amendments to the Consolidated EBITDA definition and covenant modifications
+• Analyze the credit implications of these changes for investment purposes
+• Present the available deal terms in the required table format
+• Assess investment risks and opportunities based on the covenant relief structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-04-25
+
+**Borrower/Company Overview:** Accuray Incorporated is a Delaware corporation operating in the medical technology sector, providing radiation therapy solutions for cancer treatment.
+
+**Transaction Description:** This Third Amendment to Credit Agreement modifies the existing credit facility originally established on May 6, 2021. The transaction involves Accuray Incorporated as borrower, with Silicon Valley Bank (a division of First-Citizens Bank & Trust Company) serving as Administrative Agent, Issuing Lender, and Swingline Lender, alongside other lenders including HSBC Bank US, National Association.
+
+**Purpose of Financing:** The amendment provides covenant relief by modifying the definition of "Consolidated EBITDA" to accommodate restructuring charges and projected cost savings related to workforce reductions implemented between September 30, 2023, and April 25, 2024. This appears designed to maintain financial covenant compliance during a period of organizational restructuring.
+
+**Company Background:** Accuray operates in the specialized medical device sector focused on radiation oncology equipment. The company has undergone significant workforce restructuring, requiring amendments to its credit agreement to maintain covenant compliance while implementing operational improvements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationships with high-quality financial institutions including Silicon Valley Bank and HSBC Bank US
+• Proactive covenant management demonstrates strong lender engagement and financial discipline
+• Amendment structure includes specific caps and time limitations on EBITDA adjustments, providing clear boundaries
+• Company maintained covenant compliance throughout restructuring period
+• Amendment fee structure (0.05% of outstanding facilities) reflects reasonable cost for covenant relief
+
+**Principal Risks and Mitigating Factors:**
+• Multiple covenant amendments (third since 2021) may indicate ongoing operational or financial challenges requiring continued lender accommodation
+• Significant workforce reduction suggests potential revenue pressures or operational inefficiencies requiring restructuring
+• EBITDA adjustments totaling up to $9.469 million indicate material impact from restructuring activities
+• Time-limited nature of adjustments creates potential covenant pressure if projected savings are not realized
+• Limited visibility into underlying business performance and broader market conditions affecting the radiation therapy sector
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified Consolidated EBITDA definition allowing specific addbacks for restructuring charges: $2,633,000 for trailing twelve-month periods ending March 31, June 30, and September 30, 2024, then $0<br>• Pro forma run rate cost savings from specified headcount reductions capped at: $6,836,000 (March 31, 2024), $3,798,000 (June 30, 2024), $760,000 (September 30, 2024), then $0<br>• General run rate cost savings and restructuring charges limited to 12.5% of Consolidated EBITDA (calculated before adjustments) minus amounts added back under specified headcount reduction provisions<br>• Amendment fee equal to 0.05% of sum of consenting lenders' outstanding Revolving Commitments and principal amount of Term Loans |

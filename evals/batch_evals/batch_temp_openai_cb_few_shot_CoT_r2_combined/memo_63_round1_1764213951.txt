@@ -1,0 +1,41 @@
+## Checklist of Analysis Steps:
+- Extract key parties, dates, and transaction structure from the amendment document
+- Identify specific amendments to the Credit Agreement, focusing on EBITDA definition changes
+- Analyze amendment fees and costs to understand transaction economics
+- Assess credit implications of the modifications for investment perspective
+- Compile deal terms table using only explicitly stated information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-04-25
+
+**Borrower / Company Overview:** Accuray Incorporated is a Delaware corporation that serves as the Borrower under a credit facility originally established on May 6, 2021, previously amended in October 2022 and November 2023.
+
+**Transaction Description:** Third Amendment to Credit Agreement between Accuray Incorporated and Silicon Valley Bank (now a division of First-Citizens Bank & Trust Company) as Administrative Agent, along with other lenders including HSBC Bank US National Association.
+
+**Purpose of Financing:** The amendment modifies the definition of "Consolidated EBITDA" to include specific addbacks related to restructuring charges and cost savings from headcount reductions that occurred after September 30, 2023 through the amendment effective date.
+
+**Company Background:** Accuray Incorporated maintains established banking relationships with reputable institutions and has been operating under this credit facility structure since 2021, with this being the third amendment to accommodate operational restructuring activities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationships with reputable institutions including Silicon Valley Bank/First-Citizens and HSBC Bank US
+• Amendment includes release of claims provisions, suggesting amicable lender-borrower relationship
+• Temporary nature of EBITDA adjustments with specific sunset dates by December 31, 2024
+• Borrower representations confirm no defaults or events of default continuing after the amendment
+
+**Principal Risks and Mitigating Factors:**
+• Amendment appears borrower-friendly, allowing significant EBITDA addbacks (up to $6.8M for certain periods) that may mask underlying operational challenges
+• Restructuring activities and headcount reductions suggest potential operational difficulties requiring covenant relief
+• Modified covenant structure creates complexity with multiple interacting EBITDA adjustment caps that reduce transparency
+• Limited visibility into underlying credit facility terms, pricing, or broader financial performance metrics
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified Consolidated EBITDA definition with specific addbacks for headcount reduction activities after September 30, 2023<br>• Restructuring charge addbacks capped at $2,633,000 for periods ending March-December 2024, $0 thereafter<br>• Run-rate cost savings addbacks: $6,836,000 (March 2024), $3,798,000 (June 2024), $760,000 (September 2024), $0 thereafter<br>• Existing general addback caps (clauses xi and xii) of 12.5% of Consolidated EBITDA now reduced by amounts added back under new specific headcount-related provisions<br>• Amendment fee of 0.05% of outstanding revolving commitments and term loan principal amounts |

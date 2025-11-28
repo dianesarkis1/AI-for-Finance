@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- In the \"Investment Highlights & Risks\" section, the memo claims there was \"Significant oversubscription interest\". The source document does not mention oversubscription or the level of lender interest; it only states that the requested increase was provided."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo provides two contradictory descriptions of the same leverage covenant requirement. The 'Key Strengths' section states the pro forma ratio must be 'at least 0.25x below the maximum permitted ratio' (a relative buffer), whereas the 'Key Deal Terms Table' states the ratio 'must not exceed 0.25:1.00' (a fixed, absolute cap).\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

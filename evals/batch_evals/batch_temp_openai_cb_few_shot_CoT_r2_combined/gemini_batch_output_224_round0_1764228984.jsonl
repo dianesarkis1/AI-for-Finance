@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents the fact of \\\"multiple amendments\\\" as a strength (indicating a \\\"cooperative relationship\\\") while also listing it as a risk (indicating potential instability or \\\"evolving credit terms\\\"), which are contradictory interpretations of the same event.\", \"The memo describes the amendment as a minor \\\"technical correction\\\" and an \\\"obvious error\\\" fix, but also states in the risk section that it \\\"appears to expand scope of affiliated lender provisions\\\" and could \\\"impact future transaction flexibility,\\\" which are substantive changes, not merely technical ones.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

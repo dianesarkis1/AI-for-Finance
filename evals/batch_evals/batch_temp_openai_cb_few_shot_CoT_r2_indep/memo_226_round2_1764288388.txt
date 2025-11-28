@@ -1,0 +1,40 @@
+## Approach Checklist
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the aircraft financing structure and collateral details
+- Analyze credit strengths from lender composition and guarantor structure
+- Note any risks or concerns from the amendment terms
+- Compile available deal terms including Schedule III replacement details
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-03-31
+
+**Borrower/Company Overview:** Vertical Horizons, Ltd., a Cayman Islands exempted company, serves as the borrowing entity with guarantees provided by Frontier Group Holdings, Inc., Frontier Airlines Holdings, Inc., and Frontier Airlines, Inc.
+
+**Transaction Description:** Amendment No. 1 to Seventh Amended and Restated Credit Agreement involves a syndicated loan facility with Citibank, N.A. as facility agent and arranger, alongside lenders including Barclays Bank PLC, Deutsche Bank AG New York Branch, and Morgan Stanley Senior Funding, Inc. Bank of Utah serves as security trustee.
+
+**Purpose of Financing:** PDP (Pre-Delivery Payment) financing for acquisition of 59 Airbus aircraft comprising 9 Airbus A320neo and 50 Airbus A321neo aircraft.
+
+**Company Background:** The financing structure supports Vertical Horizons as the financing vehicle for Frontier Airlines' aircraft acquisition program with Airbus, utilizing Assignment and Assumption Agreement and Step-In Agreement arrangements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender syndicate including Citibank N.A., Barclays Bank PLC, Deutsche Bank AG, and Morgan Stanley Senior Funding
+• Multiple guarantee layers from Frontier Group Holdings, Frontier Airlines Holdings, and Frontier Airlines providing credit enhancement
+• Collateral secured by modern, fuel-efficient Airbus A320neo and A321neo aircraft
+• Borrower maintains compliance with LTV test requirements
+• Frontier Group Holdings meets minimum unrestricted cash and cash equivalents thresholds
+
+**Principal Risks and Mitigating Factors:**
+• Compliance deadline extension from July 1, 2022 to April 1, 2023 indicates potential operational timing pressures
+• Aviation industry exposure to cyclical downturns and regulatory changes, mitigated by modern aircraft collateral
+• Amendment replaces entire advances schedule suggesting potential changes to draw timing or structure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Compliance with LTV Test requirements<br>• Frontier Group Holdings minimum unrestricted cash maintenance<br>• No continuing Default or Event of Default<br>• All guarantees remain in full force and effect<br>• Schedule III (Advances) replaced entirely per Exhibit A |

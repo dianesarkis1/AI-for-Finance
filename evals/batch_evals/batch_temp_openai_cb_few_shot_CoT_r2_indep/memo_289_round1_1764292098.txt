@@ -1,0 +1,39 @@
+# Checklist
+- Identify the key transaction details and parties involved in this credit agreement consent
+- Determine the purpose and nature of this consent agreement 
+- Extract any quantitative deal terms that are explicitly stated
+- Analyze credit positives and risks from an investor perspective
+- Organize findings into the required three-section structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-09-15
+
+**Borrower/Company Overview:** F45 Training Holdings Inc., a Delaware corporation
+
+**Transaction Description:** Consent agreement under existing Amended and Restated Credit Agreement between F45 Training Holdings Inc. (Borrower), JPMorgan Chase Bank N.A. (Administrative Agent and Australian Security Trustee), and participating lenders including Goldman Sachs Bank USA
+
+**Purpose of Financing:** Extension of delivery deadline for mandatory financial reporting requirements under existing credit facility
+
+**Company Background:** F45 Training Holdings Inc. maintains a credit facility originally established in August 2021 and subsequently amended four times through June 2023, indicating an active and evolving credit relationship with its banking syndicate
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender relationships with JPMorgan Chase Bank N.A. and Goldman Sachs Bank USA
+• Borrower confirmation of no existing Default or Event of Default as of consent date
+• Cooperative lender stance evidenced by consent to reporting extension
+• All existing loan documents and covenant structure remain intact and enforceable
+
+**Principal Risks and Mitigating Factors:**
+• Delayed financial reporting (six-month extension from March to September 2023) may signal operational or audit complexities
+• Credit agreement amendment history (four modifications since 2021) suggests potential ongoing covenant management issues
+• Limited current financial visibility due to extended reporting timeline
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Extension of audited consolidated financial statements delivery for fiscal year 2022 from March 31, 2023 to September 30, 2023<br>• Extension of accompanying Compliance Certificate delivery to September 30, 2023<br>• All other existing covenants and loan document terms remain in full force and effect |

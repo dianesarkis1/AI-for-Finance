@@ -1,0 +1,41 @@
+## Checklist
+
+- Identify the key transaction details including parties, dates, and amendment purpose
+- Extract borrower information and transaction background from the credit agreement
+- Analyze the specific amendments being made to assess investment implications
+- Identify any available deal terms, pricing, or covenant information
+- Assess credit strengths and risks from the limited information provided
+- Format findings into the required three-section memorandum structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-05-10
+
+**Borrower Overview:** LifeStance Health Holdings, Inc., a Delaware corporation, operates as the borrower under a credit facility administered by Capital One, National Association. The company is a subsidiary of Lynnwood Intermediate Holdings, Inc., also a Delaware corporation, and appears to operate in the healthcare services sector.
+
+**Transaction Description:** This is a Second Amendment to Credit Agreement, modifying the original credit agreement dated May 4, 2022 (previously amended by a First Amendment dated November 7, 2023). The transaction involves LifeStance Health Holdings, Inc. as borrower, with Capital One, National Association serving as Administrative Agent, Revolver Agent, and Collateral Agent, and Unitranche Loan Transaction II, LLC as a Required Facility Lender (managed by both Capital One and HPS Investment Partners, LLC).
+
+**Purpose of Financing:** The amendment extends the Delayed Draw Term Loan Commitment Expiration Date to August 14, 2024, providing the borrower with additional time to access committed delayed draw term loan facilities under the existing credit structure.
+
+**Company Background:** LifeStance Health Holdings operates through various subsidiary guarantors under its parent company structure. The company maintains an established credit relationship with institutional lenders including Capital One and HPS Investment Partners, suggesting it is a substantial healthcare services enterprise requiring sophisticated financing arrangements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender base including Capital One as lead agent and HPS Investment Partners as co-manager, indicating sophisticated credit oversight and underwriting
+• Borrower representations confirm no current defaults or events of default, demonstrating stable operational and financial performance
+• All existing loan documents, security interests, and liens remain in full force and effect, preserving comprehensive collateral protection
+• Amendment process demonstrates proactive capital management and constructive lender relationships
+
+**Principal Risks and Mitigating Factors:**
+• Extension of delayed draw commitment expiration may signal timing considerations for additional capital needs or strategic initiatives requiring funding
+• Limited visibility into underlying financial performance, covenant compliance margins, or pricing terms to fully assess credit quality
+• Healthcare services sector exposure involves regulatory compliance requirements and potential reimbursement pressures, though mitigated by established institutional lender support
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Delayed Draw Term Loan Commitment Expiration Date extended to 2024-08-14<br>• All existing security interests and liens reaffirmed<br>• Borrower confirms no defaults or events of default continuing<br>• Standard representations and warranties maintained |

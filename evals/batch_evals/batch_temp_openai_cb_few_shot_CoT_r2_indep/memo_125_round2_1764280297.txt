@@ -1,0 +1,40 @@
+## Checklist of Approach:
+- Extract basic transaction details and amendment structure
+- Identify specific milestone extension and DIP context
+- Analyze bankruptcy implications and lender protections
+- Present concise investment analysis focused on key risks and protections
+- Structure findings efficiently with improved clarity and brevity
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-08-28
+
+**Borrower/Company Overview:** Lilis Energy Inc. is a Nevada-based energy company operating under Chapter 11 bankruptcy protection with multiple operating subsidiaries.
+
+**Transaction Description:** Third amendment to a Senior Secured Super-Priority Debtor-in-Possession Credit Agreement dated June 30, 2020. The syndicated facility is led by BMO Harris Bank N.A. as Administrative Agent, with Capital One National Association and Credit Suisse AG, Cayman Islands Branch as lenders.
+
+**Purpose of Financing:** Extension of Chapter 11 milestone deadline from August 28, 2020 to September 3, 2020 to provide additional time for restructuring activities.
+
+**Company Background:** Lilis Energy operates through subsidiaries including Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC, all serving as guarantors.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Super-priority DIP status provides enhanced recovery rights in bankruptcy
+• Institutional lender group demonstrates sophisticated credit oversight
+• Comprehensive subsidiary guarantee structure enhances security
+• Borrower maintains compliance with existing covenants and representations
+
+**Principal Risks and Mitigating Factors:**
+• Chapter 11 context presents elevated default and loss risk despite DIP priority
+• Milestone extension indicates potential restructuring delays
+• Energy sector volatility adds operational complexity during bankruptcy
+• Limited amendment scope restricts detailed financial analysis
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Chapter 11 milestone extended to 2020-09-03<br>• Maintenance of all representations and warranties<br>• No Default or Event of Default permitted<br>• Continued compliance with loan documentation |

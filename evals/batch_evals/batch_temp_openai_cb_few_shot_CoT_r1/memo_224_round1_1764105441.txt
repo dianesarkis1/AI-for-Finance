@@ -1,0 +1,39 @@
+## Checklist
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the specific purpose and nature of the amendment to Section 9.05(g)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms, marking unavailable information as "N/A"
+- Ensure memo follows the required three-section structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-05-05
+
+**Borrower / Company Overview:** Claros Mortgage Trust, Inc. is a Maryland corporation serving as the borrower under a term loan credit facility with JPMorgan Chase Bank, N.A. as Administrative Agent.
+
+**Transaction Description:** This transaction represents Amendment No. 4 to an existing Term Loan Credit Agreement originally executed on August 9, 2019. The amendment involves Claros Mortgage Trust, Inc. as borrower and JPMorgan Chase Bank, N.A. as Administrative Agent, with multiple lenders participating in the underlying credit facility.
+
+**Purpose of Financing:** The amendment serves to correct a technical inconsistency and obvious error in Section 9.05(g) of the existing credit agreement by inserting specific language regarding "the Borrower or any of its Restricted Subsidiaries" following references to "Affiliated Lender."
+
+**Company Background:** Claros Mortgage Trust operates under a term loan credit facility that has been subject to regular amendments since its 2019 inception, with prior amendments executed in December 2020, November 2021, and December 2021, suggesting an active and evolving credit relationship.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established four-year credit relationship with premier institutional lender JPMorgan Chase Bank, N.A.
+• Technical amendment nature indicates no material credit deterioration or covenant violations
+• Borrower maintains full reaffirmation of all existing covenants, guarantees, and collateral arrangements
+• Strong documentation structure preserves all lender rights and remedies without novation risk
+
+**Principal Risks and Mitigating Factors:**
+• Amendment document provides limited visibility into underlying credit metrics and borrower performance
+• Broadening of Affiliated Lender provisions may introduce additional complexity to credit structure
+• Regular amendment history suggests potential ongoing need for credit agreement modifications
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Existing covenants and agreements fully reaffirmed<br>• Guarantees under Guarantee documents remain effective<br>• Collateral liens continue securing all Obligations<br>• Technical correction to Section 9.05(g) Affiliated Lender language |

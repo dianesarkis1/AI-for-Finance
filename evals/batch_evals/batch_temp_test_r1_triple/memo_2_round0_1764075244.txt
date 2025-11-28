@@ -1,0 +1,42 @@
+I'll draft a professional investment memorandum based on the credit agreement document provided. Here is my approach:
+
+- Extract key parties, dates, and transaction structure from the waiver agreement
+- Identify the COVID-19 related business disruption context and financial covenant relief
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo according to the three required sections with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On 2020-11-30, Bank of Montreal (as Administrative Agent) granted a Fifth Amended and Restated Limited Waiver to MGE Niagara Entertainment Inc., extending previous COVID-19 related relief through March 31, 2021.
+- MGE Niagara Entertainment Inc. operates casino facilities under oversight from Ontario Lottery and Gaming Corporation (OLG). The borrower entered into the original credit agreement on June 10, 2019 with Bank of Montreal as Administrative Agent and various lenders.
+- This transaction extends temporary waivers of financial covenant breaches and closure-related defaults caused by COVID-19 mandated casino closures. The waiver covers breaches of financial covenants in Sections 9.4.1 and 9.4.2, closure defaults under Section 11.1.11, and delays compliance certificate deliveries until March 31, 2021.
+- The financing purpose is to provide covenant relief during the Extended Waiver Period while casino operations remain disrupted by pandemic restrictions. OLG has provided financial relief including threshold payment relief and fixed component per diem payments.
+- MGE Niagara Entertainment Inc. operates casino facilities under a Casino Operating Services Agreement (COSA) with OLG. Complex Services Inc. serves as guarantor under the credit facilities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Government support through OLG providing financial relief including threshold payment waivers and fixed component per diem payments during closure period
+- Borrower maintains minimum liquidity requirement of $15,000,000 throughout the Extended Waiver Period
+- Weekly liquidity reporting provides enhanced monitoring and transparency to lenders
+- Pricing adjustments to Level 5 (highest margin level) compensate lenders for increased risk during waiver period
+
+### Principal Risks and Mitigating Factors:
+- Casino operations remain subject to government closure mandates with uncertain reopening timeline
+- Financial covenant breaches indicate underlying cash flow stress from business disruption
+- Borrower prohibited from accessing additional advances under credit facilities during waiver period
+- Restricted distributions and acquisitions limit financial flexibility, though appropriate for distressed situation
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | 5.00% (Bankers' Acceptances/Letters of Credit/LIBOR Loans), 3.50% (Prime Rate/USBR Loans) at Level 5 pricing |
+| **Maturity Date** | 2021-03-31 (Extended Waiver Period) |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Maintain minimum liquidity of $15,000,000 • No advances under credit facilities during waiver period • Applicable margin set at Level 5 pricing • Weekly liquidity reporting required • No distributions under clauses (c) or (e) • No acquisitions permitted • OLG must continue threshold relief and fixed component payments (max 5 business day interruption) |

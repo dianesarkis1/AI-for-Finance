@@ -1,0 +1,41 @@
+## Checklist
+I will:
+- Extract key transaction details and parties from the extension consent letter
+- Identify the specific covenant modifications and deadline extensions
+- Analyze credit implications from an investor perspective
+- Structure the memo according to the required format with proper table formatting
+- Ensure professional tone and appropriate length for investment committee review
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-31
+
+**Borrower/Company Overview:** Fathom Manufacturing, LLC is a Delaware limited liability company that serves as the borrower under a credit facility, with Fathom Guarantor, LLC acting as the guarantor entity.
+
+**Transaction Description:** This extension consent letter modifies specific covenant deadlines under an existing Credit Agreement dated December 23, 2021. The lending syndicate is led by JPMorgan Chase Bank, N.A. as Administrative Agent, with CIBC Bank USA, BMO Bank N.A., and Stifel Bank & Trust as lenders.
+
+**Purpose of Financing:** The extension provides additional time for the borrower to satisfy two critical covenant requirements: executing a Binding Agreement involving the Ultimate Parent entity and completing mandatory term loan prepayments.
+
+**Company Background:** Fathom Manufacturing operates from Hartland, Wisconsin, with Mark Frost serving as Chief Financial Officer. The company is part of a corporate structure that includes Fathom Guarantor, LLC as the holding company entity.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths/Credit Positives:**
+• Established banking relationships with high-quality institutional lenders including JPMorgan Chase as lead
+• Limited scope extension preserves existing credit structure and lender protections
+• Broad lender consent obtained from Majority Third Amendment Consenting Term Lenders
+• All other Credit Agreement terms remain in full force, maintaining credit discipline
+
+**Principal Risks and Mitigating Factors:**
+• Covenant compliance challenges evidenced by need for deadline extension indicate potential execution risk
+• Short extension period (16 days) suggests time-sensitive compliance issues requiring immediate attention
+• Breach of extended deadlines would trigger Default and Event of Default provisions
+• Limited transparency into underlying business performance or specific compliance obstacles
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 50,000,000 | N/A | N/A | N/A | N/A | • Extension of compliance deadlines from January 31, 2024 to February 16, 2024<br>• Required execution of Binding Agreement per Section 5.15<br>• Mandatory prepayment of Term Loans totaling USD 50,000,000 per Section 2.11(h)<br>• Alternative deadline of June 30, 2024 available if Credit Support executed by Outside Signing Date |

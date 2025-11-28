@@ -1,0 +1,45 @@
+## Checklist of Steps
+
+- Extract key transaction dates, parties, and basic structure from the credit agreement
+- Identify Oaktree Specialty Lending Corporation as borrower and MUFG Union Bank as increasing lender
+- Analyze the incremental commitment increase structure and purpose
+- Assess credit strengths related to established lending relationships and covenant compliance
+- Note information limitations due to document scope focusing on commitment increase only
+- Compile deal terms table with commitment amounts while marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On December 28, 2020, Oaktree Specialty Lending Corporation entered into an incremental commitment agreement to increase its existing revolving credit facility.
+- Oaktree Specialty Lending Corporation, a Delaware corporation, serves as the Borrower, with OCSL SRNE, LLC and FSFC Holdings, Inc. as Subsidiary Guarantors.
+- The transaction involves MUFG Union Bank, N.A. as the Increasing Lender providing an additional $25,000,000 commitment, bringing MUFG's total commitment from $50,000,000 to $75,000,000.
+- This incremental commitment relates to an Amended and Restated Senior Secured Revolving Credit Agreement originally dated February 25, 2019, with ING Capital LLC as Administrative Agent and a syndicate including JPMorgan Chase Bank, N.A. and Bank of America, N.A. as Syndication Agents.
+- The purpose is to provide additional revolving credit capacity under the existing senior secured credit facility, with identical terms to existing loans and commitments.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional sponsor backing with Oaktree, a well-established alternative investment manager
+- Diversified lending syndicate including major financial institutions (ING Capital, JPMorgan Chase, Bank of America, MUFG Union Bank)
+- MUFG's willingness to increase its commitment from $50mm to $75mm demonstrates continued lender confidence
+- Borrower representations confirm no defaults or events of default are continuing
+- Senior secured structure with collateral protection and subsidiary guarantees
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into overall facility size, pricing, or financial performance metrics
+- As a specialty lending corporation, Oaktree's credit profile is tied to the performance of its underlying loan portfolio
+- Information constraints prevent assessment of broader covenant compliance or liquidity position
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 (incremental commitment) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Senior secured revolving credit facility. Guarantee and Security Agreement remains in full force and effect. All existing collateral and guarantees reaffirmed and extended to cover incremental commitment |

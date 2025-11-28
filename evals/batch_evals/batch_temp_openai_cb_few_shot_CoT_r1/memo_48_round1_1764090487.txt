@@ -1,0 +1,38 @@
+## Checklist of Analysis Steps:
+- Extract key transaction details and parties from the Fourth Amendment document
+- Identify the purpose and mechanics of the leverage ratio covenant modification
+- Analyze the asset sale context (HHI Sale) and its impact on credit terms
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table using only explicitly stated information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-11-17
+
+**Borrower/Company Overview:** Spectrum Brands, Inc., a Delaware corporation, serves as the Lead Borrower under a revolving credit facility with Royal Bank of Canada as Administrative Agent.
+
+**Transaction Description:** This Fourth Amendment modifies an existing Amended and Restated Credit Agreement originally dated June 23, 2015 and restated as of June 30, 2020. The amendment involves Spectrum Brands, Inc., Royal Bank of Canada as Administrative Agent, and participating Revolving Lenders.
+
+**Purpose of Financing:** The amendment provides covenant relief by temporarily increasing the Total Net Leverage Ratio limit from 6.00:1.00 to 7.00:1.00 for the revolving facility to provide Spectrum Brands additional operational time and flexibility to complete its planned asset divestiture.
+
+**Company Background and Context:** Spectrum Brands has entered into a definitive Asset and Stock Purchase Agreement dated September 8, 2021 with ASSA ABLOY AB to sell its Hardware and Home Improvement segment for $4.3 billion in cash proceeds, subject to customary purchase price adjustments.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Significant asset monetization expected with $4.3 billion in cash proceeds from the HHI Sale, which should substantially improve capital structure and liquidity
+• Covenant relief is temporary and milestone-driven, with automatic reversion to the original 6.00:1.00 leverage limit
+• Royal Bank of Canada's continued participation as Administrative Agent demonstrates ongoing lender support
+
+**Principal Risks and Mitigating Factors:**
+• Temporary leverage covenant relaxation to 7.00:1.00 increases credit risk and suggests potential covenant pressure absent asset sale proceeds
+• Amendment requires 0.20% fees on total revolving commitments, indicating lenders demanded compensation for increased risk exposure
+• Transaction completion dependency creates execution risk, with covenant tightening if sale does not close by September 29, 2023
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Total Net Leverage Ratio: 7.00:1.00 (temporary increase from 6.00:1.00) for revolving facility only<br>• Covenant relief expires on earlier of: (i) September 29, 2023 or (ii) 10 business days after HHI Sale closing or termination fee receipt<br>• Amendment fee: 0.20% of aggregate revolving credit commitments due to consenting lenders |

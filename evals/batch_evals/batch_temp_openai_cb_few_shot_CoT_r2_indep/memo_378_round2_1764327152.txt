@@ -1,0 +1,40 @@
+## Checklist of Tasks to Complete:
+- Extract key transaction details and parties from the First Amendment dated August 1, 2025
+- Identify the borrower (Millrose Properties) and administrative agent (Goldman Sachs Bank USA)
+- Analyze the key amendments including new definitions, funding fees, and prepayment provisions
+- Assess investment highlights and risks from a credit perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure professional tone suitable for investment committee review
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-08-01
+
+**Borrower Overview:** Millrose Properties, Inc., a Maryland corporation, serves as the borrower under this credit facility.
+
+**Transaction Description:** This First Amendment modifies an existing Credit Agreement originally executed on June 24, 2025, between Millrose Properties, Inc. and a syndicate of lenders led by Goldman Sachs Bank USA as Administrative Agent. The amendment introduces enhanced prepayment flexibility and additional fee structures.
+
+**Purpose of Financing:** The amendment provides strategic financing flexibility through modified prepayment mechanics for designated issuances and introduces a Stage 4 Funding Fee structure to support the borrower's capital allocation and liquidity management strategy.
+
+**Company Background:** Millrose Properties, Inc. operates as a Maryland corporation with business operations that include asset replacement and repair activities, indicating involvement in asset-intensive industries with ongoing capital requirements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• High-quality institutional lender syndicate including Goldman Sachs Bank USA, Bank of America N.A., Citibank N.A., Citizens Bank N.A., JPMorgan Chase Bank N.A., and Wells Fargo Bank N.A.
+• Borrower maintains full covenant compliance with no existing defaults or events of default as of amendment date
+• Comprehensive security package with all liens and collateral protections fully reaffirmed post-amendment
+• Amendment provides borrower financing flexibility while preserving mandatory prepayment requirements for non-designated issuances
+
+**Principal Risks and Mitigating Factors:**
+• Amendment executed within two months of original agreement suggests potential initial term inadequacy, mitigated by Required Lender approval and continued covenant compliance
+• Modified prepayment terms for designated issuances could delay deleveraging, though mitigated by $500 million outstanding loan threshold requirement
+• Additional funding fees increase borrower costs over facility term, providing enhanced lender compensation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | Original Credit Agreement Date: 2025-06-24 | N/A | • Stage 4 Funding Fee: 0.250% of outstanding loans payable 270 days after Initial Draw Date<br>• Designated Issuance: Borrower may retain net proceeds if outstanding loans ≤ $500,000,000<br>• Mandatory prepayment: Net cash proceeds from non-designated issuances must prepay loans within 5 business days<br>• Asset reinvestment: 6-month reinvestment period for casualty/condemnation proceeds<br>• Security reaffirmation: All liens and collateral documents remain in full force |

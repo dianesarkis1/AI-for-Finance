@@ -1,0 +1,41 @@
+# Checklist
+- Extract key parties, dates, and transaction structure from the credit agreement
+- Identify the purpose and nature of the commitment increase 
+- Assess credit strengths and risks from an investor perspective
+- Compile deal terms into the required table format using only explicitly stated information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-17
+
+**Borrower/Company Overview:** HPS Corporate Lending Fund serves as the borrower under a Senior Secured Revolving Credit Agreement originally dated June 23, 2022, with JPMorgan Chase Bank, N.A. as Administrative Agent.
+
+**Transaction Description:** This is a commitment increase agreement whereby Deutsche Bank AG New York Branch joins as an "Increasing Lender" to provide additional lending capacity under the existing revolving credit facility. The transaction expands the existing credit facility's available commitments by USD 25,000,000.
+
+**Purpose of Financing:** To increase the aggregate amount of commitments available under the existing Senior Secured Revolving Credit Agreement, providing HPS Corporate Lending Fund with enhanced liquidity capacity.
+
+**Company Background:** HPS Corporate Lending Fund operates as a corporate lending fund and has maintained an active credit facility since June 2022. The facility was previously amended in October 2023, demonstrating an ongoing institutional banking relationship.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths/Credit Positives:**
+• Strong institutional banking partnerships with JPMorgan Chase Bank as Administrative Agent and Deutsche Bank as increasing lender
+• Lender willingness to expand commitments indicates confidence in borrower's creditworthiness
+• Senior secured revolving structure provides creditor protection and liquidity flexibility
+• Established credit facility history with successful prior amendment in October 2023
+• Formal documentation framework under existing Credit Agreement and Loan Documents
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial information available in commitment increase documentation
+• Portfolio composition and underlying asset quality cannot be assessed from available documents
+• Absence of detailed pricing and covenant information restricts comprehensive risk evaluation
+• Corporate lending exposure subject to economic cycles and potential credit deterioration
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | N/A |

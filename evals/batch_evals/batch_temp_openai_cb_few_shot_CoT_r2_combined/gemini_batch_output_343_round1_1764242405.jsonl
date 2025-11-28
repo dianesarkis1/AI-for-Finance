@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists a 'demonstrated track record of successful credit facility management' as a key strength, which contradicts the stated principal risk of having 'limited visibility into current financial performance, covenant compliance, and facility utilization levels'.\", \"The memo claims specific knowledge about the transaction's mechanics (i.e., 'BNP Paribas doubling its Multicurrency Commitment'), which contradicts the stated 'information constraints' and the deal terms table where basic items like interest rate, maturity, and covenants are listed as unknown ('N/A').\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 97.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 30.0"}}]}}}

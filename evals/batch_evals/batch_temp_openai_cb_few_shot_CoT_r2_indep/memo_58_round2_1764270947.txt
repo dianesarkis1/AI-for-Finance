@@ -1,0 +1,42 @@
+## Checklist for Investment Memo Analysis
+
+- Extract basic transaction details: parties, dates, and amendment structure
+- Identify transaction purpose and financial terms from Third Amendment Transactions
+- Analyze key amendments to original credit agreement provisions
+- Assess investment strengths from lender syndicate and operational scope
+- Evaluate risks from ownership restructuring and covenant modifications
+- Compile deal terms table with available information and appropriate N/A entries
+
+# Investment Memorandum
+
+## Executive Summary
+
+**Date of Agreement:** 2021-03-25
+
+**Borrower/Company Overview:** Crestwood Midstream Partners LP, a Delaware limited partnership operating in the midstream energy sector through numerous subsidiary entities engaged in pipeline operations, crude oil services, gas processing, and transportation services.
+
+**Transaction Description:** Third Amendment to Second Amended and Restated Credit Agreement originally dated October 16, 2018. The amendment is executed among Crestwood Midstream Partners LP as borrower, multiple subsidiary guarantors, Wells Fargo Bank, National Association as Administrative Agent, and a syndicate of financial institutions.
+
+**Purpose of Financing:** To facilitate the "Third Amendment Transactions," whereby Crestwood Equity Partners and third-party investors will acquire equity interests and assets of Crestwood Holdings LLC and subsidiaries. The borrower may make revolving facility borrowings and distribute proceeds up to $275.0 million to support these transactions.
+
+**Company Background:** Crestwood operates across the midstream energy value chain with extensive subsidiary operations including pipeline companies, crude services entities, gas processing partnerships, and transportation subsidiaries providing operational diversification.
+
+## Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong lender syndicate including Wells Fargo, Bank of America, Barclays, Citibank, JPMorgan Chase, Royal Bank of Canada, and additional major financial institutions
+• Comprehensive guarantor structure with numerous operating subsidiaries providing credit enhancement
+• No existing defaults or events of default as represented by the borrower
+• Amendment includes specific transaction carve-outs rather than broad covenant modifications
+
+**Principal Risks and Mitigating Factors:**
+• Ownership restructuring involves third-party investors which may alter control dynamics and governance
+• $275 million distribution capacity could reduce cash available for operations and debt service
+• Modified change in control provisions may affect lender protections in future ownership changes
+• Amendment document provides limited visibility into underlying credit terms, financial performance, or maintenance covenants
+
+## Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Distribution authorization up to $275.0 million for Third Amendment Transactions<br>• Modified Change in Control definition with 35% threshold<br>• Amendment fee of 0.05% of consenting lenders' revolving facility commitments<br>• Amendment effectiveness deadline of April 9, 2021<br>• Confirmation of no continuing defaults or events of default |

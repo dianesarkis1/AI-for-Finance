@@ -1,0 +1,40 @@
+## Checklist:
+- Identify key transaction details (parties, date, amendment purpose)
+- Extract specific amendments to credit facility terms and conditions
+- Analyze credit positives and risks from an investor perspective
+- Compile deal terms table with all explicitly stated financial information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On December 19, 2024, Box, Inc. (a Delaware corporation) and Wells Fargo Bank, National Association entered into Amendment No. 1 to their Amended and Restated Credit Agreement originally dated June 30, 2023.
+- Box, Inc. serves as the Borrower in this bilateral credit facility with Wells Fargo Bank as the sole Lender.
+- The amendment modifies key definitions in the credit agreement, most notably adjusting the "Commitment" amount to $75,000,000 and revising the "Liquidity Condition" to require that the Borrower's liquidity be greater than or equal to the outstanding principal amount of existing convertible notes.
+- The purpose of this amendment is to update certain covenant definitions and maintain the credit facility structure between Box, Inc. and Wells Fargo Bank.
+- Box, Inc. is a technology company that operates in the cloud content management and file sharing sector.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationship with Wells Fargo Bank, National Association, a major U.S. financial institution
+- Borrower representations confirm no Event of Default or Potential Event of Default has occurred and is continuing
+- All Security Documents, Loan Documents, guarantees, pledges, grants, and security interests remain in full force and effect
+- Amendment maintains existing collateral structure and lien priority
+
+### Principal Risks and Mitigating Factors:
+- Bilateral facility structure concentrates credit exposure with a single lender
+- Modified "Liquidity Condition" ties covenant compliance to outstanding convertible notes, creating potential complexity
+- Limited visibility into pricing, maturity, and other key credit terms from this amendment document alone
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Liquidity Condition: Borrower's Liquidity must be greater than or equal to outstanding principal amount of Existing Convertible Notes. All Security Documents and guarantees reaffirmed and remain in full force and effect |

@@ -1,0 +1,41 @@
+# Conceptual Checklist
+
+- Extract key transaction details: parties, dates, amendment purpose, and financial terms
+- Identify credit strengths including lender quality and borrower compliance status
+- Assess potential risks from amendment terms and information limitations
+- Compile deal terms table with explicit data only, marking unavailable fields as "N/A"
+- Structure memo in three required sections with professional investment committee tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-08-01
+
+**Borrower/Company Overview:** Millrose Properties, Inc., a Maryland corporation, entered into a First Amendment to its Credit Agreement with Goldman Sachs Bank USA as Administrative Agent and a syndicate of lenders.
+
+**Transaction Description:** Amendment to existing credit facility originally dated June 24, 2025, with Goldman Sachs Bank USA serving as Administrative Agent alongside lenders including Bank of America N.A., Citibank N.A., Citizens Bank N.A., JPMorgan Chase Bank N.A., and Wells Fargo Bank N.A.
+
+**Purpose of Financing:** The amendment provides greater flexibility for future capital raising activities while establishing additional fee income through staged funding fees and modified prepayment terms.
+
+**Company Background:** Limited information available from amendment document. Millrose Properties appears to be a real estate company given references to property assets and casualty/condemnation provisions in the credit terms.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• High-quality lender syndicate including Goldman Sachs Bank USA, Bank of America, JPMorgan Chase, Wells Fargo, Citibank, and Citizens Bank
+• No existing defaults or events of default as of amendment effective date
+• Collateral and security interests remain in full force and effect with borrower reaffirmation
+• Standard conditions precedent requiring ongoing borrower compliance
+
+**Principal Risks and Mitigating Factors:**
+• Amendment terms favor borrower through reduced mandatory prepayment requirements for designated issuances
+• Limited visibility into overall credit profile, financial performance, or business fundamentals
+• Delayed draw term loan structure suggests potential construction or development financing with inherent execution risks
+• Modified prepayment terms may delay debt reduction and extend lender exposure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Stage 4 Funding Fee: 0.250% of outstanding loan principal due 270 days after Initial Draw Date<br>• Mandatory prepayment for Designated Issuances: Apply proceeds to prepay loans with ability to retain proceeds if no more than $500,000,000 remains outstanding<br>• Mandatory prepayment for all other issuances: (1) First use 100% of net cash proceeds to prepay Delayed Draw Term Loan Facility until fully paid, then (2) use remaining proceeds to reduce outstanding commitments<br>• Collateral and security interests reaffirmed and maintained<br>• Standard representation and warranty compliance requirements |

@@ -1,0 +1,40 @@
+## Checklist of Analysis Steps:
+- Extract key transaction dates, parties, and amendment structure
+- Identify borrowers, administrative agent, and lender consortium
+- Analyze the amendment's purpose and any facility upsize mentioned
+- Assess credit positives and risks from lender perspective
+- Compile available deal terms while marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On March 31, 2025, multiple entertainment library financing entities entered into Amendment No. 2 to their Amended and Restated Credit, Security and Pledge Agreement with Fifth Third Bank as Administrative Agent.
+- The Borrowers include LGTV Library Financing LLC, Artisan Library Financing LLC, Summit Library Financing LLC, LG Film Library Financing LLC, and LGIM Library UK Financing Limited, along with their respective parent holding companies.
+- The original Credit Agreement was dated November 5, 2024, with Amendment No. 1 executed on December 9, 2024. This second amendment includes an "Upsize" provision that appears to expand the credit facility.
+- The amendment modifies various terms of the Credit Agreement through deletions and additions as detailed in Annex A, and references an upsize in the facility with new loan allocations among lenders.
+- The borrowing entities appear to be special purpose vehicles focused on entertainment content library financing, structured with separate parent holding companies.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong and diversified lender consortium including major regional and national banks (Fifth Third Bank, East West Bank, Wells Fargo, Truist Bank, Western Alliance Bank, and others), demonstrating broad institutional support.
+- Recent facility upsize indicates lender confidence and borrower's successful performance since the original agreement in November 2024.
+- Structured with parent company guarantees providing additional credit support through holding company obligations.
+- Entertainment library financing represents a specialized asset class with potentially stable cash flows from content licensing and distribution.
+
+### Principal Risks and Mitigating Factors:
+- Entertainment industry exposure subjects the credit to cyclical content performance and changing consumer preferences.
+- Multiple special purpose vehicle structure may create complexity in monitoring and enforcement.
+- Limited visibility into specific financial covenants, pricing terms, and maturity structure constrains comprehensive risk assessment.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Amendment includes facility upsize with modified terms per Annex A. No Event of Default or Default occurring before or after amendment effectiveness. All guarantor obligations remain in full force and effect. Borrowers responsible for Administrative Agent expenses including counsel fees |

@@ -1,0 +1,40 @@
+Looking at this credit agreement document, here is my step-by-step approach:
+
+• Identify the key parties and transaction date from the amendment
+• Determine the specific changes being made to the original credit agreement
+• Extract any available financial terms and covenants
+• Assess the credit implications from an investor perspective
+• Compile the information into the required memo structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 30, 2024, Biodesix, Inc., a Delaware corporation, entered into a Fourth Amendment to Credit Agreement and Guaranty with Perceptive Credit Holdings IV, LP as Administrative Agent and Lender.
+- The original Credit Agreement and Guaranty was dated November 16, 2022, and has been previously amended three times (May 10, 2023, August 4, 2023, and February 29, 2024).
+- This Fourth Amendment incorporates changes reflected in Annex A (marked version) and Annex B (clean version), though the specific nature of the amendments is not detailed in the main document.
+- Biodesix, Inc. operates as a borrower in this credit facility arrangement with Perceptive Credit Holdings IV, LP serving as both administrative agent and lender.
+- The amendment includes execution of a Fourth Amended and Restated Fee Letter dated as of the same date.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- The borrower represents that no Default or Event of Default has occurred and is continuing, indicating current compliance with credit terms.
+- All existing liens and security interests remain in full force and effect, maintaining collateral protection for lenders.
+- The borrower reaffirms all representations and warranties contained in the original credit agreement, suggesting continued creditworthiness.
+
+### Principal Risks and Mitigating Factors:
+- This is the fourth amendment to the original 2022 credit agreement, indicating potential ongoing need for covenant modifications or other adjustments.
+- The specific terms of the amendments are contained in annexes not provided in the main document, limiting visibility into the nature and impact of changes.
+- Limited information available regarding the borrower's financial condition or business operations beyond the legal representations.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | All existing liens and collateral documents remain in full force and effect. Borrower confirms compliance with all representations and warranties. No Default or Event of Default continuing as of amendment date. |

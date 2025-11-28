@@ -1,0 +1,41 @@
+**Action Plan:**
+• Extract key transaction details and parties involved
+• Identify the nature and purpose of the amendment
+• Analyze investment strengths and risk factors from a credit perspective
+• Compile deal terms that are explicitly stated in the document
+• Structure findings into the required three-section format
+
+# Investment Memorandum
+
+## Executive Summary
+
+**Date of Agreement:** 2022-05-10
+
+**Borrower/Company Overview:** Sight Sciences, Inc., a Delaware corporation, maintains a revolving credit facility with MidCap Funding IV Trust as Agent and Lender.
+
+**Transaction Description:** This Third Amendment modifies the existing Amended and Restated Credit and Security Agreement (Revolving Loan) originally dated November 23, 2020. The transaction involves MidCap Funding IV Trust, managed by Apollo Capital Management, L.P., serving as both Agent and sole Lender.
+
+**Purpose of Financing:** The amendment implements enhanced cash management controls by establishing mandatory lockbox procedures. Key modifications include defining the "Lockbox Activation Date," amending deposit account control agreement requirements, and mandating all account collections flow through the lockbox system.
+
+**Company Background:** Sight Sciences operates as a Delaware corporation with an established multi-year credit relationship with this healthcare-focused specialty lender.
+
+## Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established borrower relationship spanning multiple amendments since 2020
+• Enhanced cash control through mandatory lockbox arrangements improves collection visibility
+• No existing defaults or events of default per borrower representations
+• All security interests and collateral liens remain fully intact
+• Experienced healthcare specialty finance provider with Apollo Capital Management backing
+
+**Principal Risks and Mitigating Factors:**
+• Increased cash management restrictions may indicate performance monitoring concerns
+• Enhanced collection oversight requirements suggest need for closer operational supervision
+• Daily reconciliation obligations increase administrative burden and compliance risk
+• Agent retains discretionary authority to suspend advances if collection reconciliation fails
+
+## Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Lockbox activation required 5 business days prior to initial revolving loan borrowing<br>• All account collections must flow through lockbox following activation<br>• Daily transfer from lockbox to payment account required<br>• Daily reconciliation of all lockbox receipts mandatory<br>• Agent may suspend advances if >20% of collections not reconciled within 10 business days during any 15-day period<br>• Individual account debtors permitted to pay directly to borrower unless Agent directs otherwise<br>• Security interests and liens maintained in full force<br>• All existing credit agreement terms remain unchanged |

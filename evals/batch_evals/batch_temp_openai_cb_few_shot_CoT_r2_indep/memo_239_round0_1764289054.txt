@@ -1,0 +1,41 @@
+## Checklist
+
+- Extract key transaction dates and parties from the credit agreement
+- Identify the borrower (Vine Energy Holdings LLC) and key transaction details
+- Analyze the amendment's purpose and changes to credit terms
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms into the required table format
+- Ensure all unavailable information is marked as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On 2021-06-29, Vine Energy Holdings LLC executed Amendment No. 2 to its Second Lien Credit Agreement with Morgan Stanley Senior Funding, Inc. as Administrative Agent and Collateral Agent, along with multiple institutional lenders managed by GoldenTree Asset Management.
+- Vine Energy Holdings LLC is a Delaware limited liability company operating in the oil and gas sector, with multiple subsidiary guarantors including Vine Oil & Gas GP LLC, Brix Operating LLC, Vine Minerals LLC, and other related entities focused on oil and gas operations.
+- The amendment modifies the original Second Lien Credit Agreement dated December 30, 2020, primarily to adjust minimum hedging requirements and add definitions related to oil and gas reserves.
+- The purpose is to modify Section 6.17 (Minimum Hedging) to require the Borrower to maintain commodity swap contracts covering 70% of reasonably anticipated projected hydrocarbon production from Proved Developed Producing Reserves over a 24-month period, with flexibility provisions for market conditions.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional lender base managed by reputable asset managers including Morgan Stanley Senior Funding and GoldenTree Asset Management, indicating sophisticated credit assessment and ongoing monitoring
+- Comprehensive collateral package with liens and security interests in oil and gas properties maintained and reaffirmed through the amendment
+- Borrower representations confirm no existing defaults or events of default, indicating current compliance with all credit terms
+- Amendment includes flexibility provisions allowing reduced hedging requirements when commercially reasonable market rates are unavailable
+
+### Principal Risks and Mitigating Factors:
+- Commodity price exposure inherent in oil and gas operations, though partially mitigated by mandatory hedging requirements covering 70% of projected production
+- Complex corporate structure with multiple subsidiary guarantors may complicate enforcement and administration
+- Second lien position indicates subordinated credit ranking, increasing recovery risk in distress scenarios
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Minimum hedging requirement: 70% of reasonably anticipated projected hydrocarbon production from Proved Developed Producing Reserves over 24-month periods • Hedging must be maintained via swap contracts entered into for non-speculative purposes • Flexibility provision allows reduced hedging when market rates unavailable at commercially reasonable terms • All collateral documents and liens reaffirmed and ratified |
