@@ -1,0 +1,30 @@
+{
+  "created_at": "2025-11-28T19:07:44.765263",
+  "jobs": [
+    {
+      "input_index": 208,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6929e5b85da4819088f42d5de5cc7cd8"
+    },
+    {
+      "input_index": 219,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6929e5b967d88190bd1518b193448734"
+    },
+    {
+      "input_index": 226,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6929e5ba7ddc8190929818b1b063c304"
+    },
+    {
+      "input_index": 231,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6929e5bbfa18819084b6f1a4705e9036"
+    }
+  ],
+  "updated_at": "2025-11-28T19:11:08.095153"
+}

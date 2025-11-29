@@ -25,9 +25,20 @@ Parameters:
         Path to custom prompt file (e.g., prompts/my_prompt.txt)
         If not provided, uses prompts/baseline.txt
 
+    --data-file : str (optional)
+        Path to data file containing inputs (e.g., data/test.jsonl)
+        Default: data/train.jsonl
+        Note: If using a custom data file without --indices, ALL indices will be evaluated
+
     --indices : int... (optional)
         Custom indices to evaluate (space-separated)
-        If not provided, uses default comprehensive sample (50 indices)
+        If not provided:
+          - train.jsonl: uses default comprehensive sample (50 indices)
+          - other files: uses ALL indices in the file
+
+    --exclude-default : flag (optional)
+        Run on ALL indices EXCEPT the default 50-index comprehensive sample (434 indices)
+        Cannot be used with --indices
 
     --parallel-memos : flag (optional)
         Generate memos in parallel using Claude Batch API (faster)
@@ -73,6 +84,15 @@ Examples:
     # Run with custom indices and custom prompt
     python run_eval_workflow.py test_run --indices 0 1 2 6 --prompt prompts/test.txt
 
+    # Run on ALL indices EXCEPT the default 50 (434 indices)
+    python run_eval_workflow.py full_eval --exclude-default --parallel-memos
+
+    # Run with a different data file (evaluates ALL indices in that file)
+    python run_eval_workflow.py test_run --data-file data/test.jsonl --parallel-memos
+
+    # Run with a different data file and specific indices only
+    python run_eval_workflow.py test_subset --data-file data/test.jsonl --indices 0 1 2 --parallel-memos
+
     # Run with parallel memo generation (recommended for speed)
     python run_eval_workflow.py baseline_v2 --parallel-memos
 
@@ -117,9 +137,41 @@ Notes:
 """
 
 import argparse
+import json
+import random
 import subprocess
 import sys
 from pathlib import Path
+
+
+def count_jsonl_lines(file_path: Path) -> int:
+    """Count the number of lines in a JSONL file."""
+    with open(file_path, 'r') as f:
+        return sum(1 for line in f if line.strip())
+
+
+def load_default_comprehensive_sample(total_samples: int) -> list[int]:
+    """Load and generate the default 50-index comprehensive sample."""
+    # Load baseline indices
+    baseline_file = Path("evals/benchmark/baseline_sampled_indices_seed42.json")
+    with open(baseline_file, 'r') as f:
+        data = json.load(f)
+        baseline_indices = data['sampled_indices']
+
+    # Create comprehensive sample (same logic as run_truly_parallel_batch_eval.py)
+    combined_indices = set(baseline_indices)
+
+    # Add first 3 indices
+    first_indices = list(range(3))
+    combined_indices.update(first_indices)
+
+    # Sample 37 random indices (excluding already selected ones)
+    random.seed(42)
+    available_indices = [i for i in range(total_samples) if i not in combined_indices]
+    random_indices = random.sample(available_indices, min(37, len(available_indices)))
+    combined_indices.update(random_indices)
+
+    return sorted(list(combined_indices))
 
 
 def run_command(cmd: list, description: str):
@@ -143,7 +195,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Run with default sample and baseline prompt
+  # Run with default sample and baseline prompt (50 indices from train.jsonl)
   python run_eval_workflow.py baseline_v1
 
   # Run with custom prompt
@@ -151,6 +203,9 @@ Examples:
 
   # Run with custom indices
   python run_eval_workflow.py test_run --indices 0 1 2 6
+
+  # Run with custom data file (evaluates ALL indices in that file)
+  python run_eval_workflow.py new_data --data-file data/test.jsonl --parallel-memos
 
   # Run with parallel memo generation (recommended)
   python run_eval_workflow.py baseline_v2 --parallel-memos
@@ -171,11 +226,24 @@ Examples:
     )
 
     parser.add_argument(
+        '--data-file',
+        type=str,
+        default='data/train.jsonl',
+        help='Path to data file containing inputs. Default: data/train.jsonl'
+    )
+
+    parser.add_argument(
         '--indices',
         type=int,
         nargs='+',
         default=None,
         help='Custom indices to evaluate (space-separated). Default: 50-index comprehensive sample'
+    )
+
+    parser.add_argument(
+        '--exclude-default',
+        action='store_true',
+        help='Run on ALL indices EXCEPT the default 50-index comprehensive sample (434 indices). Cannot be used with --indices.'
     )
 
     parser.add_argument(
@@ -235,6 +303,57 @@ Examples:
 
     args = parser.parse_args()
 
+    # Validate that --exclude-default and --indices aren't used together
+    if args.exclude_default and args.indices:
+        print("ERROR: Cannot use --exclude-default and --indices together.", file=sys.stderr)
+        print("       Use one or the other, not both.", file=sys.stderr)
+        sys.exit(1)
+
+    # Validate data file exists
+    data_file_path = Path(args.data_file)
+    if not data_file_path.exists():
+        print(f"ERROR: Data file not found: {data_file_path}", file=sys.stderr)
+        sys.exit(1)
+
+    # Count total samples in data file
+    total_samples = count_jsonl_lines(data_file_path)
+
+    # Handle default indices behavior
+    is_default_data_file = args.data_file == 'data/train.jsonl'
+
+    if not args.indices and not args.exclude_default:
+        if is_default_data_file:
+            # Default train.jsonl: use 50-index comprehensive sample
+            pass  # Will be handled by run_truly_parallel_batch_eval.py
+        else:
+            # Custom data file: use ALL indices
+            args.indices = list(range(total_samples))
+            print(f"\n{'='*70}")
+            print(f"CUSTOM DATA FILE MODE")
+            print(f"{'='*70}")
+            print(f"Data file: {args.data_file} ({total_samples} total samples)")
+            print(f"No indices specified → Using ALL indices (0-{total_samples-1})")
+            print(f"{'='*70}\n")
+
+    # Handle --exclude-default flag
+    if args.exclude_default:
+        if not is_default_data_file:
+            print("WARNING: --exclude-default is designed for train.jsonl", file=sys.stderr)
+            print("         With custom data files, it will exclude the default 50 indices from train.jsonl", file=sys.stderr)
+            print("         which may not be what you want.", file=sys.stderr)
+
+        default_sample = load_default_comprehensive_sample(total_samples)
+        all_indices = list(range(total_samples))
+        excluded_indices = [i for i in all_indices if i not in default_sample]
+        args.indices = excluded_indices
+        print(f"\n{'='*70}")
+        print(f"EXCLUDE DEFAULT MODE")
+        print(f"{'='*70}")
+        print(f"Data file: {args.data_file} ({total_samples} total samples)")
+        print(f"Default comprehensive sample: {len(default_sample)} indices")
+        print(f"Excluded indices to evaluate: {len(excluded_indices)} indices")
+        print(f"{'='*70}\n")
+
     # Validate run_name doesn't start with batch_temp_ (we'll add it)
     run_name = args.run_name
     if run_name.startswith('batch_temp_'):
@@ -247,6 +366,7 @@ Examples:
     print(f"EVALUATION WORKFLOW ORCHESTRATOR")
     print(f"{'='*70}")
     print(f"\nRun name: {run_name}")
+    print(f"Data file: {args.data_file} ({total_samples} samples)")
     print(f"Batch directory: evals/batch_evals/{batch_temp_name}/")
     print(f"Results directory: evals/batch_evals/{results_name}/")
 
@@ -255,7 +375,15 @@ Examples:
     else:
         print(f"Prompt file: {args.prompt if args.prompt else 'prompts/baseline.txt (default)'}")
 
-    print(f"Indices: {args.indices if args.indices else 'Default comprehensive sample (50 indices)'}")
+    if args.exclude_default:
+        print(f"Indices: ALL EXCEPT default sample ({len(args.indices)} indices)")
+    elif args.indices:
+        print(f"Indices: Custom ({len(args.indices)} indices)")
+    else:
+        if is_default_data_file:
+            print(f"Indices: Default comprehensive sample (50 indices)")
+        else:
+            print(f"Indices: ALL ({total_samples} indices)")
     print(f"Parallel memos: {'Yes (ignored if skipping memo generation)' if args.parallel_memos else 'No'}")
     print(f"Evaluators: {', '.join(args.evaluators) if args.evaluators else 'All (openai, claude, gemini)'}")
     print(f"Skip memo generation: {'Yes' if args.skip_memo_generation else 'No'}")
@@ -282,6 +410,9 @@ Examples:
         str(script_dir / "run_truly_parallel_batch_eval.py"),
         "--run-name", batch_temp_name,
     ]
+
+    if args.data_file != 'data/train.jsonl':
+        cmd.extend(["--data-file", args.data_file])
 
     if args.prompt:
         cmd.extend(["--prompt", args.prompt])

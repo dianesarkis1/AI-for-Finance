@@ -11,7 +11,7 @@ This script runs batch evaluations in TRUE parallel:
 This is MUCH faster than sequential processing.
 
 Usage:
-    # Use default comprehensive sample (50 indices)
+    # Use default comprehensive sample (50 indices) from train.jsonl
     python run_truly_parallel_batch_eval.py
 
     # Test with specific indices (sequential memo generation)
@@ -22,6 +22,9 @@ Usage:
 
     # Test with just one index
     python run_truly_parallel_batch_eval.py --indices 128 --parallel-memos
+
+    # Use a different data file
+    python run_truly_parallel_batch_eval.py --data-file data/test.jsonl --indices 0 1 2
 """
 
 import argparse
@@ -67,9 +70,12 @@ from evals.batch_evals.batch_utils import (
 )
 
 # Configuration
-TRAIN_FILE = Path("data/train.jsonl")
-BASELINE_SAMPLED_INDICES_FILE = Path("evals/benchmark/baseline_sampled_indices_seed42.json")
-OUTPUT_DIR = Path("evals/batch_evals")
+# Get paths relative to script location (so it works from any working directory)
+SCRIPT_DIR = Path(__file__).parent.resolve()  # /path/to/AI-for-Finance/evals/batch_evals
+REPO_ROOT = SCRIPT_DIR.parent.parent  # /path/to/AI-for-Finance
+TRAIN_FILE = REPO_ROOT / "data" / "train.jsonl"
+BASELINE_SAMPLED_INDICES_FILE = REPO_ROOT / "evals" / "benchmark" / "baseline_sampled_indices_seed42.json"
+OUTPUT_DIR = SCRIPT_DIR  # evals/batch_evals directory
 
 # Random seed for reproducibility
 RANDOM_SEED = 42
@@ -2047,8 +2053,8 @@ def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -
     print(f"PHASE 2: SUBMITTING ALL BATCH JOBS (NO WAITING)")
     print(f"{'='*70}")
     print(f"Evaluator models: {', '.join(evaluator_models)}")
-    print(f"Total memos: {len([m for m in memos.values() if m['memo'] is not None])}")
-    print(f"Total batch jobs to submit: {len([m for m in memos.values() if m['memo'] is not None]) * len(evaluator_models)}")
+    print(f"Total memos: {len([m for m in memos.values() if 'memo' in m and m['memo'] is not None])}")
+    print(f"Total batch jobs to submit: {len([m for m in memos.values() if 'memo' in m and m['memo'] is not None]) * len(evaluator_models)}")
     print(f"{'='*70}\n")
 
     batch_jobs = []
@@ -2059,8 +2065,9 @@ def submit_all_batch_jobs(memos: Dict[int, Dict], evaluator_models: List[str]) -
     gemini_key = load_api_key_from_env("GEMINI_API_KEY")
 
     for idx, memo_data in memos.items():
-        if memo_data['memo'] is None:
-            print(f"⏭️  Skipping input {idx} (no memo generated)")
+        if 'memo' not in memo_data or memo_data['memo'] is None:
+            skip_reason = memo_data.get('error', 'no memo generated')
+            print(f"⏭️  Skipping input {idx} ({skip_reason})")
             continue
 
         print(f"\n📝 Submitting batch jobs for input {idx}...")
@@ -2552,6 +2559,12 @@ Examples:
         """
     )
     parser.add_argument(
+        '--data-file',
+        type=str,
+        default='data/train.jsonl',
+        help='Path to data file containing inputs. Default: data/train.jsonl'
+    )
+    parser.add_argument(
         '--indices',
         type=int,
         nargs='+',
@@ -2619,7 +2632,19 @@ Examples:
     args = parser.parse_args()
 
     # Declare global variables that we'll modify
-    global BATCH_TEMP_DIR, PROMPT_FILE, EVALUATOR_MODELS
+    global BATCH_TEMP_DIR, PROMPT_FILE, EVALUATOR_MODELS, TRAIN_FILE
+
+    # Set data file
+    # If user didn't provide --data-file, use default relative to REPO_ROOT
+    # If user provided --data-file, resolve relative to current working directory
+    if args.data_file == 'data/train.jsonl':
+        TRAIN_FILE = REPO_ROOT / "data" / "train.jsonl"
+    else:
+        TRAIN_FILE = Path(args.data_file)
+
+    if not TRAIN_FILE.exists():
+        print(f"❌ ERROR: Data file not found: {TRAIN_FILE}")
+        return 1
 
     # Set up directories based on run name
     BATCH_TEMP_DIR = OUTPUT_DIR / args.run_name
@@ -2655,6 +2680,7 @@ Examples:
         EVALUATOR_MODELS = [evaluator_map[e] for e in args.evaluators]
 
     print(f"✓ Run name: {args.run_name}")
+    print(f"✓ Data file: {TRAIN_FILE}")
     print(f"✓ Batch temp directory: {BATCH_TEMP_DIR}")
     print(f"✓ Results directory: {RESULTS_DIR}")
     print(f"✓ Prompt file: {PROMPT_FILE if PROMPT_FILE else 'prompts/baseline.txt (default)'}")
