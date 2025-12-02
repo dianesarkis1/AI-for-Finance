@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_0", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nHALLUCINATIONS:\n- **Deal size: N/A**: The memo claims the deal size is not available (N/A). However, the source document's \"SCHEDULE I\" explicitly states the \"Commitment Increase\" amount is \"$25,000,000 (Dollar)\"."}}]}}}
-{"custom_id": "completeness_0", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: The memo incorrectly states that the commitment amount is not provided and lists the \"Deal size\" as N/A. The source document's Schedule I clearly states the \"Commitment Increase\" is $25,000,000."}}]}}}
-{"custom_id": "consistency_0", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_0", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_0", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_0", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65"}}]}}}
-{"custom_id": "quality_structure_0", "response": {"body": {"choices": [{"message": {"content": "SCORE: 35"}}]}}}

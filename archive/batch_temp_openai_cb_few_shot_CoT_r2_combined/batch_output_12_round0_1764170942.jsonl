@@ -1,7 +1,0 @@
-{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states the stock certificate deliverable is due in \"5 days\"; the Agreement requires delivery within five Business Days after the Joinder Date."}}]}}}
-{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Explicit carve-out that New Borrowers are not joined to any Canadian Transaction Document"}}]}}}
-{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Uses the same factor as both a positive and a risk: multiple amendments since 2022 are cited as evidence of lender engagement and borrower compliance (strength) and also as a sign of potential covenant/operational challenges (risk).\", \"Claims \\\"All parties operate in the oilfield services and energy equipment sector\\\" even though PNC Bank and U.S. Bank are identified as parties to the joinder; banks are lenders, not oilfield operators.\"]}"}}]}}}
-{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
-{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
-{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
-{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_134", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_134", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_134", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo lists 'Regulatory compliance requirements' as both a Key Strength (because it ensures a sophisticated lender base) and a Principal Risk (because it creates regulatory complexity).\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_134", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_134", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_134", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_134", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_12", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_12", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_12", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo states under 'Principal Risks' that the 'magnitude of changes are not specified' for the pricing adjustment, but the 'Key Deal Terms' section provides the specific new interest rate margins (e.g., 'Eurodollar Loans: 0.725% - 1.225% margin').\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_12", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_12", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_length_12", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_12", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

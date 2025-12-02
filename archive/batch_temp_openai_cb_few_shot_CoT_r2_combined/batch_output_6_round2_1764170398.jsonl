@@ -1,7 +1,0 @@
-{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Describes Universal Electronics BV as a \u201csubsidiary\u201d of the Borrower. The source identifies UE BV as a guarantor but does not state it is a subsidiary."}}]}}}
-{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
-{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
-{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
-{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
-{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
-{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

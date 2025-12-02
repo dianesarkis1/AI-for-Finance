@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_379", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_379", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: [\"Delayed Draw Term Loan Commitment Expiration Date\" was changed to the earlier of the facility being reduced to zero or August 14, 2024.]"}}]}}}
-{"custom_id": "consistency_379", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo claims the transaction's purpose is a very specific modification ('specifically relating to the \\\"Delayed Draw Term Loan Commitment Expiration Date\\\" definition') but then lists 'Limited visibility into specific amendment terms' as a key risk. If the terms were known to be this specific, visibility should be high, not limited.\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_379", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_379", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_379", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
-{"custom_id": "quality_structure_379", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

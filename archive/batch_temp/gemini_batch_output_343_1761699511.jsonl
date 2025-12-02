@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_343", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_343", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: [\"The specific names of the Lenders party to the agreement (e.g., MUFG Bank, Ltd., Citibank, N.A., Sumitomo Mitsui Banking Corporation, etc.), which are listed on the signature pages.\",\"The requirement for the Borrower to pay fees to the extending lenders (\\\"2028 Lenders\\\") and pay legal expenses as a condition for the amendment to become effective, as stated in Section 6(b).\"]"}}]}}}
-{"custom_id": "consistency_343", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_343", "response": {"body": {"choices": [{"message": {"content": "SCORE: 55"}}]}}}
-{"custom_id": "quality_tone_343", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_length_343", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_343", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

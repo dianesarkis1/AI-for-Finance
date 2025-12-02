@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_119", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_119", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS:\n- The specific names of the Lenders party to the agreement are not listed (e.g., Bank of America, N.A., Barclays Bank PLC, Citibank, N.A., JPMorgan Chase Bank, N.A., etc.).\n- The specific threshold for a Change in Control event under the modified covenant is not mentioned (i.e., acquisition of \"35% or more of the aggregate ordinary voting power\" of Crestwood Equity Partners)."}}]}}}
-{"custom_id": "consistency_119", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo claims a defined completion timeline 'creates execution certainty' as a key strength, while simultaneously listing as a principal risk that the 'Amendment [is] contingent on multiple conditions precedent,' which is the opposite of certainty.\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_119", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68"}}]}}}
-{"custom_id": "quality_tone_119", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
-{"custom_id": "quality_length_119", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_119", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

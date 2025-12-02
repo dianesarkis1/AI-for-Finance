@@ -1,7 +1,0 @@
-{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
-{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo summarizes the interest rate spreads as a range (e.g., 0.725%-1.225% for Eurodollar Loans). However, it omits the specific breakdown from the \"PRICING GRID FOR FACILITY\" in Annex I, which maps each of the five distinct \"Pricing Levels\" and their corresponding debt ratings (e.g., Level 1: A+/A1/A+, Level 2: A/A2/A, etc.) to a specific \"Applicable Margin.\" This detailed grid is the central financial term being changed by the amendment."}}]}}}
-{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
-{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
-{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 97.0"}}]}}}
-{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
-{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

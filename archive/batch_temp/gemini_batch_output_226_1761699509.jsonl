@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_226", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_226", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_226", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo presents 'frequent amendment activity' as both a key strength (evidence of 'active management engagement' and 'ongoing lender support') and a principal risk (a signal of 'covenant pressure or operational challenges').\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_226", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_226", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_226", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_226", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

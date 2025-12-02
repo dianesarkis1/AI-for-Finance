@@ -1,7 +1,0 @@
-{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
-{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
-{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The deal terms table specifies a '1.25% Undrawn Fee', which compensates lenders for a commitment to lend, but the memo states in two other sections ('Principal Risks' and 'Key covenants') that the borrower is completely prohibited from requesting or making any advances during the waiver period.\"]}"}}]}}}
-{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
-{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 97.0"}}]}}}
-{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
-{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

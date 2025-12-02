@@ -1,7 +1,0 @@
-{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
-{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo does not list the specific names and dates of the underlying notes, fee letters, and security agreements that the New Borrowers are joining, as detailed in Annex A. For example, it omits that they are joining the \"Fourth Amended and Restated Revolving Credit Note, dated as of April 3, 2023\" and the \"Fee Letter, dated as of June 28, 2024,\" which are material terms defining the specific obligations being assumed."}}]}}}
-{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents 'multiple amendments' as a strength indicating 'borrower compliance' while simultaneously listing the same factor as a risk that 'may indicate ongoing covenant or operational challenges,' which are opposing assessments of the same fact.\"]}"}}]}}}
-{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
-{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
-{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
-{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_78", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_78", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_78", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_78", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_78", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_length_78", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_structure_78", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}
