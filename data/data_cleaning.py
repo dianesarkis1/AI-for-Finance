@@ -6,6 +6,7 @@ import re
 import unicodedata
 import time
 import hashlib
+import random
 from pathlib import Path
 
 def clean_html_to_text(html):
@@ -61,6 +62,37 @@ def deterministic_top_k(urls, k=15):
         key=lambda t: t[1]
     )[:k]]
 
+def generate_train_final_indices(total_train_samples, seed=42):
+    """
+    Generate the 50 training indices used for train_final.jsonl.
+
+    Historical context: This 50-index sample evolved organically during development:
+    - Started by manually reviewing first 3 indices (0, 1, 2)
+    - Then sampled 10 baseline indices for initial evals
+    - Later needed 37 more for a comprehensive 50-sample benchmark
+
+    All sampling uses seed 42 for reproducibility.
+
+    Returns:
+        Sorted list of 50 unique indices from train.jsonl
+    """
+    random.seed(seed)
+
+    # 1. First 3 indices (originally manually reviewed)
+    comprehensive_indices = {0, 1, 2}
+
+    # 2. Sample 10 baseline indices
+    available = [i for i in range(total_train_samples) if i not in comprehensive_indices]
+    baseline_10 = random.sample(available, 10)
+    comprehensive_indices.update(baseline_10)
+
+    # 3. Sample 37 more random indices to reach 50 total
+    available = [i for i in range(total_train_samples) if i not in comprehensive_indices]
+    additional_37 = random.sample(available, 37)
+    comprehensive_indices.update(additional_37)
+
+    return sorted(list(comprehensive_indices))
+
 if __name__ == "__main__":
     data_dir = Path("data")
     data_dir.mkdir(parents=True, exist_ok=True)
@@ -69,6 +101,8 @@ if __name__ == "__main__":
     all_file = data_dir / "cleaned_data.jsonl"
     train_file = data_dir / "train.jsonl"
     eval_file = data_dir / "eval.jsonl"
+    test_file = data_dir / "test.jsonl"
+    train_final_file = data_dir / "train_final.jsonl"
     eval_urls_path = data_dir / "eval_urls.txt"  # locked list of 15 eval URLs
 
     # Load URLs
@@ -119,4 +153,53 @@ if __name__ == "__main__":
                 print(f"Processed: {url}  →  {split}")
             except Exception as e:
                 print(f"Error processing {url}: {e}")
+
+    # Generate test.jsonl and train_final.jsonl
+    print("\n" + "="*70)
+    print("Generating test.jsonl and train_final.jsonl...")
+    print("="*70)
+
+    # Load train.jsonl
+    with train_file.open("r", encoding="utf-8") as f:
+        train_data = [json.loads(line) for line in f]
+
+    # Load eval.jsonl
+    with eval_file.open("r", encoding="utf-8") as f:
+        eval_data = [json.loads(line) for line in f]
+
+    total_train = len(train_data)
+    print(f"Train samples: {total_train}")
+    print(f"Eval samples: {len(eval_data)}")
+
+    # Generate the 50 train_final indices
+    train_final_indices = generate_train_final_indices(total_train, seed=42)
+    print(f"Train_final indices (50 total): {train_final_indices[:10]}... (showing first 10)")
+
+    # Create train_final.jsonl (50 indices from train)
+    train_final_data = [train_data[i] for i in train_final_indices]
+    with train_final_file.open("w", encoding="utf-8") as f:
+        for entry in train_final_data:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    print(f"✓ Created {train_final_file.name} ({len(train_final_data)} entries)")
+
+    # Create test.jsonl (eval + all train EXCEPT the 50 train_final indices)
+    train_final_set = set(train_final_indices)
+    test_from_train = [train_data[i] for i in range(total_train) if i not in train_final_set]
+    test_data = eval_data + test_from_train
+
+    with test_file.open("w", encoding="utf-8") as f:
+        for entry in test_data:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    print(f"✓ Created {test_file.name} ({len(test_data)} entries)")
+    print(f"  = {len(eval_data)} eval + {len(test_from_train)} train (excluding train_final)")
+
+    # Verify no overlap
+    train_final_urls = {e['source_url'] for e in train_final_data}
+    test_urls = {e['source_url'] for e in test_data}
+    overlap = train_final_urls & test_urls
+
+    print(f"\n✓ Verification: {'No overlap' if not overlap else f'ERROR: {len(overlap)} overlapping URLs'}")
+    print(f"  train_final: {len(train_final_urls)} URLs")
+    print(f"  test: {len(test_urls)} URLs")
+    print("\n✅ Data pipeline complete!")
 
