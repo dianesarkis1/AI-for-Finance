@@ -40,6 +40,7 @@ Data folder:
 - cleaned_data.jsonl has the entire dataset after preprocessing/cleaning, which is done by running data_cleaning.py
 - eval.jsonl has the eval split of the data
 - train.jsonl has the training split
+If you use VS Code, you can open this repo in a devcontainer (.devcontainer/) to get a pre-configured environment.
 
 Project Scripts folder:
 - "main_exploratory" functions run "model_run" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
