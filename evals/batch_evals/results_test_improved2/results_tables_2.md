@@ -4,22 +4,22 @@
 
 | Metric                | Value |
 | --------------------- | ----- |
-| Total Memos Evaluated | 449   |
-| Total Evaluations     | 1347  |
-| Total Quality Scores  | 5388  |
+| Total Memos Evaluated | 446   |
+| Total Evaluations     | 1338  |
+| Total Quality Scores  | 5352  |
 | Mean Score            | 65.86 |
-| Median Score          | 68.29 |
+| Median Score          | 68.28 |
 | Min Score             | 17.52 |
 | Max Score             | 94.38 |
-| Std Dev               | 13.84 |
+| Std Dev               | 13.82 |
 
 ## Statistics by Evaluator
 
 | Evaluator                | Count | Mean  | Median |
 | ------------------------ | ----- | ----- | ------ |
-| gpt-5                    | 449   | 55.84 | 67.38  |
-| claude-sonnet-4-20250514 | 449   | 80.58 | 91.06  |
-| gemini-2.5-pro           | 449   | 61.15 | 69.06  |
+| gpt-5                    | 446   | 55.81 | 67.22  |
+| claude-sonnet-4-20250514 | 446   | 80.62 | 91.06  |
+| gemini-2.5-pro           | 446   | 61.15 | 69.03  |
 
 ## Statistics by Metric
 
@@ -27,13 +27,13 @@ This table includes both quantitative quality metrics (0-100 scores) and qualita
 
 | Metric            | Type         | Count | Mean / % with Issues      | Median / Details |
 | ----------------- | ------------ | ----- | ------------------------- | ---------------- |
-| quality_clarity   | Quantitative | 1347  | 85.26                     | 85.00            |
-| quality_tone      | Quantitative | 1347  | 89.51                     | 88.00            |
-| quality_length    | Quantitative | 1347  | 81.38                     | 85.00            |
-| quality_structure | Quantitative | 1347  | 40.93                     | 40.00            |
-| accuracy          | Qualitative  | 1347  | 23.4% with hallucinations | 315/1347 memos   |
-| completeness      | Qualitative  | 1347  | 46.0% incomplete          | 620/1347 memos   |
-| consistency       | Qualitative  | 1347  | 41.4% with issues         | 558/1347 memos   |
+| quality_clarity   | Quantitative | 1338  | 85.25                     | 85.00            |
+| quality_tone      | Quantitative | 1338  | 89.50                     | 88.00            |
+| quality_length    | Quantitative | 1338  | 81.40                     | 85.00            |
+| quality_structure | Quantitative | 1338  | 40.93                     | 40.00            |
+| accuracy          | Qualitative  | 1338  | 23.4% with hallucinations | 313/1338 memos   |
+| completeness      | Qualitative  | 1338  | 46.0% incomplete          | 616/1338 memos   |
+| consistency       | Qualitative  | 1338  | 41.4% with issues         | 554/1338 memos   |
 
 ## Results by Index (Summary Scores)
 
@@ -140,7 +140,6 @@ This table includes both quantitative quality metrics (0-100 scores) and qualita
 | 98    | 68.71         | 44.25       | 91.88        | 70.00        |
 | 99    | 69.52         | 44.94       | 92.94        | 70.69        |
 | 100   | 52.39         | 69.12       | 67.94        | 20.12        |
-| 101   | 68.62         | 68.50       | 67.06        | 70.31        |
 | 102   | 35.87         | 18.56       | 68.56        | 20.50        |
 | 103   | 85.73         | 68.75       | 92.94        | 95.50        |
 | 104   | 60.79         | 44.19       | 92.69        | 45.50        |
@@ -303,7 +302,6 @@ This table includes both quantitative quality metrics (0-100 scores) and qualita
 | 261   | 43.25         | 18.00       | 42.69        | 69.06        |
 | 262   | 75.77         | 93.44       | 89.19        | 44.69        |
 | 263   | 77.33         | 68.81       | 92.69        | 70.50        |
-| 264   | 85.46         | 93.88       | 92.31        | 70.19        |
 | 265   | 84.88         | 93.88       | 91.06        | 69.69        |
 | 266   | 68.94         | 44.00       | 92.31        | 70.50        |
 | 267   | 68.96         | 69.06       | 93.12        | 44.69        |
@@ -452,7 +450,6 @@ This table includes both quantitative quality metrics (0-100 scores) and qualita
 | 410   | 68.67         | 43.56       | 92.75        | 69.69        |
 | 411   | 77.23         | 69.06       | 92.75        | 69.88        |
 | 412   | 60.40         | 69.19       | 67.31        | 44.69        |
-| 413   | 43.35         | 18.81       | 66.06        | 45.19        |
 | 414   | 35.67         | 18.88       | 67.50        | 20.62        |
 | 415   | 60.56         | 43.38       | 92.50        | 45.81        |
 | 416   | 52.40         | 18.94       | 67.75        | 70.50        |

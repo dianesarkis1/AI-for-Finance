@@ -2,6 +2,13 @@
 """
 Preview the sampling that will be used for comprehensive batch evaluation.
 This doesn't run any evaluations - just shows what indices will be sampled.
+
+NOTE ON TRAINING DATA SAMPLING:
+    This script uses baseline_sampled_indices_seed42.json to generate a 50-index
+    comprehensive sample (10 baseline + 3 first indices + 37 random). This produces
+    IDENTICAL data to data/train_final.jsonl, which explicitly contains the same 50
+    training samples. The sampling approach is maintained here for backward compatibility
+    with existing run naming conventions and historical workflows.
 """
 
 import json

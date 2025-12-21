@@ -5,12 +5,17 @@ This project explores how AI can be applied in finance to automate key workflows
 - Develop an evaluation harness to evaluate models (gpt-5, claude sonnet 4, gemini 2.5 pro) on a consistent set of metrics, and test whether prompt optimization techniques (few shot examples, iterative refinement...) can systematically improve performance
 
 ### Folder Organization
-Data folder: 
-- urls.txt has all the url links to the full dataset.
-- eval_urls.txt has all the url links to the eval set (this list is pre-set so that it stays the same across iterations/runs)
-- cleaned_data.jsonl has the entire dataset after preprocessing/cleaning, which is done by running data_cleaning.py
-- eval.jsonl has the eval split of the data
-- train.jsonl has the training split
+**Data folder:**
+- `urls.txt` - All 499 URL links to the full dataset (SEC credit agreements)
+- `eval_urls.txt` - URL links to the eval set (pre-set for consistency across runs)
+- `cleaned_data.jsonl` - All 499 cleaned credit agreements after preprocessing
+- `train.jsonl` - 484 documents (cleaned_data minus 15 excluded URLs)
+- `train_final.jsonl` - 50 documents (evaluation set, specific indices from cleaned_data)
+- `test.jsonl` - 449 documents (remaining documents for testing)
+
+All data splits are deterministic using hardcoded indices and URL lists (no random sampling).
+See [data/data_cleaning.py](data/data_cleaning.py) for detailed pipeline documentation.
+
 If you use VS Code, you can open this repo in a devcontainer (.devcontainer/) to get a pre-configured environment.
 
 Project Scripts folder:
@@ -71,13 +76,27 @@ Any defaults not explicitly provided here should be assumed to match the code’
 
 ### 3. (Optional) Rebuild the dataset
 
-If you want to regenerate the cleaned dataset:
+The data pipeline is fully reproducible. To regenerate all data files:
 
 ```bash
+# Install additional dependencies for data cleaning
+pip install requests beautifulsoup4 lxml chardet
+
+# Run the pipeline (creates 4 JSONL files in data/)
 python data/data_cleaning.py
+
+# Or test without overwriting existing files (outputs to data_test/)
+python data/data_cleaning.py data_test
 ```
 
-This script produces `cleaned_data.jsonl`, `train.jsonl`, and `eval.jsonl` inside `data/`.
+**What this creates:**
+- `cleaned_data.jsonl` - All 499 cleaned credit agreements
+- `train.jsonl` - 484 documents (subset of cleaned_data)
+- `train_final.jsonl` - 50 documents (evaluation set)
+- `test.jsonl` - 449 documents (remaining documents)
+
+**Note:** The pipeline fetches from SEC servers (499 documents × 0.2s delay = ~2 minutes).
+All splits are deterministic using hardcoded indices—see [data/data_cleaning.py](data/data_cleaning.py) for complete documentation.
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "summary": {
     "has_rounds": false,
-    "total_memos_evaluated": 449,
+    "total_memos_evaluated": 446,
     "dataset_indices_evaluated": [
       0,
       1,
@@ -104,7 +104,6 @@
       98,
       99,
       100,
-      101,
       102,
       103,
       104,
@@ -267,7 +266,6 @@
       261,
       262,
       263,
-      264,
       265,
       266,
       267,
@@ -416,7 +414,6 @@
       410,
       411,
       412,
-      413,
       414,
       415,
       416,
@@ -453,50 +450,65 @@
       447,
       448
     ],
-    "total_evaluations": 1347,
-    "total_quality_scores": 5388,
-    "mean_score": 65.86,
-    "median_score": 68.29,
+    "total_evaluations": 1338,
+    "total_quality_scores": 5352,
+    "mean_score": 65.85784753363228,
+    "median_score": 68.28,
     "min_score": 17.52,
     "max_score": 94.38,
-    "stdev_score": 13.84,
+    "stdev_score": 13.816648639454503,
     "evaluators": {
       "gpt-5": {
-        "count": 449,
-        "mean": 55.84,
-        "median": 67.38
+        "count": 446,
+        "mean": 55.81,
+        "median": 67.22
       },
       "claude-sonnet-4-20250514": {
-        "count": 449,
-        "mean": 80.58,
+        "count": 446,
+        "mean": 80.62,
         "median": 91.06
       },
       "gemini-2.5-pro": {
-        "count": 449,
+        "count": 446,
         "mean": 61.15,
-        "median": 69.06
+        "median": 69.03
       }
     },
     "metrics": {
       "quality_clarity": {
-        "count": 1347,
-        "mean": 85.26,
-        "median": 85
+        "count": 1338,
+        "mean": 85.25,
+        "median": 85.0
       },
       "quality_tone": {
-        "count": 1347,
-        "mean": 89.51,
-        "median": 88
+        "count": 1338,
+        "mean": 89.5,
+        "median": 88.0
       },
       "quality_length": {
-        "count": 1347,
-        "mean": 81.38,
-        "median": 85
+        "count": 1338,
+        "mean": 81.4,
+        "median": 85.0
       },
       "quality_structure": {
-        "count": 1347,
+        "count": 1338,
         "mean": 40.93,
-        "median": 40
+        "median": 40.0
+      },
+      "accuracy": {
+        "type": "qualitative",
+        "with_hallucinations": 313,
+        "percent_with_hallucinations": 23.4
+      },
+      "completeness": {
+        "type": "qualitative",
+        "incomplete": 616,
+        "percent_incomplete": 46.0
+      },
+      "consistency": {
+        "type": "qualitative",
+        "with_issues": 554,
+        "percent_with_issues": 41.4
       }
     }
   },
@@ -730,117 +742,6 @@
         "summary_score": 20.12
       },
       "summary_score": 52.39
-    },
-    "101": {
-      "gpt-5": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "YES",
-          "missing_terms": "Amendment effective date (effective as of June 30, 2022, distinct from the August 2, 2022 execution date)",
-          "is_incomplete": true
-        },
-        "consistency": {
-          "has_issues": false,
-          "issues": [],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 86,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 90,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 80,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 40,
-          "metric": "quality_structure"
-        },
-        "summary_score": 68.5
-      },
-      "claude-sonnet-4-20250514": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None\n\nThe memo accurately reflects all key financial terms present in the source document. The $4,000,000 limit on purchase money indebtedness and Capitalized Lease Obligations is correctly stated, the August 2, 2022 amendment date is accurate, all party names (borrower, administrative agent, and lenders) are correct, and the covenant terms are properly represented. The memo appropriately marks missing information as \"N/A\" rather than fabricating details not present in the source document. All financial terms cited in the memo are directly supported by the credit agreement amendment.",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "YES",
-          "missing_terms": "The amendment specifies that while the Sixth Amendment was executed on August 2, 2022, the actual modification to Section 8.7(b) (the $4,000,000 debt capacity limit) was effective as of June 30, 2022 - this dual effective date structure is missing from the memo.",
-          "is_incomplete": true
-        },
-        "consistency": {
-          "has_issues": false,
-          "issues": [],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 78,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 85,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 65,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 45,
-          "metric": "quality_structure"
-        },
-        "summary_score": 67.06
-      },
-      "gemini-2.5-pro": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "YES",
-          "missing_terms": "['The amendment is effective as of June 30, 2022, which is distinct from the execution date of August 2, 2022.']",
-          "is_incomplete": true
-        },
-        "consistency": {
-          "has_issues": false,
-          "issues": [],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 95,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 95,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 95,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 40,
-          "metric": "quality_structure"
-        },
-        "summary_score": 70.31
-      },
-      "summary_score": 68.62
     },
     "102": {
       "gpt-5": {
@@ -21227,119 +21128,6 @@
       },
       "summary_score": 77.33
     },
-    "264": {
-      "gpt-5": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "NO",
-          "missing_terms": "None",
-          "is_incomplete": false
-        },
-        "consistency": {
-          "has_issues": false,
-          "issues": [],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 86,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 88,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 88,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 40,
-          "metric": "quality_structure"
-        },
-        "summary_score": 93.88
-      },
-      "claude-sonnet-4-20250514": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None\n\nThe memo accurately reflects all key financial terms present in the source document:\n\n- Borrower: Morgan Stanley Direct Lending Fund (Delaware corporation) \u2713\n- Lender/Administrative Agent: CIBC Bank USA \u2713\n- Transaction date: May 12, 2022 \u2713\n- Effective date: immediately but no later than May 16, 2022 \u2713\n- Commitment reduction amount: $280,000,000 \u2713\n- Original Credit Agreement date: December 31, 2019 \u2713\n- Amendment dates: February 3, 2020 and November 17, 2020 \u2713\n- CFO signature: Venugopal Rathi \u2713\n\nAll terms marked as \"N/A\" in the deal terms table are appropriately identified as unavailable since they are not specified in the source document. The memo does not fabricate any financial terms that aren't supported by the source material.",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "NO",
-          "missing_terms": "None",
-          "is_incomplete": false
-        },
-        "consistency": {
-          "has_issues": false,
-          "issues": [],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 82,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 85,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 75,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 35,
-          "metric": "quality_structure"
-        },
-        "summary_score": 92.31
-      },
-      "gemini-2.5-pro": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "NO",
-          "missing_terms": "None",
-          "is_incomplete": false
-        },
-        "consistency": {
-          "has_issues": true,
-          "issues": [
-            "The memo presents the commitment reduction as a credit positive, indicating 'disciplined utilization' and 'potentially reduced leverage exposure,' while also stating under risks that 'No financial performance metrics, leverage ratios, or other quantitative credit measures are available' to substantiate such a positive assessment."
-          ],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 95,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 95,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 88,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 45,
-          "metric": "quality_structure"
-        },
-        "summary_score": 70.19
-      },
-      "summary_score": 85.46
-    },
     "265": {
       "gpt-5": {
         "accuracy": {
@@ -40113,123 +39901,6 @@
       },
       "summary_score": 60.4
     },
-    "413": {
-      "gpt-5": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "YES",
-          "hallucinations": "- States the banking consortium comprises \u201cten\u201d major U.S. financial institutions; the source shows nine lenders (including JPMorgan as Administrative Agent and lender) signed the amendment.\n- References \u201ccollateral agreements\u201d remaining in full force and effect; the amendment/consent reaffirm Loan Documents generally and do not mention collateral or collateral agreements.",
-          "has_hallucinations": true
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "YES",
-          "missing_terms": "- Full list of subsidiary guarantors that executed the Consent and Reaffirmation: Tredegar Performance Films Inc.; Terphane Holdings LLC; Bonnell Aluminum, Inc.; Bonnell Aluminum (Niles), LLC; Bonnell Aluminum (Corporate), Inc.; Bonnell Aluminum (Clearfield), Inc.; Tredegar Surface Protection, LLC; Tredegar Far East Corporation; Tredegar Film Products (Latin America), Inc.; TAC Holdings, LLC; Bonnell Aluminum (Elkhart), Inc.\n- JPMorgan Chase Bank, N.A. is also a Lender in addition to serving as Administrative Agent.",
-          "is_incomplete": true
-        },
-        "consistency": {
-          "has_issues": true,
-          "issues": [
-            "Strengths section claims the banking consortium comprises ten institutions but lists only nine (JPMorgan Chase, Bank of America, Wells Fargo, Citibank, PNC, U.S. Bank, Citizens Bank, First Horizon, Huntington National Bank), while elsewhere the memo enumerates the same names, implying nine at most."
-          ],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 87,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 92,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 82,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 40,
-          "metric": "quality_structure"
-        },
-        "summary_score": 18.81
-      },
-      "claude-sonnet-4-20250514": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "NO",
-          "hallucinations": "None\n\nThe memo accurately reflects all key financial terms present in the source document. All parties, dates, covenant modifications, and structural details are properly supported by the source credit agreement amendment. The memo appropriately marks unavailable financial information (deal size, interest rate, maturity date, etc.) as \"N/A\" rather than fabricating unsupported details. The description of the EBITDA definition amendment accurately captures the specific language modification from the source document.",
-          "has_hallucinations": false
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "NO",
-          "missing_terms": "None",
-          "is_incomplete": false
-        },
-        "consistency": {
-          "has_issues": true,
-          "issues": [
-            "Executive Summary lists 9 syndicate institutions (Citizens Bank, PNC Bank, U.S. Bank, Bank of America, Wells Fargo, Citibank, First Horizon Bank, Huntington National Bank, plus JPMorgan Chase as Administrative Agent) but Credit Positives claims 'ten major U.S. financial institutions'"
-          ],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 82,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 85,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 45,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 45,
-          "metric": "quality_structure"
-        },
-        "summary_score": 66.06
-      },
-      "gemini-2.5-pro": {
-        "accuracy": {
-          "metric": "accuracy",
-          "answer": "YES",
-          "hallucinations": "- In the \"Key Strengths / Credit Positives\" section, the memo states there is a \"strong banking consortium comprising ten major U.S. financial institutions\". The source document only lists nine signing financial institutions (JPMorgan Chase Bank, N.A., Citizens Bank, N.A., PNC Bank, National Association, U.S. Bank National Association, Bank of America, N.A., Wells Fargo Bank, National Association, Citibank, N.A., First Horizon Bank, and The Huntington National Bank).",
-          "has_hallucinations": true
-        },
-        "completeness": {
-          "metric": "completeness",
-          "answer": "NO",
-          "missing_terms": "None",
-          "is_incomplete": false
-        },
-        "consistency": {
-          "has_issues": true,
-          "issues": [
-            "The memo states there is a \"consortium comprising ten major U.S. financial institutions\" but lists only nine institutions in both the Executive Summary and the Key Strengths section."
-          ],
-          "metric": "consistency"
-        },
-        "quality_clarity": {
-          "score": 95,
-          "metric": "quality_clarity"
-        },
-        "quality_tone": {
-          "score": 96,
-          "metric": "quality_tone"
-        },
-        "quality_length": {
-          "score": 92,
-          "metric": "quality_length"
-        },
-        "quality_structure": {
-          "score": 40,
-          "metric": "quality_structure"
-        },
-        "summary_score": 45.19
-      },
-      "summary_score": 43.35
-    },
     "414": {
       "gpt-5": {
         "accuracy": {
@@ -51592,6 +51263,12 @@
       "claude-sonnet-4-20250514",
       "gemini-2.5-pro"
     ],
-    "total_evaluations": "449 memos \u00d7 3 evaluators = 1347"
+    "total_evaluations": "449 memos \u00d7 3 evaluators = 1347",
+    "total_samples": 446,
+    "excluded_indices": [
+      101,
+      264,
+      413
+    ]
   }
 }

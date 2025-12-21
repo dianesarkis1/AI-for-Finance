@@ -9,6 +9,19 @@ This system evaluates a model's ability to generate investment memos from credit
 2. Evaluating each memo using 3 different LLM evaluators (GPT-5, Claude, Gemini)
 3. Aggregating results and producing statistical analysis
 
+### Training Data: train_final.jsonl vs Sampling Approach
+
+**TL;DR**: Both approaches produce the **exact same 50 training samples**.
+
+- **`data/train_final.jsonl`**: Explicitly contains the 50 training samples used for evaluation. This file exists to make the training set transparent and easily accessible.
+
+- **Sampling via `baseline_sampled_indices_seed42.json`**: The evaluation scripts in this directory use a sampling approach that generates the same 50 indices:
+  - 10 baseline indices (from `evals/benchmark/baseline_sampled_indices_seed42.json`)
+  - First 3 indices (0, 1, 2)
+  - 37 additional random indices (seed=42)
+
+The sampling approach is maintained in evaluation scripts for **backward compatibility** with existing run naming conventions and historical workflows. Both approaches are deterministic and produce identical results.
+
 **Key Benefits:**
 - **True Parallel Evaluation**: Submit all 150 batch jobs at once (50 inputs × 3 evaluators)
 - **Reproducible**: Same seed ensures same sample every time

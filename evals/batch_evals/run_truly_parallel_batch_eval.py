@@ -25,6 +25,13 @@ Usage:
 
     # Use a different data file
     python run_truly_parallel_batch_eval.py --data-file data/test.jsonl --indices 0 1 2
+
+NOTE ON TRAINING DATA SAMPLING:
+    This script uses baseline_sampled_indices_seed42.json to generate a 50-index
+    comprehensive sample (10 baseline + 3 first indices + 37 random). This produces
+    IDENTICAL data to data/train_final.jsonl, which explicitly contains the same 50
+    training samples. The sampling approach is maintained here for backward compatibility
+    with existing run naming conventions and historical workflows.
 """
 
 import argparse
