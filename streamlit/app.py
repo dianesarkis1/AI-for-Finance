@@ -3,12 +3,13 @@
 Investment Memo Generator - Streamlit Interface
 
 A comprehensive web interface for generating investment memos from various document types
-(PDF, URL, TXT, JSON/JSONL) using Claude Sonnet 4.
+(PDF, URL, TXT, JSON/JSONL) using multiple AI models.
 
 Features:
 - Multiple input types: File upload (PDF, TXT, JSON, JSONL) or URL
 - Custom prompt selection or input
-- Claude Sonnet 4 integration
+- Multi-model AI integration (Claude Sonnet 4, GPT-5, Gemini 2.5 Pro)
+- Few-shot examples for improved quality
 - Download generated memos
 - Error handling and validation
 
@@ -296,7 +297,7 @@ def main():
 
     st.title("📊 Investment Memo Generator")
     st.markdown("""
-    Generate professional investment memos from various document types using **Claude Sonnet 4**.
+    Generate professional investment memos from various document types using **your chosen AI model**.
 
     **Supported inputs:**
     - 📄 PDF files
@@ -427,7 +428,7 @@ def main():
                     "Enter your custom prompt",
                     height=200,
                     placeholder="Enter instructions for generating the investment memo...",
-                    help="This prompt will guide Claude in generating the memo"
+                    help="This prompt will guide the AI model in generating the memo"
                 )
             else:
                 prompt = available_prompts[prompt_choice]
@@ -443,7 +444,7 @@ def main():
                 "Enter your prompt",
                 height=200,
                 placeholder="Enter instructions for generating the investment memo...",
-                help="This prompt will guide Claude in generating the memo"
+                help="This prompt will guide the AI model in generating the memo"
             )
 
         # Few-shot examples option
@@ -591,7 +592,7 @@ def main():
     st.markdown("""
     <div style='text-align: center; color: gray; padding: 20px;'>
         <small>
-        Powered by Claude Sonnet 4 | Built with Streamlit<br>
+        Powered by Claude Sonnet 4, GPT-5 & Gemini 2.5 Pro | Built with Streamlit<br>
         Investment Memo Generator v1.0
         </small>
     </div>
