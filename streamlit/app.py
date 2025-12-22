@@ -18,6 +18,7 @@ Requirements:
 
 import json
 import os
+import subprocess
 import sys
 import tempfile
 from io import BytesIO
@@ -159,7 +160,6 @@ def process_uploaded_file(uploaded_file) -> str:
     elif file_extension == '.jsonl':
         # JSONL processing - use existing function
         # Save to temp file first
-        import subprocess
         import time
         with tempfile.NamedTemporaryFile(mode='wb', suffix='.jsonl', delete=False) as tmp:
             tmp.write(uploaded_file.read())
@@ -191,13 +191,40 @@ def process_uploaded_file(uploaded_file) -> str:
         raise ValueError(f"Unsupported file type: {file_extension}. Supported: .pdf, .txt, .md, .json, .jsonl")
 
 
-def generate_memo(prompt: str, document_text: str, model: str, api_keys: dict) -> str:
+def generate_memo(prompt: str, document_text: str, model: str, api_keys: dict, use_few_shot: bool = True) -> str:
     """Generate investment memo by invoking `evals.model_run` as a subprocess.
 
     Writes `document_text` to a temporary file and calls the model runner with
     `--model` and `--prompt`. The appropriate API key for the chosen provider
     is injected into the subprocess environment from `api_keys`.
     """
+
+    # Load and prepend few-shot examples if requested
+    if use_few_shot:
+        few_shot_dir = Path(__file__).parent.parent / "evals" / "few_shot_examples"
+        if few_shot_dir.exists():
+            input_files = sorted(few_shot_dir.glob("input_*.txt"))
+            if input_files:
+                few_shot_section = "\n\n# Few-Shot Examples\n\n"
+                few_shot_section += "Here are example credit agreements with their corresponding high-quality investment memos for reference:\n\n"
+
+                for i, input_file in enumerate(input_files, 1):
+                    # Read input
+                    with open(input_file, 'r', encoding='utf-8') as f:
+                        input_text = f.read()
+
+                    # Read corresponding output
+                    output_file = few_shot_dir / f"example_{input_file.stem.split('_')[1]}.md"
+                    if output_file.exists():
+                        with open(output_file, 'r', encoding='utf-8') as f:
+                            output_text = f.read()
+
+                        few_shot_section += f"## Example {i}\n\n"
+                        few_shot_section += f"### Input Credit Agreement:\n```\n{input_text}\n```\n\n"
+                        few_shot_section += f"### Expected Output Memo:\n{output_text}\n\n"
+                        few_shot_section += "---\n\n"
+
+                prompt = few_shot_section + prompt
 
     # Save document to a temporary file
     suffix = ".txt"
@@ -298,7 +325,7 @@ def main():
 
         if not anthropic_key:
             anthropic_key = st.text_input(
-                "Anthropic API Key (for Claude)",
+                "Anthropic API Key (for Claude Sonnet 4)",
                 type="password",
                 help="Enter your Anthropic API key or set ANTHROPIC_API_KEY environment variable"
             )
@@ -307,7 +334,7 @@ def main():
 
         if not gemini_key:
             gemini_key = st.text_input(
-                "Google Gemini API Key",
+                "Google Gemini API Key (for Gemini 2.5 Pro)",
                 type="password",
                 help="Enter your Google Cloud API key for Gemini or set GEMINI_API_KEY environment variable"
             )
@@ -419,6 +446,13 @@ def main():
                 help="This prompt will guide Claude in generating the memo"
             )
 
+        # Few-shot examples option
+        use_few_shot = st.checkbox(
+            "Include few-shot examples in prompt",
+            value=True,
+            help="Add example investment memos to the prompt to improve quality (recommended)"
+        )
+
     with col2:
         st.header("📄 Output")
 
@@ -434,7 +468,7 @@ def main():
             else:
                 api_keys = {"openai": openai_key, "anthropic": anthropic_key, "gemini": gemini_key}
                 try:
-                    memo = generate_memo(prompt, document_text, selected_model, api_keys)
+                    memo = generate_memo(prompt, document_text, selected_model, api_keys, use_few_shot)
 
                     # Store in session state
                     st.session_state['memo'] = memo
