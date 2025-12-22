@@ -19,6 +19,7 @@ Requirements:
 import json
 import os
 import sys
+import tempfile
 from io import BytesIO
 from pathlib import Path
 from typing import Optional
@@ -158,7 +159,6 @@ def process_uploaded_file(uploaded_file) -> str:
     elif file_extension == '.jsonl':
         # JSONL processing - use existing function
         # Save to temp file first
-        import tempfile
         import subprocess
         import time
         with tempfile.NamedTemporaryFile(mode='wb', suffix='.jsonl', delete=False) as tmp:
