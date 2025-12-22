@@ -28,11 +28,15 @@ import streamlit as st
 # Add parent directories to path to import from evals
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from evals.model_run import (
-    build_anthropic_payload,
-    call_anthropic_api,
     extract_credit_agreement_from_jsonl,
-    extract_output_text_anthropic,
     read_text_file,
+)
+from evals.metrics import (
+    evaluate_accuracy,
+    evaluate_completeness,
+    evaluate_consistency,
+    evaluate_quality,
+    calculate_summary_score,
 )
 
 # Try to import PDF and URL processing libraries
@@ -155,6 +159,8 @@ def process_uploaded_file(uploaded_file) -> str:
         # JSONL processing - use existing function
         # Save to temp file first
         import tempfile
+        import subprocess
+        import time
         with tempfile.NamedTemporaryFile(mode='wb', suffix='.jsonl', delete=False) as tmp:
             tmp.write(uploaded_file.read())
             tmp_path = Path(tmp.name)
@@ -185,29 +191,72 @@ def process_uploaded_file(uploaded_file) -> str:
         raise ValueError(f"Unsupported file type: {file_extension}. Supported: .pdf, .txt, .md, .json, .jsonl")
 
 
-def generate_memo(prompt: str, document_text: str, api_key: str) -> str:
-    """Generate investment memo using Claude Sonnet 4."""
-    # Combine prompt and document
-    combined_content = f"{prompt}\n\n--- DOCUMENT ---\n{document_text}"
+def generate_memo(prompt: str, document_text: str, model: str, api_keys: dict) -> str:
+    """Generate investment memo by invoking `evals.model_run` as a subprocess.
 
-    # Build payload
-    payload = build_anthropic_payload(
-        model=CLAUDE_SONNET_4_MODEL,
-        content=combined_content,
-        max_output_tokens=MAX_OUTPUT_TOKENS
-    )
+    Writes `document_text` to a temporary file and calls the model runner with
+    `--model` and `--prompt`. The appropriate API key for the chosen provider
+    is injected into the subprocess environment from `api_keys`.
+    """
 
-    # Call API
-    with st.spinner("Generating memo with Claude Sonnet 4..."):
-        response = call_anthropic_api(api_key, payload)
+    # Save document to a temporary file
+    suffix = ".txt"
+    tmp = tempfile.NamedTemporaryFile(mode="w", suffix=suffix, delete=False, encoding="utf-8")
+    try:
+        tmp.write(document_text)
+        tmp.flush()
+        tmp_path = tmp.name
+    finally:
+        tmp.close()
 
-    # Extract output
-    output = extract_output_text_anthropic(response)
+    # Determine which env var to set for chosen model
+    MODEL_KEY_MAP = {
+        "claude-sonnet-4-20250514": ("ANTHROPIC_API_KEY", api_keys.get("anthropic")),
+        "gpt-5": ("OPENAI_API_KEY", api_keys.get("openai")),
+        "gemini-2.5-pro": ("GEMINI_API_KEY", api_keys.get("gemini")),
+    }
 
-    if output is None:
-        raise RuntimeError(f"Failed to extract output from API response: {response}")
+    key_entry = MODEL_KEY_MAP.get(model)
+    if not key_entry or not key_entry[1]:
+        # Fall back: try any provided key for the model provider
+        raise ValueError(f"API key for model {model} not provided")
 
-    return output
+    env = os.environ.copy()
+    # Inject the key for the provider used to generate
+    env[key_entry[0]] = key_entry[1]
+
+    # Also inject all provided keys so evaluation can run in the same process later
+    if api_keys.get("openai"):
+        env["OPENAI_API_KEY"] = api_keys.get("openai")
+    if api_keys.get("anthropic"):
+        env["ANTHROPIC_API_KEY"] = api_keys.get("anthropic")
+    if api_keys.get("gemini"):
+        env["GEMINI_API_KEY"] = api_keys.get("gemini")
+
+    cmd = [sys.executable, "-m", "evals.model_run", "--model", model, "--prompt", prompt, "--input-file", tmp_path]
+
+    with st.spinner(f"Generating memo with {model}..."):
+        try:
+            proc = subprocess.run(cmd, capture_output=True, text=True, env=env, timeout=420)
+        except subprocess.TimeoutExpired:
+            raise RuntimeError("Model generation timed out")
+
+    # Clean up temp file
+    try:
+        os.unlink(tmp_path)
+    except Exception:
+        pass
+
+    if proc.returncode != 0:
+        raise RuntimeError(f"Model run failed:\nSTDOUT:\n{proc.stdout}\nSTDERR:\n{proc.stderr}")
+
+    # model_run prints the memo to stdout when --output isn't provided
+    output_text = proc.stdout.strip()
+    if not output_text:
+        # If stdout empty, show stderr for debugging
+        raise RuntimeError(f"No output from model. STDERR:\n{proc.stderr}")
+
+    return output_text
 
 
 def main():
@@ -233,19 +282,47 @@ def main():
     with st.sidebar:
         st.header("⚙️ Configuration")
 
-        # API Key
-        api_key = os.getenv("ANTHROPIC_API_KEY", "")
-        if not api_key:
-            api_key = st.text_input(
-                "Anthropic API Key",
+        # API Keys for all providers (required for evaluation consensus)
+        openai_key = os.getenv("OPENAI_API_KEY", "")
+        anthropic_key = os.getenv("ANTHROPIC_API_KEY", "")
+        gemini_key = os.getenv("GEMINI_API_KEY", "")
+
+        if not openai_key:
+            openai_key = st.text_input(
+                "OpenAI API Key (for GPT-5)",
+                type="password",
+                help="Enter your OpenAI API key or set OPENAI_API_KEY environment variable"
+            )
+        else:
+            st.success("✓ OpenAI API Key loaded from environment")
+
+        if not anthropic_key:
+            anthropic_key = st.text_input(
+                "Anthropic API Key (for Claude)",
                 type="password",
                 help="Enter your Anthropic API key or set ANTHROPIC_API_KEY environment variable"
             )
         else:
-            st.success("✓ API Key loaded from environment")
+            st.success("✓ Anthropic API Key loaded from environment")
 
-        # Model info
-        st.info(f"**Model:** {CLAUDE_SONNET_4_MODEL}\n\n**Max Output:** {MAX_OUTPUT_TOKENS:,} tokens")
+        if not gemini_key:
+            gemini_key = st.text_input(
+                "Google Gemini API Key",
+                type="password",
+                help="Enter your Google Cloud API key for Gemini or set GEMINI_API_KEY environment variable"
+            )
+        else:
+            st.success("✓ Gemini API Key loaded from environment")
+
+        # Model selector for generation
+        MODEL_OPTIONS = [
+            "claude-sonnet-4-20250514",
+            "gpt-5",
+            "gemini-2.5-pro",
+        ]
+        selected_model = st.selectbox("Select model to generate with:", MODEL_OPTIONS)
+
+        st.info(f"**Selected model:** {selected_model}\n\n**Max Output:** {MAX_OUTPUT_TOKENS:,} tokens")
 
     # Main content area
     col1, col2 = st.columns([1, 1])
@@ -348,16 +425,16 @@ def main():
         # Generate button
         if st.button("🚀 Generate Investment Memo", type="primary", use_container_width=True):
             # Validation
-            if not api_key:
-                st.error("⚠️ Please provide an Anthropic API key")
-            elif not document_text:
+            if not document_text:
                 st.error("⚠️ Please provide a document (upload file or enter URL)")
             elif not prompt:
                 st.error("⚠️ Please select or enter a prompt")
+            elif not (openai_key and anthropic_key and gemini_key):
+                st.error("⚠️ Please provide API keys for OpenAI, Anthropic, and Gemini (required for evaluation)")
             else:
-                # Generate memo
+                api_keys = {"openai": openai_key, "anthropic": anthropic_key, "gemini": gemini_key}
                 try:
-                    memo = generate_memo(prompt, document_text, api_key)
+                    memo = generate_memo(prompt, document_text, selected_model, api_keys)
 
                     # Store in session state
                     st.session_state['memo'] = memo
@@ -365,10 +442,42 @@ def main():
 
                     st.success("✓ Memo generated successfully!")
 
+                    # Run evaluations (these use the same API keys; set env before calling)
+                    with st.spinner("Running evaluation (may take a few minutes, respecting rate limits)..."):
+                        # Inject keys for this process so evals.call_llm_for_eval can use them
+                        os.environ['OPENAI_API_KEY'] = openai_key
+                        os.environ['ANTHROPIC_API_KEY'] = anthropic_key
+                        os.environ['GEMINI_API_KEY'] = gemini_key
+
+                        # Call each metric to get detailed results
+                        try:
+                            acc = evaluate_accuracy(memo=memo, source_document=document_text)
+                            comp = evaluate_completeness(memo=memo, source_document=document_text)
+                            cons = evaluate_consistency(memo=memo)
+                            qual = evaluate_quality(memo=memo)
+
+                            summary = calculate_summary_score(
+                                accuracy_result=acc,
+                                completeness_result=comp,
+                                consistency_result=cons,
+                                quality_result=qual
+                            )
+
+                            st.session_state['eval_results'] = {
+                                'accuracy': acc,
+                                'completeness': comp,
+                                'consistency': cons,
+                                'quality': qual,
+                                'summary': summary,
+                            }
+
+                        except Exception as e:
+                            st.error(f"Error running evaluation: {e}")
+
                 except Exception as e:
                     st.error(f"Error generating memo: {e}")
                     if "api_key" in str(e).lower() or "unauthorized" in str(e).lower():
-                        st.error("Check that your API key is valid and has sufficient credits")
+                        st.error("Check that your API keys are valid and have sufficient credits")
 
         # Display memo if available
         if 'memo' in st.session_state:
@@ -378,6 +487,7 @@ def main():
             st.divider()
 
             # Display memo
+            st.header("Generated Investment Memo")
             st.markdown(memo)
 
             st.divider()
@@ -402,6 +512,45 @@ def main():
                     mime="text/plain",
                     use_container_width=True
                 )
+
+            # Show evaluation results if available
+            if 'eval_results' in st.session_state:
+                evals = st.session_state['eval_results']
+
+                st.divider()
+                st.header("Evaluation Results")
+
+                # Summary score
+                summary = evals.get('summary', {})
+                summary_score = summary.get('summary_score')
+                if summary_score is not None:
+                    st.metric(label="Summary Score", value=f"{summary_score:.2f}/100")
+
+                # Show normalized scores
+                if summary.get('normalized_scores'):
+                    with st.expander("Detailed Subscores"):
+                        st.json(summary.get('normalized_scores'))
+
+                # Show per-metric vote breakdowns
+                with st.expander("Per-metric Details (votes & findings)"):
+                    st.subheader("Accuracy")
+                    st.write(evals['accuracy'].get('votes'))
+                    st.subheader("Completeness")
+                    st.write(evals['completeness'].get('votes'))
+                    st.subheader("Consistency")
+                    st.write(evals['consistency'].get('votes'))
+                    st.subheader("Quality")
+                    st.write(evals['quality'].get('votes'))
+
+                # Allow downloading eval JSON
+                with st.expander("Download evaluation JSON"):
+                    import json as _json
+                    st.download_button(
+                        "⬇️ Download Eval JSON",
+                        data=_json.dumps(evals, indent=2),
+                        file_name=f"evals_{Path(document_name).stem}.json",
+                        mime="application/json"
+                    )
 
     # Footer
     st.divider()
