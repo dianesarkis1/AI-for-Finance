@@ -1,0 +1,42 @@
+## Step-by-Step Approach:
+
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the aircraft financing structure and collateral arrangement
+- Analyze the specific amendments being made to the original credit agreement
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-03-31
+
+**Borrower/Company Overview:** Vertical Horizons, Ltd. is a Cayman Islands exempted company serving as the borrower in this aircraft financing structure.
+
+**Transaction Description:** This is Amendment No. 1 to a Seventh Amended and Restated Credit Agreement originally dated December 28, 2021. The transaction involves a syndicated credit facility with Citibank, N.A. serving as both Facility Agent and Arranger, alongside lenders including Barclays Bank PLC, Deutsche Bank AG New York Branch, and Morgan Stanley Senior Funding, Inc. Bank of Utah serves as Security Trustee.
+
+**Purpose of Financing:** The facility provides PDP (Pre-Delivery Payment) financing for the acquisition of nine (9) Airbus A320NEO aircraft and fifty (50) Airbus A321NEO aircraft. The amendment extends certain agreement deadlines and updates related documentation.
+
+**Company Background:** The transaction is connected to Frontier Airlines' fleet expansion, with Frontier Group Holdings, Inc., Frontier Airlines Holdings, Inc., and Frontier Airlines, Inc. serving as guarantors. The amendment extends key deadlines from July 1, 2022 to April 1, 2023 and updates assignment agreements with Airbus and step-in agreements among the parties.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking syndicate led by Citibank with participation from major international lenders
+• Aircraft-backed financing secured by 59 new Airbus aircraft providing tangible, mobile collateral
+• Multiple layers of credit support through guarantees from Frontier Airlines entities
+• Borrower confirmed in compliance with LTV test requirements
+• Security Trustee structure provides additional lender protection
+
+**Principal Risks and Mitigating Factors:**
+• Timeline extension suggests potential delivery delays or operational challenges
+• Aviation sector exposure with inherent cyclical volatility and regulatory risks
+• Cross-border structure complexity with Cayman Islands borrower entity
+• Limited financial covenant visibility in amendment document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • LTV Test compliance required<br>• Frontier Group Holdings minimum Unrestricted Cash and Cash Equivalents requirement (amount redacted)<br>• No continuing Default or Event of Default<br>• All guarantees remain in full force and effect<br>• Schedule III (Advances) replaced per Exhibit A |

@@ -1,0 +1,43 @@
+## Planning Checklist
+
+- Extract key parties (borrower, administrative agent, lenders) and transaction date
+- Identify the purpose and substance of the amendment (hedging requirement modifications)
+- Analyze credit positives and risks from an investment perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo following the required three-section format
+- Validate completeness and accuracy of all sections
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-29
+
+**Borrower / Company Overview:** Vine Energy Holdings LLC, a Delaware limited liability company operating in the oil and gas sector, serves as the Borrower with multiple subsidiary guarantors including Vine Oil & Gas GP LLC, Brix Operating LLC, Vine Minerals LLC, Vine Oil & Gas Finance Corp., and other related entities.
+
+**Transaction Description:** Amendment No. 2 to Second Lien Credit Agreement between Vine Energy Holdings LLC and its lender syndicate, with Morgan Stanley Senior Funding, Inc. serving as Administrative Agent and Collateral Agent.
+
+**Purpose of Financing:** The amendment modifies minimum hedging requirements under the existing second lien credit facility, specifically adjusting Section 6.17 to require 70% hedging of reasonably anticipated projected hydrocarbon production of natural gas from Proved Developed Producing Reserves over a 24-month period.
+
+**Company Background:** Vine Energy Holdings LLC operates in the oil and gas exploration and production sector, with assets including Proved Developed Producing Reserves of natural gas and related hydrocarbon properties secured under comprehensive collateral arrangements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationship with Morgan Stanley Senior Funding as Administrative Agent, providing institutional-grade oversight and energy sector expertise
+• Diversified lender syndicate managed by experienced credit investment firm GoldenTree Asset Management, indicating sophisticated institutional backing
+• Comprehensive collateral package with ratification of all security interests and liens securing borrower obligations
+• Current compliance status with no defaults or events of default existing under the credit agreement
+• Structured hedging requirements provide downside protection against commodity price volatility
+
+**Principal Risks and Mitigating Factors:**
+• Energy sector exposure with inherent commodity price volatility risk, mitigated by mandatory 70% natural gas production hedging over 24-month periods
+• Second lien structure indicates subordinated credit position with potentially higher loss severity in distress scenarios
+• Hedging covenant flexibility allows compliance based on commercially reasonable market rates, potentially resulting in lower hedging coverage during adverse market conditions
+• Concentration risk in natural gas production dependent on reserve base performance and operational execution
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Minimum hedging requirement: 70% of reasonably anticipated projected hydrocarbon production of natural gas from Proved Developed Producing Reserves over 24-month period<br>• Hedging compliance required within 90 days of closing date or 30 days after Reserve Report delivery<br>• All existing collateral documents and liens ratified and reaffirmed<br>• No defaults or events of default exist as of amendment effective date<br>• Full lender syndicate includes: FS Credit Income Fund, GN3 SIP Limited, GoldenTree 2004 Trust, GoldenTree Credit Opportunities 2012-1 Financing Limited, GT NM L.P., GTAM 110 Designated Activity Company, Healthcare Employees' Pension Plan Manitoba, High Yield And Bank Loan Series Trust, Louisiana State Employees Retirement System, San Bernardino County Employees Retirement Association, Syncora Guarantee Inc., and Tolleson High Yield Credit LP |

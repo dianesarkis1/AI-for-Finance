@@ -1,0 +1,40 @@
+## Implementation Checklist:
+- Identify key transaction details including date, parties, and structure from guarantor joinder supplement
+- Extract borrower and guarantor information from Apollo entities listed in agreement
+- Determine transaction purpose as addition of guarantors to existing revolving credit facility
+- Analyze credit strengths and risks from private credit investor perspective
+- Compile available deal terms using required table format, marking unavailable fields as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-04-14
+
+**Borrower/Company Overview:** Apollo Management Holdings, L.P., a Delaware limited partnership, serves as borrower under a revolving credit facility. The Apollo organization includes multiple principal holdings entities across Cayman Islands and Anguilla jurisdictions, with newly added guarantors Apollo Global Management, Inc. and Apollo Asset Management, Inc.
+
+**Transaction Description:** This guarantor joinder agreement adds two additional guarantors to an existing revolving credit facility originally dated October 12, 2022. The transaction involves Apollo Global Management, Inc. and Apollo Asset Management, Inc. joining as new guarantors alongside thirteen existing guarantors. Citibank, N.A. serves as Administrative Agent.
+
+**Purpose of Financing:** The addition of guarantors serves to induce lenders to maintain and/or make additional loans and issuing banks to maintain and/or issue additional letters of credit, while providing consideration for previously made loans and issued letters of credit.
+
+**Company Background:** Apollo operates as a global alternative investment management company with a complex multi-entity structure spanning multiple jurisdictions including Delaware, Cayman Islands, and Anguilla, indicating substantial international operations and diversified organizational framework.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong sponsor quality with Apollo being an established alternative investment manager with public market presence
+• Enhanced credit support through addition of key operating subsidiaries Apollo Global Management, Inc. and Apollo Asset Management, Inc. as guarantors
+• Institutional-grade administration with Citibank, N.A. as Administrative Agent
+• Robust guarantee structure with fifteen total guarantor entities providing diversified support across multiple jurisdictions
+• Operational flexibility through revolving facility structure with letter of credit capabilities
+
+**Principal Risks and Mitigating Factors:**
+• Alternative asset management business model subject to market cycles and fee compression risks, mitigated by diversified guarantee structure
+• Complex multi-jurisdictional entity structure may present enforcement challenges, though mitigated by Delaware borrower domicile and New York governing law
+• Limited visibility into underlying credit facility terms and financial covenants from this joinder document alone
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • New guarantors guarantee prompt payment of loan obligations in full when due<br>• Guarantors liable for Administrative Agent's reasonable documented expenses including legal fees<br>• All Credit Agreement terms remain in full force and effect |

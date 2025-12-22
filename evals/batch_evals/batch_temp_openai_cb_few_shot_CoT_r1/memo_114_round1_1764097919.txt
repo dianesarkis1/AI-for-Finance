@@ -1,0 +1,41 @@
+I'll analyze this lender joinder agreement step by step to create a professional investment memorandum.
+
+## Conceptual Approach:
+- Extract key transaction details and parties from the lender joinder agreement
+- Identify the borrower, lenders, and transaction structure including joinder mechanics
+- Analyze the credit positives and risks from an investor perspective
+- Compile available deal terms into the required table format using exact structure
+- Ensure all information is directly sourced from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-12
+
+**Borrower/Company Overview:** MSCC Funding I, LLC, a Delaware limited liability company, operates as the borrower under a revolving credit facility with Main Street Capital Corporation, a Maryland corporation, serving as collateral manager.
+
+**Transaction Description:** This transaction involves EverBank, N.A. joining an existing syndicated revolving credit facility through a Lender Joinder Agreement. The original Credit Agreement was established on November 22, 2022, with key parties including Truist Bank as Administrative Agent and Swingline Lender, Citibank, N.A. as Collateral Agent, Custodian, and Document Custodian, and Virtus Group, LP as Collateral Administrator.
+
+**Purpose of Financing:** EverBank is adding $75,000,000 in commitment capacity to the existing revolving credit facility. Upon execution, the borrower is deemed to request a Joinder Advance to rebalance outstanding advances pro rata across all lenders according to their commitments, with proceeds directed to the Administrative Agent for lender reallocation and otherwise as the borrower directs.
+
+**Company Background:** The borrower operates under investment company regulatory framework, requiring all lenders to maintain Qualified Purchaser status under the Investment Company Act and Qualified Institutional Buyer status under the Securities Act.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Institutional sponsorship through Main Street Capital Corporation, a Maryland corporation serving as collateral manager
+• Established syndicate structure with premier financial institutions in key agent roles
+• Regulatory compliance framework limiting participation to sophisticated institutional investors
+• Comprehensive security and collateral administration structure with multiple specialized agents
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial and operational data available in joinder documentation restricts detailed credit analysis
+• Investment company regulatory structure may impose operational constraints and compliance requirements
+• Performance dependency on collateral manager for ongoing portfolio oversight and credit decisions
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Lenders must maintain Qualified Purchaser status under Investment Company Act<br>• Lenders must maintain QIB status under Securities Act<br>• Joinder Advance mechanics: deemed borrowing to rebalance outstanding Advances pro rata across Lenders with proceeds to Administrative Agent and as Borrower directs |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The 'Conceptual Checklist' states a rule to 'Ensure all information comes directly from the document without inference,' but the 'Key Strengths / Credit Positives' section contains several clear inferences, such as the qualitative judgments that KeyBank is a 'Strong administrative agent' and that CoBank's participation 'demonstrates continued lender confidence'.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

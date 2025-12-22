@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Misstated party name: \u201cAmro Fabricating Corporation\u201d (memo) vs \u201cAMRO FABRIDATING CORPORATION\u201d (source)."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Non-reborrowable nature of the Incremental Term Loans (amounts repaid or prepaid may not be reborrowed)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"CITIBANK, N.A.\\u2019s involvement is presented as both a strength (strong banking relationship; agent and lender) and a risk (single-lender concentration), listing the same factor as positive and negative.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 60.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

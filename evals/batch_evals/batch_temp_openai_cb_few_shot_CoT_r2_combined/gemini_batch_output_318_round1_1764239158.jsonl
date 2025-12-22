@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The 'Initial Approach' section states a commitment to 'Ensure all information comes directly from the document without inference,' but the 'Company Background' section makes an inference by 'suggesting a sophisticated organizational framework typical of private equity-backed companies.'\", \"The 'Purpose of Financing' section describes the transaction as an extension to February 16, 2024, while the 'Key Deal Terms' table reveals a more complex reality where an alternative, much longer extension to June 30, 2024 is also possible, contradicting the simplified summary.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 80.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

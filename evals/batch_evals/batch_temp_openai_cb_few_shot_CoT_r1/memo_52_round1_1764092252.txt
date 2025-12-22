@@ -1,0 +1,40 @@
+I'll approach this by:
+- Adding the missing Administrative Agent information to improve completeness
+- Enhancing structure by using proper table formatting for the Key Deal Terms
+- Improving clarity and organization while maintaining professional tone
+- Ensuring all information remains factually accurate to the source document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2020-10-26
+
+**Borrower:** PNM Resources, Inc., a New Mexico corporation, entered into an Eighth Amendment to its Credit Agreement with Wells Fargo Bank, National Association as Administrative Agent and a syndicate of lenders.
+
+**Transaction Structure:** This amendment modifies an existing credit facility originally established under a Sixth Amendment to and Restatement of Credit Agreement dated July 30, 2018 (previously amended December 19, 2018). The current amendment involves Wells Fargo as Administrative Agent, MUFG Bank as Lead Arranger, and a syndicate including MUFG Union Bank, Citibank, JPMorgan Chase, Morgan Stanley Bank, Royal Bank of Canada, KeyBank, Bank of America, U.S. Bank, Bank of New York Mellon, and Bank of Albuquerque.
+
+**Purpose:** The amendment primarily modifies the "Change of Control" definition and provides limited waivers for potential covenant defaults arising from PNM Resources entering into a merger agreement with Avangrid, Inc. and NM Green Holdings, Inc. dated October 20, 2020.
+
+**Company Background:** PNM Resources is a New Mexico-based utility holding company that requires credit agreement modifications to accommodate its pending merger transaction while maintaining compliance with existing debt covenants.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong, diversified lending syndicate with major financial institutions demonstrates broad lender confidence
+• Borrower maintains compliance with credit agreement terms after giving effect to this amendment
+• Lenders demonstrate supportive banking relationships through willingness to provide targeted waivers
+• Amendment preserves lenders' rights and remedies regarding the actual closing of the merger transaction
+• Required Lender approval obtained for modifications
+
+**Principal Risks and Mitigating Factors:**
+• Pending merger transaction will ultimately trigger prohibited "Change of Control" event requiring future resolution
+• Amendment provides only limited waivers for entering merger agreement, not for transaction closing
+• Potential cross-default risks from other indebtedness arrangements related to merger agreement
+• Future covenant compliance dependent on successful navigation of merger completion or termination
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Administrative Agent: Wells Fargo Bank, National Association<br>• "Change of Control" threshold: 25% beneficial ownership of voting capital stock<br>• Merger restrictions: Prohibition on merging with or into any other Person<br>• Limited waiver of potential covenant defaults related to entering merger agreement<br>• Merger closing will constitute prohibited "Change of Control" event<br>• Cross-default protections maintained |

@@ -1,0 +1,43 @@
+## Approach Checklist
+
+- Extract the date, parties, and transaction structure from the amendment document
+- Identify the borrower (Blackstone Private Credit Fund) and the purpose of the financing extension
+- Analyze the maturity date extension from 2027 to 2028 and its significance
+- Evaluate the credit strengths based on the lender consortium and borrower profile
+- Assess any risks or limitations based on available information
+- Compile deal terms table with explicit information only, marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-06-09
+
+**Borrower:** Blackstone Private Credit Fund, a Delaware statutory trust, operates as an investment vehicle within the Blackstone platform focusing on private credit investments and requiring flexible financing arrangements to support its lending activities.
+
+**Transaction Structure:** Amendment No. 1 and Extension Agreement to the Amended and Restated Senior Secured Credit Agreement originally dated May 6, 2022. The transaction involves Blackstone Private Credit Fund as Borrower, with Citibank, N.A. serving as Administrative Agent, alongside a consortium of 29 major financial institutions as Lenders.
+
+**Purpose:** The financing extends the maturity date from May 6, 2027 to June 9, 2028 for consenting lenders on both revolving commitments (Dollar and Multicurrency) and term loans. This creates a bifurcated maturity structure providing additional financing runway for the borrower's private credit investment activities.
+
+**Company Background:** The borrower operates as a premier investment vehicle backed by Blackstone, one of the world's largest alternative asset managers, with operations focused on private credit markets requiring sophisticated financing structures.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Premium sponsor backing through Blackstone Private Credit Fund, supported by Blackstone's global alternative asset management platform
+• Exceptional lender consortium quality featuring 29 top-tier global financial institutions including Citibank, JPMorgan Chase, Bank of America, Wells Fargo, Deutsche Bank, BNP Paribas, Goldman Sachs, and Morgan Stanley
+• Strong borrower credit profile with representations confirming no defaults or events of default continuing as of amendment date
+• Secured credit structure providing comprehensive lender protections through collateral and borrowing base mechanisms
+• Successful maturity extension demonstrates sustained lender confidence and robust banking relationships
+• Amendment requires payment of extension fees to participating 2028 Lenders, reflecting value for the maturity extension
+
+**Principal Risks and Mitigating Factors:**
+• Bifurcated maturity structure introduces potential refinancing complexity in 2027 for non-extending lender portions, though mitigated by borrower's strong sponsor relationships
+• Private credit fund operations inherently subject to credit cycle volatility and market risk, offset by Blackstone's proven investment expertise and portfolio diversification capabilities
+• Limited covenant and pricing transparency in amendment documentation, though structural protections remain in place through amended credit agreement terms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2028-06-09 (Extended Maturity Date for consenting lenders); 2027-05-06 (Existing Maturity Date for non-extending lenders) | N/A | • Amendment/extension fees payable to 2028 Lenders on Amendment Effective Date<br>• Borrowing base certificate requirements<br>• Permitted liens under Section 6.02 restrictions<br>• Continuing representations and warranties<br>• Secured credit structure maintenance<br>• Administrative agent approval rights |

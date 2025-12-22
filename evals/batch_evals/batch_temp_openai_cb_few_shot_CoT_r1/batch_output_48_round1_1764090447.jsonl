@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Collateral/secured status: confirmation that existing Collateral Documents and all collateral continue to secure the Obligations under the Loan Documents after the amendment"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The same covenant change is presented as both a strength and a risk: listed as a positive (\\u201ctemporary, milestone-driven relief with automatic reversion to 6.00x\\u201d) and also as a negative (\\u201ctemporary leverage relaxation to 7.00x increases credit risk\\u201d).\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

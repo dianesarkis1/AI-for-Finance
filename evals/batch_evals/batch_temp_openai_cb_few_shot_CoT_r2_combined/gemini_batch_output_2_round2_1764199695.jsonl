@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n[\"Unrestricted Cash,\" a component of the key $15M Liquidity covenant, is required to be subject to a valid first-priority charge under the Security Documents.]"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The Key Deal Terms table lists a 1.25% 'undrawn fee', which is a fee for an available but unused credit line, while simultaneously stating that 'No new advances [are] available under either credit facility'. Charging a fee for the availability of funds that are explicitly made unavailable is a contradiction.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 35.0"}}]}}}

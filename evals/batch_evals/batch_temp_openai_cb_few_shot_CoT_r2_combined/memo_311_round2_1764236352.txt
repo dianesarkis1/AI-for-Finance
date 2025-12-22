@@ -1,0 +1,42 @@
+I will analyze this credit agreement amendment and create an investment memorandum following the established format and structure.
+
+## Checklist:
+• Extract key transaction details including specific dates and parties
+• Identify borrower background and transaction structure with complete details
+• Analyze the LIBOR to SOFR transition rationale and implications
+• Assess credit strengths and risks from an investor perspective
+• Compile deal terms table with all available information
+• Validate memo completeness and formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-12-12
+
+**Borrower Overview:** Petco Health and Wellness Company, Inc., a Delaware corporation, serves as the Borrower under this syndicated credit facility.
+
+**Transaction Description:** This First Amendment modifies an existing First Lien Credit Agreement originally executed on March 4, 2021, between Petco Health and Wellness Company, Inc., a syndicate of lenders, and Citibank N.A. as Administrative Agent.
+
+**Purpose of Financing:** The amendment implements a proactive transition from USD LIBOR to Adjusted Term SOFR as the benchmark rate through an "Early Opt-in Election" mechanism, ahead of LIBOR's regulatory discontinuation. The amendment also addresses alternative currency rate replacements, transitioning from LIBOR for Alternative Currencies (EUR, CHF, JPY, GBP) to the applicable RFR (risk-free reference rate) following ICE Benchmark Administration's March 5, 2021 announcement to cease LIBOR publication for these currencies after December 31, 2021.
+
+**Company Background:** Petco Health and Wellness Company, Inc. is a Delaware corporation with an established syndicated credit facility that maintains relationships with multiple financial institutions under Citibank N.A.'s administrative oversight.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Proactive benchmark rate transition demonstrates sophisticated treasury management and regulatory compliance
+• Strong banking relationships with Citibank N.A. as Administrative Agent and access to syndicated lending markets
+• Amendment preserves all existing credit protections, with borrower reaffirming liens, guarantees, and collateral arrangements
+• No existing defaults or events of default, indicating current compliance with credit agreement terms
+• Structured transition allows existing loans to convert at natural interest period conclusions
+
+**Principal Risks and Mitigating Factors:**
+• Benchmark transition introduces potential basis risk between LIBOR and SOFR-based pricing, though mitigated by Alternative Reference Rates Committee recommended spread adjustments
+• Limited financial covenant visibility restricts comprehensive credit assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | Adjusted Term SOFR plus credit spread adjustments: 11.448 bps (1-month), 26.161 bps (3-month), 42.826 bps (6-month); Alternative Currencies transitioned to applicable RFR | N/A | N/A | • Administrative Agent must receive executed amendment from borrower and administrative agent<br>• Notice to lenders on December 2, 2022 with no objection from Required Lenders by December 9, 2022<br>• Payment of all fees and expenses including legal fees to Latham & Watkins LLP<br>• All existing loan documents, collateral documents, and guarantees remain in full force<br>• No defaults or events of default continuing as of amendment effective date |

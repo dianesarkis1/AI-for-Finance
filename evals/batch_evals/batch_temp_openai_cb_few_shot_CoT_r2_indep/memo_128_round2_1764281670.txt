@@ -1,0 +1,43 @@
+I will analyze this credit agreement amendment and create an investment memorandum based on the available information. Let me start with a checklist of my approach:
+
+• Extract key transaction details (date, parties, amendment purpose) from the document
+• Identify the borrower profile and lending structure 
+• Analyze the amendment's impact from a credit perspective
+• Assess investment strengths and risks based on available information
+• Compile deal terms into the required table format, marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-10-30
+
+**Borrower/Company Overview:** Biodesix, Inc. is a Delaware corporation with an established credit relationship requiring multiple amendments since inception in November 2022.
+
+**Transaction Description:** This Fourth Amendment to Credit Agreement and Guaranty modifies the existing credit facility between Biodesix, Inc. (Borrower) and Perceptive Credit Holdings IV, LP (Administrative Agent and Lender). The transaction represents the fourth modification to the original November 16, 2022 credit agreement, following prior amendments on May 10, 2023, August 4, 2023, and February 29, 2024.
+
+**Purpose of Financing:** The amendment incorporates specific changes to the existing credit agreement as detailed in Annex A (marked version) and Annex B (clean version). The amendment was executed alongside a Fourth Amended and Restated Fee Letter, suggesting modifications to fee structures or terms.
+
+**Company Background:** Biodesix operates as a Delaware corporation with financing provided by Perceptive Credit Holdings IV, LP, indicating potential healthcare or life sciences sector involvement given Perceptive's investment focus. The company has maintained an active credit facility requiring periodic modifications over a two-year period.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Borrower maintains full compliance with all representations and warranties under Article 7 of the Credit Agreement
+• No defaults or events of default reported as of the amendment effective date
+• All existing liens and security interests remain in place, preserving collateral protection
+• Established relationship with specialized lender Perceptive Credit Holdings IV, LP
+• Proper corporate authorization and execution of amendment terms
+
+**Principal Risks and Mitigating Factors:**
+• High amendment frequency risk: Four amendments within 24 months may signal covenant pressure or changing business conditions
+• Limited transparency: Specific amendment terms are referenced but not disclosed in the main document
+• Single lender dependency with Perceptive Credit Holdings IV, LP as sole administrative agent
+• Potential sector-specific risks if operating in healthcare/life sciences given lender specialization
+• Mitigation factors include maintained compliance status and reaffirmation of existing security package
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Existing liens and security interests reaffirmed and maintained<br>• All Article 7 representations and warranties remain true and correct<br>• No defaults or events of default continuing post-amendment<br>• Compliance with all existing Loan Document provisions required<br>• Fourth Amended and Restated Fee Letter executed concurrently |

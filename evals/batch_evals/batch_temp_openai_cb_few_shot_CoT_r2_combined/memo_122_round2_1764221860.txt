@@ -1,0 +1,45 @@
+## Checklist of Steps
+
+- Extract key transaction dates, parties, and basic structure from the credit agreement
+- Identify Oaktree Specialty Lending Corporation as borrower and MUFG Union Bank as increasing lender
+- Analyze the incremental commitment increase structure and purpose
+- Assess credit strengths related to established lending relationships and covenant compliance
+- Note information limitations due to document scope focusing on commitment increase only
+- Compile deal terms table with commitment amounts while marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-12-28
+
+**Borrower/Company Overview:** Oaktree Specialty Lending Corporation, a Delaware corporation, serves as the Borrower under this incremental commitment agreement. The company operates as a specialty lending corporation and is supported by subsidiary guarantors OCSL SRNE, LLC (a Delaware limited liability company) and FSFC Holdings, Inc. (a Delaware corporation).
+
+**Transaction Description:** This transaction constitutes an incremental commitment increase under an existing Amended and Restated Senior Secured Revolving Credit Agreement originally dated February 25, 2019. MUFG Union Bank, N.A. serves as the Increasing Lender, providing an additional $25,000,000 commitment that expands its total commitment from $50,000,000 to $75,000,000. ING Capital LLC acts as Administrative Agent and Issuing Bank.
+
+**Purpose of Financing:** The incremental commitment provides additional revolving credit capacity under the existing senior secured credit facility. The new loans will carry terms identical to existing facility terms and conditions, maintaining structural consistency across the credit arrangement.
+
+**Company Background:** Oaktree Specialty Lending Corporation operates within an established credit structure dating to February 2019. The original facility was arranged by a high-quality banking syndicate including ING Capital LLC, JPMorgan Chase Bank, N.A., and Merrill Lynch, Pierce, Fenner & Smith Incorporated as Joint Lead Arrangers and Joint Bookrunners, with JPMorgan Chase Bank, N.A. and Bank of America, N.A. serving as Syndication Agents.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional sponsor with Oaktree, a well-established alternative investment manager with significant expertise in specialty lending
+• High-quality, diversified lending syndicate comprising major financial institutions with strong credit profiles
+• MUFG's 50% commitment increase demonstrates continued confidence in the borrower's credit quality and business fundamentals
+• Senior secured structure provides robust downside protection through comprehensive collateral package and subsidiary guarantees
+• Clean credit profile with borrower representations confirming absence of defaults or events of default
+• Mature lending relationship with proven performance since February 2019 facility inception
+
+**Principal Risks and Mitigating Factors:**
+• Documentation scope limits visibility into overall facility size, pricing terms, and detailed financial covenant structure
+• Specialty lending business model subjects credit quality to performance of underlying loan portfolio and market conditions
+• Limited financial performance metrics available for comprehensive credit assessment, though current representations indicate compliance with existing covenants
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Senior secured revolving credit facility structure<br>• Comprehensive Guarantee and Security Agreement maintained<br>• Full collateral package and subsidiary guarantees extended to incremental commitment<br>• Administrative Agent fee obligations and arranger fees per separate fee letters<br>• Compliance with all conditions precedent under Section 2.07(e) of base credit agreement<br>• No existing defaults or events of default |

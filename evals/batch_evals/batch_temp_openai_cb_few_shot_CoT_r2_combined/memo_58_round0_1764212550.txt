@@ -1,0 +1,36 @@
+## Checklist
+
+- Extract key transaction parties (borrower, lenders, administrative agent)
+- Identify the transaction date and amendment purpose 
+- Analyze the specific amendments being made to the credit agreement
+- Assess investment highlights and risks from a credit perspective
+- Compile available deal terms into the required table format
+- Ensure all missing information is marked as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On March 25, 2021, Crestwood Midstream Partners LP and its lenders executed a Third Amendment to their Second Amended and Restated Credit Agreement originally dated October 16, 2018.
+- Crestwood Midstream Partners LP, a Delaware limited partnership operating in the midstream energy sector, serves as the Borrower with Wells Fargo Bank, National Association as Administrative Agent. The lending syndicate includes major financial institutions such as Bank of America, Barclays Bank PLC, Citibank, JPMorgan Chase Bank, Royal Bank of Canada, Truist Bank, Morgan Stanley entities, and others.
+- The purpose of this amendment is to facilitate the "Third Amendment Transactions" whereby Crestwood Equity Partners and third-party investors will acquire equity interests and assets of Crestwood Holdings LLC and its subsidiaries. To finance these transactions, the Borrower intends to make Revolving Facility Borrowings and distribute proceeds up to $275.0 million to parent entities.
+- The amendment modifies key covenant definitions including "Change in Control" and "Permitted Holder" provisions, and permits dividends/distributions up to $275.0 million specifically for consummating the Third Amendment Transactions.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong lending consortium comprising tier-1 financial institutions (Wells Fargo, Bank of America, JPMorgan Chase, Citibank, Barclays, and others), indicating broad lender confidence in the credit.
+- Borrower maintains compliance with all covenants and no defaults are reported as of the amendment effective date.
+- Structured transaction with specific use of proceeds and defined transaction parameters limiting potential misuse of funds.
+- Amendment fee of 0.05% of each consenting lender's revolving facility commitment provides additional yield to lenders.
+
+### Principal Risks and Mitigating Factors:
+- The amendment facilitates a leveraging transaction allowing up to $275.0 million in distributions to parent entities, which could weaken the borrower's capital structure.
+- Changes to "Change in Control" and "Permitted Holder" definitions may provide more flexibility to ownership changes, potentially affecting credit quality oversight.
+- Limited visibility into overall facility size, pricing, maturity, or financial maintenance covenants constrains full credit assessment.
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Dividends/distributions permitted up to $275.0 million for Third Amendment Transactions<br>• Amendment fee of 0.05% of each consenting lender's Revolving Facility Commitment<br>• Modified "Change in Control" definition with 35% threshold for equity ownership changes<br>• "Permitted Holder" definition updated relative to Third Amendment Transactions<br>• All existing loan documents and parent guarantees remain in full force and effect |

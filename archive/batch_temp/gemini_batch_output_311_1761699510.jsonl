@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_311", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_311", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_311", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo presents the frequency of credit agreement amendments as both a key strength and a principal risk. It is listed as a positive ('Active Credit Management: Regular amendments demonstrate proactive credit management') and as a negative ('frequency of amendments may indicate complexity in credit structure').\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_311", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_311", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_311", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_311", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

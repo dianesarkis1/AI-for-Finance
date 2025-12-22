@@ -1,0 +1,45 @@
+## Checklist of Steps
+
+- Extract key transaction dates, parties, and basic structure from the credit agreement
+- Identify Oaktree Specialty Lending Corporation as borrower and MUFG Union Bank as increasing lender
+- Analyze the incremental commitment increase structure and purpose
+- Assess credit strengths related to established lending relationships and covenant compliance
+- Note information limitations due to document scope focusing on commitment increase only
+- Compile deal terms table with commitment amounts while marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-12-28
+
+**Borrower/Company Overview:** Oaktree Specialty Lending Corporation, a Delaware corporation, serves as the Borrower under this incremental commitment agreement. The company is supported by subsidiary guarantors OCSL SRNE, LLC and FSFC Holdings, Inc.
+
+**Transaction Description:** This transaction involves an incremental commitment increase to an existing senior secured revolving credit facility. MUFG Union Bank, N.A. acts as the Increasing Lender, providing an additional $25,000,000 commitment under the established credit agreement structure.
+
+**Purpose of Financing:** The financing provides additional revolving credit capacity under the existing senior secured credit facility, with terms identical to existing loans and commitments in the facility.
+
+**Company Background:** The transaction relates to an Amended and Restated Senior Secured Revolving Credit Agreement originally dated February 25, 2019, with ING Capital LLC serving as Administrative Agent and a banking syndicate including JPMorgan Chase Bank, N.A. and Bank of America, N.A. as Syndication Agents.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional backing with Oaktree, an established alternative investment manager
+• Diversified lending syndicate including major financial institutions (ING Capital, JPMorgan Chase, Bank of America, MUFG Union Bank)
+• MUFG's commitment increase from $50mm to $75mm demonstrates continued lender confidence in the credit
+• Borrower representations confirm no defaults or events of default are continuing
+• Senior secured structure with comprehensive collateral protection and subsidiary guarantees
+• Established credit relationship dating to February 2019 with proven track record
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into overall facility size, pricing, or financial performance metrics due to incremental nature of documentation
+• As a specialty lending corporation, credit profile depends on performance of underlying loan portfolio
+• Information constraints prevent full assessment of covenant compliance or liquidity metrics beyond current representations
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Senior secured revolving credit facility<br>• Guarantee and Security Agreement remains in full force<br>• All existing collateral and guarantees extended to incremental commitment<br>• Fees payable to Increasing Lender and ING as Joint Lead Arranger per fee letters<br>• No defaults or events of default continuing |

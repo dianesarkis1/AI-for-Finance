@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}]}}}
+{"custom_id": "completeness", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: YES\n\nMISSING_TERMS:\n- Original credit agreement date (January 27, 2006) is mentioned but not prominently featured in key deal terms"}]}}}
+{"custom_id": "consistency", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "{\"has_issues\": true, \"issues\": [\"Fixed Charge Coverage Ratio covenant is listed as 'not greater than 1.50:1' which is logically impossible since coverage ratios must be maintained above minimum thresholds, not below maximum limits\"]}"}]}}}
+{"custom_id": "quality_clarity", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 82.0"}]}}}
+{"custom_id": "quality_tone", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 85.0"}]}}}
+{"custom_id": "quality_length", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 35.0"}]}}}
+{"custom_id": "quality_structure", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}

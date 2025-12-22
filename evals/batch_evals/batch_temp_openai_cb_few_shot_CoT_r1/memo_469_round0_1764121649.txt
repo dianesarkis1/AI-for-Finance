@@ -1,0 +1,35 @@
+## Conceptual Checklist
+
+- Extract key parties, dates, and transaction structure from the amendment document
+- Identify the specific amendments being made to the original credit agreement
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Ensure proper formatting and professional tone throughout the memo
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 15, 2023 (effective May 31, 2023), Sigmatron International, Inc., a Delaware corporation, and JPMorgan Chase Bank, N.A. entered into Amendment No. 2 to their Credit Agreement.
+- This amendment modifies the original Amended and Restated Credit Agreement dated July 18, 2022, which was previously amended on April 28, 2023.
+- The primary purpose of this amendment is to update collateral and lien requirements related to material asset acquisitions, specifically addressing potential corporate restructuring scenarios and the delivery of New Holdco Pledge Documents.
+- Sigmatron International appears to be undergoing or planning a corporate restructuring that requires coordination between this credit facility and a separate Term Loan Agreement, with both facilities subject to an Intercreditor Agreement.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationship with JPMorgan Chase Bank, N.A., a major financial institution with significant lending expertise
+- Borrower maintains compliance with all existing covenants and representations, with no defaults occurring
+- Amendment includes comprehensive release provisions and reaffirmation of guarantees and security interests
+- Coordinated approach with Term Loan Agreement suggests structured, professional management of corporate restructuring
+
+### Principal Risks and Mitigating Factors:
+- Corporate restructuring activities could introduce operational complexity and potential execution risk
+- Limited visibility into overall credit facility size, pricing, and financial covenant requirements
+- Amendment requires delivery of additional pledge documents within specific timeframes, creating potential compliance risk if not properly executed
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Borrower must notify Lender of material asset acquisitions and subject such assets to liens if requested • If Corporate Restructuring is consummated, Borrower must deliver New Holdco Pledge Documents within 10 Business Days • All existing representations, warranties, and covenants from original Credit Agreement remain in full force and effect • Subject to Intercreditor Agreement terms |

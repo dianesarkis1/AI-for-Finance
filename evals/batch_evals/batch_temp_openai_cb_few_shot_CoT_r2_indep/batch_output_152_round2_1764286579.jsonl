@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Complete list of lenders party to the amendment (only a subset referenced in the memo): Citizens Bank, N.A.; Atlantic Union Bank; Bank of America, N.A.; Capital One, National Association; Fifth Third Bank, National Association; JPMorgan Chase Bank, N.A.; Manufacturers and Traders Trust Company; MUFG Bank, Ltd.; Raymond James Bank; TD Bank, N.A.; Truist Bank; Webster Bank, N.A.; Wells Fargo Bank, N.A."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo states the amendment provides borrower-friendly covenant relief by excluding acquisition-related lease termination costs from EBITDA limitations, yet claims this potentially reduces financial flexibility metrics; such relief would typically increase (not reduce) financial flexibility, making these assertions inconsistent.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

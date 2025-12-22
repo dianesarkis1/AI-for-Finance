@@ -1,0 +1,41 @@
+## Step-by-Step Approach Checklist
+- Extract key transaction parties and corporate structure from the Class A Note
+- Identify the credit agreement framework, amendments, and note-specific terms
+- Analyze the principal amount and Class A structure within the broader facility
+- Assess credit strengths and risks based on available documentation
+- Compile deal terms table using only explicitly stated information
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-12-20
+
+**Borrower Overview:** APA Finance III Borrower, LLC is a Delaware limited liability company operating through a multi-tiered ownership structure ultimately controlled by Altus Power, Inc., with Gregg Felton serving as Co-CEO of the parent entity.
+
+**Transaction Description:** This transaction involves the issuance of a Class A Note under an existing credit facility. The note evidences Class A Loans made by Security Life of Denver Insurance Company to the Borrower under a Credit Agreement framework administered by U.S. Bank Trust Company, National Association.
+
+**Purpose of Financing:** The specific purpose of this financing is not disclosed in the available documentation.
+
+**Company Background:** The Borrower operates within the Altus Power corporate family. Altus Power appears to be the ultimate parent company, though specific business operations and industry focus are not detailed in the note documentation.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional lender (Security Life of Denver Insurance Company) indicating institutional-grade credit quality
+• Robust administrative structure with U.S. Bank entities serving dual roles as Administrative Agent/Collateral Agent and Document Custodian
+• Active credit management evidenced by three amendments within the facility's first year of operation
+• Clear chain of ownership leading to identifiable parent company with named executive leadership
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into underlying business fundamentals, financial performance, or industry dynamics
+• Multiple amendments since origination may signal evolving credit conditions or covenant modifications requiring ongoing monitoring
+• Complex multi-entity ownership structure could present operational or enforcement challenges
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | Variable rate per Credit Agreement terms | N/A | Interest Payment Dates as defined in Credit Agreement | N/A |

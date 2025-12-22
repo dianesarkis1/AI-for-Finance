@@ -1,0 +1,39 @@
+## Conceptual Checklist
+- Extract key transaction details and parties from the credit agreement amendment
+- Identify the primary purpose and nature of the financing modifications including both USD LIBOR and Alternative Currency transitions
+- Analyze credit strengths and risks from an investment perspective
+- Compile available deal terms into the required table format per specifications
+- Ensure all information is sourced directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-12-12
+
+**Borrower / Company Overview:** Petco Health and Wellness Company, Inc., a Delaware corporation, serves as the Borrower in this syndicated credit facility.
+
+**Transaction Description:** First Amendment to existing First Lien Credit Agreement originally dated March 4, 2021, executed between Petco Health and Wellness Company, Inc. (Borrower), multiple lenders, and Citibank, N.A. (Administrative Agent).
+
+**Purpose of Financing:** The amendment implements a comprehensive benchmark rate transition replacing LIBOR-based interest rates with SOFR-based rates for USD denominated loans and replacing LIBOR for Alternative Currencies with the applicable risk-free reference rate (RFR). This addresses the discontinuation of LIBOR publication by ICE Benchmark Administration Limited after December 31, 2021.
+
+**Company Background and Context:** Petco operates as a health and wellness company with an established syndicated credit facility managed by Citibank, N.A. as Administrative Agent, indicating institutional-grade credit profile.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional credit relationship with Citibank, N.A. as Administrative Agent
+• Proactive benchmark transition management demonstrating operational sophistication
+• No Default or Event of Default occurring, with all representations and warranties confirmed as true and correct
+• Full preservation of existing security structure, including all liens, guarantees, and collateral documents
+• Proper lender notification procedures completed with no objections from Required Lenders
+
+**Principal Risks and Mitigating Factors:**
+• Benchmark rate transition may introduce different interest rate dynamics, mitigated by industry-standard spread adjustments designed to maintain economic equivalence
+• Limited visibility into broader credit terms and financial performance metrics from this amendment document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | Adjusted Term SOFR + credit spread adjustments (11.448 bps for 1-month, 26.161 bps for 3-month, 42.826 bps for 6-month terms); Alternative Currencies use applicable RFR | N/A | N/A | • All existing representations, warranties, and covenants reaffirmed • All collateral documents, liens, and security interests remain in full force and effect • No Default or Event of Default continuing as of amendment effective date |

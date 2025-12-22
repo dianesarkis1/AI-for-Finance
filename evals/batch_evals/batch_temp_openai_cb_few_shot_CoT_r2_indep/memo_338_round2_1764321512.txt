@@ -1,0 +1,42 @@
+I'll analyze this credit agreement and draft a professional investment memorandum. Here's my approach:
+
+• Extract the basic transaction details (parties, dates, amendment purpose)
+• Identify the specific changes being made to the credit agreement
+• Assess the credit implications from an investor perspective
+• Compile the key terms into the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-05-10
+
+**Borrower/Company Overview:** LifeStance Health Holdings, Inc., a Delaware corporation, serves as the borrower under a multi-facility credit arrangement originally dated May 4, 2022. The company operates with Lynnwood Intermediate Holdings, Inc. as its Delaware-incorporated holding company.
+
+**Transaction Description:** This Second Amendment modifies the existing credit facility among LifeStance Health Holdings, Inc., Capital One, National Association (serving as Administrative Agent, Revolver Agent, Collateral Agent, Issuing Bank, and Swing Line Lender), and Unitranche Loan Transaction II, LLC with other participating lenders.
+
+**Purpose of Financing:** The amendment extends the Delayed Draw Term Loan Commitment Expiration Date to August 14, 2024, providing additional time for the borrower to utilize available delayed draw term loan commitments under the existing credit structure.
+
+**Company Background:** LifeStance Health Holdings operates in the healthcare services sector with established banking relationships and institutional lender participation, utilizing a comprehensive credit facility structure that includes delayed draw term loan capabilities.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established credit facility with Capital One as multi-role administrative and collateral agent
+• Sophisticated lender group including HPS Investment Partners as co-manager of unitranche facility
+• Borrower representations confirm no existing Events of Default and compliance with all material covenants
+• Security interests and collateral positions fully reaffirmed and ratified through the amendment process
+• Limited scope amendment suggests stable underlying credit fundamentals
+
+**Principal Risks and Mitigating Factors:**
+• Extension request indicates potential timing challenges in capital deployment or strategic execution
+• Healthcare industry regulatory environment presents ongoing compliance and operational risks
+• Amendment provides limited insight into current financial performance or covenant compliance margins
+• Continued reliance on delayed draw facilities suggests ongoing capital needs that may affect future leverage
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Delayed Draw Term Loan Commitment Expiration Date extended to August 14, 2024<br>• All loan documents remain in full force and effect<br>• Security interests and liens ratified and reaffirmed<br>• No Events of Default occurring or continuing<br>• All representations and warranties under Article V of original Credit Agreement confirmed |

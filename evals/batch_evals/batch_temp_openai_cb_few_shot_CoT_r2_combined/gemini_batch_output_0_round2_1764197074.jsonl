@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- In the \"Principal Risks and Mitigating Factors\" section, the memo states there is a \"Significant pricing differential between rating levels (125 basis points spread from Level 1 to Level 5)\". The source document's pricing grid (Annex I) shows the Applicable Margin for Eurodollar Loans is 0.725% at Level 1 and 1.225% at Level 5. The difference between these two levels is 0.500%, or 50 basis points, not 125 basis points."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The 'Principal Risks' section states there is a '125 basis points spread from Level 1 to Level 5', but the 'Key Deal Terms Table' shows a 50 basis point spread for the Eurodollar margin (1.225% at Level 5 minus 0.725% at Level 1).\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

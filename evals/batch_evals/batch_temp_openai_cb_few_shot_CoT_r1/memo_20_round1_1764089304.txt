@@ -1,0 +1,41 @@
+Looking at this credit agreement, I will:
+- Extract the key transaction details and parties from the Fifth Amendment
+- Identify specific financial terms including lender commitments from Schedule 1
+- Analyze credit positives and risks based on available information
+- Structure the memo with proper formatting for the Key Deal Terms Table
+- Ensure all information comes directly from the document with N/A for unavailable data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-03-04
+
+**Borrower / Company Overview:** Greystone Housing Impact Investors LP (formerly America First Multifamily Investors, L.P.) is a Delaware limited partnership operating through a tiered partnership structure with America First Capital Associates Limited Partnership Two as general partner, which is managed by Greystone AF Manager LLC.
+
+**Transaction Description:** This Fifth Amendment to Credit Agreement modifies an existing credit facility originally established on June 11, 2021. The transaction involves BankUnited, N.A. serving as Administrative Agent, with a syndicated lender group including BankUnited, Bankers Trust Company, and NexBank. The amendment primarily updates lender definitions and the commitment schedule, formally adding NexBank as a lender.
+
+**Purpose of Financing:** The amendment facilitates the addition of NexBank to the existing lender syndicate through execution of a Lender Joinder Agreement and issuance of new promissory notes reflecting incremental commitments.
+
+**Company Background:** The borrower operates in the housing impact investment sector and has maintained this credit relationship since 2021, with four previous amendments demonstrating an ongoing banking relationship requiring periodic structural modifications.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established credit relationship since 2021 with successful track record of amendments and covenant compliance
+• Diversified lender syndicate provides funding stability and shared risk
+• Borrower representations confirm no current defaults or events of default
+• All security interests, liens, and mortgages remain in full force and effect
+• Addition of new lender (NexBank) demonstrates continued market confidence
+
+**Principal Risks and Mitigating Factors:**
+• Frequent amendments (five total) may indicate ongoing covenant or structural challenges
+• Broad borrower release provisions suggest potential past relationship issues with lenders
+• Limited financial performance data available in amendment restricts comprehensive credit assessment
+• Complex partnership structure may present governance and operational complexities
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 50,000,000 | N/A | N/A | N/A | N/A | • All prior loan document covenants reaffirmed and ratified<br>• Security interests, liens, mortgages continue to secure obligations<br>• No current defaults or events of default<br>• Individual lender commitments: BankUnited $30,000,000 (60%), Bankers Trust Company $10,000,000 (20%), NexBank $10,000,000 (20%) |

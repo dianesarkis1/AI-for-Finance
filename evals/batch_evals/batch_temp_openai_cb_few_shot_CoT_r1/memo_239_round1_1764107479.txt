@@ -1,0 +1,43 @@
+## Planning Checklist
+
+- Extract key parties (borrower, administrative agent, lenders) and transaction date
+- Identify the purpose and substance of the amendment (hedging requirement modifications)
+- Analyze credit positives and risks from an investment perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo following the required three-section format with proper table formatting
+- Validate completeness and accuracy of all sections
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-29
+
+**Borrower Overview:** Vine Energy Holdings LLC, a Delaware limited liability company operating in the oil and gas sector, serves as the Borrower under a Second Lien Credit Agreement originally dated December 30, 2020.
+
+**Transaction Description:** This Amendment No. 2 involves Vine Energy Holdings LLC, Morgan Stanley Senior Funding, Inc. as Administrative Agent and Collateral Agent, and a syndicate of lenders managed by GoldenTree Asset Management, LP. The transaction modifies the existing Second Lien Credit Agreement through amendments to specific covenant provisions.
+
+**Purpose of Financing:** The amendment primarily modifies the minimum hedging requirements in Section 6.17 of the Credit Agreement, adjusting the hedging covenant to require 70% hedging of reasonably anticipated projected hydrocarbon production of natural gas from Proved Developed Producing Reserves over a 24-month period.
+
+**Company Background:** Vine Energy Holdings LLC operates through multiple subsidiary entities including Vine Oil & Gas GP LLC, Brix Operating LLC, Vine Minerals LLC, Vine Energy Operating LP, and other related entities focused on oil and gas operations. The company maintains Proved Developed Producing Reserves as part of its hydrocarbon production portfolio.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationship with Morgan Stanley Senior Funding as Administrative Agent, providing institutional-grade oversight and expertise in energy sector financing
+• Diversified lender syndicate managed by experienced credit investment firm GoldenTree Asset Management, indicating sophisticated institutional backing
+• Amendment includes comprehensive ratification and reaffirmation of all collateral documents and liens, ensuring security interests remain fully enforceable
+• Borrower representations confirm no current defaults or events of default exist under the credit agreement
+• Multiple subsidiary guarantors provide additional credit support and collateral coverage
+
+**Principal Risks and Mitigating Factors:**
+• Energy sector exposure with commodity price volatility risk, partially mitigated by mandatory hedging requirements of 70% of natural gas production over 24 months
+• Second lien structure indicates subordinated credit position with potentially higher risk profile compared to first lien facilities
+• Amendment provides flexibility allowing borrower to comply with hedging requirements based on commercially reasonable market rates, which could result in lower hedging levels in adverse market conditions
+• Dependence on reserve reports and production forecasts for hedging calculations introduces operational and estimation risk
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Minimum hedging requirement: 70% of reasonably anticipated projected hydrocarbon production of natural gas from Proved Developed Producing Reserves over 24-month period<br>• Hedging compliance required within 90 days of closing date or 30 days after Reserve Report delivery<br>• All existing collateral documents and liens ratified and reaffirmed<br>• No defaults or events of default exist as of amendment effective date |

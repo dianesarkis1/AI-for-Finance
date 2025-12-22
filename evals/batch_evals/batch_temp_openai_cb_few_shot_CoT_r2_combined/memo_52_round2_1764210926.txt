@@ -1,0 +1,44 @@
+# Analysis Checklist
+
+- Identify the parties involved and basic agreement structure
+- Extract transaction dates, amendment purpose, and key modifications
+- Analyze the merger-related provisions and waivers granted
+- Assess credit positives and risks from an investor perspective
+- Extract available financial terms and covenant information
+- Format findings into the required three-section structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-10-26
+
+**Borrower/Company Overview:** PNM Resources, Inc., a New Mexico corporation, operating under a syndicated credit facility with Wells Fargo Bank, National Association as Administrative Agent and MUFG Bank, Ltd. serving as sole bookrunner and lead arranger for this amendment.
+
+**Transaction Description:** Eighth amendment to existing credit agreement originally established July 30, 2018. The amendment modifies the "Change of Control" definition and merger-related covenant provisions to address PNM Resources' entry into a merger agreement with Avangrid, Inc. and NM Green Holdings, Inc.
+
+**Purpose of Financing:** The amendment provides limited waivers for potential covenant defaults arising from the borrower's entry into the merger agreement dated October 20, 2020, while maintaining existing credit facility terms and preserving lender rights upon actual merger completion.
+
+**Company Background:** PNM Resources maintains relationships with a strong syndicate of established financial institutions, including Wells Fargo, JPMorgan Chase, Bank of America, Citibank, MUFG Union Bank, Morgan Stanley Bank, Royal Bank of Canada, KeyBank, U.S. Bank, The Bank of New York Mellon, and BOKF.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Strong syndicate composition with major financial institutions demonstrates broad lender confidence
+• Proactive covenant management through formal amendment process rather than allowing defaults to persist
+• Limited and precisely defined waiver scope prevents precedent for future covenant relief
+• Borrower representations confirm absence of other defaults and maintenance of all existing obligations
+• Amendment requires payment of all fees and expenses to Administrative Agent and Lead Arranger as condition precedent
+
+### Principal Risks and Mitigating Factors:
+• Pending merger creates ownership uncertainty and potential facility acceleration upon closing
+• Amendment explicitly preserves lenders' rights to declare change of control upon merger completion
+• Limited financial disclosure restricts assessment of current credit profile and refinancing capacity
+• Potential cross-default exposure from other indebtedness related to merger transaction
+• Amendment waiver limited to entering the merger agreement only, not the actual transaction closing
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • **Amendment Effective Date:** October 26, 2020<br>• **Change of Control:** 25% beneficial ownership threshold of voting capital stock on fully diluted basis (including option rights, except those pursuant to Merger Agreement)<br>• Change of Control includes board majority change during any 24-month period<br>• Prohibition on merging "with or into any other Person" without consent<br>• **Limited Waiver:** Applies only to potential covenant defaults from entering merger agreement<br>• **Merger Agreement:** October 20, 2020 agreement among Avangrid, Inc., NM Green Holdings, Inc. and borrower<br>• Actual merger closing constitutes prohibited change of control event<br>• All other existing covenants and credit agreement terms remain in full force |

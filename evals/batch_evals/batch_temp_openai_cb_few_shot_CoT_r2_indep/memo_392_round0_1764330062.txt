@@ -1,0 +1,36 @@
+## Checklist
+- Identify the key parties, dates, and transaction structure from the LIBOR cessation agreement
+- Extract the specific rights being suspended and the operational changes being implemented
+- Analyze the credit implications and risks from an investment perspective
+- Compile available deal terms while noting information limitations in this type of agreement
+- Structure the memo following the required three-section format with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 12, 2021, Emerson Electric Co. entered into a Suspension of Rights Agreement with JPMorgan Chase Bank, N.A. as Administrative Agent under their existing Credit Agreement dated May 23, 2018.
+- Emerson Electric Co. serves as the primary borrower, with subsidiary borrowers also party to the underlying credit facility. JPMorgan Chase Bank, N.A. acts as Administrative Agent for a syndicated lending group.
+- This agreement temporarily suspends certain borrowing rights in anticipation of the 2021 LIBOR cessation, specifically eliminating the ability to borrow in non-USD currencies (British Pounds Sterling, Euros, Japanese Yen) and restricting USD LIBOR interest periods to exclude 1-week and 2-month tenors.
+- The purpose is to provide an interim solution ahead of formal LIBOR transition amendments while avoiding immediate costs of updating the credit agreement terms. The suspension remains in effect until proper LIBOR replacement amendments are implemented.
+- Emerson Electric Co. is an established industrial technology company with access to a syndicated credit facility through major financial institutions.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Strong banking relationship with JPMorgan Chase Bank as Administrative Agent, indicating institutional confidence in Emerson Electric's credit profile
+• Proactive approach to LIBOR transition management, demonstrating operational sophistication and compliance focus
+• Temporary nature of restrictions with clear path to restoration of full borrowing rights upon proper amendment implementation
+• Borrower remains in good standing with ability to continue USD borrowing under modified terms
+
+### Principal Risks and Mitigating Factors:
+• Reduced operational flexibility through elimination of non-USD currency borrowing options and restricted interest period selections
+• Potential increased borrowing costs if USD rates become less favorable than previously available non-USD alternatives
+• Indemnification obligations expose borrower to potential costs related to LIBOR transition implementation
+• Limited visibility into broader credit facility terms, pricing, and financial covenants from this supplementary agreement
+
+## 3. Key Deal Terms Table
+
+| **Deal Size** | **Deal Price** | **Interest Rate** | **Maturity Date** | **Payment Frequency** | **Key Covenants** |
+|---------------|----------------|-------------------|-------------------|---------------------|-------------------|
+| N/A | N/A | N/A | N/A | N/A | • Suspension of non-USD currency borrowing rights (GBP, EUR, JPY) • Restriction of USD LIBOR interest periods to exclude 1-week and 2-month tenors • Automatic currency conversion to USD for non-USD requests • Automatic interest period conversion to 1-month for restricted tenors • Indemnification obligations for LIBOR transition costs |

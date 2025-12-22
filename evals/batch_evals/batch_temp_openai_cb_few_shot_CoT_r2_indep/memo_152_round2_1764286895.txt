@@ -1,0 +1,42 @@
+## Conceptual Checklist
+
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the specific changes being made to the original credit agreement
+- Analyze the Applegreen acquisition context and its impact on credit terms
+- Assess credit strengths based on lender syndicate and transaction structure
+- Evaluate risks related to covenant modifications and acquisition financing
+- Compile deal terms table with available financial information
+- Ensure all sections follow required formatting and include N/A for missing data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-02-20
+
+**Borrower/Company Overview:** CrossAmerica Partners LP is a Delaware limited partnership operating in the fuel distribution and convenience store sector. Lehigh Gas Wholesale Services, Inc., a Delaware corporation, serves as co-borrower alongside the Partnership.
+
+**Transaction Description:** This first amendment to the amended and restated credit agreement involves CrossAmerica Partners LP and Lehigh Gas Wholesale Services, Inc. as borrowers, with Citizens Bank, N.A. serving as Administrative Agent and Collateral Agent. The syndicate includes multiple lenders and L/C issuers.
+
+**Purpose of Financing:** The amendment facilitates the acquisition of assets from Applegreen entities under the Applegreen Asset Purchase Agreement dated January 26, 2024, involving CAPL Retail LLC's purchase of assets from Applegreen Midwest LLC and Applegreen Florida, LLC.
+
+**Company Background:** CrossAmerica Partners operates in the fuel wholesale and retail convenience store business through multiple subsidiary entities. The credit facility features a comprehensive guarantee structure with numerous subsidiary guarantors, building upon an established banking relationship dating to April 2019 with the original credit agreement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong, diversified lender syndicate including major financial institutions (Citizens Bank, Bank of America, JPMorgan Chase, TD Bank, Wells Fargo, Truist Bank, and others), demonstrating broad lender confidence
+• Strategic acquisition expansion through the Applegreen transaction, potentially enhancing market presence and revenue diversification
+• Comprehensive guarantee structure with multiple subsidiary guarantors providing credit enhancement
+• Established credit relationship dating back to April 2019, indicating stable long-term banking partnerships
+
+**Principal Risks and Mitigating Factors:**
+• Amendment provides borrower-friendly covenant relief by excluding acquisition-related lease termination costs from EBITDA limitations, potentially reducing financial flexibility metrics
+• Acquisition integration risks associated with the Applegreen asset purchase, including operational and financial integration challenges
+• Limited visibility into overall credit terms, pricing, and other financial maintenance covenants constrains comprehensive risk assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Early termination fees limited to $15,000,000 in any four-quarter fiscal period (excluding Applegreen lease termination fees)<br>• All prior covenants and guarantees reaffirmed by borrowers and subsidiary guarantors<br>• Collateral documents remain in full force securing all obligations |

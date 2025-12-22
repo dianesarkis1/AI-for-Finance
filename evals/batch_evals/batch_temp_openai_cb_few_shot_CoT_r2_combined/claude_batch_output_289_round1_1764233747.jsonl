@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}]}}}
+{"custom_id": "completeness", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}]}}}
+{"custom_id": "consistency", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "{\"has_issues\": true, \"issues\": [\"The memo states the financial statement delivery deadline was extended from March 31, 2023 to September 30, 2023, but the consent agreement itself is dated September 15, 2023, making it logically impossible for the original March 31, 2023 deadline to still be pending extension.\"]}"}]}}}
+{"custom_id": "quality_clarity", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 75.0"}]}}}
+{"custom_id": "quality_tone", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 85.0"}]}}}
+{"custom_id": "quality_length", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}
+{"custom_id": "quality_structure", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}

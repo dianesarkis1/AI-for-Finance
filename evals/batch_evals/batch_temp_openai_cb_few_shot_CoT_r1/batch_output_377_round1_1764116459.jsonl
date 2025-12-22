@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- States the lending syndicate comprises 13 institutions; the source lists 14 lenders (including Fifth Third and East West as lenders)."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Lender count mismatch: claims a syndicate of 13 institutions but lists 14 banks (Fifth Third, East West, Wells Fargo, Truist, Western Alliance, First-Citizens, Zions/California Bank & Trust, Preferred, Texas Capital, Flagstar, Bank of Hope, Sunflower Bank, City National, Axos).\", \"Amendment frequency inconsistency: memo identifies this as Amendment No. 2 (with Amendment No. 1 on 2024-12-09) yet later asserts there have been three amendments within five months.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 74.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 62.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 35.0"}}]}}}

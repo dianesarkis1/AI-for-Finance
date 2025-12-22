@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_150", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nHALLUCINATIONS:\nThe memo states in two places that there is \"a syndicate of 14 international lenders\" and \"14 top-tier international banks\". The source document's signature pages list at least 18 distinct legal entities signing as lenders. Therefore, the number \"14\" is not supported by the source document."}}]}}}
-{"custom_id": "completeness_150", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_150", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_150", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_150", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_length_150", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_150", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

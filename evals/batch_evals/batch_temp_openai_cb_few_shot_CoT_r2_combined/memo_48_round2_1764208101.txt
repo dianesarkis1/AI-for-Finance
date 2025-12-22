@@ -1,0 +1,42 @@
+## Checklist
+- Extract key transaction details (parties, dates, amendment purpose)
+- Identify covenant modifications and financial terms with full specificity
+- Analyze credit positives and risks from investor perspective
+- Compile deal terms table using proper formatting structure
+- Validate completeness and formatting alignment with template
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-11-17
+
+**Borrower/Company Overview:** Spectrum Brands, Inc., a Delaware corporation, serves as Lead Borrower with SB/RH Holdings, LLC as Holdings company under a revolving credit facility administered by Royal Bank of Canada.
+
+**Transaction Description:** Fourth amendment to amended and restated credit agreement originally dated June 23, 2015 and restated June 30, 2020, involving the Lead Borrower, Royal Bank of Canada as Administrative Agent, and participating Revolving Lenders.
+
+**Purpose of Financing:** The amendment provides temporary covenant relief to give Spectrum Brands additional time and operational flexibility to complete the sale of its Hardware and Home Improvement segment to ASSA ABLOY AB for $4.3 billion in cash proceeds under an Asset and Stock Purchase Agreement dated September 8, 2021.
+
+**Company Background:** Spectrum Brands operates multiple business segments including a Hardware and Home Improvement division that is being divested as part of a strategic restructuring initiative.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Pending $4.3 billion asset sale provides substantial deleveraging opportunity and enhanced strategic focus
+• Established banking relationship with Royal Bank of Canada as Administrative Agent and committed revolving lender syndicate
+• Amendment includes compensation to lenders through 0.20% fee on revolving commitments, demonstrating borrower's commitment to lender relationships
+• Temporary covenant relief structure with defined trigger events and automatic reversion to tighter leverage requirements
+• Existing collateral framework remains intact with all Collateral Documents continuing to secure payment of Obligations
+• Clear timeline with hard deadline of September 29, 2023 for covenant relief expiration
+
+**Principal Risks and Mitigating Factors:**
+• Leverage covenant relief from 6.00:1.00 to 7.00:1.00 suggests potential near-term financial stress or covenant proximity
+• Execution risk on asset sale completion, with covenant relief automatically expiring if transaction does not close by specified deadlines
+• Limited visibility into overall facility size, current utilization levels, pricing terms, or other financial maintenance requirements
+• Dependency on external buyer (ASSA ABLOY AB) for successful completion of strategic divestiture
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Total Net Leverage Ratio (Revolving Facility only): 7.00:1.00 until Trigger Event, then reverts to 6.00:1.00<br>• Trigger Event: Earlier of September 29, 2023 or 10 business days after HHI sale closing/termination fee receipt<br>• Amendment fee: 0.20% of aggregate revolving credit commitments paid to consenting lenders<br>• Collateral: Existing Collateral Documents continue to secure all Obligations under Loan Documents<br>• Expense reimbursement: Borrower obligated to reimburse Administrative Agent and Revolving Lenders for reasonable and documented out-of-pocket costs and expenses |

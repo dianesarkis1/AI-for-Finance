@@ -1,0 +1,40 @@
+## Checklist:
+- Extract key parties (borrower, lenders, administrative agent) and transaction date
+- Identify transaction purpose (Third Amendment Transactions and dividend distributions)
+- Analyze key covenant modifications and effectiveness conditions
+- Assess credit strengths and risks from an investment perspective
+- Compile deal terms table with explicit information only
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-03-25
+
+**Borrower/Company:** Crestwood Midstream Partners LP, a Delaware limited partnership, operates as a midstream energy company with extensive subsidiary operations including pipeline, crude services, gas processing, and transportation entities across multiple states.
+
+**Transaction Description:** Third Amendment to Second Amended and Restated Credit Agreement (originally dated October 16, 2018) with Wells Fargo Bank, National Association as Administrative Agent and a syndicate of lenders including Bank of America, JPMorgan Chase, Citibank, Royal Bank of Canada, and 15+ additional financial institutions.
+
+**Purpose of Financing:** The amendment facilitates "Third Amendment Transactions" involving equity restructuring where Crestwood Equity Partners and third-party investors will acquire equity interests in Crestwood Holdings LLC and subsidiaries. The Borrower is permitted to make revolving facility borrowings and distribute up to USD 275 million to parent entities to finance these acquisitions and associated transaction costs.
+
+**Company Background:** Crestwood operates through numerous subsidiaries engaged in midstream energy activities including pipeline operations, crude oil services, gas processing, and energy transportation services across multiple geographic regions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Diversified lender syndicate of 20+ major financial institutions indicates strong market confidence
+• Borrower confirms no defaults or events of default occurring as of amendment effective date
+• All existing loan documents, guarantees, and collateral remain in full force with continued subsidiary guarantor support
+• Lender consent fee of 0.05% of revolving facility commitments provides additional consideration
+
+**Principal Risks and Mitigating Factors:**
+• Amendment permits significant dividend distributions (up to USD 275 million) that could impact liquidity and debt service capacity
+• Complex equity restructuring and ownership changes introduce execution risk and potential covenant implications
+• Modified change of control definitions may affect future covenant compliance monitoring
+• Limited current financial performance visibility to assess distribution capacity
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| N/A | N/A | N/A | N/A | N/A | • Dividend/distribution permission up to $275.0 million for Third Amendment Transactions<br>• Change in Control threshold: 35% for third-party equity acquisition<br>• Effectiveness conditions: (1) executed counterparts from Required Lenders, (2) 0.05% consent fee payment, (3) Unit Purchase consummation with certificate delivery<br>• Amendment effective date on or before April 9, 2021<br>• All loan documents and guarantees reaffirmed |

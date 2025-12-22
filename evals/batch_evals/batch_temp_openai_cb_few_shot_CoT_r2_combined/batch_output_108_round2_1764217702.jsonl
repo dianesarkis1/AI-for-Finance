@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo claims the amendment\u2019s \u201cprimary purpose \u2026 is to increase the lender's commitment amount to $75,000,000.\u201d The source only states the Commitment \u201cas of the Amendment No. 1 Effective Date is $75,000,000\u201d and does not state it is an increase."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo treats the single-lender setup with Wells Fargo as both a strength (\\\"Established Institutional Banking Partnership\\\") and a weakness (\\\"Single-Lender Concentration Risk\\\")\\u2014contradictory assessments of the same factor.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 58.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

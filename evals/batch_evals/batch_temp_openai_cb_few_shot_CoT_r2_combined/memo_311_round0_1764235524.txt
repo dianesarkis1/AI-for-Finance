@@ -1,0 +1,42 @@
+I will analyze this credit agreement amendment and create an investment memorandum following the established format and structure.
+
+## Checklist:
+• Extract key transaction details (date, parties, amendment purpose)
+• Identify borrower background and transaction structure
+• Analyze the LIBOR to SOFR transition rationale and implications
+• Assess credit strengths and risks from an investor perspective
+• Compile deal terms table with available information
+• Validate memo completeness and formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In December 2022, Petco Health and Wellness Company, Inc. and Citibank N.A. (as Administrative Agent) executed a first amendment to their existing credit agreement originally dated March 4, 2021.
+- Petco Health and Wellness Company, Inc., a Delaware corporation, serves as the Borrower in this credit facility with Citibank N.A. acting as Administrative Agent for a syndicate of lenders.
+- The primary purpose of this amendment is to transition the credit facility's benchmark rate from USD LIBOR to Adjusted Term SOFR (Secured Overnight Financing Rate) in advance of LIBOR's discontinuation. This represents an "Early Opt-in Election" as defined in the original credit agreement.
+- The amendment implements benchmark replacement conforming changes, replacing LIBOR-based rates with Adjusted Term SOFR plus credit spread adjustments (11.448 bps for one month, 26.161 bps for three months, and 42.826 bps for six months) as recommended by the Alternative Reference Rates Committee.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Proactive benchmark transition management demonstrates sophisticated treasury operations and compliance with regulatory changes ahead of mandatory LIBOR cessation
+• Citibank N.A. serves as Administrative Agent, indicating access to a major financial institution with extensive syndicated lending capabilities
+• The amendment maintains all existing loan documents, collateral arrangements, and guarantees in full force and effect
+• Borrower representations confirm no existing defaults or events of default under the credit agreement
+
+### Principal Risks and Mitigating Factors:
+• Limited visibility into overall credit facility terms, financial covenants, or borrower financial performance
+• Benchmark rate transition may introduce basis risk or operational complexity during the conversion period
+• Amendment allows existing Eurocurrency Rate Loans to remain outstanding until their current interest periods conclude, creating temporary rate uncertainty
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Adjusted Term SOFR plus credit spread adjustments: 11.448 bps (1-month), 26.161 bps (3-month), 42.826 bps (6-month) |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • All existing loan documents, collateral documents, and guarantees remain in full force and effect • Borrower reaffirms all liens granted to Administrative Agent for benefit of secured parties • No defaults or events of default continuing as of amendment effective date |

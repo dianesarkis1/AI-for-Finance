@@ -1,0 +1,42 @@
+I'll analyze this credit agreement step by step to create an investment memorandum.
+
+**Checklist of approach:**
+• Extract key transaction details (parties, dates, amounts, purpose)
+• Identify loan structure and terms modifications
+• Assess credit strengths and risks from the documentation
+• Compile deal terms table with available information
+• Ensure all sections follow the required format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-11-26
+
+**Borrower/Company Overview:** IPC Alternative Real Estate Operating Partnership, LP, a Delaware limited partnership headquartered at 2901 Butterfield Rd, Oak Brook, IL 60523, operating in the real estate sector.
+
+**Transaction Description:** Amendment to existing revolving credit facility originally dated October 27, 2023, between IPC Alternative Real Estate Operating Partnership, LP (Borrower) and Inland Private Capital Corporation (Lender), a Delaware corporation also located at 2901 Butterfield Road, Oak Brook, IL 60523.
+
+**Purpose of Financing:** Extension of maturity date for existing $22,500,000 revolving credit facility from November 30, 2024 to November 30, 2025, providing continued liquidity for the borrower's real estate operations.
+
+**Company Background:** The borrower operates as the real estate operating partnership within the Inland Private Capital organization. This appears to be an affiliate lending arrangement, with both entities sharing the same Oak Brook, Illinois address and being part of the broader Inland Private Capital platform.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Related-party financing structure provides strong sponsor support within established real estate organization
+• Borrower confirms full compliance with existing loan covenants and representations
+• Lender willingness to extend maturity demonstrates continued confidence in credit relationship
+• Comprehensive legal representations confirm borrower's good corporate standing
+
+**Principal Risks and Mitigating Factors:**
+• Affiliate lending structure limits independent credit validation and market-based pricing
+• Broad general release provision suggests potential prior relationship complications
+• Limited financial covenant visibility restricts credit quality assessment
+• Concentration risk within single organization platform
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 22,500,000 | N/A | N/A | 2025-11-30 | N/A | • Borrower must maintain good standing as Delaware limited partnership<br>• All existing covenants from original Credit Agreement remain in effect<br>• Borrower confirms current compliance with all loan document requirements |

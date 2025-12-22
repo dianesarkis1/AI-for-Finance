@@ -1,0 +1,40 @@
+## Conceptual Checklist:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the specific purpose and nature of the amendment (pricing margin changes)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms into the required table format
+- Ensure all information is sourced directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-06-10
+
+**Borrower/Company Overview:** Affiliated Managers Group, Inc. (AMG) is a Delaware corporation serving as the borrower under a term credit facility arrangement.
+
+**Transaction Description:** This transaction represents a Second Amendment to Third Amended and Restated Term Credit Agreement between AMG and a syndicate of bank lenders, with Bank of America, N.A. acting as Administrative Agent. The original credit agreement was established on January 18, 2019.
+
+**Purpose of Financing:** The amendment specifically modifies the Applicable Margin pricing structure contained in Annex I to the existing Credit Agreement, updating the cost of borrowing based on the company's debt rating levels.
+
+**Company Background:** AMG operates under an existing term credit facility with institutional bank lenders. The company maintains investment-grade credit characteristics, as evidenced by the pricing grid structure that accommodates ratings ranging from A+ to BBB levels across major rating agencies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with Bank of America, N.A. as Administrative Agent demonstrates institutional confidence
+• Investment-grade pricing structure reflects solid credit profile with ratings accommodated from A+/A1/A+ down to BBB/Baa2/BBB
+• Clean credit status with borrower representations confirming no existing defaults or events of default
+• Comprehensive legal framework with all existing loan document protections remaining in full force and effect
+• Rating-based pricing mechanism provides transparency and market-driven cost structure
+
+**Principal Risks and Mitigating Factors:**
+• Amendment document provides limited visibility into underlying facility terms, covenant structure, or collateral arrangements
+• Pricing grid modification may indicate evolving credit conditions or market dynamics requiring cost adjustments
+• Absence of specific financial maintenance terms or performance metrics limits assessment of credit monitoring mechanisms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | Eurodollar Loans: 0.725%-1.225% margin; ABR Loans: 0.000%-0.225% margin (based on S&P/Moody's/Fitch ratings A+ to BBB) | N/A | N/A | • All existing loan document covenants ratified and confirmed<br>• No defaults or events of default representation required<br>• Pricing adjustments based on publicly announced debt rating changes<br>• Applicable margin determined by S&P/Moody's/Fitch debt ratings |

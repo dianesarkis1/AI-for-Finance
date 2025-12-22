@@ -1,0 +1,43 @@
+I'll analyze this credit agreement step-by-step to create a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key parties, dates, and transaction structure from the limited waiver document
+• Identify the COVID-19 related casino closure context and its financial impact
+• Analyze the waiver terms, covenant breaches, and restrictions imposed on the borrower
+• Assess credit strengths and risks from an investor perspective
+• Compile available deal terms and covenant information into the required table format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-11-30
+
+**Borrower / Company Overview:** MGE Niagara Entertainment Inc. operates casino facilities under regulatory oversight by Ontario Lottery and Gaming Corporation (OLG). The company operates under a credit agreement originally dated June 10, 2019 (amended July 17, 2019) with Complex Services Inc. as guarantor.
+
+**Transaction Description:** Bank of Montreal, as Administrative Agent, granted a Fifth Amended and Restated Limited Waiver on behalf of Required Lenders to MGE Niagara Entertainment Inc. This waiver supersedes and extends previous COVID-19 related waivers issued in May, June, July, and September 2020.
+
+**Purpose of Financing:** The waiver provides essential relief from financial covenant breaches and closure-related defaults through March 31, 2021, enabling the borrower to navigate operational disruptions caused by government-mandated casino closures during the COVID-19 pandemic.
+
+**Company Background:** MGE Niagara Entertainment Inc. operates casino facilities that were temporarily closed by OLG directive due to COVID-19 restrictions. The prolonged closure exceeded 60 consecutive days, triggering potential defaults under the original credit agreement. OLG has provided financial relief measures including threshold payment relief and fixed component per diem payments during the closure period.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Regulatory Support Framework: OLG actively provides financial relief through threshold payment waivers and fixed component per diem payments, demonstrating government commitment to sector stability
+• Enhanced Liquidity Monitoring: Mandatory $15 million minimum liquidity requirement with weekly reporting provides robust early warning system and downside protection
+• Temporary Nature of Crisis: Casino closures are pandemic-related and temporary, with operations expected to resume when regulatory restrictions lift
+• Established Operating History: Borrower maintained operations under existing credit facility since 2019 prior to pandemic disruption
+
+**Principal Risks and Mitigating Factors:**
+• Material Financial Deterioration: Multiple financial covenant breaches in Sections 9.4.1 and 9.4.2 indicate significant operational stress and cash flow deterioration
+• Extended Operational Shutdown: Casino facility closures create zero revenue environment while fixed costs continue, straining liquidity position
+• Heightened Pricing Structure: Migration to Level 5 pricing (highest tier) increases borrowing costs and reflects deteriorated credit profile
+• Restricted Financial Flexibility: Comprehensive restrictions including prohibition on new advances, distributions, acquisitions, and material contract amendments limit strategic options
+• Government Dependency Risk: Critical reliance on continued OLG support payments creates single-point-of-failure risk if government relief ceases
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | 5.00% (Bankers' Acceptances/Letters of Credit/LIBOR Loans), 3.50% (Prime Rate Loans/USBR Loans), 1.25% (Undrawn Fee) at Level 5 pricing | N/A | N/A | • Maintain Liquidity of not less than $15,000,000 at all times<br>• No new Advances permitted under either Credit Facility<br>• Applicable Margin locked at Level 5 (highest pricing tier)<br>• Prohibited Distributions under clause (c) or (e) of Permitted Distributions<br>• Restrictions on amending Leases, MGE Management Agreement, CNHI Consulting Agreement, or Convertible Debentures<br>• Acquisition activities prohibited<br>• Weekly liquidity reporting required by Tuesday of each week<br>• Extension fee of 5 basis points on Commitment of consenting Lenders<br>• Event of Default triggered if OLG ceases threshold relief or fixed component payments for more than 5 business days |

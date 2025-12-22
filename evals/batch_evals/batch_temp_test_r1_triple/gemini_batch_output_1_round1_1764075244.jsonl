@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe \"Key Deal Terms Table\" is missing the covenant restricting the borrower from amending, modifying, or waiving provisions of key agreements (Leases, MGE Management Agreement, CNHI Consulting Agreement, or Convertible Debentures) in any way that would be adverse to the lenders."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The Key Deal Terms table lists a 1.25% 'Undrawn Fee' as a pricing component, but the memo also states under both Key Strengths and Key Covenants that 'No Advances permitted'/'No new credit facility advances permitted', which contradicts the purpose of an undrawn fee as compensation for a lender's commitment to make funds available.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 35.0"}}]}}}

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists enhanced cash management/lockbox controls as both a strength (improved visibility/control) and a risk (signals lender concern and suggests operational challenges), i.e., the same factor is presented as positive and negative.\", \"Requirement that all account collections must flow through the lockbox after activation conflicts with the statement that individual account debtors may pay borrowers directly unless directed otherwise.\", \"Prohibition on withdrawals from Lockbox Accounts after activation conflicts with the daily sweep requirement that transfers all Lockbox funds to the Payment Account each day (which necessitates funds leaving the Lockbox).\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 63.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 58.0"}}]}}}

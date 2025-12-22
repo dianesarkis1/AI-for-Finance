@@ -1,0 +1,43 @@
+I'll analyze this credit agreement step by step to create a professional investment memorandum.
+
+## Conceptual Approach:
+- Extract key transaction details and parties from the lender joinder agreement
+- Identify the borrower, lenders, and transaction structure 
+- Analyze the credit positives and risks from an investor perspective
+- Compile available deal terms into the required table format
+- Ensure all information is directly sourced from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-12
+
+**Borrower/Company Overview:** MSCC Funding I, LLC is a Delaware limited liability company operating as the borrower under a revolving credit and security agreement. The entity is managed by Main Street Capital Corporation, a Maryland corporation serving as collateral manager. The borrower operates under investment company regulations, requiring all lenders to maintain Qualified Purchaser and Qualified Institutional Buyer status.
+
+**Transaction Description:** This transaction represents EverBank, N.A.'s entry as an additional lender to an existing syndicated revolving credit facility through execution of a Lender Joinder Agreement. The facility operates under a comprehensive administrative structure with Truist Bank serving as Administrative Agent and Swingline Lender, Citibank, N.A. as Collateral Agent, Custodian, and Document Custodian, and Virtus Group, LP as Collateral Administrator.
+
+**Purpose of Financing:** The joinder expands the revolving credit facility's lending capacity by adding EverBank's $75 million commitment to support the borrower's ongoing capital requirements and operational needs.
+
+**Company Background:** The borrower functions within a structured lending arrangement originally established on November 22, 2022, operating under the oversight of Main Street Capital Corporation as collateral manager and subject to comprehensive regulatory compliance requirements for investment company operations.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional framework with Main Street Capital Corporation, a public business development company, providing collateral management expertise and oversight
+• Diversified administrative structure featuring premier financial institutions in key operational roles, including Truist Bank and Citibank, N.A.
+• Regulatory framework ensuring sophisticated investor participation through Qualified Purchaser and QIB requirements, limiting participation to institutional-quality counterparties
+• Comprehensive security and collateral arrangements with dedicated custodial and administrative oversight mechanisms
+• Proven facility structure with operational history dating to November 2022, demonstrating established market acceptance
+
+**Principal Risks and Mitigating Factors:**
+• Limited transparency into underlying portfolio composition and credit metrics, though mitigated by professional collateral management oversight
+• Regulatory complexity inherent in investment company structure may create operational constraints, offset by experienced administrative agent capabilities
+• Dependence on collateral manager performance for portfolio oversight and credit decisions, mitigated by Main Street Capital's established track record as a public BDC
+• Potential concentration risks in underlying investments, though diversified through professional management and regulatory oversight requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Lenders must maintain Qualified Purchaser status under Investment Company Act<br>• Lenders must maintain QIB status under Securities Act<br>• Comprehensive collateral and security arrangements with designated custodial oversight<br>• Pro rata funding requirements upon joinder effective date |

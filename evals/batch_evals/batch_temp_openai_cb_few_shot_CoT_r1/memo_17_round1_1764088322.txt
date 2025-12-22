@@ -1,0 +1,42 @@
+Based on my review of the credit agreement, I will:
+- Identify the key parties and transaction structure from the First Amendment
+- Extract the specific amendments made to the original credit agreement
+- Analyze available terms and conditions
+- Assess credit strengths and risks from an investor perspective
+- Present the information in the required three-section format with proper table structure
+
+# Investment Memorandum
+
+## Executive Summary
+
+**Date of Agreement:** 2021-11-30
+
+**Borrower/Company Overview:** America First Multifamily Investors, L.P., a limited partnership with America First Capital Associates Limited Partnership Two as its general partner, managed by Greystone AF Manager LLC.
+
+**Transaction Description:** First Amendment to an existing Credit Agreement originally dated June 11, 2021, executed with BankUnited, N.A. as Administrative Agent and Bankers Trust Company as a participating lender. The amendment modifies the guarantor structure and related documentation.
+
+**Purpose of Financing:** The amendment updates the guarantor definition to specifically designate Greystone Select Incorporated as the guarantor under an Amended and Restated Guaranty, replacing or clarifying previous guarantor arrangements.
+
+**Company Background:** America First Multifamily Investors, L.P. operates as a multifamily real estate investment entity with a complex partnership structure involving Greystone-affiliated management entities, suggesting focus on apartment and residential rental property investments.
+
+## Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with BankUnited, N.A. as Administrative Agent, providing institutional lending support
+• Enhanced guarantor support through Greystone Select Incorporated under formal Amended and Restated Guaranty structure
+• Administrative Agent maintains first priority perfected liens on all collateral securing the obligations
+• Comprehensive environmental indemnity coverage addresses real estate-related environmental risks
+• No existing defaults or events of default reported as of amendment execution date
+• All original credit agreement terms remain in full force except as specifically amended
+
+**Principal Risks and Mitigating Factors:**
+• Limited disclosure of financial terms, loan size, pricing, and maturity creates incomplete credit picture
+• Real estate sector exposure subjects the investment to property market cycles and interest rate fluctuations
+• Complex multi-tiered partnership structure may present governance and operational oversight challenges
+• Environmental liability exposure inherent in real estate investments, mitigated by comprehensive indemnity arrangements
+
+## Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • First priority perfected liens on all collateral maintained by Administrative Agent<br>• Guarantor defined as Greystone Select Incorporated under Amended and Restated Guaranty dated 2021-11-30<br>• Environmental indemnity coverage provided through Amended and Restated Unsecured Environmental Indemnity<br>• All original loan document terms remain in effect except as specifically amended |

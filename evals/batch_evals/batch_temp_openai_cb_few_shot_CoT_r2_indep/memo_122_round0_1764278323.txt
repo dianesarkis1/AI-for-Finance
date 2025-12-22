@@ -1,0 +1,44 @@
+# Checklist
+- Identify transaction date, parties, and structure (incremental commitment agreement)
+- Extract borrower information and business context (Oaktree Specialty Lending Corporation)
+- Analyze transaction purpose and key financial terms from Schedule 1
+- Review credit positives and risks from an investment perspective
+- Compile deal terms table with available data, marking unavailable fields as "N/A"
+- Ensure proper formatting and professional tone throughout
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In December 2020, Oaktree Specialty Lending Corporation entered into an incremental commitment agreement to increase its existing revolving credit facility.
+- Oaktree Specialty Lending Corporation, a Delaware corporation, serves as the Borrower, with subsidiary guarantors OCSL SRNE, LLC and FSFC Holdings, Inc.
+- The original Amended and Restated Senior Secured Revolving Credit Agreement was dated February 25, 2019, among Oaktree Specialty Lending Corporation, various lenders, and ING Capital LLC as Administrative Agent. The syndicate includes JPMorgan Chase Bank, N.A. and Bank of America, N.A. as Syndication Agents, with joint lead arrangers ING Capital LLC, JPMorgan Chase Bank, N.A., and Merrill Lynch, Pierce, Fenner & Smith Incorporated.
+- The purpose of this incremental commitment is to provide additional borrowing capacity through MUFG Union Bank, N.A. as the Increasing Lender, adding $25,000,000 to their existing $50,000,000 commitment for a total of $75,000,000.
+- Oaktree Specialty Lending Corporation operates as a business development company focused on specialty lending activities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+Strong sponsor backing through Oaktree Capital Management, a well-established alternative investment manager with significant expertise in credit markets.
+
+Diversified lender syndicate including major financial institutions (ING Capital, JPMorgan Chase, Bank of America, MUFG Union Bank), demonstrating broad market confidence.
+
+The transaction represents an upsizing of existing credit facilities rather than emergency refinancing, indicating healthy demand for additional capacity.
+
+Comprehensive security package with guarantee and security agreements covering subsidiary guarantors and collateral.
+
+### Principal Risks and Mitigating Factors:
+Limited financial covenant and pricing information available in this incremental commitment document restricts full credit assessment.
+
+As a specialty lending entity, performance is subject to credit market conditions and portfolio company performance.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Incremental commitment terms identical to existing lender commitments. Guarantee and Security Agreement remains in full force and effect. All representations and warranties from original Credit Agreement reaffirmed as true and correct. No Default or Event of Default continuing as of effective date |

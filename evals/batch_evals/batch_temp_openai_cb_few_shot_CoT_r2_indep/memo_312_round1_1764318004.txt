@@ -1,0 +1,43 @@
+# Step-by-step Analysis Checklist
+
+- Extract key parties and transaction details from the Class A Note document
+- Identify the borrower structure and administrative agent arrangements 
+- Determine principal amount, maturity, and payment terms from the note
+- Review amendment history and credit agreement references for context
+- Assess investment strengths and risks based on available information
+- Compile deal terms table with explicit data only, marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-12-20
+
+**Borrower/Company Overview:** APA Finance III Borrower, LLC, a Delaware limited liability company, operating through a multi-tiered ownership structure ultimately owned by Altus Power, Inc.
+
+**Transaction Description:** Issuance of a Class A Note for $19,195,000 to Security Life of Denver Insurance Company under a syndicated credit facility administered by U.S. Bank Trust Company, National Association.
+
+**Purpose of Financing:** N/A
+
+**Company Background:** The Borrower operates through a complex ownership chain: APA Finance III Borrower, LLC is wholly owned by APA Finance III Borrower Holdings, LLC, which is owned by APA Finance III, LLC, owned by APA Generation, LLC, owned by Altus Power, Inc. The transaction is governed under a Credit Agreement originally dated February 15, 2023, with three subsequent amendments (June 15, 2023, July 21, 2023, and December 20, 2023), indicating an active and evolving credit relationship.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Institutional administrative infrastructure with U.S. Bank serving as Administrative Agent, Collateral Agent, and Document Custodian
+• Structured secured facility with collateral agent providing lender protections
+• Active credit management evidenced by multiple amendments addressing evolving business needs
+• Note governed by New York law, providing established legal framework
+
+**Principal Risks and Mitigating Factors:**
+• Multi-layered LLC ownership structure may create structural subordination and limit direct recourse to operating assets
+• Three amendments within ten months of original credit agreement may indicate covenant compliance challenges or operational volatility
+• Limited financial and operational information available from note documentation constrains comprehensive risk assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | N/A | N/A | Interest paid on each Interest Payment Date | N/A |

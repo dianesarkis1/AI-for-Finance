@@ -1,0 +1,43 @@
+## Checklist of Tasks
+
+- Identify the transaction date, parties, and structure from the agreement
+- Extract borrower information and company background details
+- Determine the purpose and key terms of the revolving commitment increase
+- Analyze credit positives and risks from an investment perspective
+- Compile deal terms table with available information, marking missing fields as "N/A"
+- Ensure proper formatting and professional tone throughout
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-07-07
+
+**Borrower / Company Overview:** ExchangeRight Income Fund Operating Partnership, LP, a Delaware limited partnership, serves as the borrower. The parent company is ExchangeRight Income Fund, d/b/a ExchangeRight Essential Income REIT, a Maryland real estate investment trust.
+
+**Transaction Description:** This Third Incremental Revolving Commitment Assumption Agreement adds Renasant Bank as a new lender to an existing syndicated revolving credit facility. The transaction increases the total facility size by $15,000,000 through an incremental revolving commitment, with Wells Fargo Bank, National Association acting as Administrative Agent.
+
+**Purpose of Financing:** The incremental commitment provides additional revolving credit capacity to support the borrower's ongoing business operations and capital requirements. This represents the third incremental addition to the original credit facility dated May 30, 2024.
+
+**Company Background:** ExchangeRight operates as a real estate investment trust focused on income-generating properties. The organizational structure includes multiple subsidiary entities and Delaware statutory trusts that serve as loan parties, suggesting a diversified real estate portfolio across various properties and investment strategies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationships with high-quality financial institutions including Wells Fargo and Fifth Third Bank
+• REIT structure provides regulatory transparency and governance oversight
+• Multiple subsidiary guarantors enhance credit support through diversified real estate holdings
+• Successful track record of facility expansions demonstrates continued lender confidence
+• Complex but structured organizational framework suggests sophisticated real estate platform
+
+**Principal Risks and Mitigating Factors:**
+• Real estate sector concentration exposes credit to property market volatility and economic cycles
+• Interest rate sensitivity inherent in real estate investments and floating rate debt structures
+• Organizational complexity across multiple entities may create operational and administrative challenges
+• Limited visibility into specific financial performance metrics and covenant compliance margins
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 15,000,000 | N/A | N/A | N/A | N/A | • Compliance with Section 2.17 of Credit Agreement<br>• No Default or Event of Default permitted<br>• Reaffirmation of existing guarantees and security interests<br>• Pro rata treatment with existing revolving commitments |

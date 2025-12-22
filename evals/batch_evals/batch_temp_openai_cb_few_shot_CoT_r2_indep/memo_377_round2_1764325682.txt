@@ -1,0 +1,41 @@
+## Checklist of Analysis Steps:
+- Extract key transaction dates, parties, and amendment structure
+- Identify borrowers, administrative agent, and complete lender consortium
+- Analyze the amendment's purpose and any facility upsize mentioned
+- Assess credit positives and risks from lender perspective
+- Compile available deal terms while marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-03-31
+
+**Borrower / Company Overview:** The borrowers are five entertainment library financing entities: LGTV Library Financing LLC, Artisan Library Financing LLC, Summit Library Financing LLC, LG Film Library Financing LLC, and LGIM Library UK Financing Limited. These entities are guaranteed by their respective parent holding companies: LGTV Library Holdco LLC, Artisan Library Holdco LLC, Summit Library Holdco LLC, LG Film Library Holdco LLC, and LGIM Library UK Holdco Limited.
+
+**Transaction Description:** Amendment No. 2 to an Amended and Restated Credit, Security and Pledge Agreement among the borrowers, parent companies, a consortium of thirteen lenders, and Fifth Third Bank as Administrative Agent.
+
+**Purpose of Financing:** The amendment implements certain modifications to the existing Credit Agreement and includes an "Upsize" provision that expands the credit facility with new loan allocations among lenders.
+
+**Company Background:** The borrowing entities are special purpose vehicles focused on entertainment content library financing, structured with separate parent holding companies providing guarantees. The original Credit Agreement was established on November 5, 2024, with the first amendment executed on December 9, 2024.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong and diversified lender consortium of thirteen institutions including major regional and national banks, demonstrating broad institutional support
+• Recent facility upsize indicates lender confidence and borrower's successful performance since the original agreement in November 2024
+• Structured with parent company guarantees providing additional credit support through holding company obligations
+• Entertainment library financing represents a specialized asset class with potentially stable cash flows from content licensing and distribution
+• No existing Events of Default, indicating clean credit performance
+
+**Principal Risks and Mitigating Factors:**
+• Entertainment industry exposure subjects the credit to cyclical content performance and changing consumer preferences
+• Multiple special purpose vehicle structure may create complexity in monitoring and enforcement
+• Limited visibility into specific financial covenants, pricing terms, and maturity structure constrains comprehensive risk assessment
+• Cross-border exposure through UK entity may introduce additional regulatory and currency risks
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Facility upsize with modified terms per Annex A<br>• No Event of Default or Default occurring before or after amendment effectiveness<br>• Parent guarantor entities: LGTV Library Holdco LLC, Artisan Library Holdco LLC, Summit Library Holdco LLC, LG Film Library Holdco LLC, LGIM Library UK Holdco Limited<br>• Borrowers responsible for Administrative Agent expenses including counsel fees<br>• Lender consortium: Fifth Third Bank, East West Bank, Western Alliance Bank, First-Citizens Bank & Trust Company, Zions Bancorporation N.A. dba California Bank and Trust, Truist Bank, Wells Fargo Bank N.A., Preferred Bank, Texas Capital Bank, Flagstar Bank N.A., Bank of Hope, Sunflower Bank National Association, City National Bank, Axos Bank |

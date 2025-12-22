@@ -1,0 +1,39 @@
+## Checklist:
+- Identify key transaction details (parties, date, amendment purpose)
+- Extract specific amendments to credit facility terms and conditions
+- Analyze credit positives and risks from an investor perspective
+- Compile deal terms table with all explicitly stated financial information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-12-19
+
+**Borrower/Company Overview:** Box, Inc., a Delaware corporation.
+
+**Transaction Description:** Amendment No. 1 to Amended and Restated Credit Agreement between Box, Inc. (Borrower) and Wells Fargo Bank, National Association (Lender), modifying the original credit agreement dated June 30, 2023.
+
+**Purpose of Financing:** The amendment increases the lender's commitment amount and modifies the liquidity covenant definition to provide enhanced financial flexibility for the borrower's ongoing operations.
+
+**Company Background:** Box, Inc. maintains an existing credit facility relationship with Wells Fargo Bank, National Association through a bilateral lending arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with Wells Fargo Bank, National Association
+• Borrower confirms no Event of Default or Potential Event of Default exists
+• All security documents, guarantees, and collateral structures remain intact
+• Amendment preserves lender's security interests and lien priority
+
+**Principal Risks and Mitigating Factors:**
+• Single lender concentration risk in bilateral facility structure
+• Liquidity covenant tied to convertible notes creates interdependency with capital structure
+• Amendment document provides limited visibility into comprehensive credit terms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Liquidity Condition: Borrower's Liquidity must be greater than or equal to outstanding principal amount of Existing Convertible Notes |

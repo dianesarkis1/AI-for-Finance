@@ -1,0 +1,42 @@
+# Checklist for Memo Development
+
+- Extract key transaction details (parties, dates, purpose) from the credit agreement amendment
+- Identify the borrower (Philip Morris International) and provide comprehensive list of all lenders
+- Analyze the specific amendment regarding the "Minimum Acceptance Condition" definition
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms, noting most financial details are not provided in this amendment document
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-09-02
+
+**Borrower/Company Overview:** Philip Morris International Inc. (PMI), a Virginia corporation and major multinational tobacco and consumer goods company.
+
+**Transaction Description:** Amendment No. 1 to PMI's 364-Day Bridge Credit Agreement dated May 11, 2022. The amendment is executed between PMI and an international banking syndicate with Citibank Europe PLC (UK Branch) serving as Facility Agent.
+
+**Purpose of Financing:** Bridge financing facility supporting PMI's acquisition activities, with this amendment specifically modifying the "Minimum Acceptance Condition" related to the target acquisition.
+
+**Company Background:** PMI is a globally recognized multinational corporation with established market positions in tobacco and consumer goods sectors, actively diversifying its product portfolio through strategic acquisitions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Blue-chip borrower with investment-grade profile and global market presence
+• Strong international banking syndicate comprising 16 premier financial institutions across multiple jurisdictions
+• Short-term bridge structure (364-day term) indicating temporary acquisition financing with defined exit strategy
+• Demonstrated lender cooperation through unanimous amendment execution
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial visibility as amendment does not disclose facility size, pricing, or financial covenants
+• Tobacco industry regulatory pressures, partially mitigated by PMI's product diversification strategy
+• Acquisition execution risk tied to achieving minimum acceptance threshold of 50% target shareholdings
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Minimum Acceptance Condition: Acceptances received by the Offeror from Target shareholders in respect of Target Shares and/or Target Shares otherwise acquired or owned by the Offeror (or to be acquired or owned on settlement date) must exceed 50% of total issued and outstanding Target Shares (excluding treasury shares)<br>• Lender parties: Citibank N.A. Jersey Branch, Citicorp North America Inc., Bank of America N.A. London Branch, Banco Bilbao Vizcaya Argentaria S.A. New York Branch, Banco Santander S.A., Barclays Bank PLC, Credit Suisse AG New York Branch, Credit Suisse (Switzerland) Ltd., Deutsche Bank AG Cayman Islands Branch, HSBC Continental Europe, HSBC Bank PLC, Mizuho Bank Ltd., Standard Chartered Bank, Sumitomo Banking Corporation, Wells Fargo Bank N.A. London Branch, Bank of China (Europe) S.A., Commerzbank AG New York Branch, MUFG Bank Ltd.<br>• All other terms and provisions of original Credit Agreement remain in full force and effect |

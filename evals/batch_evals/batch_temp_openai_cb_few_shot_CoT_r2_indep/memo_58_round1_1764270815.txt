@@ -1,0 +1,42 @@
+## Checklist for Investment Memo Analysis
+
+- Identify key parties: Borrower (Crestwood Midstream Partners LP), lenders, and administrative agent
+- Extract transaction purpose: Third Amendment Transactions including unit purchases and dividend distributions
+- Analyze key amendments: Change in control provisions, dividend restrictions, and transaction carve-outs
+- Note financial terms: $275 million dividend capacity and 0.05% amendment fee structure
+- Assess credit strengths: Strong lender syndicate and midstream energy sector positioning
+- Highlight risks: Complex ownership restructuring and limited financial covenant visibility
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-03-25
+
+**Borrower/Company Overview:** Crestwood Midstream Partners LP, a Delaware limited partnership operating in the midstream energy sector with extensive operations across pipeline, crude services, gas processing, and transportation activities.
+
+**Transaction Description:** Third Amendment to Second Amended and Restated Credit Agreement originally dated October 16, 2018, executed among the borrower, guarantors, Wells Fargo Bank, National Association as Administrative Agent, and a syndicate of 23+ major financial institutions including Bank of America, Barclays Bank PLC, Citibank, JPMorgan Chase, Royal Bank of Canada, and Truist Bank.
+
+**Purpose of Financing:** The amendment facilitates the "Third Amendment Transactions," enabling Crestwood Equity Partners and third-party investors to acquire equity interests and assets of Crestwood Holdings LLC and its subsidiaries through unit purchases and general partnership interest acquisitions. The borrower is authorized to make distributions up to $275.0 million (including proceeds from revolving facility borrowings) to support these transactions.
+
+**Company Background:** Crestwood operates in the midstream energy sector with comprehensive subsidiary guarantor coverage spanning multiple operating entities across the midstream value chain, providing extensive operational diversification and credit support.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Exceptionally strong and diverse lender syndicate featuring 23+ major financial institutions, indicating robust market confidence and relationship strength
+• Comprehensive subsidiary guarantor structure with numerous operating entities across the midstream value chain providing extensive credit support
+• Borrower representations confirm no defaults or events of default are continuing, suggesting current covenant compliance
+• Amendment includes specific carve-outs and provisions that appear measured and transaction-specific rather than broad covenant relaxation
+
+**Principal Risks and Mitigating Factors:**
+• Complex ownership restructuring involving third-party investors may introduce new governance dynamics and potential control considerations
+• Significant dividend capacity of $275 million could impact cash available for debt service, though this appears to be transaction-specific
+• Change in control provisions have been modified, potentially affecting lender protections in future ownership transitions
+• Limited visibility into underlying financial performance metrics, pricing terms, or specific financial maintenance covenants from this amendment document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Third Amendment Effective Date deadline: April 9, 2021<br>• Borrower may make distributions up to $275.0 million for Third Amendment Transactions<br>• Modified "Change in Control" definition with 35% threshold for equity control<br>• Amendment fee of 0.05% of each consenting lender's revolving facility commitment<br>• All prior loan documents and parent guarantee remain in full force and effect<br>• No defaults or events of default continuing as of amendment effective date |

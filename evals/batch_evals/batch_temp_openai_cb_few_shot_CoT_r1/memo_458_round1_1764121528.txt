@@ -1,0 +1,40 @@
+Based on my review of this credit agreement amendment, I will:
+- Identify the key parties and transaction date from the amendment
+- Extract the specific amendments to asset disposition covenants in Section 6.13(a)
+- Analyze the lien release provisions and operational flexibility granted
+- Assess credit implications from an investor perspective
+- Present findings in the required three-section memorandum format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-02-10
+
+**Borrower/Company Overview:** SESI, L.L.C., a Delaware limited liability company, with parent company SESI Holdings, Inc. Based on subsidiary guarantor names including Superior Energy Services, Wild Well Control, Inc., and Warrior Energy Services Corporation, the company operates in the energy services sector.
+
+**Transaction Description:** This is a third amendment to an existing credit agreement originally dated February 2, 2021, between SESI, L.L.C. and a banking syndicate led by JPMorgan Chase Bank, N.A. as administrative agent, with Bank of America, N.A. and Citibank, N.A. as lenders.
+
+**Purpose of Financing:** The amendment modifies existing credit terms to provide enhanced operational flexibility, specifically relaxing asset disposition restrictions and streamlining collateral release procedures.
+
+**Company Background:** SESI operates through multiple subsidiary entities in the energy services industry, with 14+ subsidiary guarantors providing credit support. The original credit facility was established in February 2021 and has required multiple amendments, indicating an active covenant management relationship.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong tier-1 banking relationships with JPMorgan Chase as administrative agent, Bank of America, and Citibank
+• Borrower maintains covenant compliance as confirmed through representations and warranties
+• Comprehensive guarantee structure with 14+ subsidiary guarantors enhancing credit support
+• Amendment provides operational flexibility while maintaining protective cash consideration requirements for borrowing base assets
+
+**Principal Risks and Mitigating Factors:**
+• Multiple amendments since origination (four total since February 2021) suggest potential covenant pressure or evolving business conditions
+• Energy services sector exposure presents cyclical industry risks
+• Enhanced disposition flexibility could reduce collateral coverage if not properly managed; mitigated by liquidity/availability thresholds and cash consideration requirements
+• Borrowing base structure (evidenced by liquidity and availability thresholds) typical of asset-based lending, providing ongoing collateral monitoring
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Asset dispositions permitted that do not constitute "Substantial Portion" of total property, measured over period from January 1, 2022 through month of disposition (for 2022 dispositions) or twelve-month rolling period (for 2023+ dispositions)<br>• Additional dispositions up to $25,000,000 aggregate fair market value permitted if Liquidity > $100,000,000 and Availability > $25,000,000<br>• 100% cash consideration required for sales of borrowing base property<br>• Automatic lien releases for permitted dispositions<br>• No defaults or events of default continuing |

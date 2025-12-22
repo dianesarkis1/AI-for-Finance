@@ -1,0 +1,40 @@
+## Planning Checklist
+
+- Extract key transaction details including dates, parties, and agreement type
+- Identify the purpose and structure of the LIBOR transition suspension agreement
+- Analyze credit positives and risks from an investment perspective
+- Compile available deal terms while noting limitations due to document scope
+- Format findings into the required three-section memorandum structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-10-12
+
+**Borrower/Company:** Emerson Electric Co. serves as the primary borrower under a syndicated Credit Agreement dated May 23, 2018, with subsidiary borrowers also party to the facility and JPMorgan Chase Bank, N.A. as Administrative Agent.
+
+**Transaction Description:** This is a Suspension of Rights Agreement that temporarily modifies specific borrowing privileges under the existing credit facility in preparation for LIBOR cessation. The agreement suspends access to certain Non-USD currencies and interest rate tenors.
+
+**Purpose:** To facilitate an orderly transition away from LIBOR ahead of the December 31, 2021 cessation of panel submissions for Non-USD Currency LIBOR tenors and 1-week/2-month USD LIBOR tenors, while deferring costs associated with formal credit agreement amendments.
+
+**Company Background:** Emerson Electric Co. maintains an established multi-currency syndicated credit facility with institutional lenders, demonstrating access to sophisticated financing arrangements across multiple jurisdictions including USD, GBP, EUR, and JPY markets.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Institutional Support:** Established syndicated facility with JPMorgan Chase as Administrative Agent reflects strong banking relationships
+• **Regulatory Compliance:** Proactive approach to LIBOR transition demonstrates sophisticated treasury management
+• **Operational Continuity:** Automatic conversion mechanisms ensure uninterrupted facility access during transition
+• **Reversible Framework:** Rights can be restored upon implementation of proper LIBOR replacement amendments
+
+**Principal Risks and Mitigating Factors:**
+• **Reduced Flexibility:** Loss of Non-USD currency options and certain interest periods may limit optimal funding strategies
+• **Transition Uncertainty:** Implementation timeline for LIBOR replacement remains unclear, though automatic fallback provisions provide operational clarity
+• **Limited Assessment:** Document scope prevents evaluation of underlying credit quality, facility size, or financial covenant compliance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Suspension of Non-USD currency availability (GBP, EUR, JPY)<br>• Prohibition of 1-week and 2-month USD LIBOR interest periods without Required Lenders' consent<br>• Automatic conversion of Non-USD currency requests to USD<br>• Automatic conversion of prohibited interest periods to 1-month tenor<br>• Comprehensive indemnification for Agent and lenders against suspension-related costs<br>• Rights restoration mechanism upon LIBOR replacement amendment effectiveness |

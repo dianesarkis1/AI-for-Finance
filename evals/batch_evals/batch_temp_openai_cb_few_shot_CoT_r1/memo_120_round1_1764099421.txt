@@ -1,0 +1,43 @@
+## Checklist of Analysis Steps:
+
+- Extract key transaction details, parties, and dates from the credit agreement amendment
+- Identify the specific purpose and nature of the amendment (Minimum Acceptance Condition modification)
+- Analyze the borrower profile and complete lender consortium composition
+- Assess credit strengths and risks from an investor perspective
+- Extract available deal terms while noting limitations of amendment-only information
+- Structure findings into the required three-section memorandum format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-09-02
+
+**Borrower / Company Overview:** Philip Morris International Inc. (PMI), a Virginia corporation, is a multinational tobacco and consumer goods company.
+
+**Transaction Description:** Amendment No. 1 to PMI's 364-Day Bridge Credit Agreement originally dated May 11, 2022. The amendment involves PMI, a comprehensive consortium of international lenders, and Citibank Europe PLC, UK Branch as Facility Agent.
+
+**Purpose of Financing:** The bridge facility supports PMI's acquisition activities, specifically an offer for Target Shares, with the amendment providing more flexible conditions for the transaction to proceed by modifying the Minimum Acceptance Condition.
+
+**Company Background:** PMI is a well-established multinational corporation in the tobacco and consumer goods sector, utilizing this bridge facility to support strategic M&A activity.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong borrower profile with Philip Morris International as a globally recognized multinational corporation with substantial market presence
+• Comprehensive lender consortium of 18+ premier international financial institutions providing broad market support
+• Short-term 364-day bridge structure suggests interim financing pending permanent financing arrangements
+• Amendment demonstrates unanimous lender cooperation and flexibility in supporting PMI's strategic initiatives
+• Governed by New York law, providing familiar legal framework for international transactions
+
+**Principal Risks and Mitigating Factors:**
+• Amendment makes terms more borrower-friendly by reducing the minimum acceptance threshold to 50%, potentially increasing execution risk for the underlying acquisition
+• Limited visibility into overall credit terms, pricing, and financial covenants as only amendment details are available
+• Bridge financing nature indicates potential refinancing risk, though PMI's strong credit profile and diverse lender base provide multiple refinancing options
+• Amendment specifically addresses acquisition-related conditions, suggesting transaction-dependent credit exposure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Minimum Acceptance Condition amended to require acceptances exceeding 50% of total issued and outstanding Target Shares (excluding treasury shares)<br>• All lenders must agree to amendments per Section 5.1(d) of original Credit Agreement<br>• Amendments confirmed as not materially adverse to lender interests |

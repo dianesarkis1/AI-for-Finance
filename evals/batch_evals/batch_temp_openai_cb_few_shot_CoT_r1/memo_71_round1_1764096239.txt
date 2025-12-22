@@ -1,0 +1,41 @@
+## Checklist
+- Extract transaction date and identify key parties from the Amendment No. 1 document
+- Determine borrower company details and transaction structure from credit agreement amendment
+- Analyze incremental revolving commitment increase and total facility size
+- Assess lender syndicate quality and transaction risk factors
+- Compile deal terms table using only explicitly available information from the document
+- Ensure proper formatting and mark unavailable information as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-08-18
+
+**Borrower/Company Overview:** Halozyme Therapeutics, Inc. is a Delaware corporation serving as the borrower under this credit facility amendment. The company operates with guaranteed subsidiaries including Halozyme, Inc. and Antares Pharma, Inc.
+
+**Transaction Description:** This transaction represents Amendment No. 1 to an existing Credit Agreement originally dated May 24, 2022. The amendment establishes Incremental Revolving Commitments totaling $225,000,000 provided by multiple Increase Loan Lenders. Bank of America, N.A. serves as Administrative Agent and Swing Line Lender, with the syndicate including major financial institutions such as Wells Fargo Bank, JPMorgan Chase Bank, Goldman Sachs Bank USA, Citibank, Mizuho Bank, and others.
+
+**Purpose of Financing:** The amendment increases the existing revolving credit facility to provide additional liquidity for general corporate purposes. All proceeds from loans incurred after the Amendment No. 1 Effective Date will be used in accordance with Section 6.11 of the Amended Credit Agreement.
+
+**Company Background:** Halozyme operates as a biotechnology company with operations structured through multiple subsidiary entities that serve as guarantors under the credit facility, indicating an established corporate structure with diversified business operations.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender syndicate including Bank of America, Wells Fargo, JPMorgan Chase, Goldman Sachs Bank USA, Citibank, and other premier financial institutions
+• Significant facility upsizing of $225 million within three months of original agreement execution demonstrates strong market confidence
+• Borrower required to maintain pro forma Consolidated Net Leverage Ratio at least 0.25x below maximum permitted levels
+• Full repayment of outstanding Term A Loans concurrent with facility increase shows active debt management
+• Comprehensive collateral package with continuing Liens and subsidiary guarantees providing security enhancement
+
+**Principal Risks and Mitigating Factors:**
+• Biotechnology sector exposure carries inherent regulatory approval and clinical development risks, though mitigated by established corporate structure and diversified lender base
+• Substantial facility increase may signal future capital-intensive activities or potential acquisition financing needs
+• Limited covenant detail available in amendment document, though financial maintenance requirements are referenced and must be satisfied
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 225,000,000 | N/A | N/A | N/A | N/A | • Compliance with covenants in Section 7.11 of Credit Agreement<br>• Pro forma Consolidated Net Leverage Ratio must not exceed 0.25:1.00 less than maximum permitted under Section 7.11(a)<br>• Maintenance of collateral security and subsidiary guarantees |

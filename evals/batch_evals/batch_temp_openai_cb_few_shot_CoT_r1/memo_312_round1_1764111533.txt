@@ -1,0 +1,41 @@
+## Step-by-Step Approach Checklist
+- Extract key transaction parties (borrower, lender, agents) and corporate structure
+- Identify the credit agreement framework, amendments, and timing
+- Analyze the specific note terms (principal amount, class, interest structure)
+- Assess credit strengths and risks from an investment perspective
+- Compile deal terms table with explicit data only, marking missing information as "N/A"
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-12-20
+
+**Borrower / Company Overview:** APA Finance III Borrower, LLC, a Delaware limited liability company, serves as the borrowing entity. The company operates through a multi-tiered ownership structure, with APA Finance III Borrower Holdings, LLC as its sole member, ultimately controlled by Altus Power, Inc.
+
+**Transaction Description:** This transaction represents the issuance of a Class A Note under an established credit facility. Security Life of Denver Insurance Company acts as the lender, while U.S. Bank Trust Company, National Association serves as both Administrative Agent and Collateral Agent, with U.S. Bank National Association functioning as Document Custodian.
+
+**Purpose of Financing:** The financing purpose is not explicitly specified in the available documentation.
+
+**Company Background:** The borrower operates as part of the Altus Power corporate family, structured through multiple Delaware limited liability companies. The ultimate parent entity, Altus Power, Inc., maintains operational control through this tiered ownership arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional banking relationships with U.S. Bank entities providing comprehensive administrative and collateral management services
+• Structured credit facility with dedicated collateral agent providing security enhancement
+• Clear corporate governance chain leading to identifiable corporate parent (Altus Power, Inc.)
+• Active credit management demonstrated through multiple amendments and ongoing lender engagement
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into borrower's operational performance and financial metrics from available documentation
+• Credit agreement amendment frequency (three amendments within first year) may signal evolving credit conditions or covenant management requirements
+• Multi-layered LLC ownership structure could potentially complicate recovery efforts in adverse scenarios, though clear ownership chain provides transparency
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| USD 19,195,000 | N/A | N/A | N/A | Interest payable on Interest Payment Dates (specific frequency not specified) | N/A |

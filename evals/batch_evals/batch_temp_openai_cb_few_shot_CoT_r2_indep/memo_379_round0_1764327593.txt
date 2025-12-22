@@ -1,0 +1,43 @@
+Looking at this First Amendment to Credit Agreement, I will:
+
+• Identify the key transaction details and parties involved
+• Extract specific deal terms, pricing, and covenant information
+• Analyze investment positives and risks from a credit perspective
+• Structure the memo following the required format with executive summary, investment analysis, and deal terms table
+• Ensure all fields are populated with actual data from the document or marked "N/A" where information is unavailable
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On May 27, 2025, Karman Holding Inc., a Delaware corporation, entered into a First Amendment to its Credit Agreement with CITIBANK, N.A. as Administrative Agent and Collateral Agent.
+- The original Credit Agreement was dated April 1, 2025, indicating this amendment occurred approximately two months after the initial facility establishment.
+- Karman Holding Inc. serves as the Borrower, with multiple subsidiary guarantors including Karman Parent LLC, Karman Space & Defense LLC, Aerospace Engineering LLC, Wolcott Design Services LLC, Amro Fabricating Corporation, American Automated Engineering Inc., and Systima Technologies Inc.
+- The purpose of this Amendment is to provide $75,000,000 in First Amendment Incremental Term Loans. The proceeds will be used to repay outstanding Revolving Credit Loans, for working capital and general corporate purposes (including Permitted Investments), and to pay associated fees and expenses.
+- Based on the subsidiary names, Karman Holding appears to be a holding company with operations in aerospace, defense, engineering services, and manufacturing sectors.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional lender: CITIBANK, N.A. serves as both Administrative Agent and sole provider of the $75M incremental facility, indicating continued lender confidence
+- Diversified business platform spanning aerospace, defense, engineering, and manufacturing through multiple operating subsidiaries
+- Recent establishment of original credit facility (April 2025) followed by successful incremental borrowing capacity expansion within two months
+- Amendment includes comprehensive representations, warranties, and conditions precedent ensuring borrower compliance and creditworthiness
+- Quarterly amortization schedule starting September 30, 2025 at 0.25% of initial principal amount provides modest deleveraging
+
+### Principal Risks and Mitigating Factors:
+- Incremental borrowing shortly after facility establishment may indicate higher than anticipated working capital needs or growth capital requirements
+- SOFR-based floating rate exposure with initial interest period ending June 30, 2025 creates interest rate risk
+- Limited financial covenant visibility beyond standard representations and warranties requirements
+- Single lender concentration risk with Citibank providing the full incremental facility
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 75,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | SOFR Loans (floating rate) |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | Quarterly amortization starting September 30, 2025 at 0.25% of aggregate initial principal amount |
+| **Key Covenants** | • Quarterly amortization of 0.25% of initial principal amount starting Q3 2025<br>• Full principal repayment at maturity date for Initial Term Loans<br>• Standard representations and warranties compliance required<br>• No Event of Default conditions under sections 8.01(a), (f), or (g)<br>• Solvency certificate requirement<br>• All existing security interests and liens continue to secure obligations |

@@ -1,0 +1,42 @@
+# Step-by-step Analysis Checklist
+
+- Extract key parties and transaction details from the Class A Note document
+- Identify the borrower structure and administrative agent arrangements 
+- Determine principal amount, maturity, and payment terms from the note
+- Review amendment history and credit agreement references for context
+- Assess investment strengths and risks based on available information
+- Compile deal terms table with explicit data only, marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-12-20
+
+**Borrower/Company Overview:** APA Finance III Borrower, LLC, a Delaware limited liability company, operating through a multi-tiered ownership structure ultimately owned by Altus Power, Inc.
+
+**Transaction Description:** Issuance of a Class A Note for $19,195,000 to Security Life of Denver Insurance Company under an existing credit facility structure with U.S. Bank Trust Company, National Association as Administrative Agent and Collateral Agent.
+
+**Purpose of Financing:** N/A
+
+**Company Background:** The Borrower operates through a complex ownership chain: APA Finance III Borrower Holdings, LLC (sole member), owned by APA Finance III, LLC, owned by APA Generation, LLC, owned by Altus Power, Inc. The transaction is governed by a Credit Agreement originally dated February 15, 2023, which has been amended three times (June 15, 2023, July 21, 2023, and December 20, 2023), suggesting an active credit relationship with evolving terms.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Institutional administrative infrastructure with U.S. Bank serving as Administrative Agent, Collateral Agent, and Document Custodian
+• Structured credit facility with collateral agent arrangements providing enhanced lender protections
+• Multiple amendments indicate active credit management and borrower engagement with lenders
+
+**Principal Risks and Mitigating Factors:**
+• Complex multi-tiered LLC ownership structure may create structural subordination and limit direct recourse to operating assets
+• Three amendments within first year of credit agreement may signal covenant compliance challenges or volatile business conditions
+• Limited visibility into underlying business performance and financial metrics from note documentation alone
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | N/A | N/A | Interest paid on each Interest Payment Date | N/A |

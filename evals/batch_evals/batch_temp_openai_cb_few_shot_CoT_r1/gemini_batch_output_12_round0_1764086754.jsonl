@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The specific names and dates of the underlying notes and agreements that the New Borrowers are joining, as listed in Annex A, are missing. For example:"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents the post-closing covenant structure as both a 'Key Strength' (because it is comprehensive) and a 'Principal Risk' (because its 65-day timeline creates potential compliance risks).\", \"The merger description is logically impossible, stating that Dril-Quip, Inc. first renamed itself to Innovex International, Inc., and then the surviving entity of a merger involving Dril-Quip became a subsidiary of that same renamed entity.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

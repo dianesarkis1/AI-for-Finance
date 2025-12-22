@@ -1,0 +1,33 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-13
+
+**Borrower / Company Overview:** Texas-New Mexico Power Company, a Texas corporation.
+
+**Transaction Description:** Credit facility expansion adding CoBank, ACB as a new lender with a $25,000,000 commitment to an existing syndicated credit facility under a Fourth Amended and Restated Credit Agreement dated March 11, 2022, with KeyBank National Association as Administrative Agent.
+
+**Purpose of Financing:** Expand available credit capacity through addition of new syndicate member.
+
+**Company Background and Context:** Electric utility corporation operating under an established credit facility. Concurrent execution of Sixteenth Supplemental Indenture issuing Replacement First Mortgage Bonds as facility security.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Regulated utility with stable cash flow profile
+• Established banking relationships with institutional lenders
+• Secured structure via First Mortgage Bonds
+• Current covenant compliance confirmed
+• Diversified lender syndicate
+
+**Principal Risks and Mitigating Factors:**
+• Limited current financial disclosure in supplement document
+• Regulatory environment exposure typical of utility sector
+• Capital-intensive industry requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Section 2.1(f) compliance conditions<br>• Secured by Replacement First Mortgage Bonds<br>• FMB Mortgage Documents requirements<br>• Sixteenth Supplemental Indenture terms |

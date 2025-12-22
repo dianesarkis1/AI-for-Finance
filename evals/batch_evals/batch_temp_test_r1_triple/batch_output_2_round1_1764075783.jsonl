@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Maturity date listed as 2021-03-31. The source does not provide a loan maturity date; March 31, 2021 is the end of the Extended Waiver Period, not a facility maturity date."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Definition of \u201cLiquidity\u201d and \u201cUnrestricted Cash\u201d (including that Liquidity = undrawn Revolving Facility Commitments minus outstanding Obligations plus Unrestricted Cash; and that Unrestricted Cash includes Cage Cash subject to a first charge and not otherwise restricted)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 35.0"}}]}}}

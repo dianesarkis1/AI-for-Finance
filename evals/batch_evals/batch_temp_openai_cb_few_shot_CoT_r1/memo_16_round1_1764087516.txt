@@ -1,0 +1,42 @@
+## My Approach Checklist:
+- Identify the parties, transaction date, and type of agreement modification
+- Analyze the specific amendment to floor plan lending limits and collateral provisions  
+- Extract deal terms and covenant modifications where available
+- Assess credit strengths from lender consortium and transaction characteristics
+- Note information limitations and mark unavailable terms as "N/A"
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-10-29
+
+**Borrower / Company Overview:** MarineMax, Inc., a Florida corporation serving as Borrower Representative, along with numerous subsidiary guarantors including boat dealerships, marinas, yacht services companies, and related entities across multiple jurisdictions.
+
+**Transaction Description:** Fourth Amendment to Credit Agreement originally dated August 8, 2022. The credit facility is administered by Manufacturers and Traders Trust Company (M&T Bank) as Administrative Agent, with Wells Fargo Commercial Distribution Finance serving as Floor Plan Agent. The lender syndicate includes major financial institutions: Bank of America, PNC Bank, BMO Bank, The Huntington National Bank, BankUnited, Raymond James Bank, and several regional lenders.
+
+**Purpose of Financing:** The amendment modifies Section 2.01(a)(iii) of the existing credit agreement to establish specific sublimits within the floor plan facility: $158,333,333 each for boats larger than 80 feet, foreign OEM units (excluding Azimut and Galeon brands), and used floor plan units, plus a $450,000,000 limit for individual units valued over $1,000,000.
+
+**Company Background:** MarineMax operates as a boat and yacht dealer with an extensive network of subsidiary operations spanning dealerships, marinas, yacht services, and related marine businesses across multiple jurisdictions including the United States and international locations.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong lender consortium featuring established financial institutions with marine lending expertise, indicating continued confidence in MarineMax's credit profile
+• Comprehensive guarantee structure with numerous subsidiary entities providing credit enhancement across MarineMax's diversified operations
+• The amendment represents an operational enhancement rather than distressed restructuring, suggesting ongoing business optimization
+• Reaffirmation of all existing collateral documents and security interests maintains strong creditor protections
+
+**Principal Risks and Mitigating Factors:**
+• The amendment provides more borrower-friendly sublimit structures for floor plan financing, potentially increasing credit exposure in specific boat categories
+• Marine retail industry exposure to economic cycles and discretionary consumer spending patterns
+• Limited visibility into overall facility size, pricing, and key financial maintenance covenants constrains comprehensive credit assessment
+• Complex multi-jurisdictional subsidiary structure may present operational and legal complexity
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Floor plan financing sublimits: $158,333,333 for boats >80 feet<br>• $158,333,333 for foreign OEM units (excluding Azimut/Galeon)<br>• $158,333,333 for used floor plan units<br>• $450,000,000 for individual units >$1,000,000<br>• All existing guarantees and collateral documents reaffirmed |

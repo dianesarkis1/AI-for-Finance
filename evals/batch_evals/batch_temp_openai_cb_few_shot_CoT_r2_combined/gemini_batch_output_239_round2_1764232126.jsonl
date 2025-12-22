@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo describes Morgan Stanley's role inconsistently, identifying it as the \\\"Administrative Agent and Collateral Agent\\\" separate from the lenders in one section, and as a \\\"reputable institutional lender\\\" in another.\", \"The trigger for the \\\"commercially reasonable efforts\\\" hedging exception is contradicted: the risks section states it applies when market rates are \\\"unfavorable,\\\" while the deal terms table states it applies when they are \\\"unavailable.\\\"\", \"The company's strategy is described in contradictory terms, stating both a narrow \\\"focus on natural gas production\\\" (an upstream activity) and broad \\\"operational diversification across the energy value chain.\\\"\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

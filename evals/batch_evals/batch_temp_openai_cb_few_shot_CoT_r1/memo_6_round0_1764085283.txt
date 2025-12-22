@@ -1,0 +1,34 @@
+## Checklist
+- Extract key transaction details and parties from the tenth amendment to Universal Electronics' credit agreement
+- Identify the specific amendments being made (Liens provision modification) 
+- Analyze investment positives and risks from a credit perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure professional tone and structure consistent with provided examples
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On July 25, 2025, Universal Electronics Inc., a Delaware corporation, entered into a Tenth Amendment to its Second Amended and Restated Credit Agreement with U.S. Bank National Association as both Lender and Administrative Agent.
+- The original Credit Agreement dates back to October 27, 2017, and has been amended nine times previously, indicating an active and ongoing credit relationship.
+- The purpose of this amendment is to modify the Liens covenant in Section 6.16(i), specifically increasing the permitted amount of indebtedness secured by Liens in favor of Bank of China from an unspecified previous amount to $21,000,000, with the condition that such Liens do not extend to any Property located in the United States.
+- Universal Electronics Inc. operates as a technology company, with Universal Electronics BV serving as a guarantor under a Continuing Guaranty dated October 25, 2021. The credit facility is secured by various Security Documents including Security Agreements and intellectual property grants covering trademarks and patents.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Long-standing credit relationship with U.S. Bank National Association dating back to 2017, demonstrating lender confidence and borrower stability
+- Comprehensive security package including Security Agreements, trademark and patent grants, and guaranty from Universal Electronics BV subsidiary
+- Borrower representations confirm no current defaults under the Credit Agreement, Note, or Security Documents
+- Geographic restriction on Chinese bank liens (cannot extend to U.S. property) provides protection for U.S.-based collateral
+
+### Principal Risks and Mitigating Factors:
+- Increase in permitted foreign bank liens to $21,000,000 introduces additional leverage and potential subordination risks
+- Frequent amendments (ten total) may indicate ongoing covenant management or financial flexibility needs
+- Limited visibility into overall credit facility size, pricing, and financial performance metrics
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Liens in favor of Bank of China securing Indebtedness not to exceed $21,000,000, provided such Liens do not extend to any Property located in the United States • All existing covenants and Security Documents remain in full force and effect • Guaranty by Universal Electronics BV reaffirmed |

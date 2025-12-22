@@ -1,0 +1,906 @@
+{
+  "created_at": "2025-11-09T15:50:33.647506",
+  "jobs": [
+    {
+      "input_index": 0,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe0a195c8190ad6bb95b14321cba"
+    },
+    {
+      "input_index": 0,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01GYVuyhvJg3T6uyocknWzYx"
+    },
+    {
+      "input_index": 0,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/6f4cj17pslk2e12j4e1mrhnjef12nyefw0ll"
+    },
+    {
+      "input_index": 1,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe0d4f648190aa5b2cf307f107b8"
+    },
+    {
+      "input_index": 1,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01Lo4c9pgn7U2m6LP7cGTeph"
+    },
+    {
+      "input_index": 1,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/dx88l8mldx64huz6hxul0k0zf4hoeju7cc7r"
+    },
+    {
+      "input_index": 2,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe10562c8190865d2bc9417d0271"
+    },
+    {
+      "input_index": 2,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01Y6NDrToDzEgdfReKDzgKPQ"
+    },
+    {
+      "input_index": 2,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/i8nvx0t646k44sz4nn5krm24yrpo1ugqoat1"
+    },
+    {
+      "input_index": 6,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe13793881909b8f080f43b8f188"
+    },
+    {
+      "input_index": 6,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01J8HsTSaYAxv1DNdrtp3VK7"
+    },
+    {
+      "input_index": 6,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/4ebwcfiwgvc2ngma5gy4mik7tq30ex53jobj"
+    },
+    {
+      "input_index": 12,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe163f18819088592f3e695e8630"
+    },
+    {
+      "input_index": 12,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01RRueps21AjrfWJqqNLvgvF"
+    },
+    {
+      "input_index": 12,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/xrvf1hnh7p2aj9i98abfcumxjebnpn5viwvh"
+    },
+    {
+      "input_index": 16,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe1910148190b97b39e11a20a521"
+    },
+    {
+      "input_index": 16,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_0198okeGsydsAa5DiJdwyRvv"
+    },
+    {
+      "input_index": 16,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/n7yzz3qz5gxmud4kx35b62xqnf0o0vsvf77v"
+    },
+    {
+      "input_index": 17,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe1bb89c81909e241fcc1f046704"
+    },
+    {
+      "input_index": 17,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01TWbRMpYZ4A8Qgw87kcBaW4"
+    },
+    {
+      "input_index": 17,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/77u6bk1snwo0bjsijluyumyhrdurac27h1vw"
+    },
+    {
+      "input_index": 19,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe1f44d48190a6f5e04c4ffed067"
+    },
+    {
+      "input_index": 19,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01RovPLZ5iqdDRZCiHnTdXyK"
+    },
+    {
+      "input_index": 19,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/cmrn3zwcu1snd285ugv1pc3mnmrxe9fdroxr"
+    },
+    {
+      "input_index": 20,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe21f46081908a709e98b18e057a"
+    },
+    {
+      "input_index": 20,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01Ht5dfFTqKSUhCDPXXMVK99"
+    },
+    {
+      "input_index": 20,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/7seny6c0hri5l9r5jxp2jmc04yn4sh6pt1ze"
+    },
+    {
+      "input_index": 48,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe24bfdc8190a480b587f6615c72"
+    },
+    {
+      "input_index": 48,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01WoaKZFh9jMp2pghYTpwPvP"
+    },
+    {
+      "input_index": 48,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/nl17neoylc5zzkuqyd8sy5jdb421rzt2rp11"
+    },
+    {
+      "input_index": 51,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe275dac81909369a8c8bb42ca22"
+    },
+    {
+      "input_index": 51,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01MJijGn7uThDCYndBoWtVVf"
+    },
+    {
+      "input_index": 51,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/avpztpkjee9fs54be7n69vlh8ln5xm70ddyy"
+    },
+    {
+      "input_index": 52,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe2a11108190a6bf2b57f12081bd"
+    },
+    {
+      "input_index": 52,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01URfdCfiviYMEYqjUwwSvSk"
+    },
+    {
+      "input_index": 52,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/jnpk063ioqfipt4bkzb6mr29cr63vrh01qys"
+    },
+    {
+      "input_index": 57,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe2d8fd08190b1e40d80718d0131"
+    },
+    {
+      "input_index": 57,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01FkuCb9LaCkZXjUcfDiV8fp"
+    },
+    {
+      "input_index": 57,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/a3tb1nhwoqvhii1r3ouxgy7n3kc6jhum7v1e"
+    },
+    {
+      "input_index": 58,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe31d1fc8190a5d08d8bbf92b04b"
+    },
+    {
+      "input_index": 58,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01XogoHrBJQrLratrUyoxvri"
+    },
+    {
+      "input_index": 58,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/krxm3ifdn0x4je6r8cxpaddpph8d6w6b1wbh"
+    },
+    {
+      "input_index": 63,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe348ad48190a09a089a506a75a8"
+    },
+    {
+      "input_index": 63,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01D2STk15KoAcqnWU8SgbcM9"
+    },
+    {
+      "input_index": 63,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/8d4su7g9gsy4d2tdp9ksnwskpd7knj6rzbge"
+    },
+    {
+      "input_index": 71,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe37aae88190877e1270093d9c89"
+    },
+    {
+      "input_index": 71,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_018AG3pnfVLKzkuSPCaFRpkC"
+    },
+    {
+      "input_index": 71,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/xzfjx7pj6ljw9vn2jf96she0nsj2ydj9cs5r"
+    },
+    {
+      "input_index": 78,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe3b4c2481909d36b3f62d25aed1"
+    },
+    {
+      "input_index": 78,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01PgA8UNRwXgjXAcnPV7tCaw"
+    },
+    {
+      "input_index": 78,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/ikhdd4k50ikdghx9vw5efmmz7ecfxnv9qgjg"
+    },
+    {
+      "input_index": 108,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe40f3ec81909a2154c8822a0a3b"
+    },
+    {
+      "input_index": 108,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_019rB5SVxskkE8e61H8dh2hp"
+    },
+    {
+      "input_index": 108,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/1ozhyr5obeaszlm0s64oul9ifip1czzvow2k"
+    },
+    {
+      "input_index": 114,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe4381e48190b9b5a6d0bf2727c1"
+    },
+    {
+      "input_index": 114,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01MYeR4428cxQ899mhwb8HUe"
+    },
+    {
+      "input_index": 114,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/bpi53i5ggumr4aqyw675qveg1w6ki7mrtf89"
+    },
+    {
+      "input_index": 119,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe46b4f0819094e07c4bb768d7a3"
+    },
+    {
+      "input_index": 119,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01979pqepud4kHCptzz3VC7S"
+    },
+    {
+      "input_index": 119,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/ggqgzdgch234ycjotp3p7cq7qinrfsgne7n0"
+    },
+    {
+      "input_index": 120,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe49db548190bc143aa3aa678b14"
+    },
+    {
+      "input_index": 120,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01THCDCXvd3zkvSe4V8WoUuG"
+    },
+    {
+      "input_index": 120,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/4tki9a3276dqs0g9g1qh92cg5dw8v8mbb5me"
+    },
+    {
+      "input_index": 122,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe4c689081908b57be977d4ae7c6"
+    },
+    {
+      "input_index": 122,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01QRdMhJGe9h1DTSawbPGHQk"
+    },
+    {
+      "input_index": 122,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/xtgauj219wy9lqmi00fpedpy7q8vghjcm8y7"
+    },
+    {
+      "input_index": 125,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe4f51f88190a8a58e061d613bc6"
+    },
+    {
+      "input_index": 125,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01KTm5itSXguNpDBAUT3yJA4"
+    },
+    {
+      "input_index": 125,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/ixex4v6ccyvuv8chlr3za7g3g6lr2t2solny"
+    },
+    {
+      "input_index": 128,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe5204988190a65e9aff97959143"
+    },
+    {
+      "input_index": 128,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01EP7zS8Cw1yXPH7AptFciZr"
+    },
+    {
+      "input_index": 128,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/9q58r2ifp68zmsm3j9tsj76lg6qlwitgab3p"
+    },
+    {
+      "input_index": 134,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe54f2fc819088753bbff6c22fa4"
+    },
+    {
+      "input_index": 134,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01Nk5qHqA3P2SFTxQ4W8cAz6"
+    },
+    {
+      "input_index": 134,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/o0cfyv64h3rt45m8o2yarytbqwb36mzvfd2s"
+    },
+    {
+      "input_index": 140,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe57c78881908ed0c564a1d0c545"
+    },
+    {
+      "input_index": 140,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01RPnNfZ6h1wzqEqt7G1a9wX"
+    },
+    {
+      "input_index": 140,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/jkfmjeda37bhag2c1stppeu1glfwvomtcj9c"
+    },
+    {
+      "input_index": 150,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe5ac4648190b2aa937ad8ca8fe4"
+    },
+    {
+      "input_index": 150,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_014FmYMg6okj65DS6FGDdjvx"
+    },
+    {
+      "input_index": 150,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/q7bf3d1zvup60uv6wv8xnl5wb6ge8qvdxa5b"
+    },
+    {
+      "input_index": 152,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe5d3c7c81908d8ce2f356474a96"
+    },
+    {
+      "input_index": 152,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_015q6oJ38ndKPWbz33hxPMWm"
+    },
+    {
+      "input_index": 152,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/w0b6tzjc221hyhdi9mn5p9us8aqn4ktnlj73"
+    },
+    {
+      "input_index": 224,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe5fa94c81908ec6c2594da86bf2"
+    },
+    {
+      "input_index": 224,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01C2pBk1xgEvJfn3Jw72t2Vf"
+    },
+    {
+      "input_index": 224,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/9qwf3d0x5kgxybk0456teqch7ped1mvx14tg"
+    },
+    {
+      "input_index": 226,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe621e2c81908d6d4028a58a7cab"
+    },
+    {
+      "input_index": 226,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_013cWpQz8utWjtSxzzcErwMP"
+    },
+    {
+      "input_index": 226,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/hlva95ah35jj9n14z5lj8x7wwnzg424h095l"
+    },
+    {
+      "input_index": 239,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe6534c88190932b63e105795d57"
+    },
+    {
+      "input_index": 239,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01Jdcv47gT163MPn7NU6Nx2e"
+    },
+    {
+      "input_index": 239,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/hsw6t27hsh8ky5z8myki4d92dr5nf3tugjo4"
+    },
+    {
+      "input_index": 268,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe67a59c819097f827d8f2c9d80f"
+    },
+    {
+      "input_index": 268,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01YLwZi4Q4A58Bptt1jgUYoB"
+    },
+    {
+      "input_index": 268,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/ikokxk2wzkeu36fcy1wawglji6bi0ryr2ayu"
+    },
+    {
+      "input_index": 289,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe6a1f748190b7fafa93e3fd29c2"
+    },
+    {
+      "input_index": 289,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01NHRysFKTmGT3SuEHKsfH49"
+    },
+    {
+      "input_index": 289,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/3z8ql54y7qxq57oaslclgsruzns5v0x8cgdp"
+    },
+    {
+      "input_index": 297,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe6ccda0819083d032fff603bdb7"
+    },
+    {
+      "input_index": 297,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_019rZ94rAboPdyy58WCEKngb"
+    },
+    {
+      "input_index": 297,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/ryzby0thy0j1wxb3hyir0qtliq0jmj6sb9so"
+    },
+    {
+      "input_index": 311,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe6f87248190a8593c81f52d28af"
+    },
+    {
+      "input_index": 311,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01RfgG7PmDtK5nBGypowHnMw"
+    },
+    {
+      "input_index": 311,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/w3tghqdjzffk5dltn8ipoe8ynod5c5b6iqig"
+    },
+    {
+      "input_index": 312,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe71ff888190b4f3b468f50e72d5"
+    },
+    {
+      "input_index": 312,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01N4hQiEUsCXRbdCcBRG72Zv"
+    },
+    {
+      "input_index": 312,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/2f5zb4i4sud5rd0c2kr0uu39bq6xfa3go3s0"
+    },
+    {
+      "input_index": 318,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe74dce481909828756b871e8345"
+    },
+    {
+      "input_index": 318,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_012qFq2iFVNDfeWpTpdwmEYB"
+    },
+    {
+      "input_index": 318,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/rc59js3rdo8e2rfcua6b4xzfz19vkjit3oqe"
+    },
+    {
+      "input_index": 327,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe774ea48190a26510a0909607a5"
+    },
+    {
+      "input_index": 327,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01Q6fvjw3irKD6Np6wp36H5Y"
+    },
+    {
+      "input_index": 327,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/p695q00zjap0cmc5uhuy9r8qzixqrf5m3w4p"
+    },
+    {
+      "input_index": 338,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe79b5908190bdbf0f0e49b1b59a"
+    },
+    {
+      "input_index": 338,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01EpsYXmK1f2adarTevFmoHy"
+    },
+    {
+      "input_index": 338,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/xqpx0de45x76jjpywz1hgzp17n1baze79gfr"
+    },
+    {
+      "input_index": 343,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe7c6e448190b0b81b714d26ac6d"
+    },
+    {
+      "input_index": 343,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01PSEsr9d9XyAH4wVQqvFVxo"
+    },
+    {
+      "input_index": 343,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/zpmigiish25rh8j35uswxr887r3ru714xit0"
+    },
+    {
+      "input_index": 357,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe7ecbb88190b927d614d046ff93"
+    },
+    {
+      "input_index": 357,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01EjVNKHTodan9uUEqPHxi2E"
+    },
+    {
+      "input_index": 357,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/l44yop0qdjxey695uddktsozapnsy8venbvo"
+    },
+    {
+      "input_index": 370,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe81af448190b0e093f0bbfd801b"
+    },
+    {
+      "input_index": 370,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_019u12BfXyv1TSAbqasM5vHe"
+    },
+    {
+      "input_index": 370,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/3nerhtl3zeddtxwztti54ik2cbu565vbsnje"
+    },
+    {
+      "input_index": 377,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe853a60819093bfc69566ac16bb"
+    },
+    {
+      "input_index": 377,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_014ewJ2VDXFc3A32FubzLVc8"
+    },
+    {
+      "input_index": 377,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/cybh9kzb2ceo1lbhmdtsvyfniqug11ztbxmb"
+    },
+    {
+      "input_index": 378,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe87e90c8190994bcbca6cf484f1"
+    },
+    {
+      "input_index": 378,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_0128TTCfTCRbwxddP7adXHd4"
+    },
+    {
+      "input_index": 378,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/u5ehnx2cjpn7ki7o30b2z6icsysech1t3m2s"
+    },
+    {
+      "input_index": 379,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe8af5c48190b80d02148517d658"
+    },
+    {
+      "input_index": 379,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_015FAy5Ufv2ifuvcT5CPzHCy"
+    },
+    {
+      "input_index": 379,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/2wbnoybpgeokwtg0z7q9j25v7t5zr4ky5io9"
+    },
+    {
+      "input_index": 390,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe8d51708190b4d1d797f6faa01b"
+    },
+    {
+      "input_index": 390,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01G7oqz2SHbGy4ZCe6pkzHAW"
+    },
+    {
+      "input_index": 390,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/nzg0q08g3wvgyj314y4ya627rhgba2ohnk11"
+    },
+    {
+      "input_index": 392,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe8faf648190934663cdb928063f"
+    },
+    {
+      "input_index": 392,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_011yyB3ThkKd57SHcjMQz4Xm"
+    },
+    {
+      "input_index": 392,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/lw2x01451zduj25aobapiqkwyojzuzgyf940"
+    },
+    {
+      "input_index": 427,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe9275bc81909b5ef8a76da96e41"
+    },
+    {
+      "input_index": 427,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01WL4dY57LxC2RPkTLVb8UEM"
+    },
+    {
+      "input_index": 427,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/yfff4a0c78tmrpceqqeiifke7em836quxh1q"
+    },
+    {
+      "input_index": 458,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe952b9081909694e56bc8d78cd8"
+    },
+    {
+      "input_index": 458,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01SmGZzgU1L8Cq6dwnVsnNeo"
+    },
+    {
+      "input_index": 458,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/bk5fsgav1qzzk6nahxeil66xd1q7bn8kc9c2"
+    },
+    {
+      "input_index": 469,
+      "evaluator_model": "gpt-5",
+      "provider": "openai",
+      "batch_id": "batch_6910fe97df1c8190865ce64e98c256db"
+    },
+    {
+      "input_index": 469,
+      "evaluator_model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "batch_id": "msgbatch_01U55x72tuwobTTx1gGvqbKq"
+    },
+    {
+      "input_index": 469,
+      "evaluator_model": "gemini-2.5-pro",
+      "provider": "gemini",
+      "batch_id": "batches/iw0d09mo6fdm7dhhzmkltcrk9zqy06spgkqc"
+    }
+  ],
+  "updated_at": "2025-11-09T15:50:33.647583"
+}

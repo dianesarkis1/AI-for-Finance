@@ -1,0 +1,41 @@
+Looking at this credit agreement, I'll create a structured investment memo following the format of the examples. Let me break down my approach:
+
+**Checklist of what I will do:**
+- Extract key transaction details and parties from the fourth amendment
+- Identify the business context around Spectrum Brands' Hardware and Home Improvement segment sale
+- Analyze the leverage covenant modifications and their investment implications
+- Summarize financial terms and conditions that are explicitly stated
+- Present findings in the required three-section format with proper table structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In November 2022, Spectrum Brands, Inc. (a Delaware corporation) entered into a Fourth Amendment to their Amended and Restated Credit Agreement with Royal Bank of Canada as Administrative Agent and participating Revolving Lenders.
+- The original Credit Agreement was dated June 23, 2015, amended and restated as of June 30, 2020, with this being the fourth amendment dated November 17, 2022.
+- The purpose of this amendment is to provide Spectrum Brands additional time and flexibility to complete the sale of its Hardware and Home Improvement segment to ASSA ABLOY AB for $4,300,000,000 in cash proceeds (subject to customary purchase price adjustments) under an Asset and Stock Purchase Agreement dated September 8, 2021.
+- The amendment modifies the Total Net Leverage Ratio covenant, temporarily increasing the maximum ratio from 6.00:1.00 to 7.00:1.00 until the earlier of September 29, 2023 or completion/termination of the HHI Sale transaction.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Substantial asset divestiture proceeds of $4.3 billion expected from the HHI Sale, which should significantly improve the company's financial profile upon completion.
+- Royal Bank of Canada serves as Administrative Agent, indicating involvement of a major Canadian financial institution.
+- Amendment is limited in scope and temporary in nature, with covenant relief tied to specific business events rather than being permanent.
+- The borrower must pay a 0.20% fee on aggregate Revolving Credit Commitments to consenting lenders, demonstrating cost of covenant relief.
+
+### Principal Risks and Mitigating Factors:
+- Temporary loosening of leverage covenant to 7.00:1.00 suggests potential near-term credit stress or need for operational flexibility.
+- The HHI Sale transaction has been pending since September 2021, indicating possible execution complexity or regulatory delays.
+- Limited visibility into other financial covenants, pricing terms, or overall credit facility size constraints comprehensive risk assessment.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Total Net Leverage Ratio: 7.00:1.00 maximum from Fourth Amendment Effective Date until earlier of (i) September 29, 2023 or (ii) 10 Business Days after HHI Sale closing/termination; thereafter reverts to 6.00:1.00 maximum. Amendment fee of 0.20% of aggregate Revolving Credit Commitments paid to consenting lenders |

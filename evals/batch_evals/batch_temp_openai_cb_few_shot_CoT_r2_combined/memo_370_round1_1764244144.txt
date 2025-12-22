@@ -1,0 +1,42 @@
+## Checklist of Analysis Steps:
+- Extract key transaction details (parties, dates, loan amount, modifications)
+- Identify the primary purpose and structure of the modification
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms into the required table format
+- Ensure all information is factually sourced from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-11-26
+
+**Borrower/Company Overview:** IPC Alternative Real Estate Operating Partnership, LP is a Delaware limited partnership with its principal place of business at 2901 Butterfield Road, Oak Brook, IL 60523.
+
+**Transaction Description:** This transaction is a modification to existing loan documents for a revolving credit facility. The lender is Inland Private Capital Corporation, a Delaware corporation also located at 2901 Butterfield Road, Oak Brook, IL 60523. The original revolving credit facility loan agreement was dated October 27, 2023.
+
+**Purpose of Financing:** The modification extends the maturity date of the existing $22,500,000 revolving credit facility from November 30, 2024 to November 30, 2025, providing the borrower with continued access to working capital for an additional twelve-month period.
+
+**Company Background:** Both the borrower and lender are Delaware entities sharing the same Oak Brook, Illinois address, indicating a related party lending arrangement within the Inland Private Capital corporate structure focused on alternative real estate investments.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Related party structure provides enhanced borrower-lender cooperation and alignment of interests
+• Borrower confirmed full compliance with all existing loan document covenants and representations
+• Clean maturity extension with no covenant modifications or financial restructuring required
+• Comprehensive legal representations and warranties reaffirmed as of modification date
+• Delaware limited partnership structure provides operational flexibility for real estate investments
+
+**Principal Risks and Mitigating Factors:**
+• Related party lending may lack market-rate pricing and arms-length commercial terms
+• Limited financial covenant disclosure constrains comprehensive credit risk evaluation
+• Maturity extension requirement may indicate refinancing constraints or market timing considerations
+• Concentration risk inherent in related party lending relationships
+• Real estate sector exposure subject to market cyclicality and interest rate sensitivity
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|---------------------------------------------|
+| USD 22,500,000 | N/A | N/A | 2025-11-30 | N/A | • Borrower confirms compliance with all covenants in original loan documents<br>• All existing representations, warranties, and covenants remain in full force and effect<br>• Borrower maintains good standing under Delaware law<br>• Authorization requirements for borrowing and performance obligations |

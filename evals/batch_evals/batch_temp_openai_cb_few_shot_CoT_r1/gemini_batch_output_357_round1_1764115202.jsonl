@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe Key Deal Terms Table is missing the following covenant term from Section 6.01(v)(1)(ii) of the amended agreement:"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists the 'Superpriority' nature of the facility as a key strength ('enhanced creditor protections') and simultaneously as a principal risk ('suggests underlying credit challenges'), treating the same feature as both a positive and a negative.\", \"The memo describes debt governed by the amendment as 'Incremental Equivalent Debt' while a key term for that same debt requires it to be 'Subject to Subordination Agreement as \\\"Subordinated Debt\\\"', a logical contradiction as debt cannot simultaneously be equivalent in rank and subordinated.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

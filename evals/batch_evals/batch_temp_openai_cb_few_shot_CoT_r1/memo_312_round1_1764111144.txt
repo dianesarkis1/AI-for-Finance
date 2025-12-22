@@ -1,0 +1,42 @@
+## Step-by-Step Approach Checklist
+- Extract key transaction parties (borrower, lender, agents) and corporate structure
+- Identify the credit agreement framework, amendments, and timing
+- Analyze the specific note terms (principal amount, class, interest structure)
+- Assess credit strengths and risks from an investment perspective
+- Compile deal terms table with explicit data only, marking missing information as "N/A"
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-12-20
+
+**Borrower / Company Overview:** APA Finance III Borrower, LLC, a Delaware limited liability company, operating through a multi-tiered ownership structure ultimately controlled by Altus Power, Inc.
+
+**Transaction Description:** Issuance of a Class A Note in the amount of $19,195,000 to Security Life of Denver Insurance Company under an existing credit facility. The transaction involves U.S. Bank Trust Company, National Association as Administrative Agent and Collateral Agent, and U.S. Bank National Association as Document Custodian.
+
+**Purpose of Financing:** The specific purpose of the financing is not disclosed in the available documentation.
+
+**Company Background:** The borrower operates under a complex Delaware LLC structure with APA Finance III Borrower Holdings, LLC as its sole member, ultimately tracing ownership through APA Finance III, LLC and APA Generation, LLC to Altus Power, Inc. The note was executed by Gregg Felton, Co-CEO of Altus Power, Inc.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional banking relationships with U.S. Bank entities providing administrative and collateral agent services
+• Structured credit facility with collateral agent arrangement providing security
+• Clear corporate governance with identifiable ultimate parent company (Altus Power, Inc.)
+• Active credit management evidenced by multiple amendments demonstrating ongoing lender engagement
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into borrower financial performance and business operations
+• Three amendments within eleven months of original agreement may signal evolving credit conditions or covenant adjustments
+• Multi-layered LLC ownership structure could potentially complicate enforcement actions
+• Default interest provisions create additional cost exposure for overdue amounts
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | N/A | N/A | Interest payable on Interest Payment Dates | • Default interest on overdue principal at rates specified in Credit Agreement<br>• Default interest on overdue interest to extent permitted by law |

@@ -1,0 +1,42 @@
+Based on my review of the credit agreement, I will:
+- Identify the key parties and transaction structure from the First Amendment
+- Extract all amendments including the Section 9.11(d) modifications regarding lender consent requirements
+- Analyze available financial and structural terms
+- Assess credit strengths and risks from an investor perspective
+- Organize information into the required three-section format with proper table structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-11-30
+
+**Borrower/Company Overview:** America First Multifamily Investors, L.P. is a limited partnership engaged in multifamily real estate investments, with America First Capital Associates Limited Partnership Two as its general partner and Greystone AF Manager LLC as the managing entity.
+
+**Transaction Description:** This First Amendment modifies the original Credit Agreement dated June 11, 2021, between the Borrower, BankUnited, N.A. as Administrative Agent, and Bankers Trust Company as additional lender. The amendment restructures the guarantor arrangements and modifies lender consent requirements.
+
+**Purpose of Financing:** The amendment facilitates updated guarantee structures for the existing credit facility, with Greystone Select Incorporated becoming the defined guarantor under new documentation.
+
+**Company Background:** America First Multifamily Investors, L.P. operates as a multifamily real estate investment entity with established banking relationships and professional management through the Greystone organization.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established syndicated banking relationship with BankUnited, N.A. as Administrative Agent and Bankers Trust Company as lender
+• Enhanced guarantor support through Greystone Select Incorporated under Amended and Restated Guaranty
+• Comprehensive environmental risk mitigation via Amended and Restated Unsecured Environmental Indemnity
+• Administrative Agent maintains first priority perfected liens on all collateral
+• Borrower confirms no existing defaults or events of default under loan documents
+• Structured lender consent framework provides operational flexibility while maintaining credit protections
+
+**Principal Risks and Mitigating Factors:**
+• Real estate investment focus creates exposure to property market cycles and interest rate fluctuations
+• Complex multi-layered partnership structure may present governance and operational considerations
+• Limited financial covenant visibility constrains comprehensive credit risk assessment
+• Environmental indemnity and first priority liens provide risk mitigation for real estate-related exposures
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Administrative Agent maintains first priority perfected liens on all collateral<br>• Guarantor defined as Greystone Select Incorporated under Amended and Restated Guaranty dated 2021-11-30<br>• Lender consent requirements: decisions to release Borrower, Guarantor, or other parties require unanimous lender consent, except covenant waivers/modifications may be approved by Required Lenders<br>• Administrative Agent authorized to release upon full loan payment or as expressly provided in Loan Documents<br>• Environmental indemnity coverage maintained<br>• All original Credit Agreement terms remain in effect except as specifically amended |

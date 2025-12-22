@@ -1,0 +1,40 @@
+## Conceptual Checklist:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the specific purpose and nature of the amendment (pricing margin changes)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms into the required table format
+- Ensure all information is sourced directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 10, 2021, Affiliated Managers Group, Inc. (AMG), a Delaware corporation, entered into a Second Amendment to Third Amended and Restated Term Credit Agreement with Bank of America, N.A. serving as Administrative Agent.
+- The original Third Amended and Restated Term Credit Agreement was dated January 18, 2019, establishing the baseline credit facility structure.
+- The primary purpose of this amendment is to modify the Applicable Margin contained in Annex I to the Credit Agreement, effectively adjusting the pricing grid for the credit facility.
+- AMG is the borrower in this term credit agreement arrangement with multiple bank lenders participating in the facility.
+- The amendment updates the pricing structure based on debt rating levels, with margins ranging from 0.725% to 1.225% for Eurodollar Loans depending on credit ratings from A+/A1/A+ down to BBB/Baa2/BBB levels.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationship with Bank of America, N.A. as Administrative Agent, indicating institutional lender confidence
+- Investment-grade credit profile reflected in the pricing grid that accommodates ratings from A+ down to BBB levels
+- Borrower representations confirm no defaults or events of default are occurring or continuing
+- All loan documents remain in full force and effect with continued validity of existing covenants and protections
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into specific covenant terms, collateral arrangements, or financial performance metrics from this amendment document
+- Pricing amendment suggests potential changes in credit profile or market conditions requiring margin adjustments
+- Document lacks information on total facility size, utilization levels, or maturity terms
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Eurodollar Loans: 0.725% to 1.225% margin based on debt rating; ABR Loans: 0.000% to 0.225% margin based on debt rating |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | All existing loan document covenants ratified and confirmed in full force and effect. Borrower represents no defaults or events of default occurring. Pricing based on publicly announced debt ratings from S&P/Moody's/Fitch |

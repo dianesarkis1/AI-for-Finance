@@ -1,0 +1,41 @@
+## Checklist
+
+- Extract key transaction details from the Third Amendment document dated June 27, 2023
+- Identify the borrower (Greystone Housing Impact Investors LP) and lender (Bankers Trust Company) relationship
+- Analyze the specific amendments being made to pledged account and securities intermediary definitions
+- Assess credit positives and risks from an investment perspective
+- Compile available deal terms, marking unavailable information as "N/A"
+- Structure the memo according to the three required sections with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-06-27
+
+**Borrower:** Greystone Housing Impact Investors LP, a Delaware limited partnership (formerly America First Multifamily Investors, L.P.).
+
+**Transaction Description:** Third Amendment to Amended and Restated Credit Agreement between Greystone Housing Impact Investors LP and Bankers Trust Company. This administrative amendment modifies the existing credit facility originally established August 23, 2021, previously amended April 29, 2022 and July 29, 2022.
+
+**Purpose of Financing:** Administrative amendment to update collateral definitions, specifically redesignating the Pledged Account (account #164283-000) and appointing Wilmington Trust, National Association as Securities Intermediary.
+
+**Company Background:** Delaware limited partnership with established three-year banking relationship with Bankers Trust Company.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Three-year banking relationship with successful amendment history demonstrates lender confidence
+• Pledged account collateral structure with professional securities intermediary provides credit enhancement
+• No Events of Default or Unmatured Events of Default per borrower representations
+• All existing loan documentation remains in full force with no waivers
+
+**Principal Risks and Mitigating Factors:**
+• Administrative nature limits visibility into financial performance and credit quality
+• Collateral restructuring may indicate underlying credit concerns
+• Limited transparency into facility terms and covenant compliance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Pledged Account #164283-000 maintained by Wilmington Trust, National Association<br>• Security Agreement and Control Agreement amendments required<br>• All existing covenants from 2021 agreement remain in effect |

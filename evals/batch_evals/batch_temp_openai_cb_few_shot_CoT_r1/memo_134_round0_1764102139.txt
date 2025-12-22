@@ -1,0 +1,40 @@
+## Checklist of Approach:
+- Extract key transaction parties and their roles from the amendment document
+- Identify the specific amendments being made to the original credit agreement
+- Note the maturity date extension and reinvestment period changes
+- Analyze credit positives and risks from an investor perspective
+- Compile available deal terms while marking unavailable information as "N/A"
+- Structure the memo following the three required sections with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On 2025-06-18, OFSCC-FS, LLC and its lenders executed a third amendment to their revolving credit and security agreement originally dated June 20, 2019.
+- OFSCC-FS, LLC, a Delaware limited liability company, serves as the Borrower, with OFS Capital Corporation acting as Servicer and OFSCC-FS Holdings, LLC as Equityholder. The lending syndicate includes BNP Paribas as Administrative Agent and Lender, along with Mitsubishi HC Capital America, Inc. as Lender. Citibank, N.A. serves as Collateral Agent and Virtus Group, LP as Collateral Administrator.
+- The amendment extends the Final Maturity Date to June 20, 2027 and modifies the Reinvestment Period to end on August 31, 2025 (with potential for extension subject to agreement by all parties).
+- This appears to be a structured credit facility with collateral administration, suggesting it may be related to asset-based lending or securitization activities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong institutional lender base including BNP Paribas and Mitsubishi HC Capital America, indicating established banking relationships
+- Professional third-party administration through Virtus Group and Citibank providing operational oversight and collateral management
+- Borrower representations confirm no defaults or events of default are occurring, suggesting current compliance with all covenants
+- Maturity extension to 2027 provides additional runway for the credit facility
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into underlying collateral quality, portfolio composition, or financial performance metrics
+- Reinvestment period ending in August 2025 may constrain future growth or deployment opportunities
+- Complex multi-party structure with servicer, collateral administrator, and collateral agent creates operational dependencies
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | 2027-06-20 |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Final Maturity Date extended to June 20, 2027<br>• Reinvestment Period ends August 31, 2025 (subject to potential extension by agreement)<br>• No Default, Event of Default, Potential Servicer Removal Event or Servicer Removal Event currently outstanding<br>• All representations and warranties in original agreement sections 4.01, 4.02, and 4.03 reaffirmed |

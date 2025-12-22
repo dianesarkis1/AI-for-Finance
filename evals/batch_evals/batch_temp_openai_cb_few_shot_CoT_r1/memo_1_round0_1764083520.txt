@@ -1,0 +1,44 @@
+I will analyze this credit agreement and draft a professional investment memorandum. Here is my approach:
+
+- Extract key transaction details and parties involved
+- Identify the nature and purpose of this waiver agreement
+- Analyze the COVID-19 related business impact and lender accommodations
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms and covenant information
+- Structure the memo following the required format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 30, 2020, Bank of Montreal as Administrative Agent granted a Fourth Amended and Restated Limited Waiver to MGE Niagara Entertainment Inc., a casino operating company.
+- MGE Niagara Entertainment Inc. serves as the Borrower under a credit agreement originally dated June 10, 2019 (amended July 17, 2019) with Bank of Montreal as Administrative Agent and Complex Services Inc. as guarantor.
+- This waiver extends previous COVID-19 related accommodations through November 30, 2020 (the "Extended Waiver Period"), addressing casino facility closures mandated by Ontario Lottery and Gaming Corporation (OLG) due to the pandemic.
+- The waiver addresses closure defaults, financial covenant breaches under Sections 9.4.1 and 9.4.2, and delays compliance certificate delivery requirements. OLG has provided financial relief including threshold payment relief and Fixed Component Per Diem payments to support the borrower during the closure period.
+- MGE Niagara Entertainment Inc. operates casino facilities that were temporarily closed by government directive due to COVID-19, requiring multiple successive waivers since May 2020 to address resulting covenant breaches and operational defaults.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Government support through OLG providing financial relief including threshold payment relief and continued Fixed Component Per Diem payments during closure
+- Borrower maintains minimum liquidity requirement of CAD 15,000,000 throughout the waiver period
+- Weekly liquidity reporting provides enhanced monitoring and transparency
+- No new advances permitted under credit facilities, limiting additional leverage during distressed period
+- Applicable Margin increased to Level 5 (5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans), improving lender returns
+
+### Principal Risks and Mitigating Factors:
+- Extended casino closure creates fundamental operational disruption with multiple covenant breaches requiring successive waivers since May 2020
+- Borrower restricted from making distributions and acquisitions during waiver period
+- Default triggered if OLG ceases relief payments for more than five business days, creating dependency on government support
+- Multiple previous waivers (May, June, July 2020) indicate ongoing financial stress requiring continued lender accommodation
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Level 5 Applicable Margin: 5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans, 3.50% for Prime Rate/USBR Loans |
+| **Maturity Date** | Waiver expires 2020-11-30 |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Maintain minimum Liquidity of CAD 15,000,000 at all times • No advances permitted under either Credit Facility • Weekly liquidity reporting required • No distributions under clauses (c) or (e) of Permitted Distributions • No amendments to Leases, MGE Management Agreement, CNHI Consulting Agreement, or Convertible Debentures unless favorable to lenders • No acquisitions permitted • Financial covenant breaches under Sections 9.4.1 and 9.4.2 waived through Extended Waiver Period |

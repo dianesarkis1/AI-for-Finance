@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}]}}}
+{"custom_id": "completeness", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: YES\n\nMISSING_TERMS:\nTotal Leverage Ratio covenant thresholds from Schedule B (Level 4: >4.00x \u2264 5.00x, Level 3: <4.00x \u2265 3.00x, Level 2: <3.00x \u2265 2.00x, Level 1: <2.00x) that determine pricing levels"}]}}}
+{"custom_id": "consistency", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "{\"has_issues\": false, \"issues\": []}"}]}}}
+{"custom_id": "quality_clarity", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 82.0"}]}}}
+{"custom_id": "quality_tone", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 85.0"}]}}}
+{"custom_id": "quality_length", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}
+{"custom_id": "quality_structure", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}

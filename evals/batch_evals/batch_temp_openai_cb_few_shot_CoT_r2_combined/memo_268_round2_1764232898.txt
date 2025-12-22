@@ -1,0 +1,42 @@
+Based on my review of this credit agreement, I will:
+• Identify the key transaction parties and structure
+• Extract the specific terms and commitment amounts with detailed lender breakdown
+• Analyze the investment strengths and risks for this REIT credit facility
+• Compile deal terms into the required table format
+• Ensure all information comes directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-07-07
+
+**Borrower / Company Overview:** ExchangeRight Income Fund Operating Partnership, LP is a Delaware limited partnership that serves as the borrower, with ExchangeRight Income Fund (d/b/a ExchangeRight Essential Income REIT), a Maryland REIT, as the parent company.
+
+**Transaction Description:** This is a Third Incremental Revolving Commitment Assumption Agreement adding Renasant Bank as a new lender with a $15,000,000 incremental revolving commitment. Wells Fargo Bank, National Association serves as Administrative Agent. The transaction increases total revolving commitments to $150,000,000.
+
+**Purpose of Financing:** The financing increases available revolving credit capacity under the existing credit agreement dated May 30, 2024, providing additional liquidity.
+
+**Company Background:** ExchangeRight operates as a REIT focused on net leased properties through multiple subsidiary entities, including various Delaware statutory trusts holding portfolio properties.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationships with Wells Fargo as Administrative Agent and Fifth Third Bank
+• REIT structure provides transparency and regulatory oversight
+• Diversified property portfolio through multiple subsidiary trusts
+• Clean credit profile with no existing defaults or events of default
+• Comprehensive guarantee structure maintained through Parent and Subsidiary Guarantees
+• Existing security interests remain in full force
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into financial covenants and pricing (referenced to underlying agreement)
+• Real estate market exposure creates property and tenant concentration risks
+• Complex multi-entity structure may complicate administration
+• REIT requirements may constrain operational flexibility
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 150,000,000 | N/A | N/A | N/A | N/A | • Same terms as initial revolving commitments<br>• Article VI representations reaffirmed<br>• Parent and Subsidiary Guarantees confirmed<br>• Security interests under Pledge Agreement ratified<br>• No defaults or events of default exist |

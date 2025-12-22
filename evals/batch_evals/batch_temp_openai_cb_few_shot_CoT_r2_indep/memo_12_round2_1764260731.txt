@@ -1,0 +1,40 @@
+## Checklist
+- Identify the transaction structure and parties involved in this September 2024 joinder agreement
+- Extract key transaction details including borrowers, lenders, and purpose of the joinder
+- Analyze the merger/acquisition context that necessitated adding new borrowers to existing credit facility
+- Review post-closing covenants and collateral requirements for investment risk assessment
+- Compile available deal terms while noting limitations due to joinder agreement format
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-09-06
+
+**Borrower / Company Overview:** The transaction involves the joinder of three new borrowers to an existing syndicated credit facility. The new borrowers are Innovex Downhole Solutions, LLC (formerly DQ Merger Sub, LLC), Innovex International, Inc. (formerly Dril-Quip, Inc.), and TIW Corporation. These entities join existing borrowers Tercel Oilfield Products USA L.L.C., Pride Energy Services, LLC, and Top-Co Inc.
+
+**Transaction Description:** This joinder agreement formally adds three new borrowers to the Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement originally executed June 10, 2022. The facility has been amended four times previously, most recently on June 28, 2024. PNC Bank, National Association serves as Administrative Agent with U.S. Bank National Association participating as a lender.
+
+**Purpose of Financing:** The joinder accommodates the completed Dril-Quip merger transaction, wherein Innovex merged with DQ Merger Sub, LLC (surviving as Innovex Downhole Solutions, LLC) and Dril-Quip, Inc. was renamed to Innovex International, Inc. The joinder ensures these post-merger entities maintain access to the existing credit facility.
+
+**Company Background:** The borrower group operates in the oilfield products and services sector, providing specialized equipment and services to oil and gas exploration and production companies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established syndicate with premier institutional lenders (PNC Bank as agent, U.S. Bank as participant)
+• Enhanced credit profile through joint and several liability structure across expanded borrower group
+• Comprehensive collateral package including continuing security interests, equity pledges, and intellectual property assignments
+• Structured post-closing covenant timeline ensures complete documentation and collateral perfection
+
+**Principal Risks and Mitigating Factors:**
+• Post-merger integration execution risk, partially mitigated by retention of experienced existing borrowers
+• Cyclical oilfield services industry exposure with sensitivity to commodity price fluctuations
+• Limited covenant visibility due to joinder document format restricting analysis of financial maintenance requirements
+• Credit agreement amendment history (four prior modifications) may indicate previous covenant or operational challenges
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Stock certificate delivery (5 business days)<br>• Insurance certificates (10 days)<br>• Insurance endorsements (30 days)<br>• Intellectual property filings (30 days)<br>• IP security agreements (45 days)<br>• Deposit account controls (65 days)<br>• Joint and several liability<br>• Continuing security interests in all collateral |

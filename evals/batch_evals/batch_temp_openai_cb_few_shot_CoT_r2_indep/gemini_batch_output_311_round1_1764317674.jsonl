@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The requirement that all fees and expenses, including legal fees for Latham & Watkins LLP, must be paid by the Borrower as a condition for the amendment to become effective."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists 'Proactive management of benchmark rate transition' as a key strength, but the provided dates (a Dec 2022 amendment addressing a Dec 2021 LIBOR discontinuation) indicate a year-long, reactive delay.\", \"The conceptual checklist requires that all information be 'sourced directly from the document without inference,' but the 'Key Strengths' section includes qualitative assessments like 'demonstrating operational sophistication,' which is an inference.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 30.0"}}]}}}

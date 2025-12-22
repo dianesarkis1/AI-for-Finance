@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n1. In the \"Company Background\" section, the statement that Box, Inc. is \"operating in the technology sector, specifically providing cloud content management and file sharing services\" is not supported by the source document. The source only identifies the company as \"BOX, INC., a Delaware corporation\"."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The deal terms table lists 'Conditions Precedent' under the column for 'Key covenants or financial maintenance terms', but these are mutually exclusive categories. Conditions precedent are one-time requirements for an agreement to become effective, while covenants are ongoing obligations during the term of the agreement.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 83.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

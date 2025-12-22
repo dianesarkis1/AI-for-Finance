@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states \u201cBorrowing Base Certificate required within 5 days of amendment effective date.\u201d The source requires a Borrowing Base Certificate \u201cas of a date not more than five days prior to the Amendment Effective Date,\u201d not within five days after."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Explicit identification of the facility tranches impacted: 2028 Revolving Dollar Commitments, 2028 Revolving Multicurrency Commitments, and 2028 Term Loans; and that non-consenting 2027 Revolving Dollar/Multicurrency Commitments and 2027 Term Loans remain at the May 6, 2027 maturity"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 76.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

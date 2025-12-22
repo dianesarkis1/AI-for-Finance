@@ -1,0 +1,42 @@
+## Conceptual Checklist
+- Extract key transaction details: date, parties, transaction type, and purpose
+- Identify borrower entity structure and business nature as a REIT
+- Analyze the incremental revolving commitment increase and new lender participation
+- Assess credit strengths including lender quality and REIT structure
+- Note information limitations due to amendment-only nature of document
+- Compile deal terms table with explicit data from schedules and agreement text
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On July 7, 2025, ExchangeRight Income Fund Operating Partnership, LP executed a Third Incremental Revolving Commitment Assumption Agreement with Wells Fargo Bank, National Association as Administrative Agent and Renasant Bank as the Additional Lender.
+- The Borrower is ExchangeRight Income Fund Operating Partnership, LP, a Delaware limited partnership, with ExchangeRight Income Fund d/b/a ExchangeRight Essential Income REIT serving as the Parent. The entity operates as a real estate investment trust formed under Maryland law.
+- This transaction represents an incremental increase to an existing revolving credit facility originally established on May 30, 2024. Renasant Bank is joining as an Additional Lender, providing a $15,000,000 incremental revolving commitment.
+- The purpose is to increase the total revolving commitments from $135,000,000 to $150,000,000, with the lending syndicate now consisting of Wells Fargo Bank ($75,000,000), Fifth Third Bank ($60,000,000), and Renasant Bank ($15,000,000).
+- The borrowing entity operates multiple subsidiary entities and Delaware statutory trusts focused on net leased portfolio properties, indicating a commercial real estate investment strategy.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with established institutional lenders including Wells Fargo Bank as Administrative Agent and Fifth Third Bank as existing syndicate member
+- REIT structure provides regulatory oversight and operational transparency requirements
+- Multiple subsidiary guarantors and collateral documents support credit enhancement through Parent Guaranty, Subsidiary Guaranty, and Pledge Agreement
+- Borrower demonstrates compliance with all existing covenants and representations as of agreement date
+- Recent credit facility establishment (May 2024) suggests recent underwriting and due diligence by lender group
+
+### Principal Risks and Mitigating Factors:
+- Real estate sector exposure with concentration in net leased properties creates sector-specific risks
+- Limited financial performance data available in this incremental commitment document
+- Complex entity structure with multiple subsidiary entities and trusts may create operational complexity
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 15,000,000 incremental commitment (total facility USD 150,000,000) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Incremental revolving loans subject to same terms as initial revolving commitments<br>• Parent Guaranty and Subsidiary Guaranty reaffirmed<br>• Pledge Agreement security interests and liens ratified<br>• No Default or Event of Default representation required<br>• Compliance with Section 2.17 requirements of Credit Agreement |

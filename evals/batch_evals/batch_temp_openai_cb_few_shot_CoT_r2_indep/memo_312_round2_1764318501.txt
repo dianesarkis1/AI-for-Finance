@@ -1,0 +1,44 @@
+# Step-by-step Analysis Checklist
+
+- Extract key parties and transaction details from the Class A Note document
+- Identify the borrower structure and administrative agent arrangements 
+- Determine principal amount, maturity, and payment terms from the note
+- Review amendment history and credit agreement references for context
+- Assess investment strengths and risks based on available information
+- Compile deal terms table with explicit data only, marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-12-20
+
+**Borrower/Company Overview:** APA Finance III Borrower, LLC is a Delaware limited liability company operating within a multi-tiered corporate structure ultimately controlled by Altus Power, Inc. The borrower is party to a syndicated credit facility and has issued Class A Notes to institutional lenders.
+
+**Transaction Description:** This transaction represents the issuance of a $19,195,000 Class A Note to Security Life of Denver Insurance Company under a broader credit facility. The note is governed by a Credit Agreement originally dated February 15, 2023, with U.S. Bank Trust Company, National Association serving as Administrative Agent and Collateral Agent, and U.S. Bank National Association as Document Custodian.
+
+**Purpose of Financing:** N/A
+
+**Company Background:** The borrower operates through a structured ownership hierarchy: APA Finance III Borrower, LLC → APA Finance III Borrower Holdings, LLC → APA Finance III, LLC → APA Generation, LLC → Altus Power, Inc. The underlying credit facility has been amended three times since origination (June 15, 2023, July 21, 2023, and December 20, 2023), with the current note issued under Amendment No. 3.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional infrastructure with U.S. Bank providing administrative agent, collateral agent, and document custodian services
+• Secured credit structure providing collateral protection for lenders
+• Class A Note structure suggesting senior ranking within the capital structure
+• Professional management with Co-CEO Gregg Felton executing on behalf of ultimate parent Altus Power, Inc.
+
+**Principal Risks and Mitigating Factors:**
+• Complex multi-entity structure may create potential structural subordination issues affecting recovery prospects
+• Amendment frequency indicates possible covenant management or business volatility requiring ongoing facility modifications
+• Limited financial and operational transparency from note documentation restricts comprehensive credit assessment
+• Overdue payment provisions suggest potential for penalty interest rates if payment defaults occur
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | N/A | N/A | Interest Payment Date (frequency not specified) | N/A |

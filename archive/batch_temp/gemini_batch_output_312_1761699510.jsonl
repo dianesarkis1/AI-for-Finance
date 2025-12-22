@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_312", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_312", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS:\n- Several conditions precedent for the amendment's effectiveness were omitted from the memo, including: that no Default or Event of Default has occurred, that all Guarantees are in full force and effect, and that the Loans have not become due and payable.\n- The amendment to the definitions of \"Assignment and Assumption Agreement\" and \"Step-In Agreement\" was not mentioned.\n- The memo omits that Schedule III (Advances) was deleted and replaced as part of the amendment."}}]}}}
-{"custom_id": "consistency_312", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": false,\n  \"issues\": []\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_312", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_312", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_312", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_312", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

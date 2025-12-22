@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo repeatedly claims the amendment \\\"preserves all existing loan terms\\\" and that they remain \\\"fully intact,\\\" which is directly contradicted by the amendment's entire purpose, which is to modify and extend three specific deadlines.\", \"The Executive Summary characterizes the amendment as providing \\\"limited administrative relief,\\\" which contradicts the risk analysis section that interprets the extension of a PIK interest payment as a signal of potential \\\"near-term liquidity management,\\\" a substantive financial concern, not an administrative one.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 73.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 75.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

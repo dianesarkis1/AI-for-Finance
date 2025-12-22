@@ -1,0 +1,42 @@
+# Step-by-step Analysis Checklist
+
+- Extract key parties and transaction details from the Class A Note document
+- Identify the borrower structure and administrative agent arrangements 
+- Determine principal amount, maturity, and payment terms from the note
+- Review amendment history and credit agreement references for context
+- Assess investment strengths and risks based on available information
+- Compile deal terms table with explicit data only, marking unavailable fields as N/A
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-12-20
+
+**Borrower/Company Overview:** APA Finance III Borrower, LLC, a Delaware limited liability company, operates within a multi-tiered corporate structure ultimately owned by Altus Power, Inc. The borrower is the issuer of Class A Notes under a syndicated credit facility.
+
+**Transaction Description:** This transaction involves the issuance of a $19,195,000 Class A Note by APA Finance III Borrower, LLC to Security Life of Denver Insurance Company. The note is issued pursuant to a Credit Agreement originally executed on February 15, 2023, with U.S. Bank Trust Company, National Association serving as Administrative Agent and Collateral Agent.
+
+**Purpose of Financing:** The specific purpose of the financing is not disclosed in the note document.
+
+**Company Background:** The borrower operates through a structured ownership chain: APA Finance III Borrower, LLC (borrower) → APA Finance III Borrower Holdings, LLC → APA Finance III, LLC → APA Generation, LLC → Altus Power, Inc. (ultimate parent). The credit facility has undergone three amendments since inception, indicating active covenant management.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Institutional administrative framework with U.S. Bank providing comprehensive agent services
+• Secured credit structure with dedicated collateral agent providing lender protection mechanisms
+• Active credit management evidenced by multiple facility amendments addressing evolving business needs
+
+**Principal Risks and Mitigating Factors:**
+• Multi-layered LLC structure may create structural subordination concerns limiting direct asset recourse
+• Limited covenant and financial performance visibility from note documentation alone
+• Amendment frequency (three modifications within first year) may signal underlying credit or operational challenges
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 19,195,000 | N/A | N/A | N/A | Interest Payment Date (frequency not specified) | N/A |

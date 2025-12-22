@@ -1,0 +1,40 @@
+## Checklist
+
+- Identify key parties, dates, and transaction structure from the credit agreement amendment
+- Extract specific amendment details regarding the "Minimum Acceptance Condition" definition change
+- Analyze the bridge credit facility context and acquisition-related purpose
+- Assess credit strengths based on borrower profile and lender syndicate quality
+- Compile available deal terms while marking unavailable information as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-09-02
+
+**Borrower/Company Overview:** Philip Morris International Inc. (PMI), a Virginia corporation, is a major international tobacco and consumer products company with global operations and market presence.
+
+**Transaction Description:** This Amendment No. 1 modifies PMI's existing 364-Day Bridge Credit Agreement dated May 11, 2022. The amendment involves PMI as borrower, Citibank Europe PLC, UK Branch as Facility Agent, and a syndicate of 16 international lenders including major financial institutions across North America, Europe, and Asia.
+
+**Purpose of Financing:** The bridge facility supports PMI's acquisition strategy, providing short-term financing for a takeover transaction. The amendment specifically modifies acceptance conditions to facilitate completion of an offer for target company shares.
+
+**Company Background:** PMI operates as a leading international tobacco and consumer products company with established relationships with premier global financial institutions, as evidenced by the high-quality lender syndicate participation.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Established Investment-Grade Borrower**: PMI is a well-capitalized multinational corporation with diversified global operations and strong market positions
+• **Premier Lender Syndicate**: Facility supported by 16 leading international banks including Citibank, Bank of America, Barclays, Credit Suisse, Deutsche Bank, HSBC, Mizuho, and Wells Fargo, demonstrating strong institutional confidence
+• **Short-Term Bridge Structure**: 364-day maturity typical for acquisition financing, designed for replacement with permanent financing upon transaction completion
+• **Unanimous Lender Support**: All existing lenders participated in the amendment, indicating continued credit confidence
+
+**Principal Risks and Mitigating Factors:**
+• **Acquisition Execution Risk**: Success depends on achieving minimum 50% shareholder acceptance in target acquisition, with potential for deal failure
+• **Bridge Financing Refinancing Risk**: Facility requires replacement or repayment within 364-day term, though PMI's credit profile supports refinancing capability
+• **Limited Covenant Visibility**: Amendment provides minimal insight into financial maintenance requirements or borrower restrictions beyond acceptance conditions
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2023-05-10 | N/A | • Minimum Acceptance Condition: >50% of total issued and outstanding Target Shares (excluding treasury shares)<br>• All other Credit Agreement covenants remain in full force and effect<br>• Lender syndicate includes: Citibank Europe PLC UK Branch (Facility Agent), Citibank N.A. Jersey Branch, Citicorp North America Inc., Bank of America N.A. London Branch, Banco Bilbao Vizcaya Argentaria S.A. New York Branch, Banco Santander S.A., Barclays Bank PLC, Credit Suisse AG New York Branch, Credit Suisse (Switzerland) Ltd., Deutsche Bank AG Cayman Islands Branch, HSBC Continental Europe, HSBC Bank PLC, Mizuho Bank Ltd., Standard Chartered Bank, Sumitomo Banking Corporation, Wells Fargo Bank N.A. London Branch, Bank of China (Europe) S.A., Commerzbank AG New York Branch, and MUFG Bank Ltd. |

@@ -1,0 +1,42 @@
+I'll analyze this credit agreement and draft a professional investment memorandum. Here's my approach:
+
+• Extract the basic transaction details (parties, dates, amendment purpose)
+• Identify the specific changes being made to the credit agreement
+• Assess the credit implications from an investor perspective
+• Compile the key terms into the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-05-10
+
+**Borrower/Company Overview:** LifeStance Health Holdings, Inc., a Delaware corporation, serves as the borrower under this credit facility. The company operates in the healthcare sector with Lynnwood Intermediate Holdings, Inc. acting as the holding company structure.
+
+**Transaction Description:** This Second Amendment modifies the existing Credit Agreement originally dated May 4, 2022 (as previously amended November 7, 2023). The transaction involves LifeStance Health Holdings, Inc. as borrower, Capital One, National Association as Administrative Agent, Revolver Agent, and Collateral Agent, and Unitranche Loan Transaction II, LLC as a key lender. HPS Investment Partners, LLC serves as manager of the unitranche facility.
+
+**Purpose of Financing:** The amendment extends the Delayed Draw Term Loan Commitment Expiration Date to August 14, 2024, providing the borrower additional time to access committed but undrawn term loan facilities. This suggests the company may require additional capital for operational needs or strategic initiatives.
+
+**Company Background:** LifeStance Health operates within the healthcare industry through a corporate structure that includes subsidiary guarantors. The credit facility structure includes revolving credit components, term loans, and delayed draw features, indicating a comprehensive financing arrangement to support business operations and growth.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Experienced institutional lender group led by Capital One, National Association with established healthcare lending expertise
+• Unitranche structure managed by HPS Investment Partners provides sophisticated credit management and monitoring
+• Borrower confirms compliance with all representations and warranties with no Events of Default occurring or continuing
+• Comprehensive security package with all liens and security interests reaffirmed and ratified through the amendment
+• Amendment represents limited modification focused on timing rather than fundamental credit terms or covenant relief
+
+**Principal Risks and Mitigating Factors:**
+• Request for delayed draw extension may indicate timing pressures or capital deployment challenges, though specific business rationale is not disclosed
+• Healthcare sector exposure presents inherent regulatory compliance risks and potential reimbursement pressures from payers
+• Limited financial visibility from amendment document prevents assessment of current credit metrics and covenant headroom
+• Dependence on undrawn committed facilities suggests potential future funding requirements that could impact leverage profile
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Delayed Draw Term Loan Commitment Expiration Date extended to 2024-08-14<br>• No Events of Default occurring or continuing as of amendment date<br>• All existing security interests and liens reaffirmed and ratified<br>• Borrower representations and warranties confirmed accurate in all material respects |

@@ -1,0 +1,40 @@
+**Approach Checklist:**
+- Extract eighth amendment details and relationship to underlying credit facility
+- Identify merger-related modifications and waivers granted
+- Analyze credit implications of pending Avangrid transaction
+- Assess lender syndicate strength and covenant framework
+- Document available terms while noting information gaps
+
+# Investment Memorandum
+
+## Executive Summary
+
+**Date:** 2020-10-26
+
+**Borrower:** PNM Resources, Inc., a New Mexico corporation operating as a regulated utility holding company.
+
+**Transaction:** Eighth amendment to existing revolving credit facility with Wells Fargo Bank, National Association as Administrative Agent and a syndicate of ten major financial institutions. The amendment modifies the underlying Sixth Amendment to and Restatement of Credit Agreement dated July 30, 2018 (as amended by Seventh Amendment dated December 19, 2018).
+
+**Purpose:** The amendment facilitates PNM Resources' pending acquisition by Avangrid, Inc. through subsidiary NM Green Holdings, Inc. under a merger agreement dated October 20, 2020. Key modifications include: (i) raising the Change of Control threshold to 25% beneficial ownership, (ii) waiving potential covenant defaults from signing the merger agreement, and (iii) clarifying merger-related covenant language while preserving lender rights upon transaction closing.
+
+## Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong lender syndicate including Wells Fargo, MUFG Union Bank, Citibank, JPMorgan Chase, Morgan Stanley Bank, and other major institutions demonstrates deep banking relationships
+• Regulated utility business model provides stable cash flows and regulatory rate recovery mechanisms
+• Borrower maintains full compliance with all financial and non-financial covenants
+• Proactive covenant management during M&A process indicates sophisticated treasury operations
+• All representations and warranties reaffirmed as true and correct (updated through December 31, 2019)
+
+**Principal Risks and Mitigating Factors:**
+• Change of Control upon merger closing will trigger facility termination, creating refinancing exposure for acquiring entity
+• Amendment grants borrower-favorable modifications including higher Change of Control threshold (25% vs. previous undisclosed level)
+• Limited visibility into current facility utilization, pricing, or borrower financial metrics
+• Cross-default waiver suggests potential covenant conflicts across borrower's debt portfolio
+• Amendment scope narrowly limited to merger agreement execution; broader defaults remain unwaived
+
+## Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Change of Control threshold: 25% beneficial ownership trigger<br>• Modified merger restrictions: permits "merge with or into any other Person"<br>• Waiver of covenant defaults related to Avangrid merger agreement dated October 20, 2020<br>• Waiver of associated cross-defaults and post-default interest rates<br>• All existing financial maintenance covenants reaffirmed as compliant<br>• Amendment constitutes limited waiver; broader defaults excluded |

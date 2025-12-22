@@ -1,0 +1,34 @@
+## Checklist
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the specific purpose and nature of the amendment to Section 9.05(g)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms, marking unavailable information as "N/A"
+- Ensure memo follows the required three-section structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On May 5, 2023, Claros Mortgage Trust, Inc., a Maryland corporation, executed Amendment No. 4 to its Term Loan Credit Agreement with JPMorgan Chase Bank, N.A. serving as Administrative Agent.
+- The original Term Loan Credit Agreement was dated August 9, 2019, and has been previously amended three times (December 2020, November 2021, and December 2021).
+- This amendment corrects a technical inconsistency and obvious error in Section 9.05(g) of the existing credit agreement by inserting ", the Borrower or any of its Restricted Subsidiaries" following the first reference to "Affiliated Lender" in that section.
+- The amendment is characterized as a technical correction to address ambiguity, mistake, defect, inconsistency, or obvious error as permitted under Section 9.02(d)(iii) of the existing credit agreement.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established borrower-lender relationship dating back to 2019 with JPMorgan Chase Bank, N.A., indicating institutional confidence
+- Technical amendment only, suggesting no underlying credit deterioration or covenant issues
+- Borrower reaffirms all existing covenants, guarantees, and collateral documents, maintaining credit structure integrity
+- Amendment does not constitute a novation, preserving all existing rights and remedies under the original agreement
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available to assess overall credit profile and performance
+- Technical nature of amendment provides minimal insight into borrower's operational or financial condition
+- Amendment broadens certain provisions relating to Affiliated Lenders, though specific implications are unclear from available information
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All existing covenants and agreements reaffirmed<br>• Guarantees under the Guarantee remain in full force<br>• Liens on Collateral continue to secure Obligations<br>• Technical correction to Section 9.05(g) regarding Affiliated Lender provisions |

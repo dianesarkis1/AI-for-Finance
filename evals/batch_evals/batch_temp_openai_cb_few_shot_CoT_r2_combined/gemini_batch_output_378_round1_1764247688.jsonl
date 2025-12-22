@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo's description of the \"Standard prepayment for other events\" is incomplete. It omits the second step of the process outlined in Section 2.6(c)(i)(II)(2) of the source document: that after loans are prepaid, any remaining net cash proceeds must be used to automatically reduce the outstanding commitments."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The 'Key Deal Terms Table' lists the 'Deal size' as N/A, while simultaneously defining a prepayment term based on reducing the outstanding loans to a specific dollar amount ($500,000,000), which makes the deal's size a known and applicable factor.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 35.0"}}]}}}

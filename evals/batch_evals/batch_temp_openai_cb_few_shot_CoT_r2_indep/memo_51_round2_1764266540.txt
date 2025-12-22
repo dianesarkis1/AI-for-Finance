@@ -1,0 +1,42 @@
+I'll work through this step-by-step to draft a professional investment memo based on this increase supplement document.
+
+## Checklist:
+- Extract key transaction details and parties from the increase supplement
+- Identify the borrower background and transaction purpose
+- Analyze credit positives and risks from an investor perspective
+- Compile available financial terms into the required table format
+- Validate all information is directly from the document with proper structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-13
+
+**Borrower/Company Overview:** Texas-New Mexico Power Company is a Texas corporation operating under a Fourth Amended and Restated Credit Agreement dated March 11, 2022, with KeyBank National Association as Administrative Agent.
+
+**Transaction Description:** The transaction is an increase supplement that adds CoBank, ACB as a new lender to the existing syndicated credit facility. This supplement expands the lending group by adding a $25,000,000 commitment from the new lender.
+
+**Purpose of Financing:** The financing increases available credit capacity by adding a new lender commitment to the existing facility structure.
+
+**Company Background:** Texas-New Mexico Power Company operates with an established credit facility secured by First Mortgage Bonds under FMB Mortgage Documents, with KeyBank National Association serving as Administrative Agent.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Utility company borrower typically generates stable, regulated cash flows
+• Established banking relationship with KeyBank National Association as Administrative Agent
+• Secured credit structure through First Mortgage Bonds providing collateral protection
+• Borrower confirms compliance with all credit agreement terms and conditions
+• Successful syndication expansion demonstrates lender confidence in the credit
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial and operational details available in the increase supplement document
+• Utility sector regulatory and capital expenditure requirements, though typically managed through rate recovery
+• Facility expansion may indicate increased capital requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • Compliance with Section 2.1(f) conditions of Credit Agreement<br>• Secured by Replacement First Mortgage Bonds under Sixteenth Supplemental Indenture dated May 13, 2022 |

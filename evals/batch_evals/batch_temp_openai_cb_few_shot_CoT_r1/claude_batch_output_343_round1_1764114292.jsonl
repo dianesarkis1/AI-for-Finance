@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}]}}}
+{"custom_id": "completeness", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}]}}}
+{"custom_id": "consistency", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "{\"has_issues\": true, \"issues\": [\"Executive Summary states the increase is USD 25,000,000 but the Key Deal Terms Table shows total deal size as USD 480,000,000 with no indication this represents an increase amount versus total facility size\"]}"}]}}}
+{"custom_id": "quality_clarity", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 72.0"}]}}}
+{"custom_id": "quality_tone", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 85.0"}]}}}
+{"custom_id": "quality_length", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}
+{"custom_id": "quality_structure", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}

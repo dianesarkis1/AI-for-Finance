@@ -1,0 +1,42 @@
+## Conceptual Checklist
+
+- Extract key transaction details (parties, dates, amendment purpose)
+- Identify credit agreement modifications and their implications
+- Analyze lender consortium and borrower structure
+- Assess investment positives and risks from the amendment
+- Compile available financial terms and covenant information
+- Structure findings into required memo format with proper table
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In February 2024, CrossAmerica Partners LP and Lehigh Gas Wholesale Services, Inc. executed a first amendment to their amended and restated credit agreement with Citizens Bank, N.A. as Administrative Agent.
+- CrossAmerica Partners LP is a Delaware limited partnership in the fuel distribution and convenience retail business, supported by multiple subsidiary guarantors including LGP Operations LLC, Express Lane Inc., and various other fuel and retail operations entities.
+- The amendment facilitates the Applegreen acquisition by modifying the "Consolidated EBITDA" definition to exclude lease termination fees payable under the Applegreen Purchase Agreement from the $15,000,000 limitation on early termination fees.
+- The purpose is to provide covenant relief specifically for the acquisition of assets from Applegreen Midwest LLC and Applegreen Florida, LLC under a purchase agreement dated January 26, 2024.
+- CrossAmerica Partners operates in the fuel wholesale and convenience store sector, with this amendment supporting strategic expansion through the Applegreen asset acquisition.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong, diversified lender consortium including major institutions (Citizens Bank N.A., Bank of America, JPMorgan Chase, Wells Fargo, TD Bank, Truist Bank, and others), demonstrating broad lender confidence
+- Strategic acquisition focus with covenant accommodation showing lender support for growth initiatives
+- Comprehensive guarantee structure with multiple subsidiary guarantors providing enhanced credit support
+- All existing loan documents, collateral, and guarantees remain in full force and effect
+
+### Principal Risks and Mitigating Factors:
+- Borrower-favorable covenant modification that removes limitations on acquisition-related lease termination costs, potentially increasing financial flexibility at lenders' expense
+- Limited visibility into overall credit facility size, pricing, maturity, and other key financial metrics
+- Amendment tied to specific acquisition execution, creating dependency on successful transaction completion
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Consolidated EBITDA calculation modified to exclude lease termination fees under Applegreen Purchase Agreement from $15,000,000 limitation on early termination fees • All existing covenants, collateral documents, and guarantees reaffirmed and remain in full force and effect • Amendment effectiveness conditioned on completion of initial closing under Applegreen Purchase Agreement |

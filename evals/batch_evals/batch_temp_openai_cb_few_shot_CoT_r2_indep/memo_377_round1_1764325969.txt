@@ -1,0 +1,41 @@
+## Checklist of Analysis Steps:
+- Extract key transaction dates, parties, and amendment structure
+- Identify borrowers, administrative agent, and lender consortium
+- Analyze the amendment's purpose and any facility upsize mentioned
+- Assess credit positives and risks from lender perspective
+- Compile available deal terms while marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-03-31
+
+**Borrower/Company Overview:** The borrowers comprise five entertainment library financing entities: LGTV Library Financing LLC, Artisan Library Financing LLC, Summit Library Financing LLC, LG Film Library Financing LLC, and LGIM Library UK Financing Limited, each supported by corresponding parent holding companies.
+
+**Transaction Description:** Amendment No. 2 to an Amended and Restated Credit, Security and Pledge Agreement among the borrowers, their parent companies, a consortium of thirteen lenders, and Fifth Third Bank as Administrative Agent. The amendment includes facility modifications and an upsize provision.
+
+**Purpose of Financing:** The amendment facilitates changes to the existing credit agreement terms and implements a facility upsize, with new loan allocation schedules among the lender group.
+
+**Company Background:** The borrowing entities operate as special purpose vehicles in the entertainment content library financing sector, structured with separate parent holding companies providing additional credit support through guarantor arrangements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Robust thirteen-bank lender consortium including major institutions (Fifth Third Bank, Wells Fargo, Truist Bank, East West Bank, Western Alliance Bank, and others) demonstrating strong institutional confidence
+• Recent facility upsize evidences lender satisfaction and borrower performance since original November 2024 agreement
+• Dual-layer credit enhancement through parent company guarantees and holding company structure
+• Entertainment library assets may provide recurring revenue streams from content licensing and distribution rights
+• Administrative Agent Fifth Third Bank brings specialized expertise in entertainment financing
+
+**Principal Risks and Mitigating Factors:**
+• Entertainment industry cyclicality and content performance volatility pose revenue uncertainty risks
+• Complex multi-entity structure across five borrowers and parents may complicate covenant monitoring and enforcement procedures
+• Limited financial covenant visibility restricts comprehensive credit risk evaluation capabilities
+• Content library valuations subject to technological disruption and evolving distribution landscape
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Facility upsize with modified terms per Annex A<br>• No Event of Default or Default permitted before or after amendment effectiveness<br>• All guarantor obligations remain in full force and effect<br>• Borrowers responsible for Administrative Agent expenses including legal counsel fees |

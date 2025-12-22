@@ -1,0 +1,41 @@
+## Checklist
+
+- Identify the key parties, transaction date, and structure from the credit agreement
+- Extract the specific purpose and nature of the modification (maturity extension)
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure professional tone and format consistent with investment memo standards
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-11-26
+
+**Borrower/Company Overview:** IPC Alternative Real Estate Operating Partnership, LP is a Delaware limited partnership engaged in real estate operations, with its principal place of business at 2901 Butterfield Rd, Oak Brook, IL 60523.
+
+**Transaction Description:** This transaction represents a modification to an existing revolving credit facility between IPC Alternative Real Estate Operating Partnership, LP (Borrower) and Inland Private Capital Corporation (Lender). The modification extends the maturity date of the $22.5 million revolving credit facility by one year.
+
+**Purpose of Financing:** The modification extends the maturity date from November 30, 2024 to November 30, 2025, providing continued access to the revolving credit facility.
+
+**Company Background:** The Borrower operates as part of the Inland Private Capital organization. The original revolving credit facility was established on October 27, 2023.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Borrower maintains good standing as a Delaware limited partnership
+• Current compliance with all existing loan covenants and representations
+• Established credit relationship with facility performance history
+• Revolving structure provides operational flexibility for real estate operations
+
+**Principal Risks and Mitigating Factors:**
+• Affiliate lending arrangement between related entities
+• Early maturity extension request within one year of original facility
+• Real estate sector exposure subject to market volatility
+• Limited financial disclosure in modification document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 22,500,000 | N/A | N/A | 2025-11-30 | N/A | • Maintain good standing as Delaware limited partnership<br>• Remain duly licensed in required jurisdictions<br>• Comply with representations, warranties, and covenants from original Credit Agreement |

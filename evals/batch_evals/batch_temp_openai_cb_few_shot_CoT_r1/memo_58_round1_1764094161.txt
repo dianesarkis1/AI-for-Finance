@@ -1,0 +1,42 @@
+## Checklist:
+- Extract key parties (borrower, lenders, administrative agent) and transaction date
+- Identify transaction purpose (Third Amendment Transactions and dividend distributions)
+- Analyze key covenant modifications and financial terms
+- Assess credit strengths and risks from an investment perspective
+- Compile deal terms table with explicit information only
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-03-25
+
+**Borrower/Company Overview:** Crestwood Midstream Partners LP is a Delaware limited partnership operating as a diversified midstream energy company through an extensive network of subsidiary entities including pipeline operations, crude oil services, gas processing facilities, and transportation services across multiple geographic regions.
+
+**Transaction Description:** This Third Amendment to Second Amended and Restated Credit Agreement involves Crestwood Midstream Partners LP as borrower, Wells Fargo Bank, National Association as Administrative Agent, and a syndicated group of 20+ financial institutions as lenders. The amendment modifies the original credit agreement dated October 16, 2018.
+
+**Purpose of Financing:** The amendment permits the borrower to execute revolving facility borrowings and distribute proceeds (up to USD 275 million) to parent entities to finance complex equity restructuring transactions. Specifically, the funds will support Crestwood Equity Partners' acquisition of equity units and 100% of general partnership interests in related entities, along with associated transaction fees and expenses.
+
+**Company Background:** The borrower operates through numerous subsidiary guarantors spanning critical midstream infrastructure including Arrow Pipeline, Crestwood Crude Services, multiple state-specific pipeline entities (Ohio, Dakota, Arkansas, Appalachia), gas processing partnerships, and transportation/storage facilities, indicating substantial operational scale and geographic diversification.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong syndicate composition featuring 20+ major financial institutions including Wells Fargo (Administrative Agent), Bank of America, JPMorgan Chase, Citibank, Royal Bank of Canada, Barclays, and other established lenders
+• Comprehensive subsidiary guarantor structure with 30+ operating entities providing enhanced credit support
+• Borrower confirms no defaults or events of default as of amendment effective date
+• All existing loan documents, parent guarantees, and security arrangements remain in full force
+• Lenders receive consent fee of 0.05% of revolving facility commitments, indicating positive risk-adjusted returns
+
+**Principal Risks and Mitigating Factors:**
+• Significant cash outflow risk from permitted dividend distributions up to USD 275 million, potentially reducing liquidity available for operations and debt service
+• Complex ownership restructuring introduces execution risk and potential operational disruptions during transition period
+• Modified change of control definitions (35% threshold for third-party acquisitions) may affect future covenant monitoring and compliance requirements
+• Limited visibility into current financial performance metrics, debt capacity utilization, or pro forma leverage following proposed distributions
+• Amendment effectiveness contingent on concurrent completion of unit purchase transactions, creating interdependent closing conditions
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| N/A | N/A | N/A | N/A | N/A | • Maximum dividend/distribution authorization: USD 275.0 million for Third Amendment Transactions<br>• Change in Control trigger: 35% third-party equity acquisition threshold in Crestwood Equity Partners<br>• Original credit agreement dated: October 16, 2018<br>• Lender consent fee: 0.05% of revolving facility commitments<br>• Amendment effectiveness deadline: April 9, 2021<br>• All existing guarantees and loan documents reaffirmed |

@@ -1,0 +1,40 @@
+# Conceptual Checklist
+
+- Identify key transaction parties and amendment date
+- Analyze the nature of the credit facility modification (pricing adjustment)
+- Extract specific terms from the pricing grid in Annex I
+- Assess credit strengths and risks from an investor perspective
+- Compile available financial terms while noting limitations in disclosed information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 10, 2021, Affiliated Managers Group, Inc. (AMG), a Delaware corporation, executed a Second Amendment to its Third Amended and Restated Term Credit Agreement with Bank of America, N.A. as Administrative Agent and Lender.
+- The original Third Amended and Restated Term Credit Agreement was dated January 18, 2019.
+- The amendment's primary purpose is to modify the "Applicable Margin" pricing structure contained in Annex I of the Credit Agreement, replacing the existing pricing grid with new rates based on debt ratings from S&P, Moody's, and Fitch.
+- AMG operates as an investment management company that partners with boutique asset management firms globally, providing capital and strategic support to independent investment managers.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong credit profile evidenced by investment-grade debt rating requirements (A+ to BBB levels) in the pricing grid, indicating institutional-quality credit
+- Established banking relationship with Bank of America, N.A. as both Administrative Agent and Lender
+- The borrower represents that no Default or Event of Default has occurred and is continuing
+- All existing loan covenants and terms remain in full force and effect, providing continued lender protection
+
+### Principal Risks and Mitigating Factors:
+- Limited disclosure of specific financial metrics, deal size, or maturity terms constrains comprehensive credit assessment
+- The amendment appears to adjust pricing terms, but without comparison to previous rates, the directional impact on borrowing costs is unclear
+- Investment management industry exposure creates sensitivity to market volatility and asset-based fee structures
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Rating-based pricing: A+ level at 0.725% margin for Eurodollar loans, scaling to BBB level at 1.225% margin for Eurodollar loans; ABR loans range from 0.000% to 0.225% margin |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | All existing loan document covenants ratified and confirmed in full force and effect. Pricing adjustments based on publicly announced debt rating changes from S&P/Moody's/Fitch |

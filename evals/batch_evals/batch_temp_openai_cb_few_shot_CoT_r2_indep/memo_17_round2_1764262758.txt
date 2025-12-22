@@ -1,0 +1,43 @@
+## Checklist
+
+- Extract key agreement details (parties, dates, transaction structure)
+- Identify the borrower entity and lender consortium details
+- Analyze the purpose and nature of the amendments being made
+- Review any financial terms, covenants, or conditions mentioned
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with all explicitly stated information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-11-30
+
+**Borrower/Company Overview:** America First Multifamily Investors, L.P. is a limited partnership with America First Capital Associates Limited Partnership Two as its general partner, which in turn is managed by Greystone AF Manager LLC.
+
+**Transaction Description:** First Amendment to Credit Agreement originally dated June 11, 2021, between America First Multifamily Investors, L.P. as Borrower and a lender group led by BankUnited, N.A. as Administrative Agent, with Bankers Trust Company as participating lender.
+
+**Purpose of Financing:** The amendment restructures guarantor arrangements by formally designating Greystone Select Incorporated as guarantor and updates lender consent provisions for borrower releases.
+
+**Company Background:** America First Multifamily Investors, L.P. operates under Greystone-affiliated management, indicating focus on multifamily real estate investments with institutional oversight.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Guarantor support from Greystone Select Incorporated enhances credit profile
+• First priority perfected security interests in all collateral maintained by Administrative Agent
+• No existing Events of Default reported as of amendment date
+• Institutional management through Greystone affiliates
+• Comprehensive documentation including environmental indemnities
+
+**Principal Risks and Mitigating Factors:**
+• Amendment contains no financial terms or performance metrics for assessment
+• General release provisions suggest potential prior lender relationship issues
+• Credit assessment limited by lack of financial data in documentation
+• Performance dependent on guarantor financial strength
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • First priority perfected liens on all collateral<br>• Greystone Select Incorporated guaranty (dated 2021-11-30)<br>• Environmental indemnity requirements<br>• Compliance with original Credit Agreement covenants |

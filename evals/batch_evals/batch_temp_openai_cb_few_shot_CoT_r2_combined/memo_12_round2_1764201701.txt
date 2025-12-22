@@ -1,0 +1,44 @@
+## Analysis Checklist
+
+- Identify the transaction type and parties involved in this September 2024 joinder agreement
+- Extract key financial terms and covenant details from the credit facility structure
+- Analyze the merger transaction context and new borrower integration
+- Assess credit strengths from the established banking relationships and collateral structure
+- Evaluate risks related to corporate integration and post-closing requirements
+- Compile deal terms table with available information, marking unavailable fields as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-09-06
+
+**Transaction Overview:** Three new borrowers (Innovex Downhole Solutions, LLC, Innovex International, Inc., and TIW Corporation) joined an existing credit facility through a joinder agreement with PNC Bank National Association as agent. The original credit agreement parties include Innovex Downhole Solutions, Inc., the existing borrowers (Tercel Oilfield Products USA L.L.C., Pride Energy Services, LLC, and Top-Co Inc.), all operating in the oilfield services sector.
+
+**Transaction Structure:** This joinder agreement integrates entities resulting from the Dril-Quip Merger into an existing Second Amended and Restated Revolving Credit, Term Loan, Guaranty and Security Agreement dated June 10, 2022. The facility includes revolving credit, term loan, and swing loan components with PNC Bank as administrative agent and U.S. Bank National Association as participating lender.
+
+**Purpose:** Integration of new entities from corporate merger into existing credit facility, providing joint and several liability structure across expanded borrower base.
+
+**Company Background:** The transaction stems from Innovex's merger with DQ Merger Sub, LLC, creating an integrated oilfield services platform. Dril-Quip, Inc. changed its name to Innovex International, Inc. prior to the merger, with the surviving entity becoming Innovex Downhole Solutions, LLC.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationships with multiple amendments demonstrating ongoing lender support since 2022
+• Comprehensive security package including continuing security interests and liens on all collateral
+• Joint and several liability across all borrowers enhances credit protection
+• Professional management with unified leadership under Adam Anderson as CEO
+• Detailed post-closing covenant framework ensures proper integration and documentation
+
+**Principal Risks and Mitigating Factors:**
+• Corporate integration complexity from merger transaction may create operational challenges
+• Execution risk from extensive post-closing requirements across multiple timeframes (5-65 days)
+• History of frequent amendments suggests potential ongoing covenant management issues
+• Limited financial visibility into combined entity performance metrics from joinder document alone
+• New borrowers excluded from Canadian Transaction Documents may limit operational flexibility
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Joint and several liability across all borrowers<br>• Security interests in all collateral free of liens (except Permitted Encumbrances)<br>• Specific collateral delivery: original stock certificate no. 22 for TIW Corporation equity interests and original stock certificate for Dril-Quip International LLC, both with undated stock powers (5 business days)<br>• Insurance certificates (10 days), endorsements (30 days)<br>• Intellectual property assignments and filings (30-45 days)<br>• Deposit account control agreements (65 days)<br>• New Borrowers excluded from Canadian Transaction Documents |

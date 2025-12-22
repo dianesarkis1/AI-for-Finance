@@ -1,0 +1,41 @@
+# Checklist
+- Extract the key transaction details and parties from this consent agreement document
+- Identify the specific purpose and scope of the consent being granted
+- Compile any available quantitative deal terms explicitly stated in the document
+- Assess investment strengths and risks from a credit perspective
+- Structure the analysis into three required sections with standardized table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-09-15
+
+**Borrower/Company Overview:** F45 Training Holdings Inc., a Delaware corporation, operates in the fitness training industry with global operations including Australia (as evidenced by the Australian Security Trustee designation).
+
+**Transaction Description:** This is a consent agreement under an existing Amended and Restated Credit Agreement originally dated August 13, 2021. The transaction involves F45 Training Holdings Inc. as borrower, JPMorgan Chase Bank N.A. as Administrative Agent and Australian Security Trustee, and a lending syndicate including Goldman Sachs Bank USA.
+
+**Purpose of Financing:** The consent extends the delivery deadline for F45's audited consolidated financial statements for fiscal year 2022 and related Compliance Certificate from the original due date of March 31, 2023 to September 30, 2023.
+
+**Company Background:** F45 Training Holdings Inc. has an established credit facility that has undergone multiple amendments since inception (December 2021, May 2022, February 2023, and June 2023), indicating an active and evolving credit relationship with its banking syndicate.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional banking relationships with tier-one lenders JPMorgan Chase Bank N.A. and Goldman Sachs Bank USA
+• Borrower affirms no Default or Event of Default exists as of the consent date
+• All existing credit terms, covenants, and security arrangements remain fully effective
+• Cooperative lender stance evidenced by consent approval and comprehensive release provisions
+• International operational presence with established Australian security arrangements
+
+**Principal Risks and Mitigating Factors:**
+• Delayed financial reporting (six-month extension from March to September 2023) may signal accounting complexities or operational challenges
+• History of frequent credit agreement modifications (four amendments in two years) suggests ongoing covenant management requirements
+• Limited current financial performance visibility due to delayed reporting
+• Risk mitigated by borrower's representation of no existing defaults and maintained lender support
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Extension of audited consolidated financial statements delivery for fiscal year 2022 to September 30, 2023<br>• Extension of accompanying Compliance Certificate delivery to September 30, 2023<br>• All other existing financial covenants and loan document terms remain in full force and effect |

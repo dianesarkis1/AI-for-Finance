@@ -1,0 +1,41 @@
+## Conceptual Checklist
+
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify Square Inc.'s PPP-related facility changes and Goldman Sachs' role as Administrative Agent
+- Analyze credit positives from lender consortium and COVID-related government program participation
+- Assess risks related to regulatory changes and limited financial covenant visibility
+- Compile deal terms table noting missing pricing and maturity information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-01-28
+
+**Borrower/Company Overview:** Square, Inc. serves as the borrower under this revolving credit facility, with Goldman Sachs Bank USA acting as Administrative Agent and a consortium of major financial institutions as lenders.
+
+**Transaction Description:** This transaction represents a third amendment to Square's existing revolving credit agreement originally dated May 1, 2020. The lending syndicate includes Goldman Sachs Bank USA (as both Administrative Agent and Lender), JPMorgan Chase Bank N.A., Wells Fargo Bank N.A., Sumitomo Mitsui Banking Corporation, HSBC Bank USA National Association, and U.S. Bank National Association.
+
+**Purpose of Financing:** The amendment primarily serves to update regulatory definitions related to COVID-19 relief programs and increase Square's capacity to participate in the Paycheck Protection Program Liquidity Facility (PPPLF), raising the permitted aggregate principal amount to $1,000,000,000 outstanding at any time.
+
+**Company Background:** Square, Inc. operates as a financial services and digital payments company. The amendment reflects the company's strategic participation in federal COVID-19 relief programs, specifically updating references to accommodate changes under the Consolidated Appropriations Act, 2021.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional backing from a high-quality lending consortium including Goldman Sachs, JPMorgan Chase, Wells Fargo, and other top-tier financial institutions
+• Borrower maintains full compliance with existing covenants and representations, with no defaults or events of default
+• Strategic access to government-backed liquidity programs provides additional financial flexibility during market uncertainty
+• Amendment demonstrates proactive capital management and regulatory compliance
+
+**Principal Risks and Mitigating Factors:**
+• Significant increase in PPPLF borrowing capacity to $1 billion may signal potential liquidity pressures or market stress related to COVID-19 impacts
+• Reliance on government programs creates exposure to regulatory changes or program termination risk
+• Limited financial covenant visibility in amendment restricts comprehensive credit risk assessment
+• Amendment structure maintains all existing loan document terms, providing continuity of borrower obligations
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Specified Indebtedness incurred pursuant to the PPPLF not to exceed $1,000,000,000 aggregate principal amount outstanding at any time<br>• All existing representations and warranties must remain true and correct in all material respects<br>• No Default or Event of Default permitted under the Credit Agreement |

@@ -1,0 +1,42 @@
+# Analysis Checklist
+
+- Extract key parties, dates, and transaction structure from the amendment document
+- Identify the specific amendments being made to the existing credit agreement
+- Analyze the business purpose and context of the Applegreen acquisition
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms and covenant modifications
+- Ensure all required sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-02-20
+
+**Borrower / Company Overview:** CrossAmerica Partners LP, a Delaware limited partnership, and Lehigh Gas Wholesale Services, Inc., a Delaware corporation, operating in the fuel distribution and convenience store sector.
+
+**Transaction Description:** First Amendment to Amended and Restated Credit Agreement with Citizens Bank, N.A. as Administrative Agent and a syndicate of lenders including Bank of America, JPMorgan Chase, Wells Fargo, TD Bank, Truist, and other major financial institutions.
+
+**Purpose of Financing:** The amendment facilitates CrossAmerica's acquisition of assets from Applegreen Midwest LLC and Applegreen Florida, LLC through buyer CAPL Retail LLC pursuant to the Applegreen Asset Purchase Agreement dated January 26, 2024.
+
+**Company Background:** CrossAmerica Partners LP operates as a substantial player in the fuel retail and wholesale market, supported by multiple subsidiary entities including LGP Operations LLC, Express Lane Inc., Erickson Oil Products Inc., and various retail operations. The company's scale is evidenced by its ability to maintain relationships with a broad syndicate of major U.S. financial institutions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking syndicate comprising major U.S. financial institutions (Citizens Bank, Bank of America, JPMorgan Chase, Wells Fargo, TD Bank, Truist, MUFG, and others), demonstrating broad lender confidence
+• Strategic acquisition through CAPL Retail LLC of Applegreen assets suggests growth-oriented management focused on expanding market presence
+• Amendment represents accommodation rather than distress, with lenders providing covenant flexibility to facilitate expansion
+• Comprehensive guarantor structure with multiple subsidiary entities providing credit enhancement
+• All existing loan documents, collateral arrangements, and guarantees remain in full force and effect
+
+**Principal Risks and Mitigating Factors:**
+• Amendment makes covenant calculations more borrower-friendly by excluding acquisition-related lease termination costs, potentially masking underlying EBITDA impact
+• Limited financial information available to assess overall credit profile or debt capacity
+• Acquisition integration risks associated with the Applegreen transaction, mitigated by experienced management in fuel retail sector and comprehensive due diligence requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified "Consolidated EBITDA" definition excludes lease termination fees under Applegreen Purchase Agreement from $15,000,000 aggregate limitation on early termination fees<br>• All existing covenants, collateral documents, and guarantees reaffirmed and remain in full force and effect |

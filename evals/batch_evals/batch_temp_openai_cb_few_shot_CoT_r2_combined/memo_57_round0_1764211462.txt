@@ -1,0 +1,40 @@
+## Checklist:
+- Identify key transaction details: parties, dates, amendment purpose
+- Extract information about the Adenza Holdings acquisition driving this amendment
+- Analyze the leverage ratio covenant modifications and stepped-down structure
+- Assess credit strengths from lender consortium and acquisition context
+- Note risks from relaxed covenants and information limitations
+- Populate deal terms table with available data, marking unavailable fields as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 16, 2023, Nasdaq, Inc. executed Amendment No. 2 to its Amended and Restated Credit Agreement with Bank of America, N.A. as Administrative Agent and a syndicate of lenders.
+- Nasdaq, Inc., a Delaware corporation, serves as the Borrower in this credit facility that was originally amended and restated on December 16, 2022, with a prior Amendment No. 1 executed on March 29, 2023.
+- The amendment facilitates Nasdaq's acquisition of Adenza Holdings, Inc. pursuant to an Agreement and Plan of Merger dated June 10, 2023. The transaction involves Nasdaq acquiring Adenza through merger subsidiaries Argus Merger Sub 1, Inc. and Argus Merger Sub 2, LLC.
+- The primary purpose is to modify leverage ratio covenants in Section 6.06 to accommodate the increased leverage from the Adenza acquisition, establishing a stepped-down covenant structure over time and providing for a future "Subsequent Acquisition Holiday" for one additional acquisition.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong lender consortium including premier financial institutions (Bank of America, Goldman Sachs Bank USA, Citibank, JPMorgan Chase, Morgan Stanley Bank, Wells Fargo, and others), indicating broad market confidence
+- Borrower representations confirm no defaults exist and all prior representations remain accurate
+- Structured step-down in leverage covenant demonstrates commitment to deleveraging over time
+- Nasdaq's established market position as a leading financial technology and market infrastructure provider
+
+### Principal Risks and Mitigating Factors:
+- Significant relaxation of leverage covenant from current levels to 4.75x initially, representing increased credit risk
+- Amendment provides additional flexibility for future acquisitions through "Subsequent Acquisition Holiday" provision, potentially enabling further leverage increases
+- Limited visibility into deal size, pricing, or other financial maintenance covenants beyond leverage ratio
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Leverage Ratio covenant structure: 4.75x through Q4 post-acquisition, stepping down to 4.25x (Q5-Q6), 4.00x (Q7-Q8), 3.75x (Q9-Q10), and 3.50x thereafter. One-time "Subsequent Acquisition Holiday" allows leverage up to 4.50x for future acquisitions with structured step-down. All other loan document terms ratified and confirmed. |

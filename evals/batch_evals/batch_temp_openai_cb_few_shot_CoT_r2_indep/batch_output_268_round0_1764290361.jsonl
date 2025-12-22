@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Per-lender aggregate revolving commitments after the increase: Wells Fargo Bank, National Association \u2013 $75,000,000; Fifth Third Bank, National Association \u2013 $60,000,000; Renasant Bank \u2013 $15,000,000"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists 'multiple subsidiary entities' as a credit positive (more guarantors/diversification) and also as a risk (organizational complexity), i.e., the same factor is both a strength and a weakness.\", \"It claims the REIT structure provides transparency and regulatory oversight typical of public vehicles, yet also states there is limited financial/covenant information available to assess current credit metrics.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 58.0"}}]}}}

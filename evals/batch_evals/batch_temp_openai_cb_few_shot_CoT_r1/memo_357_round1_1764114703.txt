@@ -1,0 +1,39 @@
+## Checklist
+- Identify key transaction parties and amendment date
+- Extract details about the credit agreement structure and amendment purpose  
+- Analyze the specific technical correction being made to Section 6.01(v)(1)(ii)
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-08-26
+
+**Borrower/Company Overview:** Lumen Technologies, Inc., a Louisiana corporation, serves as the Borrower under a Superpriority Term B Credit Agreement with Wilmington Trust, National Association as Administrative Agent and Bank of America, N.A. as Collateral Agent.
+
+**Transaction Description:** Amendment No. 1 to the Superpriority Term B Credit Agreement originally dated March 22, 2024, executed to make a technical correction to Section 6.01(v)(1)(ii) regarding Incremental Equivalent Debt provisions.
+
+**Purpose of Financing:** This amendment serves a purely corrective purpose - to cure an error in the original loan documentation related to the terms and conditions governing Incremental Equivalent Debt incurrence.
+
+**Company Background:** Lumen Technologies is a telecommunications company operating under a complex capital structure that includes this superpriority-ranked Term B credit facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong administrative infrastructure with reputable financial institutions (Wilmington Trust and Bank of America) managing the facility
+• Proactive loan document maintenance demonstrates attention to technical compliance
+• Superpriority structure provides senior ranking in the capital structure
+• Comprehensive restrictions on incremental debt protect existing lenders' position
+
+**Principal Risks and Mitigating Factors:**
+• The superpriority facility structure may indicate underlying credit stress or restructuring circumstances
+• Limited financial performance visibility from this technical amendment
+• Amendment provides minimal insight into current business operations or liquidity position
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Incremental Equivalent Debt limited to Borrower/Lumen Guarantors/QC Guarantors only • If secured, restricted to existing Collateral • Must maintain Weighted Average Life to Maturity no shorter than Term B Loans • Prohibited from maturity, mandatory redemption, repurchase, prepayment or sinking fund obligations prior to Latest Maturity Date (except customary change of control, asset sale, equity offering exceptions) • Final maturity must be no earlier than Latest Maturity Date • Subject to Subordination Agreement as "Subordinated Debt" • Cannot rank senior to any Obligations in payment or lien priority |

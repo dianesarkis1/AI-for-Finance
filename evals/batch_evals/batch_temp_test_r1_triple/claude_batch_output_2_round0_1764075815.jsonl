@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}]}}}
+{"custom_id": "completeness", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "ANSWER: YES\n\nMISSING_TERMS:\nExtension fee of 5 basis points on lender commitments, Undrawn fee of 1.25% at Level 5 pricing"}]}}}
+{"custom_id": "consistency", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "{\"has_issues\": true, \"issues\": [\"The memo states the maturity date is 2021-03-31 but this refers to the Extended Waiver Period end date, not the actual credit facility maturity date, creating confusion about the loan's actual term\"]}"}]}}}
+{"custom_id": "quality_clarity", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 78.0"}]}}}
+{"custom_id": "quality_tone", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 85.0"}]}}}
+{"custom_id": "quality_length", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}
+{"custom_id": "quality_structure", "result": {"type": "succeeded", "message": {"model": "claude-sonnet-4-20250514", "content": [{"type": "text", "text": "SCORE: 45.0"}]}}}

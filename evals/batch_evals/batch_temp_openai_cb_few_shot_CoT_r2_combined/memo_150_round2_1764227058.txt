@@ -1,0 +1,42 @@
+## Checklist of Analysis Steps:
+- Extract key transaction details including dates, parties, and structure from the third amendment
+- Identify the borrower company and transaction counterparties
+- Analyze the specific lockbox account modifications and enhanced collection procedures
+- Assess credit implications of increased lender oversight and control mechanisms
+- Evaluate available covenant and control provisions from investor perspective
+- Structure findings into executive summary, investment analysis, and deal terms table
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-05-10
+
+**Borrower / Company Overview:** Sight Sciences, Inc., a Delaware corporation, operates as the borrower under a revolving credit facility with MidCap Funding IV Trust serving as both Agent and Lender.
+
+**Transaction Description:** Third Amendment to Amended and Restated Credit and Security Agreement (Revolving Loan), modifying an existing credit facility originally established November 23, 2020. The amendment enhances lender control over borrower cash collections through revised lockbox account procedures and collection mechanisms.
+
+**Purpose of Financing:** The amendment implements enhanced cash management controls by establishing a "Lockbox Activation Date" framework and requiring all account receivable collections flow through controlled lockbox accounts with daily sweeps to lender-controlled payment accounts.
+
+**Company Background:** Sight Sciences appears to operate a business generating account receivables from customers (Account Debtors), requiring structured collection procedures under the credit facility. The company maintains sufficient scale to warrant institutional credit arrangements with Apollo Capital Management-affiliated lending entities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• **Institutional Backing**: Credit facility with MidCap Funding IV Trust, managed by Apollo Capital Management, L.P., providing access to sophisticated institutional capital markets
+• **Enhanced Cash Control**: Lockbox activation framework provides lenders with direct oversight and daily reconciliation of receivables collections, improving cash flow visibility
+• **Clean Credit Status**: Borrower representations confirm no existing Defaults or Events of Default under any Financing Documents as of amendment date
+• **Maintained Security Package**: All existing security interests, liens, and collateral arrangements remain in full force and effect, preserving lender protection
+• **Operational Flexibility**: Individual account debtors permitted to pay directly to borrowers, maintaining customer relationship flexibility while ensuring lender oversight
+
+### Principal Risks and Mitigating Factors:
+• **Increased Oversight Requirements**: Enhanced lockbox controls and daily reconciliation mandates may signal underlying lender concerns regarding borrower cash management or credit deterioration
+• **Operational Constraints**: Post-activation restrictions on lockbox account modifications and withdrawal capabilities could limit financial flexibility during operational challenges
+• **Funding Suspension Risk**: Failure to reconcile more than 20% of collections within 10 business days triggers lender right to cease further advances, creating potential liquidity pressure
+• **Comprehensive Release Provisions**: Borrower provides broad legal releases to lenders for past actions, potentially limiting recourse for any disputed lender conduct
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants or Financial Maintenance Terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • **Lockbox Activation**: Commences 5 business days prior to initial Revolving Loan borrowing<br>• **Collection Control**: All Account Debtor payments must flow through Lockbox Accounts post-activation (except individual debtors)<br>• **Daily Sweep**: Lockbox funds transferred to Payment Account by close of each business day<br>• **Account Restrictions**: Post-activation prohibitions on borrower withdrawals from lockbox accounts and modification of sweep instructions<br>• **Reconciliation Standard**: >20% unreconciled collections during 15-day period within 10 business days triggers lender right to suspend further advances<br>• **Documentation Requirements**: Deposit Account Control Agreement required 5 business days before initial borrowing<br>• **Security Reaffirmation**: All existing security interests and collateral liens maintained in full force and effect |

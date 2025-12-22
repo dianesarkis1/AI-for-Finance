@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists 'Senior secured structure provides enhanced creditor protection through collateral backing' as a key strength, but also states as a risk that 'collateral details [are] not disclosed.' It is a contradiction to positively assess the quality of creditor protection while admitting the details required for such an assessment are unknown.\", \"The memo presents several 'Key Strengths / Credit Positives' as the result of an analysis, yet it separately states that 'Limited financial information available... restricts comprehensive credit assessment.' This contradicts the implicit claim that a sufficiently thorough analysis was performed to validate the strengths listed.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

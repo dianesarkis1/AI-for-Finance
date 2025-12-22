@@ -1,0 +1,42 @@
+## Checklist
+
+- Extract key transaction details including borrower, lenders, and dates
+- Identify the primary purpose of the amendment (maturity extension)
+- Analyze credit strengths and risks from an investor perspective
+- Compile available financial terms into the required table format
+- Ensure all information is directly sourced from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-09
+
+**Borrower / Company Overview:** Blackstone Private Credit Fund, a Delaware statutory trust, serves as the Borrower under this senior secured credit facility.
+
+**Transaction Description:** Amendment No. 1 and Extension Agreement to the Amended and Restated Senior Secured Credit Agreement originally dated May 6, 2022. The transaction involves Blackstone Private Credit Fund as Borrower, with Citibank N.A. as Administrative Agent and a syndicate of existing lenders.
+
+**Purpose of Financing:** The amendment extends the maturity date from May 6, 2027 to June 9, 2028 for consenting lenders, creating a dual-maturity structure where some lenders maintain the original 2027 maturity while others extend to 2028.
+
+**Company Background:** Blackstone Private Credit Fund operates as a private credit investment vehicle under the Blackstone organization. The facility includes both revolving dollar commitments, revolving multicurrency commitments, and term loans, with the extension applying to both revolving and term facilities for participating lenders.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Blue-chip sponsor with Blackstone, one of the world's largest alternative asset managers with strong track record in private credit
+• Extensive syndicate of premier financial institutions including Citibank (Administrative Agent), JPMorgan Chase, Bank of America, Wells Fargo, Goldman Sachs, Morgan Stanley, Deutsche Bank, BNP Paribas, and other major global banks
+• Successful maturity extension demonstrates continued lender support and confidence in the credit
+• Borrower represents compliance with all covenants and no defaults or events of default as of the amendment date
+• Dual-maturity structure provides flexibility with some lenders extending while maintaining existing relationships
+
+**Principal Risks and Mitigating Factors:**
+• Private credit fund structure creates exposure to underlying portfolio company performance and market conditions
+• Dual-maturity structure (2027 vs 2028) could create refinancing pressure if non-extending lenders don't roll at the 2027 maturity
+• Limited visibility into specific financial metrics, portfolio composition, or borrowing base requirements
+• Interest rate and pricing terms not disclosed, limiting assessment of credit spread and cost structure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | Extension fees payable to 2028 Lenders plus Administrative Agent legal expenses | N/A | 2028-06-09 (for extending lenders), 2027-05-06 (for non-extending lenders) | N/A | • Borrowing Base Certificate required within 5 days prior to amendment effective date<br>• All liens limited to those permitted under Section 6.02 of credit agreement<br>• No defaults or events of default continuing as of amendment date |

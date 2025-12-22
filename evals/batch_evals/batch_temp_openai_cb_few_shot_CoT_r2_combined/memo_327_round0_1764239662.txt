@@ -1,0 +1,39 @@
+## Checklist of Approach:
+- Extract key transaction details including parties, dates, and transaction type
+- Identify the borrower (HPS Corporate Lending Fund) and transaction structure (commitment increase)
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms table using only explicitly stated information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On January 17, 2024, HPS Corporate Lending Fund executed a commitment increase agreement for its senior secured revolving credit facility with JPMorgan Chase Bank, N.A. as Administrative Agent.
+- HPS Corporate Lending Fund serves as the Borrower under a Senior Secured Revolving Credit Agreement originally dated June 23, 2022 (as amended by Amendment No.1 dated October 30, 2023).
+- The transaction involves Deutsche Bank AG New York Branch joining as an "Increasing Lender" to provide an additional commitment of $25,000,000 to the existing credit facility.
+- The purpose of this transaction is to increase the aggregate amount of commitments available under the existing revolving credit facility, providing additional liquidity capacity to HPS Corporate Lending Fund.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with tier-1 financial institutions including JPMorgan Chase Bank, N.A. as Administrative Agent and Deutsche Bank AG as participating lender
+- Successful track record of facility amendments and increases, indicating continued lender confidence and borrower's ability to maintain banking relationships
+- Senior secured structure provides enhanced creditor protection through collateral backing
+- Revolving credit facility structure offers operational flexibility for the borrower's funding needs
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available in the commitment increase documentation restricts comprehensive credit assessment
+- Corporate lending fund structure may involve concentration risks depending on underlying portfolio composition
+- Information on pricing, financial covenants, and collateral details not disclosed in this particular document
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | N/A |

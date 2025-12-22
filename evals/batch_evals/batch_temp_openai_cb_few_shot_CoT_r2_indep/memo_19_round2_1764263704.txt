@@ -1,0 +1,41 @@
+## Planning Checklist
+
+I will:
+- Extract essential information from the Third Amendment to Credit Agreement
+- Focus on the administrative nature of the amendments (account definitions and securities intermediary changes)
+- Provide concise, focused analysis without excessive detail
+- Structure content for clarity and professional presentation
+- Use only explicitly stated information from the document
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2023-06-27
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP is a Delaware limited partnership, formerly known as America First Multifamily Investors, L.P.
+
+**Transaction Description:** Third Amendment to Amended and Restated Credit Agreement between Greystone Housing Impact Investors LP (Borrower) and Bankers Trust Company (Lender), modifying administrative definitions within the existing credit facility.
+
+**Purpose of Financing:** Administrative amendment to update the Pledged Account designation and formally appoint Wilmington Trust, National Association as Securities Intermediary for collateral management.
+
+**Company Background:** The borrower maintains an established credit relationship with Bankers Trust Company under an Amended and Restated Credit Agreement dated August 23, 2021, previously amended in April 2022 and July 2022.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Compliance Status:** Borrower represents no Event of Default or Unmatured Event of Default has occurred
+• **Enhanced Collateral Management:** Appointment of Wilmington Trust, National Association as Securities Intermediary provides institutional custody services
+• **Stable Credit Relationship:** Established multi-year banking relationship with systematic facility maintenance
+
+**Principal Risks and Mitigating Factors:**
+• **Limited Financial Disclosure:** Amendment provides no current financial performance data; mitigated by borrower's confirmation of covenant compliance
+• **Administrative Focus:** Changes are operational rather than credit-enhancing; however, indicates stable underlying credit conditions
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • No Event of Default or Unmatured Event of Default occurring<br>• All existing covenants and warranties remain in effect<br>• Pledged Account #164283-000 maintained by Securities Intermediary<br>• Required Security Agreement and Control Agreement amendments |

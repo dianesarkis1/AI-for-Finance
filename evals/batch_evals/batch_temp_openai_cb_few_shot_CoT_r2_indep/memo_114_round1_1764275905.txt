@@ -1,0 +1,41 @@
+**Planning Checklist:**
+- Extract key transaction details from the lender joinder agreement document
+- Identify the borrower, new lender, and existing credit facility structure
+- Analyze the transaction purpose and financial terms explicitly stated
+- Assess credit positives and risks from an investment perspective
+- Compile deal terms table with only explicitly available information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-12
+
+**Borrower/Company Overview:** MSCC Funding I, LLC, a Delaware limited liability company, serves as the borrower under a revolving credit and security agreement. The entity is managed by Main Street Capital Corporation, a Maryland corporation acting as collateral manager.
+
+**Transaction Description:** This transaction represents a lender joinder whereby EverBank N.A. joins an existing syndicated revolving credit facility as an additional lender. The syndicate includes Truist Bank (administrative agent and swingline lender), Citibank N.A. (collateral agent, custodian, and document custodian), and Virtus Group LP (collateral administrator).
+
+**Purpose of Financing:** The joinder expands the lending syndicate by adding EverBank N.A. with a $75,000,000 commitment to the existing revolving credit facility, thereby increasing total available funding capacity.
+
+**Company Background:** Main Street Capital Corporation operates as the collateral manager and sole member of the borrowing entity. The structure requires lenders to maintain Qualified Purchaser status under the Investment Company Act and Qualified Institutional Buyer status under the Securities Act, indicating a sophisticated investment-grade financing arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional syndicate composition with established financial institutions (Truist Bank, Citibank N.A., EverBank N.A.)
+• Revolving credit structure provides operational flexibility and efficient capital deployment
+• Comprehensive operational framework with specialized roles for collateral management, custody, and administration
+• Regulatory compliance requirements (QP/QIB status) indicate institutional-grade structure and borrower sophistication
+• Main Street Capital Corporation sponsorship provides established business development company backing
+
+**Principal Risks and Mitigating Factors:**
+• Limited pricing transparency due to redacted commercial terms, restricting full credit assessment
+• Revolving facility creates potential exposure to utilization variability and refinancing risk
+• Investment company regulatory framework may impose operational constraints and market sensitivity
+• Collateral details not specified in joinder documentation, limiting security assessment capabilities
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Lender must maintain Qualified Purchaser status under Investment Company Act<br>• Lender must maintain QIB status under Securities Act |

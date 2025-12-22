@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Claim that AMG is an \u201cinvestment-grade rated company\u201d (the amendment does not state AMG\u2019s current ratings)."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The Bank of America single administrative agent/lender relationship is presented as both a strength (\\\"Strong banking relationship with Bank of America, N.A. serving dual role as Administrative Agent and Lender\\\") and a risk (\\\"Concentration risk with single administrative agent relationship\\\").\", \"The memo claims the pricing mechanism rewards higher credit quality with lower margins, yet the grid shows Level 2 (A/A2/A) and Level 3 (A-/A3/A-) both at 0.850% Eurodollar, so higher credit (A vs A-) does not get a lower margin.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

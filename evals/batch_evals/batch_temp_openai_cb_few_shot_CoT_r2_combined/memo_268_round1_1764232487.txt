@@ -1,0 +1,42 @@
+Based on my review of this credit agreement, I will:
+• Identify the key transaction parties and structure
+• Extract the specific terms and commitment amounts with detailed lender breakdown
+• Analyze the investment strengths and risks for this REIT credit facility
+• Compile deal terms into the required table format
+• Ensure all information comes directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-07-07
+
+**Borrower / Company Overview:** ExchangeRight Income Fund Operating Partnership, LP is a Delaware limited partnership that serves as the borrower, with ExchangeRight Income Fund (d/b/a ExchangeRight Essential Income REIT), a Maryland REIT, as the parent company.
+
+**Transaction Description:** This transaction is a Third Incremental Revolving Commitment Assumption Agreement that adds Renasant Bank as a new lender with a $15,000,000 incremental revolving commitment to an existing revolving credit facility. Wells Fargo Bank, National Association serves as Administrative Agent. The incremental commitment increases total aggregate revolving commitments from $135,000,000 to $150,000,000.
+
+**Purpose of Financing:** The financing increases the borrower's available revolving credit capacity under the existing credit agreement dated May 30, 2024, providing additional liquidity for general corporate purposes.
+
+**Company Background:** ExchangeRight operates as a real estate investment trust focused on net leased portfolio properties. The company maintains a diversified structure through multiple subsidiary entities, including ExchangeRight Essential Income Strategy Properties 6, LLC and various Delaware statutory trusts (ExchangeRight Net Leased Portfolio 3-9 DST entities) that hold portfolio properties.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong banking relationships with reputable financial institutions including Wells Fargo as Administrative Agent and Fifth Third Bank as existing lender
+• REIT structure provides operational transparency and regulatory oversight as a Maryland statutory trust
+• Diversified property portfolio held through multiple subsidiary trusts, potentially reducing concentration risk
+• Borrower representations confirm no defaults or events of default exist, indicating strong covenant compliance
+• Comprehensive guarantee structure with Parent Guaranty and Subsidiary Guaranty obligations maintained
+• All existing security interests and collateral documents remain in full force and effect
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into specific financial covenants and pricing terms as they are incorporated by reference to the underlying credit agreement
+• Real estate sector exposure subjects the borrower to property market volatility and tenant credit risks
+• Complex multi-entity organizational structure may create operational and administrative complexity
+• REIT operational requirements may limit financial flexibility
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 150,000,000 total aggregate revolving commitments (USD 15,000,000 incremental commitment; Wells Fargo Bank, NA $75,000,000; Fifth Third Bank, NA $60,000,000; Renasant Bank $15,000,000) | N/A | N/A | N/A | N/A | • Incremental revolving loans subject to same terms as initial revolving commitments<br>• All representations and warranties in Article VI of Credit Agreement reaffirmed<br>• Parent Guaranty and Subsidiary Guaranty obligations confirmed<br>• Security interests and liens under Pledge Agreement ratified and reaffirmed<br>• No Default or Event of Default exists |

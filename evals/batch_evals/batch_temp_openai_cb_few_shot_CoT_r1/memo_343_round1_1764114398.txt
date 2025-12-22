@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-09-04
+
+**Borrower/Company Overview:** Goldman Sachs Middle Market Lending Corp. II serves as the borrower under a senior secured revolving credit facility administered by Truist Bank.
+
+**Transaction Description:** This transaction represents a commitment increase request to expand an existing senior secured revolving credit agreement. The facility involves Goldman Sachs Middle Market Lending Corp. II as borrower, multiple lenders including BNP Paribas, and Truist Bank as Administrative Agent.
+
+**Purpose of Financing:** The commitment increase is designed to expand available revolving credit capacity from USD 455,000,000 to USD 480,000,000, providing additional liquidity through BNP Paribas' increased multicurrency commitment.
+
+**Company Background:** Goldman Sachs Middle Market Lending Corp. II operates as a lending entity within the Goldman Sachs organization. The original credit agreement was established on February 28, 2023, with subsequent amendments on July 31, 2023, and May 30, 2024, demonstrating an established banking relationship with ongoing modifications to meet evolving financing needs.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong sponsor affiliation with Goldman Sachs, a globally recognized investment banking and financial services firm
+• Established credit facility with multiple amendments indicating ongoing lender support and relationship management
+• Commitment increase demonstrates lender confidence and borrower's access to additional liquidity
+• Multi-bank syndicate structure with reputable institutions (Truist Bank, BNP Paribas) providing diversified funding sources
+• Multicurrency capability enhances operational flexibility
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial information available to assess underlying credit quality or covenant compliance
+• Increased facility size may elevate aggregate credit exposure
+• Incomplete documentation limits visibility into pricing, covenant structure, and security arrangements
+• Reliance on sponsor strength given limited standalone credit metrics available
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 480,000,000 | N/A | N/A | N/A | N/A | N/A |

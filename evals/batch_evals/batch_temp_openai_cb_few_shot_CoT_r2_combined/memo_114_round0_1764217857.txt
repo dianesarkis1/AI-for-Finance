@@ -1,0 +1,41 @@
+# Checklist
+
+- Identify the key parties, dates, and transaction structure from the lender joinder agreement
+- Extract the specific financial terms including commitment amounts and transaction purpose
+- Analyze credit strengths and risks from an investment perspective based on available information
+- Compile deal terms into the required table format, marking unavailable information as "N/A"
+- Ensure all sections follow the prescribed structure and professional tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 12, 2023, EverBank, N.A. executed a Lender Joinder Agreement to join an existing revolving credit facility originally established on November 22, 2022.
+- MSCC Funding I, LLC, a Delaware limited liability company, serves as the Borrower, with Main Street Capital Corporation, a Maryland corporation, acting as Collateral Manager.
+- The transaction involves EverBank joining a syndicated lending group that includes Truist Bank as Administrative Agent and Swingline Lender, Citibank N.A. as Collateral Agent, Custodian and Document Custodian, and Virtus Group, LP as Collateral Administrator.
+- The purpose of this joinder is to add EverBank as a new lender with a $75,000,000 commitment to the existing revolving credit and security agreement.
+- Main Street Capital Corporation appears to be an investment company given the references to Investment Company Act compliance requirements and Qualified Institutional Buyer (QIB) status requirements under the Securities Act.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong syndicate of established financial institutions including Truist Bank and Citibank N.A., indicating institutional confidence in the credit
+- Comprehensive collateral and administrative structure with dedicated collateral agent, custodian, and administrator roles
+- Borrower is managed by Main Street Capital Corporation, a Maryland corporation serving as collateral manager
+- Regulatory compliance requirements including Qualified Purchaser and QIB status suggest sophisticated institutional lending structure
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into overall facility size, pricing terms, or financial covenants from this joinder document alone
+- Investment Company Act requirements suggest complex regulatory environment that could impact operations
+- Document contains redacted portions marked with "[***]" which limits full transparency of terms and contact information
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | $75,000,000 (EverBank commitment; total facility size N/A) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Lender must maintain Qualified Purchaser status under Investment Company Act and QIB status under Securities Act. Pro rata funding requirements among lenders based on commitment percentages |

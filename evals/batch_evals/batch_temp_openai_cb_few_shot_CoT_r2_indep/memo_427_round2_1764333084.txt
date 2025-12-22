@@ -1,0 +1,40 @@
+## Checklist
+- Extract transaction details and structure from the consent agreement document
+- Identify covenant modifications and their financial implications
+- Analyze credit strengths and risks based on available information
+- Structure memo with clear sections and professional formatting
+- Ensure table format matches specification requirements
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-06-06
+
+**Borrower:** Oil-Dri Corporation of America
+
+**Transaction:** Consent to modify an existing credit agreement between Oil-Dri Corporation of America and BMO Harris Bank N.A. The modification amends the definitions of Consolidated EBITDA and Consolidated EBITR in the original credit agreement dated January 27, 2006.
+
+**Purpose:** The modification allows for a one-time add-back of a $5,644,000 non-cash goodwill impairment charge related to the Retail and Wholesale Reporting Segment, effective for the fiscal quarter ending April 30, 2022 and thereafter.
+
+**Company Background:** Oil-Dri Corporation of America operates through multiple domestic subsidiaries including Oil-Dri Corporation of Georgia, Oil-Dri Production Company, Mounds Production Company LLC, Blue Mountain Production Company, Amlan International, and Taft Production Company. All subsidiaries serve as guarantors under the credit facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established 16+ year banking relationship with BMO Harris Bank demonstrates institutional confidence and relationship stability
+• Proactive covenant management approach through formal modification process indicates strong financial oversight
+• All representations and warranties remain true and correct with no defaults or events of default
+• Comprehensive guarantee structure across seven subsidiary entities provides broad credit support
+• Company maintains formal compliance certification process with detailed financial covenant tracking
+
+**Principal Risks and Mitigating Factors:**
+• Material goodwill impairment of $5.644 million suggests operational challenges in Retail and Wholesale segment, though isolated to specific business unit
+• Need for covenant relief indicates potential pressure on financial maintenance ratios, mitigated by one-time nature of adjustment
+• Limited visibility into underlying financial performance and business fundamentals beyond covenant compliance framework
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Consolidated Debt Ratio: less than 0.55 to 1.0<br>• Fixed Charge Coverage Ratio: not greater than 1.50:1<br>• Modified EBITDA and EBITR definitions include $5,644,000 goodwill impairment add-back for Q2 2022 and subsequent periods |

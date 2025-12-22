@@ -1,0 +1,32 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In September 2024, Goldman Sachs Middle Market Lending Corp. II executed a commitment increase request for its senior secured revolving credit facility with Truist Bank as Administrative Agent.
+- Goldman Sachs Middle Market Lending Corp. II serves as the Borrower, with Truist Bank acting as Administrative Agent and BNP Paribas as a participating lender.
+- The original Senior Secured Revolving Credit Agreement was dated February 28, 2023, and has been previously amended twice (July 31, 2023 and May 30, 2024).
+- The purpose of this request is to increase the aggregate revolving commitments from $455,000,000 to $480,000,000, specifically by increasing BNP Paribas' Multicurrency Commitment from $25,000,000 to $50,000,000.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong sponsor affiliation with Goldman Sachs, a globally recognized investment banking and financial services firm
+- Established credit facility with multiple amendments indicating ongoing lender support and relationship management
+- Commitment increase demonstrates lender confidence and borrower's access to additional liquidity
+- Multi-bank syndicate structure with reputable institutions (Truist Bank, BNP Paribas) providing diversified funding sources
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available to assess underlying credit quality or covenant compliance
+- Increased leverage exposure through higher commitment levels may elevate credit risk
+- Information constraints limit visibility into pricing, covenants, and collateral structure
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 480,000,000 (increased from USD 455,000,000) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | N/A |

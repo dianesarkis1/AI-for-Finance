@@ -1,0 +1,42 @@
+## Checklist for Investment Memo Analysis
+
+- Identify key parties: Borrower (Crestwood Midstream Partners LP), lenders, and administrative agent
+- Extract transaction purpose: Third Amendment Transactions including unit purchases and dividend distributions
+- Analyze key amendments: Change in control provisions, dividend restrictions, and transaction carve-outs
+- Note financial terms: $275 million dividend capacity and 0.05% amendment fee structure
+- Assess credit strengths: Strong lender syndicate and midstream energy sector positioning
+- Highlight risks: Complex ownership restructuring and limited financial covenant visibility
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-03-25
+
+**Borrower/Company Overview:** Crestwood Midstream Partners LP is a Delaware limited partnership operating in the midstream energy sector with extensive operations across pipeline, crude services, gas processing, and transportation segments.
+
+**Transaction Description:** This Third Amendment to Second Amended and Restated Credit Agreement involves Crestwood Midstream Partners LP as borrower, with Wells Fargo Bank, National Association serving as Administrative Agent and a syndicate of 23+ major financial institutions as lenders.
+
+**Purpose of Financing:** The amendment facilitates "Third Amendment Transactions" whereby Crestwood Equity Partners and third-party investors will acquire equity interests and assets of Crestwood Holdings LLC and subsidiaries. To finance these acquisitions, the borrower is authorized to make revolving facility borrowings and distribute proceeds (up to $275.0 million) to parent entities.
+
+**Company Background:** Crestwood operates through numerous subsidiary entities providing comprehensive guarantor coverage across the midstream value chain, with the credit agreement originally established on October 16, 2018.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Exceptionally strong lender syndicate featuring major financial institutions including Bank of America, Barclays, Citibank, JPMorgan Chase, and Royal Bank of Canada
+• Comprehensive subsidiary guarantor structure with extensive operating entity coverage providing robust credit support
+• Borrower representations confirm no defaults or events of default continuing, indicating current covenant compliance
+• Transaction-specific amendments with defined parameters rather than broad covenant relaxation
+
+**Principal Risks and Mitigating Factors:**
+• Complex ownership restructuring introducing third-party investors may alter governance dynamics and control considerations
+• Significant dividend capacity of $275 million could impact cash flow available for debt service
+• Modified change in control provisions potentially affecting future lender protections
+• Limited visibility into underlying credit terms, pricing, and financial maintenance covenants from amendment document alone
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Amendment effective date deadline: on or before April 9, 2021<br>• Borrower may make distributions up to $275.0 million for Third Amendment Transactions<br>• Revised Change in Control definition: (i) Crestwood Equity Partners ceases to own 100% of Borrower equity interests; (ii) any Person other than Permitted Holders acquires 35% or more voting power of Crestwood Equity Partners; (iii) Change in Control under Existing Notes Indentures or Material Indebtedness; (iv) Crestwood GP ceases to be sole general partner of Borrower; (v) Crestwood Equity GP ceases to be sole general partner of Crestwood Equity Partners; (vi) Permitted Holders or Crestwood Equity Partners cease to own 100% of Crestwood Equity GP<br>• Amendment fee of 0.05% of each consenting lender's revolving facility commitment<br>• Unit Purchase completion required substantially contemporaneously with amendment effectiveness<br>• All prior loan documents and parent guarantee remain in full force and effect |

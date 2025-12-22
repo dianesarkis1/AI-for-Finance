@@ -1,0 +1,40 @@
+## Checklist
+- Identify key transaction parties and amendment date
+- Extract details about the credit agreement structure and amendment purpose  
+- Analyze the specific technical correction being made to Section 6.01(v)(1)(ii)
+- Assess credit positives and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On August 26, 2024, Lumen Technologies, Inc. and its lenders executed Amendment No. 1 to their Superpriority Term B Credit Agreement originally dated March 22, 2024.
+- Lumen Technologies, Inc., a Louisiana corporation, serves as the Borrower, with Wilmington Trust, National Association as Administrative Agent and Bank of America, N.A. as Collateral Agent.
+- This amendment represents a technical correction to fix an error in Section 6.01(v)(1)(ii) of the Credit Agreement related to Incremental Equivalent Debt provisions.
+- The purpose of this amendment is purely corrective - to cure an ambiguity, omission, error, defect or inconsistency in the original loan documentation, specifically regarding the terms and conditions governing Incremental Equivalent Debt.
+- Lumen Technologies is a telecommunications company that appears to have a complex capital structure given the "superpriority" nature of this Term B credit facility.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong administrative infrastructure with reputable financial institutions serving as Administrative Agent (Wilmington Trust) and Collateral Agent (Bank of America)
+- The amendment demonstrates proactive loan document maintenance and attention to technical details
+- Superpriority structure suggests this facility ranks highly in the capital structure
+- The corrected language provides detailed protections around incremental debt incurrence, including subordination requirements and maturity restrictions
+
+### Principal Risks and Mitigating Factors:
+- The need for a "superpriority" facility may indicate underlying credit stress or complex restructuring situation
+- Limited visibility into overall credit metrics, financial performance, or broader capital structure
+- Technical nature of amendment provides minimal insight into current business performance or liquidity position
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Incremental Equivalent Debt must have no borrower other than Lumen or guarantor other than Lumen Guarantors/QC Guarantors • If secured, can only be secured by existing Collateral • Must have Weighted Average Life to Maturity no shorter than remaining Term B Loans • Subject to Subordination Agreement as "Subordinated Debt" • Cannot rank senior to any Obligations in payment or lien priority |

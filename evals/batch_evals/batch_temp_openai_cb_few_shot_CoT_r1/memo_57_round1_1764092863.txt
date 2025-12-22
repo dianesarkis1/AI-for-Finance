@@ -1,0 +1,42 @@
+Looking at this credit agreement amendment, I will:
+
+• Identify the key transaction details and parties involved
+• Extract the specific amendments being made to leverage covenants
+• Analyze the acquisition-related provisions and their credit implications
+• Summarize the stepped-down leverage ratio requirements including full mechanics
+• Note any missing financial terms not disclosed in the amendment
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-16
+
+**Borrower / Company Overview:** Nasdaq, Inc., a Delaware corporation operating as a financial technology company providing trading, clearing, exchange technology, regulatory, and market data services globally.
+
+**Transaction Description:** Amendment No. 2 to Nasdaq's Amended and Restated Credit Agreement with Bank of America, N.A. as Administrative Agent and a syndicate of lenders. The original credit agreement was dated December 16, 2022, and was previously amended on March 29, 2023.
+
+**Purpose of Financing:** The amendment facilitates Nasdaq's acquisition of Adenza Holdings, Inc. pursuant to an Agreement and Plan of Merger dated June 10, 2023, by modifying leverage ratio covenants to accommodate the acquisition financing.
+
+**Company Background:** Nasdaq operates as a leading financial technology company with a diversified business model spanning global exchange operations, market data services, and regulatory technology solutions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong syndicate of premier financial institutions including Bank of America, Goldman Sachs, JPMorgan Chase, Citibank, Morgan Stanley, Wells Fargo, and other major banks
+• Structured step-down leverage covenant provides clear deleveraging pathway with mandatory quarterly improvements
+• Borrower maintains compliance with all existing covenants and representations as of the amendment date
+• Amendment includes disciplined provisions for future acquisition capacity with appropriate leverage constraints
+• One-time "Subsequent Acquisition Holiday" feature provides strategic flexibility while maintaining credit protection
+
+**Principal Risks and Mitigating Factors:**
+• Temporary increase in maximum leverage ratio to 4.75x immediately following the acquisition, representing elevated credit risk; mitigated by mandatory step-down schedule over 10 quarters
+• The acquisition may increase business concentration or integration risks, though specific details are not disclosed in the amendment
+• Covenant relief is time-limited with structured quarterly reductions providing progressive protection to lenders
+• Future acquisition capacity is constrained by pro forma leverage requirements and baseline covenant compliance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Maximum Leverage Ratio post-acquisition: 4.75x (quarters 1-4), 4.25x (quarters 5-6), 4.00x (quarters 7-8), 3.75x (quarters 9-10), 3.50x thereafter<br>• One-time "Subsequent Acquisition Holiday" permitted with temporary increases up to 4.50x for 8 quarters following future acquisitions<br>• Subsequent Acquisition Holiday requires: (i) baseline Leverage Ratio ≤3.50x pre-acquisition, (ii) pro forma compliance with 4.50x maximum on closing date, (iii) written notice to Administrative Agent with transaction details<br>• Holiday step-down: 4.50x (quarters 1-2), 4.25x (quarters 3-4), 4.00x (quarters 5-6), 3.75x (quarters 7-8), reverting to 3.50x thereafter |

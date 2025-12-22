@@ -1,0 +1,42 @@
+## Planning Checklist
+
+I will:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the borrower (Greystone Housing Impact Investors LP) and lender (Bankers Trust Company)
+- Analyze the specific amendments related to Pledged Account and Securities Intermediary definitions
+- Assess investment strengths and risks from a credit perspective
+- Create a deal terms table using only explicitly stated information, marking unavailable data as "N/A"
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-27
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP is a Delaware limited partnership formerly known as America First Multifamily Investors, L.P., operating as a multifamily housing investment entity.
+
+**Transaction Description:** Third Amendment to Amended and Restated Credit Agreement between Greystone Housing Impact Investors LP (Borrower) and Bankers Trust Company (Bank), modifying administrative definitions within an existing credit facility.
+
+**Purpose of Financing:** This amendment updates operational definitions for collateral management, specifically re-designating the Pledged Account as account #164283-000 and changing the Securities Intermediary to Wilmington Trust, National Association.
+
+**Company Background:** The borrower operates in the multifamily housing investment sector and maintains an established credit relationship with Bankers Trust Company dating back to the original Amended and Restated Credit Agreement of August 23, 2021, with two prior amendments in 2022.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Borrower maintains compliance with all existing covenants and confirms no Event of Default or Unmatured Event of Default has occurred
+• Enhanced collateral framework through institutional-grade custody services provided by Wilmington Trust, National Association as Securities Intermediary
+• Continuity of established credit relationship with systematic amendment process demonstrating proactive credit management
+• All existing loan documents, collateral agreements, and certificates remain in full force and effect
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial visibility from administrative amendment nature - mitigated by borrower's representations of continued compliance
+• Operational risk from Securities Intermediary transition - mitigated by Wilmington Trust's institutional reputation and updated Control Agreement requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All existing covenants, representations, and warranties from original Credit Agreement remain in full force and effect<br>• Borrower confirms no Event of Default or Unmatured Event of Default has occurred<br>• Updated collateral arrangements include Pledged Account #164283-000 maintained by Wilmington Trust, National Association as Securities Intermediary<br>• Amendment requires updated Control Agreement and Security Agreement modifications |

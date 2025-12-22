@@ -1,0 +1,40 @@
+## Checklist
+- Extract basic transaction details (parties, dates, amendment purpose)
+- Identify the core amendment to Section 6.01(v)(1)(ii) regarding Incremental Equivalent Debt provisions
+- Analyze investment implications of this technical correction
+- Compile key deal terms from available information
+- Validate all sections are complete with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-08-26
+
+**Borrower/Company Overview:** Lumen Technologies, Inc., a Louisiana corporation, serves as the borrower under a Superpriority Term B Credit Agreement with Wilmington Trust, National Association as Administrative Agent and Bank of America, N.A. as Collateral Agent.
+
+**Transaction Description:** Amendment No. 1 represents a technical correction to the original Superpriority Term B Credit Agreement dated March 22, 2024. This amendment specifically corrects an error in Section 6.01(v)(1)(ii) relating to Incremental Equivalent Debt provisions.
+
+**Purpose of Financing:** The amendment serves a purely administrative function to cure an identified documentation error under the technical modification provisions of the original credit agreement, with no changes to financial terms or credit structure.
+
+**Company Background:** Lumen Technologies operates as a telecommunications company with a complex capital structure that includes Term B Loans with superpriority status, indicating potential involvement in restructured credit arrangements.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional relationships with premier financial institutions
+• Proactive approach to documentation maintenance and legal compliance
+• Technical nature of amendment indicates no adverse changes to underlying credit terms
+• Clear governance structure with defined roles for Administrative and Collateral Agents
+
+**Principal Risks and Mitigating Factors:**
+• "Superpriority" designation suggests potential distressed credit situation or complex restructuring scenario
+• Multiple intercreditor arrangements indicate layered debt structure requiring careful monitoring
+• Amendment focuses on incremental debt provisions, potentially signaling future financing requirements
+• Limited visibility into underlying financial performance and credit metrics from available documentation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Incremental Equivalent Debt limited to Borrower and specified guarantors<br>• If secured, collateral limited to existing Collateral<br>• Weighted Average Life no shorter than Term B Loans<br>• No mandatory prepayment obligations prior to Latest Maturity Date<br>• Final maturity cannot precede Latest Maturity Date<br>• Subject to Subordination Agreement as "Subordinated Debt"<br>• Governed by First Lien/First Lien or Permitted Junior Intercreditor Agreements<br>• Cannot rank senior to existing Obligations in payment or lien priority |

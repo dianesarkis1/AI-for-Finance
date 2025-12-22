@@ -1,0 +1,42 @@
+I will analyze this credit agreement amendment and create an investment memorandum based on the available information. Let me start with a checklist of my approach:
+
+• Extract key transaction details (date, parties, amendment purpose) from the document
+• Identify the borrower profile and lending structure 
+• Analyze the amendment's impact from a credit perspective
+• Assess investment strengths and risks based on available information
+• Compile deal terms into the required table format, marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-10-30
+
+**Borrower/Company Overview:** Biodesix, Inc. is a Delaware corporation operating in the healthcare/biotechnology sector. The company maintains a credit facility with Perceptive Credit Holdings IV, LP serving as Administrative Agent and Lender.
+
+**Transaction Description:** Fourth Amendment to Credit Agreement and Guaranty between Biodesix, Inc. as borrower and Perceptive Credit Holdings IV, LP as Administrative Agent and Lender. This amendment modifies certain provisions of the existing credit agreement, with specific changes detailed in attached annexes.
+
+**Purpose of Financing:** The amendment addresses modifications to existing credit terms as requested by the borrower. The specific nature of the modifications is contained in the referenced annexes.
+
+**Company Background:** Biodesix operates in the biotechnology/healthcare space and has maintained an active credit relationship since the original Credit Agreement and Guaranty dated November 16, 2022. The facility has been previously amended three times: First Amendment dated May 10, 2023, Second Amendment dated August 4, 2023, and Third Amendment dated February 29, 2024, indicating ongoing financial management needs typical of growing biotech companies.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Specialized Lender:** Perceptive Credit Holdings IV, LP demonstrates focused healthcare/biotech lending expertise
+• **Current Compliance:** Borrower remains compliant with all representations, warranties, and covenants as of amendment execution
+• **No Credit Events:** No defaults or events of default occurring
+• **Maintained Security:** All existing liens and security interests explicitly reaffirmed
+• **Professional Management:** Executed by CFO and experienced credit fund management team
+
+**Principal Risks and Mitigating Factors:**
+• **Amendment Frequency:** Fourth amendment in 24 months suggests potential covenant pressure; mitigated by continued compliance and lender expertise
+• **Limited Transparency:** Specific modifications in separate annexes limit visibility; mitigated by reaffirmation of existing structure
+• **Sector Risks:** Biotechnology regulatory and development risks; mitigated by specialized lender experience
+• **Lender Concentration:** Single lender structure creates refinancing risk; mitigated by established relationship
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Reaffirmation of existing liens and security interests<br>• Maintenance of Article 7 representations and warranties<br>• Continued compliance with existing financial covenants<br>• No defaults or events of default permitted<br>• Execution of Fourth Amended and Restated Fee Letter |

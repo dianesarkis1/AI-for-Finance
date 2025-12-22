@@ -1,0 +1,41 @@
+Based on my review of this credit agreement, I will:
+• Identify the key transaction parties and structure
+• Extract the specific terms and commitment amounts
+• Analyze the investment strengths and risks for this REIT credit facility
+• Compile deal terms into the required table format
+• Ensure all information comes directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On July 7, 2025, ExchangeRight Income Fund Operating Partnership, LP entered into a Third Incremental Revolving Commitment Assumption Agreement to increase its revolving credit facility.
+- ExchangeRight Income Fund Operating Partnership, LP is a Delaware limited partnership that serves as the borrower, with ExchangeRight Income Fund (d/b/a ExchangeRight Essential Income REIT), a Maryland REIT, as the parent company.
+- The transaction adds Renasant Bank as a new lender with a $15,000,000 incremental revolving commitment, bringing the total aggregate revolving commitments to $150,000,000. Wells Fargo Bank, National Association serves as Administrative Agent, with existing lenders including Fifth Third Bank, National Association.
+- The purpose is to increase the borrower's available revolving credit capacity under the existing credit agreement dated May 30, 2024.
+- ExchangeRight operates as a real estate investment trust focused on net leased portfolio properties, with multiple subsidiary entities including various Delaware statutory trusts holding portfolio properties.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with reputable institutions including Wells Fargo as Administrative Agent and Fifth Third Bank as existing lender
+- REIT structure provides transparency and regulatory oversight as a Maryland statutory trust
+- Diversified property portfolio through multiple subsidiary trusts (ExchangeRight Net Leased Portfolio 3-9 DST entities)
+- Borrower representations confirm no defaults or events of default exist, indicating good covenant compliance
+- All existing guaranties, security interests, and collateral documents remain in full force and effect
+
+### Principal Risks and Mitigating Factors:
+- Limited financial covenant visibility as specific terms are incorporated by reference to the underlying credit agreement
+- Real estate sector exposure subjects the borrower to property market cycles and tenant credit risks
+- Complex organizational structure with multiple subsidiary entities may create operational complexity
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 150,000,000 total aggregate revolving commitments (USD 15,000,000 incremental commitment) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Incremental revolving loans subject to same terms as initial revolving commitments • All representations and warranties in Article VI of Credit Agreement reaffirmed • Parent Guaranty and Subsidiary Guaranty obligations confirmed • Security interests and liens under Pledge Agreement ratified and reaffirmed • No Default or Event of Default exists |

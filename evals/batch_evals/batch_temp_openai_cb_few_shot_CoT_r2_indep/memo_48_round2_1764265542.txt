@@ -1,0 +1,42 @@
+Looking at this credit agreement, I'll create a structured investment memo following the format of the examples. Let me break down my approach:
+
+**Checklist of what I will do:**
+- Extract key transaction details and parties from the fourth amendment
+- Identify the business context around Spectrum Brands' Hardware and Home Improvement segment sale
+- Analyze the leverage covenant modifications and their investment implications
+- Summarize financial terms and conditions that are explicitly stated
+- Present findings in the required three-section format with proper table structure
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-11-17
+
+**Borrower / Company Overview:** Spectrum Brands, Inc., a Delaware corporation, serves as Lead Borrower under an Amended and Restated Credit Agreement with Royal Bank of Canada as Administrative Agent.
+
+**Transaction Description:** Fourth Amendment to Amended and Restated Credit Agreement between Spectrum Brands, Inc., Royal Bank of Canada as Administrative Agent, and participating Revolving Lenders. The original Credit Agreement was dated June 23, 2015, amended and restated as of June 30, 2020.
+
+**Purpose of Financing:** The amendment provides Spectrum Brands additional time and operational flexibility to complete the divestiture of its Hardware and Home Improvement segment to ASSA ABLOY AB for $4,300,000,000 in cash proceeds (subject to customary purchase price adjustments) under an Asset and Stock Purchase Agreement dated September 8, 2021.
+
+**Company Background:** Spectrum Brands is undertaking a significant strategic divestiture that has been pending since September 2021, requiring temporary covenant relief to maintain compliance during the transaction completion period.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Substantial asset divestiture proceeds of $4.3 billion expected from the HHI Sale should significantly improve the company's financial profile upon completion
+• Royal Bank of Canada serves as Administrative Agent, indicating involvement of a major financial institution
+• Amendment is temporary and event-driven, with covenant relief tied to specific business milestones rather than being permanent
+• Borrower pays a meaningful 0.20% fee on aggregate Revolving Credit Commitments to consenting lenders for the accommodation
+
+**Principal Risks and Mitigating Factors:**
+• Temporary loosening of leverage covenant to 7.00:1.00 suggests potential near-term credit stress requiring operational flexibility
+• HHI Sale transaction has been pending since September 2021, indicating possible execution complexity or regulatory challenges
+• Amendment is limited to Revolving Facility only, suggesting focused covenant relief approach
+• Clear reversion mechanism to 6.00:1.00 leverage ratio provides defined timeline for covenant normalization
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Total Net Leverage Ratio (Revolving Facility only): 7.00:1.00 maximum from November 17, 2022 until Trigger Event occurs; thereafter reverts to 6.00:1.00 maximum • Trigger Event defined as earliest of: (i) September 29, 2023, (ii) 10 Business Days after HHI ASPA "Closing Date", or (iii) 10 Business Days after Lead Borrower or applicable Affiliate receives "Termination Fee" under HHI ASPA • Amendment fee of 0.20% of aggregate Revolving Credit Commitments paid to consenting Revolving Lenders |

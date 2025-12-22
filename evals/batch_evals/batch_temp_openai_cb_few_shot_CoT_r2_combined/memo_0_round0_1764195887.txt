@@ -1,0 +1,39 @@
+## Conceptual Checklist:
+- Extract key parties, dates, and transaction structure from the credit agreement amendment
+- Identify the specific changes being made to the original credit agreement terms
+- Analyze the pricing grid and applicable margin modifications from an investment perspective
+- Assess credit strengths and risks based on the borrower profile and amendment terms
+- Compile deal terms table with available data, marking missing information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On June 10, 2021, Affiliated Managers Group, Inc. (AMG), a Delaware corporation, entered into a Second Amendment to its Third Amended and Restated Term Credit Agreement with Bank of America, N.A. as Administrative Agent and various lenders.
+- The original Credit Agreement was dated January 18, 2019, establishing a term credit facility for AMG, a publicly-traded asset management company.
+- The primary purpose of this amendment is to modify the Applicable Margin pricing contained in Annex I of the Credit Agreement, updating the interest rate spreads based on AMG's debt rating levels.
+- AMG operates as an asset management holding company, and this amendment reflects a repricing of their existing term credit facility based on updated market conditions and credit profile.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationship with Bank of America N.A. as Administrative Agent, indicating institutional lender confidence
+- Investment-grade rated borrower with pricing grid ranging from A+/A1/A+ to BBB/Baa2/BBB, demonstrating solid credit quality
+- Amendment represents a repricing opportunity, suggesting favorable market conditions and borrower credit profile
+- Borrower confirms no defaults or events of default are occurring or would result from this amendment
+
+### Principal Risks and Mitigating Factors:
+- Limited visibility into overall facility size, maturity, or financial performance metrics from this amendment document alone
+- Asset management business model exposes AMG to market volatility and assets under management fluctuations
+- Pricing increases at lower rating levels (up to 1.225% for Eurodollar loans at BBB level) indicate potential credit risk if ratings deteriorate
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Variable based on debt rating: 0.725%-1.225% margin for Eurodollar loans; 0.000%-0.225% margin for ABR loans |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Applicable margin determined by debt rating (S&P/Moody's/Fitch). All prior loan document covenants ratified and confirmed. No defaults or events of default occurring. |

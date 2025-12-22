@@ -1,0 +1,40 @@
+Looking at this credit agreement, I will:
+- Identify the key transaction details and parties involved
+- Extract specific financial terms and covenant information
+- Analyze the credit positives and risks from an investment perspective
+- Organize the information into a professional memo format
+- Ensure all data comes directly from the document with N/A for missing information
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On March 4, 2024, Greystone Housing Impact Investors LP (f/k/a America First Multifamily Investors, L.P.) entered into the Fifth Amendment to its Credit Agreement with BankUnited, N.A. as Administrative Agent and a syndicate of lenders.
+- The original Credit Agreement was dated June 11, 2021, and has been previously amended four times (November 2021, June 2023, July 2023, and September 2023).
+- This amendment primarily updates the lender definitions and schedule, adding NexBank as a new lender while maintaining the total commitment at $50,000,000.
+- The borrower is a Delaware limited partnership focused on housing impact investments, operating through a complex partnership structure with Greystone AF Manager LLC as the general partner.
+- The amendment includes execution of a Lender Joinder Agreement, new promissory notes reflecting incremental commitments, and fee letters with NexBank.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Established credit relationship dating back to 2021 with multiple successful amendments, demonstrating ongoing lender confidence and borrower's ability to maintain covenant compliance.
+- Diversified lender base including BankUnited (60%), Bankers Trust Company (20%), and NexBank (20%), providing funding stability.
+- Borrower representations confirm no current defaults or events of default, and all representations and warranties remain true and correct.
+- Security interests, liens, and mortgages remain in full force and effect, providing continued collateral protection.
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available in this amendment restricts comprehensive credit assessment of the borrower's current performance.
+- Broad release provisions included in Section 5 may indicate previous relationship tensions or disputes with lenders.
+- Multiple prior amendments (four previous) could suggest ongoing need for covenant modifications or structural adjustments.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 50,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | All prior loan document covenants reaffirmed and ratified. Security interests, liens, mortgages and conveyances continue to secure obligations. Borrower confirms no current defaults or events of default |

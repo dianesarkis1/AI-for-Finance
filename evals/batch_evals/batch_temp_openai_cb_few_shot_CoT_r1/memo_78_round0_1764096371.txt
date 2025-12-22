@@ -1,0 +1,39 @@
+## Checklist
+- Identify the key parties, transaction date, and document type from the credit agreement
+- Extract the specific amendments being made to the original credit agreement
+- Analyze the business implications and credit considerations from an investor perspective
+- Compile available financial terms and covenant information into the required table format
+- Ensure all sections are complete with factual information or "N/A" where data is unavailable
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 31, 2023, Saia Inc. and its lenders entered into Amendment No. 1 to their Credit Agreement, originally dated February 3, 2023.
+- Saia Inc., a Delaware corporation, serves as the Borrower, with multiple subsidiary Loan Parties including Saia Motor Freight Line, LLC, Saia Sales, LLC, Saia TL Plus, LLC, LinkEx, Inc., and Saia Logistics, LLC.
+- The lending syndicate includes JPMorgan Chase Bank, N.A. as Administrative Agent and Lender, along with Bank of America, N.A., PNC Bank National Association, TD Bank, N.A., and BOKF, NA dba Bank of Oklahoma as Lenders.
+- The amendment specifically modifies Section 6.09 (Restrictive Agreements) to allow for more flexibility in unsecured debt agreements, permitting restrictions that are not materially more restrictive than the current Credit Agreement and that allow for pari passu security arrangements.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Strong banking syndicate comprising major U.S. financial institutions (JPMorgan Chase, Bank of America, PNC, TD Bank, BOKF), indicating continued lender confidence in Saia Inc.
+• The Borrower represents that no Default or Event of Default has occurred and is continuing, suggesting current compliance with all credit terms.
+• Amendment provides operational flexibility for future unsecured financing while maintaining lender protection through pari passu security provisions.
+• All existing Loan Documents remain in full force and effect, preserving the integrity of the credit structure.
+
+### Principal Risks and Mitigating Factors:
+• The amendment loosens certain restrictive covenant provisions, potentially allowing for additional leverage through unsecured debt channels.
+• Limited visibility into overall credit metrics, pricing, or financial performance based solely on this amendment document.
+• Mitigation: The amendment includes safeguards requiring that new restrictions not be materially more restrictive than current terms and must permit equal security arrangements.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Modified Section 6.09 allows unsecured Indebtedness agreements with restrictions that are (1) not materially more restrictive than current Credit Agreement terms and (2) expressly permit pari passu security arrangements. All other existing covenants and Loan Documents remain in full force and effect. |

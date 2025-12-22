@@ -1,0 +1,39 @@
+# Checklist of Approach
+
+- Extract key transaction details including parties, dates, and purpose from the credit agreement amendment
+- Identify borrower information and transaction structure with JP Morgan as administrative agent
+- Analyze the specific amendments made to asset disposition covenants and lien release provisions
+- Assess credit positives and risks from an investment perspective based on the amendment terms
+- Compile deal terms table using only explicitly stated information, marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In February 2022, SESI, L.L.C. and its parent company SESI Holdings, Inc. entered into a third amendment to their credit agreement with JP Morgan Chase Bank N.A. as administrative agent, along with Bank of America N.A. and Citibank N.A. as lenders.
+- SESI, L.L.C. is a Delaware limited liability company serving as the borrower, with SESI Holdings, Inc. as the parent company and multiple subsidiary guarantors in the energy services sector including Superior Energy Services, Wild Well Control, and Warrior Energy Services Corporation.
+- The original credit agreement was dated February 2, 2021, and has been previously amended through multiple waivers and amendments in May, July, and November 2021.
+- The purpose of this amendment is to modify asset disposition covenants under Section 6.13, providing more flexibility for property sales and dispositions, and to add automatic lien release provisions under Section 10.11.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationship with major financial institutions (JP Morgan Chase as administrative agent, Bank of America, and Citibank as lenders), indicating continued lender support.
+- The borrower represents that no Default or Event of Default has occurred and is continuing, suggesting current compliance with credit terms.
+- Amendment includes specific liquidity and availability thresholds ($100 million liquidity and $25 million availability) for certain dispositions, indicating focus on maintaining adequate cash cushions.
+
+### Principal Risks and Mitigating Factors:
+- The amendment makes the credit agreement more borrower-friendly by relaxing asset disposition restrictions, which could potentially reduce collateral coverage over time.
+- Multiple prior amendments and waivers since the original 2021 agreement suggest the borrower may have faced compliance challenges requiring ongoing covenant modifications.
+- Limited visibility into overall financial performance, pricing terms, or total facility size constrains comprehensive credit assessment.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Modified asset disposition covenants allowing sales that do not constitute a "Substantial Portion" during specified periods • Liquidity must be greater than $100,000,000 and Availability greater than $25,000,000 for certain dispositions up to $25,000,000 aggregate fair market value • 100% cash consideration required for sales of Property included in Borrowing Base • Automatic lien release provisions added for permitted dispositions |

@@ -1,0 +1,38 @@
+## Checklist:
+- Extract key parties, dates, and transaction structure from the amendment
+- Identify the primary purpose (LIBOR to SOFR transition) and background context
+- Assess credit positives and risks from an investor perspective
+- Compile available deal terms, marking unavailable information as "N/A"
+- Ensure proper formatting and structure consistent with examples
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On December 12, 2022, Petco Health and Wellness Company, Inc. and Citibank, N.A. (as Administrative Agent) executed a First Amendment to their existing credit agreement originally dated March 4, 2021.
+- Petco Health and Wellness Company, Inc., a Delaware corporation, serves as the Borrower under a syndicated credit facility with multiple lenders and Citibank, N.A. as Administrative Agent.
+- The primary purpose of this amendment is to transition from LIBOR-based interest rates to SOFR (Secured Overnight Financing Rate) benchmark rates. The amendment replaces USD LIBOR with Adjusted Term SOFR, which equals Term SOFR plus credit spread adjustments of 11.448 bps for one month, 26.161 bps for three months, and 42.826 bps for six months.
+- This amendment also addresses the cessation of LIBOR publication for Alternative Currencies (Euros, Swiss Francs, EUR, CHF, JPY and GBP LIBOR) after December 31, 2021, replacing them with applicable risk-free reference rates (RFR).
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Proactive benchmark transition management demonstrates sophisticated treasury operations and regulatory compliance ahead of LIBOR cessation.
+- Citibank N.A. serves as Administrative Agent, indicating access to major banking relationships.
+- The borrower confirms compliance with all existing covenants and representations, with no defaults or events of default occurring.
+- All collateral documents and guaranties remain in full force and effect, maintaining credit protection.
+
+### Principal Risks and Mitigating Factors:
+- Technical amendment nature limits visibility into underlying credit fundamentals, financial performance, or covenant compliance margins.
+- SOFR transition adds credit spread adjustments that may impact overall cost of funds, though these are industry-standard adjustments recommended by the Alternative Reference Rates Committee.
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | Adjusted Term SOFR = Term SOFR + credit spread adjustment (11.448 bps for 1M, 26.161 bps for 3M, 42.826 bps for 6M) |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | All existing representations, warranties, covenants, and collateral documents reaffirmed. No defaults or events of default continuing. Liens and guaranties remain in full force and effect |

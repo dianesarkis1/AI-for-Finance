@@ -1,0 +1,42 @@
+Based on my review of the credit agreement, I will:
+- Identify the key parties and transaction structure from the amendment document
+- Extract the specific modifications made to the original credit agreement
+- Analyze available terms and conditions for investment assessment
+- Evaluate credit strengths and risks based on documented information
+- Present findings in the required structured format with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-11-30
+
+**Borrower:** America First Multifamily Investors, L.P. is a limited partnership engaged in multifamily real estate investment activities. The entity operates through a multi-tiered partnership structure with America First Capital Associates Limited Partnership Two serving as general partner, which in turn is managed by Greystone AF Manager LLC.
+
+**Transaction Structure:** This transaction represents a First Amendment to an existing Credit Agreement originally executed on June 11, 2021. The lending syndicate consists of BankUnited, N.A. serving as Administrative Agent and lender, alongside Bankers Trust Company as an additional lender.
+
+**Purpose of Financing:** The amendment restructures the guarantor arrangements and updates related documentation, suggesting ongoing optimization of the credit facility structure rather than new capital deployment.
+
+**Company Background:** The borrower's name and partnership structure indicate focus on multifamily real estate investments. The involvement of Greystone-affiliated entities suggests connection to established real estate investment and management platforms in the multifamily sector.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• **Established Banking Relationships** - Credit facility with BankUnited, N.A. as Administrative Agent demonstrates access to institutional lending markets
+• **Enhanced Guarantor Support** - Addition of Greystone Select Incorporated as guarantor under amended and restated guaranty provides additional credit enhancement
+• **Comprehensive Security Package** - Administrative Agent maintains first priority perfected liens on all collateral securing the obligations
+• **Clean Credit Profile** - Borrower representations confirm absence of defaults or events of default under existing loan documents
+• **Environmental Protection** - Amended and restated environmental indemnity provides coverage for potential real estate-related environmental exposures
+• **Operational Continuity** - Amendment maintains all existing loan terms except for specific modifications, ensuring business continuity
+
+**Principal Risks and Mitigating Factors:**
+• **Sector Concentration Risk** - Multifamily real estate focus creates exposure to property market cycles, demographic shifts, and regulatory changes affecting rental housing
+• **Interest Rate Sensitivity** - Real estate investments typically exhibit sensitivity to interest rate movements affecting both asset values and financing costs
+• **Complex Organizational Structure** - Multi-layered partnership structure may present governance complexities and potential for operational inefficiencies
+• **Limited Financial Transparency** - Amendment document provides minimal visibility into financial performance metrics, debt capacity utilization, or covenant compliance margins
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Administrative Agent maintains first priority perfected liens on all collateral<br>• Guarantor defined as Greystone Select Incorporated under Amended and Restated Guaranty dated 2021-11-30<br>• Environmental indemnity coverage provided through Amended and Restated Unsecured Environmental Indemnity<br>• All existing loan document terms remain in full force and effect except as specifically amended<br>• Borrower required to pay Administrative Agent's costs, expenses and legal fees |

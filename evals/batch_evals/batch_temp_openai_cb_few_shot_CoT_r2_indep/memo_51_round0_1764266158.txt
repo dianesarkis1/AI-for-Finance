@@ -1,0 +1,40 @@
+I'll work through this step-by-step to draft a professional investment memo based on this increase supplement document.
+
+## Checklist:
+- Extract key transaction details and parties from the increase supplement
+- Identify the borrower background and transaction purpose
+- Analyze credit positives and risks from an investor perspective
+- Compile available financial terms into the required table format
+- Validate all information is directly from the document (no inferences)
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- In May 2022, Texas-New Mexico Power Company executed an increase supplement to expand its existing credit facility with CoBank, ACB as a new lender.
+- Texas-New Mexico Power Company, a Texas corporation, serves as the Borrower with KeyBank National Association acting as Administrative Agent under their Fourth Amended and Restated Credit Agreement dated March 11, 2022.
+- The transaction involves adding CoBank, ACB as a new lender with a $25,000,000 commitment, effectively increasing the total facility size.
+- The purpose includes expanding the lending syndicate and increasing available credit capacity. Concurrently, the Borrower issued Replacement First Mortgage Bonds under a Sixteenth Supplemental Indenture dated May 13, 2022, which are secured by mortgage bonds in accordance with FMB Mortgage Documents.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Utility sector borrower (Texas-New Mexico Power Company) typically provides stable, regulated cash flows with predictable revenue streams
+- Strong banking relationships with established financial institutions including KeyBank National Association as Administrative Agent
+- Secured structure through First Mortgage Bonds providing collateral protection to lenders
+- Borrower representation that all covenant conditions have been satisfied and remains in compliance with credit terms
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information provided in this increase supplement constrains comprehensive credit assessment
+- Utility sector exposure to regulatory changes and capital intensity requirements, though typically mitigated by rate recovery mechanisms
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 (incremental commitment) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Borrower confirms compliance with all terms of Section 2.1(f) of the Credit Agreement. Secured by Replacement First Mortgage Bonds under Sixteenth Supplemental Indenture |

@@ -1,0 +1,43 @@
+## Checklist
+
+- Extract key transaction parties (borrower, lenders, administrative agent)
+- Identify the transaction date and amendment purpose 
+- Analyze the specific amendments being made to the credit agreement
+- Assess investment highlights and risks from a credit perspective
+- Compile available deal terms into the required table format
+- Ensure all missing information is marked as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-03-25
+
+**Borrower / Company Overview:** Crestwood Midstream Partners LP, a Delaware limited partnership operating in the midstream energy sector, serves as the Borrower under a revolving credit facility.
+
+**Transaction Description:** Third Amendment to Second Amended and Restated Credit Agreement originally dated October 16, 2018. Wells Fargo Bank, National Association acts as Administrative Agent, with a syndicate of 23 lenders including Bank of America, Barclays Bank PLC, Citibank, JPMorgan Chase Bank, Royal Bank of Canada, Truist Bank, Morgan Stanley entities, ABN AMRO Capital USA LLC, Capital One, Comerica Bank, BBVA USA, Citizens Bank, Regions Bank, MUFG Bank, U.S. Bank, The Bank of Nova Scotia, Toronto-Dominion Bank, Bank of Midwest, CIT Bank, The Huntington National Bank, and Enterprise Bank & Trust.
+
+**Purpose of Financing:** The amendment facilitates the "Third Amendment Transactions" whereby Crestwood Equity Partners and third-party investors will acquire equity interests and assets of Crestwood Holdings LLC and its subsidiaries. The Borrower intends to make Revolving Facility Borrowings and distribute proceeds up to $275.0 million to parent entities to finance these acquisitions and related expenses.
+
+**Company Background:** Crestwood Midstream Partners LP operates through numerous subsidiary entities across multiple regions, providing midstream energy services including pipeline operations, crude oil services, gas processing, and related midstream activities through entities spanning the Marcellus, Dakota, Ohio, Arkansas, and Appalachia regions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong, diverse lending consortium comprising 23 tier-1 financial institutions demonstrates broad market confidence in the credit quality
+• Borrower maintains full covenant compliance with no defaults reported as of the amendment effective date
+• Structured transaction with specific use of proceeds limitations and defined transaction parameters
+• Amendment includes upfront fee income of 0.05% of each consenting lender's revolving facility commitment
+• Amendment effectiveness is contingent upon completion of the underlying Unit Purchase transaction, providing transaction execution certainty
+
+**Principal Risks and Mitigating Factors:**
+• Amendment permits up to $275.0 million in distributions to parent entities, potentially weakening the borrower's standalone credit profile and available cash for operations
+• Modifications to "Change in Control" and "Permitted Holder" definitions provide increased flexibility for ownership changes, which may affect future credit oversight and control
+• Amendment effectiveness deadline of April 9, 2021 creates execution risk if conditions are not met timely
+• Limited visibility into underlying facility terms, financial performance metrics, and maintenance covenants restricts comprehensive credit risk assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | Amendment fee: 0.05% of each consenting lender's Revolving Facility Commitment | N/A | N/A | N/A | • Dividends/distributions permitted up to $275.0 million for Third Amendment Transactions<br>• Amendment effectiveness contingent on execution by April 9, 2021<br>• Amendment effectiveness requires substantial contemporaneous consummation of Unit Purchase transaction<br>• Modified "Change in Control" definition with 35% threshold for third-party equity ownership<br>• Updated "Permitted Holder" definition applicable through completion of Third Amendment Transactions<br>• All existing loan documents, parent guarantees, and financial covenants remain in full force and effect |

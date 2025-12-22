@@ -1,0 +1,40 @@
+## Approach Checklist
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the aircraft financing structure and collateral details
+- Analyze credit strengths from lender composition and guarantor structure
+- Note any risks or concerns from the amendment terms
+- Compile available deal terms while marking unavailable information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2022-03-31
+
+**Borrower/Company Overview:** Vertical Horizons, Ltd., a Cayman Islands exempted company, serves as the financing vehicle for Frontier Airlines' aircraft acquisition program.
+
+**Transaction Description:** Amendment No. 1 to Seventh Amended and Restated Credit Agreement for PDP (Pre-Delivery Payment) financing of 59 Airbus aircraft (9 A320neo and 50 A321neo). The transaction involves Citibank N.A. as Facility Agent and Arranger, with a syndicate of lenders including Barclays Bank PLC, Deutsche Bank AG New York Branch, and Morgan Stanley Senior Funding.
+
+**Purpose of Financing:** PDP financing to support pre-delivery payments for Frontier Airlines' fleet expansion with modern Airbus narrow-body aircraft.
+
+**Company Background:** The financing structure involves Vertical Horizons as borrower with full guarantees from Frontier Group Holdings, Inc., Frontier Airlines Holdings, Inc., and Frontier Airlines, Inc., providing multiple layers of credit support for this aviation industry financing.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender syndicate led by Citibank N.A. with participation from major banks
+• Multiple guarantee layers from Frontier Group Holdings, Frontier Airlines Holdings, and Frontier Airlines
+• Collateral consists of modern, fuel-efficient Airbus A320neo and A321neo aircraft
+• Borrower maintains compliance with LTV test requirements
+• Frontier Group Holdings meets minimum liquidity requirements
+
+**Principal Risks and Mitigating Factors:**
+• Timeline extension from July 2022 to April 2023 indicates potential operational delays or challenges
+• Aviation industry exposure to economic cycles, fuel costs, and regulatory changes
+• Limited financial transparency due to redacted terms affecting detailed credit assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • LTV Test compliance required<br>• Frontier Group Holdings minimum unrestricted cash and cash equivalents requirement (amount redacted)<br>• No continuing Default or Event of Default<br>• Maintenance of all guarantee agreements in full force |

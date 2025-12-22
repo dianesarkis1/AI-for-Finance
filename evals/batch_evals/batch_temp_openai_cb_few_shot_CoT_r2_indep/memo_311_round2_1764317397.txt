@@ -1,0 +1,41 @@
+## Conceptual Checklist
+- Extract key transaction details and parties from the credit agreement amendment
+- Identify the primary purpose and nature of the financing modifications
+- Analyze credit strengths and risks from an investment perspective
+- Compile available deal terms into the required table format
+- Ensure all information is sourced directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-12-12
+
+**Borrower:** Petco Health and Wellness Company, Inc., a Delaware corporation, operates as the borrower under an existing First Lien Credit Agreement with Citibank, N.A. as Administrative Agent and syndicated lenders.
+
+**Transaction Description:** The transaction is a First Amendment to the original First Lien Credit Agreement dated March 4, 2021. This amendment executes a benchmark rate transition from LIBOR to SOFR-based rates through an Early Opt-in Election mechanism. The amendment replaces USD LIBOR with Adjusted Term SOFR and transitions Alternative Currency LIBOR rates to applicable risk-free reference rates.
+
+**Purpose of Financing:** The amendment addresses regulatory changes requiring LIBOR discontinuation. Following ICE Benchmark Administration Limited's March 5, 2021 announcement ceasing LIBOR publication for multiple currencies after December 31, 2021, the parties proactively transitioned to SOFR-based benchmarks to maintain operational continuity of the existing credit facility.
+
+**Company Background:** Petco operates under a syndicated credit structure established in 2021 with institutional lender participation coordinated through Citibank, N.A. as Administrative Agent. The company maintains an established borrowing relationship within the U.S. syndicated loan market.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional credit platform with Citibank, N.A. as Administrative Agent providing operational stability
+• Proactive regulatory compliance through early SOFR adoption demonstrates sophisticated treasury management
+• Structured amendment process with proper lender notification and consultation procedures completed without Required Lender objections
+• All existing credit protections preserved including collateral documents, security interests, liens, and guarantees
+• No continuing defaults or events of default as of amendment effective date
+• Comprehensive indemnification provisions maintained for lender protection
+
+**Principal Risks and Mitigating Factors:**
+• SOFR rate characteristics may introduce different interest rate volatility patterns compared to LIBOR, mitigated by Alternative Reference Rates Committee recommended credit spread adjustments designed to maintain economic equivalence
+• Amendment documentation provides limited visibility into underlying credit metrics, financial covenants, or borrower performance trends
+• Dependency on original 2021 credit agreement terms not fully disclosed in amendment documentation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | Adjusted Term SOFR + credit spread adjustments (11.448 bps for 1-month, 26.161 bps for 3-month, 42.826 bps for 6-month terms) | N/A | N/A | • All representations, warranties, and covenants from original credit agreement reaffirmed<br>• Collateral documents, liens, security interests, and guarantees remain in full force and effect<br>• No Default or Event of Default continuing as of amendment effective date<br>• Comprehensive indemnification provisions apply to amendment and related transactions |

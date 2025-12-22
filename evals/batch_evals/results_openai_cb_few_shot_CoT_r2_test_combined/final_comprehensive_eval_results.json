@@ -1,0 +1,926 @@
+{
+  "summary": {
+    "has_rounds": true,
+    "num_rounds": 3,
+    "rounds": {
+      "0": {
+        "total_memos_evaluated": 2,
+        "total_evaluations": 6,
+        "total_quality_scores": 24,
+        "mean_score": 56.64,
+        "median_score": 56.64,
+        "min_score": 44.02,
+        "max_score": 69.25,
+        "stdev_score": 17.84,
+        "evaluators": {
+          "gpt-5": {
+            "count": 2,
+            "mean": 31.43,
+            "median": 31.43
+          },
+          "claude-sonnet-4-20250514": {
+            "count": 2,
+            "mean": 80.44,
+            "median": 80.44
+          },
+          "gemini-2.5-pro": {
+            "count": 2,
+            "mean": 58.03,
+            "median": 58.03
+          }
+        },
+        "metrics": {
+          "quality_clarity": {
+            "count": 6,
+            "mean": 87.67,
+            "median": 86.0
+          },
+          "quality_tone": {
+            "count": 6,
+            "mean": 90.17,
+            "median": 90.0
+          },
+          "quality_length": {
+            "count": 6,
+            "mean": 85.83,
+            "median": 87.0
+          },
+          "quality_structure": {
+            "count": 6,
+            "mean": 42.5,
+            "median": 42.5
+          }
+        }
+      },
+      "1": {
+        "total_memos_evaluated": 2,
+        "total_evaluations": 6,
+        "total_quality_scores": 24,
+        "mean_score": 64.83,
+        "median_score": 64.83,
+        "min_score": 60.54,
+        "max_score": 69.12,
+        "stdev_score": 6.07,
+        "evaluators": {
+          "gpt-5": {
+            "count": 2,
+            "mean": 44.22,
+            "median": 44.22
+          },
+          "claude-sonnet-4-20250514": {
+            "count": 2,
+            "mean": 80.03,
+            "median": 80.03
+          },
+          "gemini-2.5-pro": {
+            "count": 2,
+            "mean": 70.25,
+            "median": 70.25
+          }
+        },
+        "metrics": {
+          "quality_clarity": {
+            "count": 6,
+            "mean": 88,
+            "median": 87.0
+          },
+          "quality_tone": {
+            "count": 6,
+            "mean": 89.67,
+            "median": 88.0
+          },
+          "quality_length": {
+            "count": 6,
+            "mean": 85.17,
+            "median": 88.0
+          },
+          "quality_structure": {
+            "count": 6,
+            "mean": 41.17,
+            "median": 41.0
+          }
+        }
+      },
+      "2": {
+        "total_memos_evaluated": 2,
+        "total_evaluations": 6,
+        "total_quality_scores": 24,
+        "mean_score": 63.83,
+        "median_score": 63.83,
+        "min_score": 51.54,
+        "max_score": 76.13,
+        "stdev_score": 17.39,
+        "evaluators": {
+          "gpt-5": {
+            "count": 2,
+            "mean": 43.34,
+            "median": 43.34
+          },
+          "claude-sonnet-4-20250514": {
+            "count": 2,
+            "mean": 77.91,
+            "median": 77.91
+          },
+          "gemini-2.5-pro": {
+            "count": 2,
+            "mean": 70.25,
+            "median": 70.25
+          }
+        },
+        "metrics": {
+          "quality_clarity": {
+            "count": 6,
+            "mean": 87.67,
+            "median": 88.0
+          },
+          "quality_tone": {
+            "count": 6,
+            "mean": 91.5,
+            "median": 90.0
+          },
+          "quality_length": {
+            "count": 6,
+            "mean": 66.33,
+            "median": 75.0
+          },
+          "quality_structure": {
+            "count": 6,
+            "mean": 42.5,
+            "median": 42.5
+          }
+        }
+      }
+    },
+    "total_memos_evaluated": 2,
+    "dataset_indices_evaluated": [
+      0,
+      1
+    ],
+    "total_evaluations": 6,
+    "total_quality_scores": 24,
+    "mean_score": 63.83,
+    "median_score": 63.83,
+    "min_score": 51.54,
+    "max_score": 76.13,
+    "stdev_score": 17.39,
+    "evaluators": {
+      "gpt-5": {
+        "count": 2,
+        "mean": 43.34,
+        "median": 43.34
+      },
+      "claude-sonnet-4-20250514": {
+        "count": 2,
+        "mean": 77.91,
+        "median": 77.91
+      },
+      "gemini-2.5-pro": {
+        "count": 2,
+        "mean": 70.25,
+        "median": 70.25
+      }
+    },
+    "metrics": {
+      "quality_clarity": {
+        "count": 6,
+        "mean": 87.67,
+        "median": 88.0
+      },
+      "quality_tone": {
+        "count": 6,
+        "mean": 91.5,
+        "median": 90.0
+      },
+      "quality_length": {
+        "count": 6,
+        "mean": 66.33,
+        "median": 75.0
+      },
+      "quality_structure": {
+        "count": 6,
+        "mean": 42.5,
+        "median": 42.5
+      }
+    }
+  },
+  "results_by_index": {
+    "0": {
+      "gpt-5": {
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "YES",
+              "hallucinations": "- \"Borrower must maintain compliance with all representations and warranties under Section 4 of Credit Agreement\" \u2014 the amendment contains a bring-down representation that Section 4 reps are true as of the amendment\u2019s effective date; it does not create an ongoing covenant to maintain those reps.",
+              "has_hallucinations": true
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Exact amendment date (June 10, 2021)",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 86,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 92,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 88,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 44.12
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Full Annex I pricing grid by rating level with S&P/Moody\u2019s/Fitch mappings and the exact Applicable Margin for Eurodollar and ABR loans at each level (Levels 1\u20135).",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 88,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 94,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 84,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 69.12
+          },
+          "2": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Full rating-to-pricing level mapping (S&P/Moody\u2019s/Fitch) for each Pricing Level in Annex I",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 86,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 92,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 65,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 67.69
+          }
+        },
+        "summary_score": 67.69
+      },
+      "claude-sonnet-4-20250514": {
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 75,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 92.94
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 75,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 92.94
+          },
+          "2": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 78,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 45,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 90.81
+          }
+        },
+        "summary_score": 90.81
+      },
+      "gemini-2.5-pro": {
+        "rounds": {
+          "2": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The 'Key Deal Terms Table' presents a 'Rating-Based Pricing Grid' intended to adjust the interest rate based on credit ratings, but it lists the exact same pricing (0.850% Eurodollar and 0.000% ABR) for two different rating tiers: Level 2 (A/A2/A) and Level 3 (A-/A3/A-). This contradicts the fundamental principle of a tiered grid where a lower rating should correspond to a higher margin."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 98,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 85,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 69.88
+          },
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- The specific date of the amendment, which is June 10, 2021. The memo only states \"June 2021\".",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 96,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 95,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 70.69
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- The borrower's obligation to pay the Administrative Agent's reasonable and documented out-of-pocket expenses (including attorney costs) related to the preparation, negotiation, and execution of the amendment.",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The memo presents a \"Transparent pricing mechanism\" as a key strength, but simultaneously states under risks that a \"baseline comparison [is] unavailable,\" which makes the financial impact of the pricing change fundamentally non-transparent and contradicts the positive assessment."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 98,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 92,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 45.31
+          }
+        },
+        "summary_score": 69.88
+      },
+      "summary_score": 76.13,
+      "round_summary_scores": {
+        "0": 69.25,
+        "1": 69.12,
+        "2": 76.13
+      }
+    },
+    "1": {
+      "gpt-5": {
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "YES",
+              "hallucinations": "- Interest Rate: The memo presents 5.00% (BA/LC/LIBOR) and 3.50% (Prime/USBR) as \u201cInterest Rate\u201d levels. In the source, these are Applicable Margin percentages, not total interest rates, and the document does not state full interest rates.",
+              "has_hallucinations": true
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Undrawn fee at Level 5 (1.25%)",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "Risks section claims a blanket 'Prohibition on distributions,' but Key Covenants only prohibit distributions under clauses (c) or (e) of Permitted Distributions, implying some distributions remain permitted."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 86,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 88,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 86,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 18.75
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "YES",
+              "hallucinations": "- States a blanket \"Prohibition on distributions during the waiver period.\" The source only prohibits Distributions pursuant to clause (c) or (e) of Permitted Distributions; it is not a complete prohibition on all distributions.",
+              "has_hallucinations": true
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Precise Event of Default trigger tied to OLG support: failure to provide full Threshold payment relief or to pay the Fixed Component Per Diem for more than five aggregate Business Days during the Extended Waiver Period.",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "Risks section claims a blanket prohibition on distributions during the waiver period, while Key Covenants state only distributions under clauses (c) or (e) of Permitted Distributions are prohibited\u2014implying some distributions remain allowed. These positions conflict."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 86,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 88,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 93,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 42,
+              "metric": "quality_structure"
+            },
+            "summary_score": 19.31
+          },
+          "2": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "YES",
+              "hallucinations": "- The memo states a blanket \"Prohibition on distributions during the waiver period.\" The source only prohibits Distributions under clauses (c) and (e) of Permitted Distributions, not all distributions.",
+              "has_hallucinations": true
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Definition of \u201cLiquidity\u201d (Revolving Facility Commitments minus outstanding Obligations plus Unrestricted Cash) as per Schedule A",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "Risk section states a blanket 'Prohibition on distributions during waiver period', but the Key Deal Terms table limits the restriction to distributions under clauses (c) or (e) of Permitted Distributions, implying some distributions remain allowed\u2014these cannot both be true."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 90,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 88,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 86,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 19.0
+          }
+        },
+        "summary_score": 19.0
+      },
+      "claude-sonnet-4-20250514": {
+        "rounds": {
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Undrawn Fee rate of 1.25% (from Level 5 pricing)",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 75,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 67.94
+          },
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Extended Waiver Period end date (November 30, 2020) - only mentioned in executive summary but missing from key terms table",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 85,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 72,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 35,
+              "metric": "quality_structure"
+            },
+            "summary_score": 67.12
+          },
+          "2": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "- Original credit agreement date (June 10, 2019, amended July 17, 2019) - while mentioned in company overview, not captured as a key deal term",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 82,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 88,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 25,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 65.0
+          }
+        },
+        "summary_score": 65.0
+      },
+      "gemini-2.5-pro": {
+        "rounds": {
+          "1": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": false,
+              "issues": [],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 88,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 95,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 95.19
+          },
+          "2": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "NO",
+              "missing_terms": "None",
+              "is_incomplete": false
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The 'Principal Risks' section states a 'Prohibition on distributions', which implies a complete ban, but the 'Key Deal Terms Table' specifies the restriction only applies to 'distributions under clauses (c) or (e) of Permitted Distributions', suggesting other types of distributions may still be allowed."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 98,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 92,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 45,
+              "metric": "quality_structure"
+            },
+            "summary_score": 70.62
+          },
+          "0": {
+            "accuracy": {
+              "metric": "accuracy",
+              "answer": "NO",
+              "hallucinations": "None",
+              "has_hallucinations": false
+            },
+            "completeness": {
+              "metric": "completeness",
+              "answer": "YES",
+              "missing_terms": "['Undrawn Fee']",
+              "is_incomplete": true
+            },
+            "consistency": {
+              "has_issues": true,
+              "issues": [
+                "The Executive Summary describes the financing as 'a revolving credit facility' (singular), while the Key Covenants table refers to 'either Credit Facility' (implying there are two)."
+              ],
+              "metric": "consistency"
+            },
+            "quality_clarity": {
+              "score": 95,
+              "metric": "quality_clarity"
+            },
+            "quality_tone": {
+              "score": 95,
+              "metric": "quality_tone"
+            },
+            "quality_length": {
+              "score": 96,
+              "metric": "quality_length"
+            },
+            "quality_structure": {
+              "score": 40,
+              "metric": "quality_structure"
+            },
+            "summary_score": 45.38
+          }
+        },
+        "summary_score": 70.62
+      },
+      "summary_score": 51.54,
+      "round_summary_scores": {
+        "0": 44.02,
+        "1": 60.54,
+        "2": 51.54
+      }
+    }
+  },
+  "metadata": {
+    "note": "Results from 50 memos evaluated by GPT-5, Claude Sonnet 4, and Gemini 2.5 Pro",
+    "generated_by": "generate_final_results.py",
+    "evaluators": [
+      "gpt-5",
+      "claude-sonnet-4-20250514",
+      "gemini-2.5-pro"
+    ],
+    "total_evaluations": "2 memos \u00d7 3 evaluators = 6"
+  }
+}

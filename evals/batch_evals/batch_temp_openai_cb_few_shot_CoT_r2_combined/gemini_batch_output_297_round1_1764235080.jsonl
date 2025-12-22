@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states there is a \"consortium of 29 major financial institutions as Lenders.\" The source document does not state the total number of lenders, and counting the distinct financial institutions on the signature pages results in a different number. The number \"29\" is not mentioned in or supported by the source document."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The 'Approach Checklist' section states a goal to 'Compile deal terms table with explicit information only,' but the 'Key Deal Terms Table' includes several specific covenant types (e.g., 'Permitted liens under Section 6.02 restrictions', 'Administrative agent approval rights') that are not explicitly mentioned anywhere else in the memo.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

@@ -1,0 +1,35 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-10-26
+
+**Borrower/Company Overview:** PNM Resources, Inc., a New Mexico corporation operating as a utility holding company.
+
+**Transaction Description:** Eighth Amendment to Credit Agreement among PNM Resources, Inc., Wells Fargo Bank, National Association (as Administrative Agent), and a syndicate of lenders including MUFG Union Bank, Citibank, JPMorgan Chase, Morgan Stanley Bank, Royal Bank of Canada, KeyBank, Bank of America, U.S. Bank, Bank of New York Mellon, and BOKF/Bank of Albuquerque. MUFG Bank, Ltd. serves as sole bookrunner and lead arranger for this amendment.
+
+**Purpose of Financing:** The amendment facilitates PNM Resources' pending merger with Avangrid, Inc. through NM Green Holdings, Inc. by modifying covenant terms and providing specific waivers related to the merger agreement execution.
+
+**Company Background:** PNM Resources operates regulated electric and gas utilities serving customers in New Mexico and Texas, providing stable utility services through its regulated subsidiary operations.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong, diversified lender syndicate comprising top-tier financial institutions demonstrates significant lender confidence
+• Regulated utility business model provides stable, predictable cash flows and regulatory cost recovery mechanisms
+• Borrower maintains compliance with all existing covenants and financial representations
+• Proactive covenant management during M&A process shows sophisticated financial management
+• MUFG Bank's continued lead arranger role indicates strong ongoing banking relationships
+
+**Principal Risks and Mitigating Factors:**
+• Pending merger creates change of control event that will trigger facility termination upon closing, despite current waivers
+• Amendment provides borrower-friendly modifications including higher change of control threshold (25% vs. prior undisclosed level)
+• Limited covenant relief is temporary and specific to merger agreement signing only
+• Refinancing risk exists upon merger consummation as current facility will be prohibited under modified terms
+• Amendment explicitly preserves lender rights regarding future defaults from merger closing
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Change of Control redefined as: (a) 25% beneficial ownership threshold for voting control, or (b) majority of board members ceasing to be composed of continuing directors within any 24-consecutive-month period<br>• Merger restrictions modified to permit "merge with or into any other Person"<br>• Waiver of potential covenant defaults and cross-defaults arising from October 20, 2020 merger agreement execution<br>• Waiver of any interest or fees that may have accrued at the post-Default rate pursuant to Section 3.1(b) solely in connection with the Potential Specified Defaults<br>• All existing representations, warranties and financial covenants remain in full effect<br>• Merger closing will constitute prohibited Change of Control event |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Definition of \u201cLiquidity\u201d (unused Revolving Facility Commitments minus outstanding Obligations plus Unrestricted Cash)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Event-of-default trigger inconsistency: The Risks section says default occurs if OLG relief payments cease for >5 business days in aggregate during the waiver period (implying aggregation across payment types), while the Key Deal Terms specify two separate triggers\\u2014(i) Threshold payment relief >5 days and (ii) Fixed Component Per Diem >5 days\\u2014each assessed individually. Both interpretations cannot be true at once.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 38.0"}}]}}}

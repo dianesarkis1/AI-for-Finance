@@ -1,0 +1,43 @@
+# Checklist
+- Identify transaction date, parties, and structure (incremental commitment agreement)
+- Extract borrower information and business context (Oaktree Specialty Lending Corporation)
+- Analyze transaction purpose and key financial terms from Schedule 1
+- Review credit positives and risks from an investment perspective
+- Compile deal terms table with available data, marking unavailable fields as "N/A"
+- Ensure proper formatting and professional tone throughout
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-12-28
+
+**Borrower/Company Overview:** Oaktree Specialty Lending Corporation, a Delaware corporation, serves as the Borrower with subsidiary guarantors OCSL SRNE, LLC and FSFC Holdings, Inc.
+
+**Transaction Description:** This incremental commitment agreement increases an existing senior secured revolving credit facility. The transaction involves MUFG Union Bank, N.A. as the Increasing Lender, with ING Capital LLC serving as Administrative Agent and Issuing Bank. The syndicate includes JPMorgan Chase Bank, N.A. and Bank of America, N.A. as Syndication Agents, with joint lead arrangers ING Capital LLC, JPMorgan Chase Bank, N.A., and Merrill Lynch, Pierce, Fenner & Smith Incorporated.
+
+**Purpose of Financing:** To provide additional borrowing capacity through an incremental commitment, expanding the existing revolving credit facility to meet operational funding needs.
+
+**Company Background:** Oaktree Specialty Lending Corporation operates as a business development company focused on specialty lending activities, backed by the Oaktree Capital Management platform.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong sponsor backing through Oaktree Capital Management, a well-established alternative investment manager with significant expertise in credit markets
+• Diversified lender syndicate including major financial institutions (ING, JPMorgan, Bank of America, MUFG), demonstrating broad market confidence
+• Transaction represents facility upsizing rather than emergency refinancing, indicating healthy demand for additional capacity
+• MUFG Union Bank's existing USD 50 million commitment being increased by USD 25 million demonstrates lender confidence and relationship strength
+• Comprehensive security package with guarantee and security agreements covering subsidiary guarantors and collateral
+• Structured as commitment increase under existing credit agreement, maintaining established terms and conditions
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial covenant and pricing information available restricts full credit assessment
+• As a specialty lending entity, performance subject to credit market conditions and portfolio company performance
+• Concentration risk inherent in business development company model mitigated by experienced management platform
+• Incremental nature of commitment may indicate increased leverage or funding requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | • MUFG Union Bank's commitment increases from USD 50,000,000 to USD 75,000,000<br>• Incremental commitment terms identical to existing lender commitments<br>• Guarantee and Security Agreement remains in full force and effect<br>• All representations and warranties from original Credit Agreement reaffirmed as true and correct<br>• No Default or Event of Default continuing as of effective date |

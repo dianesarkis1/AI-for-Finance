@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- The memo omits the specific interest rate margins for the intermediate debt rating levels (A/A2/A, A-/A3/A-, BBB+/Baa1/BBB+). It only lists the rates for the highest (A+) and lowest (BBB) tiers, which obscures the full pricing grid."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo states in the 'Key Strengths' that 'All existing loan covenants and terms remain in full force and effect,' which directly contradicts the 'Executive Summary's' description of the amendment's purpose, which is to 'modify the \\\"Applicable Margin\\\" pricing structure,' a key loan term.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

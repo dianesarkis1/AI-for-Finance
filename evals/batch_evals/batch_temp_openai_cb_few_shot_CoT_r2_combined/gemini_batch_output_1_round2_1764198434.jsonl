@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo defines liquidity as including 'revolver availability' while also stating there can be 'No new advances under credit facilities,' which makes revolver availability effectively zero and contradicts its inclusion in the liquidity calculation.\", \"The memo states the company's interest rate is at 'Level 5 pricing' but defines the condition for this level in the Total Leverage Ratio thresholds as 'N/A,' creating a contradiction as to how this pricing tier is determined.\", \"The memo asserts knowledge of specific 'Financial covenant breaches' while also stating that the 'Waiver of Q1 and Q2 Compliance Certificate deliveries' was granted, making it unclear how these breaches were formally reported or verified.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 81.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

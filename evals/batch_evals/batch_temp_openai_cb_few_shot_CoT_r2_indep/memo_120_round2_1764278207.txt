@@ -1,0 +1,45 @@
+# Checklist for Memo Development
+
+- Extract key transaction details (parties, dates, purpose) from the credit agreement amendment
+- Identify the borrower (Philip Morris International) and the syndicate of international lenders
+- Calculate maturity date from the 364-day bridge term and original agreement date
+- Analyze the specific amendment regarding the "Minimum Acceptance Condition" definition
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms, including inferred maturity date from loan term
+
+---
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-09-02
+
+**Borrower/Company Overview:** Philip Morris International Inc. (PMI), a Virginia corporation, is a major multinational tobacco and consumer goods company.
+
+**Transaction Description:** Amendment No. 1 to a 364-Day Bridge Credit Agreement originally dated May 11, 2022. The transaction involves PMI as borrower, Citibank Europe PLC (UK Branch) as Facility Agent, and a syndicate of international lenders including Bank of America London Branch, Banco Bilbao Vizcaya Argentaria, Banco Santander, Barclays Bank PLC, Credit Suisse entities, Deutsche Bank AG, HSBC entities, Mizuho Bank, Standard Chartered Bank, Sumitomo Banking Corporation, Wells Fargo Bank London Branch, Bank of China (Europe), Commerzbank AG, and MUFG Bank.
+
+**Purpose of Financing:** Bridge financing facility supporting PMI's acquisition activities, with this amendment specifically modifying the Minimum Acceptance Condition for the related acquisition offer.
+
+**Company Background:** PMI is a globally recognized multinational corporation operating in the tobacco and consumer goods sector with strong international market positions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Blue-chip borrower with established global market presence in tobacco and consumer goods
+• High-quality international banking syndicate providing diverse geographical coverage and risk distribution
+• Short-term bridge structure (364 days) indicates temporary acquisition financing with defined exit strategy
+• Strong lender confidence demonstrated by unanimous participation in amendment process
+• Well-established corporate governance with experienced treasury and finance leadership
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial covenant visibility due to amendment-only documentation structure
+• Tobacco industry faces ongoing regulatory pressures, though PMI has diversification initiatives
+• Acquisition execution risk inherent in bridge financing, mitigated by adjustment to acceptance threshold
+• Short-term refinancing risk given 364-day maturity, offset by PMI's strong credit profile and market access
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2023-05-10 | N/A | • Minimum Acceptance Condition: >50% of total issued and outstanding Target Shares (excluding treasury shares)<br>• All other original Credit Agreement terms remain in full force and effect<br>• Amendment requires unanimous lender consent |

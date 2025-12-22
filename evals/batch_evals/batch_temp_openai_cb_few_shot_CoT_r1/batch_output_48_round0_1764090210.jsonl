@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states the relaxed covenant remains until \u201c10 business days after closing/termination of the HHI Sale.\u201d The source specifies the Trigger Event occurs 10 Business Days after (x) the Closing Date or (y) the date the Lead Borrower or its Affiliates receive the \u201cTermination Fee,\u201d not merely upon termination."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Covenant timing nuance: the 7.00:1.00 Total Net Leverage Ratio applies until the Fiscal Quarter in which the Trigger Event occurs; if the Trigger Event occurs on the last day of a Fiscal Quarter, it is deemed to have occurred during that quarter."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 93.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

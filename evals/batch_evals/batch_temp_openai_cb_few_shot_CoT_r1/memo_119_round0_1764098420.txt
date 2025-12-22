@@ -1,0 +1,41 @@
+## Implementation Checklist:
+- Identify key transaction details including date, parties, and structure
+- Extract borrower and guarantor information from Apollo entities
+- Determine transaction purpose (guarantor joinder to existing credit facility)
+- Analyze credit strengths and risks from investor perspective
+- Compile available deal terms, marking unavailable fields as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On April 14, 2023, Apollo Global Management and Apollo Asset Management joined as additional guarantors to an existing credit agreement dated October 12, 2022.
+- The borrower is Apollo Management Holdings, L.P., a Delaware limited partnership, with Citibank, N.A. serving as Administrative Agent for the revolving credit facility.
+- The transaction involves adding two new guarantors (Apollo Global Management, Inc. and Apollo Asset Management, Inc.) to strengthen the guarantee structure of the existing credit facility.
+- The purpose is to induce lenders to maintain and/or make additional loans and issuing banks to maintain and/or issue additional letters of credit, serving as consideration for previously made loans and issued letters of credit.
+- Apollo is a prominent alternative investment management company with multiple holding entities across various jurisdictions including Cayman Islands and Anguilla, indicating a global operational footprint.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- High-quality sponsor with Apollo being a well-established, publicly-traded alternative investment manager
+- Enhanced guarantee structure through addition of two key operating subsidiaries as guarantors
+- Citibank N.A. as Administrative Agent provides institutional credibility and professional loan administration
+- Multiple existing guarantors across various jurisdictions provide diversified guarantee support
+- Existing credit facility structure allows for letters of credit issuance, providing operational flexibility
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available on credit terms, pricing, or covenant structure
+- Complex multi-entity structure across multiple jurisdictions may complicate enforcement
+- Alternative investment management business subject to market volatility and regulatory changes
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | New guarantors guarantee prompt payment of loan obligations in full when due. Credit agreement terms remain in full force and effect. New guarantors liable for administrative agent's reasonable expenses including legal fees |

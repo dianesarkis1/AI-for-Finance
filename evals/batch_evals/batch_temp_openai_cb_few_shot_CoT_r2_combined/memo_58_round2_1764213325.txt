@@ -1,0 +1,43 @@
+## Checklist
+
+- Extract key transaction parties (borrower, lenders, administrative agent)
+- Identify the transaction date and amendment purpose 
+- Analyze the specific amendments being made to the credit agreement
+- Assess investment highlights and risks from a credit perspective
+- Compile available deal terms into the required table format
+- Ensure all missing information is marked as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2021-03-25
+
+**Borrower / Company Overview:** Crestwood Midstream Partners LP, a Delaware limited partnership operating in the midstream energy sector, serves as the Borrower under a revolving credit facility administered by Wells Fargo Bank, National Association.
+
+**Transaction Description:** Third Amendment to Second Amended and Restated Credit Agreement originally dated October 16, 2018. The amendment modifies the existing credit facility to permit specific corporate transactions and related financing activities by the Borrower and its affiliates.
+
+**Purpose of Financing:** The amendment facilitates the "Third Amendment Transactions" whereby Crestwood Equity Partners and third-party investors will acquire equity interests and assets of Crestwood Holdings LLC and its subsidiaries. The Borrower will make Revolving Facility Borrowings and distribute proceeds up to $275.0 million to parent entities to finance these acquisitions and related transaction expenses.
+
+**Company Background:** Crestwood Midstream Partners LP operates through numerous subsidiary entities providing midstream energy services including pipeline operations, crude oil transportation and storage, gas processing, and field services across multiple regions including the Marcellus, Dakota, Ohio, Arkansas, and Appalachia basins.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Broad lender support with 23 tier-1 financial institutions participating in the amendment, demonstrating strong market confidence
+• Borrower maintains compliance with all existing covenants with no defaults or events of default reported
+• Amendment generates immediate fee income of 0.05% of each consenting lender's revolving facility commitment
+• Transaction structure includes specific use of proceeds limitations and execution safeguards
+• Amendment effectiveness contingent upon completion of underlying Unit Purchase, ensuring transaction certainty
+
+**Principal Risks and Mitigating Factors:**
+• Significant distribution capacity of up to $275.0 million may reduce Borrower's liquidity and standalone credit strength
+• Revised ownership change provisions provide increased flexibility but may reduce lender oversight of future control events
+• Time-sensitive execution with amendment effectiveness deadline of April 9, 2021
+• Limited visibility into underlying facility size, pricing, maturity, and financial maintenance covenants restricts comprehensive risk assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | Amendment fee: 0.05% of each consenting lender's Revolving Facility Commitment | N/A | N/A | N/A | • Permitted distributions up to $275.0 million for Third Amendment Transactions<br>• Amendment effectiveness required by April 9, 2021<br>• Unit Purchase transaction must be substantially contemporaneous with amendment effectiveness<br>• Change in Control redefined: (i) loss of 100% ownership by Crestwood Equity Partners, (ii) third-party acquisition of 35%+ voting power in Crestwood Equity Partners, (iii) change in control under existing notes or material indebtedness, (iv) change in general partner of Borrower, (v) change in general partner of Crestwood Equity Partners, (vi) loss of 100% ownership of Crestwood Equity GP<br>• Modified Permitted Holder definition applicable through completion of Third Amendment Transactions<br>• All existing loan documents, guarantees, and financial covenants remain in full force and effect |

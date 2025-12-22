@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Specific information required in the written notice to the Administrative Agent for a Subsequent Acquisition Holiday (name of target/assets, purchase price, pro forma leverage ratio, trailing-four-quarter acquired revenue, and Consolidated EBITDA)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo claims the leverage covenant has 'mandatory quarterly improvements' and 'structured quarterly reductions,' but the stated schedule reduces only at specific intervals (4.75x for Q1\\u2013Q4, 4.25x for Q5\\u2013Q6, 4.00x for Q7\\u2013Q8, 3.75x for Q9\\u2013Q10), not every quarter.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 87.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 55.0"}}]}}}

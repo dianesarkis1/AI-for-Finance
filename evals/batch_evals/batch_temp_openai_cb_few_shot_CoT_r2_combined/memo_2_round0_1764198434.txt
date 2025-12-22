@@ -1,0 +1,43 @@
+Looking at this credit agreement document, I'll analyze the Fifth Amended and Restated Limited Waiver systematically. Here's my approach:
+
+• Extract key dates, parties, and transaction structure from the document
+• Identify the purpose of the waiver and its relationship to COVID-19 impacts
+• Analyze the covenant modifications and restrictions imposed on the borrower
+• Document specific financial terms and conditions
+• Assess the credit implications from an investor perspective
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On November 30, 2020, Bank of Montreal as administrative agent granted a Fifth Amended and Restated Limited Waiver to MGE Niagara Entertainment Inc.
+- MGE Niagara Entertainment Inc., a casino operator, serves as the borrower under a credit agreement originally dated June 10, 2019 (amended July 17, 2019) with Bank of Montreal as administrative agent and various lenders.
+- This waiver extends previous COVID-19 related relief through March 31, 2021, addressing casino facility closures mandated by Ontario Lottery and Gaming Corporation (OLG) due to the pandemic.
+- The purpose is to waive financial covenant breaches, closure-related defaults, and compliance certificate delivery requirements that resulted from government-mandated casino closures exceeding 60 consecutive days. The waiver extends the relief period until March 31, 2021 (the "Extended Waiver Period").
+- MGE Niagara Entertainment operates casino facilities under agreements with OLG, which has provided financial relief including threshold payment relief and fixed component per diem payments during the closure period.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Government support through OLG providing financial relief including threshold payment relief and fixed component per diem payments during closure
+- Liquidity maintenance requirement of minimum $15,000,000 provides downside protection
+- Weekly liquidity reporting provides enhanced monitoring and transparency
+- Applicable margin increases to Level 5 pricing (5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans) providing additional compensation for risk
+
+### Principal Risks and Mitigating Factors:
+- Casino operations remain highly vulnerable to government-mandated closures and regulatory restrictions
+- Extended waiver period through March 31, 2021 indicates prolonged financial distress
+- Borrower prohibited from requesting new advances under either credit facility during waiver period
+- New event of default triggers if OLG ceases relief payments for more than 5 business days
+- Distribution restrictions limit financial flexibility during recovery period
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | Extension fee of 5 basis points on each consenting lender's commitment |
+| **Interest Rate** | Applicable Margin at Level 5: 5.00% for Bankers' Acceptances/Letters of Credit/LIBOR Loans; 3.50% for Prime Rate/USBR Loans |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Minimum liquidity of $15,000,000 at all times<br>• No new advances available under either credit facility<br>• No distributions under certain permitted categories<br>• Weekly liquidity reporting required<br>• Restrictions on amendments to leases and management agreements<br>• No acquisitions permitted<br>• Event of default if OLG relief ceases for >5 business days |

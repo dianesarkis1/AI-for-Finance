@@ -1,0 +1,41 @@
+Looking at this credit agreement document, here is my step-by-step approach:
+
+• Identify the key parties and transaction date from the amendment
+• Determine the specific changes being made to the original credit agreement
+• Extract any available financial terms and covenants
+• Assess the credit implications from an investor perspective
+• Compile the information into the required memo structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-10-30
+
+**Borrower/Company Overview:** Biodesix, Inc., a Delaware corporation, serves as the borrower under this credit facility. The company maintains an existing credit relationship with Perceptive Credit Holdings IV, LP dating back to November 2022.
+
+**Transaction Description:** This Fourth Amendment to Credit Agreement and Guaranty represents a modification to the existing credit facility between Biodesix, Inc. and Perceptive Credit Holdings IV, LP (serving as Administrative Agent and Lender). The transaction involves amendments to terms previously established in the original November 16, 2022 Credit Agreement and Guaranty.
+
+**Purpose of Financing:** The amendment incorporates specific changes detailed in the attached annexes, though the precise nature of these modifications is not disclosed in the main agreement text. The borrower requested these amendments to modify certain provisions of the existing credit agreement.
+
+**Company Background:** Biodesix operates under a credit facility that has required multiple amendments since its original execution in November 2022, with previous modifications occurring in May 2023, August 2023, and February 2024, indicating an active credit relationship requiring periodic adjustments.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• No current defaults or events of default, with borrower representations confirming ongoing compliance
+• Existing security package remains intact with all liens and collateral protections continuing in full force and effect
+• Borrower reaffirms all representations and warranties from the original credit agreement, indicating maintained creditworthiness
+• Established lending relationship with experienced credit-focused lender Perceptive Credit Holdings IV, LP
+
+**Principal Risks and Mitigating Factors:**
+• Multiple amendments (fourth since 2022) suggest potential ongoing covenant pressure or need for structural adjustments
+• Limited transparency regarding specific amendment terms, which are contained in undisclosed annexes
+• Amendment frequency may indicate underlying business challenges requiring periodic covenant relief or modifications
+• Mitigation provided through maintained security structure and lender's continued willingness to amend terms
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All existing liens and security interests remain in full force and effect<br>• Borrower confirms compliance with all representations and warranties contained in Article 7 of Credit Agreement<br>• No Default or Event of Default continuing as of amendment effective date<br>• Amendment governed by New York law<br>• Specific covenant modifications detailed in Annex A (not provided in main document) |

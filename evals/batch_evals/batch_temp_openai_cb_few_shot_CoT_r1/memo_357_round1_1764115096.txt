@@ -1,0 +1,39 @@
+## Checklist
+- Extract transaction details and amendment date from the credit agreement amendment
+- Identify the technical correction purpose and parties involved
+- Analyze investment implications of the superpriority term facility structure
+- Assess credit strengths and risks from the amendment context
+- Format deal terms table according to specified structure with available data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-08-26
+
+**Borrower/Company:** Lumen Technologies, Inc., a Louisiana corporation, operates as a telecommunications company with a complex capital structure requiring superpriority financing arrangements.
+
+**Transaction Description:** Amendment No. 1 to the Superpriority Term B Credit Agreement originally executed March 22, 2024. The transaction involves Lumen Technologies as Borrower, Wilmington Trust, National Association as Administrative Agent, Bank of America, N.A. as Collateral Agent, and participating Lenders.
+
+**Financing Purpose:** This amendment serves a purely technical function to correct an error in Section 6.01(v)(1)(ii) of the original Credit Agreement. The correction addresses provisions governing Incremental Equivalent Debt terms and conditions.
+
+**Company Background:** Lumen Technologies operates in the telecommunications sector and maintains a superpriority Term B credit facility, indicating potential capital structure complexity or restructuring circumstances requiring enhanced lender protections.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established institutional framework with premier financial institutions (Wilmington Trust as Administrative Agent, Bank of America as Collateral Agent)
+• Proactive document maintenance demonstrates borrower cooperation and attention to covenant compliance
+• Superpriority facility structure provides enhanced creditor protections and priority ranking
+• Comprehensive incremental debt restrictions limit subordinate financing that could impair recovery
+
+**Principal Risks and Mitigating Factors:**
+• Superpriority designation suggests underlying credit challenges or distressed circumstances requiring enhanced protections
+• Amendment provides limited insight into current operational performance, liquidity position, or financial covenant compliance
+• Telecommunications sector exposure to technological disruption and capital intensity requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Incremental Equivalent Debt limited to Borrower with only Lumen Guarantors/QC Guarantors<br>• Security limited to existing Collateral<br>• Weighted Average Life to Maturity no shorter than Term B Loans<br>• No maturity/prepayment obligations prior to Latest Maturity Date<br>• Subject to Subordination Agreement as "Subordinated Debt"<br>• Cannot rank senior to Obligations in payment or lien priority |

@@ -1,0 +1,40 @@
+Looking at this credit agreement document, here is my step-by-step approach:
+
+• Identify the key parties and transaction date from the amendment
+• Determine the specific changes being made to the original credit agreement
+• Extract any available financial terms and covenants
+• Assess the credit implications from an investor perspective
+• Compile the information into the required memo structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2024-10-30
+
+**Borrower:** Biodesix, Inc., a Delaware corporation, serves as the borrower in this credit facility. The company has been party to a credit agreement with Perceptive Credit Holdings IV, LP since November 16, 2022, indicating an established lending relationship.
+
+**Transaction Structure:** This Fourth Amendment to Credit Agreement and Guaranty represents a modification to the existing credit facility between Biodesix, Inc. and Perceptive Credit Holdings IV, LP, which serves as both Administrative Agent and Lender. The transaction involves majority lenders as parties to the amendment.
+
+**Purpose of Financing:** The borrower requested amendments to certain provisions of the existing credit agreement, though the specific commercial rationale is not disclosed in the document. The amendment incorporates changes detailed in attached annexes and includes execution of a Fourth Amended and Restated Fee Letter.
+
+**Company Background:** Biodesix, Inc. has maintained an active credit facility since November 16, 2022, with this representing the fourth amendment to the original agreement (previous amendments dated May 10, 2023, August 4, 2023, and February 29, 2024). The frequency of amendments suggests an evolving credit relationship requiring periodic adjustments to terms.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• **Covenant Compliance:** The borrower explicitly represents that no Default or Event of Default has occurred and is continuing, demonstrating current compliance with all credit agreement terms and covenants
+• **Security Package Intact:** All existing liens and security interests granted under the loan documents remain in full force and effect with unchanged priority, preserving collateral protection for lenders
+• **Representations Current:** The borrower reaffirms that all representations and warranties contained in Article 7 of the original credit agreement remain true and correct in all material respects, indicating maintained creditworthiness
+• **Corporate Authorization:** The amendment has received proper corporate authorization and execution, ensuring enforceability of modified terms
+
+### Principal Risks and Mitigating Factors:
+• **Amendment Frequency Risk:** This fourth amendment since 2022 suggests potential ongoing challenges requiring repeated covenant modifications or term adjustments, though each amendment has maintained lender protections
+• **Limited Disclosure:** The specific nature of amendments is contained in annexes not provided, creating uncertainty about the materiality of changes, though standard representations and warranties remain intact
+• **Concentrated Lender Base:** Perceptive Credit Holdings IV, LP serves as both agent and lender, creating concentration risk, mitigated by the established relationship and ongoing compliance monitoring
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All existing liens and security interests remain in full force and effect with unchanged priority<br>• No Default or Event of Default continuing as of amendment effective date<br>• All representations and warranties in Article 7 of Credit Agreement remain true and correct<br>• Borrower maintains compliance with all terms and conditions of loan documents except where inconsistent with amendment terms |

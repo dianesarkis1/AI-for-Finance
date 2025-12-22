@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_289", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_289", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_289", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo lists 'multiple amendments' as a key strength ('demonstrating ongoing lender support') and simultaneously as a principal risk ('may indicate covenant pressure or operational challenges').\",\n    \"The memo cites the 'lockbox arrangements' as a strength ('providing payment control mechanisms') and also as a risk ('Enhanced cash control mechanisms may indicate lender concern about borrower's cash management').\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_289", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_289", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_length_289", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_structure_289", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

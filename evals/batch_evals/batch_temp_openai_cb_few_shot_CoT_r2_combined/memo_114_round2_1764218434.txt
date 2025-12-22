@@ -1,0 +1,41 @@
+# Checklist
+
+- Identify the key parties, dates, and transaction structure from the lender joinder agreement
+- Extract the specific financial terms including commitment amounts and transaction purpose
+- Analyze credit strengths and risks from an investment perspective based on available information
+- Compile deal terms into the required table format, marking unavailable information as "N/A"
+- Ensure all sections follow the prescribed structure and professional tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-12
+
+**Borrower / Company Overview:** MSCC Funding I, LLC, a Delaware limited liability company, serves as the borrower under a revolving credit and security agreement originally dated November 22, 2022. Main Street Capital Corporation, a Maryland corporation, acts as the collateral manager and sole member of the borrower entity.
+
+**Transaction Description:** This transaction constitutes a lender joinder whereby EverBank, N.A. becomes an additional lender in an existing syndicated revolving credit facility. The original credit agreement established a multi-party structure with Truist Bank serving as administrative agent and swingline lender, Citibank, N.A. as collateral agent, custodian, and document custodian, and Virtus Group, LP as collateral administrator.
+
+**Purpose of Financing:** EverBank's joinder expands the existing revolving credit facility capacity. Upon joining, the borrower is deemed to request a joinder advance from EverBank to reallocate outstanding advances among all lenders on a pro rata basis according to their respective commitments, with any remaining proceeds directed as specified by the borrower.
+
+**Company Background:** The borrowing entity operates as a funding vehicle managed by Main Street Capital Corporation. The facility structure incorporates Investment Company Act compliance requirements, necessitating that all lenders maintain qualified purchaser and qualified institutional buyer status, indicating this is an institutional-grade financing arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• High-quality syndicate anchored by major financial institutions including Truist Bank and Citibank, N.A.
+• Comprehensive governance structure with segregated roles for administration, collateral management, and custody functions
+• Regulatory framework requiring sophisticated investor qualifications enhances participant quality
+• Established facility with operational track record since November 2022
+• Pro rata advance allocation mechanism ensures equitable risk distribution
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into underlying credit terms, pricing, and maturity profile through joinder documentation alone
+• Regulatory complexity under Investment Company Act may impose operational constraints, though mitigated by experienced collateral manager
+• Concentration risk in collateral manager Main Street Capital Corporation, partially offset by independent administrative and custodial oversight
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | N/A | N/A | N/A | • Lender must maintain Qualified Purchaser status under Investment Company Act<br>• Lender must maintain QIB status under Securities Act<br>• Pro rata funding requirements based on commitment percentages |

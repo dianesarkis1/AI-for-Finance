@@ -1,0 +1,36 @@
+I will analyze this credit agreement document step by step to create a professional investment memorandum. Here's my approach:
+
+• Extract key transaction details (date, parties, purpose) from the consent agreement
+• Identify the borrower (F45 Training Holdings Inc.) and lender syndicate structure
+• Analyze the specific consent being granted (financial statement delivery extension)
+• Assess credit positives and risks from an investor perspective
+• Compile available deal terms while marking unavailable information as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On September 15, 2023, F45 Training Holdings Inc., a Delaware corporation, entered into a consent agreement with JPMorgan Chase Bank N.A. (as Administrative Agent and Australian Security Trustee) and Goldman Sachs Bank USA as lenders.
+- F45 Training Holdings Inc. is a fitness company that operates under an Amended and Restated Credit Agreement originally dated August 13, 2021, which has been previously amended four times (December 2021, May 2022, February 2023, and June 2023).
+- The purpose of this consent agreement is to extend the delivery deadline for F45's audited consolidated financial statements for fiscal year 2022 and accompanying compliance certificate from March 31, 2023 to September 30, 2023.
+- The transaction represents an accommodation by lenders to provide additional time for financial reporting compliance, suggesting potential operational or administrative challenges at the borrower level.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Strong institutional lender base including JPMorgan Chase Bank N.A. and Goldman Sachs Bank USA, indicating established banking relationships with reputable financial institutions
+• Borrower confirms no current defaults or events of default exist under the credit agreement
+• Comprehensive release and ratification provisions demonstrate borrower's commitment to maintaining lender relationships
+• All existing loan documents and covenants remain in full force and effect
+
+### Principal Risks and Mitigating Factors:
+• Six-month delay in financial statement delivery raises concerns about operational challenges, accounting issues, or potential financial performance problems
+• Multiple prior amendments to the original credit agreement (four amendments since August 2021) suggest ongoing need for covenant modifications or relief
+• Limited financial information available to assess underlying credit quality and performance trends
+• Release of claims provision suggests potential prior tensions between borrower and lenders
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| N/A | N/A | N/A | N/A | N/A | • Extension of audited financial statement delivery deadline from March 31, 2023 to September 30, 2023<br>• Extension of compliance certificate delivery deadline from March 31, 2023 to September 30, 2023<br>• All existing covenants under original credit agreement remain in full force and effect<br>• Borrower confirms no defaults or events of default exist |

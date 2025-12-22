@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Claim of \u201c125 basis points spread from Level 1 to Level 5.\u201d Annex I shows Eurodollar margins of 0.725% (Level 1) and 1.225% (Level 5), a 50 bps difference; ABR margins are 0.000% (Level 1) and 0.225% (Level 5), a 22.5 bps difference."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo claims a 125 bps spread from Level 1 to Level 5, but the listed grid shows Eurodollar margins of 0.725% (L1) vs 1.225% (L5) = 50 bps, and ABR margins of 0.000% (L1) vs 0.225% (L5) = 22.5 bps\\u2014neither matches 125 bps.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

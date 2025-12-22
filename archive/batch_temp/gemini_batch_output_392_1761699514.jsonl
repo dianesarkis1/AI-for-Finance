@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_392", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_392", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: [\"Incremental Equivalent Debt shall not be subject to any maturity, mandatory redemption, repurchase, prepayment or sinking fund obligation (other than customary exceptions) prior to the then Latest Maturity Date.\"]"}}]}}}
-{"custom_id": "consistency_392", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo presents the complex capital structure (e.g., 'Subordination Agreement framework', 'First Lien/First Lien Intercreditor Agreement') as a key strength for providing payment priority, while simultaneously citing 'Multiple debt layers and intercreditor arrangements' as a principal risk due to their complexity.\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_392", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_392", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
-{"custom_id": "quality_length_392", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
-{"custom_id": "quality_structure_392", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45"}}]}}}

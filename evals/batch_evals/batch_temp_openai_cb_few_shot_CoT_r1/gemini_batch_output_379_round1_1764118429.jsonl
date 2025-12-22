@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe repayment schedule is missing the final balloon payment. The source document states in the amended repayment schedule (Section 2(f)(ii)) that on the \"Maturity Date for the Initial Term Loans,\" \"All unpaid aggregate principal amounts of any outstanding Initial Term Loans\" are due. The memo only captures the quarterly amortization and omits this final principal repayment term."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents the financing as a term loan with a defined quarterly amortization schedule, yet the 'Key Deal Terms Table' lists the 'Maturity date' as 'N/A', which is a contradiction as a term loan must have a maturity date.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 68.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

@@ -1,0 +1,40 @@
+## Checklist of Analysis Steps:
+- Extract key transaction dates, parties, and amendment structure
+- Identify all borrowers, administrative agent, and complete lender consortium
+- Analyze the amendment's purpose and any facility upsize mentioned
+- Assess credit positives and risks from lender perspective
+- Compile available deal terms while marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-03-31
+
+**Borrower / Company Overview:** The borrowers are five entertainment library financing entities: LGTV Library Financing LLC, Artisan Library Financing LLC, Summit Library Financing LLC, LG Film Library Financing LLC, and LGIM Library UK Financing Limited, each with corresponding parent holding companies.
+
+**Transaction Description:** Amendment No. 2 to an Amended and Restated Credit, Security and Pledge Agreement among the borrowers, their parent entities, a syndicate of 14 lenders, and Fifth Third Bank as Administrative Agent. The amendment includes facility modifications and an upsize component.
+
+**Purpose of Financing:** The amendment facilitates certain changes to the existing Credit Agreement and implements an upsize to the credit facility, with new loan allocations among participating lenders.
+
+**Company Background:** The borrowing entities are structured as special purpose vehicles focused on entertainment content library financing, organized with separate parent holding companies providing guarantor support. The original Credit Agreement was established on November 5, 2024, with the first amendment executed on December 9, 2024.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong syndicated lender group of 14 financial institutions including major regional and national banks demonstrating broad institutional confidence
+• Recent facility upsize indicates positive lender sentiment and successful borrower performance since facility inception
+• Structured credit support through parent company guarantees enhancing credit quality
+• Specialized entertainment library financing provides exposure to content assets with recurring revenue potential
+• No existing defaults or events of default as confirmed in amendment conditions
+
+**Principal Risks and Mitigating Factors:**
+• Entertainment industry cyclicality and content performance variability pose revenue risks, mitigated by diversified library assets across multiple entities
+• Complex multi-borrower structure may create operational and monitoring challenges, addressed through comprehensive guarantee structure
+• Limited covenant and pricing transparency constrains full risk assessment capability
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Complete lender syndicate comprises: Fifth Third Bank (Administrative Agent and Lender), East West Bank (Reserve Deposit Agent and Lender), Western Alliance Bank, First-Citizens Bank & Trust Company, Zions Bancorporation N.A. dba California Bank and Trust, Truist Bank, Wells Fargo Bank N.A., Preferred Bank, Texas Capital Bank, Flagstar Bank N.A., Bank of Hope, Sunflower Bank National Association, City National Bank, and Axos Bank<br>• Facility upsize with modified terms per Annex A<br>• No Event of Default or Default permitted before/after amendment<br>• Parent guarantor obligations remain in full force and effect<br>• Borrower responsibility for Administrative Agent expenses including legal fees |

@@ -1,0 +1,42 @@
+## Checklist of Tasks
+
+- Identify the transaction date, parties, and structure from the agreement
+- Extract borrower information and company background details
+- Determine the purpose and key terms of the revolving commitment increase
+- Analyze credit positives and risks from an investment perspective
+- Compile deal terms table with available information, marking missing fields as "N/A"
+- Ensure proper formatting and professional tone throughout
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On July 7, 2025, ExchangeRight Income Fund Operating Partnership, LP entered into a Third Incremental Revolving Commitment Assumption Agreement to increase its revolving credit facility.
+- The Borrower is ExchangeRight Income Fund Operating Partnership, LP, a Delaware limited partnership, with ExchangeRight Income Fund (d/b/a ExchangeRight Essential Income REIT), a Maryland REIT, serving as the Parent company.
+- This transaction represents an incremental increase to an existing credit facility originally dated May 30, 2024, with Wells Fargo Bank, National Association serving as Administrative Agent.
+- The purpose is to add Renasant Bank as an Additional Lender with a $15,000,000 Incremental Revolving Commitment, bringing the total aggregate Revolving Commitments to $150,000,000.
+- ExchangeRight appears to be a real estate investment trust focused on net leased properties and essential income-generating real estate assets, with multiple subsidiary entities and Delaware statutory trusts as guarantors.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with reputable financial institutions including Wells Fargo as Administrative Agent and Fifth Third Bank as existing lender
+- REIT structure provides transparency and regulatory oversight typical of public real estate investment vehicles
+- Multiple subsidiary guarantors and loan parties provide additional credit support and diversification across real estate holdings
+- Recent facility expansion indicates continued lender confidence and borrower's ability to access incremental capital
+
+### Principal Risks and Mitigating Factors:
+- Real estate sector exposure subjects the credit to property market cyclicality and interest rate sensitivity
+- Limited financial covenant or performance information available to assess current credit metrics
+- Complex organizational structure with multiple subsidiary entities may create operational complexity
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 15,000,000 incremental commitment (USD 150,000,000 total facility size) |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | • Borrower must maintain compliance with Section 2.17 of the original Credit Agreement<br>• No Default or Event of Default permitted before or after agreement execution<br>• All existing guarantees, liens, and security interests reaffirmed and remain in full force<br>• Incremental loans subject to same terms and conditions as existing revolving facility |

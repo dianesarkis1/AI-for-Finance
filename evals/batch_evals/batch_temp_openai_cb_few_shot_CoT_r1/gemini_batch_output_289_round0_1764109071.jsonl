@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo lists \\\"Borrower confirms no current defaults or events of default exist\\\" as a key strength, but the entire purpose of the consent agreement is to waive a missed financial reporting deadline (due March 31, 2023), which is itself an event of default.\", \"The \\\"release of claims\\\" provision is presented as a credit positive demonstrating the borrower's commitment, while simultaneously being cited as a risk suggesting prior tensions between the borrower and lenders.\", \"The memo states \\\"All existing ... covenants remain in full force and effect\\\" while the core function of the agreement being analyzed is to explicitly change a key covenant (the financial statement delivery deadline).\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

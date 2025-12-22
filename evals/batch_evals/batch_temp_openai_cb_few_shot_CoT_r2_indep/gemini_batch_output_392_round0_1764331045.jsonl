@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo states that the ability to borrow in non-USD currencies is 'eliminated', but the deal terms table describes a process for 'Automatic currency conversion to USD for non-USD requests'. A request cannot be processed (converted) if the ability to make it has been eliminated.\", \"The memo states that 1-week and 2-month USD LIBOR tenors are 'restricted' or 'excluded', but the deal terms table also says there is an 'Automatic interest period conversion to 1-month for restricted tenors'. A request for a tenor cannot be automatically converted if that tenor is excluded and cannot be requested in the first place.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 92.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

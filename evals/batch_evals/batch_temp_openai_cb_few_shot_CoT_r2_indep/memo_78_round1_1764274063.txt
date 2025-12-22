@@ -1,0 +1,41 @@
+## Action Plan Checklist
+
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify the specific changes being made to the credit agreement terms
+- Analyze credit strengths and risks from an investor perspective
+- Compile available deal terms into the required table format
+- Validate all information is sourced directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-10-31
+
+**Borrower/Company Overview:** Saia Inc., a Delaware corporation, operates as the primary borrower with multiple subsidiary loan parties including Saia Motor Freight Line, LLC, Saia Sales, LLC, Saia TL Plus, LLC, LinkEx, Inc., and Saia Logistics, LLC.
+
+**Transaction Description:** Amendment No. 1 to existing Credit Agreement dated February 3, 2023, executed between Saia Inc. and a banking syndicate led by JPMorgan Chase Bank, N.A. as Administrative Agent. Participating lenders include Bank of America, N.A., PNC Bank, TD Bank, N.A., and BOKF, NA dba Bank of Oklahoma.
+
+**Purpose of Financing:** The amendment modifies covenant restrictions to provide enhanced flexibility regarding future unsecured debt arrangements while maintaining lender protections through pari passu security provisions.
+
+**Company Background:** Based on the loan party structure, Saia Inc. appears to operate a transportation and logistics business through various subsidiaries including motor freight operations, sales entities, and logistics services.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender support with major U.S. banks maintaining credit facility
+• Borrower compliance confirmed - no defaults or events of default reported as of amendment date
+• Comprehensive guarantee structure maintained across all subsidiary entities
+• Amendment preserves lender security through required pari passu lien provisions
+• Required Lenders' consent obtained, indicating continued syndicate confidence
+
+**Principal Risks and Mitigating Factors:**
+• Covenant modification provides borrower with increased flexibility for future unsecured debt, potentially diluting credit quality
+• Amendment represents borrower-favorable terms that may indicate need for additional financing flexibility
+• Limited financial transparency available from amendment document alone
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified Section 6.09 (Restrictive Agreements) - permits unsecured debt restrictions provided they are not materially more restrictive than current Agreement and expressly allow pari passu liens to Administrative Agent<br>• All existing covenants ratified and confirmed |

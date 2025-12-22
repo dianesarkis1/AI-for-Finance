@@ -1,0 +1,35 @@
+## Checklist:
+- Extract key parties (borrower, lenders, administrative agent) and transaction date
+- Identify transaction purpose (Third Amendment Transactions and dividend distributions)
+- Analyze key covenant modifications and financial terms
+- Assess credit strengths and risks from an investment perspective
+- Compile deal terms table with explicit information only
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On March 25, 2021, Crestwood Midstream Partners LP, a Delaware limited partnership, entered into a Third Amendment to its Second Amended and Restated Credit Agreement (originally dated October 16, 2018) with Wells Fargo Bank, National Association as Administrative Agent and a large syndicate of lenders.
+- Crestwood Midstream Partners LP operates as a midstream energy company with extensive subsidiary operations including pipeline, crude services, gas processing, and transportation entities across multiple states.
+- The amendment facilitates the "Third Amendment Transactions," which involve complex equity restructuring where Crestwood Equity Partners and third-party investors will acquire equity interests in Crestwood Holdings LLC and its subsidiaries, including unit purchases and general partnership interest acquisitions.
+- The primary purpose is to enable the Borrower to make revolving facility borrowings and distribute up to USD 275 million to parent entities to finance Crestwood Equity Partners' acquisition of equity units and general partnership interests, along with associated transaction costs.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Highly diversified lender syndicate including major financial institutions (Wells Fargo as Administrative Agent, Bank of America, JPMorgan Chase, Citibank, Royal Bank of Canada, and 15+ additional lenders), indicating strong market confidence
+- Borrower representations confirm no defaults or events of default are occurring as of the amendment effective date
+- All existing loan documents, guarantees, and collateral remain in full force and effect with continued subsidiary guarantor support from extensive midstream operations
+- Amendment includes lender consent fee of 0.05% of revolving facility commitments for approving lenders
+
+### Principal Risks and Mitigating Factors:
+- The amendment permits significant dividend distributions (up to USD 275 million) that could reduce available cash for debt service and operations
+- Complex equity restructuring involving changes in ownership structure and control definitions may introduce execution risk
+- Modified "Change in Control" and "Permitted Holder" definitions could potentially affect future covenant compliance
+- Limited financial performance data available to assess current credit metrics or capacity to support additional distributions
+
+## 3. Key Deal Terms Table
+
+| Deal Size | Deal Price | Interest Rate | Maturity Date | Payment Frequency | Key Covenants |
+|-----------|------------|---------------|---------------|-------------------|---------------|
+| N/A | N/A | N/A | N/A | N/A | • Borrower permitted to make dividends/distributions up to $275.0 million aggregate for Third Amendment Transactions<br>• Modified "Change in Control" triggers: 35% threshold for third-party equity acquisition in Crestwood Equity Partners<br>• All existing loan documents and guarantees reaffirmed<br>• No defaults or events of default as of amendment effective date |

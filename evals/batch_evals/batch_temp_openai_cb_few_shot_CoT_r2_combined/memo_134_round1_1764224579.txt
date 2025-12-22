@@ -1,0 +1,39 @@
+**Planning Checklist:**
+- Extract key transaction details including the exact Amendment Date of June 18, 2025
+- Correctly characterize the Reinvestment Period modification as a near-term ending date rather than an extension
+- Identify the specific changes being made to the revolving credit agreement
+- Analyze credit positives and risks from an investor perspective based on available information
+- Compile available deal terms using proper table formatting, marking unavailable information as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-06-18
+
+**Borrower/Company Overview:** OFSCC-FS, LLC, a Delaware limited liability company, serves as the borrower in this revolving credit and security agreement structure. OFS Capital Corporation acts as servicer, with OFSCC-FS Holdings, LLC serving as equityholder.
+
+**Transaction Description:** This is a third amendment to an existing revolving credit and security agreement originally executed on June 20, 2019. The lending syndicate includes BNP Paribas as both Administrative Agent and Lender, Mitsubishi HC Capital America, Inc. as Lender, Citibank, N.A. as Collateral Agent, and Virtus Group, LP as Collateral Administrator.
+
+**Purpose of Financing:** The amendment extends the facility's final maturity date while establishing a near-term end to the reinvestment period, indicating a transition toward facility wind-down or refinancing.
+
+**Company Background:** The borrower operates within a structured credit facility framework with comprehensive administrative oversight, suggesting involvement in asset-based lending or investment activities requiring specialized servicing and collateral management.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lending consortium featuring established financial institutions with expertise in structured credit facilities
+• Borrower maintains full compliance with all covenants and representations, with no defaults or events of default as of the amendment date
+• Comprehensive operational framework with dedicated servicer, collateral administrator, and collateral agent providing multiple layers of oversight
+• Maturity extension to June 2027 demonstrates continued lender support and provides operational flexibility
+
+**Principal Risks and Mitigating Factors:**
+• Limited financial transparency with no disclosed pricing, deal size, or specific financial covenant requirements
+• Reinvestment period ending August 31, 2025 indicates near-term strategic transition that may require refinancing or restructuring
+• Amendment structure suggests borrower required modifications to original terms, potentially indicating operational or market pressures
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2027-06-20 | N/A | • Reinvestment Period ends August 31, 2025 (subject to potential extension by agreement) • All prior representations and warranties reaffirmed • No Default, Event of Default, Potential Servicer Removal Event or Servicer Removal Event continuing • Individual Lender Maximum Funding Amounts subject to termination provisions |

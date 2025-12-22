@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- **Purpose of Financing:** The memo states the amendment \"increases\" the floor plan financing sublimits. The source document only provides the new, amended sublimit amounts but does not provide the previous amounts or state that the new amounts represent an increase."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo does not mention the \"Release of Claims\" clause found in Section 6(c) of the source document, where the borrower releases the lenders from all past and present claims."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The deal terms table presents conflicting financial limits: the sum of three specific vessel category sublimits (~$475M) exceeds the overarching sublimit for high-value individual vessels ($450M), despite those categories being composed almost entirely of such vessels.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

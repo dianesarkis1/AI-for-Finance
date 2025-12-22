@@ -16,18 +16,40 @@ from typing import Dict, List, Optional
 import subprocess
 
 
-def run_curl(args: List[str], stdin_bytes: Optional[bytes] = None) -> str:
-    """Execute curl command and return stdout."""
+def run_curl(args: List[str], stdin_bytes: Optional[bytes] = None, timeout: int = 120) -> str:
+    """Execute curl command and return stdout.
+
+    Args:
+        args: curl command arguments
+        stdin_bytes: Optional stdin input
+        timeout: Timeout in seconds (default: 120)
+    """
+    # Add connection timeout and max-time to curl if not already present
+    if "--connect-timeout" not in args:
+        # Insert timeout options after 'curl'
+        args = args[:1] + ["--connect-timeout", "30", "--max-time", str(timeout)] + args[1:]
+
     result = subprocess.run(
         args,
         input=stdin_bytes,
         capture_output=True,
         check=False,
         text=False,
+        timeout=timeout + 10  # subprocess timeout slightly longer than curl timeout
     )
     if result.returncode != 0:
         stderr_text = result.stderr.decode("utf-8", errors="ignore")
         stdout_text = result.stdout.decode("utf-8", errors="ignore")
+
+        # Check if it's a timeout error and provide helpful message
+        if "timeout" in stderr_text.lower() or result.returncode == 28:
+            raise RuntimeError(
+                f"Connection timeout - check your network connection and try again.\n"
+                f"If the problem persists, Anthropic's API may be experiencing issues.\n"
+                f"Command: {' '.join(args[:5])}... (truncated)\n"
+                f"Error: {stderr_text}"
+            )
+
         raise RuntimeError(
             f"Command failed: {' '.join(args)}\nSTDERR:\n{stderr_text}\nSTDOUT:\n{stdout_text}"
         )

@@ -1,0 +1,43 @@
+I'll analyze this credit agreement step by step to create a comprehensive investment memorandum.
+
+**Checklist:**
+- Identify key transaction details and parties involved
+- Extract specific amendment provisions and their implications
+- Assess credit strengths and risks from an investor perspective
+- Compile available deal terms into structured table format
+- Validate all information is sourced directly from the document
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On August 28, 2020, Lilis Energy Inc. and its lenders executed a third amendment to their Senior Secured Super-Priority Debtor-in-Possession Credit Agreement.
+- Lilis Energy Inc., a Nevada corporation, serves as the Borrower, with multiple subsidiary guarantors including Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC.
+- The original DIP Credit Agreement was dated June 30, 2020, among Lilis Energy, its guarantor subsidiaries, and a syndicate of lenders including BMO Harris Bank N.A. as Administrative Agent, Capital One National Association, and Credit Suisse AG Cayman Islands Branch.
+- The purpose of this amendment is to extend certain Chapter 11 bankruptcy milestone deadlines, specifically modifying Section 8.23(e) to change the milestone date from August 28, 2020 to September 3, 2020.
+- Lilis Energy appears to be an energy company operating through various subsidiaries in the oil and gas sector, currently undergoing Chapter 11 bankruptcy proceedings with debtor-in-possession financing.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Super-priority DIP structure provides enhanced creditor protection and priority in bankruptcy proceedings
+- Secured facility with collateral protection
+- Established banking relationships with reputable institutions (BMO Harris, Capital One, Credit Suisse)
+- Borrower remains in compliance with all representations and warranties and no defaults are continuing
+
+### Principal Risks and Mitigating Factors:
+- Debtor-in-possession financing indicates the company is in active Chapter 11 bankruptcy proceedings, representing significant credit risk
+- Request for milestone extensions suggests potential challenges in meeting restructuring timeline
+- Energy sector exposure during a period that may involve commodity price volatility
+- Limited financial information available to assess underlying business performance or recovery prospects
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Chapter 11 milestone deadline extended from August 28, 2020 to September 3, 2020. All prior representations, warranties, and covenants from original credit agreement remain in full force and effect |

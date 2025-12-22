@@ -1,0 +1,43 @@
+I'll analyze this credit agreement step by step to create a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key transaction details (date, parties, amendment purpose)
+• Identify borrower background and transaction structure
+• Analyze credit strengths and risks from an investor perspective
+• Compile deal terms into the required table format
+• Validate all sections are complete with direct data or "N/A" where information is missing
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-07-25
+
+**Borrower/Company Overview:** Universal Electronics Inc., a Delaware corporation, is the borrower under a credit facility with U.S. Bank National Association serving as Administrative Agent and Lender.
+
+**Transaction Description:** This transaction represents the tenth amendment to a Second Amended and Restated Credit Agreement originally executed on October 27, 2017. The amendment modifies Section 6.16 "Liens" covenant to permit additional secured indebtedness arrangements with Bank of China.
+
+**Purpose of Financing:** The amendment allows Universal Electronics Inc. to secure indebtedness of up to $21,000,000 with Bank of China, with liens restricted to non-U.S. properties only, facilitating international financing while protecting domestic assets.
+
+**Company Background:** Universal Electronics Inc. operates under a comprehensive credit facility with U.S. Bank National Association, secured by intellectual property assets including trademarks and patents, and supported by a continuing guaranty from subsidiary Universal Electronics BV. The credit relationship has undergone ten amendments since 2017, indicating an active and evolving borrowing arrangement.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established banking relationship with U.S. Bank National Association spanning eight years since October 2017
+• Borrower confirmed to be in good standing with no defaults under existing credit agreement, note, or security documents
+• Conservative approach to new liens with geographic restrictions protecting U.S. assets while enabling international expansion
+• Robust security package including intellectual property collateral (trademarks, patents) and subsidiary guaranty from Universal Electronics BV
+• Disciplined covenant modification with specific $21,000,000 limitation on additional Bank of China liens
+
+**Principal Risks and Mitigating Factors:**
+• Frequent amendments (ten total) may indicate ongoing operational challenges or covenant pressure requiring regular modifications
+• Addition of Bank of China secured debt introduces potential intercreditor complexity and increased leverage profile
+• Limited visibility into underlying financial performance and covenant compliance trends
+• Risks mitigated by geographic lien restrictions, reaffirmation of existing security documents, and maintenance of subsidiary guaranty structure
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Permitted liens in favor of Bank of China not to exceed $21,000,000, provided liens do not extend to U.S. property<br>• All prior representations, warranties, and covenants under Credit Agreement reaffirmed<br>• Security documents remain in full force including trademarks, patents, and continuing guaranty from Universal Electronics BV |

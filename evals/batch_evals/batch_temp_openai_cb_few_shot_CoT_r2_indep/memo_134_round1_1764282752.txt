@@ -1,0 +1,40 @@
+## Checklist
+- Extract key parties, dates, and transaction structure from the third amendment
+- Identify specific amendments to maturity date and reinvestment period
+- Analyze investment strengths and risks based on available information
+- Present deal terms in required table format with proper field ordering
+- Ensure professional investment committee memorandum structure and tone
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date:** 2025-06-18
+
+**Borrower/Company Overview:** OFSCC-FS, LLC is a Delaware limited liability company operating as the borrower under a revolving credit and security agreement. The company is part of a structured credit arrangement with OFS Capital Corporation serving as servicer and OFSCC-FS Holdings, LLC as equityholder.
+
+**Transaction Description:** This transaction represents the third amendment to a revolving credit and security agreement originally executed on June 20, 2019. The lending syndicate includes BNP Paribas as administrative agent and lender, with Mitsubishi HC Capital America, Inc. as an additional lender. The facility structure includes Citibank, N.A. as collateral agent and Virtus Group, LP as collateral administrator.
+
+**Purpose of Financing:** The amendment extends the facility's final maturity date and modifies the reinvestment period, providing the borrower with additional operational flexibility for managing its credit obligations and investment activities.
+
+**Company Background:** The borrower operates within a structured finance framework supported by OFS Capital Corporation, which provides servicing capabilities, suggesting involvement in asset-based lending or investment activities requiring specialized administration and collateral management.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• **Established Banking Relationships:** Strong institutional support from BNP Paribas and Mitsubishi HC Capital America, indicating credible counterparty relationships
+• **Robust Security Structure:** Comprehensive collateral framework with dedicated agent (Citibank, N.A.) and administrator (Virtus Group, LP) providing enhanced security
+• **Clean Credit Status:** Borrower representations confirm no defaults, events of default, or servicer removal events, demonstrating current compliance
+• **Professional Management:** Structured governance with OFS Capital Corporation as servicer suggests experienced operational oversight
+• **Maturity Extension:** Proactive extension to 2027 provides improved liquidity profile and refinancing runway
+
+### Principal Risks and Mitigating Factors:
+• **Limited Financial Transparency:** Amendment provides minimal insight into underlying financial performance or covenant compliance levels
+• **Reinvestment Period Constraints:** Modified reinvestment period ending August 31, 2025 may limit future investment flexibility
+• **Information Asymmetry:** Absence of pricing, facility size, and detailed covenant information restricts comprehensive credit evaluation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | 2027-06-20 | N/A | • Reinvestment Period terminates August 31, 2025<br>• Individual Lender Maximum Funding Amounts subject to termination provisions<br>• All existing facility documents and security arrangements remain in effect |

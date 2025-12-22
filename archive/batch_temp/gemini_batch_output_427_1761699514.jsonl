@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_427", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_427", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nMISSING_TERMS: None"}}]}}}
-{"custom_id": "consistency_427", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The related-party structure is cited as a strength ('suggesting operational alignment') and simultaneously as a risk ('potential conflicts of interest').\",\n    \"The maturity extension is framed positively as a strength ('indicating lender confidence') and negatively as a risk ('potentially indicating liquidity constraints').\",\n    \"The borrower's release of claims is presented as a strength ('demonstrating cooperative relationship') and also as a risk ('may indicate prior issues').\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_427", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96"}}]}}}
-{"custom_id": "quality_tone_427", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_length_427", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_structure_427", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

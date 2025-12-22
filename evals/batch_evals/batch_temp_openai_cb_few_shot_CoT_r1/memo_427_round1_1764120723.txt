@@ -1,0 +1,41 @@
+## Checklist
+- Extract key transaction details: parties, dates, and transaction type
+- Identify the core amendment (goodwill impairment charge treatment in EBITDA calculations)
+- Analyze credit positives and risks from investor perspective
+- Compile deal terms table with available data vs. N/A for missing information
+- Ensure proper formatting and structure matches template requirements
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-06-06
+
+**Borrower/Company Overview:** Oil-Dri Corporation of America serves as the borrower under a credit facility with BMO Harris Bank N.A., with multiple subsidiary guarantors providing additional support.
+
+**Transaction Description:** This is a covenant modification consent to an existing credit agreement originally dated January 27, 2006. The transaction involves Oil-Dri Corporation of America as borrower and BMO Harris Bank N.A. as lender, with seven subsidiary guarantors including Oil-Dri Corporation of Georgia, Oil-Dri Production Company, Mounds Production Company LLC, Mounds Management Inc., Blue Mountain Production Company, Amlan International, and Taft Production Company.
+
+**Purpose of Financing:** The modification provides covenant relief by allowing Oil-Dri to add back a one-time non-cash goodwill impairment charge of $5,644,000 related to their Retail and Wholesale Reporting Segment to both Consolidated EBITDA and Consolidated EBITR calculations, ensuring continued compliance with financial maintenance covenants.
+
+**Company Background:** Oil-Dri Corporation of America operates with multiple subsidiaries and maintains a Retail and Wholesale Reporting Segment that experienced goodwill impairment during the fiscal quarter ending April 30, 2022.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Long-standing banking relationship with BMO Harris Bank dating back to 2006, demonstrating stability and continuity
+• Borrower representations confirm no existing defaults or events of default under the credit agreement
+• Multiple subsidiary guarantors providing additional credit support and security enhancement
+• One-time nature of the goodwill impairment suggests this is not indicative of ongoing operational deterioration
+• Proactive covenant management demonstrates prudent financial stewardship
+
+**Principal Risks and Mitigating Factors:**
+• Significant goodwill impairment of $5.644 million indicates potential asset overvaluation or underperformance in the Retail and Wholesale segment
+• Covenant modification requirement suggests the borrower may have been at risk of covenant breach without this relief
+• Limited visibility into overall financial performance, leverage ratios, or other key credit metrics beyond the specific covenant calculations provided
+• Concentration risk in Retail and Wholesale segment given the magnitude of impairment relative to the modification request
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Consolidated Debt Ratio shall be less than 0.55 to 1.0<br>• Fixed Charge Coverage Ratio shall not be greater than 1.50:1<br>• Consolidated EBITDA and EBITR calculations modified to include one-time non-cash goodwill impairment charge of $5,644,000 relating to Retail and Wholesale Reporting Segment for fiscal quarter ending April 30, 2022 and subsequent periods |

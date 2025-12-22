@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Full lender roster as listed in the amendment (e.g., Atlantic Union Bank; Capital One, National Association; Fifth Third Bank, National Association; Manufacturers and Traders Trust Company (as L/C Issuer); MUFG Bank, Ltd.; Raymond James Bank; Webster Bank, N.A.; in addition to those already mentioned)"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"Covenant flexibility is treated as both a strength and a risk: it is praised as an accommodation (lenders providing flexibility to facilitate expansion) while also criticized for potentially masking EBITDA via exclusions of acquisition-related lease termination costs.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 84.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

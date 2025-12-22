@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- In the \"Key Deal Terms Table\" under \"Key Covenants,\" the memo states, \"Borrower must maintain good standing as Delaware limited partnership.\" The source document includes a representation from the borrower that it *is currently* in good standing (Section 4.1), but the provided text does not contain a specific forward-looking covenant that it *must maintain* this status."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents the loan extension as a sign of 'continued lender confidence' while also stating that the borrower's 'general release of lender claims' may indicate 'previous relationship complexities,' which are contradictory assessments of the lender-borrower relationship's health.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 65.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

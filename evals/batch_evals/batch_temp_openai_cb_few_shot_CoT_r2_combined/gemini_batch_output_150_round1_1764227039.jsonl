@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo presents the enhanced lockbox controls as both a key strength (e.g., 'Enhanced cash management controls,' 'enhance cash flow predictability') and a principal risk (e.g., 'may signal underlying lender concerns,' 'could impact operational flexibility'), which is a contradictory assessment of the same feature.\", \"Key deal terms state that the Lockbox Activation Date and the Deposit Account Control Agreement are tied to the 'initial Revolving Loan borrowing,' which is logically impossible given this is a third amendment to a credit facility that originated in 2020, meaning the initial borrowing has already occurred.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 96.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

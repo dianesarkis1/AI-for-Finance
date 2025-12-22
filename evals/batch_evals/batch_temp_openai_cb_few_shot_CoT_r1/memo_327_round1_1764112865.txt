@@ -1,0 +1,39 @@
+## Checklist
+- Extract key transaction details (date, parties, structure, purpose)
+- Identify borrower background and transaction context
+- Analyze credit strengths and risks from investor perspective
+- Compile deal terms table with explicit data only
+- Validate all sections are complete and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-01-17
+
+**Borrower/Company Overview:** HPS Corporate Lending Fund serves as the borrower in this commitment increase transaction. The entity operates as a corporate lending investment vehicle with established banking relationships.
+
+**Transaction Description:** This transaction represents a commitment increase to an existing senior secured revolving credit facility. The original Senior Secured Revolving Credit Agreement was executed on June 23, 2022, with Amendment No. 1 dated October 30, 2023. Key counterparties include JPMorgan Chase Bank, N.A. as Administrative Agent and Deutsche Bank AG New York Branch as the Increasing Lender providing the additional commitment.
+
+**Purpose of Financing:** The financing increases the aggregate commitment amount under the existing revolving credit facility, expanding HPS Corporate Lending Fund's available credit capacity by $25,000,000.
+
+**Company Background:** HPS Corporate Lending Fund maintains an established credit relationship with premier financial institutions and demonstrates proactive capital management through this facility expansion.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationships with top-tier financial institutions (JPMorgan Chase as Administrative Agent, Deutsche Bank as lender)
+• Senior secured facility structure provides enhanced creditor protection
+• Successful track record evidenced by facility amendments and increases since original 2022 agreement
+• Proactive liquidity management through commitment expansion
+
+**Principal Risks and Mitigating Factors:**
+• Limited visibility into underlying portfolio composition and credit metrics given fund structure
+• Absence of disclosed financial covenants or performance metrics for risk assessment
+• Commitment increase documents do not provide pricing or detailed terms for full credit evaluation
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 25,000,000 | N/A | N/A | N/A | N/A | N/A |

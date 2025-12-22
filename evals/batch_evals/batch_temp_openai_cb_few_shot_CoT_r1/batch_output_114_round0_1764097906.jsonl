@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Statement that EverBank\u2019s $75,000,000 commitment \u201cexpands the total lending capacity available to the borrower.\u201d The Joinder shows EverBank\u2019s commitment but does not state that the aggregate facility size or total capacity increased."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Joinder Advance mechanics: deemed borrowing by the Borrower from the Additional Lender on the Effective Date to rebalance outstanding Advances pro rata across Lenders, with proceeds paid to the Administrative Agent (for the benefit of Lenders) and otherwise as directed by the Borrower."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 85.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 82.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40.0"}}]}}}

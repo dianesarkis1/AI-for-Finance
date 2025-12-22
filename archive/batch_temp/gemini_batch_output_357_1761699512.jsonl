@@ -1,7 +1,0 @@
-{"custom_id": "accuracy_357", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\nHALLUCINATIONS: None"}}]}}}
-{"custom_id": "completeness_357", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\nMISSING_TERMS: The borrower is required to pay all fees and expenses incurred by the Lenders and Administrative Agent (including legal fees for Latham & Watkins LLP) in connection with the amendment."}}]}}}
-{"custom_id": "consistency_357", "response": {"body": {"choices": [{"message": {"content": "```json\n{\n  \"has_issues\": true,\n  \"issues\": [\n    \"The memo lists 'no material adverse changes to terms' as a key strength, but also lists the 'credit spread adjustments' to the interest rate as a 'Principal Risk'. A change to the loan's pricing is a material change to its terms, making it contradictory to simultaneously present this change as both a non-issue and a risk.\"\n  ]\n}\n```"}}]}}}
-{"custom_id": "quality_clarity_357", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_tone_357", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95"}}]}}}
-{"custom_id": "quality_length_357", "response": {"body": {"choices": [{"message": {"content": "SCORE: 98"}}]}}}
-{"custom_id": "quality_structure_357", "response": {"body": {"choices": [{"message": {"content": "SCORE: 40"}}]}}}

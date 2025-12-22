@@ -1,0 +1,40 @@
+Looking at this credit agreement document, here is my step-by-step approach:
+
+• Identify the key parties and transaction date from the amendment
+• Determine the specific changes being made to the original credit agreement
+• Extract any available financial terms and covenants
+• Assess the credit implications from an investor perspective
+• Compile the information into the required memo structure with proper formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-10-30
+
+**Borrower/Company Overview:** Biodesix, Inc., a Delaware corporation, operates as the borrower in this credit facility. The company has an established lending relationship dating back to November 2022.
+
+**Transaction Description:** Fourth Amendment to Credit Agreement and Guaranty between Biodesix, Inc. and Perceptive Credit Holdings IV, LP (as Administrative Agent and Lender). This amendment modifies the existing credit agreement originally executed on November 16, 2022.
+
+**Purpose of Financing:** The amendment incorporates specific changes to the existing credit agreement terms as detailed in the attached annexes, though the precise nature of modifications is not specified in the main document.
+
+**Company Background:** Biodesix maintains an ongoing credit relationship with Perceptive Credit Holdings, having previously executed three amendments to the original 2022 credit agreement (May 2023, August 2023, and February 2024).
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Borrower confirms no Default or Event of Default has occurred or is continuing
+• All existing liens and security interests remain intact, preserving collateral protection
+• Borrower reaffirms compliance with all representations and warranties from original credit agreement
+• Established relationship with repeat amendments suggests ongoing lender engagement
+
+**Principal Risks and Mitigating Factors:**
+• Fourth amendment in two years indicates potential covenant pressure or business challenges requiring ongoing modifications
+• Specific amendment terms contained in separate annexes limit transparency of actual changes
+• Multiple amendments may signal underlying credit stress requiring continued monitoring
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • All existing liens and collateral remain in full force<br>• No Default or Event of Default continuing<br>• Borrower maintains compliance with all representations and warranties<br>• Amendment incorporates changes per Annex A and B |

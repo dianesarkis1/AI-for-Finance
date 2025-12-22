@@ -1,0 +1,41 @@
+I'll analyze this credit agreement systematically to draft a professional investment memorandum.
+
+**Checklist of what I will do:**
+• Extract key transaction details including parties, dates, and amendment purpose
+• Identify the specific changes being made to the credit agreement terms
+• Analyze credit positives and risks from an investor perspective
+• Compile available deal terms into the required table format
+• Ensure all information comes directly from the document without inference
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-01-28
+
+**Borrower / Company Overview:** Square, Inc. serves as the Borrower under a revolving credit facility with Goldman Sachs Bank USA as Administrative Agent and a syndicate of institutional lenders.
+
+**Transaction Description:** Third Amendment to Square's Revolving Credit Agreement originally dated May 1, 2020 (previously amended May 28, 2020 and November 9, 2020). The transaction involves Square, Inc. and a banking syndicate including Goldman Sachs Bank USA (Administrative Agent and Lender), Sumitomo Mitsui Banking Corporation, JPMorgan Chase Bank N.A., Wells Fargo Bank N.A., HSBC Bank USA National Association, and U.S. Bank National Association.
+
+**Purpose of Financing:** The amendment updates COVID-19 relief program definitions to reflect legislative changes through the Consolidated Appropriations Act, 2021, and increases Square's permitted Specified Indebtedness capacity under the Paycheck Protection Program Liquidity Facility (PPPLF) to USD 1,000,000,000.
+
+**Company Background:** Square, Inc. is a financial technology company with established banking relationships across major institutional lenders and demonstrated access to federal liquidity programs during the COVID-19 pandemic.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Premier institutional lender syndicate provides strong banking relationships and market confidence
+• Clean credit profile with confirmed absence of defaults or events of default
+• Enhanced liquidity access through expanded PPPLF capacity providing additional funding flexibility
+• Proactive credit management evidenced by timely regulatory compliance updates
+
+**Principal Risks and Mitigating Factors:**
+• Potential USD 1 billion additional leverage exposure through PPPLF utilization, though mitigated by federal program structure
+• Dependency on federal relief programs introduces regulatory and policy risks
+• Third amendment within nine months may indicate evolving capital needs
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Specified Indebtedness under PPPLF limited to USD 1,000,000,000 aggregate principal amount outstanding<br>• Maintenance of all Credit Agreement representations and warranties<br>• No Default or Event of Default permitted |

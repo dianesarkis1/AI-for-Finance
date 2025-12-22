@@ -1,0 +1,44 @@
+# Checklist
+
+- Extract key transaction details (dates, parties, amendment purpose)
+- Identify borrower background and credit facility structure
+- Analyze EBITDA definition modifications and their credit implications
+- Assess lender consortium strength and amendment terms
+- Compile deal terms table with available financial information
+- Evaluate credit positives and risks from an investor perspective
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-04-25
+
+**Borrower/Company Overview:** Accuray Incorporated, a Delaware corporation, operates as the borrower under a syndicated credit facility with Silicon Valley Bank (now a division of First-Citizens Bank & Trust Company) serving as Administrative Agent, Issuing Lender, and Swingline Lender, alongside other institutional lenders including HSBC Bank US.
+
+**Transaction Description:** This Third Amendment to Credit Agreement modifies the existing credit facility originally established on May 6, 2021 (previously amended in October 2022 and November 2023). The amendment involves the borrower, lender syndicate, and administrative agent making specific modifications to covenant definitions.
+
+**Purpose of Financing:** The amendment provides covenant relief by expanding the definition of "Consolidated EBITDA" to permit additional addbacks related to restructuring charges and projected cost savings from workforce reductions, facilitating improved financial covenant compliance.
+
+**Company Background:** Accuray Incorporated maintains an established banking relationship with reputable financial institutions and has operated under this credit facility structure since 2021, with periodic modifications to accommodate changing business conditions.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established relationships with tier-one financial institutions including First-Citizens Bank & Trust Company and HSBC Bank US
+• Borrower maintains covenant compliance and satisfactory representations and warranties
+• Amendment includes comprehensive release provisions indicating cooperative lender-borrower relationship
+• Time-limited covenant modifications provide temporary relief rather than permanent structural changes
+• Amendment fee payment demonstrates borrower's commitment to maintaining lender relationships
+
+**Principal Risks and Mitigating Factors:**
+• EBITDA addbacks suggest operational challenges requiring significant workforce reductions and restructuring activities
+• Borrower-favorable covenant modifications may obscure underlying financial performance deterioration
+• Third amendment since 2021 indicates ongoing need for covenant relief and potential financial stress
+• Specific dollar limits on addbacks ($2.6M restructuring charges, up to $6.8M cost savings) suggest material impact on financial metrics
+• Limited visibility into overall facility terms constrains comprehensive credit risk assessment
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Modified "Consolidated EBITDA" definition allowing specific addbacks: <br>• Restructuring charges, accruals, and business optimization expenses related to specified headcount reductions capped at $2,633,000 for trailing twelve-month periods ending March 31, June 30, and September 30, 2024, then $0 thereafter <br>• Pro forma run-rate cost savings from specified headcount reductions projected to be realized within 12 months, calculated as if realized on the first day of the period, net of actual benefits realized during such period, capped at $6,836,000 (March 2024), $3,798,000 (June 2024), $760,000 (September 2024), then $0 thereafter <br>• General restructuring and business optimization expenses with aggregate cap of 12.5% of Consolidated EBITDA (calculated before adjustments) less amounts added back under specified headcount reduction provisions <br>• Amendment fee of 0.05% of outstanding revolving commitments and term loan principal amounts |

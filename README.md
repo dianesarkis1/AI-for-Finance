@@ -1,45 +1,22 @@
 # AI For Finance Project
-## Overview
+## Overview 
 This project explores how AI can be applied in finance to automate key workflows. The goals are twofold:
-- Build an MVP pipeline that ingests financial documents, extracts meaningful insights, and generates a structured output in the form of an investment memo
-- Develop an evaluation harness to evaluate models (gpt-5, claude opus 4, gemini 2.5 pro...) on a consistent set of metrics, while testing whether prompt optimization techniques (few shot examples, iterative refinement...) can systematically improve performance
-
-## Initial Scope of Project
-My original plan was to fine-tune a model on a dataset of financial documents and evaluate whether the fine-tuned model generated better investment memos. However, I identified several challenges that made this approach less viable:
-- Limited compute resources
-- Lack of labeled data: While it was straightforward to scrape a large corpus of credit agreements, creating high-quality, paired input–output labels (investment memos) at scale would have required significant manual effort.
-- Risk of overfitting: Training on a small “gold standard” labeled dataset might have produced outputs too closely tied to that dataset’s style, without improving generalization.
-- Limited real-world applicability: Fine-tuning at this stage would have been premature. Instead of customizing a model, I thought it would be more valuable to establish a pipeline that demonstrates end-to-end utility and produces outputs evaluable against objective criteria.
-
-Instead of fine-tuning, I therefore focused on building a practical, evaluation-driven system.
-
-## Planned Scope
-### Input:
-Publicly available financial documents scraped from the SEC EDGAR database, specifically credit agreements. These agreements are filed by large, public companies (2023-onward); contain a common set of transaction details (interest rates, maturities, covenants, collateral, etc.); and share broadly similar structures across issuers, making them a good testbed for memo generation and evaluation.
-
-### Features of MVP (document > IC memo):
-- Web scraper to obtain a dataset of input documents from SEC website (credit agreements)
-- Preprocessing pipeline: convert raw filings into clean plain text, store in jsonl format, splits (train/eval) are made deterministically via a URL hash, ensuring reproducibility across iterations.
-- Generation of investment memo (executive summary, key data, strengths/weaknesses of investment) through thoughtful prompting (incl. a memo template)
-- (Then: benchmarking harness involving several key metrics below, prompt optimizing)
-
-### Benchmarking Metrics:
-- **Accuracy**: Are there any key financial terms in the memo that were not in the inputted document?
-  - _Implementation: LLM consensus approach with yes/no prompts across 3 models (gpt-5, claude-sonnet-4-20250514, gemini-2.5-pro) being aggregated into a % score_
-  - _Rationale: I considered a strict semantic matcher but rejected it because: (1) credit agreements don't all follow the exact same format, making it difficult to programmatically identify what constitutes "key" terms, (2) strict matching is brittle to paraphrasing (e.g., "5.25% interest rate" vs "525 basis points"), and (3) requires exact entity extraction which is error-prone. LLM consensus is preferred because it: (1) understands financial context and can distinguish key terms from filler words, (2) handles synonyms and reformulations naturally, (3) is flexible across document formats, and (4) consensus across multiple models reduces individual model biases._
-- **Completeness**: Are any key terms missing from the memo? (_Similarly, using a consensus of yes/no answers_)
-- **Quality of presentation**: Is the total length/tone appropriate? Is the structure consistent with the template...? (_Total score will be an average of the following subscores, each evaluated by 3 LLM judges: clarity, tone, length, structure) 
-- **Consistency (intra-memo)**: Does the memo contradict itself anywhere (e.g. listing a stated weakness as a strenght of the investment)? (_Consensus from 3 models [thoughtful prompt asking to check for any inconsistencies]_)
-- **Consistency across runs** (_Summary score for the output of each model call based on an average of the above scores, can then measure variance and worst score of k calls of a given model with a given input_)
-- **(TBD: latency / cost-like measures)**
+- Build an MVP pipeline that ingests financial documents (publicly available credit agreements scraped from the SEC EDGAR website), cleans the data, and prompts claude to create a structured output in the form of an investment memo
+- Develop an evaluation harness to evaluate models (gpt-5, claude sonnet 4, gemini 2.5 pro) on a consistent set of metrics, and test whether prompt optimization techniques (few shot examples, iterative refinement...) can systematically improve performance
 
 ### Folder Organization
-Data folder: 
-- urls.txt has all the url links to the full dataset.
-- eval_urls.txt has all the url links to the eval set (this list is pre-set so that it stays the same across iterations/runs)
-- cleaned_data.jsonl has the entire dataset after preprocessing/cleaning, which is done by running data_cleaning.py
-- eval.jsonl has the eval split of the data
-- train.jsonl has the training split
+**Data folder:**
+- `urls.txt` - All 499 URL links to the full dataset (SEC credit agreements)
+- `eval_urls.txt` - URL links to the eval set (pre-set for consistency across runs)
+- `cleaned_data.jsonl` - All 499 cleaned credit agreements after preprocessing
+- `train.jsonl` - 484 documents (cleaned_data minus 15 excluded URLs)
+- `train_final.jsonl` - 50 documents (evaluation set, specific indices from cleaned_data)
+- `test.jsonl` - 449 documents (remaining documents for testing)
+
+All data splits are deterministic using hardcoded indices and URL lists (no random sampling).
+See [data/data_cleaning.py](data/data_cleaning.py) for detailed pipeline documentation.
+
+If you use VS Code, you can open this repo in a devcontainer (.devcontainer/) to get a pre-configured environment.
 
 Project Scripts folder:
 - "main_exploratory" functions run "model_run" functions to generate investment memos using several models (used for initial selection of what the baseline [benchmark] model will be).
@@ -63,9 +40,68 @@ Evals folder:
   - Handles API differences, retries, and response parsing
 - **helper_tests/**: Test scripts for each metric that run on exploratory outputs as sanity checks
 
-### Future Avenues for Exploration:
-- Human-in-the-loop feedback: adding an interface to collect user ratings on generated memos
-- Transaction-specific rubrics: inspired by the HealthBench paper, design bespoke evaluation criteria tailored to each credit agreement (e.g., covenant depth, collateral clarity).
-- Model generalization: test transferability by applying the pipeline to adjacent but slightly different document types (e.g. legal agreements such as indentures and term sheets that contain similar information on a credit transaction but are structured differently).
-- RAG: explore whether augmenting LLMs with an external knowledge base (on the company, similar transactions, or other) improves performance.
-- Citations API for systematic accuracy checking: use Anthropic's Citations API to generate memos with inline citations, then programmatically verify accuracy by checking if cited passages actually appear in the source document using semantic matching. This would provide a more objective accuracy metric compared to LLM consensus alone.
+## 🚀 Setup
+
+### 1. Install dependencies
+
+This project uses the versions pinned in `requirements.txt`.
+Install them with:
+
+```bash
+# (optional) create a virtual environment
+python -m venv .venv
+source .venv/bin/activate     # Windows: .venv\Scripts\activate
+
+# install required Python packages
+pip install -r requirements.txt
+```
+
+> **Python version:** Use a version compatible with `requirements.txt` (e.g., Python 3.11).
+> No other OS-specific assumptions—macOS, Linux, and Windows should work similarly.
+
+---
+
+### 2. Configure environment variables
+
+Copy the template and fill in your API keys + model settings:
+
+```bash
+cp .env.template .env
+```
+
+Edit `.env` and set the required values (API keys + preferred model/provider).
+Any defaults not explicitly provided here should be assumed to match the code’s internal configuration.
+
+---
+
+### 3. (Optional) Rebuild the dataset
+
+The data pipeline is fully reproducible. To regenerate all data files:
+
+```bash
+# Install additional dependencies for data cleaning
+pip install requests beautifulsoup4 lxml chardet
+
+# Run the pipeline (creates 4 JSONL files in data/)
+python data/data_cleaning.py
+
+# Or test without overwriting existing files (outputs to data_test/)
+python data/data_cleaning.py data_test
+```
+
+**What this creates:**
+- `cleaned_data.jsonl` - All 499 cleaned credit agreements
+- `train.jsonl` - 484 documents (subset of cleaned_data)
+- `train_final.jsonl` - 50 documents (evaluation set)
+- `test.jsonl` - 449 documents (remaining documents)
+
+**Note:** The pipeline fetches from SEC servers (499 documents × 0.2s delay = ~2 minutes).
+All splits are deterministic using hardcoded indices—see [data/data_cleaning.py](data/data_cleaning.py) for complete documentation.
+
+---
+
+### 4. Run the Streamlit app
+
+```bash
+streamlit run streamlit/app.py
+```

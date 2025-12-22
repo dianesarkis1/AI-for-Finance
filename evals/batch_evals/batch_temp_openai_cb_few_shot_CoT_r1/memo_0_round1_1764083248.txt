@@ -1,0 +1,41 @@
+## Checklist:
+- Extract key parties and transaction details from amendment document
+- Identify transaction type as pricing modification to existing credit facility
+- Analyze rating-based pricing structure and investment implications
+- Assess credit profile strengths and document limitations for risk assessment
+- Compile comprehensive deal terms table with available data
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2021-06-10
+
+**Borrower/Company Overview:** Affiliated Managers Group, Inc. (AMG) is a Delaware corporation operating as an asset management company with an established investment grade credit profile across major rating agencies.
+
+**Transaction Description:** This transaction represents a Second Amendment to AMG's existing Third Amended and Restated Term Credit Agreement, originally executed on January 18, 2019. The amendment involves AMG as borrower, Bank of America, N.A. as Administrative Agent, and multiple institutional lenders. The structure modifies pricing terms through an updated Annex I to the original credit agreement.
+
+**Purpose of Financing:** The amendment specifically revises the "Applicable Margin" pricing grid to establish new interest rate spreads tied to AMG's debt ratings from S&P, Moody's, and Fitch rating agencies, effective June 10, 2021.
+
+**Company Background:** AMG maintains investment grade ratings ranging from A+ to BBB levels, indicating a solid credit foundation within the asset management sector and suggesting established market presence and operational stability.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Investment grade credit profile with comprehensive rating coverage across S&P, Moody's, and Fitch
+• Established banking relationship with Bank of America as Administrative Agent, demonstrating institutional confidence
+• Rating-based pricing structure provides favorable economics for maintaining strong credit metrics
+• Current compliance status with no defaults or events of default as of amendment date
+• Structured pricing incentives align borrower interests with credit quality maintenance
+
+**Principal Risks and Mitigating Factors:**
+• Limited documentation scope restricts visibility into facility size, maturity profile, and comprehensive covenant structure
+• Amendment timing may indicate response to changing credit conditions or refinancing needs requiring closer monitoring
+• Absence of collateral or guarantee information limits assessment of credit enhancement mechanisms
+• Pricing grid expansion to BBB level suggests potential for credit migration requiring ongoing surveillance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | Rating-based: A+/A1/A+ = 0.725% (Eurodollar), A/A2/A = 0.850%, A-/A3/A- = 0.850%, BBB+/Baa1/BBB+ = 0.975%, BBB/Baa2/BBB = 1.225% (ABR: 0.000% except BBB at 0.225%) | N/A | N/A | • Pricing adjustments based on publicly announced debt rating changes<br>• All existing loan document covenants remain in full force<br>• Maintenance of no default/event of default status<br>• Compliance with original credit agreement terms |

@@ -1,0 +1,41 @@
+## Checklist
+
+- Identify the key parties, transaction date, and structure from the credit agreement
+- Extract the specific purpose and nature of the modification (maturity extension)
+- Analyze credit strengths and risks from an investor perspective
+- Compile deal terms table with available information, marking unavailable fields as "N/A"
+- Ensure professional tone and format consistent with investment memo standards
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-11-26
+
+**Borrower/Company Overview:** IPC Alternative Real Estate Operating Partnership, LP is a Delaware limited partnership engaged in real estate operations, with its principal place of business at 2901 Butterfield Road, Oak Brook, IL 60523.
+
+**Transaction Description:** This transaction is a modification to loan documents for an existing revolving credit facility between IPC Alternative Real Estate Operating Partnership, LP (Borrower) and Inland Private Capital Corporation (Lender), a Delaware corporation also located at 2901 Butterfield Road, Oak Brook, IL 60523.
+
+**Purpose of Financing:** The modification extends the maturity date of an existing $22,500,000 revolving credit facility from November 30, 2024 to November 30, 2025, providing the Borrower with an additional year of credit availability.
+
+**Company Background:** The original revolving credit facility was established on October 27, 2023, evidenced by a Revolving Promissory Note and Revolving Credit Facility Loan Agreement. This appears to be an affiliate lending arrangement between related entities within the Inland Private Capital organization.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Borrower maintains good standing as a Delaware limited partnership with full powers to conduct business
+• Borrower confirms current compliance with all existing loan document covenants
+• Revolving facility structure provides operational flexibility for real estate business needs
+• Comprehensive representations and warranties provided regarding organizational status and authorization
+
+**Principal Risks and Mitigating Factors:**
+• Affiliate lending arrangement may lack arm's-length pricing and market terms
+• Maturity extension request close to original maturity suggests potential liquidity constraints
+• Broad release and waiver provisions favor Lender and limit Borrower's future recourse
+• Limited financial information available to assess underlying credit quality and real estate portfolio performance
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| USD 22,500,000 | N/A | N/A | 2025-11-30 | N/A | • Maintain good standing as Delaware limited partnership<br>• Maintain proper licensing in required jurisdictions<br>• Comply with all representations, warranties, and covenants from original Credit Agreement<br>• All existing financial maintenance terms from original Credit Agreement remain in effect |

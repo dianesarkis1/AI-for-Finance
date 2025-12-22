@@ -1,0 +1,40 @@
+## Checklist of Approach:
+- Extract key parties, dates, and transaction structure from Amendment No. 2
+- Identify the amendment's purpose including the upsize component and key conditions
+- Analyze available credit information while noting document limitations
+- Populate deal terms table with explicitly stated covenant and condition information
+- Follow required three-section structure with proper table formatting
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-03-31
+
+**Borrower / Company Overview:** The borrowers are five entertainment library financing entities: LGTV Library Financing LLC, Artisan Library Financing LLC, Summit Library Financing LLC, LG Film Library Financing LLC, and LGIM Library UK Financing Limited, along with their respective parent holding companies.
+
+**Transaction Description:** Amendment No. 2 to an Amended and Restated Credit, Security and Pledge Agreement among the borrowers, their parent entities, and a syndicate of 13 lenders, with Fifth Third Bank serving as Administrative Agent and East West Bank as Reserve Deposit Agent.
+
+**Purpose of Financing:** The amendment implements an "upsize" of the existing credit facility, with revised outstanding principal amounts allocated among lenders as specified in Schedule 1.1 attached to Annex A.
+
+**Company Background:** The borrowing entities are structured as entertainment library financing vehicles focused on film and television content libraries. The original credit agreement was established on November 5, 2024, with the first amendment executed on December 9, 2024, indicating an actively managed credit facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong, diversified lending syndicate of 13 established financial institutions including Wells Fargo, Truist Bank, and other regional banks
+• Structured financing with multiple security layers including guarantees from parent holding companies
+• Recent vintage facility (November 2024) suggesting current market terms and comprehensive due diligence
+• Entertainment library assets typically generate predictable cash flows through licensing and distribution
+
+**Principal Risks and Mitigating Factors:**
+• Limited transparency into specific amendment terms as detailed changes are referenced in unavailable Annex A
+• Entertainment industry exposure to content performance volatility and changing consumer preferences
+• Complex multi-borrower structure may complicate administration and potential workout scenarios
+• Frequent amendments (three within five months) may signal evolving credit needs or covenant management
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|---------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • No Event of Default or Default occurring before or after amendment effectiveness (Article 2.1(c))<br>• Maintenance of all representations and warranties in Credit Agreement and Fundamental Documents<br>• All existing guarantees and security interests remain in full force and effect<br>• Upsize implementation with revised outstanding principal amounts per Schedule 1.1<br>• FATCA withholding tax compliance requirements |

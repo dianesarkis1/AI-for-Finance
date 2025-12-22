@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- Statement that the joinder \u201cexpands the total lending capacity of the syndicate.\u201d The source only confirms EverBank\u2019s $75,000,000 commitment and reallocation mechanics; it does not state that aggregate commitments or overall facility size increased."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\n- Joinder Advance mechanics: upon delivery of the Joinder on the Effective Date, the borrower is deemed to request a borrowing from the Additional Lender so that outstanding Advances are reallocated pro rata by Commitments; proceeds to be paid to the Administrative Agent for reallocation and otherwise as directed by the borrower."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": false, \"issues\": []}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

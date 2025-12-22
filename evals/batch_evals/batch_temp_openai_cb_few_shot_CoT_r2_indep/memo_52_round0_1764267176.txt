@@ -1,0 +1,43 @@
+I'll approach this step by step:
+
+**Approach Checklist:**
+- Identify key parties and transaction structure from the eighth amendment
+- Extract the specific amendments and waivers being granted
+- Analyze the merger agreement context and its implications
+- Assess credit strengths and risks from a lender perspective
+- Compile available deal terms, noting what information is missing
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On October 26, 2020, PNM Resources, Inc. (a New Mexico utility corporation) entered into an eighth amendment to its credit agreement with Wells Fargo Bank as Administrative Agent and a syndicate of major lenders including MUFG Union Bank, Citibank, JPMorgan Chase, Morgan Stanley Bank, Royal Bank of Canada, KeyBank, Bank of America, U.S. Bank, Bank of New York Mellon, and BOKF/Bank of Albuquerque.
+- The original credit agreement was a sixth amendment and restatement dated July 30, 2018, with a seventh amendment executed in December 2018.
+- The primary purpose of this amendment is to facilitate PNM Resources' pending merger with Avangrid, Inc. through NM Green Holdings, Inc. by: (1) modifying the "Change of Control" definition to raise the ownership threshold from an unstated percentage to 25%, (2) adding the specific merger agreement as a defined term, (3) waiving potential covenant defaults that arose from entering the merger agreement, and (4) clarifying that while entering the merger agreement is waived, closing the merger will still constitute a prohibited change of control.
+- PNM Resources operates as a utility holding company serving New Mexico and Texas through regulated electric and gas utilities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong, diversified lender syndicate comprising top-tier financial institutions demonstrates significant lender confidence and relationship depth
+- Regulated utility business model provides stable, predictable cash flows and rate recovery mechanisms
+- Borrower maintains compliance with all existing covenants and representations/warranties remain true and correct
+- Amendment demonstrates proactive management of covenant compliance during M&A process
+- MUFG Bank's role as sole bookrunner and lead arranger for this amendment indicates continued strong banking relationships
+
+### Principal Risks and Mitigating Factors:
+- Pending merger with Avangrid creates change of control risk, though amendment provides temporary covenant relief for signing the merger agreement
+- Amendment is borrower-friendly by raising change of control threshold to 25% and waiving defaults related to merger agreement execution
+- Credit facility will likely be accelerated upon merger closing, creating refinancing risk for the combined entity
+- Limited financial information available to assess current credit metrics or facility utilization
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Change of Control threshold modified to 25% beneficial ownership. Merger restrictions amended to permit "merge with or into any other Person" (previously prohibited "enter into any transaction of merger"). Waiver of potential covenant defaults and cross-defaults related to signing merger agreement with Avangrid dated October 20, 2020. All existing representations, warranties and covenants reaffirmed as compliant |

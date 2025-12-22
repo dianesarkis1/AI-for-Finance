@@ -1,0 +1,41 @@
+# Checklist of Approach
+
+- Extract key transaction details including parties, dates, and purpose from the credit agreement amendment
+- Identify borrower information and transaction structure with JP Morgan as administrative agent
+- Analyze the specific amendments made to asset disposition covenants and lien release provisions
+- Assess credit positives and risks from an investment perspective based on the amendment terms
+- Compile deal terms table using only explicitly stated information, marking unavailable data as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2022-02-10
+
+**Borrower / Company Overview:** SESI, L.L.C., a Delaware limited liability company, serves as the borrower under this credit facility. The parent company is SESI Holdings, Inc., also a Delaware corporation. The credit structure includes multiple subsidiary guarantors operating in the energy services sector.
+
+**Transaction Description:** This is a third amendment to an existing credit agreement originally executed on February 2, 2021. The transaction involves SESI, L.L.C. as borrower, with JPMorgan Chase Bank, N.A. serving as administrative agent, and includes Bank of America, N.A. and Citibank, N.A. as participating lenders.
+
+**Purpose of Financing:** The amendment modifies existing credit terms to provide the borrower with increased flexibility in asset dispositions and streamlines collateral release procedures.
+
+**Company Background:** The borrower operates through numerous subsidiary guarantors in the energy services industry, including Superior Energy Services, L.L.C., Wild Well Control, Inc., Warrior Energy Services Corporation, and other specialized energy service entities. The original credit agreement has undergone multiple modifications since inception, including prior amendments and waivers in May, July, and November 2021.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional lender group including JPMorgan Chase as administrative agent and major banks (Bank of America, Citibank)
+• Borrower representations confirm no current defaults or events of default
+• Amendment includes protective liquidity thresholds ($100 million liquidity, $25 million availability) for enhanced disposition flexibility
+• Comprehensive subsidiary guarantee structure across energy services portfolio companies
+
+**Principal Risks and Mitigating Factors:**
+• Relaxed asset disposition covenants may reduce collateral coverage over time, though mitigated by cash consideration requirements for borrowing base assets
+• History of multiple amendments and waivers suggests potential operational or financial challenges requiring ongoing covenant relief
+• Limited financial transparency in amendment document constrains comprehensive credit evaluation
+• Energy services sector exposure subject to commodity price volatility and cyclical downturns
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Asset disposition covenant modifications permitting sales not constituting "Substantial Portion" during specified measurement periods • Disposition flexibility up to $25,000,000 aggregate fair market value when liquidity exceeds $100,000,000 and availability exceeds $25,000,000 • Cash consideration requirement for 100% of borrowing base property sales • Automatic lien release provisions for permitted dispositions and guarantor releases |

@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nHALLUCINATIONS:\nNone"}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nMISSING_TERMS:\nThe memo omits the closing condition from Section 10(b) requiring the Borrower to reimburse Lenders for an unspecified amount of fees and expenses incurred in connection with the preparation of the amendment."}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo states the banking relationship spans 'eight years' since October 2017, which contradicts the time elapsed by the memo's date of July 2025 (seven years and nine months).\", \"The memo claims as a strength that the 'Borrower [is] confirmed to be in good standing with no defaults,' which contradicts the identified risk of having 'Limited visibility into underlying financial performance and covenant compliance trends.'\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 95.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 78.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 45.0"}}]}}}

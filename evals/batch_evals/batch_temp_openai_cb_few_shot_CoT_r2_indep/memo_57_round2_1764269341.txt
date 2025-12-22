@@ -1,0 +1,41 @@
+## Checklist
+
+- Extract amendment effective date and transaction purpose for Adenza Holdings acquisition
+- Identify key parties: Nasdaq as borrower, Bank of America as Administrative Agent, and lender syndicate
+- Analyze modified leverage covenant structure with stepped-down ratios post-acquisition
+- Assess credit strengths and risks from investor perspective
+- Compile deal terms table marking unavailable information as "N/A"
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2023-06-16
+
+**Borrower/Company Overview:** Nasdaq, Inc., a Delaware corporation, operates as a leading global financial services and technology company.
+
+**Transaction Description:** Amendment No. 2 to Nasdaq's Amended and Restated Credit Agreement with Bank of America, N.A. as Administrative Agent and a syndicate of institutional lenders including Goldman Sachs Bank USA, Citibank N.A., HSBC Bank USA, JPMorgan Chase Bank N.A., and others.
+
+**Purpose of Financing:** The amendment facilitates Nasdaq's acquisition of Adenza Holdings, Inc. through modified leverage covenant terms that accommodate increased debt levels during the integration period while establishing a mandatory deleveraging schedule.
+
+**Company Background:** This amendment modifies Nasdaq's existing credit facility originally established December 16, 2022 and previously amended March 29, 2023. The current modification specifically addresses covenant requirements for the Adenza acquisition pursuant to the merger agreement dated June 10, 2023.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Established borrower with Nasdaq's market-leading position in financial infrastructure
+• Premier lender syndicate demonstrates strong institutional support
+• Structured deleveraging covenant with quarterly step-downs from 4.75x to 3.50x leverage
+• Acquisition flexibility through one-time "Subsequent Acquisition Holiday" provision
+• Proven amendment process reflecting constructive lender relationships
+
+**Principal Risks and Mitigating Factors:**
+• Elevated maximum leverage (4.75x) increases near-term credit risk, mitigated by mandatory quarterly reductions
+• Integration execution risk for Adenza acquisition, though Nasdaq has acquisition experience
+• Limited visibility into non-leverage covenant terms in this amendment document
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Leverage Ratio: 4.75x maximum (quarters 1-4 post-acquisition); 4.25x (quarters 5-6); 4.00x (quarters 7-8); 3.75x (quarters 9-10); 3.50x thereafter • One-time Subsequent Acquisition Holiday allowing temporary increase to 4.50x leverage, requiring pre-acquisition compliance with 3.50x ratio and 4.50x pro forma test • Written notice required to Administrative Agent for Subsequent Acquisition Holiday activation |

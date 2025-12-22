@@ -1,0 +1,41 @@
+## Conceptual Checklist
+- Extract key transaction details including parties, dates, and amendment purpose
+- Identify credit strengths and risks from an investor perspective
+- Compile deal terms table with explicit data only, marking missing information as "N/A"
+- Ensure professional tone suitable for investment committee review
+- Validate completeness of all three required sections
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2024-03-04
+
+**Borrower/Company Overview:** Greystone Housing Impact Investors LP (formerly America First Multifamily Investors, L.P.) is a Delaware limited partnership focused on multifamily housing investments.
+
+**Transaction Description:** Fifth Amendment to Credit Agreement originally dated June 11, 2021, executed among the Borrower, BankUnited N.A. as Administrative Agent, and a syndicate of lenders including Bankers Trust Company and newly added NexBank.
+
+**Purpose of Financing:** The amendment facilitates the addition of NexBank as a new lender through a Lender Joinder Agreement and restructures the existing lender commitment allocations within the credit facility.
+
+**Company Background:** The borrower operates as a Delaware limited partnership in the multifamily housing investment sector. The credit facility has been previously amended four times since origination (November 2021, June 2023, July 2023, and September 2023), demonstrating an active borrower-lender relationship with ongoing modifications to accommodate changing business needs.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Diversified lender base with established regional and national banking institutions
+• Successful syndication expansion with NexBank addition demonstrates continued market confidence
+• Current compliance status confirmed with no existing defaults or events of default
+• Strong collateral protection through reaffirmed security interests, liens, and mortgages
+• Active credit management evidenced by multiple successful amendments
+
+**Principal Risks and Mitigating Factors:**
+• Limited transparency on pricing, maturity, and specific covenant terms restricts comprehensive risk assessment
+• Extensive borrower release provisions may indicate historical relationship complexities
+• Frequency of amendments could signal ongoing covenant management or refinancing pressures
+• Dependence on continued lender cooperation for future modifications
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 50,000,000 | N/A | N/A | N/A | N/A | • Fee Letter execution required between Borrower and NexBank<br>• All existing loan document obligations reaffirmed<br>• Security interests and liens continue securing all obligations<br>• No Event of Default or Default exists<br>• Comprehensive release of claims against lenders through Amendment date<br>• Beneficial Ownership Certification updates as requested |

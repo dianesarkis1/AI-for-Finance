@@ -1,0 +1,42 @@
+## Checklist of Approach:
+- Extract basic transaction details (parties, dates, amendment type)
+- Identify the specific changes being made to the credit agreement
+- Analyze the bankruptcy/DIP context and implications for investors
+- Assess available financial terms and covenant information
+- Structure findings into executive summary, investment analysis, and deal terms table
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2020-08-28
+
+**Borrower/Company Overview:** Lilis Energy Inc., a Nevada corporation operating in the energy sector, currently under Chapter 11 bankruptcy protection.
+
+**Transaction Description:** Third amendment to a Senior Secured Super-Priority Debtor-in-Possession Credit Agreement originally executed on June 30, 2020. The transaction involves BMO Harris Bank N.A. as Administrative Agent, with a lending syndicate comprising Capital One National Association and Credit Suisse AG, Cayman Islands Branch.
+
+**Purpose of Financing:** Extension of Chapter 11 milestone deadlines to provide additional time for bankruptcy restructuring proceedings, specifically extending a critical deadline from August 28, 2020 to September 3, 2020.
+
+**Company Background:** Lilis Energy Inc. operates through multiple subsidiary entities including Brushy Resources Inc., Hurricane Resources LLC, Impetro Operating LLC, Lilis Operating Company LLC, and Impetro Resources LLC, all serving as guarantors under the facility.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Super-priority DIP structure provides enhanced creditor protections and superior recovery prospects in bankruptcy proceedings
+• Institutional lender syndicate including major financial institutions demonstrates market confidence
+• Borrower maintains compliance with all representations, warranties, and existing covenants as of amendment date
+• Comprehensive guarantee structure across multiple operating subsidiaries provides additional credit support
+• Amendment demonstrates lender willingness to provide reasonable accommodations during restructuring process
+
+**Principal Risks and Mitigating Factors:**
+• Chapter 11 proceedings inherently present elevated default risk and potential for principal impairment despite super-priority status
+• Repeated milestone extension requests may indicate execution challenges or delays in the restructuring timeline
+• Energy sector exposure presents commodity price volatility and operational risks during current market conditions
+• Limited financial information available in amendment documents restricts comprehensive credit assessment
+• Short-term nature of milestone extension (5 days) suggests ongoing time pressures in restructuring process
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|--------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Chapter 11 milestone deadline extended from August 28, 2020 to September 3, 2020 per Section 8.23(e)<br>• Borrower must maintain compliance with all existing representations and warranties<br>• No Default or Event of Default permitted to occur and continue<br>• Amendment requires approval by Majority Lenders<br>• All provisions of original Credit Agreement remain in full force and effect |

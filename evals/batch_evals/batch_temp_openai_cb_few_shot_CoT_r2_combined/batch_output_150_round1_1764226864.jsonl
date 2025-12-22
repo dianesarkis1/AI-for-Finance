@@ -1,0 +1,7 @@
+{"custom_id": "accuracy", "response": {"body": {"choices": [{"message": {"content": "ANSWER: YES\n\nHALLUCINATIONS:\n- The memo states: \u201cAll Account Debtor collections must be paid directly into Lockbox Account following Lockbox Activation Date.\u201d The agreement requires this routing \u201cat all times following the initial borrowing of the Revolving Loans,\u201d not tied to the Lockbox Activation Date, and it permits individual Account Debtors to pay Borrowers directly unless the Agent directs otherwise."}}]}}}
+{"custom_id": "completeness", "response": {"body": {"choices": [{"message": {"content": "ANSWER: NO\n\nMISSING_TERMS:\nNone"}}]}}}
+{"custom_id": "consistency", "response": {"body": {"choices": [{"message": {"content": "{\"has_issues\": true, \"issues\": [\"The memo claims a strength of \\u201cdaily reconciliation requirements,\\u201d but the key terms specify reconciliation within 10 business days (triggered if >20% of collections over any 15-day period are unreconciled); the daily requirement applies to fund transfers, not reconciliation\\u2014these statements conflict.\"]}"}}]}}}
+{"custom_id": "quality_clarity", "response": {"body": {"choices": [{"message": {"content": "SCORE: 86.0"}}]}}}
+{"custom_id": "quality_tone", "response": {"body": {"choices": [{"message": {"content": "SCORE: 88.0"}}]}}}
+{"custom_id": "quality_length", "response": {"body": {"choices": [{"message": {"content": "SCORE: 80.0"}}]}}}
+{"custom_id": "quality_structure", "response": {"body": {"choices": [{"message": {"content": "SCORE: 42.0"}}]}}}

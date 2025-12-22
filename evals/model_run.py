@@ -268,8 +268,8 @@ def extract_output_text_gemini(response: Dict[str, Any]) -> Optional[str]:
 
 # ---------------- Anthropic API ---------------- #
 
-def build_anthropic_payload(model: str, content: str, max_output_tokens: int) -> Dict[str, Any]:
-    return {
+def build_anthropic_payload(model: str, content: str, max_output_tokens: int, system: Optional[str] = None, use_system_parameter: bool = False) -> Dict[str, Any]:
+    payload = {
         "model": model,
         "max_tokens": max_output_tokens,
         "messages": [
@@ -279,6 +279,10 @@ def build_anthropic_payload(model: str, content: str, max_output_tokens: int) ->
             }
         ]
     }
+    # Add system parameter if provided AND use_system_parameter is True
+    if system and use_system_parameter:
+        payload["system"] = system
+    return payload
 
 
 def call_anthropic_api(api_key: str, payload: Dict[str, Any]) -> Dict[str, Any]:
@@ -351,6 +355,8 @@ def main() -> None:
     parser.add_argument("--input-file", action="append", required=True, help="Path to a file to process (.txt, .md, .jsonl). JSONL files will be auto-extracted. Repeat for multiple.")
     parser.add_argument("--output", type=str, help="Optional path to save the generated memo.")
     parser.add_argument("--max-output-tokens", type=int, default=16000, help="Cap on generated/new tokens.")
+    parser.add_argument("--use-system-parameter", action="store_true", help="Use Claude's native system parameter for better instruction following (only affects Claude models)")
+    parser.add_argument("--use-xml-tags", action="store_true", help="Inputs should be wrapped in XML tags (handled by caller, this flag is for consistency)")
 
     args = parser.parse_args()
 
@@ -466,17 +472,38 @@ def main() -> None:
         output_text = extract_output_text_gemini(response) or json.dumps(response, indent=2)
         
     elif provider == "anthropic":
-        combined_parts: List[str] = [f"System: {system_preamble}\n\nUser: {prompt_text}"]
-        for inline in inline_texts:
-            combined_parts.append("\n\n" + inline)
-        user_combined = "\n\n".join(combined_parts)
-        
-        payload = build_anthropic_payload(
-            model=args.model,
-            content=user_combined,
-            max_output_tokens=effective_max_tokens,
-        )
-        print(f"Requesting completion from Anthropic using model {args.model}...", file=sys.stderr)
+        if args.use_system_parameter:
+            # NEW: Use native system parameter for better performance
+            # User content includes prompt and credit agreement
+            user_parts: List[str] = [prompt_text]
+            for inline in inline_texts:
+                user_parts.append(inline)
+            user_combined = "\n\n".join(user_parts)
+
+            payload = build_anthropic_payload(
+                model=args.model,
+                content=user_combined,
+                max_output_tokens=effective_max_tokens,
+                system=system_preamble,  # Use Claude's native system parameter
+                use_system_parameter=True
+            )
+            print(f"Requesting completion from Anthropic using model {args.model} (with system parameter)...", file=sys.stderr)
+        else:
+            # OLD: Everything in user message (default behavior)
+            combined_parts: List[str] = [f"System: {system_preamble}\n\nUser: {prompt_text}"]
+            for inline in inline_texts:
+                combined_parts.append("\n\n" + inline)
+            user_combined = "\n\n".join(combined_parts)
+
+            payload = build_anthropic_payload(
+                model=args.model,
+                content=user_combined,
+                max_output_tokens=effective_max_tokens,
+                system=None,
+                use_system_parameter=False
+            )
+            print(f"Requesting completion from Anthropic using model {args.model}...", file=sys.stderr)
+
         response = call_anthropic_api(api_key=api_key, payload=payload)
         output_text = extract_output_text_anthropic(response) or json.dumps(response, indent=2)
         

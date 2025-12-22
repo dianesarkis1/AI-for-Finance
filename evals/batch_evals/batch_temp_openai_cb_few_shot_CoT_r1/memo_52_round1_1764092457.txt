@@ -1,0 +1,42 @@
+# Investment Memorandum
+
+## Checklist
+- Extract key transaction details and parties from the Eighth Amendment
+- Identify the strategic purpose and business context of the amendment
+- Analyze credit positives and risks from an investor perspective
+- Compile deal terms using only explicitly stated information
+- Ensure professional tone and clear structure throughout
+
+## 1. Executive Summary
+
+**Date:** 2020-10-26
+
+**Borrower/Company:** PNM Resources, Inc. is a New Mexico corporation operating as a utility holding company.
+
+**Transaction Description:** This transaction represents an Eighth Amendment to PNM Resources' existing credit facility, executed among the borrower, Wells Fargo Bank, National Association (as Administrative Agent), and a syndicate of institutional lenders. MUFG Bank, Ltd. serves as sole bookrunner and lead arranger for this amendment.
+
+**Purpose of Financing:** The amendment addresses potential covenant violations arising from PNM Resources' entry into a merger agreement with Avangrid, Inc. and NM Green Holdings, Inc. dated October 20, 2020. The primary objectives are to: (i) modify the "Change of Control" definition to establish a 25% beneficial ownership threshold, (ii) obtain lender waivers for potential specified defaults related to entering the merger agreement, and (iii) amend merger-related covenants.
+
+**Company Background:** PNM Resources maintains an existing credit relationship established under a Sixth Amendment to and Restatement of Credit Agreement dated July 30, 2018, previously modified by a Seventh Amendment dated December 19, 2018. The company has entered into a pending merger transaction that requires credit agreement modifications to prevent immediate defaults.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong syndicate composition including Wells Fargo, MUFG Union Bank, Citibank, JPMorgan Chase, Morgan Stanley Bank, Royal Bank of Canada, KeyBank, Bank of America, U.S. Bank, Bank of New York Mellon, and Bank of Albuquerque
+• Lender willingness to provide accommodative amendment demonstrates supportive banking relationships
+• Borrower maintains full compliance with all credit agreement terms following amendment effectiveness
+• Amendment preserves lenders' enforcement rights for future merger closing events
+• No current defaults or events of default exist after giving effect to the amendment
+
+**Principal Risks and Mitigating Factors:**
+• Pending merger transaction will ultimately constitute a prohibited "Change of Control" event requiring future resolution
+• Limited scope of waivers - covers only entry into merger agreement, not transaction closing
+• Potential cross-default exposure from other debt arrangements related to merger activities
+• Amendment provides no long-term solution for completing the announced merger transaction
+• Risk mitigated by explicit preservation of lender rights regarding ultimate transaction completion
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|------------------|----------------------------------------------|
+| N/A | N/A | N/A | N/A | N/A | • Change of Control threshold: 25% beneficial ownership of voting capital stock<br>• Prohibition on merger transactions (amended language: "merge with or into any other Person")<br>• Waiver of potential covenant defaults related to entering merger agreement<br>• Waiver of potential cross-defaults arising from merger agreement<br>• Waiver of post-default rate interest and fees related to specified defaults<br>• Merger closing will constitute prohibited Change of Control event |

@@ -1,0 +1,40 @@
+## Checklist
+- Extract key transaction details (date, parties, structure, purpose)
+- Identify borrower background and transaction context
+- Analyze credit strengths and risks from investor perspective
+- Compile deal terms table with explicit data only
+- Validate all sections are complete and properly formatted
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On January 17, 2024, HPS Corporate Lending Fund executed a commitment increase agreement with Deutsche Bank AG New York Branch for its senior secured revolving credit facility.
+- HPS Corporate Lending Fund serves as the Borrower in this transaction, with JPMorgan Chase Bank, N.A. acting as Administrative Agent and Deutsche Bank AG New York Branch as the Increasing Lender.
+- The original Senior Secured Revolving Credit Agreement was dated June 23, 2022 and was previously amended on October 30, 2023.
+- The purpose of this transaction is to increase the aggregate amount of Commitments under the existing revolving credit facility by $25,000,000, with Deutsche Bank providing the additional commitment.
+- HPS Corporate Lending Fund appears to be a corporate lending investment vehicle seeking to expand its available credit capacity through this commitment increase.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+- Strong banking relationships with top-tier financial institutions including JPMorgan Chase Bank as Administrative Agent and Deutsche Bank as an increasing lender
+- Existing credit facility structure suggests established operational framework and lender confidence
+- Proactive capital management through expansion of available credit capacity
+- Senior secured structure provides enhanced creditor protection
+
+### Principal Risks and Mitigating Factors:
+- Limited financial information available to assess overall credit profile and performance metrics
+- No visibility into pricing, covenants, or other key credit terms that would inform risk assessment
+- Corporate lending fund structure may involve concentration risks depending on underlying portfolio composition
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | USD 25,000,000 |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | N/A |

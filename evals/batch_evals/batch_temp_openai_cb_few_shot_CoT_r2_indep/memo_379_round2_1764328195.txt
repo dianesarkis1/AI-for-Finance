@@ -1,0 +1,34 @@
+# Investment Memorandum
+
+## 1. Executive Summary
+
+**Date of Agreement:** 2025-05-27
+
+**Borrower/Company Overview:** Karman Holding Inc., a Delaware corporation, serves as the Borrower with multiple subsidiary guarantors including Karman Parent LLC, Karman Space & Defense LLC, Aerospace Engineering LLC, Wolcott Design Services LLC, Amro Fabricating Corporation, American Automated Engineering Inc., and Systima Technologies Inc.
+
+**Transaction Description:** This is a First Amendment to an existing Credit Agreement originally dated April 1, 2025, with CITIBANK, N.A. serving as Administrative Agent and Collateral Agent. The amendment establishes $75,000,000 in First Amendment Incremental Term Loans provided solely by Citibank.
+
+**Purpose of Financing:** The proceeds will be used to repay outstanding Revolving Credit Loans, for working capital and general corporate purposes (including Permitted Investments), and to pay associated fees and expenses.
+
+**Company Background:** Based on the subsidiary names, Karman Holding appears to be a holding company with operations in aerospace, defense, engineering services, and manufacturing sectors.
+
+## 2. Investment Highlights & Risks
+
+**Key Strengths / Credit Positives:**
+• Strong institutional support with CITIBANK, N.A. providing the full $75M incremental facility, demonstrating continued lender confidence
+• Diversified business platform spanning aerospace, defense, engineering, and manufacturing through multiple operating subsidiaries
+• Successful expansion of borrowing capacity within two months of original facility establishment
+• Incremental loans form same tranche and class as existing Term Loans, are fungible for U.S. federal income tax purposes, and share the same CUSIP
+• Quarterly amortization schedule provides modest deleveraging starting September 2025
+
+**Principal Risks and Mitigating Factors:**
+• Incremental borrowing shortly after facility establishment may indicate higher than anticipated capital needs
+• SOFR-based floating rate exposure creates interest rate risk in rising rate environment
+• Single lender concentration risk with Citibank providing the full incremental facility
+• Limited visibility into specific financial maintenance covenants beyond standard compliance requirements
+
+## 3. Key Deal Terms Table
+
+| Deal size | Deal price | Interest rate | Maturity date | Payment frequency | Key covenants or financial maintenance terms |
+|-----------|------------|---------------|---------------|-------------------|----------------------------------------------|
+| USD 75,000,000 | N/A | SOFR Loans (floating rate) | N/A | Quarterly | • Initial Interest Period: SOFR Loans from First Amendment Effective Date to June 30, 2025<br>• Quarterly amortization of 0.25% of initial principal amount starting September 30, 2025<br>• Incremental loans same tranche/class as existing Term Loans, fungible for tax purposes with same CUSIP<br>• Standard representations and warranties compliance<br>• No Event of Default under sections 8.01(a), (f), or (g)<br>• Existing security interests continue to secure all obligations |

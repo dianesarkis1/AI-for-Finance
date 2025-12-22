@@ -1,0 +1,40 @@
+I will draft an investment memorandum analyzing this credit agreement amendment for Lumen Technologies. Here's my approach:
+
+• Identify the key parties, transaction date, and amendment purpose
+• Analyze the technical modification to Section 6.01(v)(1)(ii) regarding Incremental Equivalent Debt
+• Assess credit implications from an investor perspective
+• Extract available deal terms and mark unavailable information as N/A
+
+# Investment Memorandum
+
+## 1. Executive Summary
+
+- On August 26, 2024, Lumen Technologies, Inc. (a Louisiana corporation) executed Amendment No. 1 to its Superpriority Term B Credit Agreement originally dated March 22, 2024.
+- The borrower is Lumen Technologies, Inc., with Wilmington Trust, National Association serving as Administrative Agent and Bank of America, N.A. as Collateral Agent.
+- This amendment represents a technical correction to fix an error in Section 6.01(v)(1)(ii) of the original Credit Agreement, specifically relating to the terms governing Incremental Equivalent Debt.
+- The purpose is to cure ambiguity, omission, error, defect or inconsistency in the loan documentation, as permitted under Section 9.08(e)(iii) of the original Credit Agreement.
+- Lumen Technologies operates in the telecommunications sector, and this amendment modifies covenant provisions related to additional debt incurrence capabilities.
+
+## 2. Investment Highlights & Risks
+
+### Key Strengths / Credit Positives:
+• Established administrative structure with reputable financial institutions (Wilmington Trust as Administrative Agent, Bank of America as Collateral Agent)
+• Technical amendment demonstrates proactive document maintenance and legal compliance
+• Amendment provides detailed structural protections for Incremental Equivalent Debt, including subordination requirements and collateral limitations
+• Maintains existing guarantee structure with Lumen Guarantors and QC Guarantors
+
+### Principal Risks and Mitigating Factors:
+• Amendment allows for potential additional debt incurrence through Incremental Equivalent Debt, which could increase leverage
+• Limited visibility into overall credit facility size, pricing, and financial performance metrics
+• Technical nature of amendment suggests ongoing complexity in capital structure that may require continued modifications
+
+## 3. Key Deal Terms Table
+
+| **Term** | **Details** |
+|----------|-------------|
+| **Deal Size** | N/A |
+| **Deal Price** | N/A |
+| **Interest Rate** | N/A |
+| **Maturity Date** | N/A |
+| **Payment Frequency** | N/A |
+| **Key Covenants** | Incremental Equivalent Debt must: have no borrower other than Lumen or guarantor other than Lumen/QC Guarantors; if secured, only by existing Collateral; have Weighted Average Life to Maturity no shorter than remaining Term B Loans; no maturity/prepayment obligations prior to Latest Maturity Date; final maturity no earlier than Latest Maturity Date; subject to Subordination Agreement; subject to intercreditor agreements; not rank senior to existing Obligations |
