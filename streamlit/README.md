@@ -1,187 +1,125 @@
-# Investment Memo Generator - Streamlit Interface
+# Investment Memo Generator - Streamlit App
+A web interface for generating and evaluating investment memos from credit agreements using multiple AI models.
 
-A comprehensive web interface for generating investment memos from various document types using Claude Sonnet 4.
+## Quick Start
+
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+
+# Optional (for specific features):
+pip install PyPDF2  # or PyMuPDF for PDF support
+pip install requests  # for URL fetching
+```
+
+### 2. Set API Keys
+```bash
+export ANTHROPIC_API_KEY='your-key-here'
+export OPENAI_API_KEY='your-key-here'
+export GEMINI_API_KEY='your-key-here'
+```
+
+Or create a `.env` file in the project root
+
+### 3. Run the App
+```bash
+streamlit run streamlit/app.py
+```
+The app opens at `http://localhost:8501`
+
+---
 
 ## Features
+### Input Types
+- 📄 **PDF files** - Extracts text automatically
+- 📝 **Text files** (.txt, .md) - Direct processing
+- 📋 **JSON/JSONL files** - Extracts credit agreements
+- 🌐 **URLs** - Fetches and processes web content
 
-- **Multiple Input Types**:
-  - 📄 PDF files
-  - 📝 Text files (.txt, .md)
-  - 📋 JSON/JSONL files (automatically extracts credit agreements)
-  - 🌐 URLs (fetches web content)
+### AI Models
+- **Claude Sonnet 4**
+- **GPT-5**
+- **Gemini 2.5 Pro**
 
-- **Flexible Prompt System**:
-  - Choose from pre-existing prompt templates in `/prompts`
-  - Or create custom prompts on-the-fly
+### Prompts
+- Choose from templates in `/prompts` directory
+- Or write custom prompts in the interface
+- Optional few-shot examples for improved quality
 
-- **Claude Sonnet 4 Integration**:
-  - Uses the latest Claude Sonnet 4 model (`claude-sonnet-4-20250514`)
-  - Supports up to 16,000 output tokens
+### Evaluation
+Real-time evaluation with 4 metrics: accuracy, completeness, consistency, quality
 
-- **User-Friendly Interface**:
-  - Clean, intuitive design
-  - Document preview
-  - Download generated memos as Markdown or Text
+### Output
+- View generated memos in-app
+- Download as Markdown or Text
+- View detailed evaluation results
+- Export evaluation JSON
 
-## Installation
+---
 
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Usage Example
 
-2. **Set up your Anthropic API key**:
+### Generate Your First Memo
 
-   You can either:
-   - Set the `ANTHROPIC_API_KEY` environment variable:
-     ```bash
-     export ANTHROPIC_API_KEY='your-api-key-here'
-     ```
-   - Or enter it directly in the Streamlit interface
+1. **Upload a Document**
+   - Click "Upload File" or "Enter URL"
+   - Select or provide your credit agreement
 
-## Usage
+2. **Configure Generation**
+   - Choose an AI model (Claude Sonnet 4 recommended)
+   - Select a prompt template or write custom
+   - Toggle few-shot examples (recommended)
 
-1. **Run the Streamlit app**:
-   ```bash
-   streamlit run app.py
-   ```
+3. **Generate**
+   - Click "🚀 Generate Investment Memo"
+   - Wait 2-5 seconds for generation
 
-2. **Access the interface**:
-   - The app will open automatically in your browser
-   - Or navigate to `http://localhost:8501`
+4. **Evaluate** (Optional)
+   - Evaluation runs automatically after generation
+   - View detailed metrics breakdown
+   - Takes 2-4 minutes for full evaluation
 
-3. **Generate a memo**:
-   - Choose input method (upload file or enter URL)
-   - Provide your document
-   - Select or enter a prompt
-   - Click "Generate Investment Memo"
-   - Download your generated memo
+5. **Download**
+   - Download memo as Markdown or Text
+   - Download evaluation results as JSON
 
-## How It Works
-
-The app leverages existing functions from the main repository:
-
-### Document Processing
-- **Text files** (`read_text_file`): Directly reads .txt and .md files
-- **JSONL files** (`extract_credit_agreement_from_jsonl`): Extracts and cleans credit agreement text
-- **JSON files**: Parses JSON and extracts 'text' field if available
-- **PDF files**: Uses PyPDF2 or PyMuPDF to extract text
-- **URLs**: Uses requests library to fetch content
-
-### Memo Generation
-- **API Communication**:
-  - `build_anthropic_payload`: Constructs API request
-  - `call_anthropic_api`: Sends request to Anthropic API
-  - `extract_output_text_anthropic`: Extracts text from response
-
-### Prompt Templates
-- Loads all `.txt` files from `/prompts` directory
-- Allows custom prompts for flexibility
-
-## Configuration
+---
 
 ### Model Settings
-- **Model**: `claude-sonnet-4-20250514` (Claude Sonnet 4)
+- **Default Model**: Claude Sonnet 4 (`claude-sonnet-4-20250514`)
 - **Max Output Tokens**: 16,000
-- **Temperature**: Default (controlled by API)
+- **Temperature**: Model defaults
+---
 
-### File Support
-The app validates and processes these file types:
-- `.pdf` - Requires PyPDF2 or PyMuPDF
-- `.txt`, `.md` - Plain text formats
-- `.json` - JSON format (extracts 'text' field if present)
-- `.jsonl` - JSON Lines format (uses credit agreement extraction)
+## Performance Expectations
 
-## Project Structure
+| Operation | Time | Notes |
+|-----------|------|-------|
+| Generate memo | 2-5 sec | Typical credit agreement |
+| Full evaluation | 2-4 min | 3 evaluators × 4 metrics |
+| PDF extraction | <1 sec | Depends on file size |
+| URL fetching | 1-3 sec | Depends on network |
 
-```
-streamlit/
-├── app.py              # Main Streamlit application
-├── requirements.txt    # Python dependencies
-└── README.md          # This file
-```
+## Advanced Features
 
-## Dependencies
+### Few-Shot Examples
+- Enable via checkbox in the interface
+- Automatically includes example memos in prompt
+- Improves memo quality and consistency
 
-### Required
-- `streamlit>=1.28.0` - Web interface framework
+### Custom Prompts
+- Write prompts directly in the app's text area
+- Or add .txt files to `../prompts/` for reuse
+- Templates appear automatically in dropdown
 
-### Optional (for specific features)
-- `PyPDF2>=3.0.0` OR `PyMuPDF>=1.23.0` - PDF processing
-- `requests>=2.31.0` - URL fetching
-- `python-dotenv>=1.0.0` - Environment variable management
+---
 
-## Troubleshooting
+## App Architecture
 
-### "No PDF processing library available"
-Install either PyPDF2 or PyMuPDF:
-```bash
-pip install PyPDF2
-# or
-pip install PyMuPDF
-```
+The Streamlit app (`app.py`) provides a web interface that:
+1. Handles file uploads and URL fetching
+2. Calls memo generation via subprocess to `evals/model_run.py`
+3. Runs evaluation via `evals/metrics.py`
+4. Displays results and provides download options
 
-### "requests library not installed"
-Install requests:
-```bash
-pip install requests
-```
-
-### "API Key not found"
-Make sure you've either:
-1. Set the `ANTHROPIC_API_KEY` environment variable
-2. Entered your API key in the sidebar
-
-### "Failed to extract output"
-- Check that your API key is valid
-- Ensure you have sufficient API credits
-- Verify your internet connection
-
-## Examples
-
-### Example 1: Upload a PDF
-1. Select "Upload File"
-2. Choose a PDF file
-3. Select a prompt template (e.g., "baseline")
-4. Click "Generate Investment Memo"
-
-### Example 2: Fetch from URL
-1. Select "Enter URL"
-2. Enter a URL (e.g., a financial document URL)
-3. Click "Fetch URL"
-4. Enter a custom prompt
-5. Click "Generate Investment Memo"
-
-### Example 3: Process JSONL Credit Agreement
-1. Select "Upload File"
-2. Upload a .jsonl file from `/data`
-3. Select "prompt_gen_anthropic_context" template
-4. Click "Generate Investment Memo"
-
-## API Usage
-
-Each memo generation makes one API call to Claude Sonnet 4:
-- **Input**: Combined prompt + document text
-- **Output**: Up to 16,000 tokens
-- **Cost**: Check Anthropic's pricing page for current rates
-
-## Future Enhancements
-
-Potential features for future versions:
-- Batch processing multiple documents
-- Save/load memo templates
-- Export to additional formats (PDF, DOCX)
-- Integration with evaluation metrics
-- Comparison between different prompts
-- History of generated memos
-
-## Support
-
-For issues or questions:
-1. Check this README
-2. Review the main repository documentation
-3. Check Anthropic's API documentation
-
-## License
-
-This interface is part of the AI-for-Finance project.
+All heavy computation happens in the backend evaluation modules.
