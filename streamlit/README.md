@@ -57,34 +57,6 @@ Real-time evaluation with 4 metrics: accuracy, completeness, consistency, qualit
 
 ---
 
-## Usage Example
-
-### Generate Your First Memo
-
-1. **Upload a Document**
-   - Click "Upload File" or "Enter URL"
-   - Select or provide your credit agreement
-
-2. **Configure Generation**
-   - Choose an AI model (Claude Sonnet 4 recommended)
-   - Select a prompt template or write custom
-   - Toggle few-shot examples (recommended)
-
-3. **Generate**
-   - Click "🚀 Generate Investment Memo"
-   - Wait 2-5 seconds for generation
-
-4. **Evaluate** (Optional)
-   - Evaluation runs automatically after generation
-   - View detailed metrics breakdown
-   - Takes 2-4 minutes for full evaluation
-
-5. **Download**
-   - Download memo as Markdown or Text
-   - Download evaluation results as JSON
-
----
-
 ### Model Settings
 - **Default Model**: Claude Sonnet 4 (`claude-sonnet-4-20250514`)
 - **Max Output Tokens**: 16,000
