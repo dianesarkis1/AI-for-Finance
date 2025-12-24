@@ -374,8 +374,8 @@ Examples:
     print(f"{'='*70}")
     print(f"\nRun name: {run_name}")
     print(f"Data file: {args.data_file} ({total_samples} samples)")
-    print(f"Batch directory: evals/batch_evals/{batch_temp_name}/")
-    print(f"Results directory: evals/batch_evals/{results_name}/")
+    print(f"Batch directory: evals/batch_outputs/{batch_temp_name}/")
+    print(f"Results directory: evals/results/{results_name}/")
 
     if args.skip_memo_generation:
         print(f"Prompt file: N/A (loading existing memos from batch inputs)")

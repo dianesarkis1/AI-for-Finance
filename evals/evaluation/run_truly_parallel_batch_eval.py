@@ -78,11 +78,14 @@ from evals.evaluation.batch_utils import (
 
 # Configuration
 # Get paths relative to script location (so it works from any working directory)
-SCRIPT_DIR = Path(__file__).parent.resolve()  # /path/to/AI-for-Finance/evals/batch_evals
+SCRIPT_DIR = Path(__file__).parent.resolve()  # /path/to/AI-for-Finance/evals/evaluation
 REPO_ROOT = SCRIPT_DIR.parent.parent  # /path/to/AI-for-Finance
+EVALS_DIR = REPO_ROOT / "evals"  # /path/to/AI-for-Finance/evals
 TRAIN_FILE = REPO_ROOT / "data" / "train.jsonl"
 BASELINE_SAMPLED_INDICES_FILE = REPO_ROOT / "evals" / "benchmark" / "baseline_sampled_indices_seed42.json"
-OUTPUT_DIR = SCRIPT_DIR  # evals/batch_evals directory
+BATCH_OUTPUTS_DIR = EVALS_DIR / "batch_outputs"  # evals/batch_outputs
+RESULTS_BASE_DIR = EVALS_DIR / "results"  # evals/results
+OUTPUT_DIR = BATCH_OUTPUTS_DIR  # Default: write batch temp files to evals/batch_outputs/
 
 # Random seed for reproducibility
 RANDOM_SEED = 42
@@ -2654,8 +2657,8 @@ Examples:
         return 1
 
     # Set up directories based on run name
-    BATCH_TEMP_DIR = OUTPUT_DIR / args.run_name
-    RESULTS_DIR = OUTPUT_DIR / f"results_{args.run_name.replace('batch_temp_', '')}"
+    BATCH_TEMP_DIR = BATCH_OUTPUTS_DIR / args.run_name
+    RESULTS_DIR = RESULTS_BASE_DIR / f"results_{args.run_name.replace('batch_temp_', '')}"
     BATCH_TEMP_DIR.mkdir(parents=True, exist_ok=True)
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
