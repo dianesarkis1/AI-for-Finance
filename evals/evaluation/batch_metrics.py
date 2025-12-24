@@ -17,7 +17,7 @@ import json
 
 
 # Import prompt templates from original metrics
-from evals.metrics import (
+from evals.evaluation.metrics import (
     ACCURACY_PROMPT_TEMPLATE,
     COMPLETENESS_PROMPT_TEMPLATE,
     CONSISTENCY_PROMPT_TEMPLATE,

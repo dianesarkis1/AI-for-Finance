@@ -618,7 +618,7 @@ def calculate_summary_scores(results_by_index: Dict[int, Dict]) -> Dict[int, Dic
     Calculate summary scores for each memo and evaluator using all 4 metrics.
     Supports round-based results from iterative refinement.
     """
-    from evals.metrics import calculate_summary_score
+    from evals.evaluation.metrics import calculate_summary_score
 
     print(f"{'='*70}")
     print(f"STEP 3: CALCULATING STATISTICS")
@@ -700,7 +700,7 @@ def calculate_round_summary_score(eval_results: Dict, quality_metrics: List[str]
     Calculate summary score for a single round of evaluation.
     Helper function to avoid code duplication between round-based and standard evaluation.
     """
-    from evals.metrics import calculate_summary_score
+    from evals.evaluation.metrics import calculate_summary_score
 
     # 1. Convert accuracy (answer YES = has hallucinations, NO = accurate)
     accuracy_result = None

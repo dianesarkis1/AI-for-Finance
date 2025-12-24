@@ -29,11 +29,11 @@ from typing import Dict, List, Optional
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from evals.batch_evals.batch_utils import (
+from evals.evaluation.batch_utils import (
     evaluate_memo_batch,
     submit_and_wait_for_batch
 )
-from evals.batch_evals.batch_metrics import parse_batch_results
+from evals.evaluation.batch_metrics import parse_batch_results
 import os
 
 # Directory for temporary batch files
@@ -228,7 +228,7 @@ def evaluate_memo_with_model(
     try:
         if evaluator_model.startswith("gpt"):
             # GPT-5 batch evaluation
-            from evals.batch_evals.batch_metrics import create_batch_requests_for_memo
+            from evals.evaluation.batch_metrics import create_batch_requests_for_memo
 
             api_key = os.getenv("OPENAI_API_KEY")
             if not api_key:
@@ -253,8 +253,8 @@ def evaluate_memo_with_model(
 
         elif "claude" in evaluator_model.lower():
             # Claude batch evaluation
-            from evals.batch_evals.batch_metrics import create_claude_batch_requests_for_memo, parse_claude_batch_results
-            from evals.batch_evals.batch_utils import submit_and_wait_for_claude_batch
+            from evals.evaluation.batch_metrics import create_claude_batch_requests_for_memo, parse_claude_batch_results
+            from evals.evaluation.batch_utils import submit_and_wait_for_claude_batch
 
             api_key = os.getenv("ANTHROPIC_API_KEY")
             if not api_key:
@@ -278,8 +278,8 @@ def evaluate_memo_with_model(
 
         elif "gemini" in evaluator_model.lower():
             # Gemini batch evaluation
-            from evals.batch_evals.batch_metrics import create_gemini_batch_requests_for_memo, parse_gemini_batch_results
-            from evals.batch_evals.batch_utils import submit_and_wait_for_gemini_batch
+            from evals.evaluation.batch_metrics import create_gemini_batch_requests_for_memo, parse_gemini_batch_results
+            from evals.evaluation.batch_utils import submit_and_wait_for_gemini_batch
 
             api_key = os.getenv("GEMINI_API_KEY")
             if not api_key:
@@ -312,7 +312,7 @@ def evaluate_memo_with_model(
         quality_result = parsed["quality_result"]
 
         # Calculate summary score
-        from evals.metrics import calculate_summary_score
+        from evals.evaluation.metrics import calculate_summary_score
         summary_result = calculate_summary_score(
             accuracy_result=accuracy_result,
             completeness_result=completeness_result,

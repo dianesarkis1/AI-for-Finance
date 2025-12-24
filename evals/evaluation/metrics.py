@@ -10,7 +10,7 @@ Metrics:
 """
 
 from typing import Dict, List, Tuple
-from evals.utils import call_llm_for_eval
+from evals.evaluation.utils import call_llm_for_eval
 
 
 ACCURACY_PROMPT_TEMPLATE = """You are evaluating an investment memo for factual accuracy against its source credit agreement.

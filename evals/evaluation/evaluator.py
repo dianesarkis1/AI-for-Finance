@@ -3,7 +3,7 @@ Main evaluation harness that runs all metrics on generated memos.
 """
 
 from typing import Dict, List, Optional
-from evals.metrics import (
+from evals.evaluation.metrics import (
     evaluate_accuracy,
     evaluate_completeness,
     evaluate_consistency,

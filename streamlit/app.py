@@ -30,11 +30,11 @@ import streamlit as st
 
 # Add parent directories to path to import from evals
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from evals.model_run import (
+from evals.evaluation.model_run import (
     extract_credit_agreement_from_jsonl,
     read_text_file,
 )
-from evals.metrics import (
+from evals.evaluation.metrics import (
     evaluate_accuracy,
     evaluate_completeness,
     evaluate_consistency,

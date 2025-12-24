@@ -442,8 +442,8 @@ def process_existing_batch_results(batch_output_file: Path, output_dir: Path = N
     Returns:
         Dict with parsed metrics and summary score
     """
-    from evals.batch_evals.batch_metrics import parse_batch_results
-    from evals.metrics import calculate_summary_score
+    from evals.evaluation.batch_metrics import parse_batch_results
+    from evals.evaluation.metrics import calculate_summary_score
 
     print("=" * 70)
     print("PROCESSING EXISTING BATCH RESULTS")
@@ -549,7 +549,7 @@ def evaluate_memo_batch(
     Returns:
         float: Summary score (0-100)
     """
-    from evals.batch_evals.batch_metrics import (
+    from evals.evaluation.batch_metrics import (
         create_batch_requests_for_memo,
         create_claude_batch_requests_for_memo,
         create_gemini_batch_requests_for_memo,
@@ -557,7 +557,7 @@ def evaluate_memo_batch(
         parse_claude_batch_results,
         parse_gemini_batch_results
     )
-    from evals.metrics import calculate_summary_score
+    from evals.evaluation.metrics import calculate_summary_score
 
     # Determine provider
     is_claude = "claude" in model.lower()
@@ -727,7 +727,7 @@ def evaluate_memo_batch_with_all_models(
     Returns:
         Dict mapping model name to summary score
     """
-    from evals.batch_evals.batch_metrics import (
+    from evals.evaluation.batch_metrics import (
         create_batch_requests_for_memo,
         create_claude_batch_requests_for_memo,
         create_gemini_batch_requests_for_memo,
@@ -735,7 +735,7 @@ def evaluate_memo_batch_with_all_models(
         parse_claude_batch_results,
         parse_gemini_batch_results
     )
-    from evals.metrics import calculate_summary_score
+    from evals.evaluation.metrics import calculate_summary_score
     import concurrent.futures
 
     results = {}

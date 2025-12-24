@@ -49,12 +49,12 @@ from typing import Dict, List, Optional
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from evals.batch_evals.batch_evaluate import (
+from evals.evaluation.batch_evaluate import (
     load_training_sample,
     generate_memo_for_input,
     aggregate_evaluator_results
 )
-from evals.batch_evals.batch_metrics import (
+from evals.evaluation.batch_metrics import (
     create_batch_requests_for_memo,
     parse_batch_results,
     create_claude_batch_requests_for_memo,
@@ -62,7 +62,7 @@ from evals.batch_evals.batch_metrics import (
     create_gemini_batch_requests_for_memo,
     parse_gemini_batch_results
 )
-from evals.batch_evals.batch_utils import (
+from evals.evaluation.batch_utils import (
     upload_batch_file,
     create_batch_job,
     check_batch_status,
@@ -1614,7 +1614,7 @@ def evaluate_memo_with_sync_api(
     Returns:
         Dict with evaluation results, or None if evaluation failed
     """
-    from evals.metrics import (
+    from evals.evaluation.metrics import (
         ACCURACY_PROMPT_TEMPLATE,
         COMPLETENESS_PROMPT_TEMPLATE,
         CONSISTENCY_PROMPT_TEMPLATE,
@@ -2310,7 +2310,7 @@ def aggregate_all_results(
         }
 
         # Calculate summary score from metrics
-        from evals.metrics import calculate_summary_score
+        from evals.evaluation.metrics import calculate_summary_score
         summary_result = calculate_summary_score(
             accuracy_result=parsed_results["accuracy_result"],
             completeness_result=parsed_results["completeness_result"],

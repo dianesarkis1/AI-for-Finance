@@ -414,7 +414,7 @@ Examples:
     # ========================================================================
     cmd = [
         sys.executable,
-        str(script_dir / "run_truly_parallel_batch_eval.py"),
+        str(script_dir / "evaluation" / "run_truly_parallel_batch_eval.py"),
         "--run-name", batch_temp_name,
     ]
 
@@ -458,7 +458,7 @@ Examples:
     # ========================================================================
     cmd = [
         sys.executable,
-        str(script_dir / "generate_final_results.py"),
+        str(script_dir / "results_analysis" / "generate_final_results.py"),
         "--batch-temp-dir", batch_temp_name,
         "--output-dir", results_name,
         "--skip-download"
@@ -471,7 +471,7 @@ Examples:
     # ========================================================================
     cmd = [
         sys.executable,
-        str(script_dir / "create_results_tables_v2.py"),
+        str(script_dir / "results_analysis" / "create_results_tables_v2.py"),
         "--results-dir", results_name
     ]
 
