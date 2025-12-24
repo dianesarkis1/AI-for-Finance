@@ -15,8 +15,7 @@ This project explores how AI can be applied in finance to automate key workflows
 AI-for-Finance/
 ├── data/                          # Dataset and preprocessing
 │   ├── cleaned_data.jsonl         # All 499 cleaned credit agreements
-│   ├── train.jsonl                # 484 documents (training set)
-│   ├── train_final.jsonl          # 50 documents (eval set)
+│   ├── train_final.jsonl          # 50 documents (training set)
 │   ├── test.jsonl                 # 449 documents (test set)
 │   ├── urls.txt                   # All source URLs
 │   └── data_cleaning.py           # Data pipeline script
@@ -121,8 +120,8 @@ python evals/run_eval_workflow.py <run_name> [options]
 |-----------|-------------|---------|
 | `run_name` | Name for this run (required) | Required Field |
 | `--prompt PATH` | Custom prompt file | `prompts/baseline.txt` |
-| `--data-file PATH` | Input data file | `data/train.jsonl` |
-| `--indices N [N...]` | Specific indices to evaluate | all of data/train.jsonl (50 indices) |
+| `--data-file PATH` | Input data file | `data/train_final.jsonl` |
+| `--indices N [N...]` | Specific indices to evaluate | All 50 documents in train_final.jsonl |
 | `--parallel-memos` | Use Claude Batch API for faster memo generation | False |
 | `--evaluators MODEL [MODEL...]` | Which evaluators to run (openai, claude, gemini) | All 3 |
 | `--skip-memo-generation` | Skip generation, use existing memos in batch_outputs/[run_name] | False |
@@ -220,9 +219,8 @@ python data/data_cleaning.py data_test
 
 **Output:**
 - `cleaned_data.jsonl` - All 499 documents
-- `train.jsonl` - 484 documents (minus 15 excluded)
-- `train_final.jsonl` - 50 documents (evaluation set)
-- `test.jsonl` - 449 documents (remaining)
+- `train_final.jsonl` - 50 documents (training set)
+- `test.jsonl` - 449 documents (test set)
 
 ---
 

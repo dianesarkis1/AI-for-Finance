@@ -28,5 +28,8 @@ Thumbs.db
 # Project specific
 AI-for-Finance/
 
+# Data files
+data/train.jsonl
+
 # Old scripts
 archive/
