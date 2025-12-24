@@ -100,21 +100,31 @@ GEMINI_API_KEY=...
 
 ---
 
-### 3. Run the Streamlit Demo
+### 3. Run the Full Evaluation Pipeline
 
 ```bash
-streamlit run streamlit/app.py
+python evals/run_eval_workflow.py baseline_test --parallel-memos
 ```
 
-Opens at `http://localhost:8501`
+**What this does:**
+- Generates memos for 50 documents from `data/train_final.jsonl`
+- Evaluates with 3 models (OpenAI, Claude, Gemini) using batch APIs
+- Creates comprehensive results with per-memo scores
+- Takes 40-70 minutes end-to-end
 
-**Features:**
-- Upload credit agreements (PDF, TXT, JSON, JSONL, URL)
-- Generate memos with Claude Sonnet 4, GPT-5, or Gemini 2.5 Pro
-- Real-time evaluation with detailed metrics
-- Download memos and evaluation results
+**Outputs:**
+- `evals/batch_outputs/batch_temp_baseline_test/` - Batch API data
+- `evals/results/results_baseline_test/` - Final results and analysis tables
 
-See [streamlit/README.md](streamlit/README.md) for full documentation.
+See [Running the Full Evaluation Pipeline](#running-the-full-evaluation-pipeline) section below for detailed usage.
+
+**Alternative: Try the Streamlit Demo**
+
+For a quick interactive demo without waiting for batch APIs:
+```bash
+streamlit run streamlit/app.py  # Opens at http://localhost:8501
+```
+See [streamlit/README.md](streamlit/README.md) for details.
 
 ---
 
