@@ -4,8 +4,8 @@
 This project explores how AI can be applied in finance to automate key workflows. The goals are to:
 - Build an MVP pipeline that ingests financial documents (publicly available credit agreements scraped from the SEC EDGAR website), cleans the data, and prompts Claude to create a structured output in the form of an investment memo
 - Develop an evaluation harness to evaluate models (GPT-5, Claude Sonnet 4, Gemini 2.5 Pro) on a consistent set of metrics, and test whether prompt optimization techniques (few-shot examples, iterative refinement) can systematically improve performance
-- For a demo of the memo generation and evaluation system, see https://ai-for-finance-pbjgnzqdnz7ftrc3uabysv.streamlit.app/
-- For a write up of the project and analysis of key results, see [write_up.ipynb](write_up.ipynb).
+- Live demo: https://ai-for-finance-pbjgnzqdnz7ftrc3uabysv.streamlit.app/
+- Project write-up and results: see [write_up.ipynb](write_up.ipynb).
 
 ---
 
@@ -13,37 +13,18 @@ This project explores how AI can be applied in finance to automate key workflows
 
 ```
 AI-for-Finance/
-├── data/                          # Dataset and preprocessing
-│   ├── cleaned_data.jsonl         # All 499 cleaned credit agreements
-│   ├── train_final.jsonl          # 50 documents (training set)
-│   ├── test.jsonl                 # 449 documents (test set)
-│   ├── urls.txt                   # All source URLs
-│   └── data_cleaning.py           # Data pipeline script
-│
-├── evals/                         # Evaluation system
-│   ├── run_eval_workflow.py       # Main entry point for full eval pipeline
-│   ├── evaluation/                # Core evaluation modules
-│   │   ├── model_run.py          # Memo generation
-│   │   ├── metrics.py            # 4 evaluation metrics
-│   │   ├── utils.py              # API utilities
-│   │   ├── evaluator.py          # Single-memo evaluation
-│   │   ├── batch_*.py            # Batch evaluation (OpenAI/Claude/Gemini)
-│   │   └── run_truly_parallel_batch_eval.py  # Batch orchestrator
-│   ├── results_analysis/         # Post-processing
-│   │   ├── generate_final_results.py
-│   │   ├── create_results_tables_v2.py
-│   │   └── generate_memo_review.py
-│   ├── few_shot_examples/        # Example memos for prompting
-│   ├── batch_outputs/            # Batch API outputs
-│   └── results/                  # Evaluation results
-│
-├── prompts/                       # Prompt templates
-│   ├── baseline.txt              # Standard prompt
-│   └── *.txt                     # Other prompt variations
-│
-├── streamlit/                     # Web interface
-│   ├── app.py                    # Streamlit demo app
-└── └── README.md                 # Streamlit documentation
+├── data/                    # Dataset, splits, cleaning pipeline
+├── evals/                   # Memo generation + evaluation system
+│   ├── run_eval_workflow.py # Main entry point for full pipeline
+│   ├── batch_outputs/       # Batch API outputs
+│   ├── evaluation/          # Core evaluation modules
+│   ├── results/             # Evaluation results
+│   ├── results_analysis/    # Post-processing
+│   └── few_shot_examples/   # Example memos for prompting
+├── prompts/                 # Prompt templates
+├── streamlit/               # For demo
+└── write_up.ipynb           # Analysis and results
+
 ```
 ---
 
