@@ -100,7 +100,7 @@ GEMINI_API_KEY=...
 
 ---
 
-### 3. Run the Full Evaluation Pipeline
+### 3. Run the Full Generation + Evaluation Pipeline
 
 ```bash
 python evals/run_eval_workflow.py <run_name> [options]
@@ -175,12 +175,30 @@ python evals/run_eval_workflow.py test_benchmark \
   --indices 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 \
   --parallel-memos
 ```
+#### 5. Running Individual Components
 
----
+**Generate a single memo:**
+```bash
+python evals/evaluation/model_run.py \
+  --model claude-sonnet-4-20250514 \
+  --input-file data/train_final.jsonl \
+  --index 0 \
+  --output memo.md
+```
 
-## Data Pipeline
+**Evaluate a memo:**
+```python
+from evals.evaluation.evaluator import evaluate_memo
 
-### Regenerate Data Files
+score = evaluate_memo(
+    memo=memo_text,
+    source_document=document_text,
+    eval_models=["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
+)
+print(f"Summary Score: {score:.2f}/100")
+```
+
+#### 6. Regenerate Data Files
 
 All data splits are deterministic and reproducible:
 
@@ -213,31 +231,3 @@ python data/data_cleaning.py data_test
 ### VS Code DevContainer
 
 Open this repo in a VS Code DevContainer (`.devcontainer/`) for a pre-configured environment.
-
-### Running Individual Components
-
-**Generate a single memo:**
-```bash
-python evals/evaluation/model_run.py \
-  --model claude-sonnet-4-20250514 \
-  --input-file data/train_final.jsonl \
-  --output memo.md
-```
-
-**Evaluate a memo:**
-```python
-from evals.evaluation.evaluator import evaluate_memo
-
-score = evaluate_memo(
-    memo=memo_text,
-    source_document=document_text,
-    eval_models=["gpt-5", "claude-sonnet-4-20250514", "gemini-2.5-pro"]
-)
-print(f"Summary Score: {score:.2f}/100")
-```
-
----
-
-## License
-
-This project is for research and educational purposes.
