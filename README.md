@@ -103,45 +103,42 @@ GEMINI_API_KEY=...
 ### 3. Run the Full Evaluation Pipeline
 
 ```bash
-python evals/run_eval_workflow.py baseline_test --parallel-memos
-```
-
-**What this does:**
-- Generates memos for 50 documents from `data/train_final.jsonl`
-- Evaluates with 3 models (OpenAI, Claude, Gemini) using batch APIs
-- Creates comprehensive results with per-memo scores
-- Takes 40-70 minutes end-to-end
-
-**Outputs:**
-- `evals/batch_outputs/batch_temp_baseline_test/` - Batch API data
-- `evals/results/results_baseline_test/` - Final results and analysis tables
-
-See [Running the Full Evaluation Pipeline](#running-the-full-evaluation-pipeline) section below for detailed usage.
-
-**Alternative: Try the Streamlit Demo**
-
-For a quick interactive demo without waiting for batch APIs:
-```bash
-streamlit run streamlit/app.py  # Opens at http://localhost:8501
-```
-See [streamlit/README.md](streamlit/README.md) for details.
-
----
-
-## Running the Full Evaluation Pipeline
-
-The evaluation pipeline generates memos and evaluates them at scale using batch APIs.
-
-### Basic Usage
-
-```bash
 python evals/run_eval_workflow.py <run_name> [options]
 ```
 
-This runs 3 steps automatically:
+**What this does:**
 1. Generate memos using Claude (by default) Batch API 
 2. Evaluate with 3 models (OpenAI, Claude, Gemini) using batch APIs
 3. Aggregate results and create analysis tables
+
+**Outputs:**
+- `evals/batch_outputs/batch_temp_[run_name]/` - Batch API data
+- `evals/results/results_[run_name]/` - Final results and analysis tables
+
+### Available Parameters
+
+| Parameter | Description | Default |
+|-----------|-------------|---------|
+| `run_name` | Name for this run (required) | Required Field |
+| `--prompt PATH` | Custom prompt file | `prompts/baseline.txt` |
+| `--data-file PATH` | Input data file | `data/train.jsonl` |
+| `--indices N [N...]` | Specific indices to evaluate | all of data/train.jsonl (50 indices) |
+| `--parallel-memos` | Use Claude Batch API for faster memo generation | False |
+| `--evaluators MODEL [MODEL...]` | Which evaluators to run (openai, claude, gemini) | All 3 |
+| `--skip-memo-generation` | Skip generation, use existing memos in batch_outputs/[run_name] | False |
+| `--few-shot-dir PATH` | Directory with few-shot examples | None |
+| `--use-system-parameter` | Use Claude's native system parameter | False |
+| `--use-xml-tags` | Wrap inputs in XML tags | False |
+| `--refinement-rounds N` | Number of iterative refinement rounds | 0 |
+
+**Note:** Batch API jobs run asynchronously on provider servers. The script polls until completion.
+
+---
+
+**Alternative: Try the Streamlit Demo**
+
+For a quick interactive demo without waiting for batch APIs: https://ai-for-finance-pbjgnzqdnz7ftrc3uabysv.streamlit.app/
+
 ---
 
 ### Common Use Cases
@@ -179,47 +176,6 @@ python evals/run_eval_workflow.py test_benchmark \
   --parallel-memos
 ```
 
-#### 5. Claude-Optimized Settings
-
-```bash
-python evals/run_eval_workflow.py claude_optimized \
-  --few-shot-dir evals/few_shot_examples \
-  --use-system-parameter \
-  --use-xml-tags \
-  --parallel-memos
-```
-
----
-
-### Available Parameters
-
-| Parameter | Description | Default |
-|-----------|-------------|---------|
-| `run_name` | Name for this run (required) | Required Field |
-| `--prompt PATH` | Custom prompt file | `prompts/baseline.txt` |
-| `--data-file PATH` | Input data file | `data/train.jsonl` |
-| `--indices N [N...]` | Specific indices to evaluate | 50-index sample from train_final |
-| `--exclude-default` | Evaluate all EXCEPT default 50 | False |
-| `--parallel-memos` | Use Claude Batch API for faster memo generation | False |
-| `--evaluators MODEL [MODEL...]` | Which evaluators to run (openai, claude, gemini) | All 3 |
-| `--skip-memo-generation` | Skip generation, use existing memos | False |
-| `--few-shot-dir PATH` | Directory with few-shot examples | None |
-| `--use-system-parameter` | Use Claude's native system parameter | False |
-| `--use-xml-tags` | Wrap inputs in XML tags | False |
-| `--refinement-rounds N` | Number of iterative refinement rounds | 0 |
-
----
-
-### Performance Expectations
-
-| Operation | Time | Notes |
-|-----------|------|-------|
-| Generate 50 memos | 5-10 min | With `--parallel-memos` using Claude Batch API |
-| Evaluate 50 memos | 30-60 min | Batch APIs across 3 evaluators (12 API calls per memo) |
-| Full workflow | 40-70 min | End-to-end for 50 documents |
-
-**Note:** Batch API jobs run asynchronously on provider servers. The script polls until completion.
-
 ---
 
 ## Data Pipeline
@@ -249,46 +205,6 @@ python data/data_cleaning.py data_test
 - `train.jsonl` - 484 documents (minus 15 excluded)
 - `train_final.jsonl` - 50 documents (evaluation set)
 - `test.jsonl` - 449 documents (remaining)
-
----
-
-## Evaluation Architecture
-
-### Single-Memo Evaluation
-For real-time evaluation (used by Streamlit):
-```python
-from evals.evaluation.model_run import call_anthropic_api, build_anthropic_payload
-from evals.evaluation.metrics import evaluate_accuracy, evaluate_completeness
-
-# Generate memo
-payload = build_anthropic_payload(model="claude-sonnet-4-20250514",
-                                   content=prompt + document)
-response = call_anthropic_api(api_key, payload)
-memo = extract_output_text_anthropic(response)
-
-# Evaluate
-accuracy = evaluate_accuracy(memo, document)
-completeness = evaluate_completeness(memo, document)
-```
-
-### Batch Evaluation
-For large-scale evaluation (50+ documents):
-```bash
-python evals/run_eval_workflow.py <run_name> [options]
-```
-
-Uses batch APIs for parallel processing:
-- **Memo Generation**: Claude Batch API
-- **Evaluation**: OpenAI, Claude, and Gemini Batch APIs
-
----
-
-## Additional Resources
-
-- **Streamlit Demo**: [streamlit/README.md](streamlit/README.md)
-- **Data Pipeline**: [data/data_cleaning.py](data/data_cleaning.py) (see docstring)
-- **Evaluation Metrics**: [evals/evaluation/metrics.py](evals/evaluation/metrics.py)
-- **Live Demo**: https://ai-for-finance-pbjgnzqdnz7ftrc3uabysv.streamlit.app/
 
 ---
 
