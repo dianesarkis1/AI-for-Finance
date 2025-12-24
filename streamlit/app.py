@@ -297,7 +297,7 @@ def main():
 
     st.title("📊 Investment Memo Generator")
     st.markdown("""
-    Generate professional investment memos from various document types using **your chosen AI model**.
+    Generate and evaluate professional investment memos from various document types using **your chosen AI model**.
 
     **Supported inputs:**
     - 📄 PDF files
@@ -458,7 +458,7 @@ def main():
         st.header("📄 Output")
 
         # Generate button
-        if st.button("🚀 Generate Investment Memo", type="primary", use_container_width=True):
+        if st.button("🚀 Generate & Evaluate Investment Memo", type="primary", use_container_width=True):
             # Validation
             if not document_text:
                 st.error("⚠️ Please provide a document (upload file or enter URL)")
