@@ -41,36 +41,13 @@ evals/
 ```
 ---
 
-### Key Benefits
-- **True Parallel Evaluation**: Submit all batch jobs at once
-- **Reproducible**: Deterministic dataset ensures same results every time
-- **Resumable**: Batch jobs run on provider servers - can close computer while waiting
-- **Cost Efficient**: Batch APIs typically offer 50% discount vs standard API
-- **Custom Testing**: Test with specific indices using `--indices` flag
-- **Fast Memo Generation**: Optional parallel memo generation using Claude Batch API
-
 ## Quick Start
 
-The **easiest way** to run the full evaluation workflow is using the orchestrator script:
+The **easiest way** to run the full evaluation workflow is using the orchestrator script, as described in the project README:
 
 ```bash
-# Run with default settings (50 documents, baseline prompt)
-python evals/run_eval_workflow.py my_experiment --parallel-memos
-
-# Run with custom prompt
-python evals/run_eval_workflow.py improved_prompt \
-  --prompt prompts/improved.txt \
-  --parallel-memos
-
-# Run with specific indices for quick testing
-python evals/run_eval_workflow.py test_run \
-  --indices 0 1 2 6 \
-  --parallel-memos
+python evals/run_eval_workflow.py my_experiment --[any additional parameters]
 ```
-
-**Output directories:**
-- `evals/batch_outputs/batch_temp_{run_name}/` - All batch input/output files
-- `evals/results/results_{run_name}/` - Final results JSON and analysis tables
 
 ---
 
