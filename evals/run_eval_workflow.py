@@ -27,13 +27,13 @@ Parameters:
 
     --data-file : str (optional)
         Path to data file containing inputs (e.g., data/test.jsonl)
-        Default: data/train.jsonl
+        Default: data/train_final.jsonl
         Note: If using a custom data file without --indices, ALL indices will be evaluated
 
     --indices : int... (optional)
         Custom indices to evaluate (space-separated)
         If not provided:
-          - train.jsonl: uses default comprehensive sample (50 indices)
+          - train_final.jsonl: uses ALL 50 indices in the file
           - other files: uses ALL indices in the file
 
     --exclude-default : flag (optional)
@@ -135,17 +135,15 @@ Notes:
 - The workflow automatically handles all API calls and polling
 - Results are resumable - batch jobs continue on provider servers
 
-NOTE ON TRAINING DATA SAMPLING:
-    This script uses baseline_sampled_indices_seed42.json to generate a 50-index
-    comprehensive sample (10 baseline + 3 first indices + 37 random). This produces
-    IDENTICAL data to data/train_final.jsonl, which explicitly contains the same 50
-    training samples. The sampling approach is maintained here for backward compatibility
-    with existing run naming conventions and historical workflows.
+NOTE ON TRAINING DATA:
+    By default, this script uses data/train_final.jsonl, which contains exactly 50
+    credit agreement samples that have been used for comprehensive evaluation. These
+    50 samples were selected through a combination of manual review, baseline sampling,
+    and random selection to provide representative coverage of the dataset.
 """
 
 import argparse
 import json
-import random
 import subprocess
 import sys
 from pathlib import Path
@@ -155,30 +153,6 @@ def count_jsonl_lines(file_path: Path) -> int:
     """Count the number of lines in a JSONL file."""
     with open(file_path, 'r') as f:
         return sum(1 for line in f if line.strip())
-
-
-def load_default_comprehensive_sample(total_samples: int) -> list[int]:
-    """Load and generate the default 50-index comprehensive sample."""
-    # Load baseline indices
-    baseline_file = Path("evals/benchmark/baseline_sampled_indices_seed42.json")
-    with open(baseline_file, 'r') as f:
-        data = json.load(f)
-        baseline_indices = data['sampled_indices']
-
-    # Create comprehensive sample (same logic as run_truly_parallel_batch_eval.py)
-    combined_indices = set(baseline_indices)
-
-    # Add first 3 indices
-    first_indices = list(range(3))
-    combined_indices.update(first_indices)
-
-    # Sample 37 random indices (excluding already selected ones)
-    random.seed(42)
-    available_indices = [i for i in range(total_samples) if i not in combined_indices]
-    random_indices = random.sample(available_indices, min(37, len(available_indices)))
-    combined_indices.update(random_indices)
-
-    return sorted(list(combined_indices))
 
 
 def run_command(cmd: list, description: str):
@@ -202,7 +176,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Run with default sample and baseline prompt (50 indices from train.jsonl)
+  # Run with default sample and baseline prompt (50 indices from train_final.jsonl)
   python run_eval_workflow.py baseline_v1
 
   # Run with custom prompt
@@ -235,8 +209,8 @@ Examples:
     parser.add_argument(
         '--data-file',
         type=str,
-        default='data/train.jsonl',
-        help='Path to data file containing inputs. Default: data/train.jsonl'
+        default='data/train_final.jsonl',
+        help='Path to data file containing inputs. Default: data/train_final.jsonl'
     )
 
     parser.add_argument(
@@ -326,12 +300,18 @@ Examples:
     total_samples = count_jsonl_lines(data_file_path)
 
     # Handle default indices behavior
-    is_default_data_file = args.data_file == 'data/train.jsonl'
+    is_default_data_file = args.data_file == 'data/train_final.jsonl'
 
     if not args.indices and not args.exclude_default:
         if is_default_data_file:
-            # Default train.jsonl: use 50-index comprehensive sample
-            pass  # Will be handled by run_truly_parallel_batch_eval.py
+            # Default train_final.jsonl: use ALL indices (all 50 samples)
+            args.indices = list(range(total_samples))
+            print(f"\n{'='*70}")
+            print(f"DEFAULT DATA FILE MODE")
+            print(f"{'='*70}")
+            print(f"Data file: {args.data_file} ({total_samples} total samples)")
+            print(f"No indices specified → Using ALL indices (0-{total_samples-1})")
+            print(f"{'='*70}\n")
         else:
             # Custom data file: use ALL indices
             args.indices = list(range(total_samples))
@@ -345,19 +325,34 @@ Examples:
     # Handle --exclude-default flag
     if args.exclude_default:
         if not is_default_data_file:
-            print("WARNING: --exclude-default is designed for train.jsonl", file=sys.stderr)
-            print("         With custom data files, it will exclude the default 50 indices from train.jsonl", file=sys.stderr)
-            print("         which may not be what you want.", file=sys.stderr)
+            print("WARNING: --exclude-default is designed for train_final.jsonl", file=sys.stderr)
+            print("         With custom data files, this flag may not work as expected.", file=sys.stderr)
 
-        default_sample = load_default_comprehensive_sample(total_samples)
-        all_indices = list(range(total_samples))
-        excluded_indices = [i for i in all_indices if i not in default_sample]
+        # Load train_final.jsonl to get the 50 indices to exclude
+        train_final_path = Path("data/train_final.jsonl")
+        train_final_urls = set()
+        if train_final_path.exists():
+            with open(train_final_path, 'r') as f:
+                for line in f:
+                    if line.strip():
+                        entry = json.loads(line)
+                        train_final_urls.add(entry['source_url'])
+
+        # Get URLs from current data file and find indices NOT in train_final
+        with open(data_file_path, 'r') as f:
+            excluded_indices = []
+            for i, line in enumerate(f):
+                if line.strip():
+                    entry = json.loads(line)
+                    if entry['source_url'] not in train_final_urls:
+                        excluded_indices.append(i)
+
         args.indices = excluded_indices
         print(f"\n{'='*70}")
         print(f"EXCLUDE DEFAULT MODE")
         print(f"{'='*70}")
         print(f"Data file: {args.data_file} ({total_samples} total samples)")
-        print(f"Default comprehensive sample: {len(default_sample)} indices")
+        print(f"Train_final.jsonl samples: {len(train_final_urls)} URLs")
         print(f"Excluded indices to evaluate: {len(excluded_indices)} indices")
         print(f"{'='*70}\n")
 
@@ -387,10 +382,7 @@ Examples:
     elif args.indices:
         print(f"Indices: Custom ({len(args.indices)} indices)")
     else:
-        if is_default_data_file:
-            print(f"Indices: Default comprehensive sample (50 indices)")
-        else:
-            print(f"Indices: ALL ({total_samples} indices)")
+        print(f"Indices: ALL ({total_samples} indices)")
     print(f"Parallel memos: {'Yes (ignored if skipping memo generation)' if args.parallel_memos else 'No'}")
     print(f"Evaluators: {', '.join(args.evaluators) if args.evaluators else 'All (openai, claude, gemini)'}")
     print(f"Skip memo generation: {'Yes' if args.skip_memo_generation else 'No'}")
@@ -418,7 +410,7 @@ Examples:
         "--run-name", batch_temp_name,
     ]
 
-    if args.data_file != 'data/train.jsonl':
+    if args.data_file != 'data/train_final.jsonl':
         cmd.extend(["--data-file", args.data_file])
 
     if args.prompt:

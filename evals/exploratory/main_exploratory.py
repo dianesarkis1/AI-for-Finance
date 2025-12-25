@@ -2,7 +2,7 @@
 """
 Main Exploratory Script
 
-This script runs model_run.py on a random subset of 3 files from train.jsonl
+This script runs model_run.py on a random subset of 3 files from train_final.jsonl
 with multiple AI models to generate investment memos for exploratory analysis.
 
 PURPOSE:
@@ -16,7 +16,7 @@ MODELS TESTED:
 - Gemini 2.5 Pro (Google) - Advanced reasoning capabilities
 
 WORKFLOW:
-1. Loads train.jsonl (484 credit agreement records)
+1. Loads train_final.jsonl (50 credit agreement records)
 2. Randomly selects 3 records (seed=42 for reproducibility)
 3. Runs each available model on each record
 4. Saves investment memos to data/exploratory_outputs/
@@ -25,7 +25,7 @@ WORKFLOW:
 REQUIREMENTS:
 - At least one API key must be set (OPENAI_API_KEY, ANTHROPIC_API_KEY, GEMINI_API_KEY, GROQ_API_KEY)
 - model_run.py must be in the same directory
-- train.jsonl must exist in ../data/
+- train_final.jsonl must exist in ../data/
 
 USAGE:
     python main_exploratory.py
@@ -62,9 +62,9 @@ def set_random_seed(seed: int = 42) -> None:
 
 
 def load_train_data(train_path: Path) -> List[Dict[str, Any]]:
-    """Load all records from train.jsonl file."""
+    """Load all records from train_final.jsonl file."""
     print(f"📂 Loading data from {train_path}...")
-    
+
     records = []
     with train_path.open("r", encoding="utf-8") as f:
         for line_num, line in enumerate(f, 1):
@@ -76,8 +76,8 @@ def load_train_data(train_path: Path) -> List[Dict[str, Any]]:
                 except json.JSONDecodeError as e:
                     print(f"⚠️  Warning: Skipping invalid JSON on line {line_num}: {e}")
                     continue
-    
-    print(f"✅ Loaded {len(records)} records from train.jsonl")
+
+    print(f"✅ Loaded {len(records)} records from train_final.jsonl")
     return records
 
 
@@ -231,14 +231,14 @@ def main():
         print(f"⚠️  Skipping unavailable models: {', '.join(missing)}")
     
     # Load train data
-    train_path = Path("../data/train.jsonl")
+    train_path = Path("../data/train_final.jsonl")
     if not train_path.exists():
         print(f"❌ Error: {train_path} not found!")
         sys.exit(1)
-    
+
     records = load_train_data(train_path)
     if not records:
-        print("❌ Error: No records found in train.jsonl!")
+        print("❌ Error: No records found in train_final.jsonl!")
         sys.exit(1)
     
     # Select random subset

@@ -11,7 +11,7 @@ This script runs batch evaluations in TRUE parallel:
 This is MUCH faster than sequential processing.
 
 Usage:
-    # Use default comprehensive sample (50 indices) from train.jsonl
+    # Use default data file (all 50 indices from train_final.jsonl)
     python run_truly_parallel_batch_eval.py
 
     # Test with specific indices (sequential memo generation)
@@ -21,17 +21,16 @@ Usage:
     python run_truly_parallel_batch_eval.py --indices 0 1 2 6 12 --parallel-memos
 
     # Test with just one index
-    python run_truly_parallel_batch_eval.py --indices 128 --parallel-memos
+    python run_truly_parallel_batch_eval.py --indices 28 --parallel-memos
 
     # Use a different data file
     python run_truly_parallel_batch_eval.py --data-file data/test.jsonl --indices 0 1 2
 
-NOTE ON TRAINING DATA SAMPLING:
-    This script uses baseline_sampled_indices_seed42.json to generate a 50-index
-    comprehensive sample (10 baseline + 3 first indices + 37 random). This produces
-    IDENTICAL data to data/train_final.jsonl, which explicitly contains the same 50
-    training samples. The sampling approach is maintained here for backward compatibility
-    with existing run naming conventions and historical workflows.
+NOTE ON TRAINING DATA:
+    By default, this script uses data/train_final.jsonl, which contains exactly 50
+    credit agreement samples that have been used for comprehensive evaluation. These
+    50 samples were selected through a combination of manual review, baseline sampling,
+    and random selection to provide representative coverage of the dataset.
 """
 
 import argparse
@@ -81,8 +80,7 @@ from evals.evaluation.batch_utils import (
 SCRIPT_DIR = Path(__file__).parent.resolve()  # /path/to/AI-for-Finance/evals/evaluation
 REPO_ROOT = SCRIPT_DIR.parent.parent  # /path/to/AI-for-Finance
 EVALS_DIR = REPO_ROOT / "evals"  # /path/to/AI-for-Finance/evals
-TRAIN_FILE = REPO_ROOT / "data" / "train.jsonl"
-BASELINE_SAMPLED_INDICES_FILE = REPO_ROOT / "evals" / "benchmark" / "baseline_sampled_indices_seed42.json"
+TRAIN_FILE = REPO_ROOT / "data" / "train_final.jsonl"
 BATCH_OUTPUTS_DIR = EVALS_DIR / "batch_outputs"  # evals/batch_outputs
 RESULTS_BASE_DIR = EVALS_DIR / "results"  # evals/results
 OUTPUT_DIR = BATCH_OUTPUTS_DIR  # Default: write batch temp files to evals/batch_outputs/
@@ -180,67 +178,10 @@ def prompt_user_for_credits(provider: str, error_message: str) -> bool:
 # HELPER FUNCTIONS
 # =============================================================================
 
-def load_baseline_sampled_indices(file_path: Path) -> list[int]:
-    """Load the baseline sampled indices from JSON file."""
-    with open(file_path, 'r') as f:
-        data = json.load(f)
-    return data['sampled_indices']
-
-
 def count_train_samples(train_file: Path) -> int:
-    """Count total number of samples in train.jsonl."""
+    """Count total number of samples in train file."""
     with open(train_file, 'r') as f:
         return sum(1 for _ in f)
-
-
-def create_comprehensive_sample(
-    baseline_indices: list[int],
-    first_n: int = 3,
-    random_sample_size: int = 37,
-    total_samples: int = 484,
-    seed: int = 42
-) -> dict:
-    """Create comprehensive sample combining baseline, first N, and random samples."""
-    # Start with baseline indices
-    combined_indices = set(baseline_indices)
-
-    # Add first N indices
-    first_indices = list(range(first_n))
-    combined_indices.update(first_indices)
-
-    # Sample random indices (excluding already selected ones)
-    random.seed(seed)
-    available_indices = [i for i in range(total_samples) if i not in combined_indices]
-    random_indices = random.sample(available_indices, random_sample_size)
-    combined_indices.update(random_indices)
-
-    # Convert to sorted list
-    all_indices = sorted(list(combined_indices))
-
-    # Create detailed breakdown
-    sampling_info = {
-        "random_seed": seed,
-        "total_sampled": len(all_indices),
-        "sampling_breakdown": {
-            "from_baseline_sampled_indices_seed42": {
-                "count": len(baseline_indices),
-                "indices": sorted(baseline_indices)
-            },
-            "first_n_indices": {
-                "count": len(first_indices),
-                "indices": first_indices
-            },
-            "additional_random_sample": {
-                "count": len(random_indices),
-                "indices": sorted(random_indices)
-            }
-        },
-        "all_sampled_indices": all_indices,
-        "total_inputs_in_dataset": total_samples,
-        "created_at": datetime.now().isoformat()
-    }
-
-    return sampling_info
 
 
 def load_api_key_from_env(key_name: str) -> Optional[str]:
@@ -2571,8 +2512,8 @@ Examples:
     parser.add_argument(
         '--data-file',
         type=str,
-        default='data/train.jsonl',
-        help='Path to data file containing inputs. Default: data/train.jsonl'
+        default='data/train_final.jsonl',
+        help='Path to data file containing inputs. Default: data/train_final.jsonl'
     )
     parser.add_argument(
         '--indices',
@@ -2647,8 +2588,8 @@ Examples:
     # Set data file
     # If user didn't provide --data-file, use default relative to REPO_ROOT
     # If user provided --data-file, resolve relative to current working directory
-    if args.data_file == 'data/train.jsonl':
-        TRAIN_FILE = REPO_ROOT / "data" / "train.jsonl"
+    if args.data_file == 'data/train_final.jsonl':
+        TRAIN_FILE = REPO_ROOT / "data" / "train_final.jsonl"
     else:
         TRAIN_FILE = Path(args.data_file)
 
@@ -2724,36 +2665,27 @@ Examples:
             'all_sampled_indices': indices_to_evaluate,
             'total_sampled': len(indices_to_evaluate),
             'source': 'command_line_custom',
-            'baseline_count': 0,
-            'first_n_count': 0,
-            'random_sample_count': 0
+            'data_file': str(TRAIN_FILE),
+            'created_at': datetime.now().isoformat()
         }
         print(f"Using custom indices from command line: {indices_to_evaluate}")
         print(f"  Total indices: {len(indices_to_evaluate)}\n")
     else:
-        # Use default comprehensive sample
-        # Load baseline sampled indices
-        print(f"Loading baseline sampled indices from {BASELINE_SAMPLED_INDICES_FILE}...")
-        baseline_indices = load_baseline_sampled_indices(BASELINE_SAMPLED_INDICES_FILE)
-        print(f"  Loaded {len(baseline_indices)} baseline indices: {baseline_indices}")
-
-        # Count total samples
+        # Use all indices from the data file
         print(f"\nCounting samples in {TRAIN_FILE}...")
         total_samples = count_train_samples(TRAIN_FILE)
         print(f"  Total samples in dataset: {total_samples}")
 
-        # Create comprehensive sample
-        print(f"\nCreating comprehensive sample...")
-        sampling_info = create_comprehensive_sample(
-            baseline_indices=baseline_indices,
-            first_n=3,
-            random_sample_size=37,
-            total_samples=total_samples,
-            seed=RANDOM_SEED
-        )
-
-        indices_to_evaluate = sampling_info['all_sampled_indices']
-        print(f"\n  Created comprehensive sample with {sampling_info['total_sampled']} total indices")
+        # Use all indices
+        indices_to_evaluate = list(range(total_samples))
+        sampling_info = {
+            'all_sampled_indices': indices_to_evaluate,
+            'total_sampled': len(indices_to_evaluate),
+            'source': 'all_indices_from_data_file',
+            'data_file': str(TRAIN_FILE),
+            'created_at': datetime.now().isoformat()
+        }
+        print(f"\n  Using all {len(indices_to_evaluate)} indices from data file")
 
     # Phase 1: Generate all memos (or load existing)
     if args.skip_memo_generation:
@@ -2786,7 +2718,7 @@ Examples:
 
                         memo_text = content[memo_start:memo_end].strip() if memo_end != -1 else content[memo_start:].strip()
 
-                        # Get source URL and credit agreement from train.jsonl
+                        # Get source URL and credit agreement from training data file
                         source_url, credit_agreement_text = load_training_sample(TRAIN_FILE, idx)
 
                         memos[idx] = {

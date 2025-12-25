@@ -46,7 +46,7 @@ def load_training_sample(train_file: Path, index: int) -> tuple[str, str]:
     Load a single training sample by index.
 
     Args:
-        train_file: Path to train.jsonl
+        train_file: Path to training data file
         index: 0-based index of the sample to load
 
     Returns:
@@ -416,7 +416,7 @@ def run_batch_benchmark(
 
     Args:
         model: Model to evaluate (e.g., 'claude-sonnet-4-20250514')
-        train_file: Path to train.jsonl
+        train_file: Path to training data file
         indices: List of 0-based indices to evaluate
         evaluator_models: Models to use for evaluation (default: gpt-5, claude, gemini)
         poll_interval: Seconds between batch status checks (default: 60)
@@ -715,8 +715,8 @@ def main():
     parser.add_argument(
         "--train-file",
         type=str,
-        default="data/train.jsonl",
-        help="Path to training JSONL file (default: data/train.jsonl)"
+        default="data/train_final.jsonl",
+        help="Path to training JSONL file (default: data/train_final.jsonl)"
     )
     parser.add_argument(
         "--indices",

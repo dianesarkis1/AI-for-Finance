@@ -15,7 +15,7 @@ Usage:
 Parameters:
 -----------
     index : int (required)
-        The index number from train.jsonl (0-based, e.g., 128)
+        The index number from train_final.jsonl (0-based, e.g., 28)
 
     batch_temp_dir : str (optional)
         Name of batch temp directory (default: batch_temp)
@@ -61,7 +61,7 @@ Expected Directory Structure:
 ------------------------------
     AI-for-Finance/
     ├── data/
-    │   └── train.jsonl
+    │   └── train_final.jsonl
     └── evals/
         └── batch_evals/
             ├── generate_memo_review.py (this script)
@@ -78,7 +78,7 @@ from typing import Dict, Any, Optional
 
 
 def load_source_document(index: int, train_path: Path) -> Dict[str, str]:
-    """Load the source document from train.jsonl at the given index."""
+    """Load the source document from the training data file at the given index."""
     with open(train_path, 'r') as f:
         for i, line in enumerate(f):
             if i == index:
@@ -238,7 +238,7 @@ def generate_review_document(batch_timestamp: str, index: int,
     """Generate a comprehensive review document."""
 
     # Set up paths
-    train_path = base_dir / "data" / "train.jsonl"
+    train_path = base_dir / "data" / "train_final.jsonl"
     batch_temp_dir = base_dir / "evals" / "batch_evals" / batch_temp_name
     results_path = base_dir / "evals" / "batch_evals" / results_dir_name / "final_comprehensive_eval_results.json"
 
