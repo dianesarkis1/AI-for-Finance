@@ -133,15 +133,18 @@ def save_selected_records(selected_records: List[Dict[str, Any]], output_dir: Pa
 
 def run_model_on_file(model: str, file_path: Path, output_dir: Path, record_index: int) -> Path:
     """Run model_run.py on a specific file with a specific model."""
-    
+
     # Create output filename
     model_name = model.replace("-", "_").replace(".", "_")
     filename = f"record_{record_index:02d}_{model_name}_memo.md"
     output_path = output_dir / filename
-    
+
+    # Get absolute path to model_run.py (in evals/evaluation directory)
+    model_run_path = Path(__file__).parent.parent / "evals" / "evaluation" / "model_run.py"
+
     # Build command
     cmd = [
-        "python", "model_run.py",
+        "python", str(model_run_path),
         "--model", model,
         "--input-file", str(file_path),
         "--output", str(output_path)

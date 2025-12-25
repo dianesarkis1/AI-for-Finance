@@ -147,8 +147,8 @@ def generate_memo_for_input(
         else:
             prompt_to_use = prompt_file
 
-        # Call model_run.py with absolute path
-        model_run_path = Path(__file__).parent.parent / "model_run.py"
+        # Call model_run.py with absolute path (in same directory as this script)
+        model_run_path = Path(__file__).parent / "model_run.py"
         cmd = [
             "python",
             str(model_run_path),
