@@ -2,7 +2,7 @@
 
 ## Overview
 This project explores how AI can be applied in finance to automate key workflows. The goals are to:
-- Build an MVP pipeline that ingests financial documents (publicly available credit agreements scraped from the SEC EDGAR website), cleans the data, and prompts Claude to create a structured output in the form of an investment memo
+- Build a pipeline that ingests financial documents (publicly available credit agreements scraped from the SEC EDGAR website), cleans the data, and prompts Claude (or another model of choice) to create a structured output in the form of an investment memo
 - Develop an evaluation harness to evaluate models (GPT-5, Claude Sonnet 4, Gemini 2.5 Pro) on a consistent set of metrics, and test whether prompt optimization techniques (few-shot examples, iterative refinement) can systematically improve performance
 - Live demo: https://ai-for-finance-pbjgnzqdnz7ftrc3uabysv.streamlit.app/
 - Project write-up and results: see [write_up.ipynb](write_up.ipynb).
