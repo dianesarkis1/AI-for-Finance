@@ -386,8 +386,8 @@ def main() -> None:
     elif args.prompt:
         prompt_text = args.prompt.strip()
     if not prompt_text:
-        # Default to baseline prompt
-        default_prompt_path = Path(__file__).parent.parent / "prompts" / "baseline.txt"
+        # Default to baseline prompt (at repo root: prompts/baseline.txt)
+        default_prompt_path = Path(__file__).parent.parent.parent / "prompts" / "baseline.txt"
         if default_prompt_path.exists():
             prompt_text = read_text_file(default_prompt_path).strip()
         else:
