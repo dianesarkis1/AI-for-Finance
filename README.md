@@ -201,7 +201,7 @@ python data/data_cleaning.py data_test
 **Output:**
 - `cleaned_data.jsonl` - All 499 documents
 - `train_final.jsonl` - 50 documents (training set)
-- `test.jsonl` - 449 documents (test set)
+- `test.jsonl` - 449 documents (test set -- note that indices 103, 281, 446 were used to draft few shot examples, so should be excluded from the testing set if few shot examples are included in the prompt)
 
 ---
 
