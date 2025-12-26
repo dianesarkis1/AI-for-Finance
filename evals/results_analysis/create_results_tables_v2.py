@@ -494,8 +494,9 @@ def main():
     )
     args = parser.parse_args()
 
-    # Set up paths
-    results_dir = Path(__file__).parent / args.results_dir
+    # Set up paths (results are in evals/results/)
+    evals_dir = Path(__file__).parent.parent  # Go up to evals/ directory
+    results_dir = evals_dir / "results" / args.results_dir
     RESULTS_FILE = results_dir / "final_comprehensive_eval_results.json"
     OUTPUT_FILE = results_dir / "results_tables_2.md"
 

@@ -1043,9 +1043,11 @@ Examples:
     args = parser.parse_args()
 
     # Set global paths based on arguments
-    BATCH_TEMP_DIR = Path(__file__).parent / args.batch_temp_dir
-    OUTPUT_FILE = Path(__file__).parent / args.output_dir / "final_comprehensive_eval_results.json"
-    GEMINI_JOBS_FILE = Path(__file__).parent / "gemini_batch_jobs.json"
+    # Batch outputs are in evals/batch_outputs/, results are in evals/results/
+    evals_dir = Path(__file__).parent.parent  # Go up to evals/ directory
+    BATCH_TEMP_DIR = evals_dir / "batch_outputs" / args.batch_temp_dir
+    OUTPUT_FILE = evals_dir / "results" / args.output_dir / "final_comprehensive_eval_results.json"
+    GEMINI_JOBS_FILE = evals_dir / "batch_outputs" / "gemini_batch_jobs.json"
 
     # Create output directory if it doesn't exist
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
