@@ -1,4 +1,4 @@
-# Prompt Optimization and Evals for Finance
+# Writing IC Memos with LLMs: Prompt Optimization & Evals
 
 ## Overview
 This project explores how AI can be applied in finance to automate key workflows. The goals are to:
