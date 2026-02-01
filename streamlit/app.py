@@ -261,7 +261,7 @@ def generate_memo(prompt: str, document_text: str, model: str, api_keys: dict, u
     if api_keys.get("gemini"):
         env["GEMINI_API_KEY"] = api_keys.get("gemini")
 
-    cmd = [sys.executable, "-m", "evals.model_run", "--model", model, "--prompt", prompt, "--input-file", tmp_path]
+    cmd = [sys.executable, "-m", "evals.evaluation.model_run", "--model", model, "--prompt", prompt, "--input-file", tmp_path]
 
     with st.spinner(f"Generating memo with {model}..."):
         try:
