@@ -79,14 +79,19 @@ def evaluate_accuracy(
     no_count = 0
 
     for model in models:
-        response = call_llm_for_eval(model, prompt)
-        vote, hallucinations = _parse_accuracy_response(response)
-        votes[model] = {"vote": vote, "hallucinations": hallucinations}
+        try:
+            response = call_llm_for_eval(model, prompt)
+            vote, hallucinations = _parse_accuracy_response(response)
+            votes[model] = {"vote": vote, "hallucinations": hallucinations}
 
-        if vote == "YES":
-            yes_count += 1
-        elif vote == "NO":
-            no_count += 1
+            if vote == "YES":
+                yes_count += 1
+            elif vote == "NO":
+                no_count += 1
+        except Exception as e:
+            import sys
+            print(f"Warning: Failed to get accuracy evaluation from {model}: {e}", file=sys.stderr)
+            votes[model] = {"vote": "ERROR", "hallucinations": f"Failed: {str(e)[:100]}"}
 
     total_votes = yes_count + no_count
     no_percentage = no_count / total_votes if total_votes > 0 else 0
@@ -196,14 +201,19 @@ def evaluate_completeness(
     no_count = 0
 
     for model in models:
-        response = call_llm_for_eval(model, prompt)
-        vote, missing_terms = _parse_completeness_response(response)
-        votes[model] = {"vote": vote, "missing_terms": missing_terms}
+        try:
+            response = call_llm_for_eval(model, prompt)
+            vote, missing_terms = _parse_completeness_response(response)
+            votes[model] = {"vote": vote, "missing_terms": missing_terms}
 
-        if vote == "YES":
-            yes_count += 1
-        elif vote == "NO":
-            no_count += 1
+            if vote == "YES":
+                yes_count += 1
+            elif vote == "NO":
+                no_count += 1
+        except Exception as e:
+            import sys
+            print(f"Warning: Failed to get completeness evaluation from {model}: {e}", file=sys.stderr)
+            votes[model] = {"vote": "ERROR", "missing_terms": f"Failed: {str(e)[:100]}"}
 
     total_votes = yes_count + no_count
     no_percentage = no_count / total_votes if total_votes > 0 else 0
@@ -323,14 +333,19 @@ def evaluate_consistency(
     no_issues_count = 0
 
     for model in models:
-        response = call_llm_for_eval(model, prompt)
-        parsed = _parse_consistency_response(response)
-        votes[model] = parsed
+        try:
+            response = call_llm_for_eval(model, prompt)
+            parsed = _parse_consistency_response(response)
+            votes[model] = parsed
 
-        if parsed["has_issues"]:
-            has_issues_count += 1
-        else:
-            no_issues_count += 1
+            if parsed["has_issues"]:
+                has_issues_count += 1
+            else:
+                no_issues_count += 1
+        except Exception as e:
+            import sys
+            print(f"Warning: Failed to get consistency evaluation from {model}: {e}", file=sys.stderr)
+            votes[model] = {"has_issues": None, "issues": [f"Failed: {str(e)[:100]}"], "parse_error": True}
 
     total_votes = has_issues_count + no_issues_count
     no_issues_percentage = no_issues_count / total_votes if total_votes > 0 else 0
@@ -564,23 +579,34 @@ def evaluate_quality(
 
     # Collect scores from each model for each dimension
     for i, model in enumerate(models):
-        clarity_response = call_llm_for_eval(model, clarity_prompt)
-        tone_response = call_llm_for_eval(model, tone_prompt)
-        length_response = call_llm_for_eval(model, length_prompt)
-        structure_response = call_llm_for_eval(model, structure_prompt)
+        try:
+            clarity_response = call_llm_for_eval(model, clarity_prompt)
+            tone_response = call_llm_for_eval(model, tone_prompt)
+            length_response = call_llm_for_eval(model, length_prompt)
+            structure_response = call_llm_for_eval(model, structure_prompt)
 
-        votes[model] = {
-            "clarity": _parse_quality_score(clarity_response),
-            "tone": _parse_quality_score(tone_response),
-            "length": _parse_quality_score(length_response),
-            "structure": _parse_quality_score(structure_response)
-        }
+            votes[model] = {
+                "clarity": _parse_quality_score(clarity_response),
+                "tone": _parse_quality_score(tone_response),
+                "length": _parse_quality_score(length_response),
+                "structure": _parse_quality_score(structure_response)
+            }
 
-        # Add delay between models to respect rate limits (especially Gemini free tier: 2 req/min)
-        # Each model makes 4 calls, so delay ensures we don't exceed limits
-        if i < len(models) - 1:  # Don't delay after the last model
-            import time
-            time.sleep(35)  # 35 seconds delay to stay under Gemini's 2 req/min limit
+            # Add delay between models to respect rate limits (especially Gemini free tier: 2 req/min)
+            # Each model makes 4 calls, so delay ensures we don't exceed limits
+            if i < len(models) - 1:  # Don't delay after the last model
+                import time
+                time.sleep(35)  # 35 seconds delay to stay under Gemini's 2 req/min limit
+        except Exception as e:
+            import sys
+            print(f"Warning: Failed to get quality evaluation from {model}: {e}", file=sys.stderr)
+            votes[model] = {
+                "clarity": None,
+                "tone": None,
+                "length": None,
+                "structure": None,
+                "error": str(e)[:100]
+            }
 
     # Calculate average score for each dimension
     clarity_scores = [v["clarity"] for v in votes.values() if v["clarity"] is not None]

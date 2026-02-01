@@ -209,17 +209,25 @@ EVAL_MODEL_CONFIGS = {
 }
 
 
-def call_llm_for_eval(model: str, prompt: str) -> str:
+def call_llm_for_eval(model: str, prompt: str, max_retries: int = 3) -> str:
     """
     Call an LLM for evaluation purposes using the same structure as model_run.py.
 
     Args:
         model: Model identifier (e.g., "gpt-4o", "claude-3-5-sonnet", "gemini-2.0-flash-exp")
         prompt: Evaluation prompt
+        max_retries: Maximum number of retries for rate limit errors (default: 3)
 
     Returns:
         Model response as string
+
+    Raises:
+        ValueError: If model is unknown or API key not found
+        RuntimeError: If API call fails after retries
     """
+    import time
+    import sys
+
     # Get model config
     if model not in EVAL_MODEL_CONFIGS:
         raise ValueError(f"Unknown model: {model}. Available models: {list(EVAL_MODEL_CONFIGS.keys())}")
@@ -231,23 +239,63 @@ def call_llm_for_eval(model: str, prompt: str) -> str:
     if not api_key:
         raise ValueError(f"{config['api_key_env']} not found in environment")
 
-    # Call appropriate provider
-    if provider == "openai":
-        payload = build_openai_payload(model, prompt)
-        response = call_openai_api(config["base_url"], api_key, payload)
-        output = extract_output_text_openai(response)
-    elif provider == "anthropic":
-        payload = build_anthropic_payload(model, prompt)
-        response = call_anthropic_api(api_key, payload)
-        output = extract_output_text_anthropic(response)
-    elif provider == "gemini":
-        payload = build_gemini_payload(prompt)
-        response = call_gemini_api(api_key, model, payload)
-        output = extract_output_text_gemini(response)
-    else:
-        raise ValueError(f"Unknown provider: {provider}")
+    # Retry loop for rate limits
+    for attempt in range(max_retries):
+        try:
+            # Call appropriate provider
+            if provider == "openai":
+                payload = build_openai_payload(model, prompt)
+                response = call_openai_api(config["base_url"], api_key, payload)
+                output = extract_output_text_openai(response)
+            elif provider == "anthropic":
+                payload = build_anthropic_payload(model, prompt)
+                response = call_anthropic_api(api_key, payload)
+                output = extract_output_text_anthropic(response)
+            elif provider == "gemini":
+                payload = build_gemini_payload(prompt)
+                response = call_gemini_api(api_key, model, payload)
+                output = extract_output_text_gemini(response)
+            else:
+                raise ValueError(f"Unknown provider: {provider}")
 
-    if output is None:
-        raise RuntimeError(f"Failed to extract output from {model} response: {response}")
+            if output is None:
+                # Check if response contains rate limit or quota error
+                response_str = str(response)
+                if "error" in response and isinstance(response["error"], dict):
+                    error_code = response["error"].get("code")
+                    error_msg = response["error"].get("message", "")
 
-    return output
+                    # Rate limit or quota exceeded
+                    if error_code in [429, 503] or "quota" in error_msg.lower() or "rate limit" in error_msg.lower():
+                        if attempt < max_retries - 1:
+                            # Extract retry delay if provided
+                            retry_delay = 30  # Default 30 seconds
+                            if "retry" in response_str.lower():
+                                import re
+                                delay_match = re.search(r'(\d+\.?\d*)\s*s', error_msg)
+                                if delay_match:
+                                    retry_delay = float(delay_match.group(1)) + 1  # Add 1 second buffer
+
+                            print(f"Rate limit hit for {model}, retrying in {retry_delay}s (attempt {attempt + 1}/{max_retries})...", file=sys.stderr)
+                            time.sleep(retry_delay)
+                            continue
+                        else:
+                            raise RuntimeError(f"Rate limit exceeded for {model} after {max_retries} attempts: {error_msg}")
+
+                raise RuntimeError(f"Failed to extract output from {model} response: {response}")
+
+            return output
+
+        except RuntimeError as e:
+            # If it's a rate limit error and we have retries left, continue
+            if "rate limit" in str(e).lower() or "quota" in str(e).lower():
+                if attempt < max_retries - 1:
+                    retry_delay = 30
+                    print(f"Error with {model}, retrying in {retry_delay}s (attempt {attempt + 1}/{max_retries})...", file=sys.stderr)
+                    time.sleep(retry_delay)
+                    continue
+            # Re-raise if not a rate limit error or out of retries
+            raise
+
+    # Should not reach here, but just in case
+    raise RuntimeError(f"Failed to get response from {model} after {max_retries} attempts")

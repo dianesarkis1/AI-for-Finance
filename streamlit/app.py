@@ -486,10 +486,14 @@ def main():
 
                         # Call each metric to get detailed results
                         try:
-                            acc = evaluate_accuracy(memo=memo, source_document=document_text)
-                            comp = evaluate_completeness(memo=memo, source_document=document_text)
-                            cons = evaluate_consistency(memo=memo)
-                            qual = evaluate_quality(memo=memo)
+                            # Use only GPT-5 and Claude for evaluation to avoid Gemini rate limits
+                            # Users can change this by modifying the models list
+                            eval_models = ["gpt-5", "claude-sonnet-4-20250514"]
+
+                            acc = evaluate_accuracy(memo=memo, source_document=document_text, models=eval_models)
+                            comp = evaluate_completeness(memo=memo, source_document=document_text, models=eval_models)
+                            cons = evaluate_consistency(memo=memo, models=eval_models)
+                            qual = evaluate_quality(memo=memo, models=eval_models)
 
                             summary = calculate_summary_score(
                                 accuracy_result=acc,
