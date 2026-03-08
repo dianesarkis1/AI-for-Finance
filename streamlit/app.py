@@ -192,6 +192,32 @@ def process_uploaded_file(uploaded_file) -> str:
         raise ValueError(f"Unsupported file type: {file_extension}. Supported: .pdf, .txt, .md, .json, .jsonl")
 
 
+COT_PREFIX = (
+    "Before drafting the memo, think step by step: reason through the key financial "
+    "terms, structure, and any gaps in the source document. Work through your analysis "
+    "before producing the final output.\n\n"
+)
+
+OPTIMIZE_PROMPT_NAMES = ["openai_cookbook", "prompt_generator_anthropic", "meta_prompted"]
+
+OPTIMIZE_DESCRIPTION = """
+**Optimize** automatically finds the best prompt for your document by running a two-round tournament:
+
+**Round 1 — Base prompts (no few-shot, no CoT):**
+1. OAI Cookbook
+2. Prompt Generator (Anthropic)
+3. Meta Prompted
+
+**Round 2 — Best prompt × 3 techniques:**
+4. Best prompt + Few-Shot (FS)
+5. Best prompt + Chain-of-Thought + Few-Shot (CoT + FS)
+6. Best prompt + Chain-of-Thought only (CoT)
+
+The prompt with the **highest mean eval score** across all 6 runs is selected automatically.
+The final memo from the winning configuration is shown below, along with a score breakdown for every variant.
+"""
+
+
 def generate_memo(prompt: str, document_text: str, model: str, api_keys: dict, use_few_shot: bool = True) -> str:
     """Generate investment memo by invoking `evals.model_run` as a subprocess.
 
@@ -285,6 +311,122 @@ def generate_memo(prompt: str, document_text: str, model: str, api_keys: dict, u
         raise RuntimeError(f"No output from model. STDERR:\n{proc.stderr}")
 
     return output_text
+
+
+def _run_single_variant(
+    label: str,
+    prompt: str,
+    document_text: str,
+    model: str,
+    api_keys: dict,
+    use_few_shot: bool,
+    status_container,
+    eval_models: list,
+) -> dict:
+    """Generate a memo and evaluate it; return a results dict."""
+    status_container.info(f"Running variant: **{label}**…")
+    memo = generate_memo(prompt, document_text, model, api_keys, use_few_shot)
+
+    status_container.info(f"Evaluating variant: **{label}**…")
+    acc = evaluate_accuracy(memo=memo, source_document=document_text, models=eval_models)
+    comp = evaluate_completeness(memo=memo, source_document=document_text, models=eval_models)
+    cons = evaluate_consistency(memo=memo, models=eval_models)
+    qual = evaluate_quality(memo=memo, models=eval_models)
+    summary = calculate_summary_score(
+        accuracy_result=acc,
+        completeness_result=comp,
+        consistency_result=cons,
+        quality_result=qual,
+    )
+    score = summary.get("summary_score", 0.0) or 0.0
+    return {
+        "label": label,
+        "memo": memo,
+        "score": score,
+        "eval_results": {"accuracy": acc, "completeness": comp, "consistency": cons, "quality": qual, "summary": summary},
+    }
+
+
+def run_optimization(document_text: str, model: str, api_keys: dict, available_prompts: dict, status_container) -> dict:
+    """
+    Two-round prompt optimization:
+      Round 1: openai_cookbook, prompt_generator_anthropic, meta_prompted (no FS, no CoT)
+      Round 2: best_prompt + FS, best_prompt + CoT+FS, best_prompt + CoT only
+    Returns dict with all variant results and the overall winner.
+    """
+    # Inject API keys into environment for evaluation sub-calls
+    os.environ["OPENAI_API_KEY"] = api_keys.get("openai", "")
+    os.environ["ANTHROPIC_API_KEY"] = api_keys.get("anthropic", "")
+    os.environ["GEMINI_API_KEY"] = api_keys.get("gemini", "")
+
+    eval_models = ["gpt-5", "claude-sonnet-4-20250514"]
+
+    all_results = []
+
+    # ── Round 1: base prompts ──────────────────────────────────────────────
+    round1_results = []
+    for name in OPTIMIZE_PROMPT_NAMES:
+        prompt_text = available_prompts.get(name)
+        if prompt_text is None:
+            st.warning(f"Prompt '{name}' not found – skipping.")
+            continue
+        label_map = {
+            "openai_cookbook": "OAI Cookbook",
+            "prompt_generator_anthropic": "Prompt Generator (Anthropic)",
+            "meta_prompted": "Meta Prompted",
+        }
+        result = _run_single_variant(
+            label=label_map[name],
+            prompt=prompt_text,
+            document_text=document_text,
+            model=model,
+            api_keys=api_keys,
+            use_few_shot=False,
+            status_container=status_container,
+            eval_models=eval_models,
+        )
+        result["round"] = 1
+        result["prompt_name"] = name
+        round1_results.append(result)
+        all_results.append(result)
+
+    if not round1_results:
+        raise RuntimeError("No Round 1 prompts were available.")
+
+    # Pick the best base prompt
+    best_base = max(round1_results, key=lambda r: r["score"])
+    best_prompt_text = available_prompts[best_base["prompt_name"]]
+
+    # ── Round 2: best prompt × 3 technique variations ─────────────────────
+    round2_variants = [
+        ("Best + FS", best_prompt_text, True, False),
+        ("Best + CoT + FS", COT_PREFIX + best_prompt_text, True, True),
+        ("Best + CoT", COT_PREFIX + best_prompt_text, False, True),
+    ]
+
+    for label, prompt_text, use_fs, _is_cot in round2_variants:
+        result = _run_single_variant(
+            label=label,
+            prompt=prompt_text,
+            document_text=document_text,
+            model=model,
+            api_keys=api_keys,
+            use_few_shot=use_fs,
+            status_container=status_container,
+            eval_models=eval_models,
+        )
+        result["round"] = 2
+        result["prompt_name"] = best_base["prompt_name"]
+        all_results.append(result)
+
+    # Overall winner
+    winner = max(all_results, key=lambda r: r["score"])
+
+    return {
+        "all_results": all_results,
+        "winner": winner,
+        "best_base": best_base,
+    }
 
 
 def main():
@@ -419,11 +561,14 @@ def main():
         if available_prompts:
             prompt_choice = st.selectbox(
                 "Select a prompt template",
-                ["Custom"] + list(available_prompts.keys()),
-                help="Choose a pre-existing prompt or enter your own"
+                ["Custom", "Optimize"] + list(available_prompts.keys()),
+                help="Choose a pre-existing prompt, enter your own, or use Optimize to auto-select the best prompt"
             )
 
-            if prompt_choice == "Custom":
+            if prompt_choice == "Optimize":
+                st.info(OPTIMIZE_DESCRIPTION)
+                prompt = None  # not used directly
+            elif prompt_choice == "Custom":
                 prompt = st.text_area(
                     "Enter your custom prompt",
                     height=200,
@@ -440,6 +585,7 @@ def main():
                 )
         else:
             st.warning("No prompt templates found in prompts directory")
+            prompt_choice = "Custom"
             prompt = st.text_area(
                 "Enter your prompt",
                 height=200,
@@ -447,93 +593,124 @@ def main():
                 help="This prompt will guide the AI model in generating the memo"
             )
 
-        # Few-shot examples option
-        use_few_shot = st.checkbox(
-            "Include few-shot examples in prompt",
-            value=True,
-            help="Add example investment memos to the prompt to improve quality (recommended)"
-        )
+        # Few-shot examples option (hidden when Optimize is selected — it handles FS internally)
+        if prompt_choice != "Optimize":
+            use_few_shot = st.checkbox(
+                "Include few-shot examples in prompt",
+                value=True,
+                help="Add example investment memos to the prompt to improve quality (recommended)"
+            )
+        else:
+            use_few_shot = False  # Optimize manages FS per-variant
 
     with col2:
         st.header("📄 Output")
 
-        # Generate button
-        if st.button("🚀 Generate & Evaluate Investment Memo", type="primary", use_container_width=True):
-            # Validation
+        # Generate button label changes for Optimize mode
+        btn_label = "🔍 Run Optimization (6 prompts)" if prompt_choice == "Optimize" else "🚀 Generate & Evaluate Investment Memo"
+        if st.button(btn_label, type="primary", use_container_width=True):
             if not document_text:
                 st.error("⚠️ Please provide a document (upload file or enter URL)")
-            elif not prompt:
+            elif prompt_choice not in ("Optimize",) and not prompt:
                 st.error("⚠️ Please select or enter a prompt")
             elif not (openai_key and anthropic_key and gemini_key):
                 st.error("⚠️ Please provide API keys for OpenAI, Anthropic, and Gemini (required for evaluation)")
+            elif prompt_choice == "Optimize":
+                # ── OPTIMIZE MODE ──────────────────────────────────────────
+                api_keys = {"openai": openai_key, "anthropic": anthropic_key, "gemini": gemini_key}
+                status_box = st.empty()
+                try:
+                    opt = run_optimization(document_text, selected_model, api_keys, available_prompts, status_box)
+                    status_box.empty()
+                    st.session_state['optimize_results'] = opt
+                    st.session_state['memo'] = opt['winner']['memo']
+                    st.session_state['document_name'] = document_name
+                    st.session_state['eval_results'] = opt['winner']['eval_results']
+                    st.session_state['is_optimize'] = True
+                    st.success(f"✓ Optimization complete! Winning prompt: **{opt['winner']['label']}** ({opt['winner']['score']:.2f}/100)")
+                except Exception as e:
+                    status_box.empty()
+                    st.error(f"Error during optimization: {e}")
             else:
+                # ── STANDARD MODE ──────────────────────────────────────────
                 api_keys = {"openai": openai_key, "anthropic": anthropic_key, "gemini": gemini_key}
                 try:
                     memo = generate_memo(prompt, document_text, selected_model, api_keys, use_few_shot)
-
-                    # Store in session state
                     st.session_state['memo'] = memo
                     st.session_state['document_name'] = document_name
-
+                    st.session_state['is_optimize'] = False
                     st.success("✓ Memo generated successfully!")
 
-                    # Run evaluations (these use the same API keys; set env before calling)
                     with st.spinner("Running evaluation (may take a few minutes, respecting rate limits)..."):
-                        # Inject keys for this process so evals.call_llm_for_eval can use them
                         os.environ['OPENAI_API_KEY'] = openai_key
                         os.environ['ANTHROPIC_API_KEY'] = anthropic_key
                         os.environ['GEMINI_API_KEY'] = gemini_key
-
-                        # Call each metric to get detailed results
                         try:
-                            # Use only GPT-5 and Claude for evaluation to avoid Gemini rate limits
-                            # Users can change this by modifying the models list
                             eval_models = ["gpt-5", "claude-sonnet-4-20250514"]
-
                             acc = evaluate_accuracy(memo=memo, source_document=document_text, models=eval_models)
                             comp = evaluate_completeness(memo=memo, source_document=document_text, models=eval_models)
                             cons = evaluate_consistency(memo=memo, models=eval_models)
                             qual = evaluate_quality(memo=memo, models=eval_models)
-
                             summary = calculate_summary_score(
                                 accuracy_result=acc,
                                 completeness_result=comp,
                                 consistency_result=cons,
                                 quality_result=qual
                             )
-
                             st.session_state['eval_results'] = {
-                                'accuracy': acc,
-                                'completeness': comp,
-                                'consistency': cons,
-                                'quality': qual,
-                                'summary': summary,
+                                'accuracy': acc, 'completeness': comp,
+                                'consistency': cons, 'quality': qual, 'summary': summary,
                             }
-
                         except Exception as e:
                             st.error(f"Error running evaluation: {e}")
-
                 except Exception as e:
                     st.error(f"Error generating memo: {e}")
                     if "api_key" in str(e).lower() or "unauthorized" in str(e).lower():
                         st.error("Check that your API keys are valid and have sufficient credits")
 
-        # Display memo if available
+        # ── OPTIMIZE RESULTS ───────────────────────────────────────────────
+        if st.session_state.get('is_optimize') and 'optimize_results' in st.session_state:
+            opt = st.session_state['optimize_results']
+            winner = opt['winner']
+            all_results = opt['all_results']
+
+            st.divider()
+            st.header("Optimization Results")
+
+            # Winner banner
+            st.success(f"**Selected prompt:** {winner['label']}  |  Score: **{winner['score']:.2f}/100**")
+
+            # Score table for all 6 variants
+            st.subheader("All Variant Scores")
+            round1 = [r for r in all_results if r['round'] == 1]
+            round2 = [r for r in all_results if r['round'] == 2]
+
+            st.markdown("**Round 1 — Base prompts**")
+            for r in round1:
+                is_best_base = r['label'] == opt['best_base']['label']
+                is_winner = r['label'] == winner['label']
+                tag = " ← best base" if is_best_base and not is_winner else ""
+                tag = " ← WINNER" if is_winner else tag
+                st.markdown(f"- **{r['label']}**: {r['score']:.2f}/100{tag}")
+
+            st.markdown("**Round 2 — Best base × techniques**")
+            for r in round2:
+                is_winner = r['label'] == winner['label']
+                tag = " ← WINNER" if is_winner else ""
+                st.markdown(f"- **{r['label']}**: {r['score']:.2f}/100{tag}")
+
+        # ── MEMO OUTPUT (shared by both modes) ────────────────────────────
         if 'memo' in st.session_state:
             memo = st.session_state['memo']
             document_name = st.session_state.get('document_name', 'document')
 
             st.divider()
-
-            # Display memo
             st.header("Generated Investment Memo")
             st.markdown(memo)
 
             st.divider()
 
-            # Download button
             col_download1, col_download2 = st.columns(2)
-
             with col_download1:
                 st.download_button(
                     label="⬇️ Download as Markdown",
@@ -542,7 +719,6 @@ def main():
                     mime="text/markdown",
                     use_container_width=True
                 )
-
             with col_download2:
                 st.download_button(
                     label="⬇️ Download as Text",
@@ -559,18 +735,15 @@ def main():
                 st.divider()
                 st.header("Evaluation Results")
 
-                # Summary score
                 summary = evals.get('summary', {})
                 summary_score = summary.get('summary_score')
                 if summary_score is not None:
                     st.metric(label="Summary Score", value=f"{summary_score:.2f}/100")
 
-                # Show normalized scores
                 if summary.get('normalized_scores'):
                     with st.expander("Detailed Subscores"):
                         st.json(summary.get('normalized_scores'))
 
-                # Show per-metric vote breakdowns
                 with st.expander("Per-metric Details (votes & findings)"):
                     st.subheader("Accuracy")
                     st.write(evals['accuracy'].get('votes'))
@@ -581,7 +754,6 @@ def main():
                     st.subheader("Quality")
                     st.write(evals['quality'].get('votes'))
 
-                # Allow downloading eval JSON
                 with st.expander("Download evaluation JSON"):
                     import json as _json
                     st.download_button(
